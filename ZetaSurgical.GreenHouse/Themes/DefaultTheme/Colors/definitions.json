@@ -1,0 +1,274 @@
+[
+    {
+        "colorA": 255,
+        "colorB": 196,
+        "colorG": 196,
+        "colorHEX": "#ffc4c4c4",
+        "colorR": 196,
+        "name": "Fill/Light Grey 1"
+    },
+    {
+        "colorA": 255,
+        "colorB": 255,
+        "colorG": 255,
+        "colorHEX": "#ffffffff",
+        "colorR": 255,
+        "name": "Outline/Module"
+    },
+    {
+        "colorA": 0,
+        "colorB": 0,
+        "colorG": 0,
+        "colorHEX": "#00000000",
+        "colorR": 0,
+        "name": "Figma::0_0_0_0"
+    },
+    {
+        "colorA": 0,
+        "colorB": 196,
+        "colorG": 196,
+        "colorHEX": "#00c4c4c4",
+        "colorR": 196,
+        "name": "Figma::0_196_196_196"
+    },
+    {
+        "colorA": 255,
+        "colorB": 21,
+        "colorG": 19,
+        "colorHEX": "#ff101315",
+        "colorR": 16,
+        "name": "PanelBackground/Default"
+    },
+    {
+        "colorA": 255,
+        "colorB": 0,
+        "colorG": 0,
+        "colorHEX": "#ff000000",
+        "colorR": 0,
+        "name": "PanelBackground/Black"
+    },
+    {
+        "colorA": 255,
+        "colorB": 255,
+        "colorG": 255,
+        "colorHEX": "#ffffffff",
+        "colorR": 255,
+        "name": "White"
+    },
+    {
+        "colorA": 255,
+        "colorB": 27,
+        "colorG": 66,
+        "colorHEX": "#ff79421b",
+        "colorR": 121,
+        "name": "Figma::255_121_66_27"
+    },
+    {
+        "colorA": 255,
+        "colorB": 21,
+        "colorG": 19,
+        "colorHEX": "#ff111315",
+        "colorR": 17,
+        "name": "PanelBackground/Grey 1 - Login"
+    },
+    {
+        "colorA": 178,
+        "colorB": 0,
+        "colorG": 0,
+        "colorHEX": "#b2000000",
+        "colorR": 0,
+        "name": "Figma::178_0_0_0"
+    },
+    {
+        "colorA": 128,
+        "colorB": 0,
+        "colorG": 0,
+        "colorHEX": "#80000000",
+        "colorR": 0,
+        "name": "Figma::128_0_0_0"
+    },
+    {
+        "colorA": 217,
+        "colorB": 0,
+        "colorG": 0,
+        "colorHEX": "#d9000000",
+        "colorR": 0,
+        "name": "PanelBackground/Transparent"
+    },
+    {
+        "colorA": 255,
+        "colorB": 233,
+        "colorG": 160,
+        "colorHEX": "#ff00a0e9",
+        "colorR": 0,
+        "name": "Outline/Blue 1"
+    },
+    {
+        "colorA": 255,
+        "colorB": 59,
+        "colorG": 59,
+        "colorHEX": "#ff3b3b3b",
+        "colorR": 59,
+        "name": "textColor"
+    },
+    {
+        "colorA": 0,
+        "colorB": 255,
+        "colorG": 255,
+        "colorHEX": "#00ffffff",
+        "colorR": 255,
+        "name": "transparent"
+    },
+    {
+        "colorA": 255,
+        "colorB": 111,
+        "colorG": 43,
+        "colorHEX": "#ff422b6f",
+        "colorR": 66,
+        "name": "buttonTextColor"
+    },
+    {
+        "colorA": 255,
+        "colorB": 121,
+        "colorG": 121,
+        "colorHEX": "#ff797979",
+        "colorR": 121,
+        "name": "buttonDisabledTextColor"
+    },
+    {
+        "colorA": 255,
+        "colorB": 255,
+        "colorG": 255,
+        "colorHEX": "#ffffffff",
+        "colorR": 255,
+        "name": "buttonAltTextColor"
+    },
+    {
+        "colorA": 255,
+        "colorB": 75,
+        "colorG": 75,
+        "colorHEX": "#ff4b4b4b",
+        "colorR": 75,
+        "name": "panelColor"
+    },
+    {
+        "colorA": 255,
+        "colorB": 128,
+        "colorG": 128,
+        "colorHEX": "#ff808080",
+        "colorR": 128,
+        "name": "alternativePanelColor"
+    },
+    {
+        "colorA": 255,
+        "colorB": 23,
+        "colorG": 23,
+        "colorHEX": "#ff171717",
+        "colorR": 23,
+        "name": "spinBoxTextColor"
+    },
+    {
+        "colorA": 255,
+        "colorB": 111,
+        "colorG": 43,
+        "colorHEX": "#ff422b6f",
+        "colorR": 66,
+        "name": "circularProgressColor"
+    },
+    {
+        "colorA": 255,
+        "colorB": 255,
+        "colorG": 255,
+        "colorHEX": "#ffffffff",
+        "colorR": 255,
+        "name": "circularProgressBackgroundColor"
+    },
+    {
+        "colorA": 128,
+        "colorB": 32,
+        "colorG": 32,
+        "colorHEX": "#80202020",
+        "colorR": 32,
+        "name": "shadowColor"
+    },
+    {
+        "colorA": 255,
+        "colorB": 0,
+        "colorG": 0,
+        "colorHEX": "#ffff0000",
+        "colorR": 255,
+        "name": "shadowRectColor"
+    },
+    {
+        "colorA": 255,
+        "colorB": 255,
+        "colorG": 255,
+        "colorHEX": "#ffffffff",
+        "colorR": 255,
+        "name": "innerShadowRectColor"
+    },
+    {
+        "colorA": 128,
+        "colorB": 255,
+        "colorG": 255,
+        "colorHEX": "#80ffffff",
+        "colorR": 255,
+        "name": "glowColor"
+    },
+    {
+        "colorA": 255,
+        "colorB": 255,
+        "colorG": 255,
+        "colorHEX": "#ffffffff",
+        "colorR": 255,
+        "name": "Icon/White"
+    },
+    {
+        "colorA": 255,
+        "colorB": 255,
+        "colorG": 255,
+        "colorHEX": "#ffffffff",
+        "colorR": 255,
+        "name": "Text/White"
+    },
+    {
+        "colorA": 255,
+        "colorB": 206,
+        "colorG": 206,
+        "colorHEX": "#ffcecece",
+        "colorR": 206,
+        "name": "Text/User Input Label"
+    },
+    {
+        "colorA": 255,
+        "colorB": 233,
+        "colorG": 160,
+        "colorHEX": "#ff00a0e9",
+        "colorR": 0,
+        "name": "Text/Blue 2 - Input"
+    },
+    {
+        "colorA": 255,
+        "colorB": 145,
+        "colorG": 129,
+        "colorHEX": "#ff808191",
+        "colorR": 128,
+        "name": "Text/Grey 1 - Inactive"
+    },
+    {
+        "colorA": 255,
+        "colorB": 40,
+        "colorG": 84,
+        "colorHEX": "#ffdf5428",
+        "colorR": 223,
+        "name": "Icon/Red"
+    },
+    {
+        "colorA": 255,
+        "colorB": 227,
+        "colorG": 204,
+        "colorHEX": "#ff6fcce3",
+        "colorR": 111,
+        "name": "Text/Blue 0 - Data"
+    }
+]

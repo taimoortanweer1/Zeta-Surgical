@@ -1,0 +1,10 @@
+module Styles
+
+DialogStyle 1.0 DialogStyle.qml
+FormStyle 1.0 FormStyle.qml
+LabelStyle 1.0 LabelStyle.qml
+ProjectDialogsStyle 1.0 ProjectDialogsStyle.qml
+SmallLabelStyle 1.0 SmallLabelStyle.qml
+SlideInPanelStyle 1.0 SlideInPanelStyle.qml
+TextFieldStyle 1.0 TextFieldStyle.qml
+TitleBarStyle 1.0 TitleBarStyle.qml

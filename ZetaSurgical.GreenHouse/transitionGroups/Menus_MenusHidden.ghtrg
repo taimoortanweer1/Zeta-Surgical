@@ -1,0 +1,19 @@
+{
+    "source": "Menus",
+    "target": "MenusHidden",
+    "targetFile": "Menus_MenusHidden.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "hideMenus"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{bd1bdc9c-f8bb-44fe-9d95-a95fcdd0a1d9}"
+}

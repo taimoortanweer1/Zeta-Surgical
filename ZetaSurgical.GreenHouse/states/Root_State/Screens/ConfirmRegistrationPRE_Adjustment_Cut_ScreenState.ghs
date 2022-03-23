@@ -1,0 +1,42 @@
+{
+    "children": [
+    ],
+    "childrenSplit": true,
+    "entryActions": [
+        {
+            "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideAddToolOverlayPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideBackgroundPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceInfoPanelMoveToConfirmRegistrationPRE_Adjustment_Cut_InfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideLoginPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceMainPanelMoveToConfirmRegistrationPRE_Adjustment_Cut_MainPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceOtherButtonPanelMoveToConfirmRegistrationPRE_Adjustment_Cut_OtherButtonPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideOverlayPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hidePositionCartInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideRightInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideTitlePanel();\n}\n",
+            "type": "RawCode"
+        },
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        }
+    ],
+    "exitActions": [
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        }
+    ],
+    "extraData": {
+        "FIGMA": "kKItBBA5TYuCVGxWbPVftH",
+        "ScreenState": true,
+        "orderValue": 2
+    },
+    "height": 0,
+    "posX": 0,
+    "posY": 0,
+    "properties": {
+        "EmptyState": true,
+        "childViewType": "ChildStateView",
+        "initial": false,
+        "name": "ConfirmRegistrationPRE_Adjustment_Cut_ScreenState",
+        "parallel": false,
+        "parentingEnabled": true,
+        "preloadUI": false
+    },
+    "targetFile": "ConfirmRegistrationPRE_Adjustment_Cut_ScreenState.ghs",
+    "template": "State",
+    "uuid": "{a86cafb6-d410-4639-81e9-bec5c4c089da}",
+    "width": 0
+}

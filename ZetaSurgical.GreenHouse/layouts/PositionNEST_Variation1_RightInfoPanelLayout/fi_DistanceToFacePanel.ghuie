@@ -1,0 +1,37 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "81:1852"
+    },
+    "id": "fi_DistanceToFacePanel",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 264
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 272
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 16
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 672
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 4
+        }
+    },
+    "targetFile": "fi_DistanceToFacePanel.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

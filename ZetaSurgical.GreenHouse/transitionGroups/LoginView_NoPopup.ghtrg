@@ -1,0 +1,19 @@
+{
+    "source": "LoginView",
+    "target": "NoPopup",
+    "targetFile": "LoginView_NoPopup.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": false,
+                "sender": "PopupsPresenter",
+                "senderStringType": "%1",
+                "signal": "closeAllPopups"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{d2eab3f9-96f6-4d70-ae05-ae3df36b4404}"
+}

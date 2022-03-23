@@ -1,0 +1,5 @@
+{
+    "base": "Displayable",
+    "name": "Upload_GenericModalOverlay_OverlayPanelIFace",
+    "targetFile": "Upload_GenericModalOverlay_OverlayPanelIFace.ghli"
+}

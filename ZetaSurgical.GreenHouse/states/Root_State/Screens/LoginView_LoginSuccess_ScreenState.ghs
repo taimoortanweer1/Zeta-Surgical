@@ -1,0 +1,42 @@
+{
+    "children": [
+    ],
+    "childrenSplit": true,
+    "entryActions": [
+        {
+            "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideAddToolOverlayPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceBackgroundPanelMoveToBackgroundPanel_Shared0();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceLoginPanelMoveToLoginView_LoginSuccess_LoginPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideMainPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideOtherButtonPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideOverlayPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hidePositionCartInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideRightInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceTitlePanelMoveToTitlePanel_Shared0();\n}\n",
+            "type": "RawCode"
+        },
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        }
+    ],
+    "exitActions": [
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        }
+    ],
+    "extraData": {
+        "FIGMA": "kKItBBA5TYuCVGxWbPVftH",
+        "ScreenState": true,
+        "orderValue": 4
+    },
+    "height": 0,
+    "posX": 0,
+    "posY": 0,
+    "properties": {
+        "EmptyState": true,
+        "childViewType": "ChildStateView",
+        "initial": false,
+        "name": "LoginView_LoginSuccess_ScreenState",
+        "parallel": false,
+        "parentingEnabled": true,
+        "preloadUI": false
+    },
+    "targetFile": "LoginView_LoginSuccess_ScreenState.ghs",
+    "template": "State",
+    "uuid": "{a9cad2fb-f663-4644-9094-dd0f79d88786}",
+    "width": 0
+}

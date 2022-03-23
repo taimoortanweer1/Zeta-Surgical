@@ -1,0 +1,19 @@
+{
+    "source": "Popups",
+    "target": "LoginView",
+    "targetFile": "Popups_LoginView.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "PopupsPresenter",
+                "senderStringType": "%1",
+                "signal": "inputUsernameShown"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{8b266a49-7660-4f85-9e86-0ec8942de24d}"
+}

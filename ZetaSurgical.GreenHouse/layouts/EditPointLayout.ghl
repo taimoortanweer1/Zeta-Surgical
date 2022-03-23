@@ -1,0 +1,20 @@
+{
+    "blockInputFallthrough": true,
+    "childrenSplit": true,
+    "fillParent": false,
+    "height": 1080,
+    "hideAnimation": {
+        "type": "Sequential"
+    },
+    "interfaceName": "EditPointIFace",
+    "name": "EditPointLayout",
+    "posX": 0,
+    "posY": 0,
+    "rootContainerType": "Item",
+    "showAnimation": {
+        "type": "Sequential"
+    },
+    "targetFile": "EditPointLayout.ghl",
+    "uuid": "{1f1106c9-be27-44cf-96c5-db019879c834}",
+    "width": 1920
+}

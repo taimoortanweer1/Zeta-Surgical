@@ -1,0 +1,38 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "39:1722"
+    },
+    "id": "fi_savedSessionsButton",
+    "properties": {
+        "fi_EXAMPLE_text": {
+            "name": "fi_EXAMPLE_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I39:1722;7:1252",
+            "value": "Saved Sessions"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 528
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 136
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 208
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 3
+        }
+    },
+    "targetFile": "fi_savedSessionsButton.ghuie",
+    "type": "ZetaSurgicalSet.SelectButton",
+    "userDefined": false
+}

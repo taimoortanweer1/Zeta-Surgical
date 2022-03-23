@@ -1,0 +1,19 @@
+{
+    "source": "Screens",
+    "target": "Segmentation_Default_ScreenState",
+    "targetFile": "Screens_Segmentation_Default_ScreenState.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceScreensMoveToSegmentation_Default_ScreenState"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{1b2310e7-4483-4597-a413-690c9bdef37b}"
+}

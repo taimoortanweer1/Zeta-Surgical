@@ -1,0 +1,44 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "39:1723"
+    },
+    "id": "fi_beginProcedureButton",
+    "properties": {
+        "fi_EXAMPLE_text": {
+            "name": "fi_EXAMPLE_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I39:1723;7:1252",
+            "value": "Begin Surgical Procedure"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 528
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 136
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 80
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 4
+        }
+    },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_beginProcedureButton__onEvent__clicked()\n"
+        }
+    },
+    "targetFile": "fi_beginProcedureButton.ghuie",
+    "type": "ZetaSurgicalSet.SelectButton",
+    "userDefined": false
+}

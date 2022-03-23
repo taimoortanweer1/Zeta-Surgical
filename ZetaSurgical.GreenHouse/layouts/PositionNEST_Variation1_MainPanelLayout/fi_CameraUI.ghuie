@@ -1,0 +1,67 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "40:1870"
+    },
+    "id": "fi_CameraUI",
+    "properties": {
+        "border-bottom": {
+            "name": "border-bottom",
+            "type": "Int",
+            "value": 50
+        },
+        "border-left": {
+            "name": "border-left",
+            "type": "Int",
+            "value": 50
+        },
+        "border-right": {
+            "name": "border-right",
+            "type": "Int",
+            "value": 50
+        },
+        "border-top": {
+            "name": "border-top",
+            "type": "Int",
+            "value": 50
+        },
+        "clip": {
+            "name": "clip",
+            "type": "Bool",
+            "value": true
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 776
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/40_1870.png"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 968
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 32
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 160
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "targetFile": "fi_CameraUI.ghuie",
+    "type": "BorderImage",
+    "userDefined": false
+}

@@ -1,0 +1,5 @@
+{
+    "base": "Displayable",
+    "name": "EditPointIFace",
+    "targetFile": "EditPointIFace.ghli"
+}

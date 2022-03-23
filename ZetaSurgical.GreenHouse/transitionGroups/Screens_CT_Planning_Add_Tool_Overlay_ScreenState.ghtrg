@@ -1,0 +1,19 @@
+{
+    "source": "Screens",
+    "target": "CT_Planning_Add_Tool_Overlay_ScreenState",
+    "targetFile": "Screens_CT_Planning_Add_Tool_Overlay_ScreenState.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceScreensMoveToCT_Planning_Add_Tool_Overlay_ScreenState"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{047d07b1-5eb3-41cc-97c7-6ac43c0a2e97}"
+}

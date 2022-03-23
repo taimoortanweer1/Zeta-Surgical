@@ -1,0 +1,22 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "Panel": true,
+        "orderValue": 11
+    },
+    "height": 0,
+    "posX": 0,
+    "posY": 0,
+    "properties": {
+        "childViewType": "ChildStateView",
+        "initial": false,
+        "layerZ": 0,
+        "name": "RightInfoPanel",
+        "parallel": false,
+        "parentingEnabled": true,
+        "preloadUI": false
+    },
+    "targetFile": "RightInfoPanel.ghs",
+    "template": "LayerState",
+    "width": 0
+}

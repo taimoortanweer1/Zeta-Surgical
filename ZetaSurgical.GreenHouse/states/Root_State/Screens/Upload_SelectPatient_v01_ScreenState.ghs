@@ -1,0 +1,42 @@
+{
+    "children": [
+    ],
+    "childrenSplit": true,
+    "entryActions": [
+        {
+            "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideAddToolOverlayPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideBackgroundPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideLoginPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceMainPanelMoveToUpload_SelectPatient_v01_MainPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideOtherButtonPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideOverlayPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hidePositionCartInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideRightInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideTitlePanel();\n}\n",
+            "type": "RawCode"
+        },
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        }
+    ],
+    "exitActions": [
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        }
+    ],
+    "extraData": {
+        "FIGMA": "kKItBBA5TYuCVGxWbPVftH",
+        "ScreenState": true,
+        "orderValue": 8
+    },
+    "height": 0,
+    "posX": 0,
+    "posY": 0,
+    "properties": {
+        "EmptyState": true,
+        "childViewType": "ChildStateView",
+        "initial": false,
+        "name": "Upload_SelectPatient_v01_ScreenState",
+        "parallel": false,
+        "parentingEnabled": true,
+        "preloadUI": false
+    },
+    "targetFile": "Upload_SelectPatient_v01_ScreenState.ghs",
+    "template": "State",
+    "uuid": "{deba7d8b-860e-466d-896e-3aca1ebc9fb7}",
+    "width": 0
+}

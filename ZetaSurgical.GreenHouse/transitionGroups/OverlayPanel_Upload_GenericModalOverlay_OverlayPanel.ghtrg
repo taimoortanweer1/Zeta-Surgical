@@ -1,0 +1,18 @@
+{
+    "source": "OverlayPanel",
+    "target": "Upload_GenericModalOverlay_OverlayPanel",
+    "targetFile": "OverlayPanel_Upload_GenericModalOverlay_OverlayPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceOverlayPanelMoveToUpload_GenericModalOverlay_OverlayPanel"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

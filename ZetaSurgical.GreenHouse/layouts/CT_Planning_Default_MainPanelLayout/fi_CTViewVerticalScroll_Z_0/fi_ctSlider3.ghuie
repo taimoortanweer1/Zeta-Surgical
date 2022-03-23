@@ -1,0 +1,47 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 624,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 8,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "37:1393"
+    },
+    "id": "fi_ctSlider3",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 520
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 32
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 624
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 8
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "targetFile": "fi_ctSlider3.ghuie",
+    "type": "ZetaSurgicalSet.CTSlider_Vertical",
+    "userDefined": false
+}

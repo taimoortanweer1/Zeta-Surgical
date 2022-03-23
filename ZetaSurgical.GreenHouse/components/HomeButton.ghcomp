@@ -1,0 +1,385 @@
+{
+    "aliasList": {
+        "icon___default": [
+            {
+                "aliasElement": "source",
+                "aliasName": "icon___default_source",
+                "aliasSource": "icon___default"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "icon_opacity",
+                "aliasSource": "icon___default"
+            }
+        ],
+        "icon___selected": [
+            {
+                "aliasElement": "source",
+                "aliasName": "icon___selected_source",
+                "aliasSource": "icon___selected"
+            }
+        ]
+    },
+    "componentLayout": {
+        "blockInputFallthrough": true,
+        "children": [
+            {
+                "children": [
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "children": [
+                            {
+                                "anchorHCenter": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "HorizontalCenter"
+                                },
+                                "anchorVCenter": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "VerticalCenter"
+                                },
+                                "childrenSplit": true,
+                                "id": "icon___default",
+                                "properties": {
+                                    "height": {
+                                        "name": "height",
+                                        "type": "Int",
+                                        "value": 64
+                                    },
+                                    "source": {
+                                        "name": "source",
+                                        "type": "Asset",
+                                        "value": "/Icons/ZetaLogo__DefaultState.png"
+                                    },
+                                    "width": {
+                                        "name": "width",
+                                        "type": "Int",
+                                        "value": 64
+                                    },
+                                    "x": {
+                                        "name": "x",
+                                        "type": "Int",
+                                        "value": 32
+                                    },
+                                    "y": {
+                                        "name": "y",
+                                        "type": "Int",
+                                        "value": 32
+                                    }
+                                },
+                                "targetFile": "icon___default.ghuie",
+                                "type": "Image",
+                                "userDefined": false
+                            }
+                        ],
+                        "childrenSplit": true,
+                        "id": "default_StateParent",
+                        "properties": {
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 128
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 128
+                            }
+                        },
+                        "targetFile": "default_StateParent.ghuie",
+                        "type": "Item",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "children": [
+                            {
+                                "anchorHCenter": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "HorizontalCenter"
+                                },
+                                "anchorVCenter": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "VerticalCenter"
+                                },
+                                "childrenSplit": true,
+                                "id": "icon___selected",
+                                "properties": {
+                                    "height": {
+                                        "name": "height",
+                                        "type": "Int",
+                                        "value": 64
+                                    },
+                                    "opacity": {
+                                        "bindingProp": "opacity",
+                                        "bindingSrc": "icon___default",
+                                        "itemBound": true,
+                                        "name": "opacity",
+                                        "type": "Float",
+                                        "value": 1
+                                    },
+                                    "source": {
+                                        "name": "source",
+                                        "type": "Asset",
+                                        "value": "/Icons/ZetaLogo__SelectedState.png"
+                                    },
+                                    "width": {
+                                        "name": "width",
+                                        "type": "Int",
+                                        "value": 64
+                                    },
+                                    "x": {
+                                        "name": "x",
+                                        "type": "Int",
+                                        "value": 32
+                                    },
+                                    "y": {
+                                        "name": "y",
+                                        "type": "Int",
+                                        "value": 32
+                                    }
+                                },
+                                "targetFile": "icon___selected.ghuie",
+                                "type": "Image",
+                                "userDefined": false
+                            }
+                        ],
+                        "childrenSplit": true,
+                        "id": "selected_StateParent",
+                        "properties": {
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 128
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 128
+                            }
+                        },
+                        "targetFile": "selected_StateParent.ghuie",
+                        "type": "Item",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "__mouseArea",
+                        "properties": {
+                            "doubleClickEnabeld": {
+                                "bindingProp": "doubleClickEnabeld",
+                                "bindingSrc": "root",
+                                "itemBound": true,
+                                "name": "doubleClickEnabeld",
+                                "type": "Bool",
+                                "value": false
+                            },
+                            "minimumRepeatInterval": {
+                                "bindingProp": "minimumRepeatInterval",
+                                "bindingSrc": "root",
+                                "itemBound": true,
+                                "name": "minimumRepeatInterval",
+                                "type": "Int",
+                                "value": 100
+                            },
+                            "repeateInterval": {
+                                "bindingProp": "repeateInterval",
+                                "bindingSrc": "root",
+                                "itemBound": true,
+                                "name": "repeateInterval",
+                                "type": "Int",
+                                "value": 1000
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": -1
+                            }
+                        },
+                        "targetFile": "__mouseArea.ghuie",
+                        "type": "ComponentsSet.AutoRepeatMouseArea",
+                        "userDefined": false
+                    }
+                ],
+                "childrenSplit": true,
+                "id": "root",
+                "properties": {
+                    "height": {
+                        "name": "height",
+                        "type": "Int",
+                        "value": 128
+                    },
+                    "width": {
+                        "name": "width",
+                        "type": "Int",
+                        "value": 128
+                    }
+                },
+                "targetFile": "root.ghuie",
+                "type": "Item",
+                "userDefined": false
+            }
+        ],
+        "childrenSplit": true,
+        "fillParent": false,
+        "height": 128,
+        "hideAnimation": {
+            "type": "Sequential"
+        },
+        "interfaceName": "",
+        "name": "___TEMP_LAYOUT___ZetaSurgicalSet.HomeButton",
+        "posX": 0,
+        "posY": 0,
+        "rootContainerType": "Item",
+        "showAnimation": {
+            "type": "Sequential"
+        },
+        "targetFile": "___TEMP_LAYOUT___ZetaSurgicalSet.HomeButton.ghl",
+        "width": 128
+    },
+    "componentName": "ZetaSurgicalSet.HomeButton",
+    "properties": [
+        {
+            "name": "selectionIndex",
+            "type": "Int",
+            "value": -1
+        },
+        {
+            "name": "itemIndex",
+            "type": "Int",
+            "value": 0
+        },
+        {
+            "name": "repeateInterval",
+            "type": "Int",
+            "value": 1000
+        },
+        {
+            "name": "minimumRepeatInterval",
+            "type": "Int",
+            "value": 100
+        },
+        {
+            "name": "doubleClickEnabeld",
+            "type": "Bool",
+            "value": false
+        }
+    ],
+    "signalList": {
+        "__mouseArea": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "clicked",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "doubleClicked",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "pressed",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "released",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "repeatingTriggered",
+                "aliasSource": "__mouseArea"
+            }
+        ]
+    },
+    "states": {
+        "__main_state_group": {
+            "default": {
+                "group": "",
+                "name": "default",
+                "propertyChanges": [
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "default_StateParent",
+                        "type": "Bool",
+                        "value": true
+                    },
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "selected_StateParent",
+                        "type": "Bool",
+                        "value": false
+                    }
+                ],
+                "when": "!(root.selectionIndex == root.itemIndex)"
+            },
+            "selected": {
+                "group": "",
+                "name": "selected",
+                "propertyChanges": [
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "default_StateParent",
+                        "type": "Bool",
+                        "value": false
+                    },
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "selected_StateParent",
+                        "type": "Bool",
+                        "value": true
+                    }
+                ],
+                "when": "(root.selectionIndex == root.itemIndex)"
+            }
+        }
+    },
+    "targetFile": "HomeButton.ghcomp"
+}

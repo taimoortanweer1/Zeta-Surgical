@@ -1,0 +1,10 @@
+{
+    "base": "Displayable",
+    "name": "DeletePointConfirmationIFace",
+    "signals": {
+        "fi_no__onEvent__clicked": {
+            "name": "fi_no__onEvent__clicked"
+        }
+    },
+    "targetFile": "DeletePointConfirmationIFace.ghli"
+}

@@ -1,0 +1,1145 @@
+{
+    "aliasList": {
+        "expanded_StateParent": [
+            {
+                "aliasElement": "maximumItemsVisible",
+                "aliasName": "maximumItemsVisible",
+                "aliasSource": "expanded_StateParent"
+            }
+        ],
+        "fi_Coronal___collapsed": [
+            {
+                "aliasElement": "font",
+                "aliasName": "fi_Coronal_font",
+                "aliasSource": "fi_Coronal___collapsed"
+            },
+            {
+                "aliasElement": "horizontalAlignment",
+                "aliasName": "fi_Coronal_horizontalAlignment",
+                "aliasSource": "fi_Coronal___collapsed"
+            },
+            {
+                "aliasElement": "lineHeight",
+                "aliasName": "fi_Coronal_lineHeight",
+                "aliasSource": "fi_Coronal___collapsed"
+            },
+            {
+                "aliasElement": "lineHeightMode",
+                "aliasName": "fi_Coronal_lineHeightMode",
+                "aliasSource": "fi_Coronal___collapsed"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "fi_Coronal_opacity",
+                "aliasSource": "fi_Coronal___collapsed"
+            },
+            {
+                "aliasElement": "richText",
+                "aliasName": "fi_Coronal_richText",
+                "aliasSource": "fi_Coronal___collapsed"
+            },
+            {
+                "aliasElement": "text",
+                "aliasName": "fi_Coronal_text",
+                "aliasSource": "fi_Coronal___collapsed"
+            },
+            {
+                "aliasElement": "textColor",
+                "aliasName": "fi_Coronal_textColor",
+                "aliasSource": "fi_Coronal___collapsed"
+            },
+            {
+                "aliasElement": "verticalAlignment",
+                "aliasName": "fi_Coronal_verticalAlignment",
+                "aliasSource": "fi_Coronal___collapsed"
+            }
+        ],
+        "fi_ListView_DropDown_FitDelegate": [
+            {
+                "aliasElement": "viewModel",
+                "aliasName": "fi_ListView_DropDown_FitDelegate_viewModel",
+                "aliasSource": "fi_ListView_DropDown_FitDelegate"
+            },
+            {
+                "aliasElement": "currentDelegate",
+                "aliasName": "fi_ListView_DropDown_FitDelegate_currentDelegate",
+                "aliasSource": "fi_ListView_DropDown_FitDelegate"
+            }
+        ],
+        "icon___collapsed": [
+            {
+                "aliasElement": "opacity",
+                "aliasName": "icon_opacity",
+                "aliasSource": "icon___collapsed"
+            },
+            {
+                "aliasElement": "source",
+                "aliasName": "icon_source",
+                "aliasSource": "icon___collapsed"
+            }
+        ]
+    },
+    "componentLayout": {
+        "blockInputFallthrough": true,
+        "children": [
+            {
+                "children": [
+                    {
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "children": [
+                            {
+                                "anchorBottom": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Bottom"
+                                },
+                                "anchorLeft": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Left"
+                                },
+                                "anchorRight": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Right"
+                                },
+                                "anchorTop": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Top"
+                                },
+                                "childrenSplit": true,
+                                "id": "fi_Rectangle_62___collapsed",
+                                "properties": {
+                                    "border-bottom": {
+                                        "name": "border-bottom",
+                                        "type": "Int",
+                                        "value": 5
+                                    },
+                                    "border-left": {
+                                        "name": "border-left",
+                                        "type": "Int",
+                                        "value": 5
+                                    },
+                                    "border-right": {
+                                        "name": "border-right",
+                                        "type": "Int",
+                                        "value": 5
+                                    },
+                                    "border-top": {
+                                        "name": "border-top",
+                                        "type": "Int",
+                                        "value": 5
+                                    },
+                                    "height": {
+                                        "name": "height",
+                                        "type": "Int",
+                                        "value": 64
+                                    },
+                                    "source": {
+                                        "name": "source",
+                                        "type": "Asset",
+                                        "value": "/20_1961.png"
+                                    },
+                                    "width": {
+                                        "name": "width",
+                                        "type": "Int",
+                                        "value": 160
+                                    }
+                                },
+                                "targetFile": "fi_Rectangle_62___collapsed.ghuie",
+                                "type": "BorderImage",
+                                "userDefined": false
+                            },
+                            {
+                                "anchorRight": {
+                                    "anchorMargin": -1,
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Right"
+                                },
+                                "anchorVCenter": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "VerticalCenter"
+                                },
+                                "childrenSplit": true,
+                                "id": "fi_Coronal___collapsed",
+                                "properties": {
+                                    "font": {
+                                        "name": "font",
+                                        "type": "Font",
+                                        "value": "Figma::Arial_ArialMT_18_50_0_0_0_0_0.2"
+                                    },
+                                    "height": {
+                                        "name": "height",
+                                        "type": "Int",
+                                        "value": 42
+                                    },
+                                    "lineHeight": {
+                                        "name": "lineHeight",
+                                        "type": "Float",
+                                        "value": 20
+                                    },
+                                    "lineHeightMode": {
+                                        "name": "lineHeightMode",
+                                        "type": "TextLineHeightMode",
+                                        "value": "FixedHeight"
+                                    },
+                                    "text": {
+                                        "name": "text",
+                                        "type": "TranslatableString",
+                                        "uuid": "FigmaNode::21:6440",
+                                        "value": "Coronal"
+                                    },
+                                    "textColor": {
+                                        "name": "textColor",
+                                        "type": "Color",
+                                        "value": "Text/White"
+                                    },
+                                    "verticalAlignment": {
+                                        "name": "verticalAlignment",
+                                        "type": "TextVerticalAlignment",
+                                        "value": "AlignVCenter"
+                                    },
+                                    "width": {
+                                        "name": "width",
+                                        "type": "Int",
+                                        "value": 146
+                                    },
+                                    "wrapMode": {
+                                        "name": "wrapMode",
+                                        "type": "TextWrapMode",
+                                        "value": "WordWrap"
+                                    },
+                                    "x": {
+                                        "name": "x",
+                                        "type": "Int",
+                                        "value": 15
+                                    },
+                                    "y": {
+                                        "name": "y",
+                                        "type": "Int",
+                                        "value": 11
+                                    },
+                                    "z": {
+                                        "name": "z",
+                                        "type": "Int",
+                                        "value": 1
+                                    }
+                                },
+                                "targetFile": "fi_Coronal___collapsed.ghuie",
+                                "type": "ComponentsSet.Label",
+                                "userDefined": false
+                            },
+                            {
+                                "anchorRight": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Right"
+                                },
+                                "anchorVCenter": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "VerticalCenter"
+                                },
+                                "childrenSplit": true,
+                                "id": "icon___collapsed",
+                                "properties": {
+                                    "height": {
+                                        "name": "height",
+                                        "type": "Int",
+                                        "value": 64
+                                    },
+                                    "source": {
+                                        "name": "source",
+                                        "type": "Asset",
+                                        "value": "/Icons/DownTriangle__DefaultState.png"
+                                    },
+                                    "width": {
+                                        "name": "width",
+                                        "type": "Int",
+                                        "value": 64
+                                    },
+                                    "x": {
+                                        "name": "x",
+                                        "type": "Int",
+                                        "value": 96
+                                    },
+                                    "z": {
+                                        "name": "z",
+                                        "type": "Int",
+                                        "value": 2
+                                    }
+                                },
+                                "targetFile": "icon___collapsed.ghuie",
+                                "type": "Image",
+                                "userDefined": false
+                            }
+                        ],
+                        "childrenSplit": true,
+                        "id": "collapsed_StateParent",
+                        "properties": {
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 64
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 160
+                            }
+                        },
+                        "targetFile": "collapsed_StateParent.ghuie",
+                        "type": "Item",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "children": [
+                            {
+                                "anchorLeft": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Left"
+                                },
+                                "anchorRight": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Right"
+                                },
+                                "anchorTop": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Top"
+                                },
+                                "childrenSplit": true,
+                                "id": "fi_Rectangle_62___expanded",
+                                "properties": {
+                                    "border-left": {
+                                        "name": "border-left",
+                                        "type": "Int",
+                                        "value": 5
+                                    },
+                                    "border-right": {
+                                        "name": "border-right",
+                                        "type": "Int",
+                                        "value": 5
+                                    },
+                                    "height": {
+                                        "name": "height",
+                                        "type": "Int",
+                                        "value": 64
+                                    },
+                                    "source": {
+                                        "name": "source",
+                                        "type": "Asset",
+                                        "value": "/164_1724.png"
+                                    },
+                                    "width": {
+                                        "name": "width",
+                                        "type": "Int",
+                                        "value": 160
+                                    }
+                                },
+                                "targetFile": "fi_Rectangle_62___expanded.ghuie",
+                                "type": "BorderImage",
+                                "userDefined": false
+                            },
+                            {
+                                "anchorRight": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Right"
+                                },
+                                "anchorTop": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Top"
+                                },
+                                "childrenSplit": true,
+                                "id": "icon___expanded",
+                                "properties": {
+                                    "height": {
+                                        "name": "height",
+                                        "type": "Int",
+                                        "value": 64
+                                    },
+                                    "opacity": {
+                                        "bindingProp": "opacity",
+                                        "bindingSrc": "icon___collapsed",
+                                        "itemBound": true,
+                                        "name": "opacity",
+                                        "type": "Float",
+                                        "value": 1
+                                    },
+                                    "source": {
+                                        "bindingProp": "source",
+                                        "bindingSrc": "icon___collapsed",
+                                        "itemBound": true,
+                                        "name": "source",
+                                        "type": "Asset",
+                                        "value": "/Icons/DownTriangle__DefaultState.png"
+                                    },
+                                    "width": {
+                                        "name": "width",
+                                        "type": "Int",
+                                        "value": 64
+                                    },
+                                    "x": {
+                                        "name": "x",
+                                        "type": "Int",
+                                        "value": 96
+                                    },
+                                    "z": {
+                                        "name": "z",
+                                        "type": "Int",
+                                        "value": 1
+                                    }
+                                },
+                                "targetFile": "icon___expanded.ghuie",
+                                "type": "Image",
+                                "userDefined": false
+                            },
+                            {
+                                "anchorRight": {
+                                    "anchorMargin": -1,
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Right"
+                                },
+                                "anchorTop": {
+                                    "anchorMargin": 11,
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Top"
+                                },
+                                "childrenSplit": true,
+                                "id": "fi_Coronal___expanded",
+                                "properties": {
+                                    "font": {
+                                        "bindingProp": "font",
+                                        "bindingSrc": "fi_Coronal___collapsed",
+                                        "itemBound": true,
+                                        "name": "font",
+                                        "type": "Font",
+                                        "value": "Figma::Arial_ArialMT_18_50_0_0_0_0_0.2"
+                                    },
+                                    "height": {
+                                        "name": "height",
+                                        "type": "Int",
+                                        "value": 42
+                                    },
+                                    "horizontalAlignment": {
+                                        "bindingProp": "horizontalAlignment",
+                                        "bindingSrc": "fi_Coronal___collapsed",
+                                        "itemBound": true,
+                                        "name": "horizontalAlignment",
+                                        "type": "TextHorizontalAlignment",
+                                        "value": "AlignLeft"
+                                    },
+                                    "lineHeight": {
+                                        "bindingProp": "lineHeight",
+                                        "bindingSrc": "fi_Coronal___collapsed",
+                                        "itemBound": true,
+                                        "name": "lineHeight",
+                                        "type": "Float",
+                                        "value": 20
+                                    },
+                                    "lineHeightMode": {
+                                        "bindingProp": "lineHeightMode",
+                                        "bindingSrc": "fi_Coronal___collapsed",
+                                        "itemBound": true,
+                                        "name": "lineHeightMode",
+                                        "type": "TextLineHeightMode",
+                                        "value": "FixedHeight"
+                                    },
+                                    "opacity": {
+                                        "bindingProp": "opacity",
+                                        "bindingSrc": "fi_Coronal___collapsed",
+                                        "itemBound": true,
+                                        "name": "opacity",
+                                        "type": "Float",
+                                        "value": 1
+                                    },
+                                    "richText": {
+                                        "bindingProp": "richText",
+                                        "bindingSrc": "fi_Coronal___collapsed",
+                                        "itemBound": true,
+                                        "name": "richText",
+                                        "type": "Bool",
+                                        "value": false
+                                    },
+                                    "text": {
+                                        "bindingProp": "text",
+                                        "bindingSrc": "fi_Coronal___collapsed",
+                                        "itemBound": true,
+                                        "name": "text",
+                                        "type": "TranslatableString",
+                                        "uuid": "FigmaNode::164:1725",
+                                        "value": "Coronal"
+                                    },
+                                    "textColor": {
+                                        "bindingProp": "textColor",
+                                        "bindingSrc": "fi_Coronal___collapsed",
+                                        "itemBound": true,
+                                        "name": "textColor",
+                                        "type": "Color",
+                                        "value": "Text/White"
+                                    },
+                                    "verticalAlignment": {
+                                        "bindingProp": "verticalAlignment",
+                                        "bindingSrc": "fi_Coronal___collapsed",
+                                        "itemBound": true,
+                                        "name": "verticalAlignment",
+                                        "type": "TextVerticalAlignment",
+                                        "value": "AlignVCenter"
+                                    },
+                                    "width": {
+                                        "name": "width",
+                                        "type": "Int",
+                                        "value": 146
+                                    },
+                                    "wrapMode": {
+                                        "name": "wrapMode",
+                                        "type": "TextWrapMode",
+                                        "value": "WordWrap"
+                                    },
+                                    "x": {
+                                        "name": "x",
+                                        "type": "Int",
+                                        "value": 15
+                                    },
+                                    "y": {
+                                        "name": "y",
+                                        "type": "Int",
+                                        "value": 11
+                                    },
+                                    "z": {
+                                        "name": "z",
+                                        "type": "Int",
+                                        "value": 2
+                                    }
+                                },
+                                "targetFile": "fi_Coronal___expanded.ghuie",
+                                "type": "ComponentsSet.Label",
+                                "userDefined": false
+                            },
+                            {
+                                "anchorBottom": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Bottom"
+                                },
+                                "anchorLeft": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Left"
+                                },
+                                "anchorTop": {
+                                    "anchorMargin": 64,
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Top"
+                                },
+                                "childrenSplit": true,
+                                "id": "fi_ListView_DropDown_FitDelegate",
+                                "properties": {
+                                    "currentDelegate": {
+                                        "bindingProp": "selectionIndex",
+                                        "bindingSrc": "root",
+                                        "name": "currentDelegate",
+                                        "type": "Int",
+                                        "value": -1
+                                    },
+                                    "height": {
+                                        "name": "height",
+                                        "type": "Int",
+                                        "value": 126
+                                    },
+                                    "viewDelegate": {
+                                        "name": "viewDelegate",
+                                        "type": "Delegate",
+                                        "value": "fi_ListView_DropDown_FitDelegate_delegate"
+                                    },
+                                    "width": {
+                                        "name": "width",
+                                        "type": "Int",
+                                        "value": 160
+                                    },
+                                    "y": {
+                                        "name": "y",
+                                        "type": "Int",
+                                        "value": 64
+                                    },
+                                    "z": {
+                                        "name": "z",
+                                        "type": "Int",
+                                        "value": 3
+                                    }
+                                },
+                                "targetFile": "fi_ListView_DropDown_FitDelegate.ghuie",
+                                "type": "ComponentsSet.ModelView",
+                                "userDefined": false
+                            }
+                        ],
+                        "childrenSplit": true,
+                        "id": "expanded_StateParent",
+                        "properties": {
+                            "delegateHeight": {
+                                "name": "delegateHeight",
+                                "type": "Int",
+                                "value": 64
+                            },
+                            "dropDownItem": {
+                                "name": "dropDownItem",
+                                "type": "ItemRef",
+                                "value": "fi_ListView_DropDown_FitDelegate"
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": -1
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 160
+                            }
+                        },
+                        "targetFile": "expanded_StateParent.ghuie",
+                        "type": "ComponentsSet.DropDownContainer",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "children": [
+                            {
+                                "anchorBottom": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Bottom"
+                                },
+                                "anchorLeft": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Left"
+                                },
+                                "anchorRight": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Right"
+                                },
+                                "anchorTop": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Top"
+                                },
+                                "childrenSplit": true,
+                                "id": "fi_Rectangle_62___pressed",
+                                "properties": {
+                                    "border-bottom": {
+                                        "name": "border-bottom",
+                                        "type": "Int",
+                                        "value": 14
+                                    },
+                                    "border-left": {
+                                        "name": "border-left",
+                                        "type": "Int",
+                                        "value": 14
+                                    },
+                                    "border-right": {
+                                        "name": "border-right",
+                                        "type": "Int",
+                                        "value": 14
+                                    },
+                                    "border-top": {
+                                        "name": "border-top",
+                                        "type": "Int",
+                                        "value": 14
+                                    },
+                                    "height": {
+                                        "name": "height",
+                                        "type": "Int",
+                                        "value": 64
+                                    },
+                                    "source": {
+                                        "name": "source",
+                                        "type": "Asset",
+                                        "value": "/164_1681.png"
+                                    },
+                                    "width": {
+                                        "name": "width",
+                                        "type": "Int",
+                                        "value": 160
+                                    }
+                                },
+                                "targetFile": "fi_Rectangle_62___pressed.ghuie",
+                                "type": "BorderImage",
+                                "userDefined": false
+                            },
+                            {
+                                "anchorRight": {
+                                    "anchorMargin": -1,
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Right"
+                                },
+                                "anchorVCenter": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "VerticalCenter"
+                                },
+                                "childrenSplit": true,
+                                "id": "fi_Coronal___pressed",
+                                "properties": {
+                                    "font": {
+                                        "bindingProp": "font",
+                                        "bindingSrc": "fi_Coronal___collapsed",
+                                        "itemBound": true,
+                                        "name": "font",
+                                        "type": "Font",
+                                        "value": "Figma::Arial_ArialMT_18_50_0_0_0_0_0.2"
+                                    },
+                                    "height": {
+                                        "name": "height",
+                                        "type": "Int",
+                                        "value": 42
+                                    },
+                                    "horizontalAlignment": {
+                                        "bindingProp": "horizontalAlignment",
+                                        "bindingSrc": "fi_Coronal___collapsed",
+                                        "itemBound": true,
+                                        "name": "horizontalAlignment",
+                                        "type": "TextHorizontalAlignment",
+                                        "value": "AlignLeft"
+                                    },
+                                    "lineHeight": {
+                                        "bindingProp": "lineHeight",
+                                        "bindingSrc": "fi_Coronal___collapsed",
+                                        "itemBound": true,
+                                        "name": "lineHeight",
+                                        "type": "Float",
+                                        "value": 20
+                                    },
+                                    "lineHeightMode": {
+                                        "bindingProp": "lineHeightMode",
+                                        "bindingSrc": "fi_Coronal___collapsed",
+                                        "itemBound": true,
+                                        "name": "lineHeightMode",
+                                        "type": "TextLineHeightMode",
+                                        "value": "FixedHeight"
+                                    },
+                                    "opacity": {
+                                        "bindingProp": "opacity",
+                                        "bindingSrc": "fi_Coronal___collapsed",
+                                        "itemBound": true,
+                                        "name": "opacity",
+                                        "type": "Float",
+                                        "value": 1
+                                    },
+                                    "richText": {
+                                        "bindingProp": "richText",
+                                        "bindingSrc": "fi_Coronal___collapsed",
+                                        "itemBound": true,
+                                        "name": "richText",
+                                        "type": "Bool",
+                                        "value": false
+                                    },
+                                    "text": {
+                                        "bindingProp": "text",
+                                        "bindingSrc": "fi_Coronal___collapsed",
+                                        "itemBound": true,
+                                        "name": "text",
+                                        "type": "TranslatableString",
+                                        "uuid": "FigmaNode::164:1682",
+                                        "value": "Coronal"
+                                    },
+                                    "textColor": {
+                                        "bindingProp": "textColor",
+                                        "bindingSrc": "fi_Coronal___collapsed",
+                                        "itemBound": true,
+                                        "name": "textColor",
+                                        "type": "Color",
+                                        "value": "Text/White"
+                                    },
+                                    "verticalAlignment": {
+                                        "bindingProp": "verticalAlignment",
+                                        "bindingSrc": "fi_Coronal___collapsed",
+                                        "itemBound": true,
+                                        "name": "verticalAlignment",
+                                        "type": "TextVerticalAlignment",
+                                        "value": "AlignVCenter"
+                                    },
+                                    "width": {
+                                        "name": "width",
+                                        "type": "Int",
+                                        "value": 146
+                                    },
+                                    "wrapMode": {
+                                        "name": "wrapMode",
+                                        "type": "TextWrapMode",
+                                        "value": "WordWrap"
+                                    },
+                                    "x": {
+                                        "name": "x",
+                                        "type": "Int",
+                                        "value": 15
+                                    },
+                                    "y": {
+                                        "name": "y",
+                                        "type": "Int",
+                                        "value": 11
+                                    },
+                                    "z": {
+                                        "name": "z",
+                                        "type": "Int",
+                                        "value": 1
+                                    }
+                                },
+                                "targetFile": "fi_Coronal___pressed.ghuie",
+                                "type": "ComponentsSet.Label",
+                                "userDefined": false
+                            },
+                            {
+                                "anchorRight": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Right"
+                                },
+                                "anchorVCenter": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "VerticalCenter"
+                                },
+                                "childrenSplit": true,
+                                "id": "icon___pressed",
+                                "properties": {
+                                    "height": {
+                                        "name": "height",
+                                        "type": "Int",
+                                        "value": 64
+                                    },
+                                    "opacity": {
+                                        "bindingProp": "opacity",
+                                        "bindingSrc": "icon___collapsed",
+                                        "itemBound": true,
+                                        "name": "opacity",
+                                        "type": "Float",
+                                        "value": 1
+                                    },
+                                    "source": {
+                                        "bindingProp": "source",
+                                        "bindingSrc": "icon___collapsed",
+                                        "itemBound": true,
+                                        "name": "source",
+                                        "type": "Asset",
+                                        "value": "/Icons/DownTriangle__DefaultState.png"
+                                    },
+                                    "width": {
+                                        "name": "width",
+                                        "type": "Int",
+                                        "value": 64
+                                    },
+                                    "x": {
+                                        "name": "x",
+                                        "type": "Int",
+                                        "value": 96
+                                    },
+                                    "z": {
+                                        "name": "z",
+                                        "type": "Int",
+                                        "value": 2
+                                    }
+                                },
+                                "targetFile": "icon___pressed.ghuie",
+                                "type": "Image",
+                                "userDefined": false
+                            }
+                        ],
+                        "childrenSplit": true,
+                        "id": "pressed_StateParent",
+                        "properties": {
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 64
+                            },
+                            "visible": {
+                                "name": "visible",
+                                "type": "Bool",
+                                "value": false
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 160
+                            }
+                        },
+                        "targetFile": "pressed_StateParent.ghuie",
+                        "type": "Item",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "__focusArea",
+                        "targetFile": "__focusArea.ghuie",
+                        "type": "ComponentsSet.FocusArea",
+                        "userDefined": false
+                    }
+                ],
+                "childrenSplit": true,
+                "id": "root",
+                "properties": {
+                    "height": {
+                        "name": "height",
+                        "type": "Int",
+                        "value": 64
+                    },
+                    "width": {
+                        "name": "width",
+                        "type": "Int",
+                        "value": 160
+                    }
+                },
+                "targetFile": "root.ghuie",
+                "type": "Item",
+                "userDefined": false
+            }
+        ],
+        "childrenSplit": true,
+        "delegates": [
+            {
+                "anchorLeft": {
+                    "anchorTarget": "parent",
+                    "anchorValue": "Left"
+                },
+                "anchorRight": {
+                    "anchorTarget": "parent",
+                    "anchorValue": "Right"
+                },
+                "children": [
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_ListItemDropdown",
+                        "targetFile": "fi_ListItemDropdown.ghuie",
+                        "type": "ZetaSurgicalSet.ListItemDropdown",
+                        "userDefined": false
+                    }
+                ],
+                "childrenSplit": true,
+                "id": "fi_ListView_DropDown_FitDelegate_delegate",
+                "model": {
+                    "name": "modelProperty",
+                    "type": "Model",
+                    "value": null
+                },
+                "properties": {
+                    "height": {
+                        "name": "height",
+                        "type": "Int",
+                        "value": 64
+                    },
+                    "width": {
+                        "name": "width",
+                        "type": "Int",
+                        "value": 160
+                    }
+                },
+                "targetFile": "fi_ListView_DropDown_FitDelegate_delegate.ghuie",
+                "type": "FocusScope",
+                "userDefined": false
+            }
+        ],
+        "fillParent": false,
+        "height": 64,
+        "hideAnimation": {
+            "type": "Sequential"
+        },
+        "interfaceName": "",
+        "name": "___TEMP_LAYOUT___ZetaSurgicalSet.ChangeViewDropDown",
+        "posX": 0,
+        "posY": 0,
+        "rootContainerType": "Item",
+        "showAnimation": {
+            "type": "Sequential"
+        },
+        "targetFile": "___TEMP_LAYOUT___ZetaSurgicalSet.ChangeViewDropDown.ghl",
+        "width": 160
+    },
+    "componentName": "ZetaSurgicalSet.ChangeViewDropDown",
+    "properties": [
+        {
+            "name": "selectionIndex",
+            "type": "Int",
+            "value": -1
+        },
+        {
+            "name": "pressed_flag",
+            "type": "Bool",
+            "value": false
+        }
+    ],
+    "signalList": {
+        "__focusArea": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "clicked",
+                "aliasSource": "__focusArea"
+            }
+        ],
+        "fi_ListItemDropdown": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "selectionMade",
+                "aliasSource": "fi_ListItemDropdown"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "fi_ListItemDropdown_doubleClicked",
+                "aliasSource": "fi_ListItemDropdown"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "fi_ListItemDropdown_pressed",
+                "aliasSource": "fi_ListItemDropdown"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "fi_ListItemDropdown_released",
+                "aliasSource": "fi_ListItemDropdown"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "fi_ListItemDropdown_repeatingTriggered",
+                "aliasSource": "fi_ListItemDropdown"
+            }
+        ],
+        "fi_ListView_DropDown_FitDelegate": [
+            {
+                "aliasElement": "currentIndexUpdated",
+                "aliasName": "fi_ListView_DropDown_FitDelegate_currentIndexUpdated",
+                "aliasSource": "fi_ListView_DropDown_FitDelegate"
+            },
+            {
+                "aliasElement": "isDragging",
+                "aliasName": "fi_ListView_DropDown_FitDelegate_isDragging",
+                "aliasSource": "fi_ListView_DropDown_FitDelegate"
+            }
+        ]
+    },
+    "states": {
+        "__main_state_group": {
+            "collapsed": {
+                "group": "",
+                "name": "collapsed",
+                "propertyChanges": [
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "collapsed_StateParent",
+                        "type": "Bool",
+                        "value": true
+                    },
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "expanded_StateParent",
+                        "type": "Bool",
+                        "value": false
+                    }
+                ],
+                "when": "!__focusArea.focused"
+            },
+            "expanded": {
+                "group": "",
+                "name": "expanded",
+                "propertyChanges": [
+                    {
+                        "name": "z",
+                        "propertyChangeTarget": "root",
+                        "type": "Int",
+                        "value": 2147483646
+                    },
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "collapsed_StateParent",
+                        "type": "Bool",
+                        "value": false
+                    },
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "expanded_StateParent",
+                        "type": "Bool",
+                        "value": true
+                    }
+                ],
+                "when": "__focusArea.focused"
+            }
+        },
+        "generic_pressed": {
+            "pressed": {
+                "group": "generic_pressed",
+                "name": "pressed",
+                "propertyChanges": [
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "pressed_StateParent",
+                        "type": "Bool",
+                        "value": true
+                    },
+                    {
+                        "name": "z",
+                        "propertyChangeTarget": "pressed_StateParent",
+                        "type": "Int",
+                        "value": 999
+                    }
+                ],
+                "when": "root.pressed_flag"
+            }
+        }
+    },
+    "targetFile": "ChangeViewDropDown.ghcomp"
+}

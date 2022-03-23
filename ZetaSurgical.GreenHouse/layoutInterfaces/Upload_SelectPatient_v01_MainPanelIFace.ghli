@@ -1,0 +1,10 @@
+{
+    "base": "Displayable",
+    "name": "Upload_SelectPatient_v01_MainPanelIFace",
+    "signals": {
+        "fi_continue__onEvent__clicked": {
+            "name": "fi_continue__onEvent__clicked"
+        }
+    },
+    "targetFile": "Upload_SelectPatient_v01_MainPanelIFace.ghli"
+}

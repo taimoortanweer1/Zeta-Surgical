@@ -1,0 +1,694 @@
+{
+    "aliasList": {
+        "fi_Lock_Wheels___default": [
+            {
+                "aliasElement": "font",
+                "aliasName": "fi_Lock_Wheels_font",
+                "aliasSource": "fi_Lock_Wheels___default"
+            },
+            {
+                "aliasElement": "horizontalAlignment",
+                "aliasName": "fi_Lock_Wheels_horizontalAlignment",
+                "aliasSource": "fi_Lock_Wheels___default"
+            },
+            {
+                "aliasElement": "lineHeight",
+                "aliasName": "fi_Lock_Wheels_lineHeight",
+                "aliasSource": "fi_Lock_Wheels___default"
+            },
+            {
+                "aliasElement": "lineHeightMode",
+                "aliasName": "fi_Lock_Wheels_lineHeightMode",
+                "aliasSource": "fi_Lock_Wheels___default"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "fi_Lock_Wheels_opacity",
+                "aliasSource": "fi_Lock_Wheels___default"
+            },
+            {
+                "aliasElement": "richText",
+                "aliasName": "fi_Lock_Wheels_richText",
+                "aliasSource": "fi_Lock_Wheels___default"
+            },
+            {
+                "aliasElement": "text",
+                "aliasName": "fi_Lock_Wheels_text",
+                "aliasSource": "fi_Lock_Wheels___default"
+            },
+            {
+                "aliasElement": "textColor",
+                "aliasName": "fi_Lock_Wheels_textColor",
+                "aliasSource": "fi_Lock_Wheels___default"
+            },
+            {
+                "aliasElement": "verticalAlignment",
+                "aliasName": "fi_Lock_Wheels_verticalAlignment",
+                "aliasSource": "fi_Lock_Wheels___default"
+            }
+        ],
+        "fi_ToggleButton_Left_Selection___default": [
+            {
+                "aliasElement": "repeateInterval",
+                "aliasName": "fi_ToggleButton_Left_Selection___default_repeateInterval",
+                "aliasSource": "fi_ToggleButton_Left_Selection___default"
+            },
+            {
+                "aliasElement": "minimumRepeatInterval",
+                "aliasName": "fi_ToggleButton_Left_Selection___default_minimumRepeatInterval",
+                "aliasSource": "fi_ToggleButton_Left_Selection___default"
+            },
+            {
+                "aliasElement": "doubleClickEnabeld",
+                "aliasName": "fi_ToggleButton_Left_Selection___default_doubleClickEnabeld",
+                "aliasSource": "fi_ToggleButton_Left_Selection___default"
+            },
+            {
+                "aliasElement": "fi_Ellipse_227_source",
+                "aliasName": "fi_ToggleButton_Left_Selection___default_fi_Ellipse_227_source",
+                "aliasSource": "fi_ToggleButton_Left_Selection___default"
+            },
+            {
+                "aliasElement": "fi_Ellipse_227_opacity",
+                "aliasName": "fi_ToggleButton_Left_Selection___default_fi_Ellipse_227_opacity",
+                "aliasSource": "fi_ToggleButton_Left_Selection___default"
+            },
+            {
+                "aliasElement": "enabled",
+                "aliasName": "fi_ToggleButton_Left_Selection___default_enabled",
+                "aliasSource": "fi_ToggleButton_Left_Selection___default"
+            }
+        ],
+        "fi_ToggleButton_Right_Selection___selected": [
+            {
+                "aliasElement": "repeateInterval",
+                "aliasName": "fi_ToggleButton_Right_Selection___selected_repeateInterval",
+                "aliasSource": "fi_ToggleButton_Right_Selection___selected"
+            },
+            {
+                "aliasElement": "minimumRepeatInterval",
+                "aliasName": "fi_ToggleButton_Right_Selection___selected_minimumRepeatInterval",
+                "aliasSource": "fi_ToggleButton_Right_Selection___selected"
+            },
+            {
+                "aliasElement": "doubleClickEnabeld",
+                "aliasName": "fi_ToggleButton_Right_Selection___selected_doubleClickEnabeld",
+                "aliasSource": "fi_ToggleButton_Right_Selection___selected"
+            },
+            {
+                "aliasElement": "fi_Ellipse_227_source",
+                "aliasName": "fi_ToggleButton_Right_Selection___selected_fi_Ellipse_227_source",
+                "aliasSource": "fi_ToggleButton_Right_Selection___selected"
+            },
+            {
+                "aliasElement": "fi_Ellipse_227_opacity",
+                "aliasName": "fi_ToggleButton_Right_Selection___selected_fi_Ellipse_227_opacity",
+                "aliasSource": "fi_ToggleButton_Right_Selection___selected"
+            },
+            {
+                "aliasElement": "enabled",
+                "aliasName": "fi_ToggleButton_Right_Selection___selected_enabled",
+                "aliasSource": "fi_ToggleButton_Right_Selection___selected"
+            }
+        ]
+    },
+    "componentLayout": {
+        "blockInputFallthrough": true,
+        "children": [
+            {
+                "children": [
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "default_StateParent",
+                        "properties": {
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 88
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 296
+                            }
+                        },
+                        "targetFile": "default_StateParent.ghuie",
+                        "type": "Item",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "selected_StateParent",
+                        "properties": {
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 88
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 296
+                            }
+                        },
+                        "targetFile": "selected_StateParent.ghuie",
+                        "type": "Item",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "__mouseArea",
+                        "properties": {
+                            "doubleClickEnabeld": {
+                                "bindingProp": "doubleClickEnabeld",
+                                "bindingSrc": "root",
+                                "itemBound": true,
+                                "name": "doubleClickEnabeld",
+                                "type": "Bool",
+                                "value": false
+                            },
+                            "minimumRepeatInterval": {
+                                "bindingProp": "minimumRepeatInterval",
+                                "bindingSrc": "root",
+                                "itemBound": true,
+                                "name": "minimumRepeatInterval",
+                                "type": "Int",
+                                "value": 100
+                            },
+                            "repeateInterval": {
+                                "bindingProp": "repeateInterval",
+                                "bindingSrc": "root",
+                                "itemBound": true,
+                                "name": "repeateInterval",
+                                "type": "Int",
+                                "value": 1000
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": -1
+                            }
+                        },
+                        "targetFile": "__mouseArea.ghuie",
+                        "type": "ComponentsSet.AutoRepeatMouseArea",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Rectangle_356___default",
+                        "properties": {
+                            "border-bottom": {
+                                "name": "border-bottom",
+                                "type": "Int",
+                                "value": 15
+                            },
+                            "border-left": {
+                                "name": "border-left",
+                                "type": "Int",
+                                "value": 15
+                            },
+                            "border-right": {
+                                "name": "border-right",
+                                "type": "Int",
+                                "value": 15
+                            },
+                            "border-top": {
+                                "name": "border-top",
+                                "type": "Int",
+                                "value": 15
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 88
+                            },
+                            "source": {
+                                "name": "source",
+                                "type": "Asset",
+                                "value": "/174_1884.png"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 296
+                            }
+                        },
+                        "targetFile": "fi_Rectangle_356___default.ghuie",
+                        "type": "BorderImage",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorMargin": -1,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorMargin": -1,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorTop": {
+                            "anchorMargin": -1,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Lock_Wheels___default",
+                        "properties": {
+                            "font": {
+                                "name": "font",
+                                "type": "Font",
+                                "value": "Figma::Arial_ArialMT_22_50_0_0_0_0_0.2"
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 90
+                            },
+                            "horizontalAlignment": {
+                                "name": "horizontalAlignment",
+                                "type": "TextHorizontalAlignment",
+                                "value": "AlignHCenter"
+                            },
+                            "lineHeight": {
+                                "name": "lineHeight",
+                                "type": "Float",
+                                "value": 30
+                            },
+                            "lineHeightMode": {
+                                "name": "lineHeightMode",
+                                "type": "TextLineHeightMode",
+                                "value": "FixedHeight"
+                            },
+                            "text": {
+                                "name": "text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::174:1860",
+                                "value": "Lock Wheels"
+                            },
+                            "textColor": {
+                                "name": "textColor",
+                                "type": "Color",
+                                "value": "Text/White"
+                            },
+                            "verticalAlignment": {
+                                "name": "verticalAlignment",
+                                "type": "TextVerticalAlignment",
+                                "value": "AlignVCenter"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 186
+                            },
+                            "wrapMode": {
+                                "name": "wrapMode",
+                                "type": "TextWrapMode",
+                                "value": "WordWrap"
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": -1
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": -1
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 2
+                            }
+                        },
+                        "targetFile": "fi_Lock_Wheels___default.ghuie",
+                        "type": "ComponentsSet.Label",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorRight": {
+                            "anchorMargin": 16,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorVCenter": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "VerticalCenter"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_ToggleButton_Left_Selection___default",
+                        "properties": {
+                            "rotation": {
+                                "name": "rotation",
+                                "type": "Float",
+                                "value": -90
+                            },
+                            "visible": {
+                                "bindingProp": "visible",
+                                "bindingSrc": "default_StateParent",
+                                "itemBound": true,
+                                "name": "visible",
+                                "type": "Bool",
+                                "value": true
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 200
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 24
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 1
+                            }
+                        },
+                        "targetFile": "fi_ToggleButton_Left_Selection___default.ghuie",
+                        "type": "ZetaSurgicalSet.ToggleButton_Left_Selection",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorRight": {
+                            "anchorMargin": 16,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorVCenter": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "VerticalCenter"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_ToggleButton_Right_Selection___selected",
+                        "properties": {
+                            "fi_Ellipse_227_source": {
+                                "name": "fi_Ellipse_227_source",
+                                "type": "Asset",
+                                "value": "/174_1850.png"
+                            },
+                            "rotation": {
+                                "name": "rotation",
+                                "type": "Float",
+                                "value": -90
+                            },
+                            "visible": {
+                                "bindingProp": "visible",
+                                "bindingSrc": "selected_StateParent",
+                                "itemBound": true,
+                                "name": "visible",
+                                "type": "Bool",
+                                "value": true
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 200
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 24
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 1
+                            }
+                        },
+                        "targetFile": "fi_ToggleButton_Right_Selection___selected.ghuie",
+                        "type": "ZetaSurgicalSet.ToggleButton_Right_Selection",
+                        "userDefined": false
+                    }
+                ],
+                "childrenSplit": true,
+                "id": "root",
+                "properties": {
+                    "height": {
+                        "name": "height",
+                        "type": "Int",
+                        "value": 88
+                    },
+                    "width": {
+                        "name": "width",
+                        "type": "Int",
+                        "value": 296
+                    }
+                },
+                "targetFile": "root.ghuie",
+                "type": "Item",
+                "userDefined": false
+            }
+        ],
+        "childrenSplit": true,
+        "fillParent": false,
+        "height": 88,
+        "hideAnimation": {
+            "type": "Sequential"
+        },
+        "interfaceName": "",
+        "name": "___TEMP_LAYOUT___ZetaSurgicalSet.LockWheelsButton",
+        "posX": 0,
+        "posY": 0,
+        "rootContainerType": "Item",
+        "showAnimation": {
+            "type": "Sequential"
+        },
+        "targetFile": "___TEMP_LAYOUT___ZetaSurgicalSet.LockWheelsButton.ghl",
+        "width": 296
+    },
+    "componentName": "ZetaSurgicalSet.LockWheelsButton",
+    "properties": [
+        {
+            "name": "selectionIndex",
+            "type": "Int",
+            "value": -1
+        },
+        {
+            "name": "itemIndex",
+            "type": "Int",
+            "value": 0
+        },
+        {
+            "name": "repeateInterval",
+            "type": "Int",
+            "value": 1000
+        },
+        {
+            "name": "minimumRepeatInterval",
+            "type": "Int",
+            "value": 100
+        },
+        {
+            "name": "doubleClickEnabeld",
+            "type": "Bool",
+            "value": false
+        }
+    ],
+    "signalList": {
+        "__mouseArea": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "clicked",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "doubleClicked",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "pressed",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "released",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "repeatingTriggered",
+                "aliasSource": "__mouseArea"
+            }
+        ],
+        "fi_ToggleButton_Left_Selection___default": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "fi_ToggleButton_Left_Selection_clicked",
+                "aliasSource": "fi_ToggleButton_Left_Selection___default"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "fi_ToggleButton_Left_Selection_doubleClicked",
+                "aliasSource": "fi_ToggleButton_Left_Selection___default"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "fi_ToggleButton_Left_Selection_pressed",
+                "aliasSource": "fi_ToggleButton_Left_Selection___default"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "fi_ToggleButton_Left_Selection_released",
+                "aliasSource": "fi_ToggleButton_Left_Selection___default"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "fi_ToggleButton_Left_Selection_repeatingTriggered",
+                "aliasSource": "fi_ToggleButton_Left_Selection___default"
+            }
+        ],
+        "fi_ToggleButton_Right_Selection___selected": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "fi_ToggleButton_Right_Selection___selected_clicked",
+                "aliasSource": "fi_ToggleButton_Right_Selection___selected"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "fi_ToggleButton_Right_Selection___selected_doubleClicked",
+                "aliasSource": "fi_ToggleButton_Right_Selection___selected"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "fi_ToggleButton_Right_Selection___selected_pressed",
+                "aliasSource": "fi_ToggleButton_Right_Selection___selected"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "fi_ToggleButton_Right_Selection___selected_released",
+                "aliasSource": "fi_ToggleButton_Right_Selection___selected"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "fi_ToggleButton_Right_Selection___selected_repeatingTriggered",
+                "aliasSource": "fi_ToggleButton_Right_Selection___selected"
+            }
+        ]
+    },
+    "states": {
+        "__main_state_group": {
+            "default": {
+                "group": "",
+                "name": "default",
+                "propertyChanges": [
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "default_StateParent",
+                        "type": "Bool",
+                        "value": true
+                    },
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "selected_StateParent",
+                        "type": "Bool",
+                        "value": false
+                    },
+                    {
+                        "name": "source",
+                        "propertyChangeTarget": "fi_Rectangle_356___default",
+                        "type": "Asset",
+                        "value": "/174_1884.png"
+                    }
+                ],
+                "when": "!(root.selectionIndex == root.itemIndex)"
+            },
+            "selected": {
+                "group": "",
+                "name": "selected",
+                "propertyChanges": [
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "default_StateParent",
+                        "type": "Bool",
+                        "value": false
+                    },
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "selected_StateParent",
+                        "type": "Bool",
+                        "value": true
+                    },
+                    {
+                        "name": "source",
+                        "propertyChangeTarget": "fi_Rectangle_356___default",
+                        "type": "Asset",
+                        "value": "/174_1896.png"
+                    }
+                ],
+                "when": "(root.selectionIndex == root.itemIndex)"
+            }
+        }
+    },
+    "targetFile": "LockWheelsButton.ghcomp"
+}

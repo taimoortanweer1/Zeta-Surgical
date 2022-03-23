@@ -1,0 +1,37 @@
+{
+    "anchorLeft": {
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 652,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "85:2289"
+    },
+    "id": "fi_keyboardOverlay",
+    "properties": {
+        "fi_Union_source": {
+            "name": "fi_Union_source",
+            "type": "Asset",
+            "value": "/7_1586.png"
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 652
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "targetFile": "fi_keyboardOverlay.ghuie",
+    "type": "ZetaSurgicalSet.KeyboardOverlay",
+    "userDefined": false,
+    "uuid": "{eb775130-349f-456d-8c59-dde823eb25cb}"
+}

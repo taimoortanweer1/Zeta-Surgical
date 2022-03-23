@@ -1,0 +1,47 @@
+{
+    "anchorHCenter": {
+        "anchorTarget": "parent",
+        "anchorValue": "HorizontalCenter"
+    },
+    "anchorVCenter": {
+        "anchorTarget": "parent",
+        "anchorValue": "VerticalCenter"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "40:4239"
+    },
+    "id": "fi_continue",
+    "properties": {
+        "fi_BUTTON_TEXT_text": {
+            "name": "fi_BUTTON_TEXT_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I40:4239;11:1229",
+            "value": "Proceed to Study Selection"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 392
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 700
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 32
+        }
+    },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_continue__onEvent__clicked()\n"
+        }
+    },
+    "targetFile": "fi_continue.ghuie",
+    "type": "ZetaSurgicalSet.NextButton",
+    "userDefined": false
+}

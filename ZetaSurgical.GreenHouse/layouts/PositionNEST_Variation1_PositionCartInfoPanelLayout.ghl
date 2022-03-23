@@ -1,0 +1,20 @@
+{
+    "blockInputFallthrough": true,
+    "childrenSplit": true,
+    "fillParent": false,
+    "height": 1080,
+    "hideAnimation": {
+        "type": "Sequential"
+    },
+    "interfaceName": "PositionNEST_Variation1_PositionCartInfoPanelIFace",
+    "name": "PositionNEST_Variation1_PositionCartInfoPanelLayout",
+    "posX": 128,
+    "posY": 0,
+    "rootContainerType": "Item",
+    "showAnimation": {
+        "type": "Sequential"
+    },
+    "targetFile": "PositionNEST_Variation1_PositionCartInfoPanelLayout.ghl",
+    "uuid": "{3b9870ba-7fe5-47af-a8ee-4ff43f1c6e86}",
+    "width": 456
+}

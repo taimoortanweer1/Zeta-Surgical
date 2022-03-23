@@ -1,0 +1,47 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "23:10055"
+    },
+    "id": "fi_Arrow",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 140
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/23_10055.png"
+        },
+        "verticalCenterOffset": {
+            "name": "verticalCenterOffset",
+            "type": "Int",
+            "value": 4
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 132
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 935
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 745
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "targetFile": "fi_Arrow.ghuie",
+    "type": "DecorativeSet.DecoratedItem",
+    "userDefined": false
+}

@@ -1,0 +1,170 @@
+{
+    "backendObject": true,
+    "hidden": true,
+    "name": "SurfaceController",
+    "signals": {
+        "hideAddToolOverlayPanel": {
+            "name": "hideAddToolOverlayPanel"
+        },
+        "hideBackgroundPanel": {
+            "name": "hideBackgroundPanel"
+        },
+        "hideInfoPanel": {
+            "name": "hideInfoPanel"
+        },
+        "hideLoginPanel": {
+            "name": "hideLoginPanel"
+        },
+        "hideMainPanel": {
+            "name": "hideMainPanel"
+        },
+        "hideMenus": {
+            "name": "hideMenus"
+        },
+        "hideOtherButtonPanel": {
+            "name": "hideOtherButtonPanel"
+        },
+        "hideOverlayPanel": {
+            "name": "hideOverlayPanel"
+        },
+        "hidePopups": {
+            "name": "hidePopups"
+        },
+        "hidePositionCartInfoPanel": {
+            "name": "hidePositionCartInfoPanel"
+        },
+        "hideRightInfoPanel": {
+            "name": "hideRightInfoPanel"
+        },
+        "hideScreens": {
+            "name": "hideScreens"
+        },
+        "hideTitlePanel": {
+            "name": "hideTitlePanel"
+        },
+        "showAddToolOverlayPanel": {
+            "name": "showAddToolOverlayPanel"
+        },
+        "showBackgroundPanel": {
+            "name": "showBackgroundPanel"
+        },
+        "showInfoPanel": {
+            "name": "showInfoPanel"
+        },
+        "showLoginPanel": {
+            "name": "showLoginPanel"
+        },
+        "showMainPanel": {
+            "name": "showMainPanel"
+        },
+        "showMenus": {
+            "name": "showMenus"
+        },
+        "showOtherButtonPanel": {
+            "name": "showOtherButtonPanel"
+        },
+        "showOverlayPanel": {
+            "name": "showOverlayPanel"
+        },
+        "showPopups": {
+            "name": "showPopups"
+        },
+        "showPositionCartInfoPanel": {
+            "name": "showPositionCartInfoPanel"
+        },
+        "showRightInfoPanel": {
+            "name": "showRightInfoPanel"
+        },
+        "showTitlePanel": {
+            "name": "showTitlePanel"
+        },
+        "surfaceAddToolOverlayPanelMoveToCT_Planning_Add_Tool_Overlay_AddToolOverlayPanel": {
+            "name": "surfaceAddToolOverlayPanelMoveToCT_Planning_Add_Tool_Overlay_AddToolOverlayPanel"
+        },
+        "surfaceBackgroundPanelMoveToBackgroundPanel_Shared0": {
+            "name": "surfaceBackgroundPanelMoveToBackgroundPanel_Shared0"
+        },
+        "surfaceInfoPanelMoveToCT_Planning_Default_InfoPanel": {
+            "name": "surfaceInfoPanelMoveToCT_Planning_Default_InfoPanel"
+        },
+        "surfaceInfoPanelMoveToConfirmRegistrationPRE_Adjustment_Cut_InfoPanel": {
+            "name": "surfaceInfoPanelMoveToConfirmRegistrationPRE_Adjustment_Cut_InfoPanel"
+        },
+        "surfaceInfoPanelMoveToSegmentation_Default_InfoPanel": {
+            "name": "surfaceInfoPanelMoveToSegmentation_Default_InfoPanel"
+        },
+        "surfaceLoginPanelMoveToLoginView_Default_LoginPanel": {
+            "name": "surfaceLoginPanelMoveToLoginView_Default_LoginPanel"
+        },
+        "surfaceLoginPanelMoveToLoginView_LoginSuccess_LoginPanel": {
+            "name": "surfaceLoginPanelMoveToLoginView_LoginSuccess_LoginPanel"
+        },
+        "surfaceMainPanelMoveToCT_Planning_Default_MainPanel": {
+            "name": "surfaceMainPanelMoveToCT_Planning_Default_MainPanel"
+        },
+        "surfaceMainPanelMoveToConfirmRegistrationPRE_Adjustment_Cut_MainPanel": {
+            "name": "surfaceMainPanelMoveToConfirmRegistrationPRE_Adjustment_Cut_MainPanel"
+        },
+        "surfaceMainPanelMoveToPositionNEST_Variation1_MainPanel": {
+            "name": "surfaceMainPanelMoveToPositionNEST_Variation1_MainPanel"
+        },
+        "surfaceMainPanelMoveToSegmentation_Default_MainPanel": {
+            "name": "surfaceMainPanelMoveToSegmentation_Default_MainPanel"
+        },
+        "surfaceMainPanelMoveToUpload_SelectPatient_v01_MainPanel": {
+            "name": "surfaceMainPanelMoveToUpload_SelectPatient_v01_MainPanel"
+        },
+        "surfaceMainPanelMoveToUpload_SelectStudy_v01_MainPanel": {
+            "name": "surfaceMainPanelMoveToUpload_SelectStudy_v01_MainPanel"
+        },
+        "surfaceMenusBack": {
+            "name": "surfaceMenusBack"
+        },
+        "surfaceOtherButtonPanelMoveToConfirmRegistrationPRE_Adjustment_Cut_OtherButtonPanel": {
+            "name": "surfaceOtherButtonPanelMoveToConfirmRegistrationPRE_Adjustment_Cut_OtherButtonPanel"
+        },
+        "surfaceOverlayPanelMoveToUpload_GenericModalOverlay_OverlayPanel": {
+            "name": "surfaceOverlayPanelMoveToUpload_GenericModalOverlay_OverlayPanel"
+        },
+        "surfacePopupsMoveToEditPoint": {
+            "name": "surfacePopupsMoveToEditPoint"
+        },
+        "surfacePositionCartInfoPanelMoveToPositionNEST_Variation1_PositionCartInfoPanel": {
+            "name": "surfacePositionCartInfoPanelMoveToPositionNEST_Variation1_PositionCartInfoPanel"
+        },
+        "surfaceRightInfoPanelMoveToPositionNEST_Variation1_RightInfoPanel": {
+            "name": "surfaceRightInfoPanelMoveToPositionNEST_Variation1_RightInfoPanel"
+        },
+        "surfaceScreensMoveToCT_Planning_Add_Tool_Overlay_ScreenState": {
+            "name": "surfaceScreensMoveToCT_Planning_Add_Tool_Overlay_ScreenState"
+        },
+        "surfaceScreensMoveToCT_Planning_Default_ScreenState": {
+            "name": "surfaceScreensMoveToCT_Planning_Default_ScreenState"
+        },
+        "surfaceScreensMoveToConfirmRegistrationPRE_Adjustment_Cut_ScreenState": {
+            "name": "surfaceScreensMoveToConfirmRegistrationPRE_Adjustment_Cut_ScreenState"
+        },
+        "surfaceScreensMoveToLoginView_Default_ScreenState": {
+            "name": "surfaceScreensMoveToLoginView_Default_ScreenState"
+        },
+        "surfaceScreensMoveToLoginView_LoginSuccess_ScreenState": {
+            "name": "surfaceScreensMoveToLoginView_LoginSuccess_ScreenState"
+        },
+        "surfaceScreensMoveToPositionNEST_Variation1_ScreenState": {
+            "name": "surfaceScreensMoveToPositionNEST_Variation1_ScreenState"
+        },
+        "surfaceScreensMoveToSegmentation_Default_ScreenState": {
+            "name": "surfaceScreensMoveToSegmentation_Default_ScreenState"
+        },
+        "surfaceScreensMoveToUpload_SelectPatient_v01_ScreenState": {
+            "name": "surfaceScreensMoveToUpload_SelectPatient_v01_ScreenState"
+        },
+        "surfaceScreensMoveToUpload_SelectStudy_v01_ScreenState": {
+            "name": "surfaceScreensMoveToUpload_SelectStudy_v01_ScreenState"
+        },
+        "surfaceTitlePanelMoveToTitlePanel_Shared0": {
+            "name": "surfaceTitlePanelMoveToTitlePanel_Shared0"
+        }
+    },
+    "targetFile": "SurfaceController.ghi"
+}

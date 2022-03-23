@@ -1,0 +1,37 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "39:1719"
+    },
+    "id": "fi_Rectangle_81",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 496
+        },
+        "horizontalCenterOffset": {
+            "name": "horizontalCenterOffset",
+            "type": "Int",
+            "value": 10
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/39_1719.png"
+        },
+        "verticalCenterOffset": {
+            "name": "verticalCenterOffset",
+            "type": "Int",
+            "value": 10
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 800
+        }
+    },
+    "targetFile": "fi_Rectangle_81.ghuie",
+    "type": "DecorativeSet.DecoratedItem",
+    "userDefined": false
+}

@@ -1,0 +1,18 @@
+{
+    "source": "TitlePanelHidden",
+    "target": "TitlePanel_Shared0",
+    "targetFile": "TitlePanelHidden_TitlePanel_Shared0.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "showTitlePanel"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

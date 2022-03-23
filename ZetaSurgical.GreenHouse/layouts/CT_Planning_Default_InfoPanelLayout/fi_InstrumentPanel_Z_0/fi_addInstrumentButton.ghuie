@@ -1,0 +1,53 @@
+{
+    "anchorBottom": {
+        "anchorMargin": 32,
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorLeft": {
+        "anchorMargin": 32,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorRight": {
+        "anchorMargin": 32,
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "34:2917"
+    },
+    "id": "fi_addInstrumentButton",
+    "properties": {
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 392
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 32
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 344
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_addInstrumentButton__onEvent__clicked()\n"
+        }
+    },
+    "targetFile": "fi_addInstrumentButton.ghuie",
+    "type": "ZetaSurgicalSet.AddLineButton",
+    "userDefined": false
+}

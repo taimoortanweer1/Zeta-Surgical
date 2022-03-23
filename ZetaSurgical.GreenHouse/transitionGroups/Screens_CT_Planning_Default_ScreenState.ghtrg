@@ -1,0 +1,19 @@
+{
+    "source": "Screens",
+    "target": "CT_Planning_Default_ScreenState",
+    "targetFile": "Screens_CT_Planning_Default_ScreenState.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceScreensMoveToCT_Planning_Default_ScreenState"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{7ebb2e92-f302-4773-b759-81a6c9e99ca3}"
+}

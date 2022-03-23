@@ -1,0 +1,20 @@
+{
+    "blockInputFallthrough": true,
+    "childrenSplit": true,
+    "fillParent": false,
+    "height": 1080,
+    "hideAnimation": {
+        "type": "Sequential"
+    },
+    "interfaceName": "ConfirmRegistrationPRE_Adjustment_Cut_MainPanelIFace",
+    "name": "ConfirmRegistrationPRE_Adjustment_Cut_MainPanelLayout",
+    "posX": 128,
+    "posY": 0,
+    "rootContainerType": "Item",
+    "showAnimation": {
+        "type": "Sequential"
+    },
+    "targetFile": "ConfirmRegistrationPRE_Adjustment_Cut_MainPanelLayout.ghl",
+    "uuid": "{4132dc1a-fd8f-472e-ada0-88aa59990afc}",
+    "width": 1336
+}

@@ -1,0 +1,20 @@
+{
+    "blockInputFallthrough": true,
+    "childrenSplit": true,
+    "fillParent": false,
+    "height": 496,
+    "hideAnimation": {
+        "type": "Sequential"
+    },
+    "interfaceName": "LoginView_LoginSuccess_LoginPanelIFace",
+    "name": "LoginView_LoginSuccess_LoginPanelLayout",
+    "posX": 560,
+    "posY": 292,
+    "rootContainerType": "Item",
+    "showAnimation": {
+        "type": "Sequential"
+    },
+    "targetFile": "LoginView_LoginSuccess_LoginPanelLayout.ghl",
+    "uuid": "{e95f9077-3f76-4498-ae1d-9134590d866f}",
+    "width": 800
+}

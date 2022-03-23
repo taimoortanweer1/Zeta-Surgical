@@ -1,0 +1,42 @@
+{
+    "anchorRight": {
+        "anchorMargin": 32,
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "anchorTop": {
+        "anchorMargin": 80,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "49:2071"
+    },
+    "id": "fi_right",
+    "properties": {
+        "rotation": {
+            "name": "rotation",
+            "type": "Float",
+            "value": -90
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 296
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 80
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "targetFile": "fi_right.ghuie",
+    "type": "ZetaSurgicalSet.ArrowButtonRight",
+    "userDefined": false
+}

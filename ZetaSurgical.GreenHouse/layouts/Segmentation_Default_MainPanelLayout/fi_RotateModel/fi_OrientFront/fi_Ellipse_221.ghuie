@@ -1,0 +1,46 @@
+{
+    "anchorHCenter": {
+        "anchorMargin": -36,
+        "anchorTarget": "parent",
+        "anchorValue": "HorizontalCenter"
+    },
+    "anchorVCenter": {
+        "anchorTarget": "parent",
+        "anchorValue": "VerticalCenter"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "23:10054"
+    },
+    "id": "fi_Ellipse_221",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 755
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/23_10054.png"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 68
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 300
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "targetFile": "fi_Ellipse_221.ghuie",
+    "type": "Image",
+    "userDefined": false
+}

@@ -1,0 +1,42 @@
+module Controls
+
+BorderRectangle 1.0 BorderRectangle.qml
+BrowseButton 1.0 BrowseButton.qml
+Checkerboard 1.0 Checkerboard.qml
+CloseButton 1.0 CloseButton.qml
+ExpandButton 1.0 ExpandButton.qml
+ExpandContractHandle 1.0 ExpandContractHandle.qml
+FocusOutline 1.0 FocusOutline.qml
+FocusScopeSequenceController 1.0 FocusScopeSequenceController.qml
+IconButton 1.0 IconButton.qml
+InfoButton 1.0 InfoButton.qml
+LargeButton 1.0 LargeButton.qml
+RemoveButton 1.0 RemoveButton.qml
+Splitter 1.0 Splitter.qml
+TabButtonRow 1.0 TabButtonRow.qml
+TabRowButton 1.0 TabRowButton.qml
+TitleBar 1.0 TitleBar.qml
+
+DecoratedButton 1.0 DecoratedButton.qml
+DecoratedCheckBox 1.0 DecoratedCheckBox.qml
+DecoratedCodeEditor 1.0 DecoratedCodeEditor.qml
+DecoratedComboBox 1.0 DecoratedComboBox.qml
+DecoratedDialog 1.0 DecoratedDialog.qml
+DecoratedDialogButton 1.0 DecoratedDialogButton.qml
+DecoratedFlickable 1.0 DecoratedFlickable.qml
+DecoratedLabel 1.0 DecoratedLabel.qml
+DecoratedListItem 1.0 DecoratedListItem.qml
+DecoratedListView 1.0 DecoratedListView.qml
+DecoratedLogDisplay 1.0 DecoratedLogDisplay.qml
+DecoratedMenu 1.0 DecoratedMenu.qml
+DecoratedPopup 1.0 DecoratedPopup.qml
+DecoratedProgressBar 1.0 DecoratedProgressBar.qml
+DecoratedScrollBar 1.0 DecoratedScrollBar.qml
+DecoratedScrollBarCorner 1.0 DecoratedScrollBarCorner.qml
+DecoratedSpinBox 1.0 DecoratedSpinBox.qml
+DecoratedSwitch 1.0 DecoratedSwitch.qml
+DecoratedTableItem 1.0 DecoratedTableItem.qml
+DecoratedTextArea 1.0 DecoratedTextArea.qml
+DecoratedTextField 1.0 DecoratedTextField.qml
+DecoratedToolTip 1.0 DecoratedToolTip.qml
+DecoratedViewportBase 1.0 DecoratedViewportBase.qml

@@ -1,0 +1,47 @@
+{
+    "anchorBottom": {
+        "anchorMargin": 25,
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorRight": {
+        "anchorMargin": 21,
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "40:2114"
+    },
+    "id": "fi_bad",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 40
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 40
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 331
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 223
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "targetFile": "fi_bad.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

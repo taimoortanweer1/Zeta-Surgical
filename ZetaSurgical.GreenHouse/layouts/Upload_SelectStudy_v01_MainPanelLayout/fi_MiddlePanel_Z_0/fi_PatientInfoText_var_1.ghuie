@@ -1,0 +1,43 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 32,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "164:8283"
+    },
+    "id": "fi_PatientInfoText_var_1",
+    "properties": {
+        "fi_9089123423_text": {
+            "name": "fi_9089123423_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I164:8283;164:8280",
+            "value": "9089123423 "
+        },
+        "fi_John_Doe_text": {
+            "name": "fi_John_Doe_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I164:8283;164:8232",
+            "value": "John Doe "
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 32
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 3
+        }
+    },
+    "targetFile": "fi_PatientInfoText_var_1.ghuie",
+    "type": "ZetaSurgicalSet.PatientInfoText_var_1",
+    "userDefined": false
+}

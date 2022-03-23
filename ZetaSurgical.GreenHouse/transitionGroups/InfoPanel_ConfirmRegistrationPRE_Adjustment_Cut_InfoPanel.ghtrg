@@ -1,0 +1,18 @@
+{
+    "source": "InfoPanel",
+    "target": "ConfirmRegistrationPRE_Adjustment_Cut_InfoPanel",
+    "targetFile": "InfoPanel_ConfirmRegistrationPRE_Adjustment_Cut_InfoPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceInfoPanelMoveToConfirmRegistrationPRE_Adjustment_Cut_InfoPanel"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

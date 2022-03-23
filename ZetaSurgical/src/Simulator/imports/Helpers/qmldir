@@ -1,0 +1,5 @@
+module Helpers 
+
+DrawFunctions 1.0 DrawFunctions.js
+UIConstants 1.0 UIConstants.js
+QmlEnums 1.0 QmlEnums.js

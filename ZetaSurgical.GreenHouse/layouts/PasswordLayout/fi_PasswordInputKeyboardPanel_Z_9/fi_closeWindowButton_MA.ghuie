@@ -1,0 +1,30 @@
+{
+    "anchorBottom": {
+        "anchorTarget": "fi_closeWindowButton",
+        "anchorValue": "Bottom"
+    },
+    "anchorLeft": {
+        "anchorTarget": "fi_closeWindowButton",
+        "anchorValue": "Left"
+    },
+    "anchorRight": {
+        "anchorTarget": "fi_closeWindowButton",
+        "anchorValue": "Right"
+    },
+    "anchorTop": {
+        "anchorTarget": "fi_closeWindowButton",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "id": "fi_closeWindowButton_MA",
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_closeWindowButton_MA__onEvent__clicked()\n"
+        }
+    },
+    "targetFile": "fi_closeWindowButton_MA.ghuie",
+    "type": "ComponentsSet.AutoRepeatMouseArea",
+    "userDefined": false,
+    "uuid": "{8af6430e-731f-493f-8775-3cfdd480b548}"
+}

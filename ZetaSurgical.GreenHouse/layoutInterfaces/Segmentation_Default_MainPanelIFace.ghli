@@ -1,0 +1,5 @@
+{
+    "base": "Displayable",
+    "name": "Segmentation_Default_MainPanelIFace",
+    "targetFile": "Segmentation_Default_MainPanelIFace.ghli"
+}

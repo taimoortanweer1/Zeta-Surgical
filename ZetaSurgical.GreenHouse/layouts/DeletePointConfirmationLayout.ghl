@@ -1,0 +1,20 @@
+{
+    "blockInputFallthrough": true,
+    "childrenSplit": true,
+    "fillParent": false,
+    "height": 1080,
+    "hideAnimation": {
+        "type": "Sequential"
+    },
+    "interfaceName": "DeletePointConfirmationIFace",
+    "name": "DeletePointConfirmationLayout",
+    "posX": 0,
+    "posY": 0,
+    "rootContainerType": "Item",
+    "showAnimation": {
+        "type": "Sequential"
+    },
+    "targetFile": "DeletePointConfirmationLayout.ghl",
+    "uuid": "{a76b3996-ae3e-4b67-b12b-a70484826617}",
+    "width": 1920
+}

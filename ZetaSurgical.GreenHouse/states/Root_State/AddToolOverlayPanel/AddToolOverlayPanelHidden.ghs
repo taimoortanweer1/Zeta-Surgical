@@ -1,0 +1,22 @@
+{
+    "children": [
+    ],
+    "childrenSplit": true,
+    "extraData": {
+        "orderValue": 0
+    },
+    "height": 0,
+    "posX": 0,
+    "posY": 0,
+    "properties": {
+        "childViewType": "ChildStateView",
+        "initial": true,
+        "name": "AddToolOverlayPanelHidden",
+        "parallel": false,
+        "parentingEnabled": true,
+        "preloadUI": false
+    },
+    "targetFile": "AddToolOverlayPanelHidden.ghs",
+    "template": "State",
+    "width": 0
+}

@@ -1,0 +1,18 @@
+{
+    "source": "PositionCartInfoPanel",
+    "target": "PositionNEST_Variation1_PositionCartInfoPanel",
+    "targetFile": "PositionCartInfoPanel_PositionNEST_Variation1_PositionCartInfoPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfacePositionCartInfoPanelMoveToPositionNEST_Variation1_PositionCartInfoPanel"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

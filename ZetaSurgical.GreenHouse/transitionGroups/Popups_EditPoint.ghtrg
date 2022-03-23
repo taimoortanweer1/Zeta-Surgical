@@ -1,0 +1,19 @@
+{
+    "source": "Popups",
+    "target": "EditPoint",
+    "targetFile": "Popups_EditPoint.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfacePopupsMoveToEditPoint"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{4c0bb6ac-dae5-4b96-a343-01a95f2409d0}"
+}

@@ -1,0 +1,37 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "37:1401"
+    },
+    "id": "fi_CTViewNoScroll_Z_0",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 540
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 668
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 668
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 540
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "targetFile": "fi_CTViewNoScroll_Z_0.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

@@ -1,0 +1,7 @@
+module Themes
+
+depends Styles 1.0
+
+singleton Theme 1.0 Theme.qml
+
+BaseTheme 1.0 BaseTheme.qml

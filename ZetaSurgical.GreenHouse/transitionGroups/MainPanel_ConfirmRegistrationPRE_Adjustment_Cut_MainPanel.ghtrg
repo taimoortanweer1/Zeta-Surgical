@@ -1,0 +1,18 @@
+{
+    "source": "MainPanel",
+    "target": "ConfirmRegistrationPRE_Adjustment_Cut_MainPanel",
+    "targetFile": "MainPanel_ConfirmRegistrationPRE_Adjustment_Cut_MainPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceMainPanelMoveToConfirmRegistrationPRE_Adjustment_Cut_MainPanel"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

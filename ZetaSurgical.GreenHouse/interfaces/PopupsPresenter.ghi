@@ -1,0 +1,46 @@
+{
+    "backendObject": false,
+    "hidden": false,
+    "methods": {
+        "onPasswordEdited": {
+            "arguments": [
+                {
+                    "name": "password",
+                    "preview": null,
+                    "type": "String"
+                }
+            ],
+            "name": "onPasswordEdited"
+        },
+        "onUserNameEdited": {
+            "arguments": [
+                {
+                    "name": "username",
+                    "preview": null,
+                    "type": "String"
+                }
+            ],
+            "name": "onUserNameEdited"
+        },
+        "passwordAccepted": {
+            "name": "passwordAccepted"
+        },
+        "userNameAccepted": {
+            "name": "userNameAccepted"
+        }
+    },
+    "name": "PopupsPresenter",
+    "signals": {
+        "closeAllPopups": {
+            "name": "closeAllPopups"
+        },
+        "inputPasswordShown": {
+            "name": "inputPasswordShown"
+        },
+        "inputUsernameShown": {
+            "name": "inputUsernameShown"
+        }
+    },
+    "targetFile": "PopupsPresenter.ghi",
+    "uuid": "{b5a0bfdc-ef7d-4e97-958f-7d31512bc37a}"
+}

@@ -1,0 +1,2 @@
+module ScriptModules
+ScriptableObject 1.0 ../ScriptableObject.qml

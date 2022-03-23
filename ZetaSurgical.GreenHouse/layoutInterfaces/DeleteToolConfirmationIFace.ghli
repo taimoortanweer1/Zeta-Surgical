@@ -1,0 +1,10 @@
+{
+    "base": "Displayable",
+    "name": "DeleteToolConfirmationIFace",
+    "signals": {
+        "fi_no__onEvent__clicked": {
+            "name": "fi_no__onEvent__clicked"
+        }
+    },
+    "targetFile": "DeleteToolConfirmationIFace.ghli"
+}

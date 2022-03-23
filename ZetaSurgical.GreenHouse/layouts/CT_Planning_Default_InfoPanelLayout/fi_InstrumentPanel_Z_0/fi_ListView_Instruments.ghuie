@@ -1,0 +1,52 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 32,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 112,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "78:2592"
+    },
+    "id": "fi_ListView_Instruments",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 200
+        },
+        "viewDelegate": {
+            "name": "viewDelegate",
+            "type": "Delegate",
+            "value": "fi_ListView_Instruments_delegate"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 352
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 32
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 112
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 3
+        }
+    },
+    "targetFile": "fi_ListView_Instruments.ghuie",
+    "type": "ComponentsSet.ModelView",
+    "userDefined": false
+}

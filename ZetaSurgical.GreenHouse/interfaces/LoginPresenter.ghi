@@ -1,0 +1,44 @@
+{
+    "backendObject": false,
+    "hidden": false,
+    "methods": {
+        "onLoginClicked": {
+            "name": "onLoginClicked"
+        },
+        "onPasswordEditRequested": {
+            "name": "onPasswordEditRequested"
+        },
+        "onUsernameEditRequested": {
+            "name": "onUsernameEditRequested"
+        }
+    },
+    "name": "LoginPresenter",
+    "properties": {
+        "arguments": [
+            {
+                "name": "enteredUsername",
+                "preview": null,
+                "readonly": true,
+                "type": "String"
+            },
+            {
+                "name": "enteredPassword",
+                "preview": null,
+                "readonly": true,
+                "type": "String"
+            },
+            {
+                "name": "invalidCredentialsEntered",
+                "preview": null,
+                "type": "Bool"
+            }
+        ]
+    },
+    "signals": {
+        "loggedInScreenShown": {
+            "name": "loggedInScreenShown"
+        }
+    },
+    "targetFile": "LoginPresenter.ghi",
+    "uuid": "{d433140c-2655-4f93-83f4-2a423a3c525d}"
+}

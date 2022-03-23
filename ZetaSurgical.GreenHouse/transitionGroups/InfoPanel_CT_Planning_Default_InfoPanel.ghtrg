@@ -1,0 +1,18 @@
+{
+    "source": "InfoPanel",
+    "target": "CT_Planning_Default_InfoPanel",
+    "targetFile": "InfoPanel_CT_Planning_Default_InfoPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceInfoPanelMoveToCT_Planning_Default_InfoPanel"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

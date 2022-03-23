@@ -1,0 +1,37 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "40:2176"
+    },
+    "id": "fi_Bad",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 176
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 240
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 32
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 464
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "targetFile": "fi_Bad.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

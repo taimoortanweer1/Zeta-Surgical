@@ -1,0 +1,44 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "22:3513"
+    },
+    "id": "fi_loginButton",
+    "properties": {
+        "fi_BUTTON_TEXT_text": {
+            "name": "fi_BUTTON_TEXT_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I22:3513;2:5",
+            "value": "LOGIN"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 352
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 224
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 368
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_loginButton__onEvent__clicked()\n"
+        }
+    },
+    "targetFile": "fi_loginButton.ghuie",
+    "type": "ZetaSurgicalSet.NextButton",
+    "userDefined": false
+}

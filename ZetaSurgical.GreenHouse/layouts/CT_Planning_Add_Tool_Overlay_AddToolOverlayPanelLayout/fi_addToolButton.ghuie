@@ -1,0 +1,38 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "46:2472"
+    },
+    "id": "fi_addToolButton",
+    "properties": {
+        "fi_BUTTON_TEXT_text": {
+            "name": "fi_BUTTON_TEXT_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I46:2472;2:5",
+            "value": "Add Tool"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 360
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 48
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 968
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "targetFile": "fi_addToolButton.ghuie",
+    "type": "ZetaSurgicalSet.NextButton",
+    "userDefined": false
+}

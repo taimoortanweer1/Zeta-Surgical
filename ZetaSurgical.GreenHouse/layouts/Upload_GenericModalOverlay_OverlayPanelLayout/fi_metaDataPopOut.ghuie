@@ -1,0 +1,27 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "164:8587"
+    },
+    "id": "fi_metaDataPopOut",
+    "properties": {
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 560
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 132
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "targetFile": "fi_metaDataPopOut.ghuie",
+    "type": "ZetaSurgicalSet.MetaDataTablePanel",
+    "userDefined": false
+}

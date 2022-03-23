@@ -1,0 +1,53 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 244,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorRight": {
+        "anchorMargin": 32,
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "anchorTop": {
+        "anchorMargin": 260,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "84:3287"
+    },
+    "id": "fi_yes",
+    "properties": {
+        "fi_TEXT_text": {
+            "name": "fi_TEXT_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I84:3287;35:1346",
+            "value": "YES"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 180
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 244
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 260
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "targetFile": "fi_yes.ghuie",
+    "type": "ZetaSurgicalSet.DecisionButton",
+    "userDefined": false
+}

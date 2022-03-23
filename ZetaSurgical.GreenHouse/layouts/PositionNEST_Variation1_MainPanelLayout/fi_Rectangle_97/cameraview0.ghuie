@@ -1,0 +1,29 @@
+{
+    "childrenSplit": true,
+    "id": "cameraview0",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 619
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 808
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 80.10956019285186
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 263.28768107564
+        }
+    },
+    "targetFile": "cameraview0.ghuie",
+    "type": "ExtendedSet.CameraView",
+    "userDefined": true
+}

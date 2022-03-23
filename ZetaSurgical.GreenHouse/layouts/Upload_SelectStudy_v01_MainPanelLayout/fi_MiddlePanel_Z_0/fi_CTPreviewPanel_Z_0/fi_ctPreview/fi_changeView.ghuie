@@ -1,0 +1,37 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 216,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 16,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "164:7528"
+    },
+    "id": "fi_changeView",
+    "properties": {
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 216
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 16
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 4
+        }
+    },
+    "targetFile": "fi_changeView.ghuie",
+    "type": "ZetaSurgicalSet.ChangeViewDropDown",
+    "userDefined": false
+}

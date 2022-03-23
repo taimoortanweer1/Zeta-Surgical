@@ -1,0 +1,1040 @@
+{
+    "aliasList": {
+        "fi_02_14_2022___default": [
+            {
+                "aliasElement": "font",
+                "aliasName": "fi_02_14_2022_font",
+                "aliasSource": "fi_02_14_2022___default"
+            },
+            {
+                "aliasElement": "horizontalAlignment",
+                "aliasName": "fi_02_14_2022_horizontalAlignment",
+                "aliasSource": "fi_02_14_2022___default"
+            },
+            {
+                "aliasElement": "lineHeight",
+                "aliasName": "fi_02_14_2022_lineHeight",
+                "aliasSource": "fi_02_14_2022___default"
+            },
+            {
+                "aliasElement": "lineHeightMode",
+                "aliasName": "fi_02_14_2022_lineHeightMode",
+                "aliasSource": "fi_02_14_2022___default"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "fi_02_14_2022_opacity",
+                "aliasSource": "fi_02_14_2022___default"
+            },
+            {
+                "aliasElement": "richText",
+                "aliasName": "fi_02_14_2022_richText",
+                "aliasSource": "fi_02_14_2022___default"
+            },
+            {
+                "aliasElement": "text",
+                "aliasName": "fi_02_14_2022_text",
+                "aliasSource": "fi_02_14_2022___default"
+            },
+            {
+                "aliasElement": "textColor",
+                "aliasName": "fi_02_14_2022_textColor",
+                "aliasSource": "fi_02_14_2022___default"
+            },
+            {
+                "aliasElement": "verticalAlignment",
+                "aliasName": "fi_02_14_2022_verticalAlignment",
+                "aliasSource": "fi_02_14_2022___default"
+            }
+        ],
+        "fi_130___default": [
+            {
+                "aliasElement": "font",
+                "aliasName": "fi_130_font",
+                "aliasSource": "fi_130___default"
+            },
+            {
+                "aliasElement": "horizontalAlignment",
+                "aliasName": "fi_130_horizontalAlignment",
+                "aliasSource": "fi_130___default"
+            },
+            {
+                "aliasElement": "lineHeight",
+                "aliasName": "fi_130_lineHeight",
+                "aliasSource": "fi_130___default"
+            },
+            {
+                "aliasElement": "lineHeightMode",
+                "aliasName": "fi_130_lineHeightMode",
+                "aliasSource": "fi_130___default"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "fi_130_opacity",
+                "aliasSource": "fi_130___default"
+            },
+            {
+                "aliasElement": "richText",
+                "aliasName": "fi_130_richText",
+                "aliasSource": "fi_130___default"
+            },
+            {
+                "aliasElement": "text",
+                "aliasName": "fi_130_text",
+                "aliasSource": "fi_130___default"
+            },
+            {
+                "aliasElement": "textColor",
+                "aliasName": "fi_130_textColor",
+                "aliasSource": "fi_130___default"
+            },
+            {
+                "aliasElement": "verticalAlignment",
+                "aliasName": "fi_130_verticalAlignment",
+                "aliasSource": "fi_130___default"
+            }
+        ],
+        "fi_1___default": [
+            {
+                "aliasElement": "font",
+                "aliasName": "fi_1_font",
+                "aliasSource": "fi_1___default"
+            },
+            {
+                "aliasElement": "horizontalAlignment",
+                "aliasName": "fi_1_horizontalAlignment",
+                "aliasSource": "fi_1___default"
+            },
+            {
+                "aliasElement": "lineHeight",
+                "aliasName": "fi_1_lineHeight",
+                "aliasSource": "fi_1___default"
+            },
+            {
+                "aliasElement": "lineHeightMode",
+                "aliasName": "fi_1_lineHeightMode",
+                "aliasSource": "fi_1___default"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "fi_1_opacity",
+                "aliasSource": "fi_1___default"
+            },
+            {
+                "aliasElement": "richText",
+                "aliasName": "fi_1_richText",
+                "aliasSource": "fi_1___default"
+            },
+            {
+                "aliasElement": "text",
+                "aliasName": "fi_1_text",
+                "aliasSource": "fi_1___default"
+            },
+            {
+                "aliasElement": "textColor",
+                "aliasName": "fi_1_textColor",
+                "aliasSource": "fi_1___default"
+            },
+            {
+                "aliasElement": "verticalAlignment",
+                "aliasName": "fi_1_verticalAlignment",
+                "aliasSource": "fi_1___default"
+            }
+        ],
+        "fi_512x512___default": [
+            {
+                "aliasElement": "font",
+                "aliasName": "fi_512x512_font",
+                "aliasSource": "fi_512x512___default"
+            },
+            {
+                "aliasElement": "horizontalAlignment",
+                "aliasName": "fi_512x512_horizontalAlignment",
+                "aliasSource": "fi_512x512___default"
+            },
+            {
+                "aliasElement": "lineHeight",
+                "aliasName": "fi_512x512_lineHeight",
+                "aliasSource": "fi_512x512___default"
+            },
+            {
+                "aliasElement": "lineHeightMode",
+                "aliasName": "fi_512x512_lineHeightMode",
+                "aliasSource": "fi_512x512___default"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "fi_512x512_opacity",
+                "aliasSource": "fi_512x512___default"
+            },
+            {
+                "aliasElement": "richText",
+                "aliasName": "fi_512x512_richText",
+                "aliasSource": "fi_512x512___default"
+            },
+            {
+                "aliasElement": "text",
+                "aliasName": "fi_512x512_text",
+                "aliasSource": "fi_512x512___default"
+            },
+            {
+                "aliasElement": "textColor",
+                "aliasName": "fi_512x512_textColor",
+                "aliasSource": "fi_512x512___default"
+            },
+            {
+                "aliasElement": "verticalAlignment",
+                "aliasName": "fi_512x512_verticalAlignment",
+                "aliasSource": "fi_512x512___default"
+            }
+        ],
+        "fi_MRI___default": [
+            {
+                "aliasElement": "font",
+                "aliasName": "fi_MRI_font",
+                "aliasSource": "fi_MRI___default"
+            },
+            {
+                "aliasElement": "horizontalAlignment",
+                "aliasName": "fi_MRI_horizontalAlignment",
+                "aliasSource": "fi_MRI___default"
+            },
+            {
+                "aliasElement": "lineHeight",
+                "aliasName": "fi_MRI_lineHeight",
+                "aliasSource": "fi_MRI___default"
+            },
+            {
+                "aliasElement": "lineHeightMode",
+                "aliasName": "fi_MRI_lineHeightMode",
+                "aliasSource": "fi_MRI___default"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "fi_MRI_opacity",
+                "aliasSource": "fi_MRI___default"
+            },
+            {
+                "aliasElement": "richText",
+                "aliasName": "fi_MRI_richText",
+                "aliasSource": "fi_MRI___default"
+            },
+            {
+                "aliasElement": "text",
+                "aliasName": "fi_MRI_text",
+                "aliasSource": "fi_MRI___default"
+            },
+            {
+                "aliasElement": "textColor",
+                "aliasName": "fi_MRI_textColor",
+                "aliasSource": "fi_MRI___default"
+            },
+            {
+                "aliasElement": "verticalAlignment",
+                "aliasName": "fi_MRI_verticalAlignment",
+                "aliasSource": "fi_MRI___default"
+            }
+        ],
+        "fi_Sample_Collection___default": [
+            {
+                "aliasElement": "font",
+                "aliasName": "fi_Sample_Collection_font",
+                "aliasSource": "fi_Sample_Collection___default"
+            },
+            {
+                "aliasElement": "horizontalAlignment",
+                "aliasName": "fi_Sample_Collection_horizontalAlignment",
+                "aliasSource": "fi_Sample_Collection___default"
+            },
+            {
+                "aliasElement": "lineHeight",
+                "aliasName": "fi_Sample_Collection_lineHeight",
+                "aliasSource": "fi_Sample_Collection___default"
+            },
+            {
+                "aliasElement": "lineHeightMode",
+                "aliasName": "fi_Sample_Collection_lineHeightMode",
+                "aliasSource": "fi_Sample_Collection___default"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "fi_Sample_Collection_opacity",
+                "aliasSource": "fi_Sample_Collection___default"
+            },
+            {
+                "aliasElement": "richText",
+                "aliasName": "fi_Sample_Collection_richText",
+                "aliasSource": "fi_Sample_Collection___default"
+            },
+            {
+                "aliasElement": "text",
+                "aliasName": "fi_Sample_Collection_text",
+                "aliasSource": "fi_Sample_Collection___default"
+            },
+            {
+                "aliasElement": "textColor",
+                "aliasName": "fi_Sample_Collection_textColor",
+                "aliasSource": "fi_Sample_Collection___default"
+            },
+            {
+                "aliasElement": "verticalAlignment",
+                "aliasName": "fi_Sample_Collection_verticalAlignment",
+                "aliasSource": "fi_Sample_Collection___default"
+            }
+        ]
+    },
+    "componentLayout": {
+        "blockInputFallthrough": true,
+        "children": [
+            {
+                "children": [
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "__mouseArea",
+                        "properties": {
+                            "doubleClickEnabeld": {
+                                "bindingProp": "doubleClickEnabeld",
+                                "bindingSrc": "root",
+                                "itemBound": true,
+                                "name": "doubleClickEnabeld",
+                                "type": "Bool",
+                                "value": false
+                            },
+                            "minimumRepeatInterval": {
+                                "bindingProp": "minimumRepeatInterval",
+                                "bindingSrc": "root",
+                                "itemBound": true,
+                                "name": "minimumRepeatInterval",
+                                "type": "Int",
+                                "value": 100
+                            },
+                            "repeateInterval": {
+                                "bindingProp": "repeateInterval",
+                                "bindingSrc": "root",
+                                "itemBound": true,
+                                "name": "repeateInterval",
+                                "type": "Int",
+                                "value": 1000
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": -1
+                            }
+                        },
+                        "targetFile": "__mouseArea.ghuie",
+                        "type": "ComponentsSet.AutoRepeatMouseArea",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Rectangle_91___default",
+                        "properties": {
+                            "border-bottom": {
+                                "name": "border-bottom",
+                                "type": "Int",
+                                "value": 47
+                            },
+                            "border-left": {
+                                "name": "border-left",
+                                "type": "Int",
+                                "value": 47
+                            },
+                            "border-right": {
+                                "name": "border-right",
+                                "type": "Int",
+                                "value": 47
+                            },
+                            "border-top": {
+                                "name": "border-top",
+                                "type": "Int",
+                                "value": 47
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 96
+                            },
+                            "source": {
+                                "name": "source",
+                                "type": "Asset",
+                                "value": "/164_7749.png"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 1232
+                            }
+                        },
+                        "targetFile": "fi_Rectangle_91___default.ghuie",
+                        "type": "BorderImage",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorLeft": {
+                            "anchorMargin": -1,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorTop": {
+                            "anchorMargin": -1,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_1___default",
+                        "properties": {
+                            "font": {
+                                "name": "font",
+                                "type": "Font",
+                                "value": "Figma::Arial_ArialMT_28_50_0_0_0_0_0.2"
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 98
+                            },
+                            "horizontalAlignment": {
+                                "name": "horizontalAlignment",
+                                "type": "TextHorizontalAlignment",
+                                "value": "AlignHCenter"
+                            },
+                            "lineHeight": {
+                                "name": "lineHeight",
+                                "type": "Float",
+                                "value": 20
+                            },
+                            "lineHeightMode": {
+                                "name": "lineHeightMode",
+                                "type": "TextLineHeightMode",
+                                "value": "FixedHeight"
+                            },
+                            "text": {
+                                "name": "text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::164:7750",
+                                "value": "#1"
+                            },
+                            "textColor": {
+                                "name": "textColor",
+                                "type": "Color",
+                                "value": "Text/White"
+                            },
+                            "verticalAlignment": {
+                                "name": "verticalAlignment",
+                                "type": "TextVerticalAlignment",
+                                "value": "AlignVCenter"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 162
+                            },
+                            "wrapMode": {
+                                "name": "wrapMode",
+                                "type": "TextWrapMode",
+                                "value": "WordWrap"
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": -1
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": -1
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 1
+                            }
+                        },
+                        "targetFile": "fi_1___default.ghuie",
+                        "type": "ComponentsSet.Label",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorLeft": {
+                            "anchorMargin": 575,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorTop": {
+                            "anchorMargin": -1,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_MRI___default",
+                        "properties": {
+                            "font": {
+                                "name": "font",
+                                "type": "Font",
+                                "value": "Figma::Arial_ArialMT_28_50_0_0_0_0_0.2"
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 98
+                            },
+                            "horizontalAlignment": {
+                                "name": "horizontalAlignment",
+                                "type": "TextHorizontalAlignment",
+                                "value": "AlignHCenter"
+                            },
+                            "lineHeight": {
+                                "name": "lineHeight",
+                                "type": "Float",
+                                "value": 20
+                            },
+                            "lineHeightMode": {
+                                "name": "lineHeightMode",
+                                "type": "TextLineHeightMode",
+                                "value": "FixedHeight"
+                            },
+                            "text": {
+                                "name": "text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::164:7751",
+                                "value": "MRI"
+                            },
+                            "textColor": {
+                                "name": "textColor",
+                                "type": "Color",
+                                "value": "Text/White"
+                            },
+                            "verticalAlignment": {
+                                "name": "verticalAlignment",
+                                "type": "TextVerticalAlignment",
+                                "value": "AlignVCenter"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 162
+                            },
+                            "wrapMode": {
+                                "name": "wrapMode",
+                                "type": "TextWrapMode",
+                                "value": "WordWrap"
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 575
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": -1
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 2
+                            }
+                        },
+                        "targetFile": "fi_MRI___default.ghuie",
+                        "type": "ComponentsSet.Label",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorLeft": {
+                            "anchorMargin": 159,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorTop": {
+                            "anchorMargin": -1,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Sample_Collection___default",
+                        "properties": {
+                            "font": {
+                                "name": "font",
+                                "type": "Font",
+                                "value": "Figma::Arial_ArialMT_28_50_0_0_0_0_0.2"
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 98
+                            },
+                            "horizontalAlignment": {
+                                "name": "horizontalAlignment",
+                                "type": "TextHorizontalAlignment",
+                                "value": "AlignHCenter"
+                            },
+                            "lineHeight": {
+                                "name": "lineHeight",
+                                "type": "Float",
+                                "value": 20
+                            },
+                            "lineHeightMode": {
+                                "name": "lineHeightMode",
+                                "type": "TextLineHeightMode",
+                                "value": "FixedHeight"
+                            },
+                            "text": {
+                                "name": "text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::164:7752",
+                                "value": "Sample Collection"
+                            },
+                            "textColor": {
+                                "name": "textColor",
+                                "type": "Color",
+                                "value": "Text/White"
+                            },
+                            "verticalAlignment": {
+                                "name": "verticalAlignment",
+                                "type": "TextVerticalAlignment",
+                                "value": "AlignVCenter"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 418
+                            },
+                            "wrapMode": {
+                                "name": "wrapMode",
+                                "type": "TextWrapMode",
+                                "value": "WordWrap"
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 159
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": -1
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 3
+                            }
+                        },
+                        "targetFile": "fi_Sample_Collection___default.ghuie",
+                        "type": "ComponentsSet.Label",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorLeft": {
+                            "anchorMargin": 735,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorTop": {
+                            "anchorMargin": -1,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_512x512___default",
+                        "properties": {
+                            "font": {
+                                "name": "font",
+                                "type": "Font",
+                                "value": "Figma::Arial_ArialMT_28_50_0_0_0_0_0.2"
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 98
+                            },
+                            "horizontalAlignment": {
+                                "name": "horizontalAlignment",
+                                "type": "TextHorizontalAlignment",
+                                "value": "AlignHCenter"
+                            },
+                            "lineHeight": {
+                                "name": "lineHeight",
+                                "type": "Float",
+                                "value": 20
+                            },
+                            "lineHeightMode": {
+                                "name": "lineHeightMode",
+                                "type": "TextLineHeightMode",
+                                "value": "FixedHeight"
+                            },
+                            "text": {
+                                "name": "text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::164:7753",
+                                "value": "512x512"
+                            },
+                            "textColor": {
+                                "name": "textColor",
+                                "type": "Color",
+                                "value": "Text/White"
+                            },
+                            "verticalAlignment": {
+                                "name": "verticalAlignment",
+                                "type": "TextVerticalAlignment",
+                                "value": "AlignVCenter"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 162
+                            },
+                            "wrapMode": {
+                                "name": "wrapMode",
+                                "type": "TextWrapMode",
+                                "value": "WordWrap"
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 735
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": -1
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 4
+                            }
+                        },
+                        "targetFile": "fi_512x512___default.ghuie",
+                        "type": "ComponentsSet.Label",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorLeft": {
+                            "anchorMargin": 895,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorTop": {
+                            "anchorMargin": -1,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_130___default",
+                        "properties": {
+                            "font": {
+                                "name": "font",
+                                "type": "Font",
+                                "value": "Figma::Arial_ArialMT_28_50_0_0_0_0_0.2"
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 98
+                            },
+                            "horizontalAlignment": {
+                                "name": "horizontalAlignment",
+                                "type": "TextHorizontalAlignment",
+                                "value": "AlignHCenter"
+                            },
+                            "lineHeight": {
+                                "name": "lineHeight",
+                                "type": "Float",
+                                "value": 20
+                            },
+                            "lineHeightMode": {
+                                "name": "lineHeightMode",
+                                "type": "TextLineHeightMode",
+                                "value": "FixedHeight"
+                            },
+                            "text": {
+                                "name": "text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::164:7754",
+                                "value": "130"
+                            },
+                            "textColor": {
+                                "name": "textColor",
+                                "type": "Color",
+                                "value": "Text/White"
+                            },
+                            "verticalAlignment": {
+                                "name": "verticalAlignment",
+                                "type": "TextVerticalAlignment",
+                                "value": "AlignVCenter"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 138
+                            },
+                            "wrapMode": {
+                                "name": "wrapMode",
+                                "type": "TextWrapMode",
+                                "value": "WordWrap"
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 895
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": -1
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 5
+                            }
+                        },
+                        "targetFile": "fi_130___default.ghuie",
+                        "type": "ComponentsSet.Label",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorLeft": {
+                            "anchorMargin": 1031,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorTop": {
+                            "anchorMargin": -1,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_02_14_2022___default",
+                        "properties": {
+                            "font": {
+                                "name": "font",
+                                "type": "Font",
+                                "value": "Figma::Arial_ArialMT_28_50_0_0_0_0_0.2"
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 98
+                            },
+                            "horizontalAlignment": {
+                                "name": "horizontalAlignment",
+                                "type": "TextHorizontalAlignment",
+                                "value": "AlignHCenter"
+                            },
+                            "lineHeight": {
+                                "name": "lineHeight",
+                                "type": "Float",
+                                "value": 20
+                            },
+                            "lineHeightMode": {
+                                "name": "lineHeightMode",
+                                "type": "TextLineHeightMode",
+                                "value": "FixedHeight"
+                            },
+                            "text": {
+                                "name": "text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::164:7755",
+                                "value": "02/14/2022"
+                            },
+                            "textColor": {
+                                "name": "textColor",
+                                "type": "Color",
+                                "value": "Text/White"
+                            },
+                            "verticalAlignment": {
+                                "name": "verticalAlignment",
+                                "type": "TextVerticalAlignment",
+                                "value": "AlignVCenter"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 202
+                            },
+                            "wrapMode": {
+                                "name": "wrapMode",
+                                "type": "TextWrapMode",
+                                "value": "WordWrap"
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 1031
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": -1
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 6
+                            }
+                        },
+                        "targetFile": "fi_02_14_2022___default.ghuie",
+                        "type": "ComponentsSet.Label",
+                        "userDefined": false
+                    }
+                ],
+                "childrenSplit": true,
+                "id": "root",
+                "properties": {
+                    "height": {
+                        "name": "height",
+                        "type": "Int",
+                        "value": 96
+                    },
+                    "width": {
+                        "name": "width",
+                        "type": "Int",
+                        "value": 1232
+                    }
+                },
+                "targetFile": "root.ghuie",
+                "type": "Item",
+                "userDefined": false
+            }
+        ],
+        "childrenSplit": true,
+        "fillParent": false,
+        "height": 96,
+        "hideAnimation": {
+            "type": "Sequential"
+        },
+        "interfaceName": "",
+        "name": "___TEMP_LAYOUT___ZetaSurgicalSet.Table3DelegateListItem_Button",
+        "posX": 0,
+        "posY": 0,
+        "rootContainerType": "Item",
+        "showAnimation": {
+            "type": "Sequential"
+        },
+        "targetFile": "___TEMP_LAYOUT___ZetaSurgicalSet.Table3DelegateListItem_Button.ghl",
+        "width": 1232
+    },
+    "componentName": "ZetaSurgicalSet.Table3DelegateListItem_Button",
+    "properties": [
+        {
+            "name": "selectionIndex",
+            "type": "Int",
+            "value": -1
+        },
+        {
+            "name": "itemIndex",
+            "type": "Int",
+            "value": 0
+        },
+        {
+            "name": "repeateInterval",
+            "type": "Int",
+            "value": 1000
+        },
+        {
+            "name": "minimumRepeatInterval",
+            "type": "Int",
+            "value": 100
+        },
+        {
+            "name": "doubleClickEnabeld",
+            "type": "Bool",
+            "value": false
+        }
+    ],
+    "signalList": {
+        "__mouseArea": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "clicked",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "doubleClicked",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "pressed",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "released",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "repeatingTriggered",
+                "aliasSource": "__mouseArea"
+            }
+        ]
+    },
+    "states": {
+        "__main_state_group": {
+            "default": {
+                "group": "",
+                "name": "default",
+                "propertyChanges": [
+                    {
+                        "name": "source",
+                        "propertyChangeTarget": "fi_Rectangle_91___default",
+                        "type": "Asset",
+                        "value": "/164_7749.png"
+                    }
+                ],
+                "when": "!(root.selectionIndex == root.itemIndex)"
+            },
+            "selected": {
+                "group": "",
+                "name": "selected",
+                "propertyChanges": [
+                    {
+                        "name": "source",
+                        "propertyChangeTarget": "fi_Rectangle_91___default",
+                        "type": "Asset",
+                        "value": "/164_7766.png"
+                    }
+                ],
+                "when": "(root.selectionIndex == root.itemIndex)"
+            }
+        }
+    },
+    "targetFile": "Table3DelegateListItem_Button.ghcomp"
+}

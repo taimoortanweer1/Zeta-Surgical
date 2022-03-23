@@ -1,0 +1,16 @@
+{
+    "base": "Displayable",
+    "name": "CT_Planning_Default_InfoPanelIFace",
+    "signals": {
+        "fi_addInstrumentButton__onEvent__clicked": {
+            "name": "fi_addInstrumentButton__onEvent__clicked"
+        },
+        "fi_addTargetButton__onEvent__clicked": {
+            "name": "fi_addTargetButton__onEvent__clicked"
+        },
+        "fi_beginPositioningButton__onEvent__clicked": {
+            "name": "fi_beginPositioningButton__onEvent__clicked"
+        }
+    },
+    "targetFile": "CT_Planning_Default_InfoPanelIFace.ghli"
+}

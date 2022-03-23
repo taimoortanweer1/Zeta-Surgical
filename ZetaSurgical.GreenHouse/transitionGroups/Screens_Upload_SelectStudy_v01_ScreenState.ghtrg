@@ -1,0 +1,19 @@
+{
+    "source": "Screens",
+    "target": "Upload_SelectStudy_v01_ScreenState",
+    "targetFile": "Screens_Upload_SelectStudy_v01_ScreenState.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceScreensMoveToUpload_SelectStudy_v01_ScreenState"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{1c131414-0080-4b44-b8e6-c5b0d327a6ae}"
+}

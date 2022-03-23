@@ -1,0 +1,24 @@
+{
+    "source": "PositionNEST_Variation1_MainPanel",
+    "targetFile": "PositionNEST_Variation1_MainPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_proceedToRegistrationButton__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceScreensMoveToConfirmRegistrationPRE_Adjustment_Cut_ScreenState();\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        }
+    ]
+}

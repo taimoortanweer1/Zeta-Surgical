@@ -1,0 +1,17 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "174:1758"
+    },
+    "id": "fi_FileNavBar_Top",
+    "properties": {
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "targetFile": "fi_FileNavBar_Top.ghuie",
+    "type": "ZetaSurgicalSet.FileNavBar_Top_Default_State",
+    "userDefined": false
+}

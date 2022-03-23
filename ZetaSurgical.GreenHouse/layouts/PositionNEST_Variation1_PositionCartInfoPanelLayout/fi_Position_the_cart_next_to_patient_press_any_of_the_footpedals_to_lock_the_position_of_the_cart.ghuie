@@ -1,0 +1,68 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "40:2466"
+    },
+    "id": "fi_Position_the_cart_next_to_patient_press_any_of_the_footpedals_to_lock_the_position_of_the_cart",
+    "properties": {
+        "font": {
+            "name": "font",
+            "type": "Font",
+            "value": "Figma::Arial_ArialMT_22_50_0_0_0_0_0.2"
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 130
+        },
+        "lineHeight": {
+            "name": "lineHeight",
+            "type": "Float",
+            "value": 30
+        },
+        "lineHeightMode": {
+            "name": "lineHeightMode",
+            "type": "TextLineHeightMode",
+            "value": "FixedHeight"
+        },
+        "text": {
+            "name": "text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::40:2466",
+            "value": "Position the cart next to patient, press any of the foot-pedals to lock the position of the cart"
+        },
+        "textColor": {
+            "name": "textColor",
+            "type": "Color",
+            "value": "Text/White"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 314
+        },
+        "wrapMode": {
+            "name": "wrapMode",
+            "type": "TextWrapMode",
+            "value": "WordWrap"
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 111
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 111
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 4
+        }
+    },
+    "targetFile": "fi_Position_the_cart_next_to_patient_press_any_of_the_footpedals_to_lock_the_position_of_the_cart.ghuie",
+    "type": "ComponentsSet.Label",
+    "userDefined": false
+}

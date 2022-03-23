@@ -1,0 +1,18 @@
+{
+    "source": "MainPanel",
+    "target": "Segmentation_Default_MainPanel",
+    "targetFile": "MainPanel_Segmentation_Default_MainPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceMainPanelMoveToSegmentation_Default_MainPanel"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

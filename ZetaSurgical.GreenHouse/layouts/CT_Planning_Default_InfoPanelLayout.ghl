@@ -1,0 +1,143 @@
+{
+    "blockInputFallthrough": true,
+    "childrenSplit": true,
+    "delegates": [
+        {
+            "children": [
+                {
+                    "anchorLeft": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Left"
+                    },
+                    "anchorRight": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Right"
+                    },
+                    "anchorTop": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Top"
+                    },
+                    "childrenSplit": true,
+                    "extraData": {
+                        "FIGMA_ID": "78:2594"
+                    },
+                    "id": "fi_ModifyInstrumentButton",
+                    "properties": {
+                        "fi_Default_Instrument_text": {
+                            "name": "fi_Default_Instrument_text",
+                            "type": "TranslatableString",
+                            "uuid": "FigmaNode::I78:2594;79:2018",
+                            "value": "EVD Stylet"
+                        },
+                        "width": {
+                            "name": "width",
+                            "type": "Int",
+                            "value": 352
+                        }
+                    },
+                    "targetFile": "fi_ModifyInstrumentButton.ghuie",
+                    "type": "ZetaSurgicalSet.ModifyInstrumentButton",
+                    "userDefined": false
+                }
+            ],
+            "childrenSplit": true,
+            "id": "fi_ListView_Instruments_delegate",
+            "model": {
+                "name": "modelProperty",
+                "type": "Model",
+                "value": null
+            },
+            "properties": {
+                "height": {
+                    "name": "height",
+                    "type": "Int",
+                    "value": 80
+                },
+                "width": {
+                    "name": "width",
+                    "type": "Int",
+                    "value": 352
+                }
+            },
+            "targetFile": "fi_ListView_Instruments_delegate.ghuie",
+            "type": "FocusScope",
+            "userDefined": false
+        },
+        {
+            "children": [
+                {
+                    "anchorLeft": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Left"
+                    },
+                    "anchorRight": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Right"
+                    },
+                    "anchorTop": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Top"
+                    },
+                    "childrenSplit": true,
+                    "extraData": {
+                        "FIGMA_ID": "78:2549"
+                    },
+                    "id": "fi_target2Layout",
+                    "properties": {
+                        "fi_Default_Target_text": {
+                            "name": "fi_Default_Target_text",
+                            "type": "TranslatableString",
+                            "uuid": "FigmaNode::I78:2549;34:2716",
+                            "value": "Target 2"
+                        },
+                        "width": {
+                            "name": "width",
+                            "type": "Int",
+                            "value": 352
+                        }
+                    },
+                    "targetFile": "fi_target2Layout.ghuie",
+                    "type": "ZetaSurgicalSet.ModifyTargetButton",
+                    "userDefined": false
+                }
+            ],
+            "childrenSplit": true,
+            "id": "fi_ListView_Points_delegate",
+            "model": {
+                "name": "modelProperty",
+                "type": "Model",
+                "value": null
+            },
+            "properties": {
+                "height": {
+                    "name": "height",
+                    "type": "Int",
+                    "value": 80
+                },
+                "width": {
+                    "name": "width",
+                    "type": "Int",
+                    "value": 352
+                }
+            },
+            "targetFile": "fi_ListView_Points_delegate.ghuie",
+            "type": "FocusScope",
+            "userDefined": false
+        }
+    ],
+    "fillParent": false,
+    "height": 1080,
+    "hideAnimation": {
+        "type": "Sequential"
+    },
+    "interfaceName": "CT_Planning_Default_InfoPanelIFace",
+    "name": "CT_Planning_Default_InfoPanelLayout",
+    "posX": 1464,
+    "posY": 0,
+    "rootContainerType": "Item",
+    "showAnimation": {
+        "type": "Sequential"
+    },
+    "targetFile": "CT_Planning_Default_InfoPanelLayout.ghl",
+    "width": 456
+}

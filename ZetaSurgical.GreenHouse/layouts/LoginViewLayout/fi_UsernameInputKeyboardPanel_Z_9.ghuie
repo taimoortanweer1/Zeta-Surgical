@@ -1,0 +1,23 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "40:5515"
+    },
+    "id": "fi_UsernameInputKeyboardPanel_Z_9",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 1080
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 1920
+        }
+    },
+    "targetFile": "fi_UsernameInputKeyboardPanel_Z_9.ghuie",
+    "type": "Item",
+    "userDefined": false,
+    "uuid": "{509257a1-0327-4b08-866a-b6dff2d33a0f}"
+}

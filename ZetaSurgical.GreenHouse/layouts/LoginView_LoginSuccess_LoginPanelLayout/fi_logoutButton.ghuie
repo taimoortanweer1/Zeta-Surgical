@@ -1,0 +1,44 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "39:1720"
+    },
+    "id": "fi_logoutButton",
+    "properties": {
+        "fi_EXAMPLE_text": {
+            "name": "fi_EXAMPLE_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I39:1720;7:1252",
+            "value": "LOGOUT"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 352
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 224
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 368
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_logoutButton__onEvent__clicked()\n"
+        }
+    },
+    "targetFile": "fi_logoutButton.ghuie",
+    "type": "ZetaSurgicalSet.SelectButton",
+    "userDefined": false
+}

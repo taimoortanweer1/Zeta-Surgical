@@ -1,0 +1,53 @@
+{
+    "anchorBottom": {
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorLeft": {
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorRight": {
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "anchorTop": {
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "164:7524"
+    },
+    "id": "fi_Rectangle",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 520
+        },
+        "horizontalCenterOffset": {
+            "name": "horizontalCenterOffset",
+            "type": "Int",
+            "value": 10
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/164_7524.png"
+        },
+        "verticalCenterOffset": {
+            "name": "verticalCenterOffset",
+            "type": "Int",
+            "value": 10
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 392
+        }
+    },
+    "targetFile": "fi_Rectangle.ghuie",
+    "type": "DecorativeSet.DecoratedItem",
+    "userDefined": false
+}

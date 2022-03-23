@@ -1,0 +1,811 @@
+{
+    "aliasList": {
+        "fi_01_01_1990": [
+            {
+                "aliasElement": "textColor",
+                "aliasName": "fi_01_01_1990_labelColor",
+                "aliasSource": "fi_01_01_1990"
+            },
+            {
+                "aliasElement": "text",
+                "aliasName": "fi_01_01_1990_text",
+                "aliasSource": "fi_01_01_1990"
+            },
+            {
+                "aliasElement": "verticalAlignment",
+                "aliasName": "fi_01_01_1990_verticalAlignment",
+                "aliasSource": "fi_01_01_1990"
+            },
+            {
+                "aliasElement": "horizontalAlignment",
+                "aliasName": "fi_01_01_1990_horizontalAlignment",
+                "aliasSource": "fi_01_01_1990"
+            },
+            {
+                "aliasElement": "lineHeight",
+                "aliasName": "fi_01_01_1990_lineHeight",
+                "aliasSource": "fi_01_01_1990"
+            },
+            {
+                "aliasElement": "lineHeightMode",
+                "aliasName": "fi_01_01_1990_lineHeightMode",
+                "aliasSource": "fi_01_01_1990"
+            },
+            {
+                "aliasElement": "richText",
+                "aliasName": "fi_01_01_1990_richText",
+                "aliasSource": "fi_01_01_1990"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "fi_01_01_1990_opacity",
+                "aliasSource": "fi_01_01_1990"
+            },
+            {
+                "aliasElement": "font",
+                "aliasName": "fi_01_01_1990_font",
+                "aliasSource": "fi_01_01_1990"
+            }
+        ],
+        "fi_9089123423": [
+            {
+                "aliasElement": "textColor",
+                "aliasName": "fi_9089123423_labelColor",
+                "aliasSource": "fi_9089123423"
+            },
+            {
+                "aliasElement": "text",
+                "aliasName": "fi_9089123423_text",
+                "aliasSource": "fi_9089123423"
+            },
+            {
+                "aliasElement": "verticalAlignment",
+                "aliasName": "fi_9089123423_verticalAlignment",
+                "aliasSource": "fi_9089123423"
+            },
+            {
+                "aliasElement": "horizontalAlignment",
+                "aliasName": "fi_9089123423_horizontalAlignment",
+                "aliasSource": "fi_9089123423"
+            },
+            {
+                "aliasElement": "lineHeight",
+                "aliasName": "fi_9089123423_lineHeight",
+                "aliasSource": "fi_9089123423"
+            },
+            {
+                "aliasElement": "lineHeightMode",
+                "aliasName": "fi_9089123423_lineHeightMode",
+                "aliasSource": "fi_9089123423"
+            },
+            {
+                "aliasElement": "richText",
+                "aliasName": "fi_9089123423_richText",
+                "aliasSource": "fi_9089123423"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "fi_9089123423_opacity",
+                "aliasSource": "fi_9089123423"
+            },
+            {
+                "aliasElement": "font",
+                "aliasName": "fi_9089123423_font",
+                "aliasSource": "fi_9089123423"
+            }
+        ],
+        "fi_Date_of_Birth_": [
+            {
+                "aliasElement": "textColor",
+                "aliasName": "fi_Date_of_Birth__labelColor",
+                "aliasSource": "fi_Date_of_Birth_"
+            },
+            {
+                "aliasElement": "text",
+                "aliasName": "fi_Date_of_Birth__text",
+                "aliasSource": "fi_Date_of_Birth_"
+            },
+            {
+                "aliasElement": "verticalAlignment",
+                "aliasName": "fi_Date_of_Birth__verticalAlignment",
+                "aliasSource": "fi_Date_of_Birth_"
+            },
+            {
+                "aliasElement": "horizontalAlignment",
+                "aliasName": "fi_Date_of_Birth__horizontalAlignment",
+                "aliasSource": "fi_Date_of_Birth_"
+            },
+            {
+                "aliasElement": "lineHeight",
+                "aliasName": "fi_Date_of_Birth__lineHeight",
+                "aliasSource": "fi_Date_of_Birth_"
+            },
+            {
+                "aliasElement": "lineHeightMode",
+                "aliasName": "fi_Date_of_Birth__lineHeightMode",
+                "aliasSource": "fi_Date_of_Birth_"
+            },
+            {
+                "aliasElement": "richText",
+                "aliasName": "fi_Date_of_Birth__richText",
+                "aliasSource": "fi_Date_of_Birth_"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "fi_Date_of_Birth__opacity",
+                "aliasSource": "fi_Date_of_Birth_"
+            },
+            {
+                "aliasElement": "font",
+                "aliasName": "fi_Date_of_Birth__font",
+                "aliasSource": "fi_Date_of_Birth_"
+            }
+        ],
+        "fi_John_Doe": [
+            {
+                "aliasElement": "textColor",
+                "aliasName": "fi_John_Doe_labelColor",
+                "aliasSource": "fi_John_Doe"
+            },
+            {
+                "aliasElement": "text",
+                "aliasName": "fi_John_Doe_text",
+                "aliasSource": "fi_John_Doe"
+            },
+            {
+                "aliasElement": "verticalAlignment",
+                "aliasName": "fi_John_Doe_verticalAlignment",
+                "aliasSource": "fi_John_Doe"
+            },
+            {
+                "aliasElement": "horizontalAlignment",
+                "aliasName": "fi_John_Doe_horizontalAlignment",
+                "aliasSource": "fi_John_Doe"
+            },
+            {
+                "aliasElement": "lineHeight",
+                "aliasName": "fi_John_Doe_lineHeight",
+                "aliasSource": "fi_John_Doe"
+            },
+            {
+                "aliasElement": "lineHeightMode",
+                "aliasName": "fi_John_Doe_lineHeightMode",
+                "aliasSource": "fi_John_Doe"
+            },
+            {
+                "aliasElement": "richText",
+                "aliasName": "fi_John_Doe_richText",
+                "aliasSource": "fi_John_Doe"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "fi_John_Doe_opacity",
+                "aliasSource": "fi_John_Doe"
+            },
+            {
+                "aliasElement": "font",
+                "aliasName": "fi_John_Doe_font",
+                "aliasSource": "fi_John_Doe"
+            }
+        ],
+        "fi_MRN_": [
+            {
+                "aliasElement": "textColor",
+                "aliasName": "fi_MRN__labelColor",
+                "aliasSource": "fi_MRN_"
+            },
+            {
+                "aliasElement": "text",
+                "aliasName": "fi_MRN__text",
+                "aliasSource": "fi_MRN_"
+            },
+            {
+                "aliasElement": "verticalAlignment",
+                "aliasName": "fi_MRN__verticalAlignment",
+                "aliasSource": "fi_MRN_"
+            },
+            {
+                "aliasElement": "horizontalAlignment",
+                "aliasName": "fi_MRN__horizontalAlignment",
+                "aliasSource": "fi_MRN_"
+            },
+            {
+                "aliasElement": "lineHeight",
+                "aliasName": "fi_MRN__lineHeight",
+                "aliasSource": "fi_MRN_"
+            },
+            {
+                "aliasElement": "lineHeightMode",
+                "aliasName": "fi_MRN__lineHeightMode",
+                "aliasSource": "fi_MRN_"
+            },
+            {
+                "aliasElement": "richText",
+                "aliasName": "fi_MRN__richText",
+                "aliasSource": "fi_MRN_"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "fi_MRN__opacity",
+                "aliasSource": "fi_MRN_"
+            },
+            {
+                "aliasElement": "font",
+                "aliasName": "fi_MRN__font",
+                "aliasSource": "fi_MRN_"
+            }
+        ],
+        "fi_Patient_Name_": [
+            {
+                "aliasElement": "textColor",
+                "aliasName": "fi_Patient_Name__labelColor",
+                "aliasSource": "fi_Patient_Name_"
+            },
+            {
+                "aliasElement": "text",
+                "aliasName": "fi_Patient_Name__text",
+                "aliasSource": "fi_Patient_Name_"
+            },
+            {
+                "aliasElement": "verticalAlignment",
+                "aliasName": "fi_Patient_Name__verticalAlignment",
+                "aliasSource": "fi_Patient_Name_"
+            },
+            {
+                "aliasElement": "horizontalAlignment",
+                "aliasName": "fi_Patient_Name__horizontalAlignment",
+                "aliasSource": "fi_Patient_Name_"
+            },
+            {
+                "aliasElement": "lineHeight",
+                "aliasName": "fi_Patient_Name__lineHeight",
+                "aliasSource": "fi_Patient_Name_"
+            },
+            {
+                "aliasElement": "lineHeightMode",
+                "aliasName": "fi_Patient_Name__lineHeightMode",
+                "aliasSource": "fi_Patient_Name_"
+            },
+            {
+                "aliasElement": "richText",
+                "aliasName": "fi_Patient_Name__richText",
+                "aliasSource": "fi_Patient_Name_"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "fi_Patient_Name__opacity",
+                "aliasSource": "fi_Patient_Name_"
+            },
+            {
+                "aliasElement": "font",
+                "aliasName": "fi_Patient_Name__font",
+                "aliasSource": "fi_Patient_Name_"
+            }
+        ]
+    },
+    "componentLayout": {
+        "blockInputFallthrough": true,
+        "children": [
+            {
+                "children": [
+                    {
+                        "anchorBottom": {
+                            "anchorMargin": 7,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorMargin": -1,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Date_of_Birth_",
+                        "properties": {
+                            "font": {
+                                "name": "font",
+                                "type": "Font",
+                                "value": "Figma::Arial_ItalicMT_22_50_0_1_0_0_0.2"
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 34
+                            },
+                            "lineHeight": {
+                                "name": "lineHeight",
+                                "type": "Float",
+                                "value": 30
+                            },
+                            "lineHeightMode": {
+                                "name": "lineHeightMode",
+                                "type": "TextLineHeightMode",
+                                "value": "FixedHeight"
+                            },
+                            "text": {
+                                "name": "text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::164:8231",
+                                "value": "Date of Birth:"
+                            },
+                            "textColor": {
+                                "name": "textColor",
+                                "type": "Color",
+                                "value": "Text/White"
+                            },
+                            "verticalAlignment": {
+                                "name": "verticalAlignment",
+                                "type": "TextVerticalAlignment",
+                                "value": "AlignVCenter"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 178
+                            },
+                            "wrapMode": {
+                                "name": "wrapMode",
+                                "type": "TextWrapMode",
+                                "value": "WordWrap"
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": -1
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 87
+                            }
+                        },
+                        "targetFile": "fi_Date_of_Birth_.ghuie",
+                        "type": "ComponentsSet.Label",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorMargin": 47,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorMargin": -1,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_MRN_",
+                        "properties": {
+                            "font": {
+                                "name": "font",
+                                "type": "Font",
+                                "value": "Figma::Arial_ItalicMT_22_50_0_1_0_0_0.2"
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 34
+                            },
+                            "lineHeight": {
+                                "name": "lineHeight",
+                                "type": "Float",
+                                "value": 30
+                            },
+                            "lineHeightMode": {
+                                "name": "lineHeightMode",
+                                "type": "TextLineHeightMode",
+                                "value": "FixedHeight"
+                            },
+                            "text": {
+                                "name": "text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::164:8278",
+                                "value": "MRN:"
+                            },
+                            "textColor": {
+                                "name": "textColor",
+                                "type": "Color",
+                                "value": "Text/White"
+                            },
+                            "verticalAlignment": {
+                                "name": "verticalAlignment",
+                                "type": "TextVerticalAlignment",
+                                "value": "AlignVCenter"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 178
+                            },
+                            "wrapMode": {
+                                "name": "wrapMode",
+                                "type": "TextWrapMode",
+                                "value": "WordWrap"
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": -1
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 47
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 1
+                            }
+                        },
+                        "targetFile": "fi_MRN_.ghuie",
+                        "type": "ComponentsSet.Label",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorMargin": 87,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorMargin": -1,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Patient_Name_",
+                        "properties": {
+                            "font": {
+                                "name": "font",
+                                "type": "Font",
+                                "value": "Figma::Arial_ItalicMT_22_50_0_1_0_0_0.2"
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 34
+                            },
+                            "lineHeight": {
+                                "name": "lineHeight",
+                                "type": "Float",
+                                "value": 30
+                            },
+                            "lineHeightMode": {
+                                "name": "lineHeightMode",
+                                "type": "TextLineHeightMode",
+                                "value": "FixedHeight"
+                            },
+                            "text": {
+                                "name": "text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::164:8279",
+                                "value": "Patient Name:"
+                            },
+                            "textColor": {
+                                "name": "textColor",
+                                "type": "Color",
+                                "value": "Text/White"
+                            },
+                            "verticalAlignment": {
+                                "name": "verticalAlignment",
+                                "type": "TextVerticalAlignment",
+                                "value": "AlignVCenter"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 178
+                            },
+                            "wrapMode": {
+                                "name": "wrapMode",
+                                "type": "TextWrapMode",
+                                "value": "WordWrap"
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": -1
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 7
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 2
+                            }
+                        },
+                        "targetFile": "fi_Patient_Name_.ghuie",
+                        "type": "ComponentsSet.Label",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorLeft": {
+                            "anchorMargin": 199,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorTop": {
+                            "anchorMargin": 7,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_John_Doe",
+                        "properties": {
+                            "font": {
+                                "name": "font",
+                                "type": "Font",
+                                "value": "Figma::Arial_ArialMT_32_50_0_0_0_0_0.2"
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 34
+                            },
+                            "lineHeight": {
+                                "name": "lineHeight",
+                                "type": "Float",
+                                "value": 32
+                            },
+                            "lineHeightMode": {
+                                "name": "lineHeightMode",
+                                "type": "TextLineHeightMode",
+                                "value": "FixedHeight"
+                            },
+                            "text": {
+                                "name": "text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::164:8232",
+                                "value": "John Doe "
+                            },
+                            "textColor": {
+                                "name": "textColor",
+                                "type": "Color",
+                                "value": "Text/Blue 2 - Input"
+                            },
+                            "verticalAlignment": {
+                                "name": "verticalAlignment",
+                                "type": "TextVerticalAlignment",
+                                "value": "AlignVCenter"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 666
+                            },
+                            "wrapMode": {
+                                "name": "wrapMode",
+                                "type": "TextWrapMode",
+                                "value": "WordWrap"
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 199
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 7
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 3
+                            }
+                        },
+                        "targetFile": "fi_John_Doe.ghuie",
+                        "type": "ComponentsSet.Label",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorLeft": {
+                            "anchorMargin": 199,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorTop": {
+                            "anchorMargin": 47,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_9089123423",
+                        "properties": {
+                            "font": {
+                                "name": "font",
+                                "type": "Font",
+                                "value": "Figma::Arial_ArialMT_32_50_0_0_0_0_0.2"
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 34
+                            },
+                            "lineHeight": {
+                                "name": "lineHeight",
+                                "type": "Float",
+                                "value": 32
+                            },
+                            "lineHeightMode": {
+                                "name": "lineHeightMode",
+                                "type": "TextLineHeightMode",
+                                "value": "FixedHeight"
+                            },
+                            "text": {
+                                "name": "text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::164:8280",
+                                "value": "9089123423 "
+                            },
+                            "textColor": {
+                                "name": "textColor",
+                                "type": "Color",
+                                "value": "Text/Blue 2 - Input"
+                            },
+                            "verticalAlignment": {
+                                "name": "verticalAlignment",
+                                "type": "TextVerticalAlignment",
+                                "value": "AlignVCenter"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 666
+                            },
+                            "wrapMode": {
+                                "name": "wrapMode",
+                                "type": "TextWrapMode",
+                                "value": "WordWrap"
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 199
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 47
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 4
+                            }
+                        },
+                        "targetFile": "fi_9089123423.ghuie",
+                        "type": "ComponentsSet.Label",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorLeft": {
+                            "anchorMargin": 199,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorTop": {
+                            "anchorMargin": 87,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_01_01_1990",
+                        "properties": {
+                            "font": {
+                                "name": "font",
+                                "type": "Font",
+                                "value": "Figma::Arial_ArialMT_32_50_0_0_0_0_0.2"
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 34
+                            },
+                            "lineHeight": {
+                                "name": "lineHeight",
+                                "type": "Float",
+                                "value": 32
+                            },
+                            "lineHeightMode": {
+                                "name": "lineHeightMode",
+                                "type": "TextLineHeightMode",
+                                "value": "FixedHeight"
+                            },
+                            "text": {
+                                "name": "text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::164:8281",
+                                "value": "01/01/1990"
+                            },
+                            "textColor": {
+                                "name": "textColor",
+                                "type": "Color",
+                                "value": "Text/Blue 2 - Input"
+                            },
+                            "verticalAlignment": {
+                                "name": "verticalAlignment",
+                                "type": "TextVerticalAlignment",
+                                "value": "AlignVCenter"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 666
+                            },
+                            "wrapMode": {
+                                "name": "wrapMode",
+                                "type": "TextWrapMode",
+                                "value": "WordWrap"
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 199
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 87
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 5
+                            }
+                        },
+                        "targetFile": "fi_01_01_1990.ghuie",
+                        "type": "ComponentsSet.Label",
+                        "userDefined": false
+                    }
+                ],
+                "childrenSplit": true,
+                "id": "root",
+                "properties": {
+                    "height": {
+                        "name": "height",
+                        "type": "Int",
+                        "value": 128
+                    },
+                    "width": {
+                        "name": "width",
+                        "type": "Int",
+                        "value": 864
+                    }
+                },
+                "targetFile": "root.ghuie",
+                "type": "Item",
+                "userDefined": false
+            }
+        ],
+        "childrenSplit": true,
+        "fillParent": false,
+        "height": 128,
+        "hideAnimation": {
+            "type": "Sequential"
+        },
+        "interfaceName": "",
+        "name": "___TEMP_LAYOUT___ZetaSurgicalSet.PatientInfoText_var_1",
+        "posX": 0,
+        "posY": 0,
+        "rootContainerType": "Item",
+        "showAnimation": {
+            "type": "Sequential"
+        },
+        "targetFile": "___TEMP_LAYOUT___ZetaSurgicalSet.PatientInfoText_var_1.ghl",
+        "width": 864
+    },
+    "componentName": "ZetaSurgicalSet.PatientInfoText_var_1",
+    "properties": [
+    ],
+    "signalList": {
+    },
+    "states": {
+    },
+    "targetFile": "PatientInfoText_var_1.ghcomp"
+}

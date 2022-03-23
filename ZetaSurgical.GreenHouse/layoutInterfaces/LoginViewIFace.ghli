@@ -1,0 +1,23 @@
+{
+    "base": "Displayable",
+    "name": "LoginViewIFace",
+    "signals": {
+        "fi_closeWindowButton_MA__onEvent__clicked": {
+            "name": "fi_closeWindowButton_MA__onEvent__clicked"
+        },
+        "fi_usernameField__onEvent__input_accepted": {
+            "name": "fi_usernameField__onEvent__input_accepted"
+        },
+        "fi_usernameField__onEvent__input_textChanged": {
+            "arguments": [
+                {
+                    "name": "PopupsPresenter_onUserNameEdited_username",
+                    "preview": null,
+                    "type": "String"
+                }
+            ],
+            "name": "fi_usernameField__onEvent__input_textChanged"
+        }
+    },
+    "targetFile": "LoginViewIFace.ghli"
+}

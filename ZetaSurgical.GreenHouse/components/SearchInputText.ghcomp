@@ -1,0 +1,766 @@
+{
+    "aliasList": {
+        "icon___default": [
+            {
+                "aliasElement": "source",
+                "aliasName": "icon___default_source",
+                "aliasSource": "icon___default"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "icon_opacity",
+                "aliasSource": "icon___default"
+            }
+        ],
+        "icon___filled": [
+            {
+                "aliasElement": "source",
+                "aliasName": "icon___filled_source",
+                "aliasSource": "icon___filled"
+            }
+        ],
+        "icon___selected": [
+            {
+                "aliasElement": "source",
+                "aliasName": "icon___selected_source",
+                "aliasSource": "icon___selected"
+            }
+        ],
+        "input": [
+            {
+                "aliasElement": "color",
+                "aliasName": "input_color",
+                "aliasSource": "input"
+            },
+            {
+                "aliasElement": "enabled",
+                "aliasName": "input_enabled",
+                "aliasSource": "input"
+            },
+            {
+                "aliasElement": "text",
+                "aliasName": "input_inputText",
+                "aliasSource": "input"
+            },
+            {
+                "aliasElement": "echoMode",
+                "aliasName": "input_echoMode",
+                "aliasSource": "input"
+            },
+            {
+                "aliasElement": "inputMask",
+                "aliasName": "input_inputMask",
+                "aliasSource": "input"
+            },
+            {
+                "aliasElement": "passwordCharacter",
+                "aliasName": "input_passwordCharacter",
+                "aliasSource": "input"
+            },
+            {
+                "aliasElement": "regExp",
+                "aliasName": "input_regExp",
+                "aliasSource": "input"
+            },
+            {
+                "aliasElement": "autoClear",
+                "aliasName": "input_autoClear",
+                "aliasSource": "input"
+            },
+            {
+                "aliasElement": "inputFocus",
+                "aliasName": "input_focus",
+                "aliasSource": "input"
+            },
+            {
+                "aliasElement": "inputMethodHints",
+                "aliasName": "input_inputMethodHints",
+                "aliasSource": "input"
+            }
+        ]
+    },
+    "componentLayout": {
+        "blockInputFallthrough": true,
+        "children": [
+            {
+                "children": [
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "children": [
+                            {
+                                "anchorBottom": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Bottom"
+                                },
+                                "anchorLeft": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Left"
+                                },
+                                "anchorRight": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Right"
+                                },
+                                "anchorTop": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Top"
+                                },
+                                "childrenSplit": true,
+                                "id": "fi_Rectangle___default",
+                                "properties": {
+                                    "border-bottom": {
+                                        "name": "border-bottom",
+                                        "type": "Int",
+                                        "value": 23
+                                    },
+                                    "border-left": {
+                                        "name": "border-left",
+                                        "type": "Int",
+                                        "value": 23
+                                    },
+                                    "border-right": {
+                                        "name": "border-right",
+                                        "type": "Int",
+                                        "value": 23
+                                    },
+                                    "border-top": {
+                                        "name": "border-top",
+                                        "type": "Int",
+                                        "value": 23
+                                    },
+                                    "height": {
+                                        "name": "height",
+                                        "type": "Int",
+                                        "value": 48
+                                    },
+                                    "source": {
+                                        "name": "source",
+                                        "type": "Asset",
+                                        "value": "/7_1289.png"
+                                    },
+                                    "width": {
+                                        "name": "width",
+                                        "type": "Int",
+                                        "value": 816
+                                    }
+                                },
+                                "targetFile": "fi_Rectangle___default.ghuie",
+                                "type": "BorderImage",
+                                "userDefined": false
+                            },
+                            {
+                                "anchorLeft": {
+                                    "anchorMargin": 8,
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Left"
+                                },
+                                "anchorVCenter": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "VerticalCenter"
+                                },
+                                "childrenSplit": true,
+                                "id": "icon___default",
+                                "properties": {
+                                    "height": {
+                                        "name": "height",
+                                        "type": "Int",
+                                        "value": 32
+                                    },
+                                    "source": {
+                                        "name": "source",
+                                        "type": "Asset",
+                                        "value": "/Icons/Search__DefaultState.png"
+                                    },
+                                    "width": {
+                                        "name": "width",
+                                        "type": "Int",
+                                        "value": 32
+                                    },
+                                    "x": {
+                                        "name": "x",
+                                        "type": "Int",
+                                        "value": 8
+                                    },
+                                    "y": {
+                                        "name": "y",
+                                        "type": "Int",
+                                        "value": 8
+                                    },
+                                    "z": {
+                                        "name": "z",
+                                        "type": "Int",
+                                        "value": 2
+                                    }
+                                },
+                                "targetFile": "icon___default.ghuie",
+                                "type": "Image",
+                                "userDefined": false
+                            }
+                        ],
+                        "childrenSplit": true,
+                        "id": "default_StateParent",
+                        "properties": {
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 48
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 816
+                            }
+                        },
+                        "targetFile": "default_StateParent.ghuie",
+                        "type": "Item",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorMargin": -2,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorMargin": 64,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "extraData": {
+                            "FIGMA_ID": ""
+                        },
+                        "id": "input",
+                        "properties": {
+                            "clip": {
+                                "name": "clip",
+                                "type": "Bool",
+                                "value": true
+                            },
+                            "color": {
+                                "name": "color",
+                                "type": "Color",
+                                "value": "Text/User Input Label"
+                            },
+                            "font": {
+                                "name": "font",
+                                "type": "Font",
+                                "value": "Figma::Arial_ArialMT_28_50_0_0_0_0_0.2"
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 50
+                            },
+                            "verticalAlignment": {
+                                "name": "verticalAlignment",
+                                "type": "TextVerticalAlignment",
+                                "value": "AlignVCenter"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 752
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 64
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 998
+                            }
+                        },
+                        "targetFile": "input.ghuie",
+                        "type": "ComponentsSet.RegularTextInput",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "children": [
+                            {
+                                "anchorBottom": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Bottom"
+                                },
+                                "anchorLeft": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Left"
+                                },
+                                "anchorRight": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Right"
+                                },
+                                "anchorTop": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Top"
+                                },
+                                "childrenSplit": true,
+                                "id": "fi_Rectangle___filled",
+                                "properties": {
+                                    "border-bottom": {
+                                        "name": "border-bottom",
+                                        "type": "Int",
+                                        "value": 24
+                                    },
+                                    "border-left": {
+                                        "name": "border-left",
+                                        "type": "Int",
+                                        "value": 24
+                                    },
+                                    "border-right": {
+                                        "name": "border-right",
+                                        "type": "Int",
+                                        "value": 24
+                                    },
+                                    "border-top": {
+                                        "name": "border-top",
+                                        "type": "Int",
+                                        "value": 24
+                                    },
+                                    "height": {
+                                        "name": "height",
+                                        "type": "Int",
+                                        "value": 50
+                                    },
+                                    "source": {
+                                        "name": "source",
+                                        "type": "Asset",
+                                        "value": "/15_1729.png"
+                                    },
+                                    "width": {
+                                        "name": "width",
+                                        "type": "Int",
+                                        "value": 816
+                                    }
+                                },
+                                "targetFile": "fi_Rectangle___filled.ghuie",
+                                "type": "BorderImage",
+                                "userDefined": false
+                            },
+                            {
+                                "anchorLeft": {
+                                    "anchorMargin": 8,
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Left"
+                                },
+                                "anchorTop": {
+                                    "anchorMargin": 8,
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Top"
+                                },
+                                "childrenSplit": true,
+                                "id": "icon___filled",
+                                "properties": {
+                                    "height": {
+                                        "name": "height",
+                                        "type": "Int",
+                                        "value": 32
+                                    },
+                                    "opacity": {
+                                        "bindingProp": "opacity",
+                                        "bindingSrc": "icon___default",
+                                        "itemBound": true,
+                                        "name": "opacity",
+                                        "type": "Float",
+                                        "value": 1
+                                    },
+                                    "source": {
+                                        "name": "source",
+                                        "type": "Asset",
+                                        "value": "/Icons/Search__SelectedState.png"
+                                    },
+                                    "width": {
+                                        "name": "width",
+                                        "type": "Int",
+                                        "value": 32
+                                    },
+                                    "x": {
+                                        "name": "x",
+                                        "type": "Int",
+                                        "value": 8
+                                    },
+                                    "y": {
+                                        "name": "y",
+                                        "type": "Int",
+                                        "value": 8
+                                    },
+                                    "z": {
+                                        "name": "z",
+                                        "type": "Int",
+                                        "value": 2
+                                    }
+                                },
+                                "targetFile": "icon___filled.ghuie",
+                                "type": "Image",
+                                "userDefined": false
+                            }
+                        ],
+                        "childrenSplit": true,
+                        "id": "filled_StateParent",
+                        "properties": {
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 50
+                            },
+                            "visible": {
+                                "name": "visible",
+                                "type": "Bool",
+                                "value": false
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 816
+                            }
+                        },
+                        "targetFile": "filled_StateParent.ghuie",
+                        "type": "Item",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "children": [
+                            {
+                                "anchorBottom": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Bottom"
+                                },
+                                "anchorLeft": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Left"
+                                },
+                                "anchorRight": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Right"
+                                },
+                                "anchorTop": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Top"
+                                },
+                                "childrenSplit": true,
+                                "id": "fi_Rectangle___selected",
+                                "properties": {
+                                    "border-bottom": {
+                                        "name": "border-bottom",
+                                        "type": "Int",
+                                        "value": 24
+                                    },
+                                    "border-left": {
+                                        "name": "border-left",
+                                        "type": "Int",
+                                        "value": 24
+                                    },
+                                    "border-right": {
+                                        "name": "border-right",
+                                        "type": "Int",
+                                        "value": 24
+                                    },
+                                    "border-top": {
+                                        "name": "border-top",
+                                        "type": "Int",
+                                        "value": 24
+                                    },
+                                    "height": {
+                                        "name": "height",
+                                        "type": "Int",
+                                        "value": 50
+                                    },
+                                    "source": {
+                                        "name": "source",
+                                        "type": "Asset",
+                                        "value": "/11_1351.png"
+                                    },
+                                    "width": {
+                                        "name": "width",
+                                        "type": "Int",
+                                        "value": 816
+                                    }
+                                },
+                                "targetFile": "fi_Rectangle___selected.ghuie",
+                                "type": "BorderImage",
+                                "userDefined": false
+                            },
+                            {
+                                "anchorLeft": {
+                                    "anchorMargin": 8,
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Left"
+                                },
+                                "anchorVCenter": {
+                                    "anchorMargin": -1,
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "VerticalCenter"
+                                },
+                                "childrenSplit": true,
+                                "id": "icon___selected",
+                                "properties": {
+                                    "height": {
+                                        "name": "height",
+                                        "type": "Int",
+                                        "value": 32
+                                    },
+                                    "opacity": {
+                                        "bindingProp": "opacity",
+                                        "bindingSrc": "icon___default",
+                                        "itemBound": true,
+                                        "name": "opacity",
+                                        "type": "Float",
+                                        "value": 1
+                                    },
+                                    "source": {
+                                        "name": "source",
+                                        "type": "Asset",
+                                        "value": "/Icons/Search__SelectedState.png"
+                                    },
+                                    "width": {
+                                        "name": "width",
+                                        "type": "Int",
+                                        "value": 32
+                                    },
+                                    "x": {
+                                        "name": "x",
+                                        "type": "Int",
+                                        "value": 8
+                                    },
+                                    "y": {
+                                        "name": "y",
+                                        "type": "Int",
+                                        "value": 8
+                                    },
+                                    "z": {
+                                        "name": "z",
+                                        "type": "Int",
+                                        "value": 2
+                                    }
+                                },
+                                "targetFile": "icon___selected.ghuie",
+                                "type": "Image",
+                                "userDefined": false
+                            }
+                        ],
+                        "childrenSplit": true,
+                        "id": "selected_StateParent",
+                        "properties": {
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 50
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 816
+                            }
+                        },
+                        "targetFile": "selected_StateParent.ghuie",
+                        "type": "Item",
+                        "userDefined": false
+                    }
+                ],
+                "childrenSplit": true,
+                "id": "root",
+                "properties": {
+                    "height": {
+                        "name": "height",
+                        "type": "Int",
+                        "value": 48
+                    },
+                    "width": {
+                        "name": "width",
+                        "type": "Int",
+                        "value": 816
+                    }
+                },
+                "targetFile": "root.ghuie",
+                "type": "FocusScope",
+                "userDefined": false
+            }
+        ],
+        "childrenSplit": true,
+        "fillParent": false,
+        "height": 48,
+        "hideAnimation": {
+            "type": "Sequential"
+        },
+        "interfaceName": "",
+        "name": "___TEMP_LAYOUT___ZetaSurgicalSet.SearchInputText",
+        "posX": 0,
+        "posY": 0,
+        "rootContainerType": "Item",
+        "showAnimation": {
+            "type": "Sequential"
+        },
+        "targetFile": "___TEMP_LAYOUT___ZetaSurgicalSet.SearchInputText.ghl",
+        "width": 816
+    },
+    "componentName": "ZetaSurgicalSet.SearchInputText",
+    "properties": [
+        {
+            "name": "filled_flag",
+            "type": "Bool",
+            "value": false
+        }
+    ],
+    "signalList": {
+        "input": [
+            {
+                "aliasElement": "accepted",
+                "aliasName": "input_accepted",
+                "aliasSource": "input"
+            },
+            {
+                "aliasElement": "textChanged",
+                "aliasName": "input_textChanged",
+                "aliasSource": "input"
+            }
+        ]
+    },
+    "states": {
+        "HintAndInput": {
+            "InputEmptyAndNotFocused": {
+                "group": "HintAndInput",
+                "name": "InputEmptyAndNotFocused",
+                "propertyChanges": [
+                ],
+                "when": "input.text === \"\" && !input.activeFocus"
+            },
+            "InputNotEmptyOrFocused": {
+                "group": "HintAndInput",
+                "name": "InputNotEmptyOrFocused",
+                "propertyChanges": [
+                ],
+                "when": "input.text !== \"\" || input.activeFocus"
+            }
+        },
+        "__main_state_group": {
+            "default": {
+                "group": "",
+                "name": "default",
+                "propertyChanges": [
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "default_StateParent",
+                        "type": "Bool",
+                        "value": true
+                    },
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "selected_StateParent",
+                        "type": "Bool",
+                        "value": false
+                    }
+                ],
+                "when": "!input.activeFocus"
+            },
+            "selected": {
+                "group": "",
+                "name": "selected",
+                "propertyChanges": [
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "default_StateParent",
+                        "type": "Bool",
+                        "value": false
+                    },
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "selected_StateParent",
+                        "type": "Bool",
+                        "value": true
+                    },
+                    {
+                        "name": "color",
+                        "propertyChangeTarget": "input",
+                        "type": "Color",
+                        "value": "Text/Blue 2 - Input"
+                    }
+                ],
+                "when": "input.activeFocus"
+            }
+        },
+        "generic_filled": {
+            "filled": {
+                "group": "generic_filled",
+                "name": "filled",
+                "propertyChanges": [
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "filled_StateParent",
+                        "type": "Bool",
+                        "value": true
+                    },
+                    {
+                        "name": "z",
+                        "propertyChangeTarget": "filled_StateParent",
+                        "type": "Int",
+                        "value": 999
+                    },
+                    {
+                        "name": "color",
+                        "propertyChangeTarget": "input",
+                        "type": "Color",
+                        "value": "Text/Blue 2 - Input"
+                    }
+                ],
+                "when": "root.filled_flag"
+            }
+        }
+    },
+    "targetFile": "SearchInputText.ghcomp"
+}

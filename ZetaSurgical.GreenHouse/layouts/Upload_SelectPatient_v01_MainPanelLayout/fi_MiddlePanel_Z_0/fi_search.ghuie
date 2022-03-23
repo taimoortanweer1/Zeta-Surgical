@@ -1,0 +1,36 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 32,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "23:9670"
+    },
+    "id": "fi_search",
+    "properties": {
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 1108
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 32
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "targetFile": "fi_search.ghuie",
+    "type": "ZetaSurgicalSet.SearchInputText",
+    "userDefined": false
+}

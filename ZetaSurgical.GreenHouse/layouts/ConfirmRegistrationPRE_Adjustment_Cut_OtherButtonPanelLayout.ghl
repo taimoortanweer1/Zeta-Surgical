@@ -1,0 +1,20 @@
+{
+    "blockInputFallthrough": true,
+    "childrenSplit": true,
+    "fillParent": false,
+    "height": 112,
+    "hideAnimation": {
+        "type": "Sequential"
+    },
+    "interfaceName": "ConfirmRegistrationPRE_Adjustment_Cut_OtherButtonPanelIFace",
+    "name": "ConfirmRegistrationPRE_Adjustment_Cut_OtherButtonPanelLayout",
+    "posX": 1463,
+    "posY": 968,
+    "rootContainerType": "Item",
+    "showAnimation": {
+        "type": "Sequential"
+    },
+    "targetFile": "ConfirmRegistrationPRE_Adjustment_Cut_OtherButtonPanelLayout.ghl",
+    "uuid": "{cf9be0ee-c723-4da8-aaf9-77b20fb2cb33}",
+    "width": 457
+}

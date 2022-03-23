@@ -1,0 +1,460 @@
+{
+    "aliasList": {
+        "fi_CoordinateDisplayLabel": [
+            {
+                "aliasElement": "fi_01_labelColor",
+                "aliasName": "fi_CoordinateDisplayLabel_fi_01_labelColor",
+                "aliasSource": "fi_CoordinateDisplayLabel"
+            },
+            {
+                "aliasElement": "fi_01_text",
+                "aliasName": "fi_CoordinateDisplayLabel_fi_01_text",
+                "aliasSource": "fi_CoordinateDisplayLabel"
+            },
+            {
+                "aliasElement": "fi_01_verticalAlignment",
+                "aliasName": "fi_CoordinateDisplayLabel_fi_01_verticalAlignment",
+                "aliasSource": "fi_CoordinateDisplayLabel"
+            },
+            {
+                "aliasElement": "fi_01_horizontalAlignment",
+                "aliasName": "fi_CoordinateDisplayLabel_fi_01_horizontalAlignment",
+                "aliasSource": "fi_CoordinateDisplayLabel"
+            },
+            {
+                "aliasElement": "fi_01_lineHeight",
+                "aliasName": "fi_CoordinateDisplayLabel_fi_01_lineHeight",
+                "aliasSource": "fi_CoordinateDisplayLabel"
+            },
+            {
+                "aliasElement": "fi_01_lineHeightMode",
+                "aliasName": "fi_CoordinateDisplayLabel_fi_01_lineHeightMode",
+                "aliasSource": "fi_CoordinateDisplayLabel"
+            },
+            {
+                "aliasElement": "fi_01_richText",
+                "aliasName": "fi_CoordinateDisplayLabel_fi_01_richText",
+                "aliasSource": "fi_CoordinateDisplayLabel"
+            },
+            {
+                "aliasElement": "fi_01_opacity",
+                "aliasName": "fi_CoordinateDisplayLabel_fi_01_opacity",
+                "aliasSource": "fi_CoordinateDisplayLabel"
+            },
+            {
+                "aliasElement": "fi_01_font",
+                "aliasName": "fi_CoordinateDisplayLabel_fi_01_font",
+                "aliasSource": "fi_CoordinateDisplayLabel"
+            }
+        ],
+        "fi_Ellipse_232": [
+            {
+                "aliasElement": "source",
+                "aliasName": "fi_Ellipse_232_source",
+                "aliasSource": "fi_Ellipse_232"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "fi_Ellipse_232_opacity",
+                "aliasSource": "fi_Ellipse_232"
+            }
+        ],
+        "fi_LeftRightLabel": [
+            {
+                "aliasElement": "textColor",
+                "aliasName": "fi_LeftRightLabel_labelColor",
+                "aliasSource": "fi_LeftRightLabel"
+            },
+            {
+                "aliasElement": "text",
+                "aliasName": "fi_LeftRightLabel_text",
+                "aliasSource": "fi_LeftRightLabel"
+            },
+            {
+                "aliasElement": "verticalAlignment",
+                "aliasName": "fi_LeftRightLabel_verticalAlignment",
+                "aliasSource": "fi_LeftRightLabel"
+            },
+            {
+                "aliasElement": "horizontalAlignment",
+                "aliasName": "fi_LeftRightLabel_horizontalAlignment",
+                "aliasSource": "fi_LeftRightLabel"
+            },
+            {
+                "aliasElement": "lineHeight",
+                "aliasName": "fi_LeftRightLabel_lineHeight",
+                "aliasSource": "fi_LeftRightLabel"
+            },
+            {
+                "aliasElement": "lineHeightMode",
+                "aliasName": "fi_LeftRightLabel_lineHeightMode",
+                "aliasSource": "fi_LeftRightLabel"
+            },
+            {
+                "aliasElement": "richText",
+                "aliasName": "fi_LeftRightLabel_richText",
+                "aliasSource": "fi_LeftRightLabel"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "fi_LeftRightLabel_opacity",
+                "aliasSource": "fi_LeftRightLabel"
+            },
+            {
+                "aliasElement": "font",
+                "aliasName": "fi_LeftRightLabel_font",
+                "aliasSource": "fi_LeftRightLabel"
+            }
+        ],
+        "fi_UpDownLabel": [
+            {
+                "aliasElement": "textColor",
+                "aliasName": "fi_UpDownLabel_labelColor",
+                "aliasSource": "fi_UpDownLabel"
+            },
+            {
+                "aliasElement": "text",
+                "aliasName": "fi_UpDownLabel_text",
+                "aliasSource": "fi_UpDownLabel"
+            },
+            {
+                "aliasElement": "verticalAlignment",
+                "aliasName": "fi_UpDownLabel_verticalAlignment",
+                "aliasSource": "fi_UpDownLabel"
+            },
+            {
+                "aliasElement": "horizontalAlignment",
+                "aliasName": "fi_UpDownLabel_horizontalAlignment",
+                "aliasSource": "fi_UpDownLabel"
+            },
+            {
+                "aliasElement": "lineHeight",
+                "aliasName": "fi_UpDownLabel_lineHeight",
+                "aliasSource": "fi_UpDownLabel"
+            },
+            {
+                "aliasElement": "lineHeightMode",
+                "aliasName": "fi_UpDownLabel_lineHeightMode",
+                "aliasSource": "fi_UpDownLabel"
+            },
+            {
+                "aliasElement": "richText",
+                "aliasName": "fi_UpDownLabel_richText",
+                "aliasSource": "fi_UpDownLabel"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "fi_UpDownLabel_opacity",
+                "aliasSource": "fi_UpDownLabel"
+            },
+            {
+                "aliasElement": "font",
+                "aliasName": "fi_UpDownLabel_font",
+                "aliasSource": "fi_UpDownLabel"
+            }
+        ]
+    },
+    "componentLayout": {
+        "blockInputFallthrough": true,
+        "children": [
+            {
+                "children": [
+                    {
+                        "anchorHCenter": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "HorizontalCenter"
+                        },
+                        "anchorVCenter": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "VerticalCenter"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Ellipse_232",
+                        "properties": {
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 188
+                            },
+                            "source": {
+                                "name": "source",
+                                "type": "Asset",
+                                "value": "/174_2720.png"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 188
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 4
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 4
+                            }
+                        },
+                        "targetFile": "fi_Ellipse_232.ghuie",
+                        "type": "Image",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorHCenter": {
+                            "anchorMargin": 2,
+                            "anchorTarget": "parent",
+                            "anchorValue": "HorizontalCenter"
+                        },
+                        "anchorVCenter": {
+                            "anchorMargin": 14,
+                            "anchorTarget": "parent",
+                            "anchorValue": "VerticalCenter"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_LeftRightLabel",
+                        "properties": {
+                            "font": {
+                                "name": "font",
+                                "type": "Font",
+                                "value": "Figma::Arial_ArialMT_18_50_0_0_0_0_0.2"
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 26
+                            },
+                            "horizontalAlignment": {
+                                "name": "horizontalAlignment",
+                                "type": "TextHorizontalAlignment",
+                                "value": "AlignHCenter"
+                            },
+                            "lineHeight": {
+                                "name": "lineHeight",
+                                "type": "Float",
+                                "value": 20
+                            },
+                            "lineHeightMode": {
+                                "name": "lineHeightMode",
+                                "type": "TextLineHeightMode",
+                                "value": "FixedHeight"
+                            },
+                            "text": {
+                                "name": "text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::174:2727",
+                                "value": "L-R"
+                            },
+                            "textColor": {
+                                "name": "textColor",
+                                "type": "Color",
+                                "value": "Text/White"
+                            },
+                            "verticalAlignment": {
+                                "name": "verticalAlignment",
+                                "type": "TextVerticalAlignment",
+                                "value": "AlignVCenter"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 34
+                            },
+                            "wrapMode": {
+                                "name": "wrapMode",
+                                "type": "TextWrapMode",
+                                "value": "WordWrap"
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 83
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 99
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 1
+                            }
+                        },
+                        "targetFile": "fi_LeftRightLabel.ghuie",
+                        "type": "ComponentsSet.Label",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorHCenter": {
+                            "anchorMargin": 2,
+                            "anchorTarget": "parent",
+                            "anchorValue": "HorizontalCenter"
+                        },
+                        "anchorVCenter": {
+                            "anchorMargin": -58,
+                            "anchorTarget": "parent",
+                            "anchorValue": "VerticalCenter"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_UpDownLabel",
+                        "properties": {
+                            "font": {
+                                "name": "font",
+                                "type": "Font",
+                                "value": "Figma::Arial_ArialMT_18_50_0_0_0_0_0.2"
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 26
+                            },
+                            "horizontalAlignment": {
+                                "name": "horizontalAlignment",
+                                "type": "TextHorizontalAlignment",
+                                "value": "AlignHCenter"
+                            },
+                            "lineHeight": {
+                                "name": "lineHeight",
+                                "type": "Float",
+                                "value": 20
+                            },
+                            "lineHeightMode": {
+                                "name": "lineHeightMode",
+                                "type": "TextLineHeightMode",
+                                "value": "FixedHeight"
+                            },
+                            "text": {
+                                "name": "text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::174:2728",
+                                "value": "A-P"
+                            },
+                            "textColor": {
+                                "name": "textColor",
+                                "type": "Color",
+                                "value": "Text/White"
+                            },
+                            "verticalAlignment": {
+                                "name": "verticalAlignment",
+                                "type": "TextVerticalAlignment",
+                                "value": "AlignVCenter"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 34
+                            },
+                            "wrapMode": {
+                                "name": "wrapMode",
+                                "type": "TextWrapMode",
+                                "value": "WordWrap"
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 83
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 27
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 2
+                            }
+                        },
+                        "targetFile": "fi_UpDownLabel.ghuie",
+                        "type": "ComponentsSet.Label",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorHCenter": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "HorizontalCenter"
+                        },
+                        "anchorVCenter": {
+                            "anchorMargin": -26,
+                            "anchorTarget": "parent",
+                            "anchorValue": "VerticalCenter"
+                        },
+                        "childrenSplit": true,
+                        "extraData": {
+                            "FIGMA_ID": "174:2740"
+                        },
+                        "id": "fi_CoordinateDisplayLabel",
+                        "properties": {
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 100
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 48
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 52
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 4
+                            }
+                        },
+                        "targetFile": "fi_CoordinateDisplayLabel.ghuie",
+                        "type": "ZetaSurgicalSet.CoordinateDisplayLabel",
+                        "userDefined": false
+                    }
+                ],
+                "childrenSplit": true,
+                "id": "root",
+                "properties": {
+                    "height": {
+                        "name": "height",
+                        "type": "Int",
+                        "value": 196
+                    },
+                    "width": {
+                        "name": "width",
+                        "type": "Int",
+                        "value": 196
+                    }
+                },
+                "targetFile": "root.ghuie",
+                "type": "Item",
+                "userDefined": false
+            }
+        ],
+        "childrenSplit": true,
+        "fillParent": false,
+        "height": 196,
+        "hideAnimation": {
+            "type": "Sequential"
+        },
+        "interfaceName": "",
+        "name": "___TEMP_LAYOUT___ZetaSurgicalSet.PointDisplayLabel",
+        "posX": 0,
+        "posY": 0,
+        "rootContainerType": "Item",
+        "showAnimation": {
+            "type": "Sequential"
+        },
+        "targetFile": "___TEMP_LAYOUT___ZetaSurgicalSet.PointDisplayLabel.ghl",
+        "width": 196
+    },
+    "componentName": "ZetaSurgicalSet.PointDisplayLabel",
+    "properties": [
+    ],
+    "signalList": {
+    },
+    "states": {
+    },
+    "targetFile": "PointDisplayLabel.ghcomp"
+}

@@ -1,0 +1,63 @@
+{
+    "anchorBottom": {
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorLeft": {
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorRight": {
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "anchorTop": {
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "I40:2119;21:5720"
+    },
+    "id": "fi_Status_On",
+    "properties": {
+        "border-bottom": {
+            "name": "border-bottom",
+            "type": "Int",
+            "value": 2
+        },
+        "border-left": {
+            "name": "border-left",
+            "type": "Int",
+            "value": 2
+        },
+        "border-right": {
+            "name": "border-right",
+            "type": "Int",
+            "value": 2
+        },
+        "border-top": {
+            "name": "border-top",
+            "type": "Int",
+            "value": 2
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 40
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/21_5720.png"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 40
+        }
+    },
+    "targetFile": "fi_Status_On.ghuie",
+    "type": "BorderImage",
+    "userDefined": false
+}

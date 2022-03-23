@@ -1,0 +1,8 @@
+if(DEFINED ENV{GOOGLETEST_DIR})
+    add_subdirectory(GreenHouse/)
+    add_subdirectory(ZetaSurgicalInterfaces/)
+else()
+    message("WARNING: Unable to include unit tests")
+    message("    - Please set the GOOGLETEST_DIR environment variable to the googletest repository")
+    message("    - You can clone the repo from here: https://github.com/google/googletest")
+endif()

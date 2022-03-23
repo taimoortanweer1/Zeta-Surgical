@@ -1,0 +1,23 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "ReadOnly": true,
+        "orderValue": 2
+    },
+    "height": 0,
+    "posX": 0,
+    "posY": 0,
+    "properties": {
+        "childViewType": "ChildStateView",
+        "initial": false,
+        "layerZ": 9,
+        "name": "Popups",
+        "parallel": false,
+        "parentingEnabled": true,
+        "preloadUI": false
+    },
+    "targetFile": "Popups.ghs",
+    "template": "LayerState",
+    "uuid": "{382f1d99-9f8e-4faa-9960-1808076279a3}",
+    "width": 0
+}

@@ -1,0 +1,48 @@
+{
+    "anchorBottom": {
+        "anchorMargin": 32,
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorHCenter": {
+        "anchorTarget": "parent",
+        "anchorValue": "HorizontalCenter"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "164:7520"
+    },
+    "id": "fi_importScan",
+    "properties": {
+        "fi_BUTTON_TEXT_text": {
+            "name": "fi_BUTTON_TEXT_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I164:7520;11:1229",
+            "value": "Proceed to Segmentation"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 392
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 32
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 664
+        }
+    },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_importScan__onEvent__clicked()\n"
+        }
+    },
+    "targetFile": "fi_importScan.ghuie",
+    "type": "ZetaSurgicalSet.NextButton",
+    "userDefined": false
+}

@@ -1,0 +1,19 @@
+{
+    "source": "Screens",
+    "target": "ConfirmRegistrationPRE_Adjustment_Cut_ScreenState",
+    "targetFile": "Screens_ConfirmRegistrationPRE_Adjustment_Cut_ScreenState.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceScreensMoveToConfirmRegistrationPRE_Adjustment_Cut_ScreenState"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{0ad1efab-ef8d-4f19-b590-a2bd04178917}"
+}

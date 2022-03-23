@@ -1,0 +1,24 @@
+{
+    "source": "Segmentation_Default_InfoPanel",
+    "targetFile": "Segmentation_Default_InfoPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_continueButton__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceScreensMoveToCT_Planning_Default_ScreenState();\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        }
+    ]
+}

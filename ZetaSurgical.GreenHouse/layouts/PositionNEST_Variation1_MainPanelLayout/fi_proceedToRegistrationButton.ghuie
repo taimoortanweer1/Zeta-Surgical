@@ -1,0 +1,44 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "40:2202"
+    },
+    "id": "fi_proceedToRegistrationButton",
+    "properties": {
+        "fi_BUTTON_TEXT_text": {
+            "name": "fi_BUTTON_TEXT_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I40:2202;11:1229",
+            "value": "Proceed to Registration"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 392
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 320
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 968
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 4
+        }
+    },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_proceedToRegistrationButton__onEvent__clicked()\n"
+        }
+    },
+    "targetFile": "fi_proceedToRegistrationButton.ghuie",
+    "type": "ZetaSurgicalSet.NextButton",
+    "userDefined": false
+}

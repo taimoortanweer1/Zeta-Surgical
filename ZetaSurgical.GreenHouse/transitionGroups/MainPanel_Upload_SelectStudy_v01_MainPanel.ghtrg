@@ -1,0 +1,18 @@
+{
+    "source": "MainPanel",
+    "target": "Upload_SelectStudy_v01_MainPanel",
+    "targetFile": "MainPanel_Upload_SelectStudy_v01_MainPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceMainPanelMoveToUpload_SelectStudy_v01_MainPanel"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

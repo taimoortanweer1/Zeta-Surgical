@@ -1,0 +1,24 @@
+{
+    "source": "DeletePointConfirmation",
+    "targetFile": "DeletePointConfirmation.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_no__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceScreensMoveToCT_Planning_Default_ScreenState();\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        }
+    ]
+}

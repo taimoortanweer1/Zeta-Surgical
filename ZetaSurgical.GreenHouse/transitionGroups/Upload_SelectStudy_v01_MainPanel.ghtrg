@@ -1,0 +1,24 @@
+{
+    "source": "Upload_SelectStudy_v01_MainPanel",
+    "targetFile": "Upload_SelectStudy_v01_MainPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_importScan__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceScreensMoveToSegmentation_Default_ScreenState();\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        }
+    ]
+}

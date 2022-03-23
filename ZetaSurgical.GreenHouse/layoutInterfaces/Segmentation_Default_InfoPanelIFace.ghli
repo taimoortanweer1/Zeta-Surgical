@@ -1,0 +1,10 @@
+{
+    "base": "Displayable",
+    "name": "Segmentation_Default_InfoPanelIFace",
+    "signals": {
+        "fi_continueButton__onEvent__clicked": {
+            "name": "fi_continueButton__onEvent__clicked"
+        }
+    },
+    "targetFile": "Segmentation_Default_InfoPanelIFace.ghli"
+}

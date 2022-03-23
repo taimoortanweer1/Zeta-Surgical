@@ -1,0 +1,493 @@
+{
+    "aliasList": {
+        "fi_cdUsb": [
+            {
+                "aliasElement": "repeateInterval",
+                "aliasName": "fi_cdUsb_repeateInterval",
+                "aliasSource": "fi_cdUsb"
+            },
+            {
+                "aliasElement": "minimumRepeatInterval",
+                "aliasName": "fi_cdUsb_minimumRepeatInterval",
+                "aliasSource": "fi_cdUsb"
+            },
+            {
+                "aliasElement": "doubleClickEnabeld",
+                "aliasName": "fi_cdUsb_doubleClickEnabeld",
+                "aliasSource": "fi_cdUsb"
+            },
+            {
+                "aliasElement": "selectionIndex",
+                "aliasName": "fi_cdUsb_selectionIndex",
+                "aliasSource": "fi_cdUsb"
+            },
+            {
+                "aliasElement": "itemIndex",
+                "aliasName": "fi_cdUsb_itemIndex",
+                "aliasSource": "fi_cdUsb"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_font",
+                "aliasName": "fi_cdUsb_fi_EXAMPLE_font",
+                "aliasSource": "fi_cdUsb"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_horizontalAlignment",
+                "aliasName": "fi_cdUsb_fi_EXAMPLE_horizontalAlignment",
+                "aliasSource": "fi_cdUsb"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_lineHeight",
+                "aliasName": "fi_cdUsb_fi_EXAMPLE_lineHeight",
+                "aliasSource": "fi_cdUsb"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_lineHeightMode",
+                "aliasName": "fi_cdUsb_fi_EXAMPLE_lineHeightMode",
+                "aliasSource": "fi_cdUsb"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_opacity",
+                "aliasName": "fi_cdUsb_fi_EXAMPLE_opacity",
+                "aliasSource": "fi_cdUsb"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_richText",
+                "aliasName": "fi_cdUsb_fi_EXAMPLE_richText",
+                "aliasSource": "fi_cdUsb"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_text",
+                "aliasName": "fi_cdUsb_fi_EXAMPLE_text",
+                "aliasSource": "fi_cdUsb"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_verticalAlignment",
+                "aliasName": "fi_cdUsb_fi_EXAMPLE_verticalAlignment",
+                "aliasSource": "fi_cdUsb"
+            },
+            {
+                "aliasElement": "enabled",
+                "aliasName": "fi_cdUsb_enabled",
+                "aliasSource": "fi_cdUsb"
+            }
+        ],
+        "fi_local": [
+            {
+                "aliasElement": "repeateInterval",
+                "aliasName": "fi_local_repeateInterval",
+                "aliasSource": "fi_local"
+            },
+            {
+                "aliasElement": "minimumRepeatInterval",
+                "aliasName": "fi_local_minimumRepeatInterval",
+                "aliasSource": "fi_local"
+            },
+            {
+                "aliasElement": "doubleClickEnabeld",
+                "aliasName": "fi_local_doubleClickEnabeld",
+                "aliasSource": "fi_local"
+            },
+            {
+                "aliasElement": "selectionIndex",
+                "aliasName": "fi_local_selectionIndex",
+                "aliasSource": "fi_local"
+            },
+            {
+                "aliasElement": "itemIndex",
+                "aliasName": "fi_local_itemIndex",
+                "aliasSource": "fi_local"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_font",
+                "aliasName": "fi_local_fi_EXAMPLE_font",
+                "aliasSource": "fi_local"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_horizontalAlignment",
+                "aliasName": "fi_local_fi_EXAMPLE_horizontalAlignment",
+                "aliasSource": "fi_local"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_lineHeight",
+                "aliasName": "fi_local_fi_EXAMPLE_lineHeight",
+                "aliasSource": "fi_local"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_lineHeightMode",
+                "aliasName": "fi_local_fi_EXAMPLE_lineHeightMode",
+                "aliasSource": "fi_local"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_opacity",
+                "aliasName": "fi_local_fi_EXAMPLE_opacity",
+                "aliasSource": "fi_local"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_richText",
+                "aliasName": "fi_local_fi_EXAMPLE_richText",
+                "aliasSource": "fi_local"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_text",
+                "aliasName": "fi_local_fi_EXAMPLE_text",
+                "aliasSource": "fi_local"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_verticalAlignment",
+                "aliasName": "fi_local_fi_EXAMPLE_verticalAlignment",
+                "aliasSource": "fi_local"
+            },
+            {
+                "aliasElement": "enabled",
+                "aliasName": "fi_local_enabled",
+                "aliasSource": "fi_local"
+            }
+        ],
+        "fi_pacs": [
+            {
+                "aliasElement": "repeateInterval",
+                "aliasName": "fi_pacs_repeateInterval",
+                "aliasSource": "fi_pacs"
+            },
+            {
+                "aliasElement": "minimumRepeatInterval",
+                "aliasName": "fi_pacs_minimumRepeatInterval",
+                "aliasSource": "fi_pacs"
+            },
+            {
+                "aliasElement": "doubleClickEnabeld",
+                "aliasName": "fi_pacs_doubleClickEnabeld",
+                "aliasSource": "fi_pacs"
+            },
+            {
+                "aliasElement": "selectionIndex",
+                "aliasName": "fi_pacs_selectionIndex",
+                "aliasSource": "fi_pacs"
+            },
+            {
+                "aliasElement": "itemIndex",
+                "aliasName": "fi_pacs_itemIndex",
+                "aliasSource": "fi_pacs"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_font",
+                "aliasName": "fi_pacs_fi_EXAMPLE_font",
+                "aliasSource": "fi_pacs"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_horizontalAlignment",
+                "aliasName": "fi_pacs_fi_EXAMPLE_horizontalAlignment",
+                "aliasSource": "fi_pacs"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_lineHeight",
+                "aliasName": "fi_pacs_fi_EXAMPLE_lineHeight",
+                "aliasSource": "fi_pacs"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_lineHeightMode",
+                "aliasName": "fi_pacs_fi_EXAMPLE_lineHeightMode",
+                "aliasSource": "fi_pacs"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_opacity",
+                "aliasName": "fi_pacs_fi_EXAMPLE_opacity",
+                "aliasSource": "fi_pacs"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_richText",
+                "aliasName": "fi_pacs_fi_EXAMPLE_richText",
+                "aliasSource": "fi_pacs"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_text",
+                "aliasName": "fi_pacs_fi_EXAMPLE_text",
+                "aliasSource": "fi_pacs"
+            },
+            {
+                "aliasElement": "fi_EXAMPLE_verticalAlignment",
+                "aliasName": "fi_pacs_fi_EXAMPLE_verticalAlignment",
+                "aliasSource": "fi_pacs"
+            },
+            {
+                "aliasElement": "enabled",
+                "aliasName": "fi_pacs_enabled",
+                "aliasSource": "fi_pacs"
+            }
+        ]
+    },
+    "componentLayout": {
+        "blockInputFallthrough": true,
+        "children": [
+            {
+                "children": [
+                    {
+                        "anchorLeft": {
+                            "anchorMargin": 1224,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorMargin": 96,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorVCenter": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "VerticalCenter"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_pacs",
+                        "properties": {
+                            "fi_EXAMPLE_text": {
+                                "name": "fi_EXAMPLE_text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::I174:1651;11:1303",
+                                "value": "PACS"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 472
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 1224
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 32
+                            }
+                        },
+                        "targetFile": "fi_pacs.ghuie",
+                        "type": "ZetaSurgicalSet.SelectButton",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorLeft": {
+                            "anchorMargin": 660,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorMargin": 660,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorVCenter": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "VerticalCenter"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_cdUsb",
+                        "properties": {
+                            "fi_EXAMPLE_text": {
+                                "name": "fi_EXAMPLE_text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::I174:1652;11:1303",
+                                "value": "CD / USB"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 472
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 660
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 32
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 1
+                            }
+                        },
+                        "targetFile": "fi_cdUsb.ghuie",
+                        "type": "ZetaSurgicalSet.SelectButton",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorLeft": {
+                            "anchorMargin": 96,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorMargin": 1224,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorVCenter": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "VerticalCenter"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_local",
+                        "properties": {
+                            "fi_EXAMPLE_text": {
+                                "name": "fi_EXAMPLE_text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::I174:1653;11:1306",
+                                "value": "LOCAL"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 472
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 96
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 32
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 2
+                            }
+                        },
+                        "targetFile": "fi_local.ghuie",
+                        "type": "ZetaSurgicalSet.SelectButton",
+                        "userDefined": false
+                    }
+                ],
+                "childrenSplit": true,
+                "id": "root",
+                "properties": {
+                    "height": {
+                        "name": "height",
+                        "type": "Int",
+                        "value": 144
+                    },
+                    "width": {
+                        "name": "width",
+                        "type": "Int",
+                        "value": 1792
+                    }
+                },
+                "targetFile": "root.ghuie",
+                "type": "Item",
+                "userDefined": false
+            }
+        ],
+        "childrenSplit": true,
+        "fillParent": false,
+        "height": 144,
+        "hideAnimation": {
+            "type": "Sequential"
+        },
+        "interfaceName": "",
+        "name": "___TEMP_LAYOUT___ZetaSurgicalSet.FileNavBar_Top_Default_State",
+        "posX": 0,
+        "posY": 0,
+        "rootContainerType": "Item",
+        "showAnimation": {
+            "type": "Sequential"
+        },
+        "targetFile": "___TEMP_LAYOUT___ZetaSurgicalSet.FileNavBar_Top_Default_State.ghl",
+        "width": 1792
+    },
+    "componentName": "ZetaSurgicalSet.FileNavBar_Top_Default_State",
+    "properties": [
+    ],
+    "signalList": {
+        "fi_cdUsb": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "fi_cdUsb_clicked",
+                "aliasSource": "fi_cdUsb"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "fi_cdUsb_doubleClicked",
+                "aliasSource": "fi_cdUsb"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "fi_cdUsb_pressed",
+                "aliasSource": "fi_cdUsb"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "fi_cdUsb_released",
+                "aliasSource": "fi_cdUsb"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "fi_cdUsb_repeatingTriggered",
+                "aliasSource": "fi_cdUsb"
+            }
+        ],
+        "fi_local": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "fi_local_clicked",
+                "aliasSource": "fi_local"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "fi_local_doubleClicked",
+                "aliasSource": "fi_local"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "fi_local_pressed",
+                "aliasSource": "fi_local"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "fi_local_released",
+                "aliasSource": "fi_local"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "fi_local_repeatingTriggered",
+                "aliasSource": "fi_local"
+            }
+        ],
+        "fi_pacs": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "fi_pacs_clicked",
+                "aliasSource": "fi_pacs"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "fi_pacs_doubleClicked",
+                "aliasSource": "fi_pacs"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "fi_pacs_pressed",
+                "aliasSource": "fi_pacs"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "fi_pacs_released",
+                "aliasSource": "fi_pacs"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "fi_pacs_repeatingTriggered",
+                "aliasSource": "fi_pacs"
+            }
+        ]
+    },
+    "states": {
+    },
+    "targetFile": "FileNavBar_Top_Default_State.ghcomp"
+}

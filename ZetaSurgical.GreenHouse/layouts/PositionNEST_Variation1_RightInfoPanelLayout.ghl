@@ -1,0 +1,20 @@
+{
+    "blockInputFallthrough": true,
+    "childrenSplit": true,
+    "fillParent": false,
+    "height": 1080,
+    "hideAnimation": {
+        "type": "Sequential"
+    },
+    "interfaceName": "PositionNEST_Variation1_RightInfoPanelIFace",
+    "name": "PositionNEST_Variation1_RightInfoPanelLayout",
+    "posX": 1616,
+    "posY": 0,
+    "rootContainerType": "Item",
+    "showAnimation": {
+        "type": "Sequential"
+    },
+    "targetFile": "PositionNEST_Variation1_RightInfoPanelLayout.ghl",
+    "uuid": "{90c37aa5-7e21-454f-8f99-707f6b690e8b}",
+    "width": 304
+}

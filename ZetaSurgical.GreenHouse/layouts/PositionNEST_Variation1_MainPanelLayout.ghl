@@ -1,0 +1,20 @@
+{
+    "blockInputFallthrough": true,
+    "childrenSplit": true,
+    "fillParent": false,
+    "height": 1080,
+    "hideAnimation": {
+        "type": "Sequential"
+    },
+    "interfaceName": "PositionNEST_Variation1_MainPanelIFace",
+    "name": "PositionNEST_Variation1_MainPanelLayout",
+    "posX": 584,
+    "posY": 0,
+    "rootContainerType": "Item",
+    "showAnimation": {
+        "type": "Sequential"
+    },
+    "targetFile": "PositionNEST_Variation1_MainPanelLayout.ghl",
+    "uuid": "{7a1eacd7-f209-4582-9c3e-c3e8d3cb73d4}",
+    "width": 1032
+}

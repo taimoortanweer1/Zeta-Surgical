@@ -1,0 +1,37 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "46:2468"
+    },
+    "id": "fi_ListView_ToolSelect",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 272
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 392
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 32
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 168
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "targetFile": "fi_ListView_ToolSelect.ghuie",
+    "type": "ComponentsSet.ModelView",
+    "userDefined": false
+}

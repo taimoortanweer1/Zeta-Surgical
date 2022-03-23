@@ -1,0 +1,30 @@
+{
+    "source": "Screens",
+    "target": "LoginView_LoginSuccess_ScreenState",
+    "targetFile": "Screens_LoginView_LoginSuccess_ScreenState.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceScreensMoveToLoginView_LoginSuccess_ScreenState"
+            },
+            "template": "SignalTransition"
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "LoginPresenter",
+                "senderStringType": "%1",
+                "signal": "loggedInScreenShown"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{978090e4-3949-4c79-bef5-729161aff35f}"
+}

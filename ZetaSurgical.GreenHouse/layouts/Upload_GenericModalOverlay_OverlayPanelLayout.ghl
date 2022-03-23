@@ -1,0 +1,20 @@
+{
+    "blockInputFallthrough": true,
+    "childrenSplit": true,
+    "fillParent": false,
+    "height": 1080,
+    "hideAnimation": {
+        "type": "Sequential"
+    },
+    "interfaceName": "Upload_GenericModalOverlay_OverlayPanelIFace",
+    "name": "Upload_GenericModalOverlay_OverlayPanelLayout",
+    "posX": 0,
+    "posY": 0,
+    "rootContainerType": "Item",
+    "showAnimation": {
+        "type": "Sequential"
+    },
+    "targetFile": "Upload_GenericModalOverlay_OverlayPanelLayout.ghl",
+    "uuid": "{03f6009c-7eaf-48da-9a7f-6dd86533ceef}",
+    "width": 1920
+}

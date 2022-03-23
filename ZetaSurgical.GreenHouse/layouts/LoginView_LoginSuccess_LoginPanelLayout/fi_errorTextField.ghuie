@@ -1,0 +1,48 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "39:1721"
+    },
+    "id": "fi_errorTextField",
+    "properties": {
+        "fi_Error_Font_horizontalAlignment": {
+            "name": "fi_Error_Font_horizontalAlignment",
+            "type": "TextHorizontalAlignment",
+            "value": "AlignHCenter"
+        },
+        "fi_Error_Font_text": {
+            "name": "fi_Error_Font_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I39:1721;34:1120",
+            "value": "Incorrect password"
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 80
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 528
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 136
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 288
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "targetFile": "fi_errorTextField.ghuie",
+    "type": "ZetaSurgicalSet.TexBox_Error",
+    "userDefined": false
+}

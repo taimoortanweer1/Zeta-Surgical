@@ -1,0 +1,18 @@
+{
+    "source": "OverlayPanel",
+    "target": "OverlayPanelHidden",
+    "targetFile": "OverlayPanel_OverlayPanelHidden.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "hideOverlayPanel"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

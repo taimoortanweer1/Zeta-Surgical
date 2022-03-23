@@ -1,0 +1,21 @@
+{
+    "blockInputFallthrough": true,
+    "childrenSplit": true,
+    "fillParent": false,
+    "focus": "{b6c86991-8e37-4eb8-8b64-f1cc9c2943f1}",
+    "height": 1080,
+    "hideAnimation": {
+        "type": "Sequential"
+    },
+    "interfaceName": "LoginViewIFace",
+    "name": "LoginViewLayout",
+    "posX": 0,
+    "posY": 0,
+    "rootContainerType": "Item",
+    "showAnimation": {
+        "type": "Sequential"
+    },
+    "targetFile": "LoginViewLayout.ghl",
+    "uuid": "{18dfd2fa-48f6-4364-8203-0ebf2ce4fa55}",
+    "width": 1920
+}

@@ -1,0 +1,19 @@
+{
+    "source": "Screens",
+    "target": "Upload_SelectPatient_v01_ScreenState",
+    "targetFile": "Screens_Upload_SelectPatient_v01_ScreenState.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceScreensMoveToUpload_SelectPatient_v01_ScreenState"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{9bc425a7-4ad1-43bd-9dd9-e85698d874f5}"
+}

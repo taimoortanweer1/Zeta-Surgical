@@ -1,0 +1,37 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "39:1717"
+    },
+    "id": "fi_zetaLogo_2",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 1080
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/39_1717.png"
+        },
+        "verticalCenterOffset": {
+            "name": "verticalCenterOffset",
+            "type": "Int",
+            "value": 4
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 1018
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "targetFile": "fi_zetaLogo_2.ghuie",
+    "type": "DecorativeSet.DecoratedItem",
+    "userDefined": false
+}

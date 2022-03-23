@@ -1,0 +1,64 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 696,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 372,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "40:5518"
+    },
+    "id": "fi_usernameField",
+    "properties": {
+        "input_autoClear": {
+            "name": "input_autoClear",
+            "type": "Bool",
+            "value": true
+        },
+        "input_color": {
+            "name": "input_color",
+            "type": "Color",
+            "value": "Text/Blue 2 - Input"
+        },
+        "input_focus": {
+            "name": "input_focus",
+            "type": "Bool",
+            "value": true
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 696
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 372
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "signals": {
+        "input_accepted": {
+            "name": "input_accepted",
+            "rawCode": "root.itemInterface.fi_usernameField__onEvent__input_accepted()\n"
+        },
+        "input_textChanged": {
+            "arguments": "string text",
+            "name": "input_textChanged",
+            "rawCode": "root.itemInterface.fi_usernameField__onEvent__input_textChanged(text)\n"
+        }
+    },
+    "targetFile": "fi_usernameField.ghuie",
+    "type": "ZetaSurgicalSet.LoginInputText",
+    "userDefined": false,
+    "uuid": "{b6c86991-8e37-4eb8-8b64-f1cc9c2943f1}"
+}

@@ -1,0 +1,73 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "40:2481"
+    },
+    "id": "fi_Orient_the_model_so_it_directly_faces_the_screen_Reference_the_images_below_for_help",
+    "properties": {
+        "font": {
+            "name": "font",
+            "type": "Font",
+            "value": "Figma::Arial_ArialMT_22_50_0_0_0_0_0.2"
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 98
+        },
+        "horizontalAlignment": {
+            "name": "horizontalAlignment",
+            "type": "TextHorizontalAlignment",
+            "value": "AlignHCenter"
+        },
+        "lineHeight": {
+            "name": "lineHeight",
+            "type": "Float",
+            "value": 30
+        },
+        "lineHeightMode": {
+            "name": "lineHeightMode",
+            "type": "TextLineHeightMode",
+            "value": "FixedHeight"
+        },
+        "text": {
+            "name": "text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::40:2481",
+            "value": "Orient the model so it directly faces the screen. Reference the images below for help."
+        },
+        "textColor": {
+            "name": "textColor",
+            "type": "Color",
+            "value": "Text/White"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 394
+        },
+        "wrapMode": {
+            "name": "wrapMode",
+            "type": "TextWrapMode",
+            "value": "WordWrap"
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 31
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 111
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "targetFile": "fi_Orient_the_model_so_it_directly_faces_the_screen_Reference_the_images_below_for_help.ghuie",
+    "type": "ComponentsSet.Label",
+    "userDefined": false
+}

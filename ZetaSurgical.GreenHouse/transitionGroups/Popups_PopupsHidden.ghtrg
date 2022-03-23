@@ -1,0 +1,19 @@
+{
+    "source": "Popups",
+    "target": "PopupsHidden",
+    "targetFile": "Popups_PopupsHidden.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "hidePopups"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{3309a2df-0fb2-4ee3-992e-828616794abd}"
+}

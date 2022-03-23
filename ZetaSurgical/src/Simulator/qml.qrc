@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/ActionScriptsPage.qml</file>
+        <file>qml/BackendPage.qml</file>
+        <file>qml/DataSamplingPage.qml</file>
+        <file>qml/LayerTable.qml</file>
+        <file>qml/RecordAndReplayPage.qml</file>
+        <file>qml/ScriptModules/qmldir</file>
+        <file>qml/ScriptableObject.qml</file>
+        <file>qml/SurfacePage.qml</file>
+        <file>qml/UiTextTable.qml</file>
+        <file>qml/editors/BoolEditor.qml</file>
+        <file>qml/editors/DoubleEditor.qml</file>
+        <file>qml/editors/EditorSource.qml</file>
+        <file>qml/editors/FloatEditor.qml</file>
+        <file>qml/editors/IntEditor.qml</file>
+        <file>qml/editors/ModelEditor.qml</file>
+        <file>qml/editors/ScriptEditor.qml</file>
+        <file>qml/editors/StringEditor.qml</file>
+        <file>qml/main.qml</file>
+    </qresource>
+</RCC>

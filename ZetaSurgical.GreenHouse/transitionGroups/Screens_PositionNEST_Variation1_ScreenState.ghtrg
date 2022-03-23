@@ -1,0 +1,19 @@
+{
+    "source": "Screens",
+    "target": "PositionNEST_Variation1_ScreenState",
+    "targetFile": "Screens_PositionNEST_Variation1_ScreenState.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceScreensMoveToPositionNEST_Variation1_ScreenState"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{119074df-8ebb-45ce-b411-9dc1181937d2}"
+}

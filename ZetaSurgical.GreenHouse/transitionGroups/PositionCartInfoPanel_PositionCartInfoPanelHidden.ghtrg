@@ -1,0 +1,18 @@
+{
+    "source": "PositionCartInfoPanel",
+    "target": "PositionCartInfoPanelHidden",
+    "targetFile": "PositionCartInfoPanel_PositionCartInfoPanelHidden.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "hidePositionCartInfoPanel"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

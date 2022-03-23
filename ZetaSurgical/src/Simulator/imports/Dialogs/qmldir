@@ -1,0 +1,4 @@
+module Dialogs
+
+FileDialog 1.0 FileDialog.qml
+FolderDialog 1.0 FolderDialog.qml

@@ -1,0 +1,32 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "79:2140"
+    },
+    "id": "fi_BottomButtonPanel_Z_0",
+    "properties": {
+        "clip": {
+            "name": "clip",
+            "type": "Bool",
+            "value": true
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 144
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 1792
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 936
+        }
+    },
+    "targetFile": "fi_BottomButtonPanel_Z_0.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

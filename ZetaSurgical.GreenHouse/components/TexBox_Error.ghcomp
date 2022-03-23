@@ -1,0 +1,286 @@
+{
+    "aliasList": {
+        "fi_Error_Font___active": [
+            {
+                "aliasElement": "font",
+                "aliasName": "fi_Error_Font_font",
+                "aliasSource": "fi_Error_Font___active"
+            },
+            {
+                "aliasElement": "horizontalAlignment",
+                "aliasName": "fi_Error_Font_horizontalAlignment",
+                "aliasSource": "fi_Error_Font___active"
+            },
+            {
+                "aliasElement": "lineHeight",
+                "aliasName": "fi_Error_Font_lineHeight",
+                "aliasSource": "fi_Error_Font___active"
+            },
+            {
+                "aliasElement": "lineHeightMode",
+                "aliasName": "fi_Error_Font_lineHeightMode",
+                "aliasSource": "fi_Error_Font___active"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "fi_Error_Font_opacity",
+                "aliasSource": "fi_Error_Font___active"
+            },
+            {
+                "aliasElement": "richText",
+                "aliasName": "fi_Error_Font_richText",
+                "aliasSource": "fi_Error_Font___active"
+            },
+            {
+                "aliasElement": "text",
+                "aliasName": "fi_Error_Font_text",
+                "aliasSource": "fi_Error_Font___active"
+            },
+            {
+                "aliasElement": "verticalAlignment",
+                "aliasName": "fi_Error_Font_verticalAlignment",
+                "aliasSource": "fi_Error_Font___active"
+            }
+        ],
+        "fi_Rectangle_90___active": [
+            {
+                "aliasElement": "color",
+                "aliasName": "fi_Rectangle_90_color",
+                "aliasSource": "fi_Rectangle_90___active"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "fi_Rectangle_90_opacity",
+                "aliasSource": "fi_Rectangle_90___active"
+            }
+        ]
+    },
+    "componentLayout": {
+        "blockInputFallthrough": true,
+        "children": [
+            {
+                "children": [
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorMargin": -1,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Rectangle_90___active",
+                        "properties": {
+                            "border-color": {
+                                "name": "border-color",
+                                "type": "Color",
+                                "value": "Figma::0_0_0_0"
+                            },
+                            "border-width": {
+                                "name": "border-width",
+                                "type": "Int",
+                                "value": 1
+                            },
+                            "color": {
+                                "name": "color",
+                                "type": "Color",
+                                "value": "Fill/Light Grey 1"
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 49
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 464
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": -1
+                            }
+                        },
+                        "targetFile": "fi_Rectangle_90___active.ghuie",
+                        "type": "Rectangle",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorLeft": {
+                            "anchorMargin": 15,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorMargin": 15,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorVCenter": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "VerticalCenter"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Error_Font___active",
+                        "properties": {
+                            "font": {
+                                "name": "font",
+                                "type": "Font",
+                                "value": "Figma::Arial_ArialMT_22_50_0_0_0_0_0.2"
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 50
+                            },
+                            "lineHeight": {
+                                "name": "lineHeight",
+                                "type": "Float",
+                                "value": 30
+                            },
+                            "lineHeightMode": {
+                                "name": "lineHeightMode",
+                                "type": "TextLineHeightMode",
+                                "value": "FixedHeight"
+                            },
+                            "text": {
+                                "name": "text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::23:5978",
+                                "value": "Error Font"
+                            },
+                            "textColor": {
+                                "name": "textColor",
+                                "type": "Color",
+                                "value": "Icon/Red"
+                            },
+                            "verticalAlignment": {
+                                "name": "verticalAlignment",
+                                "type": "TextVerticalAlignment",
+                                "value": "AlignVCenter"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 434
+                            },
+                            "wrapMode": {
+                                "name": "wrapMode",
+                                "type": "TextWrapMode",
+                                "value": "WordWrap"
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 15
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": -1
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 1
+                            }
+                        },
+                        "targetFile": "fi_Error_Font___active.ghuie",
+                        "type": "ComponentsSet.Label",
+                        "userDefined": false
+                    }
+                ],
+                "childrenSplit": true,
+                "id": "root",
+                "properties": {
+                    "height": {
+                        "name": "height",
+                        "type": "Int",
+                        "value": 48
+                    },
+                    "width": {
+                        "name": "width",
+                        "type": "Int",
+                        "value": 464
+                    }
+                },
+                "targetFile": "root.ghuie",
+                "type": "Item",
+                "userDefined": false
+            }
+        ],
+        "childrenSplit": true,
+        "fillParent": false,
+        "height": 48,
+        "hideAnimation": {
+            "type": "Sequential"
+        },
+        "interfaceName": "",
+        "name": "___TEMP_LAYOUT___ZetaSurgicalSet.TexBox_Error",
+        "posX": 0,
+        "posY": 0,
+        "rootContainerType": "Item",
+        "showAnimation": {
+            "type": "Sequential"
+        },
+        "targetFile": "___TEMP_LAYOUT___ZetaSurgicalSet.TexBox_Error.ghl",
+        "width": 464
+    },
+    "componentName": "ZetaSurgicalSet.TexBox_Error",
+    "properties": [
+        {
+            "name": "selectionIndex",
+            "type": "Int",
+            "value": -1
+        },
+        {
+            "name": "itemIndex",
+            "type": "Int",
+            "value": 0
+        }
+    ],
+    "signalList": {
+    },
+    "states": {
+        "__main_state_group": {
+            "default": {
+                "group": "",
+                "name": "default",
+                "propertyChanges": [
+                    {
+                        "name": "textColor",
+                        "propertyChangeTarget": "fi_Error_Font___active",
+                        "type": "Color",
+                        "value": "Figma::0_0_0_0"
+                    }
+                ],
+                "when": "!(root.selectionIndex == root.itemIndex)"
+            },
+            "selected": {
+                "group": "",
+                "name": "selected",
+                "propertyChanges": [
+                    {
+                        "name": "textColor",
+                        "propertyChangeTarget": "fi_Error_Font___active",
+                        "type": "Color",
+                        "value": "Icon/Red"
+                    }
+                ],
+                "when": "(root.selectionIndex == root.itemIndex)"
+            }
+        }
+    },
+    "targetFile": "TexBox_Error.ghcomp"
+}

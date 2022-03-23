@@ -1,0 +1,20 @@
+{
+    "blockInputFallthrough": true,
+    "childrenSplit": true,
+    "fillParent": false,
+    "height": 1080,
+    "hideAnimation": {
+        "type": "Sequential"
+    },
+    "interfaceName": "CT_Planning_Default_MainPanelIFace",
+    "name": "CT_Planning_Default_MainPanelLayout",
+    "posX": 128,
+    "posY": 0,
+    "rootContainerType": "Item",
+    "showAnimation": {
+        "type": "Sequential"
+    },
+    "targetFile": "CT_Planning_Default_MainPanelLayout.ghl",
+    "uuid": "{b07799f4-7e63-41b7-8520-4b14ece99001}",
+    "width": 1336
+}

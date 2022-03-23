@@ -1,0 +1,20 @@
+{
+    "blockInputFallthrough": true,
+    "childrenSplit": true,
+    "fillParent": false,
+    "height": 1080,
+    "hideAnimation": {
+        "type": "Sequential"
+    },
+    "interfaceName": "DeleteToolConfirmationIFace",
+    "name": "DeleteToolConfirmationLayout",
+    "posX": 0,
+    "posY": 0,
+    "rootContainerType": "Item",
+    "showAnimation": {
+        "type": "Sequential"
+    },
+    "targetFile": "DeleteToolConfirmationLayout.ghl",
+    "uuid": "{1afed182-f2e4-41e3-a616-fca4adc7634a}",
+    "width": 1920
+}

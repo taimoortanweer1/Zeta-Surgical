@@ -1,0 +1,19 @@
+{
+    "blockInputFallthrough": true,
+    "childrenSplit": true,
+    "fillParent": false,
+    "height": 1080,
+    "hideAnimation": {
+        "type": "Sequential"
+    },
+    "interfaceName": "Segmentation_Default_MainPanelIFace",
+    "name": "Segmentation_Default_MainPanelLayout",
+    "posX": 130,
+    "posY": 0,
+    "rootContainerType": "Item",
+    "showAnimation": {
+        "type": "Sequential"
+    },
+    "targetFile": "Segmentation_Default_MainPanelLayout.ghl",
+    "width": 1334
+}

@@ -1,0 +1,27 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "34:3316"
+    },
+    "id": "fi_TargetPanel_Z_0",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 480
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 456
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 3
+        }
+    },
+    "targetFile": "fi_TargetPanel_Z_0.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

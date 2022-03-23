@@ -1,0 +1,19 @@
+{
+    "source": "Screens",
+    "target": "LoginView_Default_ScreenState",
+    "targetFile": "Screens_LoginView_Default_ScreenState.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceScreensMoveToLoginView_Default_ScreenState"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{a2a393e9-7e95-483d-aced-aad8862254cb}"
+}

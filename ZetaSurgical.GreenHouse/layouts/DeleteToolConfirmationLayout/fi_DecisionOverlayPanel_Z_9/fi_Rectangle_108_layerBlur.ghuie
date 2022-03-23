@@ -1,0 +1,35 @@
+{
+    "anchorBottom": {
+        "anchorTarget": "fi_Rectangle_108",
+        "anchorValue": "Bottom"
+    },
+    "anchorLeft": {
+        "anchorTarget": "fi_Rectangle_108",
+        "anchorValue": "Left"
+    },
+    "anchorRight": {
+        "anchorTarget": "fi_Rectangle_108",
+        "anchorValue": "Right"
+    },
+    "anchorTop": {
+        "anchorTarget": "fi_Rectangle_108",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "id": "fi_Rectangle_108_layerBlur",
+    "properties": {
+        "radius": {
+            "name": "radius",
+            "type": "Float",
+            "value": 4
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": -1
+        }
+    },
+    "targetFile": "fi_Rectangle_108_layerBlur.ghuie",
+    "type": "DecorativeSet.LayerBlur",
+    "userDefined": false
+}

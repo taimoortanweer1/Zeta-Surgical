@@ -1,0 +1,30 @@
+{
+    "alternativeLayoutScreenSize": {
+    },
+    "alternativeLayouts": [
+    ],
+    "componentsFile": "components",
+    "defaultTheme": "DefaultTheme",
+    "extraData": {
+        "ImportTimeStamp": "2022-03-23T20:20:56Z",
+        "ImportUrl": "https://www.figma.com/file/kKItBBA5TYuCVGxWbPVftH/UserInterface_POC_20220315_v02"
+    },
+    "interfaceIdRangeStart": 0,
+    "interfacesFile": "interfaces",
+    "layoutInterfacesFile": "layoutInterfaces",
+    "layoutScreenSize": {
+        "height": 1080,
+        "width": 1920
+    },
+    "layoutsFile": "layouts",
+    "projectPrefix": "",
+    "standaloneThemes": false,
+    "statesFile": "states",
+    "testingFile": "testing",
+    "transitionsFile": "transitionGroups",
+    "versionData": {
+        "major": 1,
+        "minor": 6,
+        "patch": 15
+    }
+}

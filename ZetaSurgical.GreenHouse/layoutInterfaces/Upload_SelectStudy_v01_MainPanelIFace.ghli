@@ -1,0 +1,10 @@
+{
+    "base": "Displayable",
+    "name": "Upload_SelectStudy_v01_MainPanelIFace",
+    "signals": {
+        "fi_importScan__onEvent__clicked": {
+            "name": "fi_importScan__onEvent__clicked"
+        }
+    },
+    "targetFile": "Upload_SelectStudy_v01_MainPanelIFace.ghli"
+}

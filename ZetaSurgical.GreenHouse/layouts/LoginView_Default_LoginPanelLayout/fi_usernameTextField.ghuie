@@ -1,0 +1,35 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "22:3515"
+    },
+    "id": "fi_usernameTextField",
+    "properties": {
+        "input_inputText": {
+            "bindingProp": "enteredUsername",
+            "bindingSrc": "LoginPresenter",
+            "name": "input_inputText",
+            "type": "TranslatableString",
+            "uuid": "{b83b32da-58b7-4688-9494-5d15a7de3565}",
+            "value": null
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 136
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 80
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 4
+        }
+    },
+    "targetFile": "fi_usernameTextField.ghuie",
+    "type": "ZetaSurgicalSet.LoginInputText",
+    "userDefined": false
+}

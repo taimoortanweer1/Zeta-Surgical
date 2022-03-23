@@ -1,0 +1,16 @@
+{
+    "base": "Displayable",
+    "name": "LoginView_Default_LoginPanelIFace",
+    "signals": {
+        "fi_loginButton__onEvent__clicked": {
+            "name": "fi_loginButton__onEvent__clicked"
+        },
+        "mouseArea0__onEvent__clicked": {
+            "name": "mouseArea0__onEvent__clicked"
+        },
+        "mouseArea1__onEvent__clicked": {
+            "name": "mouseArea1__onEvent__clicked"
+        }
+    },
+    "targetFile": "LoginView_Default_LoginPanelIFace.ghli"
+}
