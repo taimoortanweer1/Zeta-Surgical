@@ -54,7 +54,7 @@
         "textColor": {
             "name": "textColor",
             "type": "Color",
-            "value": "Text/White"
+            "value": "Dark Ink"
         },
         "width": {
             "name": "width",

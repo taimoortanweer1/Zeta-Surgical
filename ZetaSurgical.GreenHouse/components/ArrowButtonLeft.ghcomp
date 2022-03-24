@@ -204,6 +204,7 @@
                     },
                     {
                         "anchorBottom": {
+                            "anchorMargin": 4,
                             "anchorTarget": "parent",
                             "anchorValue": "Bottom"
                         },
@@ -212,11 +213,11 @@
                             "anchorValue": "Left"
                         },
                         "anchorRight": {
-                            "anchorMargin": 8,
                             "anchorTarget": "parent",
                             "anchorValue": "Right"
                         },
                         "anchorTop": {
+                            "anchorMargin": 4,
                             "anchorTarget": "parent",
                             "anchorValue": "Top"
                         },
@@ -226,12 +227,12 @@
                             "height": {
                                 "name": "height",
                                 "type": "Int",
-                                "value": 64
+                                "value": 56
                             },
                             "source": {
                                 "name": "source",
                                 "type": "Asset",
-                                "value": "/Icons/UpTriangle__DefaultState.png"
+                                "value": "/Icons/LeftTriangle__DefaultState.png"
                             },
                             "visible": {
                                 "bindingProp": "visible",
@@ -244,7 +245,12 @@
                             "width": {
                                 "name": "width",
                                 "type": "Int",
-                                "value": 56
+                                "value": 64
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 4
                             },
                             "z": {
                                 "name": "z",
@@ -258,6 +264,7 @@
                     },
                     {
                         "anchorBottom": {
+                            "anchorMargin": 4,
                             "anchorTarget": "parent",
                             "anchorValue": "Bottom"
                         },
@@ -266,11 +273,11 @@
                             "anchorValue": "Left"
                         },
                         "anchorRight": {
-                            "anchorMargin": 8,
                             "anchorTarget": "parent",
                             "anchorValue": "Right"
                         },
                         "anchorTop": {
+                            "anchorMargin": 4,
                             "anchorTarget": "parent",
                             "anchorValue": "Top"
                         },
@@ -280,7 +287,7 @@
                             "height": {
                                 "name": "height",
                                 "type": "Int",
-                                "value": 64
+                                "value": 56
                             },
                             "opacity": {
                                 "bindingProp": "opacity",
@@ -296,7 +303,7 @@
                                 "itemBound": true,
                                 "name": "source",
                                 "type": "Asset",
-                                "value": "/Icons/UpTriangle__DefaultState.png"
+                                "value": "/Icons/LeftTriangle__DefaultState.png"
                             },
                             "visible": {
                                 "bindingProp": "visible",
@@ -309,7 +316,12 @@
                             "width": {
                                 "name": "width",
                                 "type": "Int",
-                                "value": 56
+                                "value": 64
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 4
                             },
                             "z": {
                                 "name": "z",

@@ -403,7 +403,7 @@
                             "textColor": {
                                 "name": "textColor",
                                 "type": "Color",
-                                "value": "Text/White"
+                                "value": "Dark Ink"
                             },
                             "verticalAlignment": {
                                 "name": "verticalAlignment",
@@ -488,7 +488,7 @@
                             "textColor": {
                                 "name": "textColor",
                                 "type": "Color",
-                                "value": "Text/White"
+                                "value": "Dark Ink"
                             },
                             "verticalAlignment": {
                                 "name": "verticalAlignment",
@@ -573,7 +573,7 @@
                             "textColor": {
                                 "name": "textColor",
                                 "type": "Color",
-                                "value": "Text/White"
+                                "value": "Dark Ink"
                             },
                             "verticalAlignment": {
                                 "name": "verticalAlignment",
@@ -658,7 +658,7 @@
                             "textColor": {
                                 "name": "textColor",
                                 "type": "Color",
-                                "value": "Text/White"
+                                "value": "Dark Ink"
                             },
                             "verticalAlignment": {
                                 "name": "verticalAlignment",
@@ -743,7 +743,7 @@
                             "textColor": {
                                 "name": "textColor",
                                 "type": "Color",
-                                "value": "Text/White"
+                                "value": "Dark Ink"
                             },
                             "verticalAlignment": {
                                 "name": "verticalAlignment",

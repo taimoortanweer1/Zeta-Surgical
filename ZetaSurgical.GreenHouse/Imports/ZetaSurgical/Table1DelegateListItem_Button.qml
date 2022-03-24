@@ -32,7 +32,7 @@ Item {
     property alias fi_01_01_1900_richText: fi_01_01_1900___default.richText
     //TRANSLATABLE 01/01/1900
     property alias fi_01_01_1900_text: fi_01_01_1900___default.text
-    //COLOR Text/White
+    //COLOR Dark Ink
     property alias fi_01_01_1900_textColor: fi_01_01_1900___default.textColor
     //TEXTVAL 128
     property alias fi_01_01_1900_verticalAlignment: fi_01_01_1900___default.verticalAlignment
@@ -50,7 +50,7 @@ Item {
     property alias fi_02_14_2022_richText: fi_02_14_2022___default.richText
     //TRANSLATABLE 02/14/2022
     property alias fi_02_14_2022_text: fi_02_14_2022___default.text
-    //COLOR Text/White
+    //COLOR Dark Ink
     property alias fi_02_14_2022_textColor: fi_02_14_2022___default.textColor
     //TEXTVAL 128
     property alias fi_02_14_2022_verticalAlignment: fi_02_14_2022___default.verticalAlignment
@@ -68,7 +68,7 @@ Item {
     property alias fi_3_richText: fi_3___default.richText
     //TRANSLATABLE 3
     property alias fi_3_text: fi_3___default.text
-    //COLOR Text/White
+    //COLOR Dark Ink
     property alias fi_3_textColor: fi_3___default.textColor
     //TEXTVAL 128
     property alias fi_3_verticalAlignment: fi_3___default.verticalAlignment
@@ -86,7 +86,7 @@ Item {
     property alias fi_9089123423_richText: fi_9089123423___default.richText
     //TRANSLATABLE 9089123423
     property alias fi_9089123423_text: fi_9089123423___default.text
-    //COLOR Text/White
+    //COLOR Dark Ink
     property alias fi_9089123423_textColor: fi_9089123423___default.textColor
     //TEXTVAL 128
     property alias fi_9089123423_verticalAlignment: fi_9089123423___default.verticalAlignment
@@ -104,7 +104,7 @@ Item {
     property alias fi_BWH15304_richText: fi_BWH15304___default.richText
     //TRANSLATABLE BWH-15304
     property alias fi_BWH15304_text: fi_BWH15304___default.text
-    //COLOR Text/White
+    //COLOR Dark Ink
     property alias fi_BWH15304_textColor: fi_BWH15304___default.textColor
     //TEXTVAL 128
     property alias fi_BWH15304_verticalAlignment: fi_BWH15304___default.verticalAlignment
@@ -122,7 +122,7 @@ Item {
     property alias fi_John_Doe_richText: fi_John_Doe___default.richText
     //TRANSLATABLE John Doe
     property alias fi_John_Doe_text: fi_John_Doe___default.text
-    //COLOR Text/White
+    //COLOR Dark Ink
     property alias fi_John_Doe_textColor: fi_John_Doe___default.textColor
     //TEXTVAL 128
     property alias fi_John_Doe_verticalAlignment: fi_John_Doe___default.verticalAlignment
@@ -140,7 +140,7 @@ Item {
     property alias fi_M_richText: fi_M___default.richText
     //TRANSLATABLE M
     property alias fi_M_text: fi_M___default.text
-    //COLOR Text/White
+    //COLOR Dark Ink
     property alias fi_M_textColor: fi_M___default.textColor
     //TEXTVAL 128
     property alias fi_M_verticalAlignment: fi_M___default.verticalAlignment
@@ -213,7 +213,7 @@ Item {
         height: 98
         text: qsTr("John Doe", "FigmaNode::164:7712") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::164:7712") : "")
         font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_28_50_0_0_0_0_0.2")
-        textColor: GreenHouseThemeManager.theme.color("Text/White")
+        textColor: GreenHouseThemeManager.theme.color("Dark Ink")
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
         wrapMode: Text.WordWrap
@@ -231,7 +231,7 @@ Item {
         height: 98
         text: qsTr("9089123423", "FigmaNode::164:7713") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::164:7713") : "")
         font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_28_50_0_0_0_0_0.2")
-        textColor: GreenHouseThemeManager.theme.color("Text/White")
+        textColor: GreenHouseThemeManager.theme.color("Dark Ink")
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
         wrapMode: Text.WordWrap
@@ -249,7 +249,7 @@ Item {
         height: 98
         text: qsTr("01/01/1900", "FigmaNode::164:7714") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::164:7714") : "")
         font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_28_50_0_0_0_0_0.2")
-        textColor: GreenHouseThemeManager.theme.color("Text/White")
+        textColor: GreenHouseThemeManager.theme.color("Dark Ink")
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
         wrapMode: Text.WordWrap
@@ -267,7 +267,7 @@ Item {
         height: 98
         text: qsTr("M", "FigmaNode::164:7715") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::164:7715") : "")
         font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_28_50_0_0_0_0_0.2")
-        textColor: GreenHouseThemeManager.theme.color("Text/White")
+        textColor: GreenHouseThemeManager.theme.color("Dark Ink")
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
         wrapMode: Text.WordWrap
@@ -285,7 +285,7 @@ Item {
         height: 98
         text: qsTr("3", "FigmaNode::164:7716") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::164:7716") : "")
         font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_28_50_0_0_0_0_0.2")
-        textColor: GreenHouseThemeManager.theme.color("Text/White")
+        textColor: GreenHouseThemeManager.theme.color("Dark Ink")
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
         wrapMode: Text.WordWrap
@@ -303,7 +303,7 @@ Item {
         height: 98
         text: qsTr("BWH-15304", "FigmaNode::164:7717") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::164:7717") : "")
         font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_28_50_0_0_0_0_0.2")
-        textColor: GreenHouseThemeManager.theme.color("Text/White")
+        textColor: GreenHouseThemeManager.theme.color("Dark Ink")
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
         wrapMode: Text.WordWrap
@@ -321,7 +321,7 @@ Item {
         height: 98
         text: qsTr("02/14/2022", "FigmaNode::164:7718") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::164:7718") : "")
         font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_28_50_0_0_0_0_0.2")
-        textColor: GreenHouseThemeManager.theme.color("Text/White")
+        textColor: GreenHouseThemeManager.theme.color("Dark Ink")
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
         wrapMode: Text.WordWrap

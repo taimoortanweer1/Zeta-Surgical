@@ -1,25 +1,50 @@
 {
     "childrenSplit": true,
     "extraData": {
-        "FIGMA_ID": "34:1108"
+        "FIGMA_ID": "213:2215"
     },
     "id": "fi_errorTextField",
     "properties": {
-        "fi_Error_Font_horizontalAlignment": {
-            "name": "fi_Error_Font_horizontalAlignment",
-            "type": "TextHorizontalAlignment",
-            "value": "AlignHCenter"
-        },
-        "fi_Error_Font_text": {
-            "name": "fi_Error_Font_text",
-            "type": "TranslatableString",
-            "uuid": "FigmaNode::I34:1108;34:1120",
-            "value": "Incorrect password"
+        "font": {
+            "name": "font",
+            "type": "Font",
+            "value": "Figma::Arial_ArialMT_22_50_0_0_0_0_0.2"
         },
         "height": {
             "name": "height",
             "type": "Int",
-            "value": 80
+            "value": 82
+        },
+        "horizontalAlignment": {
+            "name": "horizontalAlignment",
+            "type": "TextHorizontalAlignment",
+            "value": "AlignHCenter"
+        },
+        "lineHeight": {
+            "name": "lineHeight",
+            "type": "Float",
+            "value": 30
+        },
+        "lineHeightMode": {
+            "name": "lineHeightMode",
+            "type": "TextLineHeightMode",
+            "value": "FixedHeight"
+        },
+        "text": {
+            "name": "text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::213:2215",
+            "value": "Incorrect password"
+        },
+        "textColor": {
+            "name": "textColor",
+            "type": "Color",
+            "value": "Text/White"
+        },
+        "verticalAlignment": {
+            "name": "verticalAlignment",
+            "type": "TextVerticalAlignment",
+            "value": "AlignVCenter"
         },
         "visible": {
             "bindingProp": "invalidCredentialsEntered",
@@ -31,17 +56,22 @@
         "width": {
             "name": "width",
             "type": "Int",
-            "value": 528
+            "value": 530
+        },
+        "wrapMode": {
+            "name": "wrapMode",
+            "type": "TextWrapMode",
+            "value": "WordWrap"
         },
         "x": {
             "name": "x",
             "type": "Int",
-            "value": 136
+            "value": 135
         },
         "y": {
             "name": "y",
             "type": "Int",
-            "value": 288
+            "value": 287
         },
         "z": {
             "name": "z",
@@ -50,6 +80,6 @@
         }
     },
     "targetFile": "fi_errorTextField.ghuie",
-    "type": "ZetaSurgicalSet.TexBox_Error",
+    "type": "ComponentsSet.Label",
     "userDefined": false
 }

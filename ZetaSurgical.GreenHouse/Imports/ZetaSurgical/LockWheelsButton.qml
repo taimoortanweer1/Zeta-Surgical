@@ -36,7 +36,7 @@ Item {
     property alias fi_Lock_Wheels_richText: fi_Lock_Wheels___default.richText
     //TRANSLATABLE Lock Wheels
     property alias fi_Lock_Wheels_text: fi_Lock_Wheels___default.text
-    //COLOR Text/White
+    //COLOR Dark Ink
     property alias fi_Lock_Wheels_textColor: fi_Lock_Wheels___default.textColor
     //TEXTVAL 128
     property alias fi_Lock_Wheels_verticalAlignment: fi_Lock_Wheels___default.verticalAlignment
@@ -158,7 +158,7 @@ Item {
         width: 186
         text: qsTr("Lock Wheels", "FigmaNode::174:1860") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::174:1860") : "")
         font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_22_50_0_0_0_0_0.2")
-        textColor: GreenHouseThemeManager.theme.color("Text/White")
+        textColor: GreenHouseThemeManager.theme.color("Dark Ink")
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
         wrapMode: Text.WordWrap

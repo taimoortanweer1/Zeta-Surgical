@@ -190,5 +190,53 @@
         "styleName": "BoldMT",
         "underline": false,
         "weight": 75
+    },
+    {
+        "bold": false,
+        "capitalization": 2,
+        "cssWeight": 400,
+        "family": "Arial",
+        "file": "",
+        "italic": false,
+        "letterSpacing": -0.59375,
+        "name": "Figma::Arial_ArialMT_30_50_2_0_0_0_-0.6",
+        "pixelSize": 30,
+        "stretch": 0,
+        "strikeOut": false,
+        "styleName": "ArialMT",
+        "underline": false,
+        "weight": 50
+    },
+    {
+        "bold": false,
+        "capitalization": 0,
+        "cssWeight": 400,
+        "family": "Arial",
+        "file": "",
+        "italic": false,
+        "letterSpacing": -0.59375,
+        "name": "Figma::Arial_ArialMT_30_50_0_0_0_0_-0.6",
+        "pixelSize": 30,
+        "stretch": 0,
+        "strikeOut": false,
+        "styleName": "ArialMT",
+        "underline": false,
+        "weight": 50
+    },
+    {
+        "bold": false,
+        "capitalization": 1,
+        "cssWeight": 400,
+        "family": "Arial",
+        "file": "",
+        "italic": false,
+        "letterSpacing": -0.59375,
+        "name": "Figma::Arial_ArialMT_30_50_1_0_0_0_-0.6",
+        "pixelSize": 30,
+        "stretch": 0,
+        "strikeOut": false,
+        "styleName": "ArialMT",
+        "underline": false,
+        "weight": 50
     }
 ]

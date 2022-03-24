@@ -58,7 +58,7 @@
         }
     },
     "targetFile": "fi_usernameField.ghuie",
-    "type": "ZetaSurgicalSet.LoginInputText",
+    "type": "ZetaSurgicalSet.LoginInputButton",
     "userDefined": false,
     "uuid": "{b6c86991-8e37-4eb8-8b64-f1cc9c2943f1}"
 }

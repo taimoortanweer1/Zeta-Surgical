@@ -1,12 +1,15 @@
 {
+    "anchorBottom": {
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
     "anchorLeft": {
         "anchorTarget": "parent",
         "anchorValue": "Left"
     },
-    "anchorTop": {
-        "anchorMargin": 652,
+    "anchorRight": {
         "anchorTarget": "parent",
-        "anchorValue": "Top"
+        "anchorValue": "Right"
     },
     "childrenSplit": true,
     "extraData": {
@@ -14,15 +17,50 @@
     },
     "id": "fi_keyboardOverlay",
     "properties": {
-        "fi_Union_source": {
-            "name": "fi_Union_source",
-            "type": "Asset",
-            "value": "/7_1586.png"
+        "fi_CapsLock_fi_Letter_lineHeight": {
+            "name": "fi_CapsLock_fi_Letter_lineHeight",
+            "type": "Float",
+            "value": 35.160000000000004
+        },
+        "fi_Delete_fi_Letter_lineHeight": {
+            "name": "fi_Delete_fi_Letter_lineHeight",
+            "type": "Float",
+            "value": 35.160000000000004
+        },
+        "fi_Enter_fi_Letter_lineHeight": {
+            "name": "fi_Enter_fi_Letter_lineHeight",
+            "type": "Float",
+            "value": 35.160000000000004
+        },
+        "fi_Shift1_fi_Letter_lineHeight": {
+            "name": "fi_Shift1_fi_Letter_lineHeight",
+            "type": "Float",
+            "value": 35.160000000000004
+        },
+        "fi_Shift2_fi_Letter_lineHeight": {
+            "name": "fi_Shift2_fi_Letter_lineHeight",
+            "type": "Float",
+            "value": 35.160000000000004
+        },
+        "fi_Space_fi_Label_lineHeight": {
+            "name": "fi_Space_fi_Label_lineHeight",
+            "type": "Float",
+            "value": 35.160000000000004
+        },
+        "fi_Symbols_fi_Letter_lineHeight": {
+            "name": "fi_Symbols_fi_Letter_lineHeight",
+            "type": "Float",
+            "value": 35.160000000000004
+        },
+        "fi_Tab_fi_Letter_lineHeight": {
+            "name": "fi_Tab_fi_Letter_lineHeight",
+            "type": "Float",
+            "value": 35.160000000000004
         },
         "y": {
             "name": "y",
             "type": "Int",
-            "value": 652
+            "value": 616
         },
         "z": {
             "name": "z",
@@ -31,7 +69,7 @@
         }
     },
     "targetFile": "fi_keyboardOverlay.ghuie",
-    "type": "ZetaSurgicalSet.KeyboardOverlay",
+    "type": "ZetaSurgicalSet.KeyBoard",
     "userDefined": false,
     "uuid": "{e8a0796f-82e2-4983-adb1-d1aafec65fed}"
 }

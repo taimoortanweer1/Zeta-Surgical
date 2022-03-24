@@ -16,7 +16,7 @@ Item {
     property alias fi_Label_font: fi_Label.font
     //TEXTHAL 1
     property alias fi_Label_horizontalAlignment: fi_Label.horizontalAlignment
-    //COLOR Text/White
+    //COLOR Dark Ink
     property alias fi_Label_labelColor: fi_Label.textColor
     //REAL 20
     property alias fi_Label_lineHeight: fi_Label.lineHeight
@@ -34,7 +34,7 @@ Item {
     property alias fi_Scan_Metadata_font: fi_Scan_Metadata.font
     //TEXTHAL 4
     property alias fi_Scan_Metadata_horizontalAlignment: fi_Scan_Metadata.horizontalAlignment
-    //COLOR Text/White
+    //COLOR Dark Ink
     property alias fi_Scan_Metadata_labelColor: fi_Scan_Metadata.textColor
     //REAL 32
     property alias fi_Scan_Metadata_lineHeight: fi_Scan_Metadata.lineHeight
@@ -52,7 +52,7 @@ Item {
     property alias fi_TextOutput_font: fi_TextOutput.font
     //TEXTHAL 1
     property alias fi_TextOutput_horizontalAlignment: fi_TextOutput.horizontalAlignment
-    //COLOR Text/White
+    //COLOR Dark Ink
     property alias fi_TextOutput_labelColor: fi_TextOutput.textColor
     //REAL 20
     property alias fi_TextOutput_lineHeight: fi_TextOutput.lineHeight
@@ -105,7 +105,7 @@ Item {
         z: 1
         text: qsTr("Scan Metadata", "FigmaNode::164:8535") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::164:8535") : "")
         font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_32_50_0_0_0_0_0.2")
-        textColor: GreenHouseThemeManager.theme.color("Text/White")
+        textColor: GreenHouseThemeManager.theme.color("Dark Ink")
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
         wrapMode: Text.WordWrap
@@ -123,7 +123,7 @@ Item {
         height: 34
         text: qsTr("Image Type:", "FigmaNode::164:8536") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::164:8536") : "")
         font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_24_50_0_0_0_0_0.2")
-        textColor: GreenHouseThemeManager.theme.color("Text/White")
+        textColor: GreenHouseThemeManager.theme.color("Dark Ink")
         verticalAlignment: Text.AlignVCenter
         wrapMode: Text.WordWrap
         lineHeight: 20
@@ -140,7 +140,7 @@ Item {
         height: 34
         text: qsTr("insert text here", "FigmaNode::164:8586") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::164:8586") : "")
         font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_24_50_0_0_0_0_0.2")
-        textColor: GreenHouseThemeManager.theme.color("Text/White")
+        textColor: GreenHouseThemeManager.theme.color("Dark Ink")
         verticalAlignment: Text.AlignVCenter
         wrapMode: Text.WordWrap
         lineHeight: 20

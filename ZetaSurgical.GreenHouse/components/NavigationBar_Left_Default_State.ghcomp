@@ -1,0 +1,1205 @@
+{
+    "aliasList": {
+        "fi_BackButton": [
+            {
+                "aliasElement": "repeateInterval",
+                "aliasName": "fi_BackButton_repeateInterval",
+                "aliasSource": "fi_BackButton"
+            },
+            {
+                "aliasElement": "minimumRepeatInterval",
+                "aliasName": "fi_BackButton_minimumRepeatInterval",
+                "aliasSource": "fi_BackButton"
+            },
+            {
+                "aliasElement": "doubleClickEnabeld",
+                "aliasName": "fi_BackButton_doubleClickEnabeld",
+                "aliasSource": "fi_BackButton"
+            },
+            {
+                "aliasElement": "icon_source",
+                "aliasName": "fi_BackButton_icon_source",
+                "aliasSource": "fi_BackButton"
+            },
+            {
+                "aliasElement": "icon_opacity",
+                "aliasName": "fi_BackButton_icon_opacity",
+                "aliasSource": "fi_BackButton"
+            },
+            {
+                "aliasElement": "enabled",
+                "aliasName": "fi_BackButton_enabled",
+                "aliasSource": "fi_BackButton"
+            }
+        ],
+        "fi_Button_Navigation_Navigation": [
+            {
+                "aliasElement": "selectionIndex",
+                "aliasName": "fi_Button_Navigation_Navigation_selectionIndex",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            },
+            {
+                "aliasElement": "itemIndex",
+                "aliasName": "fi_Button_Navigation_Navigation_itemIndex",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            },
+            {
+                "aliasElement": "complete_flag",
+                "aliasName": "fi_Button_Navigation_Navigation_complete_flag",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            },
+            {
+                "aliasElement": "repeateInterval",
+                "aliasName": "fi_Button_Navigation_Navigation_repeateInterval",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            },
+            {
+                "aliasElement": "minimumRepeatInterval",
+                "aliasName": "fi_Button_Navigation_Navigation_minimumRepeatInterval",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            },
+            {
+                "aliasElement": "doubleClickEnabeld",
+                "aliasName": "fi_Button_Navigation_Navigation_doubleClickEnabeld",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            },
+            {
+                "aliasElement": "icon___complete_source",
+                "aliasName": "fi_Button_Navigation_Navigation_icon___complete_source",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            },
+            {
+                "aliasElement": "icon___default_source",
+                "aliasName": "fi_Button_Navigation_Navigation_icon___default_source",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            },
+            {
+                "aliasElement": "icon___selected_source",
+                "aliasName": "fi_Button_Navigation_Navigation_icon___selected_source",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            },
+            {
+                "aliasElement": "fi_Navigation_font",
+                "aliasName": "fi_Button_Navigation_Navigation_fi_Navigation_font",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            },
+            {
+                "aliasElement": "fi_Navigation_horizontalAlignment",
+                "aliasName": "fi_Button_Navigation_Navigation_fi_Navigation_horizontalAlignment",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            },
+            {
+                "aliasElement": "fi_Navigation_lineHeight",
+                "aliasName": "fi_Button_Navigation_Navigation_fi_Navigation_lineHeight",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            },
+            {
+                "aliasElement": "fi_Navigation_lineHeightMode",
+                "aliasName": "fi_Button_Navigation_Navigation_fi_Navigation_lineHeightMode",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            },
+            {
+                "aliasElement": "fi_Navigation_opacity",
+                "aliasName": "fi_Button_Navigation_Navigation_fi_Navigation_opacity",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            },
+            {
+                "aliasElement": "fi_Navigation_richText",
+                "aliasName": "fi_Button_Navigation_Navigation_fi_Navigation_richText",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            },
+            {
+                "aliasElement": "fi_Navigation_text",
+                "aliasName": "fi_Button_Navigation_Navigation_fi_Navigation_text",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            },
+            {
+                "aliasElement": "fi_Navigation_textColor",
+                "aliasName": "fi_Button_Navigation_Navigation_fi_Navigation_textColor",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            },
+            {
+                "aliasElement": "fi_Navigation_verticalAlignment",
+                "aliasName": "fi_Button_Navigation_Navigation_fi_Navigation_verticalAlignment",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            },
+            {
+                "aliasElement": "icon_opacity",
+                "aliasName": "fi_Button_Navigation_Navigation_icon_opacity",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            },
+            {
+                "aliasElement": "enabled",
+                "aliasName": "fi_Button_Navigation_Navigation_enabled",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            }
+        ],
+        "fi_Button_Navigation_Planning": [
+            {
+                "aliasElement": "selectionIndex",
+                "aliasName": "fi_Button_Navigation_Planning_selectionIndex",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            },
+            {
+                "aliasElement": "itemIndex",
+                "aliasName": "fi_Button_Navigation_Planning_itemIndex",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            },
+            {
+                "aliasElement": "complete_flag",
+                "aliasName": "fi_Button_Navigation_Planning_complete_flag",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            },
+            {
+                "aliasElement": "repeateInterval",
+                "aliasName": "fi_Button_Navigation_Planning_repeateInterval",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            },
+            {
+                "aliasElement": "minimumRepeatInterval",
+                "aliasName": "fi_Button_Navigation_Planning_minimumRepeatInterval",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            },
+            {
+                "aliasElement": "doubleClickEnabeld",
+                "aliasName": "fi_Button_Navigation_Planning_doubleClickEnabeld",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            },
+            {
+                "aliasElement": "icon___complete_source",
+                "aliasName": "fi_Button_Navigation_Planning_icon___complete_source",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            },
+            {
+                "aliasElement": "icon___default_source",
+                "aliasName": "fi_Button_Navigation_Planning_icon___default_source",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            },
+            {
+                "aliasElement": "icon___selected_source",
+                "aliasName": "fi_Button_Navigation_Planning_icon___selected_source",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            },
+            {
+                "aliasElement": "fi_Planning_font",
+                "aliasName": "fi_Button_Navigation_Planning_fi_Planning_font",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            },
+            {
+                "aliasElement": "fi_Planning_horizontalAlignment",
+                "aliasName": "fi_Button_Navigation_Planning_fi_Planning_horizontalAlignment",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            },
+            {
+                "aliasElement": "fi_Planning_lineHeight",
+                "aliasName": "fi_Button_Navigation_Planning_fi_Planning_lineHeight",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            },
+            {
+                "aliasElement": "fi_Planning_lineHeightMode",
+                "aliasName": "fi_Button_Navigation_Planning_fi_Planning_lineHeightMode",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            },
+            {
+                "aliasElement": "fi_Planning_opacity",
+                "aliasName": "fi_Button_Navigation_Planning_fi_Planning_opacity",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            },
+            {
+                "aliasElement": "fi_Planning_richText",
+                "aliasName": "fi_Button_Navigation_Planning_fi_Planning_richText",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            },
+            {
+                "aliasElement": "fi_Planning_text",
+                "aliasName": "fi_Button_Navigation_Planning_fi_Planning_text",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            },
+            {
+                "aliasElement": "fi_Planning_textColor",
+                "aliasName": "fi_Button_Navigation_Planning_fi_Planning_textColor",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            },
+            {
+                "aliasElement": "fi_Planning_verticalAlignment",
+                "aliasName": "fi_Button_Navigation_Planning_fi_Planning_verticalAlignment",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            },
+            {
+                "aliasElement": "icon_opacity",
+                "aliasName": "fi_Button_Navigation_Planning_icon_opacity",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            },
+            {
+                "aliasElement": "enabled",
+                "aliasName": "fi_Button_Navigation_Planning_enabled",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            }
+        ],
+        "fi_Button_Navigation_Positioning": [
+            {
+                "aliasElement": "selectionIndex",
+                "aliasName": "fi_Button_Navigation_Positioning_selectionIndex",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            },
+            {
+                "aliasElement": "itemIndex",
+                "aliasName": "fi_Button_Navigation_Positioning_itemIndex",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            },
+            {
+                "aliasElement": "complete_flag",
+                "aliasName": "fi_Button_Navigation_Positioning_complete_flag",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            },
+            {
+                "aliasElement": "repeateInterval",
+                "aliasName": "fi_Button_Navigation_Positioning_repeateInterval",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            },
+            {
+                "aliasElement": "minimumRepeatInterval",
+                "aliasName": "fi_Button_Navigation_Positioning_minimumRepeatInterval",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            },
+            {
+                "aliasElement": "doubleClickEnabeld",
+                "aliasName": "fi_Button_Navigation_Positioning_doubleClickEnabeld",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            },
+            {
+                "aliasElement": "icon___complete_source",
+                "aliasName": "fi_Button_Navigation_Positioning_icon___complete_source",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            },
+            {
+                "aliasElement": "icon___default_source",
+                "aliasName": "fi_Button_Navigation_Positioning_icon___default_source",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            },
+            {
+                "aliasElement": "icon___selected_source",
+                "aliasName": "fi_Button_Navigation_Positioning_icon___selected_source",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            },
+            {
+                "aliasElement": "fi_Positioning_font",
+                "aliasName": "fi_Button_Navigation_Positioning_fi_Positioning_font",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            },
+            {
+                "aliasElement": "fi_Positioning_horizontalAlignment",
+                "aliasName": "fi_Button_Navigation_Positioning_fi_Positioning_horizontalAlignment",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            },
+            {
+                "aliasElement": "fi_Positioning_lineHeight",
+                "aliasName": "fi_Button_Navigation_Positioning_fi_Positioning_lineHeight",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            },
+            {
+                "aliasElement": "fi_Positioning_lineHeightMode",
+                "aliasName": "fi_Button_Navigation_Positioning_fi_Positioning_lineHeightMode",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            },
+            {
+                "aliasElement": "fi_Positioning_opacity",
+                "aliasName": "fi_Button_Navigation_Positioning_fi_Positioning_opacity",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            },
+            {
+                "aliasElement": "fi_Positioning_richText",
+                "aliasName": "fi_Button_Navigation_Positioning_fi_Positioning_richText",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            },
+            {
+                "aliasElement": "fi_Positioning_text",
+                "aliasName": "fi_Button_Navigation_Positioning_fi_Positioning_text",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            },
+            {
+                "aliasElement": "fi_Positioning_textColor",
+                "aliasName": "fi_Button_Navigation_Positioning_fi_Positioning_textColor",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            },
+            {
+                "aliasElement": "fi_Positioning_verticalAlignment",
+                "aliasName": "fi_Button_Navigation_Positioning_fi_Positioning_verticalAlignment",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            },
+            {
+                "aliasElement": "icon_opacity",
+                "aliasName": "fi_Button_Navigation_Positioning_icon_opacity",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            },
+            {
+                "aliasElement": "enabled",
+                "aliasName": "fi_Button_Navigation_Positioning_enabled",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            }
+        ],
+        "fi_Button_Navigation_Segmentation": [
+            {
+                "aliasElement": "selectionIndex",
+                "aliasName": "fi_Button_Navigation_Segmentation_selectionIndex",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            },
+            {
+                "aliasElement": "itemIndex",
+                "aliasName": "fi_Button_Navigation_Segmentation_itemIndex",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            },
+            {
+                "aliasElement": "complete_flag",
+                "aliasName": "fi_Button_Navigation_Segmentation_complete_flag",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            },
+            {
+                "aliasElement": "repeateInterval",
+                "aliasName": "fi_Button_Navigation_Segmentation_repeateInterval",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            },
+            {
+                "aliasElement": "minimumRepeatInterval",
+                "aliasName": "fi_Button_Navigation_Segmentation_minimumRepeatInterval",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            },
+            {
+                "aliasElement": "doubleClickEnabeld",
+                "aliasName": "fi_Button_Navigation_Segmentation_doubleClickEnabeld",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            },
+            {
+                "aliasElement": "icon___complete_source",
+                "aliasName": "fi_Button_Navigation_Segmentation_icon___complete_source",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            },
+            {
+                "aliasElement": "icon___default_source",
+                "aliasName": "fi_Button_Navigation_Segmentation_icon___default_source",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            },
+            {
+                "aliasElement": "icon___selected_source",
+                "aliasName": "fi_Button_Navigation_Segmentation_icon___selected_source",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            },
+            {
+                "aliasElement": "fi_Segmentation_font",
+                "aliasName": "fi_Button_Navigation_Segmentation_fi_Segmentation_font",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            },
+            {
+                "aliasElement": "fi_Segmentation_horizontalAlignment",
+                "aliasName": "fi_Button_Navigation_Segmentation_fi_Segmentation_horizontalAlignment",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            },
+            {
+                "aliasElement": "fi_Segmentation_lineHeight",
+                "aliasName": "fi_Button_Navigation_Segmentation_fi_Segmentation_lineHeight",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            },
+            {
+                "aliasElement": "fi_Segmentation_lineHeightMode",
+                "aliasName": "fi_Button_Navigation_Segmentation_fi_Segmentation_lineHeightMode",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            },
+            {
+                "aliasElement": "fi_Segmentation_opacity",
+                "aliasName": "fi_Button_Navigation_Segmentation_fi_Segmentation_opacity",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            },
+            {
+                "aliasElement": "fi_Segmentation_richText",
+                "aliasName": "fi_Button_Navigation_Segmentation_fi_Segmentation_richText",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            },
+            {
+                "aliasElement": "fi_Segmentation_text",
+                "aliasName": "fi_Button_Navigation_Segmentation_fi_Segmentation_text",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            },
+            {
+                "aliasElement": "fi_Segmentation_textColor",
+                "aliasName": "fi_Button_Navigation_Segmentation_fi_Segmentation_textColor",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            },
+            {
+                "aliasElement": "fi_Segmentation_verticalAlignment",
+                "aliasName": "fi_Button_Navigation_Segmentation_fi_Segmentation_verticalAlignment",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            },
+            {
+                "aliasElement": "icon_opacity",
+                "aliasName": "fi_Button_Navigation_Segmentation_icon_opacity",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            },
+            {
+                "aliasElement": "enabled",
+                "aliasName": "fi_Button_Navigation_Segmentation_enabled",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            }
+        ],
+        "fi_Button_Navigation_Upload": [
+            {
+                "aliasElement": "selectionIndex",
+                "aliasName": "fi_Button_Navigation_Upload_selectionIndex",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            },
+            {
+                "aliasElement": "itemIndex",
+                "aliasName": "fi_Button_Navigation_Upload_itemIndex",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            },
+            {
+                "aliasElement": "complete_flag",
+                "aliasName": "fi_Button_Navigation_Upload_complete_flag",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            },
+            {
+                "aliasElement": "repeateInterval",
+                "aliasName": "fi_Button_Navigation_Upload_repeateInterval",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            },
+            {
+                "aliasElement": "minimumRepeatInterval",
+                "aliasName": "fi_Button_Navigation_Upload_minimumRepeatInterval",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            },
+            {
+                "aliasElement": "doubleClickEnabeld",
+                "aliasName": "fi_Button_Navigation_Upload_doubleClickEnabeld",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            },
+            {
+                "aliasElement": "icon___complete_source",
+                "aliasName": "fi_Button_Navigation_Upload_icon___complete_source",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            },
+            {
+                "aliasElement": "icon___default_source",
+                "aliasName": "fi_Button_Navigation_Upload_icon___default_source",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            },
+            {
+                "aliasElement": "icon___selected_source",
+                "aliasName": "fi_Button_Navigation_Upload_icon___selected_source",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            },
+            {
+                "aliasElement": "fi_Upload_font",
+                "aliasName": "fi_Button_Navigation_Upload_fi_Upload_font",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            },
+            {
+                "aliasElement": "fi_Upload_horizontalAlignment",
+                "aliasName": "fi_Button_Navigation_Upload_fi_Upload_horizontalAlignment",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            },
+            {
+                "aliasElement": "fi_Upload_lineHeight",
+                "aliasName": "fi_Button_Navigation_Upload_fi_Upload_lineHeight",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            },
+            {
+                "aliasElement": "fi_Upload_lineHeightMode",
+                "aliasName": "fi_Button_Navigation_Upload_fi_Upload_lineHeightMode",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            },
+            {
+                "aliasElement": "fi_Upload_opacity",
+                "aliasName": "fi_Button_Navigation_Upload_fi_Upload_opacity",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            },
+            {
+                "aliasElement": "fi_Upload_richText",
+                "aliasName": "fi_Button_Navigation_Upload_fi_Upload_richText",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            },
+            {
+                "aliasElement": "fi_Upload_text",
+                "aliasName": "fi_Button_Navigation_Upload_fi_Upload_text",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            },
+            {
+                "aliasElement": "fi_Upload_textColor",
+                "aliasName": "fi_Button_Navigation_Upload_fi_Upload_textColor",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            },
+            {
+                "aliasElement": "fi_Upload_verticalAlignment",
+                "aliasName": "fi_Button_Navigation_Upload_fi_Upload_verticalAlignment",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            },
+            {
+                "aliasElement": "icon_opacity",
+                "aliasName": "fi_Button_Navigation_Upload_icon_opacity",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            },
+            {
+                "aliasElement": "enabled",
+                "aliasName": "fi_Button_Navigation_Upload_enabled",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            }
+        ],
+        "fi_HomeButton": [
+            {
+                "aliasElement": "selectionIndex",
+                "aliasName": "fi_HomeButton_selectionIndex",
+                "aliasSource": "fi_HomeButton"
+            },
+            {
+                "aliasElement": "itemIndex",
+                "aliasName": "fi_HomeButton_itemIndex",
+                "aliasSource": "fi_HomeButton"
+            },
+            {
+                "aliasElement": "repeateInterval",
+                "aliasName": "fi_HomeButton_repeateInterval",
+                "aliasSource": "fi_HomeButton"
+            },
+            {
+                "aliasElement": "minimumRepeatInterval",
+                "aliasName": "fi_HomeButton_minimumRepeatInterval",
+                "aliasSource": "fi_HomeButton"
+            },
+            {
+                "aliasElement": "doubleClickEnabeld",
+                "aliasName": "fi_HomeButton_doubleClickEnabeld",
+                "aliasSource": "fi_HomeButton"
+            },
+            {
+                "aliasElement": "icon___default_source",
+                "aliasName": "fi_HomeButton_icon___default_source",
+                "aliasSource": "fi_HomeButton"
+            },
+            {
+                "aliasElement": "icon___selected_source",
+                "aliasName": "fi_HomeButton_icon___selected_source",
+                "aliasSource": "fi_HomeButton"
+            },
+            {
+                "aliasElement": "icon_opacity",
+                "aliasName": "fi_HomeButton_icon_opacity",
+                "aliasSource": "fi_HomeButton"
+            },
+            {
+                "aliasElement": "enabled",
+                "aliasName": "fi_HomeButton_enabled",
+                "aliasSource": "fi_HomeButton"
+            }
+        ],
+        "fi_Line_11": [
+            {
+                "aliasElement": "source",
+                "aliasName": "fi_Line_11_source",
+                "aliasSource": "fi_Line_11"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "fi_Line_11_opacity",
+                "aliasSource": "fi_Line_11"
+            }
+        ]
+    },
+    "componentLayout": {
+        "blockInputFallthrough": true,
+        "children": [
+            {
+                "children": [
+                    {
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Rectangle_84",
+                        "properties": {
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 1080
+                            },
+                            "horizontalCenterOffset": {
+                                "name": "horizontalCenterOffset",
+                                "type": "Int",
+                                "value": 10
+                            },
+                            "source": {
+                                "name": "source",
+                                "type": "Asset",
+                                "value": "/7_697.png"
+                            },
+                            "verticalCenterOffset": {
+                                "name": "verticalCenterOffset",
+                                "type": "Int",
+                                "value": 10
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 128
+                            }
+                        },
+                        "targetFile": "fi_Rectangle_84.ghuie",
+                        "type": "DecorativeSet.DecoratedItem",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorHCenter": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "HorizontalCenter"
+                        },
+                        "anchorTop": {
+                            "anchorMargin": 20,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_BackButton",
+                        "properties": {
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 20
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 20
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 1
+                            }
+                        },
+                        "targetFile": "fi_BackButton.ghuie",
+                        "type": "ZetaSurgicalSet.BackButton_Default_State",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorTop": {
+                            "anchorMargin": 128,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Button_Navigation_Upload",
+                        "properties": {
+                            "icon___complete_source": {
+                                "name": "icon___complete_source",
+                                "type": "Asset",
+                                "value": "/Icons/NavbarUpload__DefaultState.png"
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 128
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 2
+                            }
+                        },
+                        "targetFile": "fi_Button_Navigation_Upload.ghuie",
+                        "type": "ZetaSurgicalSet.Button_Navigation_Upload",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorTop": {
+                            "anchorMargin": 264,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Button_Navigation_Segmentation",
+                        "properties": {
+                            "icon___complete_source": {
+                                "name": "icon___complete_source",
+                                "type": "Asset",
+                                "value": "/Icons/NavbarSegmentation__DefaultState.png"
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 264
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 3
+                            }
+                        },
+                        "targetFile": "fi_Button_Navigation_Segmentation.ghuie",
+                        "type": "ZetaSurgicalSet.Button_Navigation_Segmentation",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorTop": {
+                            "anchorMargin": 400,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Button_Navigation_Planning",
+                        "properties": {
+                            "icon___complete_source": {
+                                "name": "icon___complete_source",
+                                "type": "Asset",
+                                "value": "/Icons/NavbarPlanning__DefaultState.png"
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 400
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 4
+                            }
+                        },
+                        "targetFile": "fi_Button_Navigation_Planning.ghuie",
+                        "type": "ZetaSurgicalSet.Button_Navigation_Planning",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorTop": {
+                            "anchorMargin": 536,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Button_Navigation_Positioning",
+                        "properties": {
+                            "icon___complete_source": {
+                                "name": "icon___complete_source",
+                                "type": "Asset",
+                                "value": "/Icons/NavbarPositioning__DefaultState.png"
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 536
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 5
+                            }
+                        },
+                        "targetFile": "fi_Button_Navigation_Positioning.ghuie",
+                        "type": "ZetaSurgicalSet.Button_Navigation_Positioning",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorTop": {
+                            "anchorMargin": 672,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Button_Navigation_Navigation",
+                        "properties": {
+                            "icon___complete_source": {
+                                "name": "icon___complete_source",
+                                "type": "Asset",
+                                "value": "/Icons/NavbarNavigation__DefaultState.png"
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 672
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 6
+                            }
+                        },
+                        "targetFile": "fi_Button_Navigation_Navigation.ghuie",
+                        "type": "ZetaSurgicalSet.Button_Navigation_Navigation",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorTop": {
+                            "anchorMargin": 952,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_HomeButton",
+                        "properties": {
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 952
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 7
+                            }
+                        },
+                        "targetFile": "fi_HomeButton.ghuie",
+                        "type": "ZetaSurgicalSet.HomeButton",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorTop": {
+                            "anchorMargin": 936,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "children": [
+                            {
+                                "anchorBottom": {
+                                    "anchorMargin": -1,
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Bottom"
+                                },
+                                "anchorLeft": {
+                                    "anchorMargin": 17,
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Left"
+                                },
+                                "anchorRight": {
+                                    "anchorMargin": 16,
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Right"
+                                },
+                                "childrenSplit": true,
+                                "id": "fi_Line_11",
+                                "properties": {
+                                    "height": {
+                                        "name": "height",
+                                        "type": "Int",
+                                        "value": 0
+                                    },
+                                    "source": {
+                                        "name": "source",
+                                        "type": "Asset",
+                                        "value": "/164_3606.png"
+                                    },
+                                    "width": {
+                                        "name": "width",
+                                        "type": "Int",
+                                        "value": 95
+                                    },
+                                    "x": {
+                                        "name": "x",
+                                        "type": "Int",
+                                        "value": 17
+                                    },
+                                    "y": {
+                                        "name": "y",
+                                        "type": "Int",
+                                        "value": 17
+                                    }
+                                },
+                                "targetFile": "fi_Line_11.ghuie",
+                                "type": "Image",
+                                "userDefined": false
+                            }
+                        ],
+                        "childrenSplit": true,
+                        "id": "fi_Frame_17",
+                        "properties": {
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 16
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 128
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 936
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 8
+                            }
+                        },
+                        "targetFile": "fi_Frame_17.ghuie",
+                        "type": "Item",
+                        "userDefined": false
+                    }
+                ],
+                "childrenSplit": true,
+                "id": "root",
+                "properties": {
+                    "height": {
+                        "name": "height",
+                        "type": "Int",
+                        "value": 1080
+                    },
+                    "width": {
+                        "name": "width",
+                        "type": "Int",
+                        "value": 128
+                    }
+                },
+                "targetFile": "root.ghuie",
+                "type": "Item",
+                "userDefined": false
+            }
+        ],
+        "childrenSplit": true,
+        "fillParent": false,
+        "height": 1080,
+        "hideAnimation": {
+            "type": "Sequential"
+        },
+        "interfaceName": "",
+        "name": "___TEMP_LAYOUT___ZetaSurgicalSet.NavigationBar_Left_Default_State",
+        "posX": 0,
+        "posY": 0,
+        "rootContainerType": "Item",
+        "showAnimation": {
+            "type": "Sequential"
+        },
+        "targetFile": "___TEMP_LAYOUT___ZetaSurgicalSet.NavigationBar_Left_Default_State.ghl",
+        "width": 128
+    },
+    "componentName": "ZetaSurgicalSet.NavigationBar_Left_Default_State",
+    "properties": [
+    ],
+    "signalList": {
+        "fi_BackButton": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "fi_BackButton_clicked",
+                "aliasSource": "fi_BackButton"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "fi_BackButton_doubleClicked",
+                "aliasSource": "fi_BackButton"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "fi_BackButton_pressed",
+                "aliasSource": "fi_BackButton"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "fi_BackButton_released",
+                "aliasSource": "fi_BackButton"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "fi_BackButton_repeatingTriggered",
+                "aliasSource": "fi_BackButton"
+            }
+        ],
+        "fi_Button_Navigation_Navigation": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "fi_Button_Navigation_Navigation_clicked",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "fi_Button_Navigation_Navigation_doubleClicked",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "fi_Button_Navigation_Navigation_pressed",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "fi_Button_Navigation_Navigation_released",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "fi_Button_Navigation_Navigation_repeatingTriggered",
+                "aliasSource": "fi_Button_Navigation_Navigation"
+            }
+        ],
+        "fi_Button_Navigation_Planning": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "fi_Button_Navigation_Planning_clicked",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "fi_Button_Navigation_Planning_doubleClicked",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "fi_Button_Navigation_Planning_pressed",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "fi_Button_Navigation_Planning_released",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "fi_Button_Navigation_Planning_repeatingTriggered",
+                "aliasSource": "fi_Button_Navigation_Planning"
+            }
+        ],
+        "fi_Button_Navigation_Positioning": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "fi_Button_Navigation_Positioning_clicked",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "fi_Button_Navigation_Positioning_doubleClicked",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "fi_Button_Navigation_Positioning_pressed",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "fi_Button_Navigation_Positioning_released",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "fi_Button_Navigation_Positioning_repeatingTriggered",
+                "aliasSource": "fi_Button_Navigation_Positioning"
+            }
+        ],
+        "fi_Button_Navigation_Segmentation": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "fi_Button_Navigation_Segmentation_clicked",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "fi_Button_Navigation_Segmentation_doubleClicked",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "fi_Button_Navigation_Segmentation_pressed",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "fi_Button_Navigation_Segmentation_released",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "fi_Button_Navigation_Segmentation_repeatingTriggered",
+                "aliasSource": "fi_Button_Navigation_Segmentation"
+            }
+        ],
+        "fi_Button_Navigation_Upload": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "fi_Button_Navigation_Upload_clicked",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "fi_Button_Navigation_Upload_doubleClicked",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "fi_Button_Navigation_Upload_pressed",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "fi_Button_Navigation_Upload_released",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "fi_Button_Navigation_Upload_repeatingTriggered",
+                "aliasSource": "fi_Button_Navigation_Upload"
+            }
+        ],
+        "fi_HomeButton": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "fi_HomeButton_clicked",
+                "aliasSource": "fi_HomeButton"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "fi_HomeButton_doubleClicked",
+                "aliasSource": "fi_HomeButton"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "fi_HomeButton_pressed",
+                "aliasSource": "fi_HomeButton"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "fi_HomeButton_released",
+                "aliasSource": "fi_HomeButton"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "fi_HomeButton_repeatingTriggered",
+                "aliasSource": "fi_HomeButton"
+            }
+        ]
+    },
+    "states": {
+    },
+    "targetFile": "NavigationBar_Left_Default_State.ghcomp"
+}

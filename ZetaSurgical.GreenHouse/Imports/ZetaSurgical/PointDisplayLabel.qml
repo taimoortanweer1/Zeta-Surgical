@@ -39,7 +39,7 @@ Item {
     property alias fi_LeftRightLabel_font: fi_LeftRightLabel.font
     //TEXTHAL 4
     property alias fi_LeftRightLabel_horizontalAlignment: fi_LeftRightLabel.horizontalAlignment
-    //COLOR Text/White
+    //COLOR Dark Ink
     property alias fi_LeftRightLabel_labelColor: fi_LeftRightLabel.textColor
     //REAL 20
     property alias fi_LeftRightLabel_lineHeight: fi_LeftRightLabel.lineHeight
@@ -57,7 +57,7 @@ Item {
     property alias fi_UpDownLabel_font: fi_UpDownLabel.font
     //TEXTHAL 4
     property alias fi_UpDownLabel_horizontalAlignment: fi_UpDownLabel.horizontalAlignment
-    //COLOR Text/White
+    //COLOR Dark Ink
     property alias fi_UpDownLabel_labelColor: fi_UpDownLabel.textColor
     //REAL 20
     property alias fi_UpDownLabel_lineHeight: fi_UpDownLabel.lineHeight
@@ -104,7 +104,7 @@ Item {
         height: 26
         text: qsTr("L-R", "FigmaNode::174:2727") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::174:2727") : "")
         font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_18_50_0_0_0_0_0.2")
-        textColor: GreenHouseThemeManager.theme.color("Text/White")
+        textColor: GreenHouseThemeManager.theme.color("Dark Ink")
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
         wrapMode: Text.WordWrap
@@ -122,7 +122,7 @@ Item {
         height: 26
         text: qsTr("A-P", "FigmaNode::174:2728") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::174:2728") : "")
         font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_18_50_0_0_0_0_0.2")
-        textColor: GreenHouseThemeManager.theme.color("Text/White")
+        textColor: GreenHouseThemeManager.theme.color("Dark Ink")
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
         wrapMode: Text.WordWrap

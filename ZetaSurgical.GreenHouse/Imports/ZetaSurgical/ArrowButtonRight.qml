@@ -19,7 +19,7 @@ Item {
     property int repeateInterval: 1000
     //REAL 1
     property alias icon_opacity: icon___default.opacity
-    //ASSET /Icons/DownTriangle__DefaultState.png
+    //ASSET /Icons/RightTriangle__DefaultState.png
     property alias icon_source: icon___default.source
 
     //----------------------------------------------------------------------------------------------
@@ -96,21 +96,23 @@ Item {
     Image {
         id: icon___default
         anchors.left: parent.left
-        anchors.leftMargin: 8
         anchors.right: parent.right
         anchors.top: parent.top
+        anchors.topMargin: 4
         anchors.bottom: parent.bottom
+        anchors.bottomMargin: 4
         z: 1
-        source: GreenHouseThemeManager.theme.asset("/Icons/DownTriangle__DefaultState.png")
+        source: GreenHouseThemeManager.theme.asset("/Icons/RightTriangle__DefaultState.png")
         visible: default_StateParent.visible
     }
     Image {
         id: icon___pressed
         anchors.left: parent.left
-        anchors.leftMargin: 8
         anchors.right: parent.right
         anchors.top: parent.top
+        anchors.topMargin: 4
         anchors.bottom: parent.bottom
+        anchors.bottomMargin: 4
         z: 1
         source: icon___default.source
         opacity: icon___default.opacity

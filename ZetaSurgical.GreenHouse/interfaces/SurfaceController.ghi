@@ -21,6 +21,9 @@
         "hideMenus": {
             "name": "hideMenus"
         },
+        "hideNavPanel": {
+            "name": "hideNavPanel"
+        },
         "hideOtherButtonPanel": {
             "name": "hideOtherButtonPanel"
         },
@@ -59,6 +62,9 @@
         },
         "showMenus": {
             "name": "showMenus"
+        },
+        "showNavPanel": {
+            "name": "showNavPanel"
         },
         "showOtherButtonPanel": {
             "name": "showOtherButtonPanel"
@@ -119,6 +125,9 @@
         },
         "surfaceMenusBack": {
             "name": "surfaceMenusBack"
+        },
+        "surfaceNavPanelMoveToNavPanel_Shared0": {
+            "name": "surfaceNavPanelMoveToNavPanel_Shared0"
         },
         "surfaceOtherButtonPanelMoveToConfirmRegistrationPRE_Adjustment_Cut_OtherButtonPanel": {
             "name": "surfaceOtherButtonPanelMoveToConfirmRegistrationPRE_Adjustment_Cut_OtherButtonPanel"

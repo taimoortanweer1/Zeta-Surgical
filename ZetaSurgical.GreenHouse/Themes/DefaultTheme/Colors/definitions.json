@@ -270,5 +270,13 @@
         "colorHEX": "#ff6fcce3",
         "colorR": 111,
         "name": "Text/Blue 0 - Data"
+    },
+    {
+        "colorA": 255,
+        "colorB": 255,
+        "colorG": 255,
+        "colorHEX": "#ffffffff",
+        "colorR": 255,
+        "name": "Dark Ink"
     }
 ]
