@@ -56,3 +56,24 @@ QHash<int, QByteArray> PatientsModel::roleNames() const
     roles[Date] = "date";
     return roles;
 }
+
+PatientsFilterModel::PatientsFilterModel(QObject *parent)
+    : QSortFilterProxyModel(parent)
+{
+
+}
+
+void PatientsFilterModel::setFilterString(QString filter)
+{
+    m_filter = filter;
+    invalidate();
+}
+
+bool PatientsFilterModel::filterAcceptsRow(int source_row, const QModelIndex &source_parent) const
+{
+    Q_UNUSED(source_parent);
+
+    if(m_filter.isEmpty())
+        return true;
+    return sourceModel()->data(sourceModel()->index(source_row, 0), PatientsModel::Name).toString().startsWith(m_filter);
+}

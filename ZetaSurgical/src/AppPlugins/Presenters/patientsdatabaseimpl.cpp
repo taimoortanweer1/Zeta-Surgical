@@ -4,7 +4,10 @@
 PatientsDatabaseImpl::PatientsDatabaseImpl()
     : ZetaSurgical::PatientsDatabase()
     , m_patientsModel(new PatientsModel(this))
-{}
+    , m_filterModel(new PatientsFilterModel(this))
+{
+    m_filterModel->setSourceModel(m_patientsModel);
+}
 
 void PatientsDatabaseImpl::init()
 {
@@ -46,5 +49,10 @@ void PatientsDatabaseImpl::init()
                 QDate::currentDate() };
         m_patientsModel->addPatient(patient);
     }
-    setPatientsList(m_patientsModel);
+    setPatientsList(m_filterModel);
+}
+
+void PatientsDatabaseImpl::onFilterStringChanged(const QString &filter)
+{
+    m_filterModel->setFilterString(filter);
 }

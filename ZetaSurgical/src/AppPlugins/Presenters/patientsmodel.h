@@ -1,6 +1,7 @@
 #pragma once
 
 #include <QAbstractListModel>
+#include <QSortFilterProxyModel>
 #include <QDate>
 
 struct Patient {
@@ -14,6 +15,20 @@ struct Patient {
 };
 
 using Patients = QList<Patient>;
+
+class PatientsFilterModel : public QSortFilterProxyModel
+{
+    Q_OBJECT
+public:
+    PatientsFilterModel(QObject *parent = nullptr);
+    void setFilterString(QString filter);
+
+protected:
+    bool filterAcceptsRow(int source_row, const QModelIndex &source_parent) const;
+
+private:
+    QString m_filter;
+};
 
 class PatientsModel : public QAbstractListModel
 {

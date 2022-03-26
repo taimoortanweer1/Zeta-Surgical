@@ -30,6 +30,13 @@
             "value": 2
         }
     },
+    "signals": {
+        "input_textChanged": {
+            "arguments": "string text",
+            "name": "input_textChanged",
+            "rawCode": "root.itemInterface.fi_search__onEvent__input_textChanged(text)\n"
+        }
+    },
     "targetFile": "fi_search.ghuie",
     "type": "ZetaSurgicalSet.SearchInputText",
     "userDefined": false

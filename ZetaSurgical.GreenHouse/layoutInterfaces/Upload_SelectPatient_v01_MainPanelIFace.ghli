@@ -4,6 +4,16 @@
     "signals": {
         "fi_continue__onEvent__clicked": {
             "name": "fi_continue__onEvent__clicked"
+        },
+        "fi_search__onEvent__input_textChanged": {
+            "arguments": [
+                {
+                    "name": "PatientsDatabase_onFilterStringChanged_filter",
+                    "preview": null,
+                    "type": "String"
+                }
+            ],
+            "name": "fi_search__onEvent__input_textChanged"
         }
     },
     "targetFile": "Upload_SelectPatient_v01_MainPanelIFace.ghli"

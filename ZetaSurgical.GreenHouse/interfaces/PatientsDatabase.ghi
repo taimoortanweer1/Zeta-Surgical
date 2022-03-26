@@ -1,6 +1,18 @@
 {
     "backendObject": false,
     "hidden": false,
+    "methods": {
+        "onFilterStringChanged": {
+            "arguments": [
+                {
+                    "name": "filter",
+                    "preview": null,
+                    "type": "String"
+                }
+            ],
+            "name": "onFilterStringChanged"
+        }
+    },
     "name": "PatientsDatabase",
     "properties": {
         "arguments": [

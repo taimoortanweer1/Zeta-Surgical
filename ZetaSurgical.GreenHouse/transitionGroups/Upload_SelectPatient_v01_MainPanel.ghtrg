@@ -19,6 +19,24 @@
                     "type": "RawCode"
                 }
             ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_search__onEvent__input_textChanged",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PatientsDatabase, co) co->onFilterStringChanged(args.at(0).toString());\n}\n",
+                    "type": "RawCode"
+                }
+            ]
         }
     ]
 }
