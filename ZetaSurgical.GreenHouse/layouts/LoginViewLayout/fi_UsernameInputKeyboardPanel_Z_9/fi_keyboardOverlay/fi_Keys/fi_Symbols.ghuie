@@ -1,0 +1,47 @@
+{
+    "anchorLeft": {
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 352,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "I40:5517;211:5842"
+    },
+    "id": "fi_Symbols",
+    "properties": {
+        "fi_Letter_lineHeight": {
+            "name": "fi_Letter_lineHeight",
+            "type": "Float",
+            "value": 35.160000000000004
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 80
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 204
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 352
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 3
+        }
+    },
+    "targetFile": "fi_Symbols.ghuie",
+    "type": "ZetaSurgicalSet.KeyboardButton_FunctionCenter",
+    "userDefined": false,
+    "uuid": "{613ad9e9-58cd-4f94-a22f-275ce0274f7b}"
+}

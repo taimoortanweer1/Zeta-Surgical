@@ -31,6 +31,16 @@
             "type": "Int",
             "value": 72
         },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 1264
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 208
+        },
         "z": {
             "name": "z",
             "type": "Int",

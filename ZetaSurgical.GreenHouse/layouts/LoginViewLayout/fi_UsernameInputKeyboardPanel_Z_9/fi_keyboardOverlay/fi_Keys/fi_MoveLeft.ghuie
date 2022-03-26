@@ -1,0 +1,48 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 1472,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 352,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "I40:5517;234:2279"
+    },
+    "id": "fi_MoveLeft",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 80
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 104
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 1472
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 352
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "targetFile": "fi_MoveLeft.ghuie",
+    "type": "ZetaSurgicalSet.KeyboardButton_MoveLeft",
+    "userDefined": false,
+    "uuid": "{2491441d-d023-419e-9a5e-65f95fcb8402}"
+}

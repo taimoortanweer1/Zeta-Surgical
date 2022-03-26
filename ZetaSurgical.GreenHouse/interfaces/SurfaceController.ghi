@@ -165,6 +165,9 @@
         "surfaceScreensMoveToSegmentation_Default_ScreenState": {
             "name": "surfaceScreensMoveToSegmentation_Default_ScreenState"
         },
+        "surfaceScreensMoveToUpload_GenericModalOverlay_ScreenState": {
+            "name": "surfaceScreensMoveToUpload_GenericModalOverlay_ScreenState"
+        },
         "surfaceScreensMoveToUpload_SelectPatient_v01_ScreenState": {
             "name": "surfaceScreensMoveToUpload_SelectPatient_v01_ScreenState"
         },

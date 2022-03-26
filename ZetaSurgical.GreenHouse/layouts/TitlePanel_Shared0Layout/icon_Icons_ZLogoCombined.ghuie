@@ -1,0 +1,37 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "245:7063"
+    },
+    "id": "icon_Icons_ZLogoCombined",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 68
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/Icons/ZLogoCombined.png"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 531
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 695
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 66
+        }
+    },
+    "targetFile": "icon_Icons_ZLogoCombined.ghuie",
+    "type": "Image",
+    "userDefined": false
+}

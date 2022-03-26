@@ -1,0 +1,16 @@
+{
+    "backendObject": false,
+    "hidden": false,
+    "name": "NavigationPresenter",
+    "properties": {
+        "arguments": [
+            {
+                "name": "tabIndex",
+                "preview": 0,
+                "type": "Int"
+            }
+        ]
+    },
+    "targetFile": "NavigationPresenter.ghi",
+    "uuid": "{5b360f67-4a82-4bad-a985-6d89ad3ac6b1}"
+}

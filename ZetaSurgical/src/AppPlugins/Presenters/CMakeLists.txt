@@ -5,11 +5,19 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(presenters_h
 presenters.h
+Keyboard/keyboardpresenterimpl.h
+Keyboard/keyboardconstants.h
+Keyboard/keyboard_log.h
 )
 
 set(presenters_cpp
+Keyboard/keyboardpresenterimpl.cpp
 presenters.cpp
 )
+
+set(resources Keyboard/resources.qrc)
+
+add_definitions( -DGREENHOUSE_GUI )
 
 include(Implementations.cmake)
 
@@ -17,7 +25,7 @@ set(CMAKE_AUTOMOC ON)
 
 find_package(Qt5 REQUIRED COMPONENTS Core REQUIRED)
 
-add_library(presenters SHARED ${presenters_h} ${presenters_cpp} ${impl_h} ${impl_cpp})
+add_library(presenters SHARED ${presenters_h} ${presenters_cpp} ${impl_h} ${impl_cpp} ${resources})
 
 target_include_directories(presenters PUBLIC ../../../lib/GreenHouse)
 target_include_directories(presenters PUBLIC ../../../lib/AppCore)

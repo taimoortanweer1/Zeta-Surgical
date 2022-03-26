@@ -236,9 +236,9 @@ Item {
     property alias fi_HomeButton_doubleClickEnabeld: fi_HomeButton.doubleClickEnabeld
     //BOOL true
     property alias fi_HomeButton_enabled: fi_HomeButton.enabled
-    //ASSET /Icons/ZetaLogo__DefaultState.png
+    //ASSET /Icons/ZetaLogoSmall__DefaultState.png
     property alias fi_HomeButton_icon___default_source: fi_HomeButton.icon___default_source
-    //ASSET /Icons/ZetaLogo__SelectedState.png
+    //ASSET /Icons/ZetaLogoSmall__SelectedState.png
     property alias fi_HomeButton_icon___selected_source: fi_HomeButton.icon___selected_source
     //REAL 1
     property alias fi_HomeButton_icon_opacity: fi_HomeButton.icon_opacity

@@ -1,0 +1,70 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 228,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 176,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "I40:5517;234:30909"
+    },
+    "id": "fi_ListViewRow3_horizontal",
+    "properties": {
+        "delegateSpacing": {
+            "name": "delegateSpacing",
+            "type": "Int",
+            "value": 8
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 80
+        },
+        "vertical": {
+            "name": "vertical",
+            "type": "Bool",
+            "value": false
+        },
+        "viewDelegate": {
+            "name": "viewDelegate",
+            "type": "Delegate",
+            "value": "fi_ListViewRow3_horizontal_delegate"
+        },
+        "viewModel": {
+            "bindingProp": "row3Model",
+            "bindingSrc": "KeyboardPresenter",
+            "name": "viewModel",
+            "type": "Model",
+            "value": "null"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 1444
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 228
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 176
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 12
+        }
+    },
+    "targetFile": "fi_ListViewRow3_horizontal.ghuie",
+    "type": "ComponentsSet.ModelView",
+    "userDefined": false,
+    "uuid": "{27c3c6d0-59f3-42c3-bd6e-0eb61977b75b}"
+}

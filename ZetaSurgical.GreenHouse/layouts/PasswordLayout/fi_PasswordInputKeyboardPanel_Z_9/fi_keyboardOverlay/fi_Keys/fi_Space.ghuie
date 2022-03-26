@@ -1,0 +1,60 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 212,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 352,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "I212:7468;211:5846"
+    },
+    "id": "fi_Space",
+    "properties": {
+        "fi_Label_lineHeight": {
+            "name": "fi_Label_lineHeight",
+            "type": "Float",
+            "value": 35.160000000000004
+        },
+        "fi_Label_text": {
+            "name": "fi_Label_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I212:7468;211:5846;208:4911",
+            "value": "space"
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 80
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 1252
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 212
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 352
+        }
+    },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_Space__onEvent__clicked()\n"
+        }
+    },
+    "targetFile": "fi_Space.ghuie",
+    "type": "ZetaSurgicalSet.KeyboardButton_Letter_Lowercase",
+    "userDefined": false,
+    "uuid": "{86e9c3c3-7d2a-4d5f-b391-75ab7c259249}"
+}

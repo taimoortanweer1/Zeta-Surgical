@@ -1,0 +1,119 @@
+{
+    "backendObject": false,
+    "hidden": false,
+    "name": "PatientsDatabase",
+    "properties": {
+        "arguments": [
+            {
+                "complex": true,
+                "data": [
+                    {
+                        "date": "date_0",
+                        "dob": "dob_0",
+                        "mrn": "mrn_0",
+                        "name": "name_0",
+                        "sessionID": "sessionID_0",
+                        "sex": "sex_0",
+                        "studies": "studies_0"
+                    },
+                    {
+                        "date": "date_1",
+                        "dob": "dob_1",
+                        "mrn": "mrn_1",
+                        "name": "name_1",
+                        "sessionID": "sessionID_1",
+                        "sex": "sex_1",
+                        "studies": "studies_1"
+                    },
+                    {
+                        "date": "date_2",
+                        "dob": "dob_2",
+                        "mrn": "mrn_2",
+                        "name": "name_2",
+                        "sessionID": "sessionID_2",
+                        "sex": "sex_2",
+                        "studies": "studies_2"
+                    },
+                    {
+                        "date": "date_3",
+                        "dob": "dob_3",
+                        "mrn": "mrn_3",
+                        "name": "name_3",
+                        "sessionID": "sessionID_3",
+                        "sex": "sex_3",
+                        "studies": "studies_3"
+                    },
+                    {
+                        "date": "date_4",
+                        "dob": "dob_4",
+                        "mrn": "mrn_4",
+                        "name": "name_4",
+                        "sessionID": "sessionID_4",
+                        "sex": "sex_4",
+                        "studies": "studies_4"
+                    },
+                    {
+                        "date": "date_5",
+                        "dob": "dob_5",
+                        "mrn": "mrn_5",
+                        "name": "name_5",
+                        "sessionID": "sessionID_5",
+                        "sex": "sex_5",
+                        "studies": "studies_5"
+                    },
+                    {
+                        "date": "date_6",
+                        "dob": "dob_6",
+                        "mrn": "mrn_6",
+                        "name": "name_6",
+                        "sessionID": "sessionID_6",
+                        "sex": "sex_6",
+                        "studies": "studies_6"
+                    },
+                    {
+                        "date": "date_7",
+                        "dob": "dob_7",
+                        "mrn": "mrn_7",
+                        "name": "name_7",
+                        "sessionID": "sessionID_7",
+                        "sex": "sex_7",
+                        "studies": "studies_7"
+                    },
+                    {
+                        "date": "date_8",
+                        "dob": "dob_8",
+                        "mrn": "mrn_8",
+                        "name": "name_8",
+                        "sessionID": "sessionID_8",
+                        "sex": "sex_8",
+                        "studies": "studies_8"
+                    },
+                    {
+                        "date": "date_9",
+                        "dob": "dob_9",
+                        "mrn": "mrn_9",
+                        "name": "name_9",
+                        "sessionID": "sessionID_9",
+                        "sex": "sex_9",
+                        "studies": "studies_9"
+                    }
+                ],
+                "name": "patientsList",
+                "preview": null,
+                "readonly": true,
+                "roles": [
+                    "name",
+                    "mrn",
+                    "dob",
+                    "sex",
+                    "studies",
+                    "sessionID",
+                    "date"
+                ],
+                "type": "Model"
+            }
+        ]
+    },
+    "targetFile": "PatientsDatabase.ghi",
+    "uuid": "{10903347-a86c-4012-9577-1cdfde5e72f0}"
+}

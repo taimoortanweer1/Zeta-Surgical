@@ -39,7 +39,6 @@ ModifyTargetButton 1.0 ModifyTargetButton.qml
 Table1DelegateListItem_Button 1.0 Table1DelegateListItem_Button.qml
 Table2DelegateListItem_Button 1.0 Table2DelegateListItem_Button.qml
 Table3DelegateListItem_Button 1.0 Table3DelegateListItem_Button.qml
-KeyBoard 1.0 KeyBoard.qml
 KeyboardButton_Letter_Lowercase 1.0 KeyboardButton_Letter_Lowercase.qml
 KeyboardButton_MoveRight 1.0 KeyboardButton_MoveRight.qml
 KeyboardButton_MoveLeft 1.0 KeyboardButton_MoveLeft.qml

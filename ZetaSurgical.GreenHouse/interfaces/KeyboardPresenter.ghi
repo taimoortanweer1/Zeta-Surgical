@@ -1,0 +1,126 @@
+{
+    "backendObject": false,
+    "enums": [
+        {
+            "name": "ControlButtons",
+            "value": [
+                "Backspace",
+                "Tabulation",
+                "Copy",
+                "Paste",
+                "LeftArrow",
+                "RightArrow",
+                "Enter"
+            ]
+        }
+    ],
+    "hidden": false,
+    "methods": {
+        "onBackspaceClicked": {
+            "name": "onBackspaceClicked"
+        },
+        "onCharacterButtonClicked": {
+            "arguments": [
+                {
+                    "name": "character",
+                    "preview": null,
+                    "type": "String"
+                }
+            ],
+            "name": "onCharacterButtonClicked"
+        },
+        "onCleanClicked": {
+            "name": "onCleanClicked"
+        },
+        "onCopyClicked": {
+            "name": "onCopyClicked"
+        },
+        "onEnterClicked": {
+            "name": "onEnterClicked"
+        },
+        "onLeftArrowClicked": {
+            "name": "onLeftArrowClicked"
+        },
+        "onPasteClicked": {
+            "name": "onPasteClicked"
+        },
+        "onRightArrowClicked": {
+            "name": "onRightArrowClicked"
+        },
+        "onShiftClicked": {
+            "name": "onShiftClicked"
+        },
+        "onShiftLockClicked": {
+            "name": "onShiftLockClicked"
+        },
+        "onSpaceClicked": {
+            "name": "onSpaceClicked"
+        },
+        "onTabulationClicked": {
+            "name": "onTabulationClicked"
+        }
+    },
+    "name": "KeyboardPresenter",
+    "properties": {
+        "arguments": [
+            {
+                "data": [
+                    {
+                        "valueRole": "1"
+                    }
+                ],
+                "name": "row1Model",
+                "preview": null,
+                "readonly": true,
+                "roles": [
+                    "valueRole"
+                ],
+                "type": "Model"
+            },
+            {
+                "data": [
+                    {
+                        "valueRole": "q"
+                    }
+                ],
+                "name": "row2Model",
+                "preview": null,
+                "readonly": true,
+                "roles": [
+                    "valueRole"
+                ],
+                "type": "Model"
+            },
+            {
+                "data": [
+                    {
+                        "valueRole": "a"
+                    }
+                ],
+                "name": "row3Model",
+                "preview": null,
+                "readonly": true,
+                "roles": [
+                    "valueRole"
+                ],
+                "type": "Model"
+            },
+            {
+                "data": [
+                    {
+                        "valueRole": "z"
+                    }
+                ],
+                "name": "row4Model",
+                "preview": null,
+                "readonly": true,
+                "roles": [
+                    "valueRole"
+                ],
+                "type": "Model"
+            }
+        ]
+    },
+    "targetFile": "KeyboardPresenter.ghi",
+    "uuid": "{4b95fc16-3a3e-407b-9aba-b0c1f21a0ba3}"
+}

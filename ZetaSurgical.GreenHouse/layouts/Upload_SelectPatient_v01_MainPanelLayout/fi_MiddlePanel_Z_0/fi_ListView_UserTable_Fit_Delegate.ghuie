@@ -25,6 +25,13 @@
             "type": "Delegate",
             "value": "fi_ListView_UserTable_Fit_Delegate_delegate"
         },
+        "viewModel": {
+            "bindingProp": "patientsList",
+            "bindingSrc": "PatientsDatabase",
+            "name": "viewModel",
+            "type": "Model",
+            "value": "null"
+        },
         "width": {
             "name": "width",
             "type": "Int",

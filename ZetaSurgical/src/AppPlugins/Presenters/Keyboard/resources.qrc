@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>keyboard_layouts.json</file>
+    </qresource>
+</RCC>

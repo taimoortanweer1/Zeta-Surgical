@@ -63,7 +63,7 @@
                                     "source": {
                                         "name": "source",
                                         "type": "Asset",
-                                        "value": "/Icons/ZetaLogo__DefaultState.png"
+                                        "value": "/Icons/ZetaLogoSmall__DefaultState.png"
                                     },
                                     "width": {
                                         "name": "width",
@@ -150,7 +150,7 @@
                                     "source": {
                                         "name": "source",
                                         "type": "Asset",
-                                        "value": "/Icons/ZetaLogo__SelectedState.png"
+                                        "value": "/Icons/ZetaLogoSmall__SelectedState.png"
                                     },
                                     "width": {
                                         "name": "width",

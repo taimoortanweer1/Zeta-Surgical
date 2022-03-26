@@ -1,0 +1,62 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 1680,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 176,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "id": "fi_Enter",
+    "properties": {
+        "fi_Letter_lineHeight": {
+            "name": "fi_Letter_lineHeight",
+            "type": "Float",
+            "value": 35.160000000000004
+        },
+        "fi_Letter_text": {
+            "name": "fi_Letter_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I40:5517;245:6365;211:5005",
+            "value": "enter"
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 80
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 208
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 1680
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 176
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 8
+        }
+    },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_Enter__onEvent__clicked()\n"
+        }
+    },
+    "targetFile": "fi_Enter.ghuie",
+    "type": "ZetaSurgicalSet.KeyboardButton_FunctionRightGrey",
+    "userDefined": false,
+    "uuid": "{d56175a2-ef5b-42bc-829a-8978a8024164}"
+}

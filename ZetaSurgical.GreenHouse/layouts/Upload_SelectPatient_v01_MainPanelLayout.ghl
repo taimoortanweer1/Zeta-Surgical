@@ -18,6 +18,50 @@
                         "FIGMA_ID": "164:7827"
                     },
                     "id": "fi_Table1DelegateListItem_Button",
+                    "properties": {
+                        "fi_01_01_1900_text": {
+                            "bindingRole": "dob",
+                            "name": "fi_01_01_1900_text",
+                            "type": "TranslatableString",
+                            "uuid": "{bfef6836-2f4e-4fcf-ad2d-cfd776029347}",
+                            "value": "01/01/1900"
+                        },
+                        "fi_02_14_2022_text": {
+                            "bindingRole": "date",
+                            "name": "fi_02_14_2022_text",
+                            "type": "TranslatableString",
+                            "uuid": "{7effa5a6-74eb-4e1f-b7ab-cf40c9d7300a}",
+                            "value": "02/14/2022"
+                        },
+                        "fi_9089123423_text": {
+                            "bindingRole": "mrn",
+                            "name": "fi_9089123423_text",
+                            "type": "TranslatableString",
+                            "uuid": "{44daff82-2828-4bd6-ad7c-2ae2d1d5794b}",
+                            "value": "9089123423"
+                        },
+                        "fi_BWH15304_text": {
+                            "bindingRole": "sessionID",
+                            "name": "fi_BWH15304_text",
+                            "type": "TranslatableString",
+                            "uuid": "{f2928db7-aeb2-477e-bb03-1c74324ba2b6}",
+                            "value": "BWH-15304"
+                        },
+                        "fi_John_Doe_text": {
+                            "bindingRole": "name",
+                            "name": "fi_John_Doe_text",
+                            "type": "TranslatableString",
+                            "uuid": "{72b4e19c-c638-4218-aa4a-d25bc14b2ae4}",
+                            "value": "John Doe"
+                        },
+                        "fi_M_text": {
+                            "bindingRole": "sex",
+                            "name": "fi_M_text",
+                            "type": "TranslatableString",
+                            "uuid": "{d027e265-562b-46d9-9597-6d0eabe7f86d}",
+                            "value": "M"
+                        }
+                    },
                     "targetFile": "fi_Table1DelegateListItem_Button.ghuie",
                     "type": "ZetaSurgicalSet.Table1DelegateListItem_Button",
                     "userDefined": false
@@ -26,6 +70,8 @@
             "childrenSplit": true,
             "id": "fi_ListView_UserTable_Fit_Delegate_delegate",
             "model": {
+                "bindingProp": "patientsList",
+                "bindingSrc": "PatientsDatabase",
                 "name": "modelProperty",
                 "type": "Model",
                 "value": null

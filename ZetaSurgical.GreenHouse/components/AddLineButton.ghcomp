@@ -47,11 +47,16 @@
                 "aliasSource": "fi_ADD_POINT___default"
             }
         ],
-        "fi_Union___default": [
+        "icon___default": [
             {
                 "aliasElement": "opacity",
-                "aliasName": "fi_Union_opacity",
-                "aliasSource": "fi_Union___default"
+                "aliasName": "icon_opacity",
+                "aliasSource": "icon___default"
+            },
+            {
+                "aliasElement": "source",
+                "aliasName": "icon_source",
+                "aliasSource": "icon___default"
             }
         ]
     },
@@ -60,6 +65,76 @@
         "children": [
             {
                 "children": [
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "default_StateParent",
+                        "properties": {
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 80
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 368
+                            }
+                        },
+                        "targetFile": "default_StateParent.ghuie",
+                        "type": "Item",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "pressed_StateParent",
+                        "properties": {
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 80
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 368
+                            }
+                        },
+                        "targetFile": "pressed_StateParent.ghuie",
+                        "type": "Item",
+                        "userDefined": false
+                    },
                     {
                         "anchorBottom": {
                             "anchorTarget": "parent",
@@ -176,55 +251,6 @@
                     },
                     {
                         "anchorLeft": {
-                            "anchorMargin": 20,
-                            "anchorTarget": "parent",
-                            "anchorValue": "Left"
-                        },
-                        "anchorTop": {
-                            "anchorMargin": 15,
-                            "anchorTarget": "parent",
-                            "anchorValue": "Top"
-                        },
-                        "childrenSplit": true,
-                        "id": "fi_Union___default",
-                        "properties": {
-                            "height": {
-                                "name": "height",
-                                "type": "Int",
-                                "value": 50
-                            },
-                            "source": {
-                                "name": "source",
-                                "type": "Asset",
-                                "value": "/7_1310.png"
-                            },
-                            "width": {
-                                "name": "width",
-                                "type": "Int",
-                                "value": 50
-                            },
-                            "x": {
-                                "name": "x",
-                                "type": "Int",
-                                "value": 20
-                            },
-                            "y": {
-                                "name": "y",
-                                "type": "Int",
-                                "value": 15
-                            },
-                            "z": {
-                                "name": "z",
-                                "type": "Int",
-                                "value": 1
-                            }
-                        },
-                        "targetFile": "fi_Union___default.ghuie",
-                        "type": "Image",
-                        "userDefined": false
-                    },
-                    {
-                        "anchorLeft": {
                             "anchorMargin": 89,
                             "anchorTarget": "parent",
                             "anchorValue": "Left"
@@ -305,11 +331,134 @@
                             "z": {
                                 "name": "z",
                                 "type": "Int",
-                                "value": 2
+                                "value": 1
                             }
                         },
                         "targetFile": "fi_ADD_POINT___default.ghuie",
                         "type": "ComponentsSet.Label",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorLeft": {
+                            "anchorMargin": 20,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorVCenter": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "VerticalCenter"
+                        },
+                        "childrenSplit": true,
+                        "id": "icon___default",
+                        "properties": {
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 48
+                            },
+                            "source": {
+                                "name": "source",
+                                "type": "Asset",
+                                "value": "/Icons/Plus__DefaultState.png"
+                            },
+                            "visible": {
+                                "bindingProp": "visible",
+                                "bindingSrc": "default_StateParent",
+                                "itemBound": true,
+                                "name": "visible",
+                                "type": "Bool",
+                                "value": true
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 48
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 20
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 16
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 2
+                            }
+                        },
+                        "targetFile": "icon___default.ghuie",
+                        "type": "Image",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorLeft": {
+                            "anchorMargin": 20,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorVCenter": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "VerticalCenter"
+                        },
+                        "childrenSplit": true,
+                        "id": "icon___pressed",
+                        "properties": {
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 48
+                            },
+                            "opacity": {
+                                "bindingProp": "opacity",
+                                "bindingSrc": "icon___default",
+                                "itemBound": true,
+                                "name": "opacity",
+                                "type": "Float",
+                                "value": 1
+                            },
+                            "source": {
+                                "bindingProp": "source",
+                                "bindingSrc": "icon___default",
+                                "itemBound": true,
+                                "name": "source",
+                                "type": "Asset",
+                                "value": "/Icons/Plus__DefaultState.png"
+                            },
+                            "visible": {
+                                "bindingProp": "visible",
+                                "bindingSrc": "pressed_StateParent",
+                                "itemBound": true,
+                                "name": "visible",
+                                "type": "Bool",
+                                "value": true
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 48
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 20
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 16
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 2
+                            }
+                        },
+                        "targetFile": "icon___pressed.ghuie",
+                        "type": "Image",
                         "userDefined": false
                     }
                 ],
@@ -403,6 +552,18 @@
                 "name": "default",
                 "propertyChanges": [
                     {
+                        "name": "visible",
+                        "propertyChangeTarget": "default_StateParent",
+                        "type": "Bool",
+                        "value": true
+                    },
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "pressed_StateParent",
+                        "type": "Bool",
+                        "value": false
+                    },
+                    {
                         "name": "source",
                         "propertyChangeTarget": "fi_Login_Enter___default",
                         "type": "Asset",
@@ -431,12 +592,6 @@
                         "propertyChangeTarget": "fi_Login_Enter___default",
                         "type": "Int",
                         "value": 39
-                    },
-                    {
-                        "name": "source",
-                        "propertyChangeTarget": "fi_Union___default",
-                        "type": "Asset",
-                        "value": "/7_1310.png"
                     }
                 ],
                 "when": "!__mouseArea.pressed"
@@ -445,6 +600,18 @@
                 "group": "",
                 "name": "pressed",
                 "propertyChanges": [
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "default_StateParent",
+                        "type": "Bool",
+                        "value": false
+                    },
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "pressed_StateParent",
+                        "type": "Bool",
+                        "value": true
+                    },
                     {
                         "name": "source",
                         "propertyChangeTarget": "fi_Login_Enter___default",
@@ -474,12 +641,6 @@
                         "propertyChangeTarget": "fi_Login_Enter___default",
                         "type": "Int",
                         "value": 14
-                    },
-                    {
-                        "name": "source",
-                        "propertyChangeTarget": "fi_Union___default",
-                        "type": "Asset",
-                        "value": "/22_2502.png"
                     }
                 ],
                 "when": "__mouseArea.pressed"

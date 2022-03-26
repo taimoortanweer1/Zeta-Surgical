@@ -17,45 +17,15 @@
     },
     "id": "fi_keyboardOverlay",
     "properties": {
-        "fi_CapsLock_fi_Letter_lineHeight": {
-            "name": "fi_CapsLock_fi_Letter_lineHeight",
-            "type": "Float",
-            "value": 35.160000000000004
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 464
         },
-        "fi_Delete_fi_Letter_lineHeight": {
-            "name": "fi_Delete_fi_Letter_lineHeight",
-            "type": "Float",
-            "value": 35.160000000000004
-        },
-        "fi_Enter_fi_Letter_lineHeight": {
-            "name": "fi_Enter_fi_Letter_lineHeight",
-            "type": "Float",
-            "value": 35.160000000000004
-        },
-        "fi_Shift1_fi_Letter_lineHeight": {
-            "name": "fi_Shift1_fi_Letter_lineHeight",
-            "type": "Float",
-            "value": 35.160000000000004
-        },
-        "fi_Shift2_fi_Letter_lineHeight": {
-            "name": "fi_Shift2_fi_Letter_lineHeight",
-            "type": "Float",
-            "value": 35.160000000000004
-        },
-        "fi_Space_fi_Label_lineHeight": {
-            "name": "fi_Space_fi_Label_lineHeight",
-            "type": "Float",
-            "value": 35.160000000000004
-        },
-        "fi_Symbols_fi_Letter_lineHeight": {
-            "name": "fi_Symbols_fi_Letter_lineHeight",
-            "type": "Float",
-            "value": 35.160000000000004
-        },
-        "fi_Tab_fi_Letter_lineHeight": {
-            "name": "fi_Tab_fi_Letter_lineHeight",
-            "type": "Float",
-            "value": 35.160000000000004
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 1920
         },
         "y": {
             "name": "y",
@@ -69,7 +39,7 @@
         }
     },
     "targetFile": "fi_keyboardOverlay.ghuie",
-    "type": "ZetaSurgicalSet.KeyBoard",
+    "type": "Item",
     "userDefined": false,
     "uuid": "{eb775130-349f-456d-8c59-dde823eb25cb}"
 }

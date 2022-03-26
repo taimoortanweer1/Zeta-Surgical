@@ -3,10 +3,11 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
 
+//USES Item
 //USES ComponentsSet.AutoRepeatMouseArea
 //USES BorderImage
-//USES Image
 //USES ComponentsSet.Label
+//USES Image
 //PREVIEW IMAGE qrc:/GeneratedComponents/assets/Button.png
 
 //EDITABLE TRUE
@@ -36,7 +37,9 @@ Item {
     //TEXTVAL 128
     property alias fi_ADD_POINT_verticalAlignment: fi_ADD_POINT___default.verticalAlignment
     //REAL 1
-    property alias fi_Union_opacity: fi_Union___default.opacity
+    property alias icon_opacity: icon___default.opacity
+    //ASSET /Icons/Plus__DefaultState.png
+    property alias icon_source: icon___default.source
 
     //----------------------------------------------------------------------------------------------
 
@@ -56,6 +59,20 @@ Item {
     //----------------------------------------------------------------------------------------------
 
     //Children--------------------------------------------------------------------------------------
+    Item {
+        id: default_StateParent
+        anchors.left: parent.left
+        anchors.right: parent.right
+        anchors.top: parent.top
+        anchors.bottom: parent.bottom
+    }
+    Item {
+        id: pressed_StateParent
+        anchors.left: parent.left
+        anchors.right: parent.right
+        anchors.top: parent.top
+        anchors.bottom: parent.bottom
+    }
     ComponentsSet.AutoRepeatMouseArea {
         id: __mouseArea
         anchors.left: parent.left
@@ -95,17 +112,6 @@ Item {
         border.right: 39
         border.top: 39
     }
-    Image {
-        id: fi_Union___default
-        anchors.left: parent.left
-        anchors.leftMargin: 20
-        anchors.top: parent.top
-        anchors.topMargin: 15
-        z: 1
-        width: 50
-        height: 50
-        source: GreenHouseThemeManager.theme.asset("/7_1310.png")
-    }
     ComponentsSet.Label {
         id: fi_ADD_POINT___default
         anchors.left: parent.left
@@ -113,7 +119,7 @@ Item {
         anchors.right: parent.right
         anchors.rightMargin: 22
         anchors.verticalCenter: parent.verticalCenter
-        z: 2
+        z: 1
         height: 82
         text: qsTr("ADD POINT", "FigmaNode::7:1311") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::7:1311") : "")
         font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_24_50_0_0_0_0_0.2")
@@ -123,6 +129,29 @@ Item {
         wrapMode: Text.WordWrap
         lineHeight: 20
         lineHeightMode: Text.FixedHeight
+    }
+    Image {
+        id: icon___default
+        anchors.left: parent.left
+        anchors.leftMargin: 20
+        anchors.verticalCenter: parent.verticalCenter
+        z: 2
+        width: 48
+        height: 48
+        source: GreenHouseThemeManager.theme.asset("/Icons/Plus__DefaultState.png")
+        visible: default_StateParent.visible
+    }
+    Image {
+        id: icon___pressed
+        anchors.left: parent.left
+        anchors.leftMargin: 20
+        anchors.verticalCenter: parent.verticalCenter
+        z: 2
+        width: 48
+        height: 48
+        source: icon___default.source
+        opacity: icon___default.opacity
+        visible: pressed_StateParent.visible
     }
 
     //----------------------------------------------------------------------------------------------
@@ -134,6 +163,10 @@ Item {
             when: !__mouseArea.pressed
             name: "default"
             PropertyChanges {
+                target: default_StateParent
+                visible: true
+            }
+            PropertyChanges {
                 target: fi_Login_Enter___default
                 border.bottom: 39
                 border.left: 39
@@ -142,13 +175,17 @@ Item {
                 source: GreenHouseThemeManager.theme.asset("/7_1300.png")
             }
             PropertyChanges {
-                target: fi_Union___default
-                source: GreenHouseThemeManager.theme.asset("/7_1310.png")
+                target: pressed_StateParent
+                visible: false
             }
         },
         State {
             when: __mouseArea.pressed
             name: "pressed"
+            PropertyChanges {
+                target: default_StateParent
+                visible: false
+            }
             PropertyChanges {
                 target: fi_Login_Enter___default
                 border.bottom: 14
@@ -158,8 +195,8 @@ Item {
                 source: GreenHouseThemeManager.theme.asset("/22_2501.png")
             }
             PropertyChanges {
-                target: fi_Union___default
-                source: GreenHouseThemeManager.theme.asset("/22_2502.png")
+                target: pressed_StateParent
+                visible: true
             }
         }
         ]

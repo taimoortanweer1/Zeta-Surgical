@@ -1,0 +1,59 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 1696,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 352,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "I40:5517;211:5875"
+    },
+    "id": "fi_Return",
+    "properties": {
+        "fi_Letter_lineHeight": {
+            "name": "fi_Letter_lineHeight",
+            "type": "Float",
+            "value": 35.160000000000004
+        },
+        "fi_Letter_text": {
+            "name": "fi_Letter_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I40:5517;211:5875;211:5102",
+            "value": "proceed"
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 80
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 192
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 1696
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 352
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 7
+        }
+    },
+    "targetFile": "fi_Return.ghuie",
+    "type": "ZetaSurgicalSet.KeyboardButton_FunctionRightBlue",
+    "userDefined": false,
+    "uuid": "{5a1d5e68-03c0-4e03-bd5b-c9ce42b80037}"
+}

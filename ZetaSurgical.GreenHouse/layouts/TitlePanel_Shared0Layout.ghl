@@ -9,11 +9,12 @@
     "interfaceName": "TitlePanel_Shared0IFace",
     "name": "TitlePanel_Shared0Layout",
     "posX": 0,
-    "posY": 92,
+    "posY": 90,
     "rootContainerType": "Item",
     "showAnimation": {
         "type": "Sequential"
     },
     "targetFile": "TitlePanel_Shared0Layout.ghl",
+    "uuid": "{6ac416d2-b733-42b3-9055-6de065231663}",
     "width": 1920
 }

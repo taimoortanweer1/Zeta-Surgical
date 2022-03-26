@@ -18,11 +18,11 @@ Item {
     property int minimumRepeatInterval: 100
     property int repeateInterval: 1000
     property int selectionIndex: -1
-    //ASSET /Icons/ZetaLogo__DefaultState.png
+    //ASSET /Icons/ZetaLogoSmall__DefaultState.png
     property alias icon___default_source: icon___default.source
     //REAL 1
     property alias icon_opacity: icon___default.opacity
-    //ASSET /Icons/ZetaLogo__SelectedState.png
+    //ASSET /Icons/ZetaLogoSmall__SelectedState.png
     property alias icon___selected_source: icon___selected.source
 
     //----------------------------------------------------------------------------------------------
@@ -56,7 +56,7 @@ Item {
             anchors.verticalCenter: parent.verticalCenter
             width: 64
             height: 64
-            source: GreenHouseThemeManager.theme.asset("/Icons/ZetaLogo__DefaultState.png")
+            source: GreenHouseThemeManager.theme.asset("/Icons/ZetaLogoSmall__DefaultState.png")
         }
     }
     Item {
@@ -72,7 +72,7 @@ Item {
             anchors.verticalCenter: parent.verticalCenter
             width: 64
             height: 64
-            source: GreenHouseThemeManager.theme.asset("/Icons/ZetaLogo__SelectedState.png")
+            source: GreenHouseThemeManager.theme.asset("/Icons/ZetaLogoSmall__SelectedState.png")
             opacity: icon___default.opacity
         }
     }

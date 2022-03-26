@@ -1,53 +1,63 @@
-16:48:57 Component: KeyBoard :: Ignoring effects applied to: fi_Space___default, effects applied to component instances and component root nodes are not supported!
-16:48:57 Component: KeyBoard :: Ignoring effects applied to: fi_MoveRight___default, effects applied to component instances and component root nodes are not supported!
-16:48:57 Component: KeyBoard :: Ignoring effects applied to: fi_MoveLeft___default, effects applied to component instances and component root nodes are not supported!
-16:48:57 Component: KeyBoard :: Ignoring effects applied to: fi_Symbols___default, effects applied to component instances and component root nodes are not supported!
-16:48:57 Component: KeyBoard :: Ignoring effects applied to: fi_Shift2___default, effects applied to component instances and component root nodes are not supported!
-16:48:57 Component: KeyBoard :: Ignoring effects applied to: fi_Shift1___default, effects applied to component instances and component root nodes are not supported!
-16:48:57 Component: KeyBoard :: Ignoring effects applied to: fi_CapsLock___default, effects applied to component instances and component root nodes are not supported!
-16:48:57 Component: KeyBoard :: Ignoring effects applied to: fi_Enter___default, effects applied to component instances and component root nodes are not supported!
-16:48:57 Component: KeyBoard :: Ignoring effects applied to: fi_Delete___default, effects applied to component instances and component root nodes are not supported!
-16:48:57 Component: KeyBoard :: Ignoring effects applied to: fi_Tab___default, effects applied to component instances and component root nodes are not supported!
-16:48:57 Component: KeyBoard :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
-16:48:57 Component: KeyBoard :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
-16:48:57 Component: KeyBoard :: Ignoring effects applied to: fi_row2_key1, effects applied to component instances and component root nodes are not supported!
-16:48:57 Component: KeyBoard :: Ignoring effects applied to: fi_row1_key2, effects applied to component instances and component root nodes are not supported!
-16:48:57 Component: KeyBoard :: Ignoring effects applied to: fi_Space___symbol, effects applied to component instances and component root nodes are not supported!
-16:48:57 Component: KeyBoard :: Ignoring effects applied to: fi_MoveLeft___symbol, effects applied to component instances and component root nodes are not supported!
-16:48:57 Component: KeyBoard :: Ignoring effects applied to: fi_MoveRight___symbol, effects applied to component instances and component root nodes are not supported!
-16:48:57 Component: KeyBoard :: Ignoring effects applied to: fi_Symbols___symbol, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_Shift2___symbol, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_Shift1___symbol, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_CapsLock___symbol, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_Enter___symbol, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_Delete___symbol, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_Tab___symbol, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_row2_key1, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_row1_key2, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_Space___uppercase, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_MoveLeft___uppercase, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_MoveRight___uppercase, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_Symbols___uppercase, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_Shift2___uppercase, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_Shift1___uppercase, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_CapsLock___uppercase, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_Enter___uppercase, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_Delete___uppercase, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_Tab___uppercase, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_row2_key1, effects applied to component instances and component root nodes are not supported!
-16:48:58 Component: KeyBoard :: Ignoring effects applied to: fi_row1_key2, effects applied to component instances and component root nodes are not supported!
-16:48:59 Panel: LoginView_Default_LoginPanel :: Changing fi_passwordButton UIElement's type the following value bindings might be lost:<br/><br/>input_inputText: LoginPresenter.enteredPassword
-16:48:59 Panel: LoginView_Default_LoginPanel :: Changing fi_usernameButton UIElement's type the following value bindings might be lost:<br/><br/>input_inputText: LoginPresenter.enteredUsername
-16:48:59 Popups: LoginView :: Removing Unknown UIElement fi_closeWindowButton_MA the following existing action handlers will be lost:<br/><br/>Clicked:<br/>root.itemInterface.fi_closeWindowButton_MA__onEvent__clicked()
-
-16:48:59 Popups: Password :: Removing Unknown UIElement fi_closeWindowButton_MA the following existing action handlers will be lost:<br/><br/>Clicked:<br/>root.itemInterface.fi_closeWindowButton_MA__onEvent__clicked()
-
-16:50:06  :: Arial font extraction process finished with exit code: 9
-16:50:07  ::   End-of-central-directory signature not found.  Either this file is not
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Space___symbol, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_MoveLeft___symbol, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_MoveRight___symbol, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Symbols___symbol, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Shift2___symbol, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Shift1___symbol, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_CapsLock___symbol, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Enter___symbol, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Delete___symbol, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Tab___symbol, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_row2_key1, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_row1_key2, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Space___uppercase, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_MoveLeft___uppercase, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_MoveRight___uppercase, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Symbols___uppercase, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Shift2___uppercase, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Shift1___uppercase, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_CapsLock___uppercase, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Enter___uppercase, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Delete___uppercase, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Tab___uppercase, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_row2_key1, effects applied to component instances and component root nodes are not supported!
+13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_row1_key2, effects applied to component instances and component root nodes are not supported!
+13:30:04 Popups: LoginView :: Ignoring effects applied to: fi_SpaceBar, effects applied to component instances and component root nodes are not supported!
+13:30:04 Popups: LoginView :: Ignoring effects applied to: fi_MoveRight, effects applied to component instances and component root nodes are not supported!
+13:30:04 Popups: LoginView :: Ignoring effects applied to: fi_MoveLeft, effects applied to component instances and component root nodes are not supported!
+13:30:04 Popups: LoginView :: Ignoring effects applied to: fi_Symbols, effects applied to component instances and component root nodes are not supported!
+13:30:04 Popups: LoginView :: Ignoring effects applied to: fi_Shift2, effects applied to component instances and component root nodes are not supported!
+13:30:04 Popups: LoginView :: Ignoring effects applied to: fi_Shift1, effects applied to component instances and component root nodes are not supported!
+13:30:04 Popups: LoginView :: Ignoring effects applied to: fi_CapsLock, effects applied to component instances and component root nodes are not supported!
+13:30:04 Popups: LoginView :: Ignoring effects applied to: fi_Return, effects applied to component instances and component root nodes are not supported!
+13:30:05 Popups: LoginView :: Ignoring effects applied to: fi_Enter, effects applied to component instances and component root nodes are not supported!
+13:30:05 Popups: LoginView :: Ignoring effects applied to: fi_Delete, effects applied to component instances and component root nodes are not supported!
+13:30:05 Popups: LoginView :: Ignoring effects applied to: fi_Tab, effects applied to component instances and component root nodes are not supported!
+13:30:05 Popups: LoginView :: Ignoring effects applied to: fi_row4_key1, effects applied to component instances and component root nodes are not supported!
+13:30:05 Popups: LoginView :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
+13:30:05 Popups: LoginView :: Ignoring effects applied to: fi_KeyboardButton_Letter_Lowercase, effects applied to component instances and component root nodes are not supported!
+13:30:05 Popups: LoginView :: Ignoring effects applied to: fi_row1_key2, effects applied to component instances and component root nodes are not supported!
+13:30:05 Popups: Password :: Ignoring effects applied to: fi_Space, effects applied to component instances and component root nodes are not supported!
+13:30:05 Popups: Password :: Ignoring effects applied to: fi_MoveRight, effects applied to component instances and component root nodes are not supported!
+13:30:05 Popups: Password :: Ignoring effects applied to: fi_MoveLeft, effects applied to component instances and component root nodes are not supported!
+13:30:05 Popups: Password :: Ignoring effects applied to: fi_Symbols, effects applied to component instances and component root nodes are not supported!
+13:30:05 Popups: Password :: Ignoring effects applied to: fi_Shift2, effects applied to component instances and component root nodes are not supported!
+13:30:05 Popups: Password :: Ignoring effects applied to: fi_Shift1, effects applied to component instances and component root nodes are not supported!
+13:30:05 Popups: Password :: Ignoring effects applied to: fi_CapsLock, effects applied to component instances and component root nodes are not supported!
+13:30:05 Popups: Password :: Ignoring effects applied to: fi_Proceed, effects applied to component instances and component root nodes are not supported!
+13:30:05 Popups: Password :: Ignoring effects applied to: fi_Enter, effects applied to component instances and component root nodes are not supported!
+13:30:06 Popups: Password :: Ignoring effects applied to: fi_Delete, effects applied to component instances and component root nodes are not supported!
+13:30:06 Popups: Password :: Ignoring effects applied to: fi_Tab, effects applied to component instances and component root nodes are not supported!
+13:30:06 Popups: Password :: Ignoring effects applied to: fi_row4_key1, effects applied to component instances and component root nodes are not supported!
+13:30:06 Popups: Password :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
+13:30:06 Popups: Password :: Ignoring effects applied to: fi_row2_key1, effects applied to component instances and component root nodes are not supported!
+13:30:06 Popups: Password :: Ignoring effects applied to: fi_row1_key2, effects applied to component instances and component root nodes are not supported!
+13:31:39  :: Arial font extraction process finished with exit code: 9
+13:31:40  ::   End-of-central-directory signature not found.  Either this file is not
   a zipfile, or it constitutes one disk of a multi-part archive.  In the
   latter case the central directory and zipfile comment will be found on
   the last disk(s) of this archive.

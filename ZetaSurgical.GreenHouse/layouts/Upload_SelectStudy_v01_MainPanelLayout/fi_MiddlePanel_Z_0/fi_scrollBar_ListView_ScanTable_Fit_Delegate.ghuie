@@ -30,6 +30,16 @@
             "name": "width",
             "type": "Int",
             "value": 72
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 1264
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 539
         }
     },
     "targetFile": "fi_scrollBar_ListView_ScanTable_Fit_Delegate.ghuie",

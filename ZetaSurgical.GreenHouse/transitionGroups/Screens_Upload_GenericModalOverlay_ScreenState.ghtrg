@@ -1,0 +1,19 @@
+{
+    "source": "Screens",
+    "target": "Upload_GenericModalOverlay_ScreenState",
+    "targetFile": "Screens_Upload_GenericModalOverlay_ScreenState.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceScreensMoveToUpload_GenericModalOverlay_ScreenState"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{583f3cda-d844-4ee9-be95-4db900d71513}"
+}

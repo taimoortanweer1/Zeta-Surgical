@@ -1,5 +1,19 @@
 {
     "base": "Displayable",
     "name": "NavPanel_Shared0IFace",
+    "signals": {
+        "fi_navBar__onEvent__fi_Button_Navigation_Planning_clicked": {
+            "name": "fi_navBar__onEvent__fi_Button_Navigation_Planning_clicked"
+        },
+        "fi_navBar__onEvent__fi_Button_Navigation_Positioning_clicked": {
+            "name": "fi_navBar__onEvent__fi_Button_Navigation_Positioning_clicked"
+        },
+        "fi_navBar__onEvent__fi_Button_Navigation_Segmentation_clicked": {
+            "name": "fi_navBar__onEvent__fi_Button_Navigation_Segmentation_clicked"
+        },
+        "fi_navBar__onEvent__fi_Button_Navigation_Upload_clicked": {
+            "name": "fi_navBar__onEvent__fi_Button_Navigation_Upload_clicked"
+        }
+    },
     "targetFile": "NavPanel_Shared0IFace.ghli"
 }

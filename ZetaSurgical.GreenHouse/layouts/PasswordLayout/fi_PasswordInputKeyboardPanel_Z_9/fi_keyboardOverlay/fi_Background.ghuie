@@ -1,0 +1,39 @@
+{
+    "anchorBottom": {
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorLeft": {
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorRight": {
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "anchorTop": {
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "I212:7468;234:6505"
+    },
+    "id": "fi_Background",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 464
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 1920
+        }
+    },
+    "targetFile": "fi_Background.ghuie",
+    "type": "Item",
+    "userDefined": false,
+    "uuid": "{c8b9acd0-65bd-401d-b618-aff30cef36d9}"
+}

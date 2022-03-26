@@ -1,5 +1,8 @@
 {
     "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "208:2270"
+    },
     "id": "fi_closeWindowButton",
     "properties": {
         "x": {

@@ -1,0 +1,59 @@
+{
+    "anchorLeft": {
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 264,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "I212:7468;211:5872"
+    },
+    "id": "fi_Shift1",
+    "properties": {
+        "fi_Letter_lineHeight": {
+            "name": "fi_Letter_lineHeight",
+            "type": "Float",
+            "value": 35.160000000000004
+        },
+        "fi_Letter_text": {
+            "name": "fi_Letter_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I212:7468;211:5872;208:4909",
+            "value": "shift"
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 80
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 260
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 264
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 5
+        }
+    },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_Shift1__onEvent__clicked()\n"
+        }
+    },
+    "targetFile": "fi_Shift1.ghuie",
+    "type": "ZetaSurgicalSet.KeyboardButton_FunctionLeft",
+    "userDefined": false,
+    "uuid": "{dd804068-418d-44f7-8841-9cecc01027cf}"
+}
