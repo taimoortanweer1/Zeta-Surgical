@@ -52,6 +52,12 @@
             "value": 7
         }
     },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_Proceed__onEvent__clicked()\n"
+        }
+    },
     "targetFile": "fi_Proceed.ghuie",
     "type": "ZetaSurgicalSet.KeyboardButton_FunctionRightBlue",
     "userDefined": false,

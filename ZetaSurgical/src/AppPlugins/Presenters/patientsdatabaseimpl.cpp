@@ -8,9 +8,36 @@ PatientsDatabaseImpl::PatientsDatabaseImpl()
 
 void PatientsDatabaseImpl::init()
 {
-    for(int i = 0; i < 25; ++i) {
+    QStringList const names = {
+        QStringLiteral("Michael"),
+        QStringLiteral("Christopher"),
+        QStringLiteral("Jessica"),
+        QStringLiteral("Matthew"),
+        QStringLiteral("Ashley"),
+        QStringLiteral("Jennifer"),
+        QStringLiteral("Joshua"),
+        QStringLiteral("Amanda"),
+        QStringLiteral("Daniel"),
+        QStringLiteral("David"),
+        QStringLiteral("James"),
+        QStringLiteral("Robert"),
+        QStringLiteral("John"),
+        QStringLiteral("Joseph"),
+        QStringLiteral("Andrew"),
+        QStringLiteral("Ryan"),
+        QStringLiteral("Brandon"),
+        QStringLiteral("Jason"),
+        QStringLiteral("Justin"),
+        QStringLiteral("Sarah"),
+        QStringLiteral("William"),
+        QStringLiteral("Jonathan"),
+        QStringLiteral("Stephanie"),
+        QStringLiteral("Brian"),
+        QStringLiteral("Nicole")
+    };
+    for(auto const &entry : names) {
         auto patient = Patient {
-                QStringLiteral("John Doe"),
+            entry,
                 QStringLiteral("439048348"),
                 QDate::currentDate(),
                 QStringLiteral("M"),

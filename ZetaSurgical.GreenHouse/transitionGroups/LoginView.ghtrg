@@ -235,6 +235,24 @@
                     "type": "RawCode"
                 }
             ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_Return__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PopupsPresenter, co) co->userNameAccepted();\n}\n",
+                    "type": "RawCode"
+                }
+            ]
         }
     ],
     "uuid": "{1cd0feee-2a2d-406b-8ae5-2ac517825193}"

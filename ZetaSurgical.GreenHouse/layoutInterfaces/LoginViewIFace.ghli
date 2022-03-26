@@ -21,6 +21,9 @@
             ],
             "name": "fi_KeyboardButton_Letter_Lowercase__onEvent__clicked"
         },
+        "fi_Return__onEvent__clicked": {
+            "name": "fi_Return__onEvent__clicked"
+        },
         "fi_Shift1__onEvent__clicked": {
             "name": "fi_Shift1__onEvent__clicked"
         },
