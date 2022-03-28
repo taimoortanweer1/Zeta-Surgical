@@ -14,6 +14,14 @@
     },
     "id": "fi_search",
     "properties": {
+        "input_inputText": {
+            "bindingProp": "filterString",
+            "bindingSrc": "PatientsDatabase",
+            "name": "input_inputText",
+            "type": "TranslatableString",
+            "uuid": "{2d2bd2c4-867d-4289-b72f-73a98495b1e8}",
+            "value": null
+        },
         "width": {
             "name": "width",
             "type": "Int",
@@ -28,13 +36,6 @@
             "name": "z",
             "type": "Int",
             "value": 2
-        }
-    },
-    "signals": {
-        "input_textChanged": {
-            "arguments": "string text",
-            "name": "input_textChanged",
-            "rawCode": "root.itemInterface.fi_search__onEvent__input_textChanged(text)\n"
         }
     },
     "targetFile": "fi_search.ghuie",

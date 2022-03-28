@@ -62,5 +62,6 @@
     },
     "targetFile": "fi_ListViewRow4_horizontal.ghuie",
     "type": "ComponentsSet.ModelView",
-    "userDefined": false
+    "userDefined": false,
+    "uuid": "{f19a36e9-7c5d-4e47-9dce-bbc36b7bef44}"
 }

@@ -45,5 +45,6 @@
     },
     "targetFile": "fi_Tab.ghuie",
     "type": "ZetaSurgicalSet.KeyboardButton_FunctionLeft",
-    "userDefined": false
+    "userDefined": false,
+    "uuid": "{9268d217-5b35-4c40-96e8-559893b911c6}"
 }

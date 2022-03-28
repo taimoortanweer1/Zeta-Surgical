@@ -304,6 +304,7 @@
         }
     ],
     "fillParent": false,
+    "focus": "{a34096a5-d13d-4318-88bc-e7f9e0df6390}",
     "height": 1080,
     "hideAnimation": {
         "type": "Sequential"

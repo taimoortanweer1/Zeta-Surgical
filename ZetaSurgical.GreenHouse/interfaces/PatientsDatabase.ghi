@@ -2,15 +2,8 @@
     "backendObject": false,
     "hidden": false,
     "methods": {
-        "onFilterStringChanged": {
-            "arguments": [
-                {
-                    "name": "filter",
-                    "preview": null,
-                    "type": "String"
-                }
-            ],
-            "name": "onFilterStringChanged"
+        "onFilterEditRequested": {
+            "name": "onFilterEditRequested"
         }
     },
     "name": "PatientsDatabase",
@@ -123,6 +116,11 @@
                     "date"
                 ],
                 "type": "Model"
+            },
+            {
+                "name": "filterString",
+                "preview": null,
+                "type": "String"
             }
         ]
     },

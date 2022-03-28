@@ -46,5 +46,6 @@
     },
     "targetFile": "fi_Rectangle_364.ghuie",
     "type": "Rectangle",
-    "userDefined": false
+    "userDefined": false,
+    "uuid": "{a603dea4-48d8-4d43-bc1e-777b6fb2fbc2}"
 }

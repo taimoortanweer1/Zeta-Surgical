@@ -13,13 +13,11 @@ public:
 
     void startUserInput(TextInputCallback callback);
     void startPasswordInput(TextInputCallback callback);
+    void startFilterInput(TextInputCallback callback);
 
 protected:
-    void userNameAccepted() override;
-    void passwordAccepted() override;
-
-    void onUserNameEdited(QString const &username) override;
-    void onPasswordEdited(QString const &password) override;
+    void onInputChanged(QString const &username) override;
+    void inputAccepted() override;
 
 private:
     TextInputCallback m_callback = nullptr;

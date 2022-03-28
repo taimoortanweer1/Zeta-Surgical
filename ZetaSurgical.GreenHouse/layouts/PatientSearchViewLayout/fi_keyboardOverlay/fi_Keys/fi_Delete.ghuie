@@ -51,5 +51,6 @@
     },
     "targetFile": "fi_Delete.ghuie",
     "type": "ZetaSurgicalSet.KeyboardButton_FunctionRightGrey",
-    "userDefined": false
+    "userDefined": false,
+    "uuid": "{f3584d8d-badc-4d4a-a00e-473f7b42c76a}"
 }

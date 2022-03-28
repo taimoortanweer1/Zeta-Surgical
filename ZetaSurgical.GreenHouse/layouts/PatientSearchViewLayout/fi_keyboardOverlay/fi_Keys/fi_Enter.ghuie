@@ -57,5 +57,6 @@
     },
     "targetFile": "fi_Enter.ghuie",
     "type": "ZetaSurgicalSet.KeyboardButton_FunctionRightGrey",
-    "userDefined": false
+    "userDefined": false,
+    "uuid": "{380cdf5c-5ac6-43c3-a754-0ae13b61e125}"
 }

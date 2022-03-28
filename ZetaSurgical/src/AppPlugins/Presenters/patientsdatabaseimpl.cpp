@@ -1,11 +1,14 @@
 #include "patientsdatabaseimpl.h"
 #include "patientsmodel.h"
+#include "popupspresenterimpl.h"
 
-PatientsDatabaseImpl::PatientsDatabaseImpl()
+PatientsDatabaseImpl::PatientsDatabaseImpl(PopupsPresenterImpl *popupsPresenter)
     : ZetaSurgical::PatientsDatabase()
     , m_patientsModel(new PatientsModel(this))
     , m_filterModel(new PatientsFilterModel(this))
+    , m_popupsPresenter(popupsPresenter)
 {
+    Q_ASSERT(m_popupsPresenter);
     m_filterModel->setSourceModel(m_patientsModel);
 }
 
@@ -52,7 +55,10 @@ void PatientsDatabaseImpl::init()
     setPatientsList(m_filterModel);
 }
 
-void PatientsDatabaseImpl::onFilterStringChanged(const QString &filter)
+void PatientsDatabaseImpl::onFilterEditRequested()
 {
-    m_filterModel->setFilterString(filter);
+    m_popupsPresenter->startFilterInput([this](QString const &text){
+        setFilterString(text);
+        m_filterModel->setFilterString(text);
+    });
 }

@@ -51,5 +51,6 @@
     },
     "targetFile": "fi_CapsLock.ghuie",
     "type": "ZetaSurgicalSet.KeyboardButton_FunctionLeft",
-    "userDefined": false
+    "userDefined": false,
+    "uuid": "{5b20deca-92cc-4660-ae57-ff1676feee6e}"
 }

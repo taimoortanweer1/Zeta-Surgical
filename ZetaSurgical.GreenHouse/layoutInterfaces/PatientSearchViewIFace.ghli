@@ -62,6 +62,22 @@
                 }
             ],
             "name": "fi_row4_key1__onEvent__clicked"
+        },
+        "fi_search__onEvent__input_accepted": {
+            "name": "fi_search__onEvent__input_accepted"
+        },
+        "fi_search__onEvent__input_textChanged": {
+            "arguments": [
+                {
+                    "name": "PopupsPresenter_onInputChanged_input",
+                    "preview": null,
+                    "type": "String"
+                }
+            ],
+            "name": "fi_search__onEvent__input_textChanged"
+        },
+        "moveToNoPopup": {
+            "name": "moveToNoPopup"
         }
     },
     "targetFile": "PatientSearchViewIFace.ghli"

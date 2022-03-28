@@ -123,7 +123,7 @@
             "template": "ItemSignalTransition",
             "triggeredActions": [
                 {
-                    "rawCode": "{\nCONTEXT_OBJECT(KeyboardPresenter, co) co->onEnterClicked();\n}\n",
+                    "rawCode": "{\nCONTEXT_OBJECT(PopupsPresenter, co) co->inputAccepted();\n}\n",
                     "type": "RawCode"
                 }
             ]
@@ -199,6 +199,43 @@
                     "type": "RawCode"
                 }
             ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_search__onEvent__input_textChanged",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PopupsPresenter, co) co->onInputChanged(args.at(0).toString());\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_search__onEvent__input_accepted",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PopupsPresenter, co) co->inputAccepted();\n}\n",
+                    "type": "RawCode"
+                }
+            ]
         }
-    ]
+    ],
+    "uuid": "{987b2ecb-70bb-4bde-8457-960e12f7e09c}"
 }

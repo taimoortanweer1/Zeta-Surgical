@@ -6,6 +6,16 @@
         {
             "rawCode": "",
             "type": "RawCode"
+        },
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        }
+    ],
+    "exitActions": [
+        {
+            "rawCode": "",
+            "type": "RawCode"
         }
     ],
     "extraData": {
@@ -27,5 +37,6 @@
     },
     "targetFile": "PatientSearchView.ghs",
     "template": "ItemState",
+    "uuid": "{91e69cdb-f465-47bf-91ad-304e38a85216}",
     "width": 0
 }

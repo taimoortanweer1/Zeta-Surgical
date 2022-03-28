@@ -25,5 +25,6 @@
     },
     "targetFile": "fi_keyboardOverlay.ghuie",
     "type": "Item",
-    "userDefined": false
+    "userDefined": false,
+    "uuid": "{5d080386-2a58-4ab8-af52-01c86a604b98}"
 }

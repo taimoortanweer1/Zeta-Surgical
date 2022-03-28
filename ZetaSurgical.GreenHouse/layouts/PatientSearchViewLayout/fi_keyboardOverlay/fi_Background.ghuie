@@ -31,5 +31,6 @@
     },
     "targetFile": "fi_Background.ghuie",
     "type": "Item",
-    "userDefined": false
+    "userDefined": false,
+    "uuid": "{3aeb2a03-3094-49eb-96f7-683e1295253e}"
 }

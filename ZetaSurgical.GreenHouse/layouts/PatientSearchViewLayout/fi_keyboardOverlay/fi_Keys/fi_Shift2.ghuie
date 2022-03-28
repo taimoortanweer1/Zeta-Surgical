@@ -51,5 +51,6 @@
     },
     "targetFile": "fi_Shift2.ghuie",
     "type": "ZetaSurgicalSet.KeyboardButton_FunctionRightGrey",
-    "userDefined": false
+    "userDefined": false,
+    "uuid": "{b4e39cb8-dc3c-4d63-ad75-a64c9581d075}"
 }

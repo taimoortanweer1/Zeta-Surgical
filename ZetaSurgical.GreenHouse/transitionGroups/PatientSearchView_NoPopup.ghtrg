@@ -1,0 +1,31 @@
+{
+    "source": "PatientSearchView",
+    "target": "NoPopup",
+    "targetFile": "PatientSearchView_NoPopup.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "moveToNoPopup",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition"
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": false,
+                "sender": "PopupsPresenter",
+                "senderStringType": "%1",
+                "signal": "closeAllPopups"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{7ef28b68-7ffd-43e3-9fc4-6e7d35688e1f}"
+}

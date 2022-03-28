@@ -40,5 +40,6 @@
     },
     "targetFile": "fi_MoveRight.ghuie",
     "type": "ZetaSurgicalSet.KeyboardButton_MoveRight",
-    "userDefined": false
+    "userDefined": false,
+    "uuid": "{b4152296-7542-41e7-a23c-f2f5ad07fe63}"
 }

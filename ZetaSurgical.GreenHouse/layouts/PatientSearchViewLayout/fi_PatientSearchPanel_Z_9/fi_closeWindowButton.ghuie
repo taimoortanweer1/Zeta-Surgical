@@ -21,7 +21,14 @@
             "value": 1
         }
     },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.moveToNoPopup()\n"
+        }
+    },
     "targetFile": "fi_closeWindowButton.ghuie",
     "type": "ZetaSurgicalSet.CloseWindowButton_Default_State",
-    "userDefined": false
+    "userDefined": false,
+    "uuid": "{bfffc8df-4bab-41b5-8d53-97614f4d547f}"
 }

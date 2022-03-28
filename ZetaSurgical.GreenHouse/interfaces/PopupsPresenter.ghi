@@ -2,37 +2,27 @@
     "backendObject": false,
     "hidden": false,
     "methods": {
-        "onPasswordEdited": {
+        "inputAccepted": {
+            "name": "inputAccepted"
+        },
+        "onInputChanged": {
             "arguments": [
                 {
-                    "name": "password",
+                    "name": "input",
                     "preview": null,
                     "type": "String"
                 }
             ],
-            "name": "onPasswordEdited"
-        },
-        "onUserNameEdited": {
-            "arguments": [
-                {
-                    "name": "username",
-                    "preview": null,
-                    "type": "String"
-                }
-            ],
-            "name": "onUserNameEdited"
-        },
-        "passwordAccepted": {
-            "name": "passwordAccepted"
-        },
-        "userNameAccepted": {
-            "name": "userNameAccepted"
+            "name": "onInputChanged"
         }
     },
     "name": "PopupsPresenter",
     "signals": {
         "closeAllPopups": {
             "name": "closeAllPopups"
+        },
+        "inputFilterShown": {
+            "name": "inputFilterShown"
         },
         "inputPasswordShown": {
             "name": "inputPasswordShown"

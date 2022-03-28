@@ -1,0 +1,35 @@
+{
+    "childrenSplit": true,
+    "id": "mouseArea0",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 48
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 1108
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 32
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.mouseArea0__onEvent__clicked()\n"
+        }
+    },
+    "targetFile": "mouseArea0.ghuie",
+    "type": "MouseArea",
+    "userDefined": true
+}

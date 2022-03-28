@@ -12,6 +12,11 @@
     "childrenSplit": true,
     "id": "fi_search",
     "properties": {
+        "input_focus": {
+            "name": "input_focus",
+            "type": "Bool",
+            "value": true
+        },
         "width": {
             "name": "width",
             "type": "Int",
@@ -33,7 +38,19 @@
             "value": 2
         }
     },
+    "signals": {
+        "input_accepted": {
+            "name": "input_accepted",
+            "rawCode": "root.itemInterface.fi_search__onEvent__input_accepted()\n"
+        },
+        "input_textChanged": {
+            "arguments": "string text",
+            "name": "input_textChanged",
+            "rawCode": "root.itemInterface.fi_search__onEvent__input_textChanged(text)\n"
+        }
+    },
     "targetFile": "fi_search.ghuie",
     "type": "ZetaSurgicalSet.SearchInputText",
-    "userDefined": false
+    "userDefined": false,
+    "uuid": "{a34096a5-d13d-4318-88bc-e7f9e0df6390}"
 }

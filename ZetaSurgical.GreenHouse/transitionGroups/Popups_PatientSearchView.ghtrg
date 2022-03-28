@@ -1,0 +1,19 @@
+{
+    "source": "Popups",
+    "target": "PatientSearchView",
+    "targetFile": "Popups_PatientSearchView.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "PopupsPresenter",
+                "senderStringType": "%1",
+                "signal": "inputFilterShown"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{41b9583a-8782-4e6e-96ff-0029dae96eb2}"
+}

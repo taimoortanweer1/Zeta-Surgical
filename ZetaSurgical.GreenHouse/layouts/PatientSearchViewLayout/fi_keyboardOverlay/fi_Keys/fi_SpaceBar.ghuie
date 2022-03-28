@@ -46,5 +46,6 @@
     },
     "targetFile": "fi_SpaceBar.ghuie",
     "type": "ZetaSurgicalSet.KeyboardButton_Letter_Lowercase",
-    "userDefined": false
+    "userDefined": false,
+    "uuid": "{ba2e9ea0-275e-4ed3-ad57-6400c962c83b}"
 }

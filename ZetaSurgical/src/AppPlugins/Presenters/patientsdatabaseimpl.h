@@ -4,16 +4,18 @@
 
 class PatientsModel;
 class PatientsFilterModel;
+class PopupsPresenterImpl;
 
 class PatientsDatabaseImpl : public ZetaSurgical::PatientsDatabase
 {
     Q_OBJECT
 public:
-    explicit PatientsDatabaseImpl();
+    explicit PatientsDatabaseImpl(PopupsPresenterImpl *popupsPresenter);
     void init() override;
-    void onFilterStringChanged(QString const &filter) override;
+    void onFilterEditRequested() override;
 
 private:
     PatientsModel * const m_patientsModel;
     PatientsFilterModel * const m_filterModel;
+    PopupsPresenterImpl * const m_popupsPresenter;
 };

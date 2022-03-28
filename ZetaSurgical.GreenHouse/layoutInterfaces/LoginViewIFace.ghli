@@ -66,13 +66,10 @@
             ],
             "name": "fi_row4_key1__onEvent__clicked"
         },
-        "fi_usernameField__onEvent__input_accepted": {
-            "name": "fi_usernameField__onEvent__input_accepted"
-        },
         "fi_usernameField__onEvent__input_textChanged": {
             "arguments": [
                 {
-                    "name": "PopupsPresenter_onUserNameEdited_username",
+                    "name": "PopupsPresenter_onInputChanged_input",
                     "preview": null,
                     "type": "String"
                 }

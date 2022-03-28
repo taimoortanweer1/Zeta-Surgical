@@ -39,5 +39,6 @@
     },
     "targetFile": "fi_Symbols.ghuie",
     "type": "ZetaSurgicalSet.KeyboardButton_FunctionCenter",
-    "userDefined": false
+    "userDefined": false,
+    "uuid": "{273a3c2b-46f2-4ec4-a186-2dd7c494ac30}"
 }

@@ -38,5 +38,6 @@
     },
     "targetFile": "fi_Rectangle_100.ghuie",
     "type": "Rectangle",
-    "userDefined": false
+    "userDefined": false,
+    "uuid": "{285efb56-18b9-4dad-8953-1b7a42410a29}"
 }

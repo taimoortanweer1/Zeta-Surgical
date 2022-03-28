@@ -31,5 +31,6 @@
     },
     "targetFile": "fi_Rectangle_100_layerBlur.ghuie",
     "type": "DecorativeSet.LayerBlur",
-    "userDefined": false
+    "userDefined": false,
+    "uuid": "{dc052b49-5bd8-4ad8-934c-8f28bc231b81}"
 }

@@ -23,7 +23,7 @@ void Presenters::populateContext(GreenHouse::Context *context)
     context->store(popupsPresenter);
     context->store(new LoginPresenterImpl(popupsPresenter));
     context->store(new KeyboardPresenterImpl(context->contextRootItem()->window()));
-    context->store(new PatientsDatabaseImpl);
+    context->store(new PatientsDatabaseImpl(popupsPresenter));
 }
 
 void Presenters::resolveDependencies(GreenHouse::Context *)

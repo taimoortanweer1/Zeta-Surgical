@@ -45,5 +45,6 @@
     },
     "targetFile": "fi_Keys.ghuie",
     "type": "Item",
-    "userDefined": false
+    "userDefined": false,
+    "uuid": "{9b93b61b-2d06-4c31-af37-084c877a66fe}"
 }
