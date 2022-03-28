@@ -43,6 +43,12 @@
             "value": 9
         }
     },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_Delete__onEvent__clicked()\n"
+        }
+    },
     "targetFile": "fi_Delete.ghuie",
     "type": "ZetaSurgicalSet.KeyboardButton_FunctionRightGrey",
     "userDefined": false

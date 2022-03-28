@@ -37,6 +37,12 @@
             "value": 10
         }
     },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_Tab__onEvent__clicked()\n"
+        }
+    },
     "targetFile": "fi_Tab.ghuie",
     "type": "ZetaSurgicalSet.KeyboardButton_FunctionLeft",
     "userDefined": false

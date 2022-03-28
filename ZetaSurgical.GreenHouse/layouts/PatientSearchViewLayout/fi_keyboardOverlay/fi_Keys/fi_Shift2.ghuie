@@ -43,6 +43,12 @@
             "value": 4
         }
     },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_Shift2__onEvent__clicked()\n"
+        }
+    },
     "targetFile": "fi_Shift2.ghuie",
     "type": "ZetaSurgicalSet.KeyboardButton_FunctionRightGrey",
     "userDefined": false

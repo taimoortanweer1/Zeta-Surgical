@@ -49,6 +49,12 @@
             "value": 7
         }
     },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_Return__onEvent__clicked()\n"
+        }
+    },
     "targetFile": "fi_Return.ghuie",
     "type": "ZetaSurgicalSet.KeyboardButton_FunctionRightBlue",
     "userDefined": false

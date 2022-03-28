@@ -49,6 +49,12 @@
             "value": 8
         }
     },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_Enter__onEvent__clicked()\n"
+        }
+    },
     "targetFile": "fi_Enter.ghuie",
     "type": "ZetaSurgicalSet.KeyboardButton_FunctionRightGrey",
     "userDefined": false

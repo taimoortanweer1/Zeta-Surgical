@@ -43,6 +43,12 @@
             "value": 6
         }
     },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_CapsLock__onEvent__clicked()\n"
+        }
+    },
     "targetFile": "fi_CapsLock.ghuie",
     "type": "ZetaSurgicalSet.KeyboardButton_FunctionLeft",
     "userDefined": false

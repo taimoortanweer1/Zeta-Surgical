@@ -30,6 +30,13 @@
             "type": "Delegate",
             "value": "fi_ListViewRow1_horizontal_delegate"
         },
+        "viewModel": {
+            "bindingProp": "row1Model",
+            "bindingSrc": "KeyboardPresenter",
+            "name": "viewModel",
+            "type": "Model",
+            "value": "null"
+        },
         "width": {
             "name": "width",
             "type": "Int",
