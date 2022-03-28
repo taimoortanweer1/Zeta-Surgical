@@ -18,7 +18,7 @@ KeyboardPresenterImpl::KeyboardPresenterImpl(QQuickWindow *window)
   , m_shiftEnabled(false)
   , m_window(window)
 {
-    //Q_ASSERT(window);
+    Q_ASSERT(window);
     readLayoutsFromFile(LAYOUTS_FILE);
     readLayoutNames();
     loadLayoutAtIndex(0);
@@ -130,8 +130,10 @@ void KeyboardPresenterImpl::onCopyClicked()
 void KeyboardPresenterImpl::onPasteClicked()
 {
     QKeyEvent *evt = new QKeyEvent(QEvent::Type::KeyPress, Qt::Key_V, Qt::ControlModifier);
-    if(!m_window)
+    if(!m_window) {
+        delete evt;
         return;
+    }
     QCoreApplication::postEvent(m_window, evt);
 }
 
