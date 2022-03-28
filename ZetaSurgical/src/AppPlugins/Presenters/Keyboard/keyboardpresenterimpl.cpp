@@ -19,7 +19,7 @@ KeyboardPresenterImpl::KeyboardPresenterImpl(QQuickWindow *window)
   , m_window(window)
 {
     Q_ASSERT(window);
-    readLayoutsFromFile(LAYOUTS_FILE);
+    readLayoutsFromFile(QString::fromLatin1(LAYOUTS_FILE));
     readLayoutNames();
     loadLayoutAtIndex(0);
     kpInfo() << "Loaded following layouts:" << m_layoutNames;
@@ -31,7 +31,7 @@ void KeyboardPresenterImpl::readLayoutNames()
 
     for (int i = 0; i < m_layouts.count(); ++i) {
         QJsonObject obj;
-        QString const &name = m_layouts.at(i).toObject()[JsonConstants::NAME].toString();
+        QString const &name = m_layouts.at(i).toObject()[QString::fromLatin1(JsonConstants::NAME)].toString();
         m_layoutNames << name;
     }
 }
@@ -76,15 +76,15 @@ void KeyboardPresenterImpl::loadLayoutAtIndex(int index)
     }
     QJsonObject const layout = m_layouts.at(index).toObject();
 
-    lower_case_row1 = layout[JsonConstants::LOWER_CASE].toObject()[JsonConstants::ROW1].toArray();
-    lower_case_row2 = layout[JsonConstants::LOWER_CASE].toObject()[JsonConstants::ROW2].toArray();
-    lower_case_row3 = layout[JsonConstants::LOWER_CASE].toObject()[JsonConstants::ROW3].toArray();
-    lower_case_row4 = layout[JsonConstants::LOWER_CASE].toObject()[JsonConstants::ROW4].toArray();
+    lower_case_row1 = layout[QString::fromLatin1(JsonConstants::LOWER_CASE)].toObject()[QString::fromLatin1(JsonConstants::ROW1)].toArray();
+    lower_case_row2 = layout[QString::fromLatin1(JsonConstants::LOWER_CASE)].toObject()[QString::fromLatin1(JsonConstants::ROW2)].toArray();
+    lower_case_row3 = layout[QString::fromLatin1(JsonConstants::LOWER_CASE)].toObject()[QString::fromLatin1(JsonConstants::ROW3)].toArray();
+    lower_case_row4 = layout[QString::fromLatin1(JsonConstants::LOWER_CASE)].toObject()[QString::fromLatin1(JsonConstants::ROW4)].toArray();
 
-    upper_case_row1 = layout[JsonConstants::UPPER_CASE].toObject()[JsonConstants::ROW1].toArray();
-    upper_case_row2 = layout[JsonConstants::UPPER_CASE].toObject()[JsonConstants::ROW2].toArray();
-    upper_case_row3 = layout[JsonConstants::UPPER_CASE].toObject()[JsonConstants::ROW3].toArray();
-    upper_case_row4 = layout[JsonConstants::UPPER_CASE].toObject()[JsonConstants::ROW4].toArray();
+    upper_case_row1 = layout[QString::fromLatin1(JsonConstants::UPPER_CASE)].toObject()[QString::fromLatin1(JsonConstants::ROW1)].toArray();
+    upper_case_row2 = layout[QString::fromLatin1(JsonConstants::UPPER_CASE)].toObject()[QString::fromLatin1(JsonConstants::ROW2)].toArray();
+    upper_case_row3 = layout[QString::fromLatin1(JsonConstants::UPPER_CASE)].toObject()[QString::fromLatin1(JsonConstants::ROW3)].toArray();
+    upper_case_row4 = layout[QString::fromLatin1(JsonConstants::UPPER_CASE)].toObject()[QString::fromLatin1(JsonConstants::ROW4)].toArray();
 
     reloadLayoutCase();
 }
