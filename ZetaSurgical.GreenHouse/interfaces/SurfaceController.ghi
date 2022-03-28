@@ -90,6 +90,9 @@
         "surfaceBackgroundPanelMoveToBackgroundPanel_Shared0": {
             "name": "surfaceBackgroundPanelMoveToBackgroundPanel_Shared0"
         },
+        "surfaceBackgroundPanelMoveToBackgroundPanel_Shared1": {
+            "name": "surfaceBackgroundPanelMoveToBackgroundPanel_Shared1"
+        },
         "surfaceInfoPanelMoveToCT_Planning_Default_InfoPanel": {
             "name": "surfaceInfoPanelMoveToCT_Planning_Default_InfoPanel"
         },

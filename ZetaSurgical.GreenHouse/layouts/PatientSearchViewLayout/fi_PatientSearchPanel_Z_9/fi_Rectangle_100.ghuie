@@ -1,18 +1,14 @@
 {
-    "anchorHCenter": {
-        "anchorMargin": -1,
+    "anchorLeft": {
         "anchorTarget": "parent",
-        "anchorValue": "HorizontalCenter"
+        "anchorValue": "Left"
     },
-    "anchorVCenter": {
+    "anchorTop": {
         "anchorTarget": "parent",
-        "anchorValue": "VerticalCenter"
+        "anchorValue": "Top"
     },
     "childrenSplit": true,
-    "extraData": {
-        "FIGMA_ID": "40:2118"
-    },
-    "id": "fi_front_good03_1",
+    "id": "fi_Rectangle_100",
     "properties": {
         "border-color": {
             "name": "border-color",
@@ -27,35 +23,20 @@
         "color": {
             "name": "color",
             "type": "Color",
-            "value": "Figma::0_0_0_0"
+            "value": "PanelBackground/Transparent"
         },
         "height": {
             "name": "height",
             "type": "Int",
-            "value": 278
+            "value": 1080
         },
         "width": {
             "name": "width",
             "type": "Int",
-            "value": 213
-        },
-        "x": {
-            "name": "x",
-            "type": "Int",
-            "value": 89
-        },
-        "y": {
-            "name": "y",
-            "type": "Int",
-            "value": 5
-        },
-        "z": {
-            "name": "z",
-            "type": "Int",
-            "value": 1
+            "value": 1920
         }
     },
-    "targetFile": "fi_front_good03_1.ghuie",
+    "targetFile": "fi_Rectangle_100.ghuie",
     "type": "Rectangle",
     "userDefined": false
 }

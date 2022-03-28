@@ -10,6 +10,9 @@
         "anchorValue": "Top"
     },
     "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "I40:5517;245:6365"
+    },
     "id": "fi_Enter",
     "properties": {
         "fi_Letter_lineHeight": {

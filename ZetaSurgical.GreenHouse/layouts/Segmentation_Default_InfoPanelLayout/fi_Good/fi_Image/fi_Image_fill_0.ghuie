@@ -16,15 +16,15 @@
         "anchorValue": "Top"
     },
     "childrenSplit": true,
-    "id": "fi_front_good03_1_fill_0",
+    "id": "fi_Image_fill_0",
     "properties": {
         "source": {
             "name": "source",
             "type": "Asset",
-            "value": "/466820995d62454674c217d5a4427fa96038a539.png"
+            "value": "/951e8fce4a70422430611f3fcfb93a90e22aa59f.png"
         }
     },
-    "targetFile": "fi_front_good03_1_fill_0.ghuie",
+    "targetFile": "fi_Image_fill_0.ghuie",
     "type": "Image",
     "userDefined": false
 }

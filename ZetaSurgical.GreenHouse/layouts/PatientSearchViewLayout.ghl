@@ -1,0 +1,280 @@
+{
+    "blockInputFallthrough": true,
+    "childrenSplit": true,
+    "delegates": [
+        {
+            "children": [
+                {
+                    "anchorLeft": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Left"
+                    },
+                    "anchorTop": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Top"
+                    },
+                    "childrenSplit": true,
+                    "id": "fi_row4_key1",
+                    "properties": {
+                        "fi_Label_lineHeight": {
+                            "name": "fi_Label_lineHeight",
+                            "type": "Float",
+                            "value": 35.160000000000004
+                        },
+                        "fi_Label_text": {
+                            "name": "fi_Label_text",
+                            "type": "TranslatableString",
+                            "uuid": "FigmaNode::I289:2593;211:5845;208:4911",
+                            "value": "z"
+                        },
+                        "height": {
+                            "name": "height",
+                            "type": "Int",
+                            "value": 80
+                        },
+                        "width": {
+                            "name": "width",
+                            "type": "Int",
+                            "value": 128
+                        }
+                    },
+                    "targetFile": "fi_row4_key1.ghuie",
+                    "type": "ZetaSurgicalSet.KeyboardButton_Letter_Lowercase",
+                    "userDefined": false
+                }
+            ],
+            "childrenSplit": true,
+            "id": "fi_ListViewRow4_horizontal_delegate",
+            "model": {
+                "name": "modelProperty",
+                "type": "Model",
+                "value": null
+            },
+            "properties": {
+                "height": {
+                    "name": "height",
+                    "type": "Int",
+                    "value": 80
+                },
+                "width": {
+                    "name": "width",
+                    "type": "Int",
+                    "value": 128
+                }
+            },
+            "targetFile": "fi_ListViewRow4_horizontal_delegate.ghuie",
+            "type": "FocusScope",
+            "userDefined": false
+        },
+        {
+            "children": [
+                {
+                    "anchorLeft": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Left"
+                    },
+                    "anchorTop": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Top"
+                    },
+                    "childrenSplit": true,
+                    "id": "fi_row3_key1",
+                    "properties": {
+                        "fi_Label_lineHeight": {
+                            "name": "fi_Label_lineHeight",
+                            "type": "Float",
+                            "value": 35.160000000000004
+                        },
+                        "fi_Label_text": {
+                            "name": "fi_Label_text",
+                            "type": "TranslatableString",
+                            "uuid": "FigmaNode::I289:2593;211:5844;208:4911",
+                            "value": "a"
+                        },
+                        "height": {
+                            "name": "height",
+                            "type": "Int",
+                            "value": 80
+                        },
+                        "width": {
+                            "name": "width",
+                            "type": "Int",
+                            "value": 124
+                        }
+                    },
+                    "targetFile": "fi_row3_key1.ghuie",
+                    "type": "ZetaSurgicalSet.KeyboardButton_Letter_Lowercase",
+                    "userDefined": false
+                }
+            ],
+            "childrenSplit": true,
+            "id": "fi_ListViewRow3_horizontal_delegate",
+            "model": {
+                "name": "modelProperty",
+                "type": "Model",
+                "value": null
+            },
+            "properties": {
+                "height": {
+                    "name": "height",
+                    "type": "Int",
+                    "value": 80
+                },
+                "width": {
+                    "name": "width",
+                    "type": "Int",
+                    "value": 124
+                }
+            },
+            "targetFile": "fi_ListViewRow3_horizontal_delegate.ghuie",
+            "type": "FocusScope",
+            "userDefined": false
+        },
+        {
+            "children": [
+                {
+                    "anchorLeft": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Left"
+                    },
+                    "anchorTop": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Top"
+                    },
+                    "childrenSplit": true,
+                    "id": "fi_KeyboardButton_Letter_Lowercase",
+                    "properties": {
+                        "fi_Label_lineHeight": {
+                            "name": "fi_Label_lineHeight",
+                            "type": "Float",
+                            "value": 35.160000000000004
+                        },
+                        "height": {
+                            "name": "height",
+                            "type": "Int",
+                            "value": 80
+                        },
+                        "width": {
+                            "name": "width",
+                            "type": "Int",
+                            "value": 124
+                        }
+                    },
+                    "targetFile": "fi_KeyboardButton_Letter_Lowercase.ghuie",
+                    "type": "ZetaSurgicalSet.KeyboardButton_Letter_Lowercase",
+                    "userDefined": false
+                }
+            ],
+            "childrenSplit": true,
+            "id": "fi_ListViewRow2_horizontal_delegate",
+            "model": {
+                "name": "modelProperty",
+                "type": "Model",
+                "value": null
+            },
+            "properties": {
+                "height": {
+                    "name": "height",
+                    "type": "Int",
+                    "value": 80
+                },
+                "width": {
+                    "name": "width",
+                    "type": "Int",
+                    "value": 124
+                }
+            },
+            "targetFile": "fi_ListViewRow2_horizontal_delegate.ghuie",
+            "type": "FocusScope",
+            "userDefined": false
+        },
+        {
+            "children": [
+                {
+                    "anchorBottom": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Bottom"
+                    },
+                    "anchorLeft": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Left"
+                    },
+                    "anchorRight": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Right"
+                    },
+                    "anchorTop": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Top"
+                    },
+                    "childrenSplit": true,
+                    "id": "fi_row1_key2",
+                    "properties": {
+                        "fi_Label_lineHeight": {
+                            "name": "fi_Label_lineHeight",
+                            "type": "Float",
+                            "value": 35.160000000000004
+                        },
+                        "fi_Label_text": {
+                            "name": "fi_Label_text",
+                            "type": "TranslatableString",
+                            "uuid": "FigmaNode::I289:2593;234:11576;208:4911",
+                            "value": "1"
+                        },
+                        "height": {
+                            "name": "height",
+                            "type": "Int",
+                            "value": 80
+                        },
+                        "width": {
+                            "name": "width",
+                            "type": "Int",
+                            "value": 124
+                        }
+                    },
+                    "targetFile": "fi_row1_key2.ghuie",
+                    "type": "ZetaSurgicalSet.KeyboardButton_Letter_Lowercase",
+                    "userDefined": false
+                }
+            ],
+            "childrenSplit": true,
+            "id": "fi_ListViewRow1_horizontal_delegate",
+            "model": {
+                "name": "modelProperty",
+                "type": "Model",
+                "value": null
+            },
+            "properties": {
+                "height": {
+                    "name": "height",
+                    "type": "Int",
+                    "value": 80
+                },
+                "width": {
+                    "name": "width",
+                    "type": "Int",
+                    "value": 124
+                }
+            },
+            "targetFile": "fi_ListViewRow1_horizontal_delegate.ghuie",
+            "type": "FocusScope",
+            "userDefined": false
+        }
+    ],
+    "fillParent": false,
+    "height": 1080,
+    "hideAnimation": {
+        "type": "Sequential"
+    },
+    "interfaceName": "PatientSearchViewIFace",
+    "name": "PatientSearchViewLayout",
+    "posX": 0,
+    "posY": 0,
+    "rootContainerType": "Item",
+    "showAnimation": {
+        "type": "Sequential"
+    },
+    "targetFile": "PatientSearchViewLayout.ghl",
+    "uuid": "{ab4bafc0-c0d9-4956-a3ac-81bf7c44b391}",
+    "width": 1920
+}

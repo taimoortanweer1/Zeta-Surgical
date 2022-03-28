@@ -1,277 +1,283 @@
 
 Fetching figma file from: https://api.figma.com/v1/files/kKItBBA5TYuCVGxWbPVftH?geometry=paths
-13:30:03  :: Data processing started.
-13:30:03  :: Project identified as: UserInterface_POC_20220323_v02.1
-13:30:03  :: Found 0 color frames
-13:30:03  :: Found 0 font frames
-13:30:03  :: Found 108 components
-13:30:03 Component: ChangeViewDropDown :: ChangeViewDropDown does not have any states that can be optimized.
-13:30:03 Component: HomeButton :: HomeButton does not have any common ui element groups.
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Space___symbol, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_MoveLeft___symbol, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_MoveRight___symbol, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Symbols___symbol, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Shift2___symbol, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Shift1___symbol, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_CapsLock___symbol, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Enter___symbol, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Delete___symbol, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Tab___symbol, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_row2_key1, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_row1_key2, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Space___uppercase, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_MoveLeft___uppercase, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_MoveRight___uppercase, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Symbols___uppercase, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Shift2___uppercase, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Shift1___uppercase, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_CapsLock___uppercase, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Enter___uppercase, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Delete___uppercase, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_Tab___uppercase, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_row2_key1, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: Ignoring effects applied to: fi_row1_key2, effects applied to component instances and component root nodes are not supported!
-13:30:03 Component: KeyBoard :: KeyBoard does not have any states that can be optimized.
-13:30:03 Component: ModifyInstrumentButton :: Component missing for: fi_DeleteButton___default
-13:30:03 Component: ModifyInstrumentButton :: Component missing for: fi_DeleteButton___pressed
-13:30:03 Component: ModifyTargetButton :: Component missing for: fi_ModifyButton___default
-13:30:03 Component: ModifyTargetButton :: Component missing for: fi_DeleteButton___default
-13:30:03 Component: ModifyTargetButton :: Component missing for: fi_ModifyButton___pressed
-13:30:03 Component: ModifyTargetButton :: Component missing for: fi_DeleteButton___pressed
-13:30:04 Component: ModifyTargetButton :: Component missing for: fi_ModifyButton___selected
-13:30:04 Component: ModifyTargetButton :: Component missing for: fi_DeleteButton___selected
-13:30:04 Component: SliderButton :: SliderButton does not have any states that can be optimized.
-13:30:04 Component: TripleSelectSliderButton :: TripleSelectSliderButton does not have any states that can be optimized.
-13:30:04 Component: PointDisplayPanel :: Component missing for: fi_NorthButton___coronal
-13:30:04 Component: PointDisplayPanel :: Component missing for: fi_EastButton___coronal
-13:30:04 Component: PointDisplayPanel :: Component missing for: fi_WestButton___coronal
-13:30:04 Component: PointDisplayPanel :: Component missing for: fi_SourhtButton___coronal
-13:30:04 Component: PointDisplayPanel :: Component missing for: fi_NorthButton___default
-13:30:04 Component: PointDisplayPanel :: Component missing for: fi_EastButton___default
-13:30:04 Component: PointDisplayPanel :: Component missing for: fi_WestButton___default
-13:30:04 Component: PointDisplayPanel :: Component missing for: fi_SourhtButton___default
-13:30:04 Component: PointDisplayPanel :: Component missing for: fi_NorthButton___saggital
-13:30:04 Component: PointDisplayPanel :: Component missing for: fi_EastButton___saggital
-13:30:04 Component: PointDisplayPanel :: Component missing for: fi_WestButton___saggital
-13:30:04 Component: PointDisplayPanel :: Component missing for: fi_SourhtButton___saggital
-13:30:04 Component: PointDisplayPanel :: PointDisplayPanel does not have any states that can be optimized.
-13:30:04 Component: SearchInputText :: SearchInputText does not have any states that can be optimized.
-13:30:04  :: Found 10 screens
-13:30:04 Panel: Segmentation_Default_InfoPanel :: Component missing for: fi_bad
-13:30:04 Panel: Segmentation_Default_InfoPanel :: Component missing for: fi_good
-13:30:04  :: Found 5 popups
-13:30:04 Popups: LoginView :: Component missing for: fi_keyboardOverlay
-13:30:04 Popups: LoginView :: Ignoring effects applied to: fi_SpaceBar, effects applied to component instances and component root nodes are not supported!
-13:30:04 Popups: LoginView :: Ignoring effects applied to: fi_MoveRight, effects applied to component instances and component root nodes are not supported!
-13:30:04 Popups: LoginView :: Ignoring effects applied to: fi_MoveLeft, effects applied to component instances and component root nodes are not supported!
-13:30:04 Popups: LoginView :: Ignoring effects applied to: fi_Symbols, effects applied to component instances and component root nodes are not supported!
-13:30:04 Popups: LoginView :: Ignoring effects applied to: fi_Shift2, effects applied to component instances and component root nodes are not supported!
-13:30:04 Popups: LoginView :: Ignoring effects applied to: fi_Shift1, effects applied to component instances and component root nodes are not supported!
-13:30:04 Popups: LoginView :: Ignoring effects applied to: fi_CapsLock, effects applied to component instances and component root nodes are not supported!
-13:30:04 Popups: LoginView :: Ignoring effects applied to: fi_Return, effects applied to component instances and component root nodes are not supported!
-13:30:04 Popups: LoginView :: Ignoring effects applied to: fi_Enter, effects applied to component instances and component root nodes are not supported!
-13:30:05 Popups: LoginView :: Ignoring effects applied to: fi_Delete, effects applied to component instances and component root nodes are not supported!
-13:30:05 Popups: LoginView :: Ignoring effects applied to: fi_Tab, effects applied to component instances and component root nodes are not supported!
-13:30:05 Popups: LoginView :: Ignoring effects applied to: fi_row4_key1, effects applied to component instances and component root nodes are not supported!
-13:30:05 Popups: LoginView :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
-13:30:05 Popups: LoginView :: Ignoring effects applied to: fi_KeyboardButton_Letter_Lowercase, effects applied to component instances and component root nodes are not supported!
-13:30:05 Popups: LoginView :: Ignoring effects applied to: fi_row1_key2, effects applied to component instances and component root nodes are not supported!
-13:30:05 Popups: Password :: Component missing for: fi_keyboardOverlay
-13:30:05 Popups: Password :: Ignoring effects applied to: fi_Space, effects applied to component instances and component root nodes are not supported!
-13:30:05 Popups: Password :: Ignoring effects applied to: fi_MoveRight, effects applied to component instances and component root nodes are not supported!
-13:30:05 Popups: Password :: Ignoring effects applied to: fi_MoveLeft, effects applied to component instances and component root nodes are not supported!
-13:30:05 Popups: Password :: Ignoring effects applied to: fi_Symbols, effects applied to component instances and component root nodes are not supported!
-13:30:05 Popups: Password :: Ignoring effects applied to: fi_Shift2, effects applied to component instances and component root nodes are not supported!
-13:30:05 Popups: Password :: Ignoring effects applied to: fi_Shift1, effects applied to component instances and component root nodes are not supported!
-13:30:05 Popups: Password :: Ignoring effects applied to: fi_CapsLock, effects applied to component instances and component root nodes are not supported!
-13:30:05 Popups: Password :: Ignoring effects applied to: fi_Proceed, effects applied to component instances and component root nodes are not supported!
-13:30:05 Popups: Password :: Ignoring effects applied to: fi_Enter, effects applied to component instances and component root nodes are not supported!
-13:30:06 Popups: Password :: Ignoring effects applied to: fi_Delete, effects applied to component instances and component root nodes are not supported!
-13:30:06 Popups: Password :: Ignoring effects applied to: fi_Tab, effects applied to component instances and component root nodes are not supported!
-13:30:06 Popups: Password :: Ignoring effects applied to: fi_row4_key1, effects applied to component instances and component root nodes are not supported!
-13:30:06 Popups: Password :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
-13:30:06 Popups: Password :: Ignoring effects applied to: fi_row2_key1, effects applied to component instances and component root nodes are not supported!
-13:30:06 Popups: Password :: Ignoring effects applied to: fi_row1_key2, effects applied to component instances and component root nodes are not supported!
-13:30:06  :: Found 5 menus
-13:30:06 Menus :: No declarations to process
-13:30:06  :: Found 0 extra layers
-13:30:06  :: Found 0 transitions
-13:30:06  :: 136 new and 0 modified images found...
-13:30:06  :: 0 new and 0 modified themed assets found...
-13:30:06  :: 6 new and 3 modified icons found...
-13:30:06  :: 0 new and 0 modified fills found...
-13:30:06  :: Requesting 64 asset urls(72 assets pending)...
-13:30:17  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/57c2/4399/557b89f8a78453da618dd7838d031b83
-13:30:18  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e3c1/06b9/e189906c1d22dd25c870c35b712da543
-13:30:19  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9d45/8795/2323d38bbb1f746466f087fbb44b4cb4
-13:30:19  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/732b/2314/1ab561edf0d18bc72f8a42e2f146410b
-13:30:19  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/a48f/95da/f0730df41fe4c64b0b504d7c77912359
-13:30:19  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e50d/cd75/5c602ed353ebcc16d1f1b3f32d439d2b
-13:30:20  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c8e0/5f69/804d44a4f54e5696f48fb7569cf24335
-13:30:20  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9093/1b30/71184c98961240ab5f67d1d1e0d4382b
-13:30:20  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/ade9/549a/0a2eb926f4398516bca592b90fb5b743
-13:30:21  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/67a4/721e/497bf1d8ee71cab061d92f213b333ced
-13:30:21  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/67a4/721e/497bf1d8ee71cab061d92f213b333ced
-13:30:21  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5476/f4a2/4d27d18d6d9212e018a88871d10c2429
-13:30:21  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c80b/14ce/580371ae464a43982f01dd3996f9df7c
-13:30:22  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f127/4e9f/8b3513228e1db3e42699e931afe22ec0
-13:30:22  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1612/1623/f34e00f862b20e0e30cc5b94cb83578a
-13:30:22  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c80b/14ce/580371ae464a43982f01dd3996f9df7c
-13:30:22  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9f03/5fc2/6288c3a00bf87422d4ca3e865778fa52
-13:30:22  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0aca/abac/b87e23a6d8766c65f72ab0d21c6b8767
-13:30:23  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9f03/5fc2/6288c3a00bf87422d4ca3e865778fa52
-13:30:23  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/06b5/e25d/ee703842fc40dcecb3acd95c6b35b1d7
-13:30:23  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9b52/abc5/de7421385eeb0841c9beb7182d1bf82a
-13:30:23  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/99c2/3369/597011ba154ceabbaf2466b43ac4673d
-13:30:23  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9b52/abc5/de7421385eeb0841c9beb7182d1bf82a
-13:30:23  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9b52/abc5/de7421385eeb0841c9beb7182d1bf82a
-13:30:24  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1330/7b2f/f3005d7db2c3f72684715d7a68f58085
-13:30:24  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f586/2097/aa85fbbda3a5a81dd73d8528da0eefa6
-13:30:24  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7e1f/ec9c/b7fce50df4f709f977043d7d75f88c22
-13:30:25  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0093/b4ea/29caffde69568e77c454c8162274af71
-13:30:25  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f127/4e9f/8b3513228e1db3e42699e931afe22ec0
-13:30:25  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f127/4e9f/8b3513228e1db3e42699e931afe22ec0
-13:30:25  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0aca/abac/b87e23a6d8766c65f72ab0d21c6b8767
-13:30:25  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0aca/abac/b87e23a6d8766c65f72ab0d21c6b8767
-13:30:26  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/3186/7c69/bd9fca0f148d2f1e5daaed8ff86b8298
-13:30:26  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c872/19c3/26adaab8033335292f054af420b302ae
-13:30:26  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/bc6f/d2c2/65ab7973b7878a48e525d8ace48d4b8c
-13:30:26  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2fbc/a802/97e9e05d9b32e4dcb5455a3f11a45417
-13:30:26  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e511/208f/03621b31c304b3dd0d107049fe227a3a
-13:30:27  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f986/9d3d/e8bda421909bef2840e6a745313fa461
-13:30:27  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/fb5d/2e1a/1b22cfd286457603d992950465f2946a
-13:30:27  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/45c5/e295/e86984c18c636e5a1f2300ef98ed6bde
-13:30:27  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/45c5/e295/e86984c18c636e5a1f2300ef98ed6bde
-13:30:28  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8dcd/733f/ee597cd5ff7a13a1974387f70fb9538f
-13:30:28  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/a866/38bf/efd7fe9aad44c9fd4fc903f34c54ece1
-13:30:30  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e71f/7c72/4acf59bb6a8be5b1c0077a494b3be533
-13:30:31  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0093/b4ea/29caffde69568e77c454c8162274af71
-13:30:31  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/00f4/a326/05392a92bb2f92a1d0617de0293d7dc9
-13:30:32  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2671/7d82/c31adbfb09f994fcf95f7a42d24cad39
-13:30:32  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2914/9626/4ece1f636c54a5edbd232f37e012bf96
-13:30:33  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d10d/1825/83be79e1929f8ef888f9d7898aab4b1d
-13:30:33  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/3266/bfc5/ac3994bd1a9b51b36d3cc9bc9fc59424
-13:30:33  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/da8d/7877/f94deb2aeabf0002bcaabb707f488edb
-13:30:33  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/aec1/b079/ee354f25de6d8a75829672a74fe6bfcf
-13:30:33  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/a36b/dff9/d31a5108d00cfd925b1acd28253514bc
-13:30:33  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/bcf0/76c9/0515ab714fc9fa338472341b435528a8
-13:30:33  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/103f/5c60/02d74a68c3b4f878c6a353de51161700
-13:30:34  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/17b5/b19a/f831d3fb4d86bfd7cadc43abc5fca2f9
-13:30:36  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d95c/643d/ed8198339147e11bd611b594060808d2
-13:30:36  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b20c/019b/6bd4d3fedd637fecf62ab286e343eee1
-13:30:36  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9dfb/4e2d/a12060db1736534ff0eea418f03be72b
-13:30:36  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f33c/c7e8/55cd647e9bd838ae1477c9e1e02da27b
-13:30:36  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8105/eafa/380f00145b1e1136bfc554b77649ee86
-13:30:36  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9a3f/ca1c/952eebc1bca6307b963e90e8baa3985b
-13:30:37  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/decf/2612/678fbae55f47e7b734586182464a2155
-13:30:37  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/503d/1c3e/6e2eb19f5383bd9f8f9130645ca0e604
-13:30:37  :: Requesting 64 asset urls(8 assets pending)...
-13:30:45  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b01e/4028/1e9e5f3d2bb032964d404781177d439d
-13:30:46  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/a4c4/6c1e/4c37bd5618b519e3093c4a0b4a9b1107
-13:30:46  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d87a/c136/d5c7e0b160355d593da65cc99af517f9
-13:30:46  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/df6a/82c8/119f7815ffc15993c229b038e8f5bd08
-13:30:46  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/46e0/a14c/7c742cd2f3e48760fc84d33782348474
-13:30:47  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5aad/f3d1/f1dddaebdc15cf55568fe5b1032ba2ee
-13:30:47  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f061/422c/26ab73a78ac9c3eb072c47bc15f47167
-13:30:47  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/20e7/239f/f749719e8bcab6bca550ca8cd9bda0cc
-13:30:47  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7e1f/ec9c/b7fce50df4f709f977043d7d75f88c22
-13:30:47  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7e1f/ec9c/b7fce50df4f709f977043d7d75f88c22
-13:30:47  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c5dd/49d6/7d69de56db689f378cd00d35c6ffca97
-13:30:48  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/80c6/9a63/a9807df2bec8f4e58d3dfccad4697bae
-13:30:48  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/6efb/9c53/d54e1695590d49033baab7c9671b3e2f
-13:30:48  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b32b/54eb/c37437a844577d1a7cf8ca5938102f74
-13:30:48  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/de15/05e0/2a272dce73fe518aaa7ceeeea73449c0
-13:30:48  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b32b/54eb/c37437a844577d1a7cf8ca5938102f74
-13:30:48  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/de15/05e0/2a272dce73fe518aaa7ceeeea73449c0
-13:30:49  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b32b/54eb/c37437a844577d1a7cf8ca5938102f74
-13:30:49  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/de15/05e0/2a272dce73fe518aaa7ceeeea73449c0
-13:30:49  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/ca7f/9cdb/3f44a0cc93050dbcf320045677140fdb
-13:30:49  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/db5c/0cb1/4e9eb2130377a3ca7dbb6bb8b6f3c8aa
-13:30:49  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/99b3/29c2/e490fbf75972e6a5471eddf8111078f3
-13:30:50  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e755/7e8a/ade721f930688c14d07de9a4862ef8a1
-13:30:50  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e755/7e8a/ade721f930688c14d07de9a4862ef8a1
-13:30:50  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/99b3/29c2/e490fbf75972e6a5471eddf8111078f3
-13:30:50  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/4ead/42e2/d18065ebb9f482194f24ea08c6e742c2
-13:30:50  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/32d4/fd42/2a1d7fea05548a3a35afce4c3321ed34
-13:30:51  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/3514/5890/257897da9b376517c4a02ffd7868f496
-13:30:51  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/6fdb/7be6/aeac9937251ae36c21cc0c0cff161ba6
-13:30:51  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/6fdb/7be6/aeac9937251ae36c21cc0c0cff161ba6
-13:30:51  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7360/d78e/a3ce17fcffdccf33a20ac31f687bd841
-13:30:51  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/65c1/3f0e/a764bd461211f9713a78e1de352a30b1
-13:30:52  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/822d/ca81/9ac6d39595abb499e598055278f2b55c
-13:30:52  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d146/074b/0ca23b1bb3e5b120bd895fa187fab8fc
-13:30:53  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5bbb/6d7a/b62a3acb6e49d1f8ea8dc87b128e9ed9
-13:30:53  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5bbb/6d7a/b62a3acb6e49d1f8ea8dc87b128e9ed9
-13:30:53  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/34cf/59c1/dab21a7a323dbdfc1db917c5a22a59db
-13:30:53  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/34cf/59c1/dab21a7a323dbdfc1db917c5a22a59db
-13:30:54  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9c15/7e5a/e149032050f36e9ce83550c0d0a0b9f2
-13:30:54  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7f30/ba22/8357c9ec0bc40a3653dc968c3e5a73de
-13:30:54  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8b78/a0a0/f56e93553524907e5c846aefa6733e97
-13:30:54  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/eb56/55e3/5c3445c19588e3b43af9c736fdb7028e
-13:30:55  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1612/1623/f34e00f862b20e0e30cc5b94cb83578a
-13:30:55  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/06b5/e25d/ee703842fc40dcecb3acd95c6b35b1d7
-13:30:55  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9b52/abc5/de7421385eeb0841c9beb7182d1bf82a
-13:30:55  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9b52/abc5/de7421385eeb0841c9beb7182d1bf82a
-13:30:56  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9462/654e/89c13224b4ccdb65c21476fe1657c7c2
-13:30:56  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7e1f/ec9c/b7fce50df4f709f977043d7d75f88c22
-13:30:59  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d133/042b/eba534a8c24f3b1db469f787dfd7109a
-13:30:59  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8105/eafa/380f00145b1e1136bfc554b77649ee86
-13:30:59  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/34cf/59c1/dab21a7a323dbdfc1db917c5a22a59db
-13:30:59  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/34cf/59c1/dab21a7a323dbdfc1db917c5a22a59db
-13:31:00  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/46e0/a14c/7c742cd2f3e48760fc84d33782348474
-13:31:00  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5e73/4fe6/6417bc3c0c6986f278cc0c23bd86c1df
-13:31:00  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e484/7b9a/0c0bc5e02c93c802e84d16414ac48d7f
-13:31:00  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5bbb/6d7a/b62a3acb6e49d1f8ea8dc87b128e9ed9
-13:31:01  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8d30/0a23/3d006da9f4454c4d5e4b0eb24bdb29be
-13:31:01  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c5ef/69d6/bba75dad799a565abfeb33ab03d266e6
-13:31:01  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9d50/a7fa/fd414175d7f3da641e28b90d9064cb5c
-13:31:02  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c5ef/69d6/bba75dad799a565abfeb33ab03d266e6
-13:31:03  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8105/eafa/380f00145b1e1136bfc554b77649ee86
-13:31:03  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8105/eafa/380f00145b1e1136bfc554b77649ee86
-13:31:03  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/cd02/60ec/de1ce71ca15a3b12bea3679a34cb09e5
-13:31:03  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f061/422c/26ab73a78ac9c3eb072c47bc15f47167
-13:31:04  :: Requesting 8 asset urls(0 assets pending)...
-13:31:17  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/67a4/721e/497bf1d8ee71cab061d92f213b333ced
-13:31:17  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9a2e/260c/22dce007597137ca0add4304b10738eb
-13:31:17  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/67a4/721e/497bf1d8ee71cab061d92f213b333ced
-13:31:18  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/54e9/68e0/6df6109d5f633ed1c40f95e7ca35d3a1
-13:31:18  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/46db/5e7e/9078103b8f448278e58bfecbce9399bd
-13:31:19  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/44f8/c95a/b7684e4e15f612bb9a26b59b2ed9ceeb
-13:31:19  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2f80/1dd9/70785ea8cdce215543325ae28b36d954
-13:31:20  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e339/f7e7/fb9a8e6e5eefbc102a1c10da9fbc4116
-13:31:20  :: Requesting 9 icon urls(0 icons pending)...
-13:31:25  :: Downloading icon from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/ce42/c5e2/ece955e278c47e402f7007248b96f966
-13:31:26  :: Downloading icon from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/4786/2475/cee7a4a21d1869cc03a9c070f2881db6
-13:31:26  :: Downloading icon from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d030/9ad4/f4cbe647b2bd8f8a014bafb3d85a20be
-13:31:26  :: Downloading icon from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/3972/7f49/008fd722bc2a6aff95aa33fb49b5ba98
-13:31:27  :: Downloading icon from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7074/25be/dce6191fc6cb7dc68b151f7f53b67647
-13:31:27  :: Downloading icon from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/df18/ed58/cc7e38e936835760e2ded1093c1da11f
-13:31:27  :: Downloading icon from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f793/0d64/182a9e885f67b9a0278cd05c9530fdea
-13:31:28  :: Downloading icon from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/ce69/34dc/a9de9b2af92c6206b12907bdc8f81341
-13:31:28  :: Downloading icon from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/6672/088a/5f5992542998a1b4f734eb8eaa41c82f
-13:31:28  :: Requesting external asset urls...
-13:31:29  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/07d9/7f41/7bbf9a1d7c0bd13f44820fb5646d393e?Expires=1649030400&Signature=eZGwK7ud4u5-91c81mYTqIPivJa6ibk7T9Ab0eVHpAlzS8HGO6JID2CapFZESKk9vYIsMR~U0rzR1l~2GkMZpOHM3AiamVSiOu1mMHVbgavXQK0EEgNtvHfEze5hdhYU~AA46PvulNwO3HR4ax5GzBcOMbLtBFpjW1AxKasPB4GwAh5X~IJzSKb3eZmucIeNiMQKDraqpEECf9zjP9NhWdmBYBmP9Wc6GSOr43QRvJLS6xJ9A0tfLOmcboVyPjARiKlNG-uwQBvJ8DY~5gGs7c8IHFhjFsEtESf~PwhJwnWytzbvhjg~A34lQpjncrYM2OYjN~1UsrL8p3Yj4veegQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-13:31:30  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/0c7e/620d/8aa452f8042e7cf70c1617666b1f2a75?Expires=1649030400&Signature=AB1bpM46JF6bV2gTwDc7r5zI9QqHpkT3xfzawJ~E4PWUyed4C-VlPkTVbjGlwdpHanh2DVvL3Ou2f~c6UvouxxEUWukBx-Gg-4Cl2zv5K2tqMI~vpvGbfKgz1LihD1nfc78R~ktnWxm7ssftlcvFQDRxZvQRECWI~-SS0BlmO6-pj9uYkorbFUqX1fjP5WjtgOT3NTU0Zc~H-5v5Dn4lsOGvEcTUhdXMAmq7mlNqBig8V4SS8Wo5WZP~mmi1Qtwe6MK4-DWxuToFlR5zh2VL3wwcNoX0qulrolxuVZnw~OF8g9Y08GsDDaQs5if7F4y82VBuYBhWL4o24c1ZFimzxQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-13:31:31  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/4668/2099/5d62454674c217d5a4427fa96038a539?Expires=1649030400&Signature=KF75B34Os9mPzYzF5AYTQA6tV3m23AYMoA3R-rF9F8wr3-nYZVQMh9bItijfQr15FtbX3D7qWQ1FuwyxrhmbPHnaagxVWR5wb4E3uNN-WSO1Vyxa6WyoPVmGa4p8zAjsxaw4WGlhs5MTOzeToPGqSu3irYe9~dbdluP56qeD16FkokxwswznVIb~SVdvytI4djUsJO0~fnHFcOtOILiJjr4F~KyGiH2f8qtgJl72-Pz22L6PK~IgwxXUJVQ5GYZGSYKLgbzcNz-K1SeGf2iexTNAEcddDQw5fGRlvLaKcSocckLtpDWbYuMd03yHBiWZfXI4S4RwxTzM6F3XNLe66Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-13:31:31  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/78cf/406a/dfb3ffc4a887a815511e1e12b985bbe2?Expires=1649030400&Signature=IwyHT9HJdtJBgLYxlrMkunSmgnLPfxgodVxdhoLb74~D2caatFDOs-hBiy79p5Svgqam6XJkkytOIW-oSaozp-A7NODQ7ogLn9ym-tesAzfGCEV~9vW7ihNV~5aa0HhZuH~dMAsCSZh0v~b1gPdG~08pzBRDVALXml1XCBCeR13o5o1Jc-AjdEWioYqG127hKMkamTmZap1YEQSth46YeUWky~piIUFh7~v2H7pYYMbwNXHDnobxmL-yiGuxGI-URZymtt9yT67vj3Q6-CAJ5g3eMBUAwQGhjw9KycTVLYoskmfrYyeVw5San6k7MMC~itV78vtMLgDUJX0GzsKC5g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-13:31:32  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/938d/a072/73818d02d6f8fdb8c57112f9f7492b4c?Expires=1649030400&Signature=D2-ObqL12fkOwSr7-bGdia6Ul19FDHBUMwU1KINKzK50wej06MFz9wfcFU2Me9~XZQYHhkYmM9-M5y~eb2djp791yakYJVCisPE4ZyicUS9~s8xwJaPSG76V99mjIZGB3iTzuJLk8O3XRWsp9A7MhMzJUm8QqHlHHlBMpXpHDOEpt3bK8PWtSDKxXFf3RnpMXGpkBy6HiiENowZ5XmU1csjTrL8AiybP1AXceRdjbFQGehDxezVww85NKbBSQLsX1EIn3XlMLLPW5yw1RbBKGwrLVB0vEdD4bdKYLSjpkQzVygT8YNyzseEx0a2UjOOKelfbuGfxLIa054nCqsUvVg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-13:31:33  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/cc90/b695/ee95181010ade86f083017c4be434dab?Expires=1649030400&Signature=TTep3Yfu-5LmIUcbgDrXRDC4fo7U8G0UggGhBNj1Ya5e~xxMEsAyN7cSEhO9a5MVhr9fhSCFG78h9oaMJOrm3BKzKhUfKfyumrpvgB-6iQGIiUhr7sYVqPHzoJfx6~47G4zpR6MHifrL2f~oKBcIXcDcd77r3dLXgb85ynSplDZeBNpCpjznKjyWFqz3-DG2viDiiUZK2BByhveUY9M-75yzIz1HuGxapKsY4roHtOE3Sw-52m8A~WOFrQqMGwESISkqCJmXdjRum70~nXfuolZsAMYv~crO35sBFN7lWPhvWDLdQIwFFNPS7GawTpqYnUb95ldmxIhAaAH44~b~hg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-13:31:33  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/cf38/b55b/e5755b29f295e607835afa147076c986?Expires=1649030400&Signature=FVwGte08wF6zPU7CRr7S4NZHPBcp~We8dSKyXOI3JfbOOI5jbfI306nV5fni6AtcwOsDjmoZ6QeHnwvNJ7Lof5RXYvno9BinhtxiNzYPNVV3NerW44kOwlVQ1FO4ySRzfYc5ZbzEl91Um1fBhpThSXmLK0-6B~bOUE9mR3hdGc8-Zj-nvnWaC9suphBpl5QdRaMpNit-DUeo7QxFAH3ANkJqvN1wSuxpmy3kEc3P6ggubRakoi6FF3ZUMF4X~vvb0IUJCEYN5AbtNbAJE0YnIEoQcH8-KbPYpfkqSPf5gEki0R-r1HLimLTYZy6exGEAYWsS9Qyvgn1U9HvD3kkwvw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-13:31:34  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/d67f/c2e9/870e944e8f3126752237d8c2e6ff3b9e?Expires=1649030400&Signature=h20pFqN0F5RU-FxYNZr6qth73TzJG8amD8bi1sabn-FANlrB3ijLkGt289PFVSH-FPZwHlyP53ug68Bes~0zahKGBVBWP8Bcr1sbUf-h-VXy6XMnrabz9IAosd67HFKYVUX49oJZ-dF~1tHzBI432LqrryZIwCrnQGo7rZtCZaG1mWk~uGqbZKok8BXNfynW7kBc59lI0CmntNDdCxsLymEIC7gypnsyRYB7HLP7ZVirB6qOycuq3UjToJVLzXOTICOmxUkaPohY2aD56uQJ6ceCB78WOaqQuKNzUE0JfKz8zRLU0Zq5LAbsENB972F9oquAevxl8-seb6dCWMDO1g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-13:31:35  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/fd61/8047/bd14007f11754600f784625bd157c7b1?Expires=1649030400&Signature=Tq2JoARBp-FhWnra18PMQmUv8JUqUpuP7CkXZ0EMdEYfrASwtNnXwMukfJ0cEHSEPBVdyuRFcrLY098VBFfOjIP0jD49q6tY~fin8zwiYt9d4TjR8tBiprY-H~kQqfdtH2F8YKLXPXAYw-lAcjEbAivi-7Gpu-XpcZpuexM-rLLJlBOQwaH6OSW5t58aYKvnrk2sU27grlG30FlQPsaNel6zQ9Un-bUgp7YHPETwjWf0G~iSI7w9eAbBTD-XNBI6514yQhLHssYlWhzI961EikxrNQzpei6-w6TfGl9tlq62~aqYVs~ev2PcDmc1CV0KsZybaCkG54MkUkVe78eg3w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-13:31:38  :: Removed unused components:<br/> ZetaSurgicalSet.DeleteButton_Default_State<br/>ZetaSurgicalSet.EastButton_Default_State<br/>ZetaSurgicalSet.FlipViewButton_Default_State<br/>ZetaSurgicalSet.KeyBoard<br/>ZetaSurgicalSet.KeyboardButton_TopRow<br/>ZetaSurgicalSet.ModifyButton_Default_State<br/>ZetaSurgicalSet.NorthButton_Default_State<br/>ZetaSurgicalSet.PatientInfoText_var_2<br/>ZetaSurgicalSet.PointDisplayPanel<br/>ZetaSurgicalSet.SourhtButton_Default_State<br/>ZetaSurgicalSet.Tabel3TitleBar<br/>ZetaSurgicalSet.Table1TitleBar<br/>ZetaSurgicalSet.Table2TitleBar<br/>ZetaSurgicalSet.TableSlider_Horizontal<br/>ZetaSurgicalSet.TableSlider_Vertical<br/>ZetaSurgicalSet.ToggleButton_Down_Selection<br/>ZetaSurgicalSet.ViewPointButton<br/>ZetaSurgicalSet.WestButton_Default_State<br/>ZetaSurgicalSet.WheelLockButtonTest_Default_State
-13:31:38  :: Extracting font archive: /home/maxim/GreenHouseWorkspace/FontArchives/Arial.zip
+15:39:14  :: Data processing started.
+15:39:14  :: Project identified as: UserInterface_POC_20220323_v02.1
+15:39:14  :: Found 0 color frames
+15:39:14  :: Found 0 font frames
+15:39:14  :: Found 113 components
+15:39:14 Component: ChangeViewDropDown :: ChangeViewDropDown does not have any states that can be optimized.
+15:39:14 Component: HomeButton :: HomeButton does not have any common ui element groups.
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_Space___symbol, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_MoveLeft___symbol, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_MoveRight___symbol, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_Symbols___symbol, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_Shift2___symbol, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_Shift1___symbol, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_CapsLock___symbol, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_Enter___symbol, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_Delete___symbol, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_Tab___symbol, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_row2_key1, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_row1_key2, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_Space___uppercase, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_MoveLeft___uppercase, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_MoveRight___uppercase, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_Symbols___uppercase, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_Shift2___uppercase, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_Shift1___uppercase, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_CapsLock___uppercase, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_Enter___uppercase, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_Delete___uppercase, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_Tab___uppercase, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_row2_key1, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: Ignoring effects applied to: fi_row1_key2, effects applied to component instances and component root nodes are not supported!
+15:39:14 Component: KeyBoard :: KeyBoard does not have any states that can be optimized.
+15:39:14 Component: ModifyInstrumentButton :: Component missing for: fi_DeleteButton___default
+15:39:14 Component: ModifyInstrumentButton :: Component missing for: fi_DeleteButton___pressed
+15:39:14 Component: ModifyTargetButton :: Component missing for: fi_ModifyButton___default
+15:39:14 Component: ModifyTargetButton :: Component missing for: fi_DeleteButton___default
+15:39:14 Component: ModifyTargetButton :: Component missing for: fi_ModifyButton___pressed
+15:39:14 Component: ModifyTargetButton :: Component missing for: fi_DeleteButton___pressed
+15:39:14 Component: ModifyTargetButton :: Component missing for: fi_ModifyButton___selected
+15:39:14 Component: ModifyTargetButton :: Component missing for: fi_DeleteButton___selected
+15:39:14 Component: SliderButton :: SliderButton does not have any states that can be optimized.
+15:39:14 Component: TripleSelectSliderButton :: TripleSelectSliderButton does not have any states that can be optimized.
+15:39:14 Component: PointDisplayPanel :: Component missing for: fi_NorthButton___coronal
+15:39:14 Component: PointDisplayPanel :: Component missing for: fi_EastButton___coronal
+15:39:14 Component: PointDisplayPanel :: Component missing for: fi_WestButton___coronal
+15:39:15 Component: PointDisplayPanel :: Component missing for: fi_SourhtButton___coronal
+15:39:15 Component: PointDisplayPanel :: Component missing for: fi_NorthButton___default
+15:39:15 Component: PointDisplayPanel :: Component missing for: fi_EastButton___default
+15:39:15 Component: PointDisplayPanel :: Component missing for: fi_WestButton___default
+15:39:15 Component: PointDisplayPanel :: Component missing for: fi_SourhtButton___default
+15:39:15 Component: PointDisplayPanel :: Component missing for: fi_NorthButton___saggital
+15:39:15 Component: PointDisplayPanel :: Component missing for: fi_EastButton___saggital
+15:39:15 Component: PointDisplayPanel :: Component missing for: fi_WestButton___saggital
+15:39:15 Component: PointDisplayPanel :: Component missing for: fi_SourhtButton___saggital
+15:39:15 Component: PointDisplayPanel :: PointDisplayPanel does not have any states that can be optimized.
+15:39:15 Component: SearchInputText :: SearchInputText does not have any states that can be optimized.
+15:39:15  :: Found 10 screens
+15:39:15 Panel: CT_Planning_Default_MainPanel :: Failed to create component child item: ExtendedSet.CtAxialView
+15:39:15 Panel: Segmentation_Default_InfoPanel :: Component missing for: fi_bad
+15:39:15 Panel: Segmentation_Default_InfoPanel :: Component missing for: fi_good
+15:39:15  :: Found 6 popups
+15:39:15 Popups: LoginView :: Component missing for: fi_keyboardOverlay
+15:39:15 Popups: LoginView :: Ignoring effects applied to: fi_SpaceBar, effects applied to component instances and component root nodes are not supported!
+15:39:15 Popups: LoginView :: Ignoring effects applied to: fi_MoveRight, effects applied to component instances and component root nodes are not supported!
+15:39:15 Popups: LoginView :: Ignoring effects applied to: fi_MoveLeft, effects applied to component instances and component root nodes are not supported!
+15:39:15 Popups: LoginView :: Ignoring effects applied to: fi_Symbols, effects applied to component instances and component root nodes are not supported!
+15:39:15 Popups: LoginView :: Ignoring effects applied to: fi_Shift2, effects applied to component instances and component root nodes are not supported!
+15:39:15 Popups: LoginView :: Ignoring effects applied to: fi_Shift1, effects applied to component instances and component root nodes are not supported!
+15:39:15 Popups: LoginView :: Ignoring effects applied to: fi_CapsLock, effects applied to component instances and component root nodes are not supported!
+15:39:15 Popups: LoginView :: Ignoring effects applied to: fi_Return, effects applied to component instances and component root nodes are not supported!
+15:39:15 Popups: LoginView :: Ignoring effects applied to: fi_Enter, effects applied to component instances and component root nodes are not supported!
+15:39:15 Popups: LoginView :: Ignoring effects applied to: fi_Delete, effects applied to component instances and component root nodes are not supported!
+15:39:15 Popups: LoginView :: Ignoring effects applied to: fi_Tab, effects applied to component instances and component root nodes are not supported!
+15:39:16 Popups: LoginView :: Ignoring effects applied to: fi_row4_key1, effects applied to component instances and component root nodes are not supported!
+15:39:16 Popups: LoginView :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
+15:39:16 Popups: LoginView :: Ignoring effects applied to: fi_KeyboardButton_Letter_Lowercase, effects applied to component instances and component root nodes are not supported!
+15:39:16 Popups: LoginView :: Ignoring effects applied to: fi_row1_key2, effects applied to component instances and component root nodes are not supported!
+15:39:16 Popups: Password :: Component missing for: fi_keyboardOverlay
+15:39:16 Popups: Password :: Ignoring effects applied to: fi_Space, effects applied to component instances and component root nodes are not supported!
+15:39:16 Popups: Password :: Ignoring effects applied to: fi_MoveRight, effects applied to component instances and component root nodes are not supported!
+15:39:16 Popups: Password :: Ignoring effects applied to: fi_MoveLeft, effects applied to component instances and component root nodes are not supported!
+15:39:16 Popups: Password :: Ignoring effects applied to: fi_Symbols, effects applied to component instances and component root nodes are not supported!
+15:39:16 Popups: Password :: Ignoring effects applied to: fi_Shift2, effects applied to component instances and component root nodes are not supported!
+15:39:16 Popups: Password :: Ignoring effects applied to: fi_Shift1, effects applied to component instances and component root nodes are not supported!
+15:39:16 Popups: Password :: Ignoring effects applied to: fi_CapsLock, effects applied to component instances and component root nodes are not supported!
+15:39:16 Popups: Password :: Ignoring effects applied to: fi_Proceed, effects applied to component instances and component root nodes are not supported!
+15:39:16 Popups: Password :: Ignoring effects applied to: fi_Enter, effects applied to component instances and component root nodes are not supported!
+15:39:16 Popups: Password :: Ignoring effects applied to: fi_Delete, effects applied to component instances and component root nodes are not supported!
+15:39:16 Popups: Password :: Ignoring effects applied to: fi_Tab, effects applied to component instances and component root nodes are not supported!
+15:39:17 Popups: Password :: Ignoring effects applied to: fi_row4_key1, effects applied to component instances and component root nodes are not supported!
+15:39:17 Popups: Password :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
+15:39:17 Popups: Password :: Ignoring effects applied to: fi_row2_key1, effects applied to component instances and component root nodes are not supported!
+15:39:17 Popups: Password :: Ignoring effects applied to: fi_row1_key2, effects applied to component instances and component root nodes are not supported!
+15:39:17 Popups: PatientSearchView :: Component missing for: fi_keyboardOverlay
+15:39:17 Popups: PatientSearchView :: Ignoring effects applied to: fi_SpaceBar, effects applied to component instances and component root nodes are not supported!
+15:39:17 Popups: PatientSearchView :: Ignoring effects applied to: fi_MoveRight, effects applied to component instances and component root nodes are not supported!
+15:39:17 Popups: PatientSearchView :: Ignoring effects applied to: fi_MoveLeft, effects applied to component instances and component root nodes are not supported!
+15:39:17 Popups: PatientSearchView :: Ignoring effects applied to: fi_Symbols, effects applied to component instances and component root nodes are not supported!
+15:39:17 Popups: PatientSearchView :: Ignoring effects applied to: fi_Shift2, effects applied to component instances and component root nodes are not supported!
+15:39:17 Popups: PatientSearchView :: Ignoring effects applied to: fi_Shift1, effects applied to component instances and component root nodes are not supported!
+15:39:18 Popups: PatientSearchView :: Ignoring effects applied to: fi_CapsLock, effects applied to component instances and component root nodes are not supported!
+15:39:18 Popups: PatientSearchView :: Ignoring effects applied to: fi_Return, effects applied to component instances and component root nodes are not supported!
+15:39:18 Popups: PatientSearchView :: Ignoring effects applied to: fi_Enter, effects applied to component instances and component root nodes are not supported!
+15:39:18 Popups: PatientSearchView :: Ignoring effects applied to: fi_Delete, effects applied to component instances and component root nodes are not supported!
+15:39:18 Popups: PatientSearchView :: Ignoring effects applied to: fi_Tab, effects applied to component instances and component root nodes are not supported!
+15:39:18 Popups: PatientSearchView :: Ignoring effects applied to: fi_row4_key1, effects applied to component instances and component root nodes are not supported!
+15:39:18 Popups: PatientSearchView :: Ignoring effects applied to: fi_row3_key1, effects applied to component instances and component root nodes are not supported!
+15:39:18 Popups: PatientSearchView :: Ignoring effects applied to: fi_KeyboardButton_Letter_Lowercase, effects applied to component instances and component root nodes are not supported!
+15:39:18 Popups: PatientSearchView :: Ignoring effects applied to: fi_row1_key2, effects applied to component instances and component root nodes are not supported!
+15:39:19  :: Found 6 menus
+15:39:19 Menus :: No declarations to process
+15:39:19  :: Found 0 extra layers
+15:39:19  :: Found 0 transitions
+15:39:19  :: 136 new and 0 modified images found...
+15:39:19  :: 0 new and 0 modified themed assets found...
+15:39:19  :: 0 new and 0 modified icons found...
+15:39:19  :: 0 new and 0 modified fills found...
+15:39:19  :: Requesting 64 asset urls(72 assets pending)...
+15:39:28  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/57c2/4399/557b89f8a78453da618dd7838d031b83
+15:39:29  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e3c1/06b9/e189906c1d22dd25c870c35b712da543
+15:39:29  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9d45/8795/2323d38bbb1f746466f087fbb44b4cb4
+15:39:29  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/732b/2314/1ab561edf0d18bc72f8a42e2f146410b
+15:39:30  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/a48f/95da/f0730df41fe4c64b0b504d7c77912359
+15:39:30  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e50d/cd75/5c602ed353ebcc16d1f1b3f32d439d2b
+15:39:30  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c8e0/5f69/804d44a4f54e5696f48fb7569cf24335
+15:39:30  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9093/1b30/71184c98961240ab5f67d1d1e0d4382b
+15:39:30  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/ade9/549a/0a2eb926f4398516bca592b90fb5b743
+15:39:31  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/67a4/721e/497bf1d8ee71cab061d92f213b333ced
+15:39:31  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/67a4/721e/497bf1d8ee71cab061d92f213b333ced
+15:39:31  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5476/f4a2/4d27d18d6d9212e018a88871d10c2429
+15:39:31  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c80b/14ce/580371ae464a43982f01dd3996f9df7c
+15:39:32  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f127/4e9f/8b3513228e1db3e42699e931afe22ec0
+15:39:32  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1612/1623/f34e00f862b20e0e30cc5b94cb83578a
+15:39:32  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c80b/14ce/580371ae464a43982f01dd3996f9df7c
+15:39:32  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9f03/5fc2/6288c3a00bf87422d4ca3e865778fa52
+15:39:33  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0aca/abac/b87e23a6d8766c65f72ab0d21c6b8767
+15:39:33  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9f03/5fc2/6288c3a00bf87422d4ca3e865778fa52
+15:39:33  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/06b5/e25d/ee703842fc40dcecb3acd95c6b35b1d7
+15:39:33  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9b52/abc5/de7421385eeb0841c9beb7182d1bf82a
+15:39:33  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/99c2/3369/597011ba154ceabbaf2466b43ac4673d
+15:39:33  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9b52/abc5/de7421385eeb0841c9beb7182d1bf82a
+15:39:34  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9b52/abc5/de7421385eeb0841c9beb7182d1bf82a
+15:39:34  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1330/7b2f/f3005d7db2c3f72684715d7a68f58085
+15:39:34  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f586/2097/aa85fbbda3a5a81dd73d8528da0eefa6
+15:39:34  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9590/0530/baa092f11c87a634ba369ac70bc8eb92
+15:39:34  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0093/b4ea/29caffde69568e77c454c8162274af71
+15:39:34  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f127/4e9f/8b3513228e1db3e42699e931afe22ec0
+15:39:34  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f127/4e9f/8b3513228e1db3e42699e931afe22ec0
+15:39:35  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0aca/abac/b87e23a6d8766c65f72ab0d21c6b8767
+15:39:35  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0aca/abac/b87e23a6d8766c65f72ab0d21c6b8767
+15:39:35  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/3186/7c69/bd9fca0f148d2f1e5daaed8ff86b8298
+15:39:35  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c872/19c3/26adaab8033335292f054af420b302ae
+15:39:36  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/bc6f/d2c2/65ab7973b7878a48e525d8ace48d4b8c
+15:39:36  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2fbc/a802/97e9e05d9b32e4dcb5455a3f11a45417
+15:39:36  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e511/208f/03621b31c304b3dd0d107049fe227a3a
+15:39:36  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f986/9d3d/e8bda421909bef2840e6a745313fa461
+15:39:36  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/fb5d/2e1a/1b22cfd286457603d992950465f2946a
+15:39:36  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/45c5/e295/e86984c18c636e5a1f2300ef98ed6bde
+15:39:37  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/45c5/e295/e86984c18c636e5a1f2300ef98ed6bde
+15:39:37  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8dcd/733f/ee597cd5ff7a13a1974387f70fb9538f
+15:39:37  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/a866/38bf/efd7fe9aad44c9fd4fc903f34c54ece1
+15:39:38  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e71f/7c72/4acf59bb6a8be5b1c0077a494b3be533
+15:39:39  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0093/b4ea/29caffde69568e77c454c8162274af71
+15:39:39  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/00f4/a326/05392a92bb2f92a1d0617de0293d7dc9
+15:39:40  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2671/7d82/c31adbfb09f994fcf95f7a42d24cad39
+15:39:40  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2914/9626/4ece1f636c54a5edbd232f37e012bf96
+15:39:41  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d10d/1825/83be79e1929f8ef888f9d7898aab4b1d
+15:39:41  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/3266/bfc5/ac3994bd1a9b51b36d3cc9bc9fc59424
+15:39:41  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/da8d/7877/f94deb2aeabf0002bcaabb707f488edb
+15:39:41  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/aec1/b079/ee354f25de6d8a75829672a74fe6bfcf
+15:39:41  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/a36b/dff9/d31a5108d00cfd925b1acd28253514bc
+15:39:42  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/bcf0/76c9/0515ab714fc9fa338472341b435528a8
+15:39:42  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/103f/5c60/02d74a68c3b4f878c6a353de51161700
+15:39:42  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/17b5/b19a/f831d3fb4d86bfd7cadc43abc5fca2f9
+15:39:43  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d95c/643d/ed8198339147e11bd611b594060808d2
+15:39:43  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b20c/019b/6bd4d3fedd637fecf62ab286e343eee1
+15:39:44  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9dfb/4e2d/a12060db1736534ff0eea418f03be72b
+15:39:44  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f33c/c7e8/55cd647e9bd838ae1477c9e1e02da27b
+15:39:44  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d16f/7a77/5daaa5f7d833d2abc6f4c599b3175d88
+15:39:44  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9a3f/ca1c/952eebc1bca6307b963e90e8baa3985b
+15:39:44  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/decf/2612/678fbae55f47e7b734586182464a2155
+15:39:44  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/503d/1c3e/6e2eb19f5383bd9f8f9130645ca0e604
+15:39:45  :: Requesting 64 asset urls(8 assets pending)...
+15:39:49  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b01e/4028/1e9e5f3d2bb032964d404781177d439d
+15:39:49  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/a4c4/6c1e/4c37bd5618b519e3093c4a0b4a9b1107
+15:39:49  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d87a/c136/d5c7e0b160355d593da65cc99af517f9
+15:39:49  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7b23/cfe0/c14717f4ab00feb1cc75ce8fac0db989
+15:39:50  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e630/d33c/19d0357d96c469d863c828a44b34211c
+15:39:50  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/080a/82f8/4413f47f17e733c4e495dfd43778ebf2
+15:39:50  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f098/da31/cdaf1fecddc7daa1df5d94b90b84098f
+15:39:50  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/def5/a415/1eb486c603c08eb0b4fc8fb2ba85a22e
+15:39:50  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9590/0530/baa092f11c87a634ba369ac70bc8eb92
+15:39:50  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9590/0530/baa092f11c87a634ba369ac70bc8eb92
+15:39:51  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c5dd/49d6/7d69de56db689f378cd00d35c6ffca97
+15:39:51  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/80c6/9a63/a9807df2bec8f4e58d3dfccad4697bae
+15:39:52  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/4478/2c06/ddea5963be3b721a86b69507bb7fdfe3
+15:39:52  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b32b/54eb/c37437a844577d1a7cf8ca5938102f74
+15:39:52  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/de15/05e0/2a272dce73fe518aaa7ceeeea73449c0
+15:39:52  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b32b/54eb/c37437a844577d1a7cf8ca5938102f74
+15:39:52  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/de15/05e0/2a272dce73fe518aaa7ceeeea73449c0
+15:39:53  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b32b/54eb/c37437a844577d1a7cf8ca5938102f74
+15:39:53  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/de15/05e0/2a272dce73fe518aaa7ceeeea73449c0
+15:39:53  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/ca7f/9cdb/3f44a0cc93050dbcf320045677140fdb
+15:39:53  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/db5c/0cb1/4e9eb2130377a3ca7dbb6bb8b6f3c8aa
+15:39:53  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/99b3/29c2/e490fbf75972e6a5471eddf8111078f3
+15:39:54  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e755/7e8a/ade721f930688c14d07de9a4862ef8a1
+15:39:54  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e755/7e8a/ade721f930688c14d07de9a4862ef8a1
+15:39:54  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/99b3/29c2/e490fbf75972e6a5471eddf8111078f3
+15:39:54  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/4ead/42e2/d18065ebb9f482194f24ea08c6e742c2
+15:39:54  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/32d4/fd42/2a1d7fea05548a3a35afce4c3321ed34
+15:39:55  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/3514/5890/257897da9b376517c4a02ffd7868f496
+15:39:55  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/6fdb/7be6/aeac9937251ae36c21cc0c0cff161ba6
+15:39:55  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/6fdb/7be6/aeac9937251ae36c21cc0c0cff161ba6
+15:39:55  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7360/d78e/a3ce17fcffdccf33a20ac31f687bd841
+15:39:56  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/65c1/3f0e/a764bd461211f9713a78e1de352a30b1
+15:39:56  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/822d/ca81/9ac6d39595abb499e598055278f2b55c
+15:39:56  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d146/074b/0ca23b1bb3e5b120bd895fa187fab8fc
+15:39:56  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5bbb/6d7a/b62a3acb6e49d1f8ea8dc87b128e9ed9
+15:39:56  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5bbb/6d7a/b62a3acb6e49d1f8ea8dc87b128e9ed9
+15:39:57  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/34cf/59c1/dab21a7a323dbdfc1db917c5a22a59db
+15:39:57  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/34cf/59c1/dab21a7a323dbdfc1db917c5a22a59db
+15:39:58  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9c15/7e5a/e149032050f36e9ce83550c0d0a0b9f2
+15:39:58  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7f30/ba22/8357c9ec0bc40a3653dc968c3e5a73de
+15:39:58  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8b78/a0a0/f56e93553524907e5c846aefa6733e97
+15:39:58  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/eb56/55e3/5c3445c19588e3b43af9c736fdb7028e
+15:39:59  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1612/1623/f34e00f862b20e0e30cc5b94cb83578a
+15:39:59  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/06b5/e25d/ee703842fc40dcecb3acd95c6b35b1d7
+15:39:59  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9b52/abc5/de7421385eeb0841c9beb7182d1bf82a
+15:39:59  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9b52/abc5/de7421385eeb0841c9beb7182d1bf82a
+15:40:00  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9462/654e/89c13224b4ccdb65c21476fe1657c7c2
+15:40:00  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9590/0530/baa092f11c87a634ba369ac70bc8eb92
+15:40:00  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d133/042b/eba534a8c24f3b1db469f787dfd7109a
+15:40:00  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d16f/7a77/5daaa5f7d833d2abc6f4c599b3175d88
+15:40:01  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/34cf/59c1/dab21a7a323dbdfc1db917c5a22a59db
+15:40:01  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/34cf/59c1/dab21a7a323dbdfc1db917c5a22a59db
+15:40:01  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e630/d33c/19d0357d96c469d863c828a44b34211c
+15:40:02  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5e73/4fe6/6417bc3c0c6986f278cc0c23bd86c1df
+15:40:02  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e484/7b9a/0c0bc5e02c93c802e84d16414ac48d7f
+15:40:02  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5bbb/6d7a/b62a3acb6e49d1f8ea8dc87b128e9ed9
+15:40:02  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8d30/0a23/3d006da9f4454c4d5e4b0eb24bdb29be
+15:40:03  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c5ef/69d6/bba75dad799a565abfeb33ab03d266e6
+15:40:03  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9d50/a7fa/fd414175d7f3da641e28b90d9064cb5c
+15:40:03  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c5ef/69d6/bba75dad799a565abfeb33ab03d266e6
+15:40:03  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d16f/7a77/5daaa5f7d833d2abc6f4c599b3175d88
+15:40:04  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d16f/7a77/5daaa5f7d833d2abc6f4c599b3175d88
+15:40:04  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/36b6/ce2f/1f94462bf26dcb554df6e693ac943296
+15:40:04  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f098/da31/cdaf1fecddc7daa1df5d94b90b84098f
+15:40:05  :: Requesting 8 asset urls(0 assets pending)...
+15:40:08  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/67a4/721e/497bf1d8ee71cab061d92f213b333ced
+15:40:08  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9a2e/260c/22dce007597137ca0add4304b10738eb
+15:40:08  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/67a4/721e/497bf1d8ee71cab061d92f213b333ced
+15:40:09  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/54e9/68e0/6df6109d5f633ed1c40f95e7ca35d3a1
+15:40:09  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/46db/5e7e/9078103b8f448278e58bfecbce9399bd
+15:40:09  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/44f8/c95a/b7684e4e15f612bb9a26b59b2ed9ceeb
+15:40:10  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2f80/1dd9/70785ea8cdce215543325ae28b36d954
+15:40:10  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e339/f7e7/fb9a8e6e5eefbc102a1c10da9fbc4116
+15:40:10  :: Requesting external asset urls...
+15:40:11  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/07d9/7f41/7bbf9a1d7c0bd13f44820fb5646d393e?Expires=1649635200&Signature=WXjOH99JA~1EI6TXjH82aVYrKhq9-emwYLabCqF2mMH99R8FOH0A-BUhPelFrMyI2Y1m8f3Rk5F4K8~JJ1wU37vWhAzddRQNliULgTfBUdnTcykimj~LfhEnlMscA8XoOpmROquOUqIGv~5o6ErDjCGXnDjCnfmTEAO2QIive-75RxJOQJQo~kPDCBdWqrEZwxcT3E1vdaFCHjfyx32A-4c6op9CkY9RQmHne1Mj8ur7tq~8VkLv56YVByUFPIIxv0c1OgUBOx6yL7xNJeZEZpg7vwO~S1tMbTfLOsZJLFTGLPrBRG6VwgvGKV2Q9BIotehWrfA2DlWDyI4dj0hldQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
+15:40:16  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/0c7e/620d/8aa452f8042e7cf70c1617666b1f2a75?Expires=1649635200&Signature=IlR3Viofif0bjhfaeZAtTHTD40M2~Hh71zNAQDuRWFiNWqJtcHkgBffmJc3hnDSr3V4BTF382Z36kHFMezMBX4HunNoNkfhmKBFdiLsiwr8LxrpdnCTeIEe-4ouQAw9AhaVNPaTLBYiHfFCYtwJwuuG7pRbvPXMDuQeMwEU9pZuf0gLw3hjAZv-vDir4CHDccyNn0aaCy2opxUJrjU0~4GPb454ISZg8Axes6do8IKvXUMPoq4E5F2q53VD6oJq0tqRdv2Ey5mW-hwDRkslxbyK2NjSH0aOoYRY6I7q6MTjdjU5M7461-MtKITSVrZKnuSHq3TOuBjzEe3~vRtrcIg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
+15:40:17  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/78cf/406a/dfb3ffc4a887a815511e1e12b985bbe2?Expires=1649635200&Signature=POW5IiL-gE4MFTOTUPeZ4WgLSaQr7Wd9E45Blb~kK6LSCZgd4M4BQZYth4qNwOA5QqX86WVHjhsqX0xjFzuXXE4gZf-nKpd7Ks6sAOeZ3hPA3~nQNI7sFVq9YSKOv6Mhn7tefRHN48nz33mfXva6ZAIhk1Jq1HapRQ8wSeWM4E3-Px3EYT2ACQvEsu0amA1c8i74dFqc7IAyMuz3P0Nsx-aTqFDw6jtYAbZPKmyDdRUOPnpNCnfPBcBuYZ7UcrNOblSANbaPbK3ByuFpcq2Jhpgbj4qGZPy6Q2kFzbpXBb8-dgk4C6fckLvvc0sSp3ROsrbLVN28VP1e3vQAZQZrQQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
+15:40:17  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/938d/a072/73818d02d6f8fdb8c57112f9f7492b4c?Expires=1649635200&Signature=XebqjXiJxcdX758XAPETLEWm~k1usEg~j4ySivgyqjYxuSkUNGyWx83o8kz4cGuxrlOiNe13UW3yow~LzwyQseVDvDUhTn11g6lBmu7zQvNE4PukrgVl4SLkeJ8WT90cm0UKhmacUnAlmlOOHk3Fcf8ruR9govP7DzA2H3nSb58qN3JNJttaUjWZ-fDPkmRBQYIdLEswqJa6Xc5pOQmDJE4F6Fv3kiKKUyaaQ9GGgQJxnd~LEW9igsOVzQWCQR97HaeU79ZrVefBzUgREbWLUZeYZuOV2YN0kXAH6644aVJmU2xyeaKNRqLyf6ZHGj-U870OikEVtq-yvpZ8vT~n1w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
+15:40:18  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/951e/8fce/4a70422430611f3fcfb93a90e22aa59f?Expires=1649635200&Signature=T2mt15C0rYJavSZ0ZSF~7zdTSRmE1P0ev6M2HEvK-sriQS55j2Rts4XmCOVKyglYP2RpUCIR7g6QLljF0FAChiNNAx~E2nC9mxO0-MT~HkSxfWKjTD84WNFLfC6iI7R1UyyDXuzMEo7Swpwb8eHBqqX60OzaHBQ~di7tC4tjiVclUiEQrdzZrYhYr6uFEMZ09wRUQHGX9iffDdsYPdoFveviFh5vdp5QybIAR54KDoVsC5PhJPbRXgAj7XmeFcbNRSh078fAMjkZBy-YPDq8lZ-KFHDeARhmRgjxXoLMqB-o5O4F61-VP2qFndwEQxrtLJeITgHKTLGFZ52GXsC8Jg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
+15:40:19  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/cf38/b55b/e5755b29f295e607835afa147076c986?Expires=1649635200&Signature=BXmctzkunwxYpNrNcxGHtE~J7QU-JqcperdR4qASS3sav0sql9XvS~e5iaELWfx8rreNE-hIS~0Y8LHtiLEZ5f88janVvPrqRyQFvJYI4gYi7ndfX8Dz3rlto6bGev0I9RkEPiUY66MBhOsB246MjU-NqWMeJvwBl6s-j1HkOwfzXF1mU160pSyeBTfysKrK3uZ1RcVWAd-qtHywMgk9Y4JBeISeMdD9K2nzf8ZO-OajxLPqJzYOUPr0P01JCYkN9u8oNCMUMH2Yhz1DjT6ZIsX2KcKbG6S40CQd5ItUQQ~KyX2jg1KmR2TWrCOZF1cd2-H4M4mX26M8lf9tTgVqcA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
+15:40:19  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/d67f/c2e9/870e944e8f3126752237d8c2e6ff3b9e?Expires=1649635200&Signature=Rj9YwWNb3tQo1ncEMdzRsHew0S3hOcUpRmvWJw2kA~f7McBiRiKE9NmlgA5JU5uKOxBofORD6EqYOILIeQIQW-eypRVWmXdAZuQJXsUkOz2qgIVr1IKMzSvc-plgQeHO4bkBK8Ez08G4a~~TTUKMnM9Lrza9kS-pKIQ-BD8xUHav5d4bqYUI0psNyN1BU7WLy0fd5tuJJL9iK3S-gOj3gnAFqAaPyKjp7XQW8xiRtj9Bt~3Gt91WNlmUozeZc-OIljVqvuiMV4o0~kVmZe0ev7S3IydfJ6-wsV0b2vmVpnaFltLgwDkvDSfhpfdDOFRTFTLWkwSSE3DahXartPi~Wg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
+15:40:20  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/fd61/8047/bd14007f11754600f784625bd157c7b1?Expires=1649635200&Signature=FC1DsWH7x-LSo9HiZuIJ84sIctxAqyrKeTLuECKJ9VxQWMtHvbz~CMA-5Tugl3jrOC7RqvW~ZkBYlJxBIlHWkSZgDkxYb-2dfeaeta0TdFNAn1En1O7wTF3doDY2Ymn0ww2zQdSX8c8NXRm6Lly~teT4atPepora1l2m0I5pZys8TWps4SOveEJYqTy-tEdiDY8tSe2hwyr1YN52gGmUeom7xL~4RXVIeLoRnMD~xVnPwpKpuDZp6uhorYPBc~OKTIJT76eXepbzXd-mMXBiU3ms4MdDUfs66M18p0vU7AWa71865vOGwANgac4xkT915HbJFtwPtfgJBdRErqi2Sw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
+15:40:20  :: Removed unused components:<br/> ZetaSurgicalSet.DeleteButton_Default_State<br/>ZetaSurgicalSet.EastButton_Default_State<br/>ZetaSurgicalSet.FlipViewButton_Default_State<br/>ZetaSurgicalSet.Frame_18<br/>ZetaSurgicalSet.KeyBoard<br/>ZetaSurgicalSet.KeyboardButton_TopRow<br/>ZetaSurgicalSet.ModifyButton_Default_State<br/>ZetaSurgicalSet.NorthButton_Default_State<br/>ZetaSurgicalSet.PatientInfoText_var_2<br/>ZetaSurgicalSet.PointDisplayPanel<br/>ZetaSurgicalSet.SourhtButton_Default_State<br/>ZetaSurgicalSet.Tabel3TitleBar<br/>ZetaSurgicalSet.Table1TitleBar<br/>ZetaSurgicalSet.Table2TitleBar<br/>ZetaSurgicalSet.TableSlider_Horizontal<br/>ZetaSurgicalSet.TableSlider_Vertical<br/>ZetaSurgicalSet.ToggleButton_Down_Selection<br/>ZetaSurgicalSet.ViewPointButton<br/>ZetaSurgicalSet.WestButton_Default_State<br/>ZetaSurgicalSet.WheelLockButtonTest_Default_State
+15:40:21  :: Extracting font archive: /home/maxim/GreenHouseWorkspace/FontArchives/Arial.zip
 to: /home/maxim/ICS/ZetaSurgical/zeta-surgical/ZetaSurgical.GreenHouse/Themes/DefaultTheme/Fonts
-13:31:39  :: Arial font extraction process finished with exit code: 9
-13:31:39  ::   End-of-central-directory signature not found.  Either this file is not
+15:40:21  :: Arial font extraction process finished with exit code: 9
+15:40:22  ::   End-of-central-directory signature not found.  Either this file is not
   a zipfile, or it constitutes one disk of a multi-part archive.  In the
   latter case the central directory and zipfile comment will be found on
   the last disk(s) of this archive.
 unzip:  cannot find zipfile directory in one of /home/maxim/GreenHouseWorkspace/FontArchives/Arial.zip or
         /home/maxim/GreenHouseWorkspace/FontArchives/Arial.zip.zip, and cannot find /home/maxim/GreenHouseWorkspace/FontArchives/Arial.zip.ZIP, period.
 
-13:31:40  :: Data processing done.
+15:40:23  :: Data processing done.

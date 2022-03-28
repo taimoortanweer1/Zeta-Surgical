@@ -16,15 +16,20 @@
         "anchorValue": "Top"
     },
     "childrenSplit": true,
-    "id": "fi_front_bad01_1_fill_0",
+    "id": "fi_Background",
     "properties": {
-        "source": {
-            "name": "source",
-            "type": "Asset",
-            "value": "/cc90b695ee95181010ade86f083017c4be434dab.png"
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 464
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 1920
         }
     },
-    "targetFile": "fi_front_bad01_1_fill_0.ghuie",
-    "type": "Image",
+    "targetFile": "fi_Background.ghuie",
+    "type": "Item",
     "userDefined": false
 }

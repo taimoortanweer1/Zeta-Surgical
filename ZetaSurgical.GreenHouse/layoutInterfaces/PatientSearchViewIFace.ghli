@@ -1,0 +1,5 @@
+{
+    "base": "Displayable",
+    "name": "PatientSearchViewIFace",
+    "targetFile": "PatientSearchViewIFace.ghli"
+}

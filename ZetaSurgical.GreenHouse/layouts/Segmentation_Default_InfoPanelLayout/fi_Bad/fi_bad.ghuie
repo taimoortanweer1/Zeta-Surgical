@@ -38,7 +38,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 1
+            "value": 2
         }
     },
     "targetFile": "fi_bad.ghuie",

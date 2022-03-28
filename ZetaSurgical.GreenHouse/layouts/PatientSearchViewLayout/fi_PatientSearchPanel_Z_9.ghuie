@@ -1,0 +1,19 @@
+{
+    "childrenSplit": true,
+    "id": "fi_PatientSearchPanel_Z_9",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 1080
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 1920
+        }
+    },
+    "targetFile": "fi_PatientSearchPanel_Z_9.ghuie",
+    "type": "Item",
+    "userDefined": false
+}
