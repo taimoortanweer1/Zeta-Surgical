@@ -11,7 +11,7 @@
         "fi_beginPositioningButton__onEvent__clicked": {
             "name": "fi_beginPositioningButton__onEvent__clicked"
         },
-        "fi_target2Layout__onEvent__clicked": {
+        "fi_target2Layout__onEvent__fi_Buttons_TextLeftAligned_clicked": {
             "arguments": [
                 {
                     "name": "PlanningPresenter_selectTargetAtIndex_index",
@@ -19,7 +19,27 @@
                     "type": "Int"
                 }
             ],
-            "name": "fi_target2Layout__onEvent__clicked"
+            "name": "fi_target2Layout__onEvent__fi_Buttons_TextLeftAligned_clicked"
+        },
+        "fi_target2Layout__onEvent__fi_DeleteButton_clicked": {
+            "arguments": [
+                {
+                    "name": "PlanningPresenter_deleteTargetAtIndex_index",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "fi_target2Layout__onEvent__fi_DeleteButton_clicked"
+        },
+        "fi_target2Layout__onEvent__fi_ModifyButton_clicked": {
+            "arguments": [
+                {
+                    "name": "PlanningPresenter_editTargetAtIndex_index",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "fi_target2Layout__onEvent__fi_ModifyButton_clicked"
         }
     },
     "targetFile": "CT_Planning_Default_InfoPanelIFace.ghli"

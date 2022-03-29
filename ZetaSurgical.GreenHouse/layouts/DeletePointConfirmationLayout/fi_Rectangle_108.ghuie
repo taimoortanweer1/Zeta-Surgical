@@ -1,0 +1,42 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "46:2063"
+    },
+    "id": "fi_Rectangle_108",
+    "properties": {
+        "border-color": {
+            "name": "border-color",
+            "type": "Color",
+            "value": "Outline/Blue 1"
+        },
+        "border-width": {
+            "name": "border-width",
+            "type": "Int",
+            "value": 3
+        },
+        "color": {
+            "name": "color",
+            "type": "Color",
+            "value": "PanelBackground/Transparent"
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 480
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 456
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 1464
+        }
+    },
+    "targetFile": "fi_Rectangle_108.ghuie",
+    "type": "Rectangle",
+    "userDefined": false
+}

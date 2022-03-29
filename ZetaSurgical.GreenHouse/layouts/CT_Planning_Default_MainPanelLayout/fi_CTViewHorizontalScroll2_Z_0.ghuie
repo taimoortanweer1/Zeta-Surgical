@@ -1,5 +1,8 @@
 {
     "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "37:1384"
+    },
     "id": "fi_CTViewHorizontalScroll2_Z_0",
     "properties": {
         "height": {

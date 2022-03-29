@@ -3,9 +3,6 @@
     "hidden": true,
     "name": "SurfaceController",
     "signals": {
-        "hideAddToolOverlayPanel": {
-            "name": "hideAddToolOverlayPanel"
-        },
         "hideBackgroundPanel": {
             "name": "hideBackgroundPanel"
         },
@@ -17,6 +14,9 @@
         },
         "hideMainPanel": {
             "name": "hideMainPanel"
+        },
+        "hideMainView": {
+            "name": "hideMainView"
         },
         "hideMenus": {
             "name": "hideMenus"
@@ -42,9 +42,6 @@
         "hideTitlePanel": {
             "name": "hideTitlePanel"
         },
-        "showAddToolOverlayPanel": {
-            "name": "showAddToolOverlayPanel"
-        },
         "showBackgroundPanel": {
             "name": "showBackgroundPanel"
         },
@@ -56,6 +53,9 @@
         },
         "showMainPanel": {
             "name": "showMainPanel"
+        },
+        "showMainView": {
+            "name": "showMainView"
         },
         "showMenus": {
             "name": "showMenus"
@@ -77,9 +77,6 @@
         },
         "showTitlePanel": {
             "name": "showTitlePanel"
-        },
-        "surfaceAddToolOverlayPanelMoveToCT_Planning_Add_Tool_Overlay_AddToolOverlayPanel": {
-            "name": "surfaceAddToolOverlayPanelMoveToCT_Planning_Add_Tool_Overlay_AddToolOverlayPanel"
         },
         "surfaceBackgroundPanelMoveToBackgroundPanel_Shared0": {
             "name": "surfaceBackgroundPanelMoveToBackgroundPanel_Shared0"
@@ -119,6 +116,9 @@
         },
         "surfaceMainPanelMoveToUpload_SelectStudy_v01_MainPanel": {
             "name": "surfaceMainPanelMoveToUpload_SelectStudy_v01_MainPanel"
+        },
+        "surfaceMainViewMoveToCT_Planning_Add_Tool_Overlay_MainView": {
+            "name": "surfaceMainViewMoveToCT_Planning_Add_Tool_Overlay_MainView"
         },
         "surfaceMenusBack": {
             "name": "surfaceMenusBack"

@@ -1,0 +1,22 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "46:2258"
+    },
+    "id": "fi_closeWindow",
+    "properties": {
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 1856
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 5
+        }
+    },
+    "targetFile": "fi_closeWindow.ghuie",
+    "type": "ZetaSurgicalSet.CloseWindowButton_Default_State",
+    "userDefined": false
+}

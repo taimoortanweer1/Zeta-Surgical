@@ -1,0 +1,38 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "46:2065"
+    },
+    "id": "fi_yes",
+    "properties": {
+        "fi_TEXT_text": {
+            "name": "fi_TEXT_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I46:2065;35:1346",
+            "value": "YES"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 180
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 1708
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 272
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "targetFile": "fi_yes.ghuie",
+    "type": "ZetaSurgicalSet.DecisionButton",
+    "userDefined": false
+}

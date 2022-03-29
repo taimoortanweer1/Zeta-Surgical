@@ -1,0 +1,42 @@
+{
+    "anchorBottom": {
+        "anchorTarget": "fi_ListView_Points",
+        "anchorValue": "Bottom"
+    },
+    "anchorRight": {
+        "anchorMargin": -72,
+        "anchorTarget": "fi_ListView_Points",
+        "anchorValue": "Right"
+    },
+    "anchorTop": {
+        "anchorTarget": "fi_ListView_Points",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "id": "fi_scrollBar_ListView_Points",
+    "properties": {
+        "flickable": {
+            "name": "flickable",
+            "type": "ItemRef",
+            "value": "fi_ListView_Points"
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 224
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 72
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 3
+        }
+    },
+    "targetFile": "fi_scrollBar_ListView_Points.ghuie",
+    "type": "ComponentsSet.ScrollBar",
+    "userDefined": false
+}

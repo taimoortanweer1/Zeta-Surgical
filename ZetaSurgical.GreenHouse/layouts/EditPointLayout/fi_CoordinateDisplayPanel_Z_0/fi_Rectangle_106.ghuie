@@ -1,0 +1,63 @@
+{
+    "anchorBottom": {
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorLeft": {
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorRight": {
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "anchorTop": {
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "46:2250"
+    },
+    "id": "fi_Rectangle_106",
+    "properties": {
+        "border-bottom": {
+            "name": "border-bottom",
+            "type": "Int",
+            "value": 50
+        },
+        "border-left": {
+            "name": "border-left",
+            "type": "Int",
+            "value": 50
+        },
+        "border-right": {
+            "name": "border-right",
+            "type": "Int",
+            "value": 50
+        },
+        "border-top": {
+            "name": "border-top",
+            "type": "Int",
+            "value": 50
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 320
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/46_2250.png"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 424
+        }
+    },
+    "targetFile": "fi_Rectangle_106.ghuie",
+    "type": "BorderImage",
+    "userDefined": false
+}

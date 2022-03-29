@@ -278,5 +278,13 @@
         "colorHEX": "#ffffffff",
         "colorR": 255,
         "name": "Dark Ink"
+    },
+    {
+        "colorA": 255,
+        "colorB": 32,
+        "colorG": 29,
+        "colorHEX": "#ff1b1d20",
+        "colorR": 27,
+        "name": "PanelBackground/Grey 0"
     }
 ]

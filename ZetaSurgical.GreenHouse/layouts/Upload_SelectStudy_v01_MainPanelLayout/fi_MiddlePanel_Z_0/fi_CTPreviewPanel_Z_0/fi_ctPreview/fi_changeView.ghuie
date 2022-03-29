@@ -20,7 +20,7 @@
             "bindingSrc": "PatientsDatabase",
             "name": "fi_Coronal_text",
             "type": "TranslatableString",
-            "uuid": "{4a5c88a8-fbb0-411f-b480-dc70406689dc}",
+            "uuid": "FigmaNode::I164:7528;21:6440",
             "value": "Coronal"
         },
         "fi_ListView_DropDown_FitDelegate_viewModel": {

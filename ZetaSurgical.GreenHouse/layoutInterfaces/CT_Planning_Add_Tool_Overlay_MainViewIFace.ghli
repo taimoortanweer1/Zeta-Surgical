@@ -1,0 +1,5 @@
+{
+    "base": "Displayable",
+    "name": "CT_Planning_Add_Tool_Overlay_MainViewIFace",
+    "targetFile": "CT_Planning_Add_Tool_Overlay_MainViewIFace.ghli"
+}

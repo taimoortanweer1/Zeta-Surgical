@@ -1,0 +1,98 @@
+{
+    "anchorBottom": {
+        "anchorMargin": 111,
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorLeft": {
+        "anchorMargin": 183,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorRight": {
+        "anchorMargin": 47,
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "anchorTop": {
+        "anchorMargin": 111,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "46:2255"
+    },
+    "id": "fi_Y_Data",
+    "properties": {
+        "font": {
+            "name": "font",
+            "type": "Font",
+            "value": "Figma::Arial_BoldMT_60_75_0_0_0_0_0"
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 98
+        },
+        "horizontalAlignment": {
+            "name": "horizontalAlignment",
+            "type": "TextHorizontalAlignment",
+            "value": "AlignRight"
+        },
+        "lineHeight": {
+            "name": "lineHeight",
+            "type": "Float",
+            "value": 16
+        },
+        "lineHeightMode": {
+            "name": "lineHeightMode",
+            "type": "TextLineHeightMode",
+            "value": "FixedHeight"
+        },
+        "text": {
+            "name": "text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::46:2255",
+            "value": "-42.43"
+        },
+        "textColor": {
+            "name": "textColor",
+            "type": "Color",
+            "value": "Text/Blue 0 - Data"
+        },
+        "verticalAlignment": {
+            "name": "verticalAlignment",
+            "type": "TextVerticalAlignment",
+            "value": "AlignVCenter"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 194
+        },
+        "wrapMode": {
+            "name": "wrapMode",
+            "type": "TextWrapMode",
+            "value": "WordWrap"
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 183
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 111
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 5
+        }
+    },
+    "targetFile": "fi_Y_Data.ghuie",
+    "type": "ComponentsSet.Label",
+    "userDefined": false
+}
