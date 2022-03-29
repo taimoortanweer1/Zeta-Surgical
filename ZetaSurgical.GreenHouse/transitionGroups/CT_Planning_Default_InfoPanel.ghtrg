@@ -55,6 +55,24 @@
                     "type": "RawCode"
                 }
             ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_target2Layout__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PlanningPresenter, co) co->selectTargetAtIndex(args.at(0).toInt());\n}\n",
+                    "type": "RawCode"
+                }
+            ]
         }
     ]
 }

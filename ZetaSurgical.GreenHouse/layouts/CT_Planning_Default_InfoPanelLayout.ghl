@@ -90,10 +90,23 @@
                             "uuid": "FigmaNode::I78:2549;34:2716",
                             "value": "Target 2"
                         },
+                        "selectionIndex": {
+                            "bindingProp": "selectedTargetIndex",
+                            "bindingSrc": "PlanningPresenter",
+                            "name": "selectionIndex",
+                            "type": "Int",
+                            "value": -1
+                        },
                         "width": {
                             "name": "width",
                             "type": "Int",
                             "value": 352
+                        }
+                    },
+                    "signals": {
+                        "clicked": {
+                            "name": "clicked",
+                            "rawCode": "root.itemInterface.fi_target2Layout__onEvent__clicked(index)\n"
                         }
                     },
                     "targetFile": "fi_target2Layout.ghuie",
@@ -139,5 +152,6 @@
         "type": "Sequential"
     },
     "targetFile": "CT_Planning_Default_InfoPanelLayout.ghl",
+    "uuid": "{a0e262c7-fcfb-4f0d-8741-349d30a4a02d}",
     "width": 456
 }

@@ -10,6 +10,16 @@
         },
         "fi_beginPositioningButton__onEvent__clicked": {
             "name": "fi_beginPositioningButton__onEvent__clicked"
+        },
+        "fi_target2Layout__onEvent__clicked": {
+            "arguments": [
+                {
+                    "name": "PlanningPresenter_selectTargetAtIndex_index",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "fi_target2Layout__onEvent__clicked"
         }
     },
     "targetFile": "CT_Planning_Default_InfoPanelIFace.ghli"
