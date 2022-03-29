@@ -41,7 +41,8 @@ public:
         Sex,
         Studies,
         SessionID,
-        Date
+        Date,
+        Index
     };
     explicit PatientsModel(QObject *parent = nullptr);
     void addPatient(Patient const &patient);

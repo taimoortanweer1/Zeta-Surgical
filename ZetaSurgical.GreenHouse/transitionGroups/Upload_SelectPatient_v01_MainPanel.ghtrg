@@ -37,6 +37,24 @@
                     "type": "RawCode"
                 }
             ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_Table1DelegateListItem_Button__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PatientsDatabase, co) co->setSelectedPatientIndex(args.at(0).toInt());\n}\n",
+                    "type": "RawCode"
+                }
+            ]
         }
     ]
 }

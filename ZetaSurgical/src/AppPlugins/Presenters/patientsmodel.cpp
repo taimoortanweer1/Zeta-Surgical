@@ -41,6 +41,8 @@ QVariant PatientsModel::data(const QModelIndex &index, int role) const
         res = patient.sessionID;
     if(role == Date)
         res = patient.date.toString(QString::fromLatin1(DATE_FORMAT));
+    if(role == Index)
+        res = index.row();
     return res;
 }
 
@@ -54,6 +56,7 @@ QHash<int, QByteArray> PatientsModel::roleNames() const
     roles[Studies] = "studies";
     roles[SessionID] = "sessionID";
     roles[Date] = "date";
+    roles[Index] = "index";
     return roles;
 }
 

@@ -15,6 +15,7 @@
                     {
                         "date": "date_0",
                         "dob": "dob_0",
+                        "index": "",
                         "mrn": "mrn_0",
                         "name": "name_0",
                         "sessionID": "sessionID_0",
@@ -24,6 +25,7 @@
                     {
                         "date": "date_1",
                         "dob": "dob_1",
+                        "index": "",
                         "mrn": "mrn_1",
                         "name": "name_1",
                         "sessionID": "sessionID_1",
@@ -33,6 +35,7 @@
                     {
                         "date": "date_2",
                         "dob": "dob_2",
+                        "index": "",
                         "mrn": "mrn_2",
                         "name": "name_2",
                         "sessionID": "sessionID_2",
@@ -42,6 +45,7 @@
                     {
                         "date": "date_3",
                         "dob": "dob_3",
+                        "index": "",
                         "mrn": "mrn_3",
                         "name": "name_3",
                         "sessionID": "sessionID_3",
@@ -51,6 +55,7 @@
                     {
                         "date": "date_4",
                         "dob": "dob_4",
+                        "index": "",
                         "mrn": "mrn_4",
                         "name": "name_4",
                         "sessionID": "sessionID_4",
@@ -60,6 +65,7 @@
                     {
                         "date": "date_5",
                         "dob": "dob_5",
+                        "index": "",
                         "mrn": "mrn_5",
                         "name": "name_5",
                         "sessionID": "sessionID_5",
@@ -69,6 +75,7 @@
                     {
                         "date": "date_6",
                         "dob": "dob_6",
+                        "index": "",
                         "mrn": "mrn_6",
                         "name": "name_6",
                         "sessionID": "sessionID_6",
@@ -78,6 +85,7 @@
                     {
                         "date": "date_7",
                         "dob": "dob_7",
+                        "index": "",
                         "mrn": "mrn_7",
                         "name": "name_7",
                         "sessionID": "sessionID_7",
@@ -87,6 +95,7 @@
                     {
                         "date": "date_8",
                         "dob": "dob_8",
+                        "index": "",
                         "mrn": "mrn_8",
                         "name": "name_8",
                         "sessionID": "sessionID_8",
@@ -96,6 +105,7 @@
                     {
                         "date": "date_9",
                         "dob": "dob_9",
+                        "index": "",
                         "mrn": "mrn_9",
                         "name": "name_9",
                         "sessionID": "sessionID_9",
@@ -113,7 +123,8 @@
                     "sex",
                     "studies",
                     "sessionID",
-                    "date"
+                    "date",
+                    "index"
                 ],
                 "type": "Model"
             },
@@ -121,6 +132,11 @@
                 "name": "filterString",
                 "preview": null,
                 "type": "String"
+            },
+            {
+                "name": "selectedPatientIndex",
+                "preview": -1,
+                "type": "Int"
             }
         ]
     },
