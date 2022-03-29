@@ -13,6 +13,17 @@
                 "signal": "surfaceScreensMoveToUpload_SelectStudy_v01_ScreenState"
             },
             "template": "SignalTransition"
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "PatientsDatabase",
+                "senderStringType": "%1",
+                "signal": "patientSelected"
+            },
+            "template": "SignalTransition"
         }
     ],
     "uuid": "{1c131414-0080-4b44-b8e6-c5b0d327a6ae}"

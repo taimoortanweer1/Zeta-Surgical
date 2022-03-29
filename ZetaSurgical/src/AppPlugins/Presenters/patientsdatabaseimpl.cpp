@@ -6,6 +6,7 @@ PatientsDatabaseImpl::PatientsDatabaseImpl(PopupsPresenterImpl *popupsPresenter)
     : ZetaSurgical::PatientsDatabase()
     , m_patientsModel(new PatientsModel(this))
     , m_filterModel(new PatientsFilterModel(this))
+    , m_studiesList(new StudiesList(this))
     , m_popupsPresenter(popupsPresenter)
 {
     Q_ASSERT(m_popupsPresenter);
@@ -53,6 +54,11 @@ void PatientsDatabaseImpl::init()
         m_patientsModel->addPatient(patient);
     }
     setPatientsList(m_filterModel);
+
+    for(int i = 0; i < 10; ++i) {
+        m_studiesList->addStudy(StudyData {QDate::currentDate(), i, QStringLiteral("Description"), 5, QDate::currentDate()});
+    }
+    setStudiesList(m_studiesList);
 }
 
 void PatientsDatabaseImpl::onFilterEditRequested()
@@ -61,4 +67,13 @@ void PatientsDatabaseImpl::onFilterEditRequested()
         setFilterString(text);
         m_filterModel->setFilterString(text);
     });
+}
+
+void PatientsDatabaseImpl::selectPatient(int index)
+{
+    setSelectedPatientIndex(index);
+    setSelectedPatientNameString(m_filterModel->getData(index, PatientsModel::Name).toString());
+    setSelectedPatientDOBString(m_filterModel->getData(index, PatientsModel::DOB).toString());
+    setSelectedPatientMRNString(m_filterModel->getData(index, PatientsModel::MRN).toString());
+    emit patientSelected();
 }

@@ -2,6 +2,9 @@
     "base": "Displayable",
     "name": "NavPanel_Shared0IFace",
     "signals": {
+        "back": {
+            "name": "back"
+        },
         "fi_navBar__onEvent__fi_Button_Navigation_Planning_clicked": {
             "name": "fi_navBar__onEvent__fi_Button_Navigation_Planning_clicked"
         },

@@ -73,6 +73,24 @@
                     "type": "RawCode"
                 }
             ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "back",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceScreensBack();\n}\n",
+                    "type": "RawCode"
+                }
+            ]
         }
     ]
 }

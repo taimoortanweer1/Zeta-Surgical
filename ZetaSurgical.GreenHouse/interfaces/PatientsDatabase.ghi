@@ -4,6 +4,16 @@
     "methods": {
         "onFilterEditRequested": {
             "name": "onFilterEditRequested"
+        },
+        "selectPatient": {
+            "arguments": [
+                {
+                    "name": "index",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "selectPatient"
         }
     },
     "name": "PatientsDatabase",
@@ -137,8 +147,106 @@
                 "name": "selectedPatientIndex",
                 "preview": -1,
                 "type": "Int"
+            },
+            {
+                "complex": true,
+                "data": [
+                    {
+                        "date": "date_0",
+                        "description": "description_0",
+                        "id": "id_0",
+                        "index": "",
+                        "nos": "nos_0",
+                        "studyDate": "studyDate_0"
+                    },
+                    {
+                        "date": "date_1",
+                        "description": "description_1",
+                        "id": "id_1",
+                        "index": "",
+                        "nos": "nos_1",
+                        "studyDate": "studyDate_1"
+                    },
+                    {
+                        "date": "date_2",
+                        "description": "description_2",
+                        "id": "id_2",
+                        "index": "",
+                        "nos": "nos_2",
+                        "studyDate": "studyDate_2"
+                    },
+                    {
+                        "date": "date_3",
+                        "description": "description_3",
+                        "id": "id_3",
+                        "index": "",
+                        "nos": "nos_3",
+                        "studyDate": "studyDate_3"
+                    },
+                    {
+                        "date": "date_4",
+                        "description": "description_4",
+                        "id": "id_4",
+                        "index": "",
+                        "nos": "nos_4",
+                        "studyDate": "studyDate_4"
+                    },
+                    {
+                        "date": "date_5",
+                        "description": "description_5",
+                        "id": "id_5",
+                        "index": "",
+                        "nos": "nos_5",
+                        "studyDate": "studyDate_5"
+                    },
+                    {
+                        "date": "date_6",
+                        "description": "description_6",
+                        "id": "id_6",
+                        "index": "",
+                        "nos": "nos_6",
+                        "studyDate": "studyDate_6"
+                    }
+                ],
+                "name": "studiesList",
+                "preview": null,
+                "readonly": true,
+                "roles": [
+                    "date",
+                    "id",
+                    "description",
+                    "nos",
+                    "studyDate",
+                    "index"
+                ],
+                "type": "Model"
+            },
+            {
+                "name": "studiesListSelectedIndex",
+                "preview": -1,
+                "type": "Int"
+            },
+            {
+                "name": "selectedPatientNameString",
+                "preview": null,
+                "type": "String"
+            },
+            {
+                "name": "selectedPatientMRNString",
+                "preview": null,
+                "type": "String"
+            },
+            {
+                "name": "selectedPatientDOBString",
+                "preview": null,
+                "type": "String"
             }
         ]
+    },
+    "signals": {
+        "patientSelected": {
+            "name": "patientSelected"
+        }
     },
     "targetFile": "PatientsDatabase.ghi",
     "uuid": "{10903347-a86c-4012-9577-1cdfde5e72f0}"

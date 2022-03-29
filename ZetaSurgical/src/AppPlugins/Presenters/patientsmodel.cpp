@@ -3,7 +3,7 @@
 char const * DATE_FORMAT = "dd/MM/yy";
 
 PatientsModel::PatientsModel(QObject *parent)
-    : QAbstractListModel{parent}
+    : QAbstractListModel(parent)
 {
 
 }
@@ -72,6 +72,12 @@ void PatientsFilterModel::setFilterString(QString filter)
     invalidate();
 }
 
+QVariant PatientsFilterModel::getData(int ind, int role) const
+{
+    auto const sourceIndex = mapToSource(index(ind, 0));
+    return sourceModel()->data(sourceIndex, role);
+}
+
 bool PatientsFilterModel::filterAcceptsRow(int source_row, const QModelIndex &source_parent) const
 {
     Q_UNUSED(source_parent);
@@ -79,4 +85,56 @@ bool PatientsFilterModel::filterAcceptsRow(int source_row, const QModelIndex &so
     if(m_filter.isEmpty())
         return true;
     return sourceModel()->data(sourceModel()->index(source_row, 0), PatientsModel::Name).toString().startsWith(m_filter);
+}
+
+StudiesList::StudiesList(QObject *parent)
+    : QAbstractListModel(parent)
+{
+
+}
+
+void StudiesList::addStudy(const StudyData &data)
+{
+    m_data << data;
+}
+
+int StudiesList::rowCount(const QModelIndex &parent) const
+{
+    Q_UNUSED(parent);
+    return m_data.count();
+}
+
+QVariant StudiesList::data(const QModelIndex &index, int role) const
+{
+    QVariant res;
+    if(!index.isValid())
+        return res;
+    if(index.row() < 0 || index.row() >= m_data.count())
+        return res;
+    auto const &study = m_data.at(index.row());
+    if(role == StudyDate)
+        res = study.studyDate.toString(QString::fromLatin1(DATE_FORMAT));;
+    if(role == ID)
+        res = study.id;
+    if(role == Description)
+        res = study.description;
+    if(role == NOS)
+        res = study.nos;
+    if(role == Date)
+        res = study.date.toString(QString::fromLatin1(DATE_FORMAT));;
+    if(role == Index)
+        res = index.row();
+    return res;
+}
+
+QHash<int, QByteArray> StudiesList::roleNames() const
+{
+    QHash<int, QByteArray> roles;
+    roles[StudyDate] = "studyDate";
+    roles[ID] = "id";
+    roles[Description] = "description";
+    roles[NOS] = "nos";
+    roles[Date] = "date";
+    roles[Index] = "index";
+    return roles;
 }

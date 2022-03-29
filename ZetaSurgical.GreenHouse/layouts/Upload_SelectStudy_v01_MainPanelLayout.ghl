@@ -70,6 +70,62 @@
                         "FIGMA_ID": "164:7885"
                     },
                     "id": "fi_Table2DelegateListItem_Button",
+                    "properties": {
+                        "fi_02_14_2022_text": {
+                            "bindingRole": "date",
+                            "name": "fi_02_14_2022_text",
+                            "type": "TranslatableString",
+                            "uuid": "{cc5c0439-464c-472b-84c8-7d42a33452a6}",
+                            "value": "02/14/2022"
+                        },
+                        "fi_02_2_2022_text": {
+                            "bindingRole": "studyDate",
+                            "name": "fi_02_2_2022_text",
+                            "type": "TranslatableString",
+                            "uuid": "{13a230d0-d459-4bda-a411-d9ce981b2b27}",
+                            "value": "02/1/2022"
+                        },
+                        "fi_5_text": {
+                            "bindingRole": "nos",
+                            "name": "fi_5_text",
+                            "type": "TranslatableString",
+                            "uuid": "{89786490-302f-4cb4-9617-3b1c9c8f13b5}",
+                            "value": "5"
+                        },
+                        "fi_BWH12345_text": {
+                            "bindingRole": "id",
+                            "name": "fi_BWH12345_text",
+                            "type": "TranslatableString",
+                            "uuid": "{8825afc3-c281-4a10-9688-766499808edc}",
+                            "value": "BWH-12344"
+                        },
+                        "fi_CT_Scans_and_stuff_text": {
+                            "bindingRole": "description",
+                            "name": "fi_CT_Scans_and_stuff_text",
+                            "type": "TranslatableString",
+                            "uuid": "{f112e880-f6c2-4462-84cf-b4691d785488}",
+                            "value": "CT scans and MRI things"
+                        },
+                        "itemIndex": {
+                            "bindingRole": "index",
+                            "name": "itemIndex",
+                            "type": "Int",
+                            "value": 0
+                        },
+                        "selectionIndex": {
+                            "bindingProp": "studiesListSelectedIndex",
+                            "bindingSrc": "PatientsDatabase",
+                            "name": "selectionIndex",
+                            "type": "Int",
+                            "value": -1
+                        }
+                    },
+                    "signals": {
+                        "clicked": {
+                            "name": "clicked",
+                            "rawCode": "root.itemInterface.fi_Table2DelegateListItem_Button__onEvent__clicked(index)\n"
+                        }
+                    },
                     "targetFile": "fi_Table2DelegateListItem_Button.ghuie",
                     "type": "ZetaSurgicalSet.Table2DelegateListItem_Button",
                     "userDefined": false
@@ -78,6 +134,8 @@
             "childrenSplit": true,
             "id": "fi_ListView_StudiesTable_Fit_Delegate_delegate",
             "model": {
+                "bindingProp": "studiesList",
+                "bindingSrc": "PatientsDatabase",
                 "name": "modelProperty",
                 "type": "Model",
                 "value": null

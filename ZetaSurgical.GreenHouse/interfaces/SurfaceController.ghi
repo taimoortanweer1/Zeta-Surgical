@@ -147,6 +147,9 @@
         "surfaceRightInfoPanelMoveToPositionNEST_Variation1_RightInfoPanel": {
             "name": "surfaceRightInfoPanelMoveToPositionNEST_Variation1_RightInfoPanel"
         },
+        "surfaceScreensBack": {
+            "name": "surfaceScreensBack"
+        },
         "surfaceScreensMoveToCT_Planning_Add_Tool_Overlay_ScreenState": {
             "name": "surfaceScreensMoveToCT_Planning_Add_Tool_Overlay_ScreenState"
         },

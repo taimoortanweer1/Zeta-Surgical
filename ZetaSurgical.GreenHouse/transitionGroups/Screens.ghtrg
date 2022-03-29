@@ -1,0 +1,18 @@
+{
+    "source": "Screens",
+    "targetFile": "Screens.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": true,
+                "blockedIfTargetActive": true,
+                "internal": false,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceScreensBack"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{f0219e2d-f1a5-4510-9b0f-e1eb67a5fa49}"
+}

@@ -2,6 +2,16 @@
     "base": "Displayable",
     "name": "Upload_SelectStudy_v01_MainPanelIFace",
     "signals": {
+        "fi_Table2DelegateListItem_Button__onEvent__clicked": {
+            "arguments": [
+                {
+                    "name": "newValue_PatientsDatabase_studiesListSelectedIndex",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "fi_Table2DelegateListItem_Button__onEvent__clicked"
+        },
         "fi_importScan__onEvent__clicked": {
             "name": "fi_importScan__onEvent__clicked"
         }

@@ -51,7 +51,7 @@
             "template": "ItemSignalTransition",
             "triggeredActions": [
                 {
-                    "rawCode": "{\nCONTEXT_OBJECT(PatientsDatabase, co) co->setSelectedPatientIndex(args.at(0).toInt());\n}\n",
+                    "rawCode": "{\nCONTEXT_OBJECT(PatientsDatabase, co) co->selectPatient(args.at(0).toInt());\n}\n",
                     "type": "RawCode"
                 }
             ]

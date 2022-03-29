@@ -5,7 +5,7 @@
         "fi_Table1DelegateListItem_Button__onEvent__clicked": {
             "arguments": [
                 {
-                    "name": "newValue_PatientsDatabase_selectedPatientIndex",
+                    "name": "PatientsDatabase_selectPatient_index",
                     "preview": null,
                     "type": "Int"
                 }

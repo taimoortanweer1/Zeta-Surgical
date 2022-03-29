@@ -14,6 +14,14 @@
     },
     "id": "fi_PatientInfoText_var_1",
     "properties": {
+        "fi_01_01_1990_text": {
+            "bindingProp": "selectedPatientDOBString",
+            "bindingSrc": "PatientsDatabase",
+            "name": "fi_01_01_1990_text",
+            "type": "TranslatableString",
+            "uuid": "{6e227949-5c37-4843-9036-5bbff1b056e1}",
+            "value": "01/01/1990"
+        },
         "fi_9089123423_text": {
             "name": "fi_9089123423_text",
             "type": "TranslatableString",
@@ -21,10 +29,20 @@
             "value": "9089123423 "
         },
         "fi_John_Doe_text": {
+            "bindingProp": "selectedPatientNameString",
+            "bindingSrc": "PatientsDatabase",
             "name": "fi_John_Doe_text",
             "type": "TranslatableString",
             "uuid": "FigmaNode::I164:8283;164:8232",
             "value": "John Doe "
+        },
+        "fi_MRN__text": {
+            "bindingProp": "selectedPatientMRNString",
+            "bindingSrc": "PatientsDatabase",
+            "name": "fi_MRN__text",
+            "type": "TranslatableString",
+            "uuid": "{84b12df7-0655-49b8-919b-b3e1dcb73012}",
+            "value": "MRN:"
         },
         "x": {
             "name": "x",
