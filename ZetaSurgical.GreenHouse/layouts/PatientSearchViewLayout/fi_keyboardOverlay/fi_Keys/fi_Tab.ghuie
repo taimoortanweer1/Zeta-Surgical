@@ -9,6 +9,9 @@
         "anchorValue": "Top"
     },
     "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "I289:2593;211:5870"
+    },
     "id": "fi_Tab",
     "properties": {
         "fi_Letter_lineHeight": {

@@ -24,9 +24,6 @@
         "hideNavPanel": {
             "name": "hideNavPanel"
         },
-        "hideOtherButtonPanel": {
-            "name": "hideOtherButtonPanel"
-        },
         "hideOverlayPanel": {
             "name": "hideOverlayPanel"
         },
@@ -65,9 +62,6 @@
         },
         "showNavPanel": {
             "name": "showNavPanel"
-        },
-        "showOtherButtonPanel": {
-            "name": "showOtherButtonPanel"
         },
         "showOverlayPanel": {
             "name": "showOverlayPanel"
@@ -131,9 +125,6 @@
         },
         "surfaceNavPanelMoveToNavPanel_Shared0": {
             "name": "surfaceNavPanelMoveToNavPanel_Shared0"
-        },
-        "surfaceOtherButtonPanelMoveToConfirmRegistrationPRE_Adjustment_Cut_OtherButtonPanel": {
-            "name": "surfaceOtherButtonPanelMoveToConfirmRegistrationPRE_Adjustment_Cut_OtherButtonPanel"
         },
         "surfaceOverlayPanelMoveToUpload_GenericModalOverlay_OverlayPanel": {
             "name": "surfaceOverlayPanelMoveToUpload_GenericModalOverlay_OverlayPanel"

@@ -18,28 +18,28 @@ Item {
     property bool doubleClickEnabeld: false
     property int minimumRepeatInterval: 100
     property int repeateInterval: 1000
-    //FONT Figma::Arial_ArialMT_18_50_0_0_0_0_0.2
-    property alias fi_Axial_font: fi_Axial___default.font
-    //TEXTHAL 1
-    property alias fi_Axial_horizontalAlignment: fi_Axial___default.horizontalAlignment
-    //REAL 20
-    property alias fi_Axial_lineHeight: fi_Axial___default.lineHeight
-    //TEXTLINEHM 1
-    property alias fi_Axial_lineHeightMode: fi_Axial___default.lineHeightMode
-    //REAL 1
-    property alias fi_Axial_opacity: fi_Axial___default.opacity
-    //BOOL false
-    property alias fi_Axial_richText: fi_Axial___default.richText
-    //TRANSLATABLE Axial
-    property alias fi_Axial_text: fi_Axial___default.text
-    //COLOR Text/White
-    property alias fi_Axial_textColor: fi_Axial___default.textColor
-    //TEXTVAL 128
-    property alias fi_Axial_verticalAlignment: fi_Axial___default.verticalAlignment
     //COLOR Fill/Light Grey 1
     property alias fi_Rectangle_62___default_color: fi_Rectangle_62___default.color
     //REAL 1
     property alias fi_Rectangle_62___default_opacity: fi_Rectangle_62___default.opacity
+    //FONT Figma::Arial_ArialMT_18_50_0_0_0_0_0.2
+    property alias fi_label_Role_Value_font: fi_label_Role_Value___default.font
+    //TEXTHAL 1
+    property alias fi_label_Role_Value_horizontalAlignment: fi_label_Role_Value___default.horizontalAlignment
+    //REAL 20
+    property alias fi_label_Role_Value_lineHeight: fi_label_Role_Value___default.lineHeight
+    //TEXTLINEHM 1
+    property alias fi_label_Role_Value_lineHeightMode: fi_label_Role_Value___default.lineHeightMode
+    //REAL 1
+    property alias fi_label_Role_Value_opacity: fi_label_Role_Value___default.opacity
+    //BOOL false
+    property alias fi_label_Role_Value_richText: fi_label_Role_Value___default.richText
+    //TRANSLATABLE Axial
+    property alias fi_label_Role_Value_text: fi_label_Role_Value___default.text
+    //COLOR Text/White
+    property alias fi_label_Role_Value_textColor: fi_label_Role_Value___default.textColor
+    //TEXTVAL 128
+    property alias fi_label_Role_Value_verticalAlignment: fi_label_Role_Value___default.verticalAlignment
 
     //----------------------------------------------------------------------------------------------
 
@@ -101,7 +101,7 @@ Item {
         }
     }
     ComponentsSet.Label {
-        id: fi_Axial___default
+        id: fi_label_Role_Value___default
         anchors.right: parent.right
         anchors.rightMargin: -1
         anchors.verticalCenter: parent.verticalCenter

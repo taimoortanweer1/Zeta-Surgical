@@ -1,5 +1,8 @@
 {
     "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "289:2593"
+    },
     "id": "fi_keyboardOverlay",
     "properties": {
         "height": {

@@ -10,6 +10,9 @@
         "anchorValue": "Top"
     },
     "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "289:2803"
+    },
     "id": "fi_search",
     "properties": {
         "input_focus": {

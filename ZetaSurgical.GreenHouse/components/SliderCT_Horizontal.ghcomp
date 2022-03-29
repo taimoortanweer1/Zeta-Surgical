@@ -1,0 +1,159 @@
+{
+    "aliasList": {
+        "sliderItem": [
+            {
+                "aliasElement": "value",
+                "aliasName": "sliderItem_value",
+                "aliasSource": "sliderItem"
+            },
+            {
+                "aliasElement": "min",
+                "aliasName": "sliderItem_min",
+                "aliasSource": "sliderItem"
+            },
+            {
+                "aliasElement": "max",
+                "aliasName": "sliderItem_max",
+                "aliasSource": "sliderItem"
+            },
+            {
+                "aliasElement": "stepSize",
+                "aliasName": "sliderItem_stepSize",
+                "aliasSource": "sliderItem"
+            },
+            {
+                "aliasElement": "knobInset",
+                "aliasName": "sliderItem_knobInset",
+                "aliasSource": "sliderItem"
+            },
+            {
+                "aliasElement": "dynamicValueReporting",
+                "aliasName": "sliderItem_dynamicValueReporting",
+                "aliasSource": "sliderItem"
+            }
+        ]
+    },
+    "componentLayout": {
+        "blockInputFallthrough": true,
+        "children": [
+            {
+                "children": [
+                    {
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorVCenter": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "VerticalCenter"
+                        },
+                        "childrenSplit": true,
+                        "id": "sliderItem",
+                        "properties": {
+                            "backgroundSource": {
+                                "name": "backgroundSource",
+                                "type": "Asset",
+                                "value": "/78_2160.png"
+                            },
+                            "bottomBackgroundAssetBorder": {
+                                "name": "bottomBackgroundAssetBorder",
+                                "type": "Int",
+                                "value": 3
+                            },
+                            "fillMargin": {
+                                "name": "fillMargin",
+                                "type": "Int",
+                                "value": 3
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 8
+                            },
+                            "knobSource": {
+                                "name": "knobSource",
+                                "type": "Asset",
+                                "value": "/78_2161.png"
+                            },
+                            "leftBackgroundAssetBorder": {
+                                "name": "leftBackgroundAssetBorder",
+                                "type": "Int",
+                                "value": 3
+                            },
+                            "rightBackgroundAssetBorder": {
+                                "name": "rightBackgroundAssetBorder",
+                                "type": "Int",
+                                "value": 3
+                            },
+                            "topBackgroundAssetBorder": {
+                                "name": "topBackgroundAssetBorder",
+                                "type": "Int",
+                                "value": 3
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 176
+                            }
+                        },
+                        "targetFile": "sliderItem.ghuie",
+                        "type": "ComponentsSet.SliderItem",
+                        "userDefined": false
+                    }
+                ],
+                "childrenSplit": true,
+                "id": "root",
+                "properties": {
+                    "height": {
+                        "name": "height",
+                        "type": "Int",
+                        "value": 8
+                    },
+                    "width": {
+                        "name": "width",
+                        "type": "Int",
+                        "value": 176
+                    }
+                },
+                "targetFile": "root.ghuie",
+                "type": "Item",
+                "userDefined": false
+            }
+        ],
+        "childrenSplit": true,
+        "fillParent": false,
+        "height": 8,
+        "hideAnimation": {
+            "type": "Sequential"
+        },
+        "interfaceName": "",
+        "name": "___TEMP_LAYOUT___ZetaSurgicalSet.SliderCT_Horizontal",
+        "posX": 0,
+        "posY": 0,
+        "rootContainerType": "Item",
+        "showAnimation": {
+            "type": "Sequential"
+        },
+        "targetFile": "___TEMP_LAYOUT___ZetaSurgicalSet.SliderCT_Horizontal.ghl",
+        "width": 176
+    },
+    "componentName": "ZetaSurgicalSet.SliderCT_Horizontal",
+    "properties": [
+    ],
+    "signalList": {
+        "sliderItem": [
+            {
+                "aliasElement": "valueChangeRequested",
+                "aliasName": "sliderItem_valueChangeRequested",
+                "aliasSource": "sliderItem"
+            }
+        ]
+    },
+    "states": {
+    },
+    "targetFile": "SliderCT_Horizontal.ghcomp"
+}

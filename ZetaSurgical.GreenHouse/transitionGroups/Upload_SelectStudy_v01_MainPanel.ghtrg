@@ -55,6 +55,42 @@
                     "type": "RawCode"
                 }
             ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_changeView__onEvent__selectionMade",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PatientsDatabase, co) co->viewSelected(args.at(0).value<QVariant>(), args.at(1).toInt());\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_SliderCtPreview__onEvent__sliderItem_valueChangeRequested",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PatientsDatabase, co) co->previewZoomSliderMoved(args.at(0).toInt());\n}\n",
+                    "type": "RawCode"
+                }
+            ]
         }
     ]
 }

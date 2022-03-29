@@ -15,6 +15,13 @@
     },
     "id": "fi_changeView",
     "properties": {
+        "fi_ListView_DropDown_FitDelegate_viewModel": {
+            "bindingProp": "viewsModel",
+            "bindingSrc": "PatientsDatabase",
+            "name": "fi_ListView_DropDown_FitDelegate_viewModel",
+            "type": "Model",
+            "value": "null"
+        },
         "x": {
             "name": "x",
             "type": "Int",
@@ -29,6 +36,13 @@
             "name": "z",
             "type": "Int",
             "value": 4
+        }
+    },
+    "signals": {
+        "selectionMade": {
+            "arguments": "var valueRole, int index",
+            "name": "selectionMade",
+            "rawCode": "root.itemInterface.fi_changeView__onEvent__selectionMade(valueRole, index)\n"
         }
     },
     "targetFile": "fi_changeView.ghuie",

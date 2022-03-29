@@ -14,6 +14,9 @@
                         "anchorValue": "Top"
                     },
                     "childrenSplit": true,
+                    "extraData": {
+                        "FIGMA_ID": "I289:2593;211:5845"
+                    },
                     "id": "fi_row4_key1",
                     "properties": {
                         "fi_Label_lineHeight": {
@@ -87,6 +90,9 @@
                         "anchorValue": "Top"
                     },
                     "childrenSplit": true,
+                    "extraData": {
+                        "FIGMA_ID": "I289:2593;211:5844"
+                    },
                     "id": "fi_row3_key1",
                     "properties": {
                         "fi_Label_lineHeight": {
@@ -160,6 +166,9 @@
                         "anchorValue": "Top"
                     },
                     "childrenSplit": true,
+                    "extraData": {
+                        "FIGMA_ID": "I289:2593;211:5843"
+                    },
                     "id": "fi_KeyboardButton_Letter_Lowercase",
                     "properties": {
                         "fi_Label_lineHeight": {
@@ -171,7 +180,7 @@
                             "bindingRole": "valueRole",
                             "name": "fi_Label_text",
                             "type": "TranslatableString",
-                            "uuid": "{43bfe712-fffc-4049-86e6-f3f1c5f86676}",
+                            "uuid": "FigmaNode::I289:2593;211:5843;208:4911",
                             "value": "Q"
                         },
                         "height": {
@@ -241,6 +250,9 @@
                         "anchorValue": "Top"
                     },
                     "childrenSplit": true,
+                    "extraData": {
+                        "FIGMA_ID": "I289:2593;234:11576"
+                    },
                     "id": "fi_row1_key2",
                     "properties": {
                         "fi_Label_lineHeight": {

@@ -1,0 +1,59 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 32,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 448,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "164:7526"
+    },
+    "id": "fi_SliderCtPreview",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 40
+        },
+        "sliderItem_dynamicValueReporting": {
+            "name": "sliderItem_dynamicValueReporting",
+            "type": "Bool",
+            "value": true
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 328
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 32
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 448
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "signals": {
+        "sliderItem_valueChangeRequested": {
+            "arguments": "int value",
+            "name": "sliderItem_valueChangeRequested",
+            "rawCode": "root.itemInterface.fi_SliderCtPreview__onEvent__sliderItem_valueChangeRequested(value)\n"
+        }
+    },
+    "targetFile": "fi_SliderCtPreview.ghuie",
+    "type": "ZetaSurgicalSet.SliderCT_Horizontal",
+    "userDefined": false
+}

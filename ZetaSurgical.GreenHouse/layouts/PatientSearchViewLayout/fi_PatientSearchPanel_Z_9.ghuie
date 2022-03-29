@@ -1,5 +1,8 @@
 {
     "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "289:2589"
+    },
     "id": "fi_PatientSearchPanel_Z_9",
     "properties": {
         "height": {

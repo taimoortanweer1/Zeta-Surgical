@@ -20,6 +20,12 @@
     },
     "id": "fi_addInstrumentButton",
     "properties": {
+        "fi_ADD_POINT_text": {
+            "name": "fi_ADD_POINT_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I34:2917;7:1311",
+            "value": "Add Instrument"
+        },
         "width": {
             "name": "width",
             "type": "Int",

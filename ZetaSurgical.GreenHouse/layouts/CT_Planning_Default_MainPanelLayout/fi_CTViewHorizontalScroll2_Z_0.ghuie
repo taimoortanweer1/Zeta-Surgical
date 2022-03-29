@@ -1,0 +1,24 @@
+{
+    "childrenSplit": true,
+    "id": "fi_CTViewHorizontalScroll2_Z_0",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 540
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 668
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 3
+        }
+    },
+    "targetFile": "fi_CTViewHorizontalScroll2_Z_0.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

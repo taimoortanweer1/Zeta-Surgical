@@ -8,6 +8,7 @@ Window {
 
     property double desiredWidth: 1920
     property double desiredHeight: 1080
+    onWidthChanged: console.log("eidth: " ,width);
 
     width: desiredWidth
     height: desiredHeight

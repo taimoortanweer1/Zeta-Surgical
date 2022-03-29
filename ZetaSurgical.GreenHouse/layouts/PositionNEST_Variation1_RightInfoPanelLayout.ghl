@@ -8,7 +8,7 @@
     },
     "interfaceName": "PositionNEST_Variation1_RightInfoPanelIFace",
     "name": "PositionNEST_Variation1_RightInfoPanelLayout",
-    "posX": 1616,
+    "posX": 1464,
     "posY": 0,
     "rootContainerType": "Item",
     "showAnimation": {
@@ -16,5 +16,5 @@
     },
     "targetFile": "PositionNEST_Variation1_RightInfoPanelLayout.ghl",
     "uuid": "{90c37aa5-7e21-454f-8f99-707f6b690e8b}",
-    "width": 304
+    "width": 456
 }

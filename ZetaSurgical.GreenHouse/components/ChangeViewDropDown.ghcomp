@@ -966,6 +966,15 @@
                         },
                         "childrenSplit": true,
                         "id": "fi_ListItemDropdown",
+                        "properties": {
+                            "fi_label_Role_Value_text": {
+                                "bindingRole": "valueRole",
+                                "name": "fi_label_Role_Value_text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::I164:1753;164:1736",
+                                "value": "Axial"
+                            }
+                        },
                         "targetFile": "fi_ListItemDropdown.ghuie",
                         "type": "ZetaSurgicalSet.ListItemDropdown",
                         "userDefined": false

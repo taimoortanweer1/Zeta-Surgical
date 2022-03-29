@@ -10,6 +10,9 @@
         "anchorValue": "Top"
     },
     "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "I289:2593;211:5846"
+    },
     "id": "fi_SpaceBar",
     "properties": {
         "fi_Label_lineHeight": {

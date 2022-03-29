@@ -16,6 +16,9 @@
         "anchorValue": "Top"
     },
     "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "I289:2593;234:6240"
+    },
     "id": "fi_Rectangle_364",
     "properties": {
         "border-color": {

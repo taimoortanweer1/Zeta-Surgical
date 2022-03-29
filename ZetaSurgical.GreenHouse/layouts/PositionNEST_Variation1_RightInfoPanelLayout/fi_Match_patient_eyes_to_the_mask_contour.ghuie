@@ -44,7 +44,7 @@
         "width": {
             "name": "width",
             "type": "Int",
-            "value": 242
+            "value": 306
         },
         "wrapMode": {
             "name": "wrapMode",
@@ -54,17 +54,17 @@
         "x": {
             "name": "x",
             "type": "Int",
-            "value": 31
+            "value": 75
         },
         "y": {
             "name": "y",
             "type": "Int",
-            "value": 159
+            "value": 391
         },
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 3
+            "value": 4
         }
     },
     "targetFile": "fi_Match_patient_eyes_to_the_mask_contour.ghuie",

@@ -16,6 +16,9 @@
         "anchorValue": "Top"
     },
     "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "I289:2593;234:6505"
+    },
     "id": "fi_Background",
     "properties": {
         "height": {

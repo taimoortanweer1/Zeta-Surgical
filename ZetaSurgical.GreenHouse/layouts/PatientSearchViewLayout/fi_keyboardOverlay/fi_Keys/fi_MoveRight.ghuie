@@ -10,6 +10,9 @@
         "anchorValue": "Top"
     },
     "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "I289:2593;234:2311"
+    },
     "id": "fi_MoveRight",
     "properties": {
         "height": {

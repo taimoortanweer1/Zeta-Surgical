@@ -33,7 +33,7 @@
         "height": {
             "name": "height",
             "type": "Int",
-            "value": 776
+            "value": 888
         },
         "source": {
             "name": "source",
@@ -43,7 +43,7 @@
         "width": {
             "name": "width",
             "type": "Int",
-            "value": 968
+            "value": 816
         },
         "x": {
             "name": "x",

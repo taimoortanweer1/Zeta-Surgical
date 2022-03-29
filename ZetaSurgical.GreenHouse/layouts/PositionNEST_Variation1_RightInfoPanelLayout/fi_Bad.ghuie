@@ -18,17 +18,17 @@
         "x": {
             "name": "x",
             "type": "Int",
-            "value": 32
+            "value": 108
         },
         "y": {
             "name": "y",
             "type": "Int",
-            "value": 464
+            "value": 696
         },
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 1
+            "value": 2
         }
     },
     "targetFile": "fi_Bad.ghuie",
