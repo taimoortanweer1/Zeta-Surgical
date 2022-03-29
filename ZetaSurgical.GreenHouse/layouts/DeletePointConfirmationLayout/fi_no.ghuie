@@ -32,6 +32,12 @@
             "value": 1
         }
     },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_no__onEvent__clicked()\n"
+        }
+    },
     "targetFile": "fi_no.ghuie",
     "type": "ZetaSurgicalSet.DecisionButton",
     "userDefined": false

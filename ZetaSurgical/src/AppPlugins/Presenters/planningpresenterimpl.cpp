@@ -1,8 +1,12 @@
 #include "planningpresenterimpl.h"
+#include "popupspresenterimpl.h"
 
-PlanningPresenterImpl::PlanningPresenterImpl()
+PlanningPresenterImpl::PlanningPresenterImpl(PopupsPresenterImpl *popupsPresenter)
     : ZetaSurgical::PlanningPresenter()
-{}
+    , m_popupsPresenter(popupsPresenter)
+{
+    Q_ASSERT(m_popupsPresenter);
+}
 
 void PlanningPresenterImpl::editTargetAtIndex(int index)
 {
@@ -12,6 +16,9 @@ void PlanningPresenterImpl::editTargetAtIndex(int index)
 void PlanningPresenterImpl::deleteTargetAtIndex(int index)
 {
     qWarning() << __PRETTY_FUNCTION__ << index;
+    m_popupsPresenter->confirmPointRemoval([this, index](){
+        targetsList()->removeRow(index);
+    });
 }
 
 void PlanningPresenterImpl::selectTargetAtIndex(int index)

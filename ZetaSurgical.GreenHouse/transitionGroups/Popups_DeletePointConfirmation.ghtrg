@@ -1,0 +1,19 @@
+{
+    "source": "Popups",
+    "target": "DeletePointConfirmation",
+    "targetFile": "Popups_DeletePointConfirmation.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "PopupsPresenter",
+                "senderStringType": "%1",
+                "signal": "deletePointConfirmationDialogShown"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{180a7919-9bb0-4ff8-b8e0-f9ddd8f24dc2}"
+}

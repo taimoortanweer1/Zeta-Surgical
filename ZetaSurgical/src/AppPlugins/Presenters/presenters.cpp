@@ -22,7 +22,7 @@ void Presenters::populateContext(GreenHouse::Context *context)
     auto popupsPresenter = new PopupsPresenterImpl;
 
     context->store(popupsPresenter);
-    context->store(new PlanningPresenterImpl);
+    context->store(new PlanningPresenterImpl(popupsPresenter));
     context->store(new LoginPresenterImpl(popupsPresenter));
     context->store(new KeyboardPresenterImpl(context->contextRootItem()->window()));
     context->store(new PatientsDatabaseImpl(popupsPresenter));
