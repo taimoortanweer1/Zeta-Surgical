@@ -4,6 +4,9 @@
     "signals": {
         "fi_no__onEvent__clicked": {
             "name": "fi_no__onEvent__clicked"
+        },
+        "fi_yes__onEvent__clicked": {
+            "name": "fi_yes__onEvent__clicked"
         }
     },
     "targetFile": "DeleteToolConfirmationIFace.ghli"

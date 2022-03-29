@@ -16,6 +16,7 @@ public:
     void startPasswordInput(TextInputCallback callback);
     void startFilterInput(TextInputCallback callback);
     void confirmPointRemoval(ConfirmCallback callback);
+    void confirmInstrumentRemoval(ConfirmCallback callback);
 
 protected:
     void onInputChanged(QString const &username) override;

@@ -36,4 +36,8 @@ void PlanningPresenterImpl::selectInstrumentAtIndex(int index)
 void PlanningPresenterImpl::deleteInstrumentAtIndex(int index)
 {
     qWarning() << __PRETTY_FUNCTION__ << index;
+    m_popupsPresenter->confirmInstrumentRemoval([this, index](){
+        instrumentsList()->removeRow(index);
+    });
+
 }

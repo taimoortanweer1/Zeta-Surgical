@@ -27,6 +27,9 @@
         "closeAllPopups": {
             "name": "closeAllPopups"
         },
+        "deleteInstrumentConfirmationDialogShown": {
+            "name": "deleteInstrumentConfirmationDialogShown"
+        },
         "deletePointConfirmationDialogShown": {
             "name": "deletePointConfirmationDialogShown"
         },

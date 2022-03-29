@@ -28,6 +28,12 @@ void PopupsPresenterImpl::confirmPointRemoval(ConfirmCallback callback)
     emit deletePointConfirmationDialogShown();
 }
 
+void PopupsPresenterImpl::confirmInstrumentRemoval(ConfirmCallback callback)
+{
+    m_confirmCallback = callback;
+    emit deleteInstrumentConfirmationDialogShown();
+}
+
 void PopupsPresenterImpl::inputAccepted()
 {
     if(!m_callback)
