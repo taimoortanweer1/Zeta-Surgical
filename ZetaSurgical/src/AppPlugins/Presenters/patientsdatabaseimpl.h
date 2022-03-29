@@ -16,6 +16,8 @@ public:
     void init() override;
     void onFilterEditRequested() override;
     void selectPatient(int index) override;
+    void viewSelected(const QVariant &value, int index) override;
+    void previewZoomSliderMoved(int value) override;
 
 private:
     PatientsModel * const m_patientsModel;

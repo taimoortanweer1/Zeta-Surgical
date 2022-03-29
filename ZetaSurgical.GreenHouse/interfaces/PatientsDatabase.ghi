@@ -367,6 +367,12 @@
                     "valueRole"
                 ],
                 "type": "Model"
+            },
+            {
+                "name": "selectedViewString",
+                "preview": null,
+                "readonly": true,
+                "type": "String"
             }
         ]
     },

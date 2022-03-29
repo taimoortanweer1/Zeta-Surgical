@@ -15,6 +15,14 @@
     },
     "id": "fi_changeView",
     "properties": {
+        "fi_Coronal_text": {
+            "bindingProp": "selectedViewString",
+            "bindingSrc": "PatientsDatabase",
+            "name": "fi_Coronal_text",
+            "type": "TranslatableString",
+            "uuid": "{4a5c88a8-fbb0-411f-b480-dc70406689dc}",
+            "value": "Coronal"
+        },
         "fi_ListView_DropDown_FitDelegate_viewModel": {
             "bindingProp": "viewsModel",
             "bindingSrc": "PatientsDatabase",
