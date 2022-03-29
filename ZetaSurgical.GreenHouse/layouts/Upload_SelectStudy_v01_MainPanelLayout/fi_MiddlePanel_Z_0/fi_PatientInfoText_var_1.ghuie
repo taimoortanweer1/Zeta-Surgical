@@ -23,6 +23,8 @@
             "value": "01/01/1990"
         },
         "fi_9089123423_text": {
+            "bindingProp": "selectedPatientMRNString",
+            "bindingSrc": "PatientsDatabase",
             "name": "fi_9089123423_text",
             "type": "TranslatableString",
             "uuid": "FigmaNode::I164:8283;164:8280",
@@ -35,14 +37,6 @@
             "type": "TranslatableString",
             "uuid": "FigmaNode::I164:8283;164:8232",
             "value": "John Doe "
-        },
-        "fi_MRN__text": {
-            "bindingProp": "selectedPatientMRNString",
-            "bindingSrc": "PatientsDatabase",
-            "name": "fi_MRN__text",
-            "type": "TranslatableString",
-            "uuid": "{84b12df7-0655-49b8-919b-b3e1dcb73012}",
-            "value": "MRN:"
         },
         "x": {
             "name": "x",

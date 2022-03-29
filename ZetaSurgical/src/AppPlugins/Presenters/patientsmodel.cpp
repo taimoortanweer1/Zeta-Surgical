@@ -138,3 +138,58 @@ QHash<int, QByteArray> StudiesList::roleNames() const
     roles[Index] = "index";
     return roles;
 }
+
+StudyDescriptionList::StudyDescriptionList(QObject *parent)
+    : QAbstractListModel(parent)
+{
+
+}
+
+void StudyDescriptionList::addStudyDescription(const StudyDescriptionData &data)
+{
+    m_data << data;
+}
+
+int StudyDescriptionList::rowCount(const QModelIndex &parent) const
+{
+    Q_UNUSED(parent);
+    return m_data.count();
+}
+
+QVariant StudyDescriptionList::data(const QModelIndex &index, int role) const
+{
+    QVariant res;
+    if(!index.isValid())
+        return res;
+    if(index.row() < 0 || index.row() >= m_data.count())
+        return res;
+    auto const &value = m_data.at(index.row());
+    if(role == Series)
+        res = QStringLiteral("#%1").arg(value.series);
+    if(role == Description)
+        res = value.description;
+    if(role == Modality)
+        res = value.modality;
+    if(role == Size)
+        res = value.size;
+    if(role == Count)
+        res = value.count;
+    if(role == Date)
+        res = value.date.toString(QString::fromLatin1(DATE_FORMAT));;
+    if(role == Index)
+        res = index.row();
+    return res;
+}
+
+QHash<int, QByteArray> StudyDescriptionList::roleNames() const
+{
+    QHash<int, QByteArray> roles;
+    roles[Series] = "series";
+    roles[Description] = "description";
+    roles[Modality] = "modality";
+    roles[Size] = "size";
+    roles[Count] = "count";
+    roles[Date] = "dateAdded";
+    roles[Index] = "index";
+    return roles;
+}

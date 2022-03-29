@@ -90,3 +90,39 @@ public:
 private:
     Studies m_data;
 };
+
+struct StudyDescriptionData {
+    int series;
+    QString description;
+    QString modality;
+    QString size;
+    int count;
+    QDate date;
+};
+
+using StudiesDescription = QList<StudyDescriptionData >;
+
+class StudyDescriptionList: public QAbstractListModel
+{
+    Q_OBJECT
+public:
+    enum Roles {
+        Series = Qt::UserRole + 1,
+        Description,
+        Modality,
+        Size,
+        Count,
+        Date,
+        Index
+    };
+    explicit StudyDescriptionList(QObject *parent);
+    void addStudyDescription(StudyDescriptionData const &data);
+
+    int rowCount(const QModelIndex &parent) const override;
+    QVariant data(const QModelIndex &index, int role) const override;
+
+    QHash<int, QByteArray> roleNames() const override;
+
+private:
+    StudiesDescription m_data;
+};

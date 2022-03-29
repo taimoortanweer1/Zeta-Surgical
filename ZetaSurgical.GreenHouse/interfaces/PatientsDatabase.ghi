@@ -240,6 +240,92 @@
                 "name": "selectedPatientDOBString",
                 "preview": null,
                 "type": "String"
+            },
+            {
+                "complex": true,
+                "data": [
+                    {
+                        "count": "count_0",
+                        "dateAdded": "dateAdded_0",
+                        "description": "description_0",
+                        "index": "index_0",
+                        "modality": "modality_0",
+                        "series": "series_0",
+                        "size": "size_0"
+                    },
+                    {
+                        "count": "count_1",
+                        "dateAdded": "dateAdded_1",
+                        "description": "description_1",
+                        "index": "index_1",
+                        "modality": "modality_1",
+                        "series": "series_1",
+                        "size": "size_1"
+                    },
+                    {
+                        "count": "count_2",
+                        "dateAdded": "dateAdded_2",
+                        "description": "description_2",
+                        "index": "index_2",
+                        "modality": "modality_2",
+                        "series": "series_2",
+                        "size": "size_2"
+                    },
+                    {
+                        "count": "count_3",
+                        "dateAdded": "dateAdded_3",
+                        "description": "description_3",
+                        "index": "index_3",
+                        "modality": "modality_3",
+                        "series": "series_3",
+                        "size": "size_3"
+                    },
+                    {
+                        "count": "count_4",
+                        "dateAdded": "dateAdded_4",
+                        "description": "description_4",
+                        "index": "index_4",
+                        "modality": "modality_4",
+                        "series": "series_4",
+                        "size": "size_4"
+                    },
+                    {
+                        "count": "count_5",
+                        "dateAdded": "dateAdded_5",
+                        "description": "description_5",
+                        "index": "index_5",
+                        "modality": "modality_5",
+                        "series": "series_5",
+                        "size": "size_5"
+                    },
+                    {
+                        "count": "count_6",
+                        "dateAdded": "dateAdded_6",
+                        "description": "description_6",
+                        "index": "index_6",
+                        "modality": "modality_6",
+                        "series": "series_6",
+                        "size": "size_6"
+                    }
+                ],
+                "name": "studiesDescriptionList",
+                "preview": null,
+                "readonly": true,
+                "roles": [
+                    "series",
+                    "description",
+                    "modality",
+                    "size",
+                    "count",
+                    "dateAdded",
+                    "index"
+                ],
+                "type": "Model"
+            },
+            {
+                "name": "studiesDescriptionSelectedIndex",
+                "preview": -1,
+                "type": "Int"
             }
         ]
     },

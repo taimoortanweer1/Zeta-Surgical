@@ -8,6 +8,7 @@ PatientsDatabaseImpl::PatientsDatabaseImpl(PopupsPresenterImpl *popupsPresenter)
     , m_filterModel(new PatientsFilterModel(this))
     , m_studiesList(new StudiesList(this))
     , m_popupsPresenter(popupsPresenter)
+    , m_studyDescriptionList(new StudyDescriptionList(this))
 {
     Q_ASSERT(m_popupsPresenter);
     m_filterModel->setSourceModel(m_patientsModel);
@@ -59,6 +60,11 @@ void PatientsDatabaseImpl::init()
         m_studiesList->addStudy(StudyData {QDate::currentDate(), i, QStringLiteral("Description"), 5, QDate::currentDate()});
     }
     setStudiesList(m_studiesList);
+
+    for(int i = 0; i < 10; ++i) {
+        m_studyDescriptionList->addStudyDescription(StudyDescriptionData {1, QStringLiteral("Description"), QStringLiteral("MRI"), QStringLiteral("512x512"), 5, QDate::currentDate()});
+    }
+    setStudiesDescriptionList(m_studyDescriptionList);
 }
 
 void PatientsDatabaseImpl::onFilterEditRequested()

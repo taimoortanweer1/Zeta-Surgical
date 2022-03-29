@@ -6,6 +6,7 @@ class PatientsModel;
 class StudiesList;
 class PatientsFilterModel;
 class PopupsPresenterImpl;
+class StudyDescriptionList;
 
 class PatientsDatabaseImpl : public ZetaSurgical::PatientsDatabase
 {
@@ -21,4 +22,5 @@ private:
     PatientsFilterModel * const m_filterModel;
     StudiesList *const m_studiesList;
     PopupsPresenterImpl * const m_popupsPresenter;
+    StudyDescriptionList * const m_studyDescriptionList;
 };
