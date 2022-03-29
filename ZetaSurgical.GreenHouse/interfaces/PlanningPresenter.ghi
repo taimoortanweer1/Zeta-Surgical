@@ -2,6 +2,16 @@
     "backendObject": false,
     "hidden": false,
     "methods": {
+        "deleteInstrumentAtIndex": {
+            "arguments": [
+                {
+                    "name": "index",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "deleteInstrumentAtIndex"
+        },
         "deleteTargetAtIndex": {
             "arguments": [
                 {
@@ -21,6 +31,16 @@
                 }
             ],
             "name": "editTargetAtIndex"
+        },
+        "selectInstrumentAtIndex": {
+            "arguments": [
+                {
+                    "name": "index",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "selectInstrumentAtIndex"
         },
         "selectTargetAtIndex": {
             "arguments": [
@@ -73,6 +93,7 @@
                 ],
                 "name": "targetsList",
                 "preview": null,
+                "readonly": true,
                 "roles": [
                     "text",
                     "index"
@@ -82,6 +103,53 @@
             {
                 "name": "selectedTargetIndex",
                 "preview": -1,
+                "readonly": true,
+                "type": "Int"
+            },
+            {
+                "data": [
+                    {
+                        "index": 0,
+                        "text": "text_0"
+                    },
+                    {
+                        "index": 1,
+                        "text": "text_1"
+                    },
+                    {
+                        "index": 2,
+                        "text": "text_2"
+                    },
+                    {
+                        "index": 3,
+                        "text": "text_3"
+                    },
+                    {
+                        "index": 4,
+                        "text": "text_4"
+                    },
+                    {
+                        "index": 5,
+                        "text": "text_5"
+                    },
+                    {
+                        "index": 6,
+                        "text": "text_6"
+                    }
+                ],
+                "name": "instrumentsList",
+                "preview": null,
+                "readonly": true,
+                "roles": [
+                    "text",
+                    "index"
+                ],
+                "type": "Model"
+            },
+            {
+                "name": "selectedInstrumentIndex",
+                "preview": -1,
+                "readonly": true,
                 "type": "Int"
             }
         ]

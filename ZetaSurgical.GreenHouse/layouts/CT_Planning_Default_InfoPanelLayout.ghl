@@ -111,10 +111,40 @@
                     "childrenSplit": true,
                     "id": "fi_ModifyInstrumentDelegate",
                     "properties": {
+                        "fi_Buttons_TextLeftAligned_fi_Default_Target_text": {
+                            "bindingRole": "text",
+                            "name": "fi_Buttons_TextLeftAligned_fi_Default_Target_text",
+                            "type": "TranslatableString",
+                            "uuid": "{f28db01d-9b6f-4a49-a1e4-f035c59bfffc}",
+                            "value": "Default Target"
+                        },
+                        "fi_Buttons_TextLeftAligned_itemIndex": {
+                            "bindingRole": "index",
+                            "name": "fi_Buttons_TextLeftAligned_itemIndex",
+                            "type": "Int",
+                            "value": 0
+                        },
+                        "fi_Buttons_TextLeftAligned_selectionIndex": {
+                            "bindingProp": "selectedInstrumentIndex",
+                            "bindingSrc": "PlanningPresenter",
+                            "name": "fi_Buttons_TextLeftAligned_selectionIndex",
+                            "type": "Int",
+                            "value": -1
+                        },
                         "width": {
                             "name": "width",
                             "type": "Int",
                             "value": 352
+                        }
+                    },
+                    "signals": {
+                        "fi_Buttons_TextLeftAligned_clicked": {
+                            "name": "fi_Buttons_TextLeftAligned_clicked",
+                            "rawCode": "root.itemInterface.fi_ModifyInstrumentDelegate__onEvent__fi_Buttons_TextLeftAligned_clicked(index)\n"
+                        },
+                        "fi_DeleteButton_clicked": {
+                            "name": "fi_DeleteButton_clicked",
+                            "rawCode": "root.itemInterface.fi_ModifyInstrumentDelegate__onEvent__fi_DeleteButton_clicked(index)\n"
                         }
                     },
                     "targetFile": "fi_ModifyInstrumentDelegate.ghuie",
@@ -125,6 +155,8 @@
             "childrenSplit": true,
             "id": "fi_ListView_Instruments_delegate",
             "model": {
+                "bindingProp": "instrumentsList",
+                "bindingSrc": "PlanningPresenter",
                 "name": "modelProperty",
                 "type": "Model",
                 "value": null
