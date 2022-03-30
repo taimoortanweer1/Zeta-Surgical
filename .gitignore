@@ -66,3 +66,13 @@ compile_commands.json
 # Miscellaneous
 # vimdiff *.orig files
 *.orig
+ZetaSurgical/.vs/CMake Overview
+ZetaSurgical/.vs/launch.vs.json
+ZetaSurgical/.vs/ProjectSettings.json
+ZetaSurgical/.vs/slnx.sqlite
+ZetaSurgical/.vs/VSWorkspaceState.json
+ZetaSurgical/.vs/ZetaSurgical/v16/.suo
+ZetaSurgical/.vs/ZetaSurgical/v16/Browse.VC.db
+ZetaSurgical/.vs/ZetaSurgical/v16/Browse.VC.db-shm
+ZetaSurgical/.vs/ZetaSurgical/v16/Browse.VC.db-wal
+ZetaSurgical/.vs/ZetaSurgical/v16/Browse.VC.opendb
