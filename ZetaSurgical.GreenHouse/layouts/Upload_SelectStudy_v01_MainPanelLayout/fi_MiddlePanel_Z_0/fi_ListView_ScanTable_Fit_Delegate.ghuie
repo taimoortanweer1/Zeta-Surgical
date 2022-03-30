@@ -15,11 +15,6 @@
     },
     "id": "fi_ListView_ScanTable_Fit_Delegate",
     "properties": {
-        "clip": {
-            "name": "clip",
-            "type": "Bool",
-            "value": true
-        },
         "height": {
             "name": "height",
             "type": "Int",

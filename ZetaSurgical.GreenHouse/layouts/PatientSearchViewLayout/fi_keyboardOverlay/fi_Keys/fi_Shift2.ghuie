@@ -10,6 +10,9 @@
         "anchorValue": "Top"
     },
     "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "I289:2593;211:5874"
+    },
     "id": "fi_Shift2",
     "properties": {
         "fi_Letter_lineHeight": {

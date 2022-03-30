@@ -1,0 +1,19 @@
+{
+    "source": "Popups",
+    "target": "DeleteToolConfirmation",
+    "targetFile": "Popups_DeleteToolConfirmation.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "PopupsPresenter",
+                "senderStringType": "%1",
+                "signal": "deleteInstrumentConfirmationDialogShown"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{ab357a7e-18c2-45c6-9a99-9d5ee85ba904}"
+}

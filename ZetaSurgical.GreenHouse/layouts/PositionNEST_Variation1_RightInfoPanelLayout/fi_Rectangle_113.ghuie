@@ -28,7 +28,7 @@
         "width": {
             "name": "width",
             "type": "Int",
-            "value": 304
+            "value": 456
         }
     },
     "targetFile": "fi_Rectangle_113.ghuie",

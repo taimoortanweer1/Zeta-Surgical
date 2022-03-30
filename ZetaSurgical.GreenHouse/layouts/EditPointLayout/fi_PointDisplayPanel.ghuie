@@ -1,0 +1,27 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "174:3421"
+    },
+    "id": "fi_PointDisplayPanel",
+    "properties": {
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 1464
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 432
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 6
+        }
+    },
+    "targetFile": "fi_PointDisplayPanel.ghuie",
+    "type": "ZetaSurgicalSet.PointDisplayPanel",
+    "userDefined": false
+}

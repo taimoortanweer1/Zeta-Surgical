@@ -5,6 +5,12 @@
         "inputAccepted": {
             "name": "inputAccepted"
         },
+        "onCancelled": {
+            "name": "onCancelled"
+        },
+        "onConfirmed": {
+            "name": "onConfirmed"
+        },
         "onInputChanged": {
             "arguments": [
                 {
@@ -20,6 +26,12 @@
     "signals": {
         "closeAllPopups": {
             "name": "closeAllPopups"
+        },
+        "deleteInstrumentConfirmationDialogShown": {
+            "name": "deleteInstrumentConfirmationDialogShown"
+        },
+        "deletePointConfirmationDialogShown": {
+            "name": "deletePointConfirmationDialogShown"
         },
         "inputFilterShown": {
             "name": "inputFilterShown"

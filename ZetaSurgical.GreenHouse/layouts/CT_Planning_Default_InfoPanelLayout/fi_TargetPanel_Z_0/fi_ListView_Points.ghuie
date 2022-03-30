@@ -30,6 +30,13 @@
             "type": "Delegate",
             "value": "fi_ListView_Points_delegate"
         },
+        "viewModel": {
+            "bindingProp": "targetsList",
+            "bindingSrc": "PlanningPresenter",
+            "name": "viewModel",
+            "type": "Model",
+            "value": "null"
+        },
         "width": {
             "name": "width",
             "type": "Int",

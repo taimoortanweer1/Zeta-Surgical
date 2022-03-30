@@ -19,7 +19,7 @@
             "bindingSrc": "PatientsDatabase",
             "name": "fi_01_01_1990_text",
             "type": "TranslatableString",
-            "uuid": "{6e227949-5c37-4843-9036-5bbff1b056e1}",
+            "uuid": "FigmaNode::I164:8283;164:8281",
             "value": "01/01/1990"
         },
         "fi_9089123423_text": {

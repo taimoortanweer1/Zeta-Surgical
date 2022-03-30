@@ -1,0 +1,19 @@
+{
+    "source": "DeleteToolConfirmation",
+    "target": "NoPopup",
+    "targetFile": "DeleteToolConfirmation_NoPopup.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": false,
+                "sender": "PopupsPresenter",
+                "senderStringType": "%1",
+                "signal": "closeAllPopups"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{3d499a5b-16b7-4e74-b117-483b7dcc916e}"
+}

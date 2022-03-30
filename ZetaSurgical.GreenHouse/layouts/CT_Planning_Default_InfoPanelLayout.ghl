@@ -19,76 +19,29 @@
                     },
                     "childrenSplit": true,
                     "extraData": {
-                        "FIGMA_ID": "78:2594"
-                    },
-                    "id": "fi_ModifyInstrumentButton",
-                    "properties": {
-                        "fi_Default_Instrument_text": {
-                            "name": "fi_Default_Instrument_text",
-                            "type": "TranslatableString",
-                            "uuid": "FigmaNode::I78:2594;79:2018",
-                            "value": "EVD Stylet"
-                        },
-                        "width": {
-                            "name": "width",
-                            "type": "Int",
-                            "value": 352
-                        }
-                    },
-                    "targetFile": "fi_ModifyInstrumentButton.ghuie",
-                    "type": "ZetaSurgicalSet.ModifyInstrumentButton",
-                    "userDefined": false
-                }
-            ],
-            "childrenSplit": true,
-            "id": "fi_ListView_Instruments_delegate",
-            "model": {
-                "name": "modelProperty",
-                "type": "Model",
-                "value": null
-            },
-            "properties": {
-                "height": {
-                    "name": "height",
-                    "type": "Int",
-                    "value": 80
-                },
-                "width": {
-                    "name": "width",
-                    "type": "Int",
-                    "value": 352
-                }
-            },
-            "targetFile": "fi_ListView_Instruments_delegate.ghuie",
-            "type": "FocusScope",
-            "userDefined": false
-        },
-        {
-            "children": [
-                {
-                    "anchorLeft": {
-                        "anchorTarget": "parent",
-                        "anchorValue": "Left"
-                    },
-                    "anchorRight": {
-                        "anchorTarget": "parent",
-                        "anchorValue": "Right"
-                    },
-                    "anchorTop": {
-                        "anchorTarget": "parent",
-                        "anchorValue": "Top"
-                    },
-                    "childrenSplit": true,
-                    "extraData": {
                         "FIGMA_ID": "78:2549"
                     },
                     "id": "fi_target2Layout",
                     "properties": {
-                        "fi_Default_Target_text": {
-                            "name": "fi_Default_Target_text",
+                        "fi_Buttons_TextLeftAligned_fi_Default_Target_text": {
+                            "bindingRole": "text",
+                            "name": "fi_Buttons_TextLeftAligned_fi_Default_Target_text",
                             "type": "TranslatableString",
-                            "uuid": "FigmaNode::I78:2549;34:2716",
-                            "value": "Target 2"
+                            "uuid": "FigmaNode::I78:2549;320:3369;34:2716",
+                            "value": "Default Target"
+                        },
+                        "fi_Buttons_TextLeftAligned_itemIndex": {
+                            "bindingRole": "index",
+                            "name": "fi_Buttons_TextLeftAligned_itemIndex",
+                            "type": "Int",
+                            "value": 0
+                        },
+                        "fi_Buttons_TextLeftAligned_selectionIndex": {
+                            "bindingProp": "selectedTargetIndex",
+                            "bindingSrc": "PlanningPresenter",
+                            "name": "fi_Buttons_TextLeftAligned_selectionIndex",
+                            "type": "Int",
+                            "value": -1
                         },
                         "width": {
                             "name": "width",
@@ -96,14 +49,30 @@
                             "value": 352
                         }
                     },
+                    "signals": {
+                        "fi_Buttons_TextLeftAligned_clicked": {
+                            "name": "fi_Buttons_TextLeftAligned_clicked",
+                            "rawCode": "root.itemInterface.fi_target2Layout__onEvent__fi_Buttons_TextLeftAligned_clicked(index)\n"
+                        },
+                        "fi_DeleteButton_clicked": {
+                            "name": "fi_DeleteButton_clicked",
+                            "rawCode": "root.itemInterface.fi_target2Layout__onEvent__fi_DeleteButton_clicked(index)\n"
+                        },
+                        "fi_ModifyButton_clicked": {
+                            "name": "fi_ModifyButton_clicked",
+                            "rawCode": "root.itemInterface.fi_target2Layout__onEvent__fi_ModifyButton_clicked(index)\n"
+                        }
+                    },
                     "targetFile": "fi_target2Layout.ghuie",
-                    "type": "ZetaSurgicalSet.ModifyTargetButton",
+                    "type": "ZetaSurgicalSet.ModifyTargetDelegate_Default_State",
                     "userDefined": false
                 }
             ],
             "childrenSplit": true,
             "id": "fi_ListView_Points_delegate",
             "model": {
+                "bindingProp": "targetsList",
+                "bindingSrc": "PlanningPresenter",
                 "name": "modelProperty",
                 "type": "Model",
                 "value": null
@@ -123,6 +92,90 @@
             "targetFile": "fi_ListView_Points_delegate.ghuie",
             "type": "FocusScope",
             "userDefined": false
+        },
+        {
+            "children": [
+                {
+                    "anchorLeft": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Left"
+                    },
+                    "anchorRight": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Right"
+                    },
+                    "anchorTop": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Top"
+                    },
+                    "childrenSplit": true,
+                    "id": "fi_ModifyInstrumentDelegate",
+                    "properties": {
+                        "fi_Buttons_TextLeftAligned_fi_Default_Target_text": {
+                            "bindingRole": "text",
+                            "name": "fi_Buttons_TextLeftAligned_fi_Default_Target_text",
+                            "type": "TranslatableString",
+                            "uuid": "{f28db01d-9b6f-4a49-a1e4-f035c59bfffc}",
+                            "value": "Default Target"
+                        },
+                        "fi_Buttons_TextLeftAligned_itemIndex": {
+                            "bindingRole": "index",
+                            "name": "fi_Buttons_TextLeftAligned_itemIndex",
+                            "type": "Int",
+                            "value": 0
+                        },
+                        "fi_Buttons_TextLeftAligned_selectionIndex": {
+                            "bindingProp": "selectedInstrumentIndex",
+                            "bindingSrc": "PlanningPresenter",
+                            "name": "fi_Buttons_TextLeftAligned_selectionIndex",
+                            "type": "Int",
+                            "value": -1
+                        },
+                        "width": {
+                            "name": "width",
+                            "type": "Int",
+                            "value": 352
+                        }
+                    },
+                    "signals": {
+                        "fi_Buttons_TextLeftAligned_clicked": {
+                            "name": "fi_Buttons_TextLeftAligned_clicked",
+                            "rawCode": "root.itemInterface.fi_ModifyInstrumentDelegate__onEvent__fi_Buttons_TextLeftAligned_clicked(index)\n"
+                        },
+                        "fi_DeleteButton_clicked": {
+                            "name": "fi_DeleteButton_clicked",
+                            "rawCode": "root.itemInterface.fi_ModifyInstrumentDelegate__onEvent__fi_DeleteButton_clicked(index)\n"
+                        }
+                    },
+                    "targetFile": "fi_ModifyInstrumentDelegate.ghuie",
+                    "type": "ZetaSurgicalSet.ModifyInstrumentDelegate_Default_State",
+                    "userDefined": false
+                }
+            ],
+            "childrenSplit": true,
+            "id": "fi_ListView_Instruments_delegate",
+            "model": {
+                "bindingProp": "instrumentsList",
+                "bindingSrc": "PlanningPresenter",
+                "name": "modelProperty",
+                "type": "Model",
+                "value": null
+            },
+            "properties": {
+                "height": {
+                    "name": "height",
+                    "type": "Int",
+                    "value": 80
+                },
+                "width": {
+                    "name": "width",
+                    "type": "Int",
+                    "value": 352
+                }
+            },
+            "targetFile": "fi_ListView_Instruments_delegate.ghuie",
+            "type": "FocusScope",
+            "userDefined": false
         }
     ],
     "fillParent": false,
@@ -139,5 +192,6 @@
         "type": "Sequential"
     },
     "targetFile": "CT_Planning_Default_InfoPanelLayout.ghl",
+    "uuid": "{a0e262c7-fcfb-4f0d-8741-349d30a4a02d}",
     "width": 456
 }

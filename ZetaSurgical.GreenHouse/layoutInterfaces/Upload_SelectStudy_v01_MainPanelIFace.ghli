@@ -2,6 +2,16 @@
     "base": "Displayable",
     "name": "Upload_SelectStudy_v01_MainPanelIFace",
     "signals": {
+        "fi_SliderCtPreview__onEvent__sliderItem_valueChangeRequested": {
+            "arguments": [
+                {
+                    "name": "PatientsDatabase_previewZoomSliderMoved_value",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "fi_SliderCtPreview__onEvent__sliderItem_valueChangeRequested"
+        },
         "fi_Table2DelegateListItem_Button__onEvent__clicked": {
             "arguments": [
                 {
@@ -21,6 +31,21 @@
                 }
             ],
             "name": "fi_Table3DelegateListItem_Button__onEvent__clicked"
+        },
+        "fi_changeView__onEvent__selectionMade": {
+            "arguments": [
+                {
+                    "name": "PatientsDatabase_viewSelected_value",
+                    "preview": null,
+                    "type": "Var"
+                },
+                {
+                    "name": "PatientsDatabase_viewSelected_index",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "fi_changeView__onEvent__selectionMade"
         },
         "fi_importScan__onEvent__clicked": {
             "name": "fi_importScan__onEvent__clicked"

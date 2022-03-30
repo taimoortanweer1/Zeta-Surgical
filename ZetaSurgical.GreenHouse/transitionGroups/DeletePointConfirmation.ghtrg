@@ -15,10 +15,29 @@
             "template": "ItemSignalTransition",
             "triggeredActions": [
                 {
-                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceScreensMoveToCT_Planning_Default_ScreenState();\n}\n",
+                    "rawCode": "{\nCONTEXT_OBJECT(PopupsPresenter, co) co->onCancelled();\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_yes__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PopupsPresenter, co) co->onConfirmed();\n}\n",
                     "type": "RawCode"
                 }
             ]
         }
-    ]
+    ],
+    "uuid": "{9eec7c42-7f78-49f5-a12f-04db3dc99b31}"
 }

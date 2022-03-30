@@ -54,11 +54,11 @@ Item {
 
     //Exposed signals-------------------------------------------------------------------------------
     signal clicked() /*__focusArea.clicked*/
-    signal fi_ListItemDropdown_doubleClicked(int index) /*fi_ListItemDropdown.doubleClicked*/
-    signal fi_ListItemDropdown_pressed(int index) /*fi_ListItemDropdown.pressed*/
-    signal fi_ListItemDropdown_released(int index) /*fi_ListItemDropdown.released*/
-    signal fi_ListItemDropdown_repeatingTriggered(int index) /*fi_ListItemDropdown.repeatingTriggered*/
-    signal selectionMade(int index) /*fi_ListItemDropdown.clicked*/
+    signal fi_ListItemDropdown_doubleClicked(var valueRole, int index) /*fi_ListItemDropdown.doubleClicked*/
+    signal fi_ListItemDropdown_pressed(var valueRole, int index) /*fi_ListItemDropdown.pressed*/
+    signal fi_ListItemDropdown_released(var valueRole, int index) /*fi_ListItemDropdown.released*/
+    signal fi_ListItemDropdown_repeatingTriggered(var valueRole, int index) /*fi_ListItemDropdown.repeatingTriggered*/
+    signal selectionMade(var valueRole, int index) /*fi_ListItemDropdown.clicked*/
     signal fi_ListView_DropDown_FitDelegate_currentIndexUpdated(var index) /*fi_ListView_DropDown_FitDelegate.currentIndexUpdated*/
     signal fi_ListView_DropDown_FitDelegate_isDragging(var dragging) /*fi_ListView_DropDown_FitDelegate.isDragging*/
 
@@ -86,21 +86,22 @@ Item {
                 anchors.right: parent.right
                 anchors.top: parent.top
                 anchors.bottom: parent.bottom
+                fi_label_Role_Value_text: valueRole //ModelBound
 
                 onClicked: {
-                    root.selectionMade(index);
+                    root.selectionMade(valueRole, index);
                 }
                 onDoubleClicked: {
-                    root.fi_ListItemDropdown_doubleClicked(index);
+                    root.fi_ListItemDropdown_doubleClicked(valueRole, index);
                 }
                 onPressed: {
-                    root.fi_ListItemDropdown_pressed(index);
+                    root.fi_ListItemDropdown_pressed(valueRole, index);
                 }
                 onReleased: {
-                    root.fi_ListItemDropdown_released(index);
+                    root.fi_ListItemDropdown_released(valueRole, index);
                 }
                 onRepeatingTriggered: {
-                    root.fi_ListItemDropdown_repeatingTriggered(index);
+                    root.fi_ListItemDropdown_repeatingTriggered(valueRole, index);
                 }
             }
         }

@@ -2,7 +2,7 @@
     "blockInputFallthrough": true,
     "childrenSplit": true,
     "fillParent": false,
-    "height": 968,
+    "height": 1080,
     "hideAnimation": {
         "type": "Sequential"
     },

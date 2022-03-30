@@ -5,6 +5,16 @@
         "onFilterEditRequested": {
             "name": "onFilterEditRequested"
         },
+        "previewZoomSliderMoved": {
+            "arguments": [
+                {
+                    "name": "value",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "previewZoomSliderMoved"
+        },
         "selectPatient": {
             "arguments": [
                 {
@@ -14,6 +24,21 @@
                 }
             ],
             "name": "selectPatient"
+        },
+        "viewSelected": {
+            "arguments": [
+                {
+                    "name": "value",
+                    "preview": null,
+                    "type": "Var"
+                },
+                {
+                    "name": "index",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "viewSelected"
         }
     },
     "name": "PatientsDatabase",
@@ -326,6 +351,28 @@
                 "name": "studiesDescriptionSelectedIndex",
                 "preview": -1,
                 "type": "Int"
+            },
+            {
+                "data": [
+                    {
+                        "valueRole": "Coronal"
+                    },
+                    {
+                        "valueRole": "Coronal2"
+                    }
+                ],
+                "name": "viewsModel",
+                "preview": null,
+                "roles": [
+                    "valueRole"
+                ],
+                "type": "Model"
+            },
+            {
+                "name": "selectedViewString",
+                "preview": null,
+                "readonly": true,
+                "type": "String"
             }
         ]
     },

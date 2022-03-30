@@ -22,6 +22,18 @@ void PopupsPresenterImpl::startFilterInput(TextInputCallback callback)
     emit inputFilterShown();
 }
 
+void PopupsPresenterImpl::confirmPointRemoval(ConfirmCallback callback)
+{
+    m_confirmCallback = callback;
+    emit deletePointConfirmationDialogShown();
+}
+
+void PopupsPresenterImpl::confirmInstrumentRemoval(ConfirmCallback callback)
+{
+    m_confirmCallback = callback;
+    emit deleteInstrumentConfirmationDialogShown();
+}
+
 void PopupsPresenterImpl::inputAccepted()
 {
     if(!m_callback)
@@ -30,6 +42,19 @@ void PopupsPresenterImpl::inputAccepted()
     m_callback = nullptr;
     m_inputText.clear();
     emit closeAllPopups();
+}
+
+void PopupsPresenterImpl::onConfirmed()
+{
+    m_confirmCallback();
+    m_confirmCallback = nullptr;
+    emit closeAllPopups();
+}
+
+void PopupsPresenterImpl::onCancelled()
+{
+    emit closeAllPopups();
+    m_confirmCallback = nullptr;
 }
 
 void PopupsPresenterImpl::onInputChanged(const QString &username)

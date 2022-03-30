@@ -42,6 +42,6 @@
         }
     },
     "targetFile": "fi_ctSlider3.ghuie",
-    "type": "ZetaSurgicalSet.CTSlider_Vertical",
+    "type": "ZetaSurgicalSet.SliderCT_Vertical",
     "userDefined": false
 }

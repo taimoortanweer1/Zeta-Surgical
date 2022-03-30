@@ -1,0 +1,280 @@
+{
+    "aliasList": {
+        "fi_Buttons_TextLeftAligned": [
+            {
+                "aliasElement": "repeateInterval",
+                "aliasName": "fi_Buttons_TextLeftAligned_repeateInterval",
+                "aliasSource": "fi_Buttons_TextLeftAligned"
+            },
+            {
+                "aliasElement": "minimumRepeatInterval",
+                "aliasName": "fi_Buttons_TextLeftAligned_minimumRepeatInterval",
+                "aliasSource": "fi_Buttons_TextLeftAligned"
+            },
+            {
+                "aliasElement": "doubleClickEnabeld",
+                "aliasName": "fi_Buttons_TextLeftAligned_doubleClickEnabeld",
+                "aliasSource": "fi_Buttons_TextLeftAligned"
+            },
+            {
+                "aliasElement": "selectionIndex",
+                "aliasName": "fi_Buttons_TextLeftAligned_selectionIndex",
+                "aliasSource": "fi_Buttons_TextLeftAligned"
+            },
+            {
+                "aliasElement": "itemIndex",
+                "aliasName": "fi_Buttons_TextLeftAligned_itemIndex",
+                "aliasSource": "fi_Buttons_TextLeftAligned"
+            },
+            {
+                "aliasElement": "fi_Default_Target_font",
+                "aliasName": "fi_Buttons_TextLeftAligned_fi_Default_Target_font",
+                "aliasSource": "fi_Buttons_TextLeftAligned"
+            },
+            {
+                "aliasElement": "fi_Default_Target_horizontalAlignment",
+                "aliasName": "fi_Buttons_TextLeftAligned_fi_Default_Target_horizontalAlignment",
+                "aliasSource": "fi_Buttons_TextLeftAligned"
+            },
+            {
+                "aliasElement": "fi_Default_Target_lineHeight",
+                "aliasName": "fi_Buttons_TextLeftAligned_fi_Default_Target_lineHeight",
+                "aliasSource": "fi_Buttons_TextLeftAligned"
+            },
+            {
+                "aliasElement": "fi_Default_Target_lineHeightMode",
+                "aliasName": "fi_Buttons_TextLeftAligned_fi_Default_Target_lineHeightMode",
+                "aliasSource": "fi_Buttons_TextLeftAligned"
+            },
+            {
+                "aliasElement": "fi_Default_Target_opacity",
+                "aliasName": "fi_Buttons_TextLeftAligned_fi_Default_Target_opacity",
+                "aliasSource": "fi_Buttons_TextLeftAligned"
+            },
+            {
+                "aliasElement": "fi_Default_Target_richText",
+                "aliasName": "fi_Buttons_TextLeftAligned_fi_Default_Target_richText",
+                "aliasSource": "fi_Buttons_TextLeftAligned"
+            },
+            {
+                "aliasElement": "fi_Default_Target_text",
+                "aliasName": "fi_Buttons_TextLeftAligned_fi_Default_Target_text",
+                "aliasSource": "fi_Buttons_TextLeftAligned"
+            },
+            {
+                "aliasElement": "fi_Default_Target_textColor",
+                "aliasName": "fi_Buttons_TextLeftAligned_fi_Default_Target_textColor",
+                "aliasSource": "fi_Buttons_TextLeftAligned"
+            },
+            {
+                "aliasElement": "fi_Default_Target_verticalAlignment",
+                "aliasName": "fi_Buttons_TextLeftAligned_fi_Default_Target_verticalAlignment",
+                "aliasSource": "fi_Buttons_TextLeftAligned"
+            },
+            {
+                "aliasElement": "enabled",
+                "aliasName": "fi_Buttons_TextLeftAligned_enabled",
+                "aliasSource": "fi_Buttons_TextLeftAligned"
+            }
+        ],
+        "fi_DeleteButton": [
+            {
+                "aliasElement": "repeateInterval",
+                "aliasName": "fi_DeleteButton_repeateInterval",
+                "aliasSource": "fi_DeleteButton"
+            },
+            {
+                "aliasElement": "minimumRepeatInterval",
+                "aliasName": "fi_DeleteButton_minimumRepeatInterval",
+                "aliasSource": "fi_DeleteButton"
+            },
+            {
+                "aliasElement": "doubleClickEnabeld",
+                "aliasName": "fi_DeleteButton_doubleClickEnabeld",
+                "aliasSource": "fi_DeleteButton"
+            },
+            {
+                "aliasElement": "fi_Ellipse_220_source",
+                "aliasName": "fi_DeleteButton_fi_Ellipse_220_source",
+                "aliasSource": "fi_DeleteButton"
+            },
+            {
+                "aliasElement": "fi_Ellipse_220_opacity",
+                "aliasName": "fi_DeleteButton_fi_Ellipse_220_opacity",
+                "aliasSource": "fi_DeleteButton"
+            },
+            {
+                "aliasElement": "icon_source",
+                "aliasName": "fi_DeleteButton_icon_source",
+                "aliasSource": "fi_DeleteButton"
+            },
+            {
+                "aliasElement": "icon_opacity",
+                "aliasName": "fi_DeleteButton_icon_opacity",
+                "aliasSource": "fi_DeleteButton"
+            },
+            {
+                "aliasElement": "enabled",
+                "aliasName": "fi_DeleteButton_enabled",
+                "aliasSource": "fi_DeleteButton"
+            }
+        ]
+    },
+    "componentLayout": {
+        "blockInputFallthrough": true,
+        "children": [
+            {
+                "children": [
+                    {
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Buttons_TextLeftAligned",
+                        "targetFile": "fi_Buttons_TextLeftAligned.ghuie",
+                        "type": "ZetaSurgicalSet.Buttons_TextLeftAligned",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorRight": {
+                            "anchorMargin": 8,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorVCenter": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "VerticalCenter"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_DeleteButton",
+                        "properties": {
+                            "clip": {
+                                "name": "clip",
+                                "type": "Bool",
+                                "value": true
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 296
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 8
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 1
+                            }
+                        },
+                        "targetFile": "fi_DeleteButton.ghuie",
+                        "type": "ZetaSurgicalSet.DeleteButton_Default_State",
+                        "userDefined": false
+                    }
+                ],
+                "childrenSplit": true,
+                "id": "root",
+                "properties": {
+                    "height": {
+                        "name": "height",
+                        "type": "Int",
+                        "value": 80
+                    },
+                    "width": {
+                        "name": "width",
+                        "type": "Int",
+                        "value": 368
+                    }
+                },
+                "targetFile": "root.ghuie",
+                "type": "Item",
+                "userDefined": false
+            }
+        ],
+        "childrenSplit": true,
+        "fillParent": false,
+        "height": 80,
+        "hideAnimation": {
+            "type": "Sequential"
+        },
+        "interfaceName": "",
+        "name": "___TEMP_LAYOUT___ZetaSurgicalSet.ModifyInstrumentDelegate_Default_State",
+        "posX": 0,
+        "posY": 0,
+        "rootContainerType": "Item",
+        "showAnimation": {
+            "type": "Sequential"
+        },
+        "targetFile": "___TEMP_LAYOUT___ZetaSurgicalSet.ModifyInstrumentDelegate_Default_State.ghl",
+        "width": 368
+    },
+    "componentName": "ZetaSurgicalSet.ModifyInstrumentDelegate_Default_State",
+    "properties": [
+    ],
+    "signalList": {
+        "fi_Buttons_TextLeftAligned": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "fi_Buttons_TextLeftAligned_clicked",
+                "aliasSource": "fi_Buttons_TextLeftAligned"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "fi_Buttons_TextLeftAligned_doubleClicked",
+                "aliasSource": "fi_Buttons_TextLeftAligned"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "fi_Buttons_TextLeftAligned_pressed",
+                "aliasSource": "fi_Buttons_TextLeftAligned"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "fi_Buttons_TextLeftAligned_released",
+                "aliasSource": "fi_Buttons_TextLeftAligned"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "fi_Buttons_TextLeftAligned_repeatingTriggered",
+                "aliasSource": "fi_Buttons_TextLeftAligned"
+            }
+        ],
+        "fi_DeleteButton": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "fi_DeleteButton_clicked",
+                "aliasSource": "fi_DeleteButton"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "fi_DeleteButton_doubleClicked",
+                "aliasSource": "fi_DeleteButton"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "fi_DeleteButton_pressed",
+                "aliasSource": "fi_DeleteButton"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "fi_DeleteButton_released",
+                "aliasSource": "fi_DeleteButton"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "fi_DeleteButton_repeatingTriggered",
+                "aliasSource": "fi_DeleteButton"
+            }
+        ]
+    },
+    "states": {
+    },
+    "targetFile": "ModifyInstrumentDelegate_Default_State.ghcomp"
+}

@@ -65,6 +65,8 @@ void PatientsDatabaseImpl::init()
         m_studyDescriptionList->addStudyDescription(StudyDescriptionData {1, QStringLiteral("Description"), QStringLiteral("MRI"), QStringLiteral("512x512"), 5, QDate::currentDate()});
     }
     setStudiesDescriptionList(m_studyDescriptionList);
+
+    setSelectedViewString(viewsModel()->dataAt(0)[QStringLiteral("valueRole")].toString());
 }
 
 void PatientsDatabaseImpl::onFilterEditRequested()
@@ -82,4 +84,15 @@ void PatientsDatabaseImpl::selectPatient(int index)
     setSelectedPatientDOBString(m_filterModel->getData(index, PatientsModel::DOB).toString());
     setSelectedPatientMRNString(m_filterModel->getData(index, PatientsModel::MRN).toString());
     emit patientSelected();
+}
+
+void PatientsDatabaseImpl::viewSelected(const QVariant &value, int index)
+{
+    qWarning() << __PRETTY_FUNCTION__ << value << index;
+    setSelectedViewString(value.toString());
+}
+
+void PatientsDatabaseImpl::previewZoomSliderMoved(int value)
+{
+    qWarning() << __PRETTY_FUNCTION__ << value;
 }

@@ -10,6 +10,9 @@
         "anchorValue": "Top"
     },
     "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "I289:2593;234:30909"
+    },
     "id": "fi_ListViewRow3_horizontal",
     "properties": {
         "delegateSpacing": {

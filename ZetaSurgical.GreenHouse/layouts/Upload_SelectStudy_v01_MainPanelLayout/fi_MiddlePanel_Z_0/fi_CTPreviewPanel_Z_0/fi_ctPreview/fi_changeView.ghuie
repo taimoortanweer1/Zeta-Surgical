@@ -15,6 +15,21 @@
     },
     "id": "fi_changeView",
     "properties": {
+        "fi_Coronal_text": {
+            "bindingProp": "selectedViewString",
+            "bindingSrc": "PatientsDatabase",
+            "name": "fi_Coronal_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I164:7528;21:6440",
+            "value": "Coronal"
+        },
+        "fi_ListView_DropDown_FitDelegate_viewModel": {
+            "bindingProp": "viewsModel",
+            "bindingSrc": "PatientsDatabase",
+            "name": "fi_ListView_DropDown_FitDelegate_viewModel",
+            "type": "Model",
+            "value": "null"
+        },
         "x": {
             "name": "x",
             "type": "Int",
@@ -29,6 +44,13 @@
             "name": "z",
             "type": "Int",
             "value": 4
+        }
+    },
+    "signals": {
+        "selectionMade": {
+            "arguments": "var valueRole, int index",
+            "name": "selectionMade",
+            "rawCode": "root.itemInterface.fi_changeView__onEvent__selectionMade(valueRole, index)\n"
         }
     },
     "targetFile": "fi_changeView.ghuie",

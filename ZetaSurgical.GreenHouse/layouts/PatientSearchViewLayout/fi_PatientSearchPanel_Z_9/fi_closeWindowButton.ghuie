@@ -8,6 +8,9 @@
         "anchorValue": "Top"
     },
     "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "289:2592"
+    },
     "id": "fi_closeWindowButton",
     "properties": {
         "x": {

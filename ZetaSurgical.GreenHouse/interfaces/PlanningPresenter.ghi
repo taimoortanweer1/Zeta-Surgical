@@ -1,0 +1,159 @@
+{
+    "backendObject": false,
+    "hidden": false,
+    "methods": {
+        "deleteInstrumentAtIndex": {
+            "arguments": [
+                {
+                    "name": "index",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "deleteInstrumentAtIndex"
+        },
+        "deleteTargetAtIndex": {
+            "arguments": [
+                {
+                    "name": "index",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "deleteTargetAtIndex"
+        },
+        "editTargetAtIndex": {
+            "arguments": [
+                {
+                    "name": "index",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "editTargetAtIndex"
+        },
+        "selectInstrumentAtIndex": {
+            "arguments": [
+                {
+                    "name": "index",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "selectInstrumentAtIndex"
+        },
+        "selectTargetAtIndex": {
+            "arguments": [
+                {
+                    "name": "index",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "selectTargetAtIndex"
+        }
+    },
+    "name": "PlanningPresenter",
+    "properties": {
+        "arguments": [
+            {
+                "data": [
+                    {
+                        "index": "0",
+                        "text": "text_0"
+                    },
+                    {
+                        "index": "1",
+                        "text": "text_1"
+                    },
+                    {
+                        "index": "2",
+                        "text": "text_2"
+                    },
+                    {
+                        "index": "3",
+                        "text": "text_3"
+                    },
+                    {
+                        "index": "4",
+                        "text": "text_4"
+                    },
+                    {
+                        "index": "5",
+                        "text": "text_5"
+                    },
+                    {
+                        "index": "6",
+                        "text": "text_6"
+                    },
+                    {
+                        "index": "7",
+                        "text": "text_7"
+                    }
+                ],
+                "name": "targetsList",
+                "preview": null,
+                "readonly": true,
+                "roles": [
+                    "text",
+                    "index"
+                ],
+                "type": "Model"
+            },
+            {
+                "name": "selectedTargetIndex",
+                "preview": -1,
+                "readonly": true,
+                "type": "Int"
+            },
+            {
+                "data": [
+                    {
+                        "index": 0,
+                        "text": "text_0"
+                    },
+                    {
+                        "index": 1,
+                        "text": "text_1"
+                    },
+                    {
+                        "index": 2,
+                        "text": "text_2"
+                    },
+                    {
+                        "index": 3,
+                        "text": "text_3"
+                    },
+                    {
+                        "index": 4,
+                        "text": "text_4"
+                    },
+                    {
+                        "index": 5,
+                        "text": "text_5"
+                    },
+                    {
+                        "index": 6,
+                        "text": "text_6"
+                    }
+                ],
+                "name": "instrumentsList",
+                "preview": null,
+                "readonly": true,
+                "roles": [
+                    "text",
+                    "index"
+                ],
+                "type": "Model"
+            },
+            {
+                "name": "selectedInstrumentIndex",
+                "preview": -1,
+                "readonly": true,
+                "type": "Int"
+            }
+        ]
+    },
+    "targetFile": "PlanningPresenter.ghi",
+    "uuid": "{532a1819-a044-44d1-8d7e-729879ee20a5}"
+}

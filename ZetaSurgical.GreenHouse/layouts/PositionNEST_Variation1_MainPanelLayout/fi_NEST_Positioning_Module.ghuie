@@ -44,7 +44,7 @@
         "width": {
             "name": "width",
             "type": "Int",
-            "value": 970
+            "value": 818
         },
         "wrapMode": {
             "name": "wrapMode",

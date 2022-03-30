@@ -13,7 +13,7 @@
         "width": {
             "name": "width",
             "type": "Int",
-            "value": 272
+            "value": 424
         },
         "x": {
             "name": "x",
@@ -23,12 +23,12 @@
         "y": {
             "name": "y",
             "type": "Int",
-            "value": 672
+            "value": 16
         },
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 4
+            "value": 6
         }
     },
     "targetFile": "fi_DistanceToFacePanel.ghuie",

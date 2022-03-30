@@ -1,10 +1,11 @@
 {
     "anchorHCenter": {
-        "anchorMargin": -12,
+        "anchorMargin": -65,
         "anchorTarget": "parent",
         "anchorValue": "HorizontalCenter"
     },
     "anchorVCenter": {
+        "anchorMargin": -18,
         "anchorTarget": "parent",
         "anchorValue": "VerticalCenter"
     },
@@ -38,21 +39,6 @@
             "name": "width",
             "type": "Int",
             "value": 111
-        },
-        "x": {
-            "name": "x",
-            "type": "Int",
-            "value": 53
-        },
-        "y": {
-            "name": "y",
-            "type": "Int",
-            "value": 18
-        },
-        "z": {
-            "name": "z",
-            "type": "Int",
-            "value": 2
         }
     },
     "targetFile": "fi_kisspngwiredrawingfacehumanheadimage5cd2bf78ee62c2_1.ghuie",

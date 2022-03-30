@@ -23,14 +23,14 @@
                             "bindingRole": "dateAdded",
                             "name": "fi_02_14_2022_text",
                             "type": "TranslatableString",
-                            "uuid": "{3d2d059e-0665-4d62-ab1c-864e43c1d435}",
+                            "uuid": "FigmaNode::I164:7940;164:7772",
                             "value": "02/14/2022"
                         },
                         "fi_130_text": {
                             "bindingRole": "count",
                             "name": "fi_130_text",
                             "type": "TranslatableString",
-                            "uuid": "{3cac2b8d-2fb4-49a9-b1b9-1109656668a9}",
+                            "uuid": "FigmaNode::I164:7940;164:7771",
                             "value": "130"
                         },
                         "fi_1_text": {
@@ -44,21 +44,21 @@
                             "bindingRole": "size",
                             "name": "fi_512x512_text",
                             "type": "TranslatableString",
-                            "uuid": "{6809da34-66ea-44fd-8b33-e845b410d047}",
+                            "uuid": "FigmaNode::I164:7940;164:7770",
                             "value": "512x512"
                         },
                         "fi_MRI_text": {
                             "bindingRole": "modality",
                             "name": "fi_MRI_text",
                             "type": "TranslatableString",
-                            "uuid": "{86a0308e-dae7-4fee-9def-8855d82ced82}",
+                            "uuid": "FigmaNode::I164:7940;164:7768",
                             "value": "MRI"
                         },
                         "fi_Sample_Collection_text": {
                             "bindingRole": "description",
                             "name": "fi_Sample_Collection_text",
                             "type": "TranslatableString",
-                            "uuid": "{0852555a-c408-4e43-ba2c-11f0c06d5df0}",
+                            "uuid": "FigmaNode::I164:7940;164:7769",
                             "value": "Sample Collection"
                         },
                         "itemIndex": {
@@ -132,35 +132,35 @@
                             "bindingRole": "date",
                             "name": "fi_02_14_2022_text",
                             "type": "TranslatableString",
-                            "uuid": "{cc5c0439-464c-472b-84c8-7d42a33452a6}",
+                            "uuid": "FigmaNode::I164:7885;164:7746",
                             "value": "02/14/2022"
                         },
                         "fi_02_2_2022_text": {
                             "bindingRole": "studyDate",
                             "name": "fi_02_2_2022_text",
                             "type": "TranslatableString",
-                            "uuid": "{13a230d0-d459-4bda-a411-d9ce981b2b27}",
+                            "uuid": "FigmaNode::I164:7885;164:7742",
                             "value": "02/1/2022"
                         },
                         "fi_5_text": {
                             "bindingRole": "nos",
                             "name": "fi_5_text",
                             "type": "TranslatableString",
-                            "uuid": "{89786490-302f-4cb4-9617-3b1c9c8f13b5}",
+                            "uuid": "FigmaNode::I164:7885;164:7745",
                             "value": "5"
                         },
                         "fi_BWH12345_text": {
                             "bindingRole": "id",
                             "name": "fi_BWH12345_text",
                             "type": "TranslatableString",
-                            "uuid": "{8825afc3-c281-4a10-9688-766499808edc}",
+                            "uuid": "FigmaNode::I164:7885;164:7743",
                             "value": "BWH-12344"
                         },
                         "fi_CT_Scans_and_stuff_text": {
                             "bindingRole": "description",
                             "name": "fi_CT_Scans_and_stuff_text",
                             "type": "TranslatableString",
-                            "uuid": "{f112e880-f6c2-4462-84cf-b4691d785488}",
+                            "uuid": "FigmaNode::I164:7885;164:7744",
                             "value": "CT scans and MRI things"
                         },
                         "itemIndex": {

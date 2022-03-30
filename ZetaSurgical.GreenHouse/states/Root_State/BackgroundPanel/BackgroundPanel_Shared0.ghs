@@ -27,7 +27,7 @@
     "posY": 0,
     "properties": {
         "childViewType": "ChildStateView",
-        "initial": true,
+        "initial": false,
         "layoutFile": "BackgroundPanel_Shared0Layout",
         "layoutFileTemplate": "%1Impl.qml",
         "name": "BackgroundPanel_Shared0",

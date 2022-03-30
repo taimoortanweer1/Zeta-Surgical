@@ -11,7 +11,6 @@ Button_Navigation_Positioning 1.0 Button_Navigation_Positioning.qml
 Button_Navigation_Segmentation 1.0 Button_Navigation_Segmentation.qml
 Button_Navigation_Upload 1.0 Button_Navigation_Upload.qml
 ChangeViewDropDown 1.0 ChangeViewDropDown.qml
-DecisionButton 1.0 DecisionButton.qml
 HomeButton 1.0 HomeButton.qml
 LockWheelsButton 1.0 LockWheelsButton.qml
 ToggleButton_Left_Selection 1.0 ToggleButton_Left_Selection.qml
@@ -27,15 +26,11 @@ TexBox_Error 1.0 TexBox_Error.qml
 PatientInfoText_var_1 1.0 PatientInfoText_var_1.qml
 MetaDataTablePanel 1.0 MetaDataTablePanel.qml
 Iconst_Locked_Default_State 1.0 Iconst_Locked_Default_State.qml
-CTSlider_Vertical 1.0 CTSlider_Vertical.qml
-CTSlider_Horizontal 1.0 CTSlider_Horizontal.qml
 ToggleButton_Up_Selection 1.0 ToggleButton_Up_Selection.qml
 InfoButton_Default_State 1.0 InfoButton_Default_State.qml
 BackButton_Default_State 1.0 BackButton_Default_State.qml
 FileNavBar_Top_Default_State 1.0 FileNavBar_Top_Default_State.qml
 ListItemDropdown 1.0 ListItemDropdown.qml
-ModifyInstrumentButton 1.0 ModifyInstrumentButton.qml
-ModifyTargetButton 1.0 ModifyTargetButton.qml
 Table1DelegateListItem_Button 1.0 Table1DelegateListItem_Button.qml
 Table2DelegateListItem_Button 1.0 Table2DelegateListItem_Button.qml
 Table3DelegateListItem_Button 1.0 Table3DelegateListItem_Button.qml
@@ -50,3 +45,12 @@ KeyboardButton_Letter_Uppercase 1.0 KeyboardButton_Letter_Uppercase.qml
 LoginInputButton 1.0 LoginInputButton.qml
 CloseWindowButton_Default_State 1.0 CloseWindowButton_Default_State.qml
 NavigationBar_Left_Default_State 1.0 NavigationBar_Left_Default_State.qml
+SliderCT_Horizontal 1.0 SliderCT_Horizontal.qml
+SliderCT_Vertical 1.0 SliderCT_Vertical.qml
+PointDisplayPanel 1.0 PointDisplayPanel.qml
+DeleteButton_Default_State 1.0 DeleteButton_Default_State.qml
+ModifyButton_Default_State 1.0 ModifyButton_Default_State.qml
+DecisionButton 1.0 DecisionButton.qml
+Buttons_TextLeftAligned 1.0 Buttons_TextLeftAligned.qml
+ModifyTargetDelegate_Default_State 1.0 ModifyTargetDelegate_Default_State.qml
+ModifyInstrumentDelegate_Default_State 1.0 ModifyInstrumentDelegate_Default_State.qml

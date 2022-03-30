@@ -1,6 +1,6 @@
 {
     "anchorHCenter": {
-        "anchorMargin": -10,
+        "anchorMargin": -50,
         "anchorTarget": "parent",
         "anchorValue": "HorizontalCenter"
     },
@@ -39,16 +39,6 @@
             "name": "width",
             "type": "Int",
             "value": 141
-        },
-        "x": {
-            "name": "x",
-            "type": "Int",
-            "value": 40
-        },
-        "z": {
-            "name": "z",
-            "type": "Int",
-            "value": 2
         }
     },
     "targetFile": "fi_lowpolymaleandfemalehead3dmodellowpolyobjfbxremovebgpreview_1.ghuie",
