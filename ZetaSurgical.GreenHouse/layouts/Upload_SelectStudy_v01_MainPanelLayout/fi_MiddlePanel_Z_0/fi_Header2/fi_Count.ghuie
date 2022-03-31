@@ -36,6 +36,12 @@
             "value": 4
         }
     },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_Count__onEvent__clicked(PatientsDatabase.Count)\n"
+        }
+    },
     "targetFile": "fi_Count.ghuie",
     "type": "ZetaSurgicalSet.Buttons_LVHeader_Default_State",
     "userDefined": false

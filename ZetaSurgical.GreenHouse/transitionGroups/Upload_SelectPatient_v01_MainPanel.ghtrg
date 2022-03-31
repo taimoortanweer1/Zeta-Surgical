@@ -61,60 +61,6 @@
                 "backTransition": false,
                 "blockedIfTargetActive": false,
                 "internal": false,
-                "signalName": "fi_ctHeader__onEvent__fi_cdUsb_clicked",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
-            },
-            "template": "ItemSignalTransition",
-            "triggeredActions": [
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(PatientsDatabase, co) co->onSelectStorageSource(args.at(0).toInt());\n}\n",
-                    "type": "RawCode"
-                }
-            ]
-        },
-        {
-            "properties": {
-                "backTransition": false,
-                "blockedIfTargetActive": false,
-                "internal": false,
-                "signalName": "fi_ctHeader__onEvent__fi_local_clicked",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
-            },
-            "template": "ItemSignalTransition",
-            "triggeredActions": [
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(PatientsDatabase, co) co->onSelectStorageSource(args.at(0).toInt());\n}\n",
-                    "type": "RawCode"
-                }
-            ]
-        },
-        {
-            "properties": {
-                "backTransition": false,
-                "blockedIfTargetActive": false,
-                "internal": false,
-                "signalName": "fi_ctHeader__onEvent__fi_pacs_clicked",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
-            },
-            "template": "ItemSignalTransition",
-            "triggeredActions": [
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(PatientsDatabase, co) co->onSelectStorageSource(args.at(0).toInt());\n}\n",
-                    "type": "RawCode"
-                }
-            ]
-        },
-        {
-            "properties": {
-                "backTransition": false,
-                "blockedIfTargetActive": false,
-                "internal": false,
                 "signalName": "fi_Name__onEvent__clicked",
                 "validSourceTemplates": [
                     "ItemState"

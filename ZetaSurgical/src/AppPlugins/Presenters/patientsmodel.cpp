@@ -65,39 +65,39 @@ QHash<int, QByteArray> PatientsModel::roleNames() const
     return roles;
 }
 
-PatientsFilterModel::PatientsFilterModel(QObject *parent)
+SortFilterModel::SortFilterModel(QObject *parent)
     : QSortFilterProxyModel(parent)
 {
 
 }
 
-void PatientsFilterModel::setFilterString(QString filter)
+void SortFilterModel::setFilterString(QString filter)
 {
     m_filter = filter;
     invalidate();
 }
 
-QVariant PatientsFilterModel::getData(int ind, int role) const
+QVariant SortFilterModel::getData(int ind, int role) const
 {
     auto const sourceIndex = mapFromSource(index(ind, 0));
     return sourceModel()->data(sourceIndex, role);
 }
 
-void PatientsFilterModel::sortByRole(PatientsModel::Roles role)
+void SortFilterModel::sortByRole(int role)
 {
     qWarning() << __PRETTY_FUNCTION__ << role;
     setSortRole(role);
     sort(0, Qt::AscendingOrder);
 }
 
-bool PatientsFilterModel::lessThan(const QModelIndex &left, const QModelIndex &right) const
+bool SortFilterModel::lessThan(const QModelIndex &left, const QModelIndex &right) const
 {
     auto const leftData = sourceModel()->data(left, sortRole());
     auto const rightData = sourceModel()->data(right, sortRole());
     return leftData < rightData;
 }
 
-bool PatientsFilterModel::filterAcceptsRow(int source_row, const QModelIndex &source_parent) const
+bool SortFilterModel::filterAcceptsRow(int source_row, const QModelIndex &source_parent) const
 {
     Q_UNUSED(source_parent);
 

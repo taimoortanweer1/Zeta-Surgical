@@ -53,14 +53,14 @@ private:
     Patients m_data;
 };
 
-class PatientsFilterModel : public QSortFilterProxyModel
+class SortFilterModel : public QSortFilterProxyModel
 {
     Q_OBJECT
 public:
-    PatientsFilterModel(QObject *parent);
+    SortFilterModel(QObject *parent);
     void setFilterString(QString filter);
     QVariant getData(int index, int role) const;
-    void sortByRole(PatientsModel::Roles role);
+    void sortByRole(int role);
 
 protected:
     bool filterAcceptsRow(int source_row, const QModelIndex &source_parent) const override;

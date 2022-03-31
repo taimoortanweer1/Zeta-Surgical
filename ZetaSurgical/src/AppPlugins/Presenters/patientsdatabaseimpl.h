@@ -4,7 +4,7 @@
 
 class PatientsModel;
 class StudiesList;
-class PatientsFilterModel;
+class SortFilterModel;
 class PopupsPresenterImpl;
 class StudyDescriptionList;
 
@@ -22,11 +22,18 @@ public:
     void onSelectStorageSource(int index) override;
     void onShowPatientsList() override;
     void sortPatientListBy(int headerEntry) override;
+    void sortStudiesListBy(int headerEntry) override;
+    void sortStudiesDescriptionListBy(int headerEntry) override;
 
 private:
-    PatientsModel * const m_patientsModel;
-    PatientsFilterModel * const m_filterModel;
-    StudiesList *const m_studiesList;
     PopupsPresenterImpl * const m_popupsPresenter;
+
+    PatientsModel * const m_patientsModel;
+    SortFilterModel * const m_filterModel;
+
+    StudiesList *const m_studiesList;
+    SortFilterModel * const m_studiesFilterModel;
+
     StudyDescriptionList * const m_studyDescriptionList;
+    SortFilterModel * const m_studiesDescriptionFilterModel;
 };

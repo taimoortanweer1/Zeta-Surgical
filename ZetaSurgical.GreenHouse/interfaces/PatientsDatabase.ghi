@@ -20,6 +20,27 @@
                 "SessionID",
                 "Date"
             ]
+        },
+        {
+            "name": "StudyListHeaderEntries",
+            "value": [
+                "StudyDate",
+                "StudyID",
+                "StudyDescription",
+                "NOfSeries",
+                "SecondDate"
+            ]
+        },
+        {
+            "name": "StudyDescriptionHeaderEntries",
+            "value": [
+                "Series",
+                "Description",
+                "Modality",
+                "Size",
+                "Count",
+                "DateAdded"
+            ]
         }
     ],
     "hidden": false,
@@ -72,6 +93,26 @@
                 }
             ],
             "name": "sortPatientListBy"
+        },
+        "sortStudiesDescriptionListBy": {
+            "arguments": [
+                {
+                    "name": "role",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "sortStudiesDescriptionListBy"
+        },
+        "sortStudiesListBy": {
+            "arguments": [
+                {
+                    "name": "role",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "sortStudiesListBy"
         },
         "viewSelected": {
             "arguments": [

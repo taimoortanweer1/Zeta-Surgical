@@ -85,36 +85,6 @@
         "fi_continue__onEvent__clicked": {
             "name": "fi_continue__onEvent__clicked"
         },
-        "fi_ctHeader__onEvent__fi_cdUsb_clicked": {
-            "arguments": [
-                {
-                    "name": "PatientsDatabase_onSelectStorageSource_index",
-                    "preview": null,
-                    "type": "Int"
-                }
-            ],
-            "name": "fi_ctHeader__onEvent__fi_cdUsb_clicked"
-        },
-        "fi_ctHeader__onEvent__fi_local_clicked": {
-            "arguments": [
-                {
-                    "name": "PatientsDatabase_onSelectStorageSource_index",
-                    "preview": null,
-                    "type": "Int"
-                }
-            ],
-            "name": "fi_ctHeader__onEvent__fi_local_clicked"
-        },
-        "fi_ctHeader__onEvent__fi_pacs_clicked": {
-            "arguments": [
-                {
-                    "name": "PatientsDatabase_onSelectStorageSource_index",
-                    "preview": null,
-                    "type": "Int"
-                }
-            ],
-            "name": "fi_ctHeader__onEvent__fi_pacs_clicked"
-        },
         "mouseArea0__onEvent__clicked": {
             "name": "mouseArea0__onEvent__clicked"
         }

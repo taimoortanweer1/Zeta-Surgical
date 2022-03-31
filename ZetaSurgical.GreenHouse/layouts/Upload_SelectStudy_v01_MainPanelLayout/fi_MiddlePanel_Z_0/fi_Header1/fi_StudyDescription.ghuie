@@ -36,6 +36,12 @@
             "value": 2
         }
     },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_StudyDescription__onEvent__clicked(PatientsDatabase.StudyDescription)\n"
+        }
+    },
     "targetFile": "fi_StudyDescription.ghuie",
     "type": "ZetaSurgicalSet.Buttons_LVHeader_Default_State",
     "userDefined": false

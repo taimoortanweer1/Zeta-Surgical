@@ -4,14 +4,20 @@
 
 PatientsDatabaseImpl::PatientsDatabaseImpl(PopupsPresenterImpl *popupsPresenter)
     : ZetaSurgical::PatientsDatabase()
-    , m_patientsModel(new PatientsModel(this))
-    , m_filterModel(new PatientsFilterModel(this))
-    , m_studiesList(new StudiesList(this))
     , m_popupsPresenter(popupsPresenter)
+    , m_patientsModel(new PatientsModel(this))
+    , m_filterModel(new SortFilterModel(this))
+
+    , m_studiesList(new StudiesList(this))
+    , m_studiesFilterModel(new SortFilterModel(this))
+
     , m_studyDescriptionList(new StudyDescriptionList(this))
+    , m_studiesDescriptionFilterModel(new SortFilterModel(this))
 {
     Q_ASSERT(m_popupsPresenter);
     m_filterModel->setSourceModel(m_patientsModel);
+    m_studiesFilterModel->setSourceModel(m_studiesList);
+    m_studiesDescriptionFilterModel->setSourceModel(m_studyDescriptionList);
 }
 
 void PatientsDatabaseImpl::init()
@@ -59,14 +65,14 @@ void PatientsDatabaseImpl::init()
     setPatientsList(m_filterModel);
 
     for(int i = 0; i < 10; ++i) {
-        m_studiesList->addStudy(StudyData {QDate::currentDate(), i, QStringLiteral("Description"), 5, QDate::currentDate()});
+        m_studiesList->addStudy(StudyData {QDate::currentDate(), 10 - i, QStringLiteral("Description"), 5 + i, QDate::currentDate()});
     }
-    setStudiesList(m_studiesList);
+    setStudiesList(m_studiesFilterModel);
 
     for(int i = 0; i < 10; ++i) {
-        m_studyDescriptionList->addStudyDescription(StudyDescriptionData {1, QStringLiteral("Description"), QStringLiteral("MRI"), QStringLiteral("512x512"), 5, QDate::currentDate()});
+        m_studyDescriptionList->addStudyDescription(StudyDescriptionData {i+1, QStringLiteral("Description"), QStringLiteral("MRI"), QStringLiteral("512x512"), 5 + i, QDate::currentDate()});
     }
-    setStudiesDescriptionList(m_studyDescriptionList);
+    setStudiesDescriptionList(m_studiesDescriptionFilterModel);
 
     setSelectedViewString(viewsModel()->dataAt(0)[QStringLiteral("valueRole")].toString());
 }
@@ -120,4 +126,16 @@ void PatientsDatabaseImpl::sortPatientListBy(int headerEntry)
     if(role == PatientsModel::DOB)
         role = PatientsModel::RawDOB;
     m_filterModel->sortByRole(role);
+}
+
+void PatientsDatabaseImpl::sortStudiesListBy(int headerEntry)
+{
+    auto role = static_cast<StudiesList::Roles>(headerEntry + Qt::UserRole + 1);
+    m_studiesFilterModel->sortByRole(role);
+}
+
+void PatientsDatabaseImpl::sortStudiesDescriptionListBy(int headerEntry)
+{
+    auto role = static_cast<StudyDescriptionList::Roles>(headerEntry + Qt::UserRole + 1);
+    m_studiesDescriptionFilterModel->sortByRole(role);
 }
