@@ -1,5 +1,15 @@
 {
     "backendObject": false,
+    "enums": [
+        {
+            "name": "StorageSource",
+            "value": [
+                "Local",
+                "CDUSB",
+                "PACS"
+            ]
+        }
+    ],
     "hidden": false,
     "methods": {
         "onFilterEditRequested": {
@@ -7,6 +17,19 @@
         },
         "onProceedToStudySelection": {
             "name": "onProceedToStudySelection"
+        },
+        "onSelectStorageSource": {
+            "arguments": [
+                {
+                    "name": "index",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "onSelectStorageSource"
+        },
+        "onShowPatientsList": {
+            "name": "onShowPatientsList"
         },
         "previewZoomSliderMoved": {
             "arguments": [
@@ -376,6 +399,11 @@
                 "preview": null,
                 "readonly": true,
                 "type": "String"
+            },
+            {
+                "name": "selectedSourceIndex",
+                "preview": -1,
+                "type": "Int"
             }
         ]
     },

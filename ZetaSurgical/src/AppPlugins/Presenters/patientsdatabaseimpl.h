@@ -19,6 +19,8 @@ public:
     void selectPatient(int index) override;
     void viewSelected(const QVariant &value, int index) override;
     void previewZoomSliderMoved(int value) override;
+    void onSelectStorageSource(int index) override;
+    void onShowPatientsList() override;
 
 private:
     PatientsModel * const m_patientsModel;

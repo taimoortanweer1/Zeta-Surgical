@@ -35,6 +35,10 @@
                 {
                     "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceScreensMoveToUpload_SelectPatient_v01_ScreenState();\n}\n",
                     "type": "RawCode"
+                },
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PatientsDatabase, co) co->onShowPatientsList();\n}\n",
+                    "type": "RawCode"
                 }
             ]
         }

@@ -99,3 +99,13 @@ void PatientsDatabaseImpl::previewZoomSliderMoved(int value)
 {
     qWarning() << value;
 }
+
+void PatientsDatabaseImpl::onSelectStorageSource(int index)
+{
+    setSelectedSourceIndex(index);
+}
+
+void PatientsDatabaseImpl::onShowPatientsList()
+{
+    onSelectStorageSource(StorageSource::Local);
+}
