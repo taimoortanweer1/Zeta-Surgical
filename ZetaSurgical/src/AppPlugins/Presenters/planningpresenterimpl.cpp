@@ -1,11 +1,13 @@
 #include "planningpresenterimpl.h"
 #include "popupspresenterimpl.h"
+#include <QQuickItem>
 
 PlanningPresenterImpl::PlanningPresenterImpl(PopupsPresenterImpl *popupsPresenter)
     : ZetaSurgical::PlanningPresenter()
     , m_popupsPresenter(popupsPresenter)
 {
     Q_ASSERT(m_popupsPresenter);
+    qWarning() << __PRETTY_FUNCTION__;
 }
 
 void PlanningPresenterImpl::editTargetAtIndex(int index)
@@ -40,4 +42,15 @@ void PlanningPresenterImpl::deleteInstrumentAtIndex(int index)
         instrumentsList()->removeRow(index);
     });
 
+}
+
+void PlanningPresenterImpl::setVTKItem(QObject *item)
+{
+    qWarning() << __PRETTY_FUNCTION__ << item;
+    auto const vtk = qobject_cast<QQuickItem*>(item);
+    if(!vtk) {
+        qWarning() << "Can not cast to QQuickItem";
+        return;
+    }
+    vtk->setProperty("color", QColor("yellow"));
 }

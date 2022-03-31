@@ -91,6 +91,24 @@
                     "type": "RawCode"
                 }
             ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_navBar__onEvent__fi_Button_Navigation_Navigation_clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceScreensMoveToNavigationPanel_6Views_ScreenState();\n}\n",
+                    "type": "RawCode"
+                }
+            ]
         }
     ]
 }

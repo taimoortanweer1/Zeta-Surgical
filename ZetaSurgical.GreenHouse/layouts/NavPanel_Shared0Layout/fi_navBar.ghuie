@@ -66,6 +66,10 @@
             "name": "fi_BackButton_clicked",
             "rawCode": "root.itemInterface.back()\n"
         },
+        "fi_Button_Navigation_Navigation_clicked": {
+            "name": "fi_Button_Navigation_Navigation_clicked",
+            "rawCode": "root.itemInterface.fi_navBar__onEvent__fi_Button_Navigation_Navigation_clicked()\n"
+        },
         "fi_Button_Navigation_Planning_clicked": {
             "name": "fi_Button_Navigation_Planning_clicked",
             "rawCode": "root.itemInterface.fi_navBar__onEvent__fi_Button_Navigation_Planning_clicked()\n"

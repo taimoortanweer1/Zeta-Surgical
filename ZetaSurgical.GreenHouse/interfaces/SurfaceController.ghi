@@ -162,6 +162,9 @@
         "surfaceScreensMoveToLoginView_LoginSuccess_ScreenState": {
             "name": "surfaceScreensMoveToLoginView_LoginSuccess_ScreenState"
         },
+        "surfaceScreensMoveToNavigationPanel_6Views_ScreenState": {
+            "name": "surfaceScreensMoveToNavigationPanel_6Views_ScreenState"
+        },
         "surfaceScreensMoveToPositionNEST_Variation1_ScreenState": {
             "name": "surfaceScreensMoveToPositionNEST_Variation1_ScreenState"
         },

@@ -16,6 +16,8 @@ public:
     void selectInstrumentAtIndex(int index) override;
     void deleteInstrumentAtIndex(int index) override;
 
+    Q_INVOKABLE void setVTKItem(QObject *item);
+
 private:
     PopupsPresenterImpl * const m_popupsPresenter;
 };

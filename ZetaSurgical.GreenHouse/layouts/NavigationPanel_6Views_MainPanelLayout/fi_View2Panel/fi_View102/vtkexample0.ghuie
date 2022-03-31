@@ -1,0 +1,19 @@
+{
+    "childrenSplit": true,
+    "id": "vtkexample0",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 540
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 446
+        }
+    },
+    "targetFile": "vtkexample0.ghuie",
+    "type": "AuxiliaryToolsSet.VTKExample",
+    "userDefined": true
+}
