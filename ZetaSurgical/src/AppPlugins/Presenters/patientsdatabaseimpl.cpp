@@ -88,11 +88,10 @@ void PatientsDatabaseImpl::selectPatient(int index)
 
 void PatientsDatabaseImpl::viewSelected(const QVariant &value, int index)
 {
-    qWarning() << __PRETTY_FUNCTION__ << value << index;
     setSelectedViewString(value.toString());
 }
 
 void PatientsDatabaseImpl::previewZoomSliderMoved(int value)
 {
-    qWarning() << __PRETTY_FUNCTION__ << value;
+    qWarning() << value;
 }

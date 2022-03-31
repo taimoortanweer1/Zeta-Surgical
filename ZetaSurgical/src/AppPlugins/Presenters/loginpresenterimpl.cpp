@@ -10,7 +10,6 @@ LoginPresenterImpl::LoginPresenterImpl(PopupsPresenterImpl *popupsPresenter)
 
 void LoginPresenterImpl::onUsernameEditRequested()
 {
-    qWarning() << __PRETTY_FUNCTION__;
     m_popupsPresenter->startUserInput([this](QString const &text){
         setEnteredUsername(text);
     });
@@ -18,7 +17,6 @@ void LoginPresenterImpl::onUsernameEditRequested()
 
 void LoginPresenterImpl::onPasswordEditRequested()
 {
-    qWarning() << __PRETTY_FUNCTION__;
     m_popupsPresenter->startPasswordInput([this](QString const &text){
         setEnteredPassword(text);
     });
@@ -26,7 +24,6 @@ void LoginPresenterImpl::onPasswordEditRequested()
 
 void LoginPresenterImpl::onLoginClicked()
 {
-    qWarning() << __PRETTY_FUNCTION__;
     if(enteredPassword().compare(QStringLiteral("123")) == 0) {
         emit loggedInScreenShown();
     }
