@@ -58,3 +58,4 @@ NorthButton_Default_State 1.0 NorthButton_Default_State.qml
 EastButton_Default_State 1.0 EastButton_Default_State.qml
 WestButton_Default_State 1.0 WestButton_Default_State.qml
 SourhtButton_Default_State 1.0 SourhtButton_Default_State.qml
+SelectButtonDelegate 1.0 SelectButtonDelegate.qml

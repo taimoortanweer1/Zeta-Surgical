@@ -14,6 +14,12 @@
     },
     "id": "fi_Size",
     "properties": {
+        "fi_Label_text": {
+            "name": "fi_Label_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I365:3223;365:2926",
+            "value": "Size"
+        },
         "width": {
             "name": "width",
             "type": "Int",
@@ -27,7 +33,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 4
+            "value": 3
         }
     },
     "targetFile": "fi_Size.ghuie",

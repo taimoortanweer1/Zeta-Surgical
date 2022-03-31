@@ -265,6 +265,12 @@
                         "childrenSplit": true,
                         "id": "fi__Value1",
                         "properties": {
+                            "fi_Text_text": {
+                                "name": "fi_Text_text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::I366:3363;366:3357",
+                                "value": "Coronal"
+                            },
                             "z": {
                                 "name": "z",
                                 "type": "Int",
@@ -297,6 +303,12 @@
                         "childrenSplit": true,
                         "id": "fi_Value2",
                         "properties": {
+                            "fi_Text_text": {
+                                "name": "fi_Text_text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::I366:3365;366:3357",
+                                "value": "Axial"
+                            },
                             "x": {
                                 "name": "x",
                                 "type": "Int",
@@ -333,6 +345,12 @@
                         "childrenSplit": true,
                         "id": "fi__Value3",
                         "properties": {
+                            "fi_Text_text": {
+                                "name": "fi_Text_text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::I366:3367;366:3357",
+                                "value": "Saggital"
+                            },
                             "x": {
                                 "name": "x",
                                 "type": "Int",

@@ -14,6 +14,12 @@
     },
     "id": "fi_MRN",
     "properties": {
+        "fi_Label_text": {
+            "name": "fi_Label_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I365:2959;365:2926",
+            "value": "MRN"
+        },
         "width": {
             "name": "width",
             "type": "Int",
@@ -27,7 +33,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 2
+            "value": 1
         }
     },
     "targetFile": "fi_MRN.ghuie",

@@ -9,39 +9,17 @@
                         "anchorTarget": "parent",
                         "anchorValue": "Left"
                     },
-                    "anchorRight": {
-                        "anchorTarget": "parent",
-                        "anchorValue": "Right"
-                    },
                     "anchorTop": {
                         "anchorTarget": "parent",
                         "anchorValue": "Top"
                     },
                     "childrenSplit": true,
                     "extraData": {
-                        "FIGMA_ID": "40:3758"
+                        "FIGMA_ID": "387:2243"
                     },
-                    "id": "fi_tool2",
-                    "properties": {
-                        "fi_EXAMPLE_text": {
-                            "name": "fi_EXAMPLE_text",
-                            "type": "TranslatableString",
-                            "uuid": "FigmaNode::I40:3758;7:1252",
-                            "value": "EVD Stylet"
-                        },
-                        "height": {
-                            "name": "height",
-                            "type": "Int",
-                            "value": 56
-                        },
-                        "width": {
-                            "name": "width",
-                            "type": "Int",
-                            "value": 352
-                        }
-                    },
-                    "targetFile": "fi_tool2.ghuie",
-                    "type": "ZetaSurgicalSet.SelectButton",
+                    "id": "fi_tool1",
+                    "targetFile": "fi_tool1.ghuie",
+                    "type": "ZetaSurgicalSet.SelectButtonDelegate",
                     "userDefined": false
                 }
             ],
@@ -75,39 +53,17 @@
                         "anchorTarget": "parent",
                         "anchorValue": "Left"
                     },
-                    "anchorRight": {
-                        "anchorTarget": "parent",
-                        "anchorValue": "Right"
-                    },
                     "anchorTop": {
                         "anchorTarget": "parent",
                         "anchorValue": "Top"
                     },
                     "childrenSplit": true,
                     "extraData": {
-                        "FIGMA_ID": "40:3765"
+                        "FIGMA_ID": "387:2238"
                     },
                     "id": "fi_target2",
-                    "properties": {
-                        "fi_EXAMPLE_text": {
-                            "name": "fi_EXAMPLE_text",
-                            "type": "TranslatableString",
-                            "uuid": "FigmaNode::I40:3765;7:1252",
-                            "value": "Target 2"
-                        },
-                        "height": {
-                            "name": "height",
-                            "type": "Int",
-                            "value": 56
-                        },
-                        "width": {
-                            "name": "width",
-                            "type": "Int",
-                            "value": 352
-                        }
-                    },
                     "targetFile": "fi_target2.ghuie",
-                    "type": "ZetaSurgicalSet.SelectButton",
+                    "type": "ZetaSurgicalSet.SelectButtonDelegate",
                     "userDefined": false
                 }
             ],
@@ -149,5 +105,6 @@
         "type": "Sequential"
     },
     "targetFile": "NavigationPanel_4Views_InfoPanelLayout.ghl",
+    "uuid": "{87d93e94-924e-43f9-be3d-907e001b9421}",
     "width": 456
 }

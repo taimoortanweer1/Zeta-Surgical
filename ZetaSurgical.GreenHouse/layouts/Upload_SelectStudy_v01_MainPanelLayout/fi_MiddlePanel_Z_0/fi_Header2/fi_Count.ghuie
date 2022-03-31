@@ -14,6 +14,12 @@
     },
     "id": "fi_Count",
     "properties": {
+        "fi_Label_text": {
+            "name": "fi_Label_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I365:3224;365:2926",
+            "value": "Count"
+        },
         "width": {
             "name": "width",
             "type": "Int",
@@ -27,7 +33,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 5
+            "value": 4
         }
     },
     "targetFile": "fi_Count.ghuie",

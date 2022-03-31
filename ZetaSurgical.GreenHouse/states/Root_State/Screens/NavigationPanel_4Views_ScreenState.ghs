@@ -6,6 +6,16 @@
         {
             "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceBackgroundPanelMoveToBackgroundPanel_Shared0();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceInfoPanelMoveToNavigationPanel_4Views_InfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideLoginPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceMainPanelMoveToNavigationPanel_4Views_MainPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideMainView();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceNavPanelMoveToNavPanel_Shared0();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hidePositionCartInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideRightInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideTitlePanel();\n}\n",
             "type": "RawCode"
+        },
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        }
+    ],
+    "exitActions": [
+        {
+            "rawCode": "",
+            "type": "RawCode"
         }
     ],
     "extraData": {
@@ -27,5 +37,6 @@
     },
     "targetFile": "NavigationPanel_4Views_ScreenState.ghs",
     "template": "State",
+    "uuid": "{3bfe1aaa-5a11-4b71-bfca-cbf528d2a1c5}",
     "width": 0
 }

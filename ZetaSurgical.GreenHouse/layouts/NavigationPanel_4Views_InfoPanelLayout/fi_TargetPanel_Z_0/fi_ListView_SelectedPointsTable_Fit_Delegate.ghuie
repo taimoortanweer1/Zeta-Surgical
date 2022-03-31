@@ -20,6 +20,11 @@
     },
     "id": "fi_ListView_SelectedPointsTable_Fit_Delegate",
     "properties": {
+        "delegateSpacing": {
+            "name": "delegateSpacing",
+            "type": "Int",
+            "value": 16
+        },
         "height": {
             "name": "height",
             "type": "Int",
@@ -29,6 +34,13 @@
             "name": "viewDelegate",
             "type": "Delegate",
             "value": "fi_ListView_SelectedPointsTable_Fit_Delegate_delegate"
+        },
+        "viewModel": {
+            "bindingProp": "targetsList",
+            "bindingSrc": "PlanningPresenter",
+            "name": "viewModel",
+            "type": "Model",
+            "value": "null"
         },
         "width": {
             "name": "width",

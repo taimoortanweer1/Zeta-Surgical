@@ -14,6 +14,12 @@
     },
     "id": "fi_OfSEries",
     "properties": {
+        "fi_Label_text": {
+            "name": "fi_Label_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I365:3158;365:2926",
+            "value": "#of<br/>Series"
+        },
         "width": {
             "name": "width",
             "type": "Int",
@@ -27,7 +33,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 4
+            "value": 3
         }
     },
     "targetFile": "fi_OfSEries.ghuie",

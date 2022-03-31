@@ -32,7 +32,7 @@ Item {
     property alias fi_Value2_fi_Text_opacity: fi_Value2.fi_Text_opacity
     //BOOL false
     property alias fi_Value2_fi_Text_richText: fi_Value2.fi_Text_richText
-    //TRANSLATABLE Text
+    //TRANSLATABLE Axial
     property alias fi_Value2_fi_Text_text: fi_Value2.fi_Text_text
     //TEXTVAL 128
     property alias fi_Value2_fi_Text_verticalAlignment: fi_Value2.fi_Text_verticalAlignment
@@ -58,7 +58,7 @@ Item {
     property alias fi__Value1_fi_Text_opacity: fi__Value1.fi_Text_opacity
     //BOOL false
     property alias fi__Value1_fi_Text_richText: fi__Value1.fi_Text_richText
-    //TRANSLATABLE Text
+    //TRANSLATABLE Coronal
     property alias fi__Value1_fi_Text_text: fi__Value1.fi_Text_text
     //TEXTVAL 128
     property alias fi__Value1_fi_Text_verticalAlignment: fi__Value1.fi_Text_verticalAlignment
@@ -84,7 +84,7 @@ Item {
     property alias fi__Value3_fi_Text_opacity: fi__Value3.fi_Text_opacity
     //BOOL false
     property alias fi__Value3_fi_Text_richText: fi__Value3.fi_Text_richText
-    //TRANSLATABLE Text
+    //TRANSLATABLE Saggital
     property alias fi__Value3_fi_Text_text: fi__Value3.fi_Text_text
     //TEXTVAL 128
     property alias fi__Value3_fi_Text_verticalAlignment: fi__Value3.fi_Text_verticalAlignment
@@ -137,6 +137,7 @@ Item {
         anchors.top: parent.top
         anchors.bottom: parent.bottom
         z: 1
+        fi_Text_text: qsTr("Coronal", "FigmaNode::I366:3363;366:3357") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::I366:3363;366:3357") : "")
 
         onClicked: {
             root.fi__Value1_clicked();
@@ -163,6 +164,7 @@ Item {
         anchors.top: parent.top
         anchors.bottom: parent.bottom
         z: 2
+        fi_Text_text: qsTr("Axial", "FigmaNode::I366:3365;366:3357") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::I366:3365;366:3357") : "")
 
         onClicked: {
             root.fi_Value2_clicked();
@@ -188,6 +190,7 @@ Item {
         anchors.top: parent.top
         anchors.bottom: parent.bottom
         z: 3
+        fi_Text_text: qsTr("Saggital", "FigmaNode::I366:3367;366:3357") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::I366:3367;366:3357") : "")
 
         onClicked: {
             root.fi__Value3_clicked();

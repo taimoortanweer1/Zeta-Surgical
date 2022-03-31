@@ -29,7 +29,7 @@
                             "name": "fi_Label_text",
                             "type": "TranslatableString",
                             "uuid": "FigmaNode::I368:3635;211:5845;370:6022",
-                            "value": "Q"
+                            "value": "z"
                         },
                         "height": {
                             "name": "height",
@@ -105,7 +105,7 @@
                             "name": "fi_Label_text",
                             "type": "TranslatableString",
                             "uuid": "FigmaNode::I368:3635;211:5844;370:6022",
-                            "value": "Q"
+                            "value": "a"
                         },
                         "height": {
                             "name": "height",
@@ -181,7 +181,7 @@
                             "name": "fi_Label_text",
                             "type": "TranslatableString",
                             "uuid": "FigmaNode::I368:3635;211:5843;370:6022",
-                            "value": "Q"
+                            "value": "q"
                         },
                         "height": {
                             "name": "height",
@@ -265,7 +265,7 @@
                             "name": "fi_Label_text",
                             "type": "TranslatableString",
                             "uuid": "FigmaNode::I368:3635;234:11576;370:6022",
-                            "value": "Q"
+                            "value": "1"
                         },
                         "height": {
                             "name": "height",

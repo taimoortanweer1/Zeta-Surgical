@@ -20,6 +20,12 @@
             "type": "Float",
             "value": 35.17
         },
+        "fi_Label_text": {
+            "name": "fi_Label_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I368:3635;211:5846;370:6022",
+            "value": " "
+        },
         "height": {
             "name": "height",
             "type": "Int",

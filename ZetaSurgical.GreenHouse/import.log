@@ -1,218 +1,222 @@
 
 Fetching figma file from: https://api.figma.com/v1/files/kKItBBA5TYuCVGxWbPVftH?geometry=paths
-19:41:47  :: Data processing started.
-19:41:47  :: Project identified as: UserInterface_POC_20220323_v02.1
-19:41:47  :: Found 0 color frames
-19:41:47  :: Found 0 font frames
-19:41:47  :: Found 117 components
-19:41:47 Component: ChangeViewDropDown :: ChangeViewDropDown does not have any states that can be optimized.
-19:41:47 Component: HomeButton :: HomeButton does not have any common ui element groups.
-19:41:47 Component: KeyBoard :: KeyBoard does not have any states that can be optimized.
-19:41:47 Component: ProgressIndicator_Triple :: ProgressIndicator_Triple does not have any states that can be optimized.
-19:41:47 Component: SearchInputText :: SearchInputText does not have any states that can be optimized.
-19:41:47 Component: SliderButton :: SliderButton does not have any states that can be optimized.
-19:41:47 Component: TripleSelectSliderButton :: TripleSelectSliderButton does not have any states that can be optimized.
-19:41:47  :: Found 11 screens
-19:41:47 Panel: CT_Planning_Default_MainPanel :: Failed to create component child item: ExtendedSet.CtAxialView
-19:41:47 Panel: Segmentation_Default_InfoPanel :: Component missing for: fi_bad
-19:41:47 Panel: Segmentation_Default_InfoPanel :: Component missing for: fi_good
-19:41:47  :: Found 7 popups
-19:41:47 Popups: EditPoint :: Component missing for: fi_PointDisplayLabel
-19:41:47  :: Found 7 menus
-19:41:47 Menus :: No declarations to process
-19:41:47  :: Found 1 extra layer
-19:41:47 KeyboardLayer: Keyboard_passThrough :: Component missing for: fi_keyboardOverlay
-19:41:48  :: Found 0 transitions
-19:41:48  :: 165 new and 0 modified images found...
-19:41:48  :: 0 new and 0 modified themed assets found...
-19:41:48  :: 0 new and 0 modified icons found...
-19:41:48  :: 0 new and 0 modified fills found...
-19:41:48  :: Requesting 64 asset urls(101 assets pending)...
-19:41:52  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b01e/4028/1e9e5f3d2bb032964d404781177d439d
-19:41:53  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/a4c4/6c1e/4c37bd5618b519e3093c4a0b4a9b1107
-19:41:53  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/732b/2314/1ab561edf0d18bc72f8a42e2f146410b
-19:41:54  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/ade9/549a/0a2eb926f4398516bca592b90fb5b743
-19:41:54  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7360/d78e/a3ce17fcffdccf33a20ac31f687bd841
-19:41:54  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1330/7b2f/f3005d7db2c3f72684715d7a68f58085
-19:41:54  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f586/2097/aa85fbbda3a5a81dd73d8528da0eefa6
-19:41:54  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0093/b4ea/29caffde69568e77c454c8162274af71
-19:41:55  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/73b0/7302/2dcdd12e222d47da9ae616470d58a576
-19:41:55  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/34cf/59c1/dab21a7a323dbdfc1db917c5a22a59db
-19:41:55  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/34cf/59c1/dab21a7a323dbdfc1db917c5a22a59db
-19:41:55  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7ac3/838b/bd33f545a516c310f8bc0962a20795ec
-19:41:55  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/cd48/b20f/b6bc738d0530513aa880b288a25f1382
-19:41:56  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2037/44e8/13aea10354709296b28ff5e82b1a6008
-19:41:56  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f3f2/5030/6bf5729f9e4227a285b5c7cf24b5da23
-19:41:56  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/ed95/9732/590395a3375f6dcce72ea89f0efd40ac
-19:41:56  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/4ead/42e2/d18065ebb9f482194f24ea08c6e742c2
-19:41:56  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/6fdb/7be6/aeac9937251ae36c21cc0c0cff161ba6
-19:41:56  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/de15/05e0/2a272dce73fe518aaa7ceeeea73449c0
-19:41:57  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e2c2/0bb6/e5c466e0df961d2a7b02179cc5996057
-19:41:57  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f438/1bc4/05827b18573b0b897f01d0562aa049ed
-19:41:57  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0396/3e59/3f21da7f029c2fa96def997d60ea3959
-19:41:57  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9a55/0096/73c24d9fea907576340c6dcb42dda3ac
-19:41:57  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/cd62/a1db/e99559e51fbc6b47214b3d48755ed945
-19:41:58  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8dcd/733f/ee597cd5ff7a13a1974387f70fb9538f
-19:41:58  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/4f53/a6e9/1843fc44b2fd1ac8782070e8c92dada2
-19:41:58  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/a866/38bf/efd7fe9aad44c9fd4fc903f34c54ece1
-19:41:59  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e71f/7c72/4acf59bb6a8be5b1c0077a494b3be533
-19:42:00  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0093/b4ea/29caffde69568e77c454c8162274af71
-19:42:00  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b7ce/8e16/5515fe8cdf963d83498815722da96bb6
-19:42:01  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0d4e/2152/e7e1dc5f30ca60bca475e6e84d1cb716
-19:42:01  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2671/7d82/c31adbfb09f994fcf95f7a42d24cad39
-19:42:01  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/3034/25ab/b9800f9995885e3026d6851d579b1c2a
-19:42:01  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b9a4/fbe7/e1bb41a4d2da5b36070644b714213bab
-19:42:01  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2914/9626/4ece1f636c54a5edbd232f37e012bf96
-19:42:02  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b9a4/fbe7/e1bb41a4d2da5b36070644b714213bab
-19:42:02  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/3266/bfc5/ac3994bd1a9b51b36d3cc9bc9fc59424
-19:42:02  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/61ca/abca/938dc56be51a17a4c7721b1531553a1d
-19:42:02  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/bb6a/3796/916f562a0960cc22e81e750eed13f399
-19:42:02  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/3266/bfc5/ac3994bd1a9b51b36d3cc9bc9fc59424
-19:42:03  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2e27/3cda/8b56b17357d99a4acdc593854d325346
-19:42:03  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1234/5afd/8faab8f2ccece7dbf84b653dd4b9c688
-19:42:03  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1234/5afd/8faab8f2ccece7dbf84b653dd4b9c688
-19:42:03  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c3ed/18d4/4ba55c103492a36125d43337ddc4ed86
-19:42:03  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f188/d6de/86140fb2e1d385ef678180c9638fc3d1
-19:42:03  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/51cb/3434/d5dbe2a5d3dd2927572e0cae6a1a510f
-19:42:04  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f8bd/f73c/7342b5f501175d2354ec52a8d473e8c9
-19:42:04  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/20c8/17f1/71222350cbd61e1ee2f3b72e18266270
-19:42:04  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/bee7/b527/793fb22ef89ebfa21eb0a5f8161050f5
-19:42:04  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c9a4/f3c7/fa91fc19c4b1e89adc091ba9396a7d4b
-19:42:04  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2f30/1120/5003423fbf6cba6cebcea2c75329bced
-19:42:04  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/afac/4a28/8a744ed4040f752b600d6e042750cf4a
-19:42:05  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/aec1/b079/ee354f25de6d8a75829672a74fe6bfcf
-19:42:05  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/a36b/dff9/d31a5108d00cfd925b1acd28253514bc
-19:42:05  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1025/e90b/6e2085247c3e92afc1d48a020568cd59
-19:42:05  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/bcf0/76c9/0515ab714fc9fa338472341b435528a8
-19:42:05  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/103f/5c60/02d74a68c3b4f878c6a353de51161700
-19:42:05  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9c7c/da3f/1a06a303b15eb1495ce5315dcf3f5dca
-19:42:06  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d16f/7a77/5daaa5f7d833d2abc6f4c599b3175d88
-19:42:06  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/89eb/ecfa/00da3eba4c6110484fe8cd26eabf8cfe
-19:42:06  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/decf/2612/678fbae55f47e7b734586182464a2155
-19:42:06  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2f2c/e880/4a5251fcc8f3518ebfe7bf7e9adbcb42
-19:42:06  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2f2c/e880/4a5251fcc8f3518ebfe7bf7e9adbcb42
-19:42:06  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/503d/1c3e/6e2eb19f5383bd9f8f9130645ca0e604
-19:42:07  :: Requesting 64 asset urls(37 assets pending)...
-19:42:13  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d87a/c136/d5c7e0b160355d593da65cc99af517f9
-19:42:15  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/080a/82f8/4413f47f17e733c4e495dfd43778ebf2
-19:42:15  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f098/da31/cdaf1fecddc7daa1df5d94b90b84098f
-19:42:15  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/def5/a415/1eb486c603c08eb0b4fc8fb2ba85a22e
-19:42:15  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9590/0530/baa092f11c87a634ba369ac70bc8eb92
-19:42:15  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/4478/2c06/ddea5963be3b721a86b69507bb7fdfe3
-19:42:15  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/57c2/4399/557b89f8a78453da618dd7838d031b83
-19:42:16  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e3c1/06b9/e189906c1d22dd25c870c35b712da543
-19:42:16  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9d45/8795/2323d38bbb1f746466f087fbb44b4cb4
-19:42:16  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/a48f/95da/f0730df41fe4c64b0b504d7c77912359
-19:42:16  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e50d/cd75/5c602ed353ebcc16d1f1b3f32d439d2b
-19:42:16  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c8e0/5f69/804d44a4f54e5696f48fb7569cf24335
-19:42:16  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9093/1b30/71184c98961240ab5f67d1d1e0d4382b
-19:42:16  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/32d4/fd42/2a1d7fea05548a3a35afce4c3321ed34
-19:42:16  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/67a4/721e/497bf1d8ee71cab061d92f213b333ced
-19:42:17  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/3514/5890/257897da9b376517c4a02ffd7868f496
-19:42:17  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/67a4/721e/497bf1d8ee71cab061d92f213b333ced
-19:42:17  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/6fdb/7be6/aeac9937251ae36c21cc0c0cff161ba6
-19:42:17  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/6fdb/7be6/aeac9937251ae36c21cc0c0cff161ba6
-19:42:17  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9c15/7e5a/e149032050f36e9ce83550c0d0a0b9f2
-19:42:17  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5476/f4a2/4d27d18d6d9212e018a88871d10c2429
-19:42:17  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c80b/14ce/580371ae464a43982f01dd3996f9df7c
-19:42:18  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f127/4e9f/8b3513228e1db3e42699e931afe22ec0
-19:42:18  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1612/1623/f34e00f862b20e0e30cc5b94cb83578a
-19:42:18  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c80b/14ce/580371ae464a43982f01dd3996f9df7c
-19:42:18  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7f30/ba22/8357c9ec0bc40a3653dc968c3e5a73de
-19:42:18  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8b78/a0a0/f56e93553524907e5c846aefa6733e97
-19:42:18  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9f03/5fc2/6288c3a00bf87422d4ca3e865778fa52
-19:42:19  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0aca/abac/b87e23a6d8766c65f72ab0d21c6b8767
-19:42:19  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9f03/5fc2/6288c3a00bf87422d4ca3e865778fa52
-19:42:19  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/06b5/e25d/ee703842fc40dcecb3acd95c6b35b1d7
-19:42:19  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/eb56/55e3/5c3445c19588e3b43af9c736fdb7028e
-19:42:19  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1612/1623/f34e00f862b20e0e30cc5b94cb83578a
-19:42:20  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/06b5/e25d/ee703842fc40dcecb3acd95c6b35b1d7
-19:42:20  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9b52/abc5/de7421385eeb0841c9beb7182d1bf82a
-19:42:20  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9b52/abc5/de7421385eeb0841c9beb7182d1bf82a
-19:42:20  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/99c2/3369/597011ba154ceabbaf2466b43ac4673d
-19:42:20  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9b52/abc5/de7421385eeb0841c9beb7182d1bf82a
-19:42:20  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9b52/abc5/de7421385eeb0841c9beb7182d1bf82a
-19:42:21  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9b52/abc5/de7421385eeb0841c9beb7182d1bf82a
-19:42:21  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9462/654e/89c13224b4ccdb65c21476fe1657c7c2
-19:42:21  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9590/0530/baa092f11c87a634ba369ac70bc8eb92
-19:42:21  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f127/4e9f/8b3513228e1db3e42699e931afe22ec0
-19:42:21  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f127/4e9f/8b3513228e1db3e42699e931afe22ec0
-19:42:22  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0aca/abac/b87e23a6d8766c65f72ab0d21c6b8767
-19:42:22  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0aca/abac/b87e23a6d8766c65f72ab0d21c6b8767
-19:42:22  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d133/042b/eba534a8c24f3b1db469f787dfd7109a
-19:42:22  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d16f/7a77/5daaa5f7d833d2abc6f4c599b3175d88
-19:42:23  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e630/d33c/19d0357d96c469d863c828a44b34211c
-19:42:23  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/fb5d/2e1a/1b22cfd286457603d992950465f2946a
-19:42:23  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/45c5/e295/e86984c18c636e5a1f2300ef98ed6bde
-19:42:23  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/45c5/e295/e86984c18c636e5a1f2300ef98ed6bde
-19:42:23  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/60b6/05d0/1df7f85d1f4e4e3bd2b78e1bc72e706e
-19:42:24  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5ad4/00ef/6b990306cd95a09320ed1e285b1a5a28
-19:42:24  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/fb6f/e64f/bdd2786213eeb9b2eb398c4c58723356
-19:42:24  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1ab7/6eb5/d42d7d641a276e5add48983f5b60d616
-19:42:24  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7cf9/2c91/f307325012279a64494180c0fb535bf0
-19:42:25  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2209/9b7a/d185c68d4db56d258c1a1293eaa96349
-19:42:25  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d95c/643d/ed8198339147e11bd611b594060808d2
-19:42:25  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b20c/019b/6bd4d3fedd637fecf62ab286e343eee1
-19:42:25  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9dfb/4e2d/a12060db1736534ff0eea418f03be72b
-19:42:25  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f33c/c7e8/55cd647e9bd838ae1477c9e1e02da27b
-19:42:26  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/36b6/ce2f/1f94462bf26dcb554df6e693ac943296
-19:42:26  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f098/da31/cdaf1fecddc7daa1df5d94b90b84098f
-19:42:26  :: Requesting 37 asset urls(0 assets pending)...
-19:42:33  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7b23/cfe0/c14717f4ab00feb1cc75ce8fac0db989
-19:42:34  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e630/d33c/19d0357d96c469d863c828a44b34211c
-19:42:34  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c5dd/49d6/7d69de56db689f378cd00d35c6ffca97
-19:42:34  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/67a4/721e/497bf1d8ee71cab061d92f213b333ced
-19:42:34  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9a2e/260c/22dce007597137ca0add4304b10738eb
-19:42:34  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/67a4/721e/497bf1d8ee71cab061d92f213b333ced
-19:42:35  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/80c6/9a63/a9807df2bec8f4e58d3dfccad4697bae
-19:42:35  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b32b/54eb/c37437a844577d1a7cf8ca5938102f74
-19:42:36  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/de15/05e0/2a272dce73fe518aaa7ceeeea73449c0
-19:42:36  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b32b/54eb/c37437a844577d1a7cf8ca5938102f74
-19:42:36  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/de15/05e0/2a272dce73fe518aaa7ceeeea73449c0
-19:42:36  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b32b/54eb/c37437a844577d1a7cf8ca5938102f74
-19:42:36  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/de15/05e0/2a272dce73fe518aaa7ceeeea73449c0
-19:42:37  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/ca7f/9cdb/3f44a0cc93050dbcf320045677140fdb
-19:42:37  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/db5c/0cb1/4e9eb2130377a3ca7dbb6bb8b6f3c8aa
-19:42:37  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/99b3/29c2/e490fbf75972e6a5471eddf8111078f3
-19:42:37  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e755/7e8a/ade721f930688c14d07de9a4862ef8a1
-19:42:38  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e755/7e8a/ade721f930688c14d07de9a4862ef8a1
-19:42:38  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/99b3/29c2/e490fbf75972e6a5471eddf8111078f3
-19:42:38  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/4ead/42e2/d18065ebb9f482194f24ea08c6e742c2
-19:42:38  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/65c1/3f0e/a764bd461211f9713a78e1de352a30b1
-19:42:39  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/822d/ca81/9ac6d39595abb499e598055278f2b55c
-19:42:39  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d146/074b/0ca23b1bb3e5b120bd895fa187fab8fc
-19:42:39  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5bbb/6d7a/b62a3acb6e49d1f8ea8dc87b128e9ed9
-19:42:39  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5bbb/6d7a/b62a3acb6e49d1f8ea8dc87b128e9ed9
-19:42:39  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/34cf/59c1/dab21a7a323dbdfc1db917c5a22a59db
-19:42:40  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/34cf/59c1/dab21a7a323dbdfc1db917c5a22a59db
-19:42:40  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9590/0530/baa092f11c87a634ba369ac70bc8eb92
-19:42:40  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5e73/4fe6/6417bc3c0c6986f278cc0c23bd86c1df
-19:42:40  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e484/7b9a/0c0bc5e02c93c802e84d16414ac48d7f
-19:42:40  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5bbb/6d7a/b62a3acb6e49d1f8ea8dc87b128e9ed9
-19:42:41  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8d30/0a23/3d006da9f4454c4d5e4b0eb24bdb29be
-19:42:41  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c5ef/69d6/bba75dad799a565abfeb33ab03d266e6
-19:42:41  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9d50/a7fa/fd414175d7f3da641e28b90d9064cb5c
-19:42:41  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c5ef/69d6/bba75dad799a565abfeb33ab03d266e6
-19:42:42  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d16f/7a77/5daaa5f7d833d2abc6f4c599b3175d88
-19:42:42  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2f80/1dd9/70785ea8cdce215543325ae28b36d954
-19:42:42  :: Requesting external asset urls...
-19:42:43  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/07d9/7f41/7bbf9a1d7c0bd13f44820fb5646d393e?Expires=1649635200&Signature=WXjOH99JA~1EI6TXjH82aVYrKhq9-emwYLabCqF2mMH99R8FOH0A-BUhPelFrMyI2Y1m8f3Rk5F4K8~JJ1wU37vWhAzddRQNliULgTfBUdnTcykimj~LfhEnlMscA8XoOpmROquOUqIGv~5o6ErDjCGXnDjCnfmTEAO2QIive-75RxJOQJQo~kPDCBdWqrEZwxcT3E1vdaFCHjfyx32A-4c6op9CkY9RQmHne1Mj8ur7tq~8VkLv56YVByUFPIIxv0c1OgUBOx6yL7xNJeZEZpg7vwO~S1tMbTfLOsZJLFTGLPrBRG6VwgvGKV2Q9BIotehWrfA2DlWDyI4dj0hldQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-19:42:45  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/0c7e/620d/8aa452f8042e7cf70c1617666b1f2a75?Expires=1649635200&Signature=IlR3Viofif0bjhfaeZAtTHTD40M2~Hh71zNAQDuRWFiNWqJtcHkgBffmJc3hnDSr3V4BTF382Z36kHFMezMBX4HunNoNkfhmKBFdiLsiwr8LxrpdnCTeIEe-4ouQAw9AhaVNPaTLBYiHfFCYtwJwuuG7pRbvPXMDuQeMwEU9pZuf0gLw3hjAZv-vDir4CHDccyNn0aaCy2opxUJrjU0~4GPb454ISZg8Axes6do8IKvXUMPoq4E5F2q53VD6oJq0tqRdv2Ey5mW-hwDRkslxbyK2NjSH0aOoYRY6I7q6MTjdjU5M7461-MtKITSVrZKnuSHq3TOuBjzEe3~vRtrcIg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-19:42:45  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/78cf/406a/dfb3ffc4a887a815511e1e12b985bbe2?Expires=1649635200&Signature=POW5IiL-gE4MFTOTUPeZ4WgLSaQr7Wd9E45Blb~kK6LSCZgd4M4BQZYth4qNwOA5QqX86WVHjhsqX0xjFzuXXE4gZf-nKpd7Ks6sAOeZ3hPA3~nQNI7sFVq9YSKOv6Mhn7tefRHN48nz33mfXva6ZAIhk1Jq1HapRQ8wSeWM4E3-Px3EYT2ACQvEsu0amA1c8i74dFqc7IAyMuz3P0Nsx-aTqFDw6jtYAbZPKmyDdRUOPnpNCnfPBcBuYZ7UcrNOblSANbaPbK3ByuFpcq2Jhpgbj4qGZPy6Q2kFzbpXBb8-dgk4C6fckLvvc0sSp3ROsrbLVN28VP1e3vQAZQZrQQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-19:42:46  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/938d/a072/73818d02d6f8fdb8c57112f9f7492b4c?Expires=1649635200&Signature=XebqjXiJxcdX758XAPETLEWm~k1usEg~j4ySivgyqjYxuSkUNGyWx83o8kz4cGuxrlOiNe13UW3yow~LzwyQseVDvDUhTn11g6lBmu7zQvNE4PukrgVl4SLkeJ8WT90cm0UKhmacUnAlmlOOHk3Fcf8ruR9govP7DzA2H3nSb58qN3JNJttaUjWZ-fDPkmRBQYIdLEswqJa6Xc5pOQmDJE4F6Fv3kiKKUyaaQ9GGgQJxnd~LEW9igsOVzQWCQR97HaeU79ZrVefBzUgREbWLUZeYZuOV2YN0kXAH6644aVJmU2xyeaKNRqLyf6ZHGj-U870OikEVtq-yvpZ8vT~n1w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-19:42:46  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/951e/8fce/4a70422430611f3fcfb93a90e22aa59f?Expires=1649635200&Signature=T2mt15C0rYJavSZ0ZSF~7zdTSRmE1P0ev6M2HEvK-sriQS55j2Rts4XmCOVKyglYP2RpUCIR7g6QLljF0FAChiNNAx~E2nC9mxO0-MT~HkSxfWKjTD84WNFLfC6iI7R1UyyDXuzMEo7Swpwb8eHBqqX60OzaHBQ~di7tC4tjiVclUiEQrdzZrYhYr6uFEMZ09wRUQHGX9iffDdsYPdoFveviFh5vdp5QybIAR54KDoVsC5PhJPbRXgAj7XmeFcbNRSh078fAMjkZBy-YPDq8lZ-KFHDeARhmRgjxXoLMqB-o5O4F61-VP2qFndwEQxrtLJeITgHKTLGFZ52GXsC8Jg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-19:42:47  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/9717/fa8f/bd6f5effcef61a9c662324d24d6bbc2e?Expires=1649635200&Signature=CakLluXcZMQUc-N97ynILm8rMUE4vGdoMo3S-43E8fNGfqPNdMSCd8LFwy1a6bxCElOS4Wa4NSx8xMmml3GIEEWOGnVxvCuZ-0s72yvnH8dosjznira9G0JFxCR8hDpq4GXGN6EGgz7fbSrZaJ4TGopimnOB2CDGJi5E0J1GLoXpge5FOxgAzCTe2B-XyCtQnXzkfDCobBopk8vLYewMa1104chQwf2OwxOTb-gmz3XlJIGiTTSORgz4NkHBExksRlI38h1q5dgDEEmLhRxFmJmoggSaf-TIgzo9z51IwobWCvCUxDbCKur66BFosu2JOFkrZnfhPeC8BaUa3Axwjg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-19:42:47  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/cf38/b55b/e5755b29f295e607835afa147076c986?Expires=1649635200&Signature=BXmctzkunwxYpNrNcxGHtE~J7QU-JqcperdR4qASS3sav0sql9XvS~e5iaELWfx8rreNE-hIS~0Y8LHtiLEZ5f88janVvPrqRyQFvJYI4gYi7ndfX8Dz3rlto6bGev0I9RkEPiUY66MBhOsB246MjU-NqWMeJvwBl6s-j1HkOwfzXF1mU160pSyeBTfysKrK3uZ1RcVWAd-qtHywMgk9Y4JBeISeMdD9K2nzf8ZO-OajxLPqJzYOUPr0P01JCYkN9u8oNCMUMH2Yhz1DjT6ZIsX2KcKbG6S40CQd5ItUQQ~KyX2jg1KmR2TWrCOZF1cd2-H4M4mX26M8lf9tTgVqcA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-19:42:47  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/fd61/8047/bd14007f11754600f784625bd157c7b1?Expires=1649635200&Signature=FC1DsWH7x-LSo9HiZuIJ84sIctxAqyrKeTLuECKJ9VxQWMtHvbz~CMA-5Tugl3jrOC7RqvW~ZkBYlJxBIlHWkSZgDkxYb-2dfeaeta0TdFNAn1En1O7wTF3doDY2Ymn0ww2zQdSX8c8NXRm6Lly~teT4atPepora1l2m0I5pZys8TWps4SOveEJYqTy-tEdiDY8tSe2hwyr1YN52gGmUeom7xL~4RXVIeLoRnMD~xVnPwpKpuDZp6uhorYPBc~OKTIJT76eXepbzXd-mMXBiU3ms4MdDUfs66M18p0vU7AWa71865vOGwANgac4xkT915HbJFtwPtfgJBdRErqi2Sw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-19:42:48  :: Removed unused components:<br/> ZetaSurgicalSet.KeyBoard<br/>ZetaSurgicalSet.KeyboardButton_TopRow<br/>ZetaSurgicalSet.LockWheelsButton<br/>ZetaSurgicalSet.MetaDataTablePanel<br/>ZetaSurgicalSet.PatientInfoText_var_2<br/>ZetaSurgicalSet.ScrollBar<br/>ZetaSurgicalSet.Tabel3TitleBar<br/>ZetaSurgicalSet.Table1TitleBar<br/>ZetaSurgicalSet.Table2TitleBar<br/>ZetaSurgicalSet.TableSlider_Horizontal<br/>ZetaSurgicalSet.ToggleButton_Down_Selection<br/>ZetaSurgicalSet.TripleSelectSliderButton<br/>ZetaSurgicalSet.ViewPointButton<br/>ZetaSurgicalSet.WheelLockButtonTest_Default_State
-19:42:48  :: Extracting font archive: /home/maxim/GreenHouseWorkspace/FontArchives/Arial.zip
+11:10:38  :: Data processing started.
+11:10:38  :: Project identified as: UserInterface_POC_20220323_v02.1
+11:10:38  :: Found 0 color frames
+11:10:38  :: Found 0 font frames
+11:10:38  :: Found 118 components
+11:10:39 Component: ChangeViewDropDown :: ChangeViewDropDown does not have any states that can be optimized.
+11:10:39 Component: HomeButton :: HomeButton does not have any common ui element groups.
+11:10:39 Component: KeyBoard :: KeyBoard does not have any states that can be optimized.
+11:10:39 Component: ProgressIndicator_Triple :: ProgressIndicator_Triple does not have any states that can be optimized.
+11:10:39 Component: SearchInputText :: SearchInputText does not have any states that can be optimized.
+11:10:39 Component: SliderButton :: SliderButton does not have any states that can be optimized.
+11:10:39 Component: TripleSelectSliderButton :: TripleSelectSliderButton does not have any states that can be optimized.
+11:10:39  :: Found 11 screens
+11:10:39 Panel: CT_Planning_Default_MainPanel :: Failed to create component child item: ExtendedSet.CtAxialView
+11:10:39 Panel: Segmentation_Default_InfoPanel :: Component missing for: fi_bad
+11:10:39 Panel: Segmentation_Default_InfoPanel :: Component missing for: fi_good
+11:10:39  :: Found 7 popups
+11:10:39 Popups: EditPoint :: Component missing for: fi_PointDisplayLabel
+11:10:39  :: Found 7 menus
+11:10:39 Menus :: No declarations to process
+11:10:39  :: Found 1 extra layer
+11:10:39 KeyboardLayer: Keyboard_passThrough :: Component missing for: fi_keyboardOverlay
+11:10:39  :: Found 0 transitions
+11:10:39  :: 169 new and 0 modified images found...
+11:10:39  :: 0 new and 0 modified themed assets found...
+11:10:39  :: 0 new and 0 modified icons found...
+11:10:39  :: 0 new and 0 modified fills found...
+11:10:39  :: Requesting 64 asset urls(105 assets pending)...
+11:10:47  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b01e/4028/1e9e5f3d2bb032964d404781177d439d
+11:10:47  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/a4c4/6c1e/4c37bd5618b519e3093c4a0b4a9b1107
+11:10:47  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/732b/2314/1ab561edf0d18bc72f8a42e2f146410b
+11:10:47  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/ade9/549a/0a2eb926f4398516bca592b90fb5b743
+11:10:48  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7360/d78e/a3ce17fcffdccf33a20ac31f687bd841
+11:10:48  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1330/7b2f/f3005d7db2c3f72684715d7a68f58085
+11:10:48  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f586/2097/aa85fbbda3a5a81dd73d8528da0eefa6
+11:10:48  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0093/b4ea/29caffde69568e77c454c8162274af71
+11:10:48  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/73b0/7302/2dcdd12e222d47da9ae616470d58a576
+11:10:49  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/34cf/59c1/dab21a7a323dbdfc1db917c5a22a59db
+11:10:49  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/34cf/59c1/dab21a7a323dbdfc1db917c5a22a59db
+11:10:49  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7ac3/838b/bd33f545a516c310f8bc0962a20795ec
+11:10:49  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/cd48/b20f/b6bc738d0530513aa880b288a25f1382
+11:10:49  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2037/44e8/13aea10354709296b28ff5e82b1a6008
+11:10:49  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f3f2/5030/6bf5729f9e4227a285b5c7cf24b5da23
+11:10:50  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/ed95/9732/590395a3375f6dcce72ea89f0efd40ac
+11:10:50  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/4ead/42e2/d18065ebb9f482194f24ea08c6e742c2
+11:10:50  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/6fdb/7be6/aeac9937251ae36c21cc0c0cff161ba6
+11:10:50  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/de15/05e0/2a272dce73fe518aaa7ceeeea73449c0
+11:10:50  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e2c2/0bb6/e5c466e0df961d2a7b02179cc5996057
+11:10:50  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f438/1bc4/05827b18573b0b897f01d0562aa049ed
+11:10:50  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0396/3e59/3f21da7f029c2fa96def997d60ea3959
+11:10:51  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9a55/0096/73c24d9fea907576340c6dcb42dda3ac
+11:10:51  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/cd62/a1db/e99559e51fbc6b47214b3d48755ed945
+11:10:51  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8dcd/733f/ee597cd5ff7a13a1974387f70fb9538f
+11:10:51  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/4f53/a6e9/1843fc44b2fd1ac8782070e8c92dada2
+11:10:51  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/a866/38bf/efd7fe9aad44c9fd4fc903f34c54ece1
+11:10:52  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e71f/7c72/4acf59bb6a8be5b1c0077a494b3be533
+11:10:53  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0093/b4ea/29caffde69568e77c454c8162274af71
+11:10:53  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b7ce/8e16/5515fe8cdf963d83498815722da96bb6
+11:10:54  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0d4e/2152/e7e1dc5f30ca60bca475e6e84d1cb716
+11:10:54  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2671/7d82/c31adbfb09f994fcf95f7a42d24cad39
+11:10:54  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/3034/25ab/b9800f9995885e3026d6851d579b1c2a
+11:10:54  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b9a4/fbe7/e1bb41a4d2da5b36070644b714213bab
+11:10:54  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2914/9626/4ece1f636c54a5edbd232f37e012bf96
+11:10:54  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b9a4/fbe7/e1bb41a4d2da5b36070644b714213bab
+11:10:54  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/3266/bfc5/ac3994bd1a9b51b36d3cc9bc9fc59424
+11:10:55  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/61ca/abca/938dc56be51a17a4c7721b1531553a1d
+11:10:55  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/bb6a/3796/916f562a0960cc22e81e750eed13f399
+11:10:55  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/3266/bfc5/ac3994bd1a9b51b36d3cc9bc9fc59424
+11:10:55  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2e27/3cda/8b56b17357d99a4acdc593854d325346
+11:10:55  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1234/5afd/8faab8f2ccece7dbf84b653dd4b9c688
+11:10:55  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1234/5afd/8faab8f2ccece7dbf84b653dd4b9c688
+11:10:55  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c3ed/18d4/4ba55c103492a36125d43337ddc4ed86
+11:10:56  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f188/d6de/86140fb2e1d385ef678180c9638fc3d1
+11:10:56  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/51cb/3434/d5dbe2a5d3dd2927572e0cae6a1a510f
+11:10:56  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f8bd/f73c/7342b5f501175d2354ec52a8d473e8c9
+11:10:57  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/20c8/17f1/71222350cbd61e1ee2f3b72e18266270
+11:10:57  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/bee7/b527/793fb22ef89ebfa21eb0a5f8161050f5
+11:10:57  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c9a4/f3c7/fa91fc19c4b1e89adc091ba9396a7d4b
+11:10:57  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2f30/1120/5003423fbf6cba6cebcea2c75329bced
+11:10:57  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/afac/4a28/8a744ed4040f752b600d6e042750cf4a
+11:10:57  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/aec1/b079/ee354f25de6d8a75829672a74fe6bfcf
+11:10:58  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/a36b/dff9/d31a5108d00cfd925b1acd28253514bc
+11:10:58  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1025/e90b/6e2085247c3e92afc1d48a020568cd59
+11:10:58  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/bcf0/76c9/0515ab714fc9fa338472341b435528a8
+11:10:58  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/103f/5c60/02d74a68c3b4f878c6a353de51161700
+11:10:58  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9c7c/da3f/1a06a303b15eb1495ce5315dcf3f5dca
+11:10:59  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d16f/7a77/5daaa5f7d833d2abc6f4c599b3175d88
+11:10:59  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/89eb/ecfa/00da3eba4c6110484fe8cd26eabf8cfe
+11:10:59  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/decf/2612/678fbae55f47e7b734586182464a2155
+11:10:59  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2f2c/e880/4a5251fcc8f3518ebfe7bf7e9adbcb42
+11:10:59  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2f2c/e880/4a5251fcc8f3518ebfe7bf7e9adbcb42
+11:11:00  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/503d/1c3e/6e2eb19f5383bd9f8f9130645ca0e604
+11:11:00  :: Requesting 64 asset urls(41 assets pending)...
+11:11:05  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d87a/c136/d5c7e0b160355d593da65cc99af517f9
+11:11:06  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/080a/82f8/4413f47f17e733c4e495dfd43778ebf2
+11:11:06  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f098/da31/cdaf1fecddc7daa1df5d94b90b84098f
+11:11:06  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/def5/a415/1eb486c603c08eb0b4fc8fb2ba85a22e
+11:11:06  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9590/0530/baa092f11c87a634ba369ac70bc8eb92
+11:11:06  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/4478/2c06/ddea5963be3b721a86b69507bb7fdfe3
+11:11:06  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/57c2/4399/557b89f8a78453da618dd7838d031b83
+11:11:06  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e3c1/06b9/e189906c1d22dd25c870c35b712da543
+11:11:07  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9d45/8795/2323d38bbb1f746466f087fbb44b4cb4
+11:11:07  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/a48f/95da/f0730df41fe4c64b0b504d7c77912359
+11:11:07  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e50d/cd75/5c602ed353ebcc16d1f1b3f32d439d2b
+11:11:08  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c8e0/5f69/804d44a4f54e5696f48fb7569cf24335
+11:11:08  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9093/1b30/71184c98961240ab5f67d1d1e0d4382b
+11:11:08  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/32d4/fd42/2a1d7fea05548a3a35afce4c3321ed34
+11:11:08  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/67a4/721e/497bf1d8ee71cab061d92f213b333ced
+11:11:08  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/3514/5890/257897da9b376517c4a02ffd7868f496
+11:11:09  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/67a4/721e/497bf1d8ee71cab061d92f213b333ced
+11:11:09  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/6fdb/7be6/aeac9937251ae36c21cc0c0cff161ba6
+11:11:09  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/6fdb/7be6/aeac9937251ae36c21cc0c0cff161ba6
+11:11:09  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9c15/7e5a/e149032050f36e9ce83550c0d0a0b9f2
+11:11:09  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5476/f4a2/4d27d18d6d9212e018a88871d10c2429
+11:11:09  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c80b/14ce/580371ae464a43982f01dd3996f9df7c
+11:11:10  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f127/4e9f/8b3513228e1db3e42699e931afe22ec0
+11:11:10  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1612/1623/f34e00f862b20e0e30cc5b94cb83578a
+11:11:10  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c80b/14ce/580371ae464a43982f01dd3996f9df7c
+11:11:10  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7f30/ba22/8357c9ec0bc40a3653dc968c3e5a73de
+11:11:10  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8b78/a0a0/f56e93553524907e5c846aefa6733e97
+11:11:10  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9f03/5fc2/6288c3a00bf87422d4ca3e865778fa52
+11:11:11  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0aca/abac/b87e23a6d8766c65f72ab0d21c6b8767
+11:11:11  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9f03/5fc2/6288c3a00bf87422d4ca3e865778fa52
+11:11:11  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/06b5/e25d/ee703842fc40dcecb3acd95c6b35b1d7
+11:11:11  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/eb56/55e3/5c3445c19588e3b43af9c736fdb7028e
+11:11:11  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1612/1623/f34e00f862b20e0e30cc5b94cb83578a
+11:11:11  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/06b5/e25d/ee703842fc40dcecb3acd95c6b35b1d7
+11:11:11  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9b52/abc5/de7421385eeb0841c9beb7182d1bf82a
+11:11:12  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9b52/abc5/de7421385eeb0841c9beb7182d1bf82a
+11:11:12  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/99c2/3369/597011ba154ceabbaf2466b43ac4673d
+11:11:12  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9b52/abc5/de7421385eeb0841c9beb7182d1bf82a
+11:11:13  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9b52/abc5/de7421385eeb0841c9beb7182d1bf82a
+11:11:13  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9b52/abc5/de7421385eeb0841c9beb7182d1bf82a
+11:11:13  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9462/654e/89c13224b4ccdb65c21476fe1657c7c2
+11:11:13  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9590/0530/baa092f11c87a634ba369ac70bc8eb92
+11:11:14  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f127/4e9f/8b3513228e1db3e42699e931afe22ec0
+11:11:14  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f127/4e9f/8b3513228e1db3e42699e931afe22ec0
+11:11:14  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0aca/abac/b87e23a6d8766c65f72ab0d21c6b8767
+11:11:14  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0aca/abac/b87e23a6d8766c65f72ab0d21c6b8767
+11:11:14  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d133/042b/eba534a8c24f3b1db469f787dfd7109a
+11:11:14  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d16f/7a77/5daaa5f7d833d2abc6f4c599b3175d88
+11:11:14  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e630/d33c/19d0357d96c469d863c828a44b34211c
+11:11:15  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/fb5d/2e1a/1b22cfd286457603d992950465f2946a
+11:11:15  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/45c5/e295/e86984c18c636e5a1f2300ef98ed6bde
+11:11:15  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/45c5/e295/e86984c18c636e5a1f2300ef98ed6bde
+11:11:15  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/60b6/05d0/1df7f85d1f4e4e3bd2b78e1bc72e706e
+11:11:15  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5ad4/00ef/6b990306cd95a09320ed1e285b1a5a28
+11:11:15  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/fb6f/e64f/bdd2786213eeb9b2eb398c4c58723356
+11:11:15  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1ab7/6eb5/d42d7d641a276e5add48983f5b60d616
+11:11:16  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7cf9/2c91/f307325012279a64494180c0fb535bf0
+11:11:16  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2209/9b7a/d185c68d4db56d258c1a1293eaa96349
+11:11:16  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d95c/643d/ed8198339147e11bd611b594060808d2
+11:11:16  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b20c/019b/6bd4d3fedd637fecf62ab286e343eee1
+11:11:16  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9dfb/4e2d/a12060db1736534ff0eea418f03be72b
+11:11:17  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f33c/c7e8/55cd647e9bd838ae1477c9e1e02da27b
+11:11:17  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/36b6/ce2f/1f94462bf26dcb554df6e693ac943296
+11:11:17  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f098/da31/cdaf1fecddc7daa1df5d94b90b84098f
+11:11:17  :: Requesting 41 asset urls(0 assets pending)...
+11:11:21  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7b23/cfe0/c14717f4ab00feb1cc75ce8fac0db989
+11:11:21  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e630/d33c/19d0357d96c469d863c828a44b34211c
+11:11:21  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c5dd/49d6/7d69de56db689f378cd00d35c6ffca97
+11:11:21  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/67a4/721e/497bf1d8ee71cab061d92f213b333ced
+11:11:21  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9a2e/260c/22dce007597137ca0add4304b10738eb
+11:11:22  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/67a4/721e/497bf1d8ee71cab061d92f213b333ced
+11:11:22  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/80c6/9a63/a9807df2bec8f4e58d3dfccad4697bae
+11:11:22  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b32b/54eb/c37437a844577d1a7cf8ca5938102f74
+11:11:22  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/de15/05e0/2a272dce73fe518aaa7ceeeea73449c0
+11:11:22  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b32b/54eb/c37437a844577d1a7cf8ca5938102f74
+11:11:22  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/de15/05e0/2a272dce73fe518aaa7ceeeea73449c0
+11:11:22  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b32b/54eb/c37437a844577d1a7cf8ca5938102f74
+11:11:23  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/de15/05e0/2a272dce73fe518aaa7ceeeea73449c0
+11:11:23  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/ca7f/9cdb/3f44a0cc93050dbcf320045677140fdb
+11:11:23  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/db5c/0cb1/4e9eb2130377a3ca7dbb6bb8b6f3c8aa
+11:11:23  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/99b3/29c2/e490fbf75972e6a5471eddf8111078f3
+11:11:23  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e755/7e8a/ade721f930688c14d07de9a4862ef8a1
+11:11:23  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e755/7e8a/ade721f930688c14d07de9a4862ef8a1
+11:11:24  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/99b3/29c2/e490fbf75972e6a5471eddf8111078f3
+11:11:24  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/4ead/42e2/d18065ebb9f482194f24ea08c6e742c2
+11:11:24  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/65c1/3f0e/a764bd461211f9713a78e1de352a30b1
+11:11:24  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/822d/ca81/9ac6d39595abb499e598055278f2b55c
+11:11:24  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d146/074b/0ca23b1bb3e5b120bd895fa187fab8fc
+11:11:24  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5bbb/6d7a/b62a3acb6e49d1f8ea8dc87b128e9ed9
+11:11:25  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5bbb/6d7a/b62a3acb6e49d1f8ea8dc87b128e9ed9
+11:11:25  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/34cf/59c1/dab21a7a323dbdfc1db917c5a22a59db
+11:11:25  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/34cf/59c1/dab21a7a323dbdfc1db917c5a22a59db
+11:11:25  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9590/0530/baa092f11c87a634ba369ac70bc8eb92
+11:11:25  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5e73/4fe6/6417bc3c0c6986f278cc0c23bd86c1df
+11:11:25  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e484/7b9a/0c0bc5e02c93c802e84d16414ac48d7f
+11:11:26  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5bbb/6d7a/b62a3acb6e49d1f8ea8dc87b128e9ed9
+11:11:26  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/fc34/9541/dd9f781458f072cc37d388772476e1d6
+11:11:26  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e9d4/8afb/f3ad557ba3fdb50c03bebcc17861b4f4
+11:11:26  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/49e5/d258/3aefe8024970813458d868312eecde5d
+11:11:27  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/40a7/aab3/0be91b4ac5f234e7ccd74e4803b497fd
+11:11:27  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8d30/0a23/3d006da9f4454c4d5e4b0eb24bdb29be
+11:11:27  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c5ef/69d6/bba75dad799a565abfeb33ab03d266e6
+11:11:27  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9d50/a7fa/fd414175d7f3da641e28b90d9064cb5c
+11:11:27  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c5ef/69d6/bba75dad799a565abfeb33ab03d266e6
+11:11:28  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d16f/7a77/5daaa5f7d833d2abc6f4c599b3175d88
+11:11:28  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2f80/1dd9/70785ea8cdce215543325ae28b36d954
+11:11:28  :: Requesting external asset urls...
+11:11:29  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/07d9/7f41/7bbf9a1d7c0bd13f44820fb5646d393e?Expires=1649635200&Signature=WXjOH99JA~1EI6TXjH82aVYrKhq9-emwYLabCqF2mMH99R8FOH0A-BUhPelFrMyI2Y1m8f3Rk5F4K8~JJ1wU37vWhAzddRQNliULgTfBUdnTcykimj~LfhEnlMscA8XoOpmROquOUqIGv~5o6ErDjCGXnDjCnfmTEAO2QIive-75RxJOQJQo~kPDCBdWqrEZwxcT3E1vdaFCHjfyx32A-4c6op9CkY9RQmHne1Mj8ur7tq~8VkLv56YVByUFPIIxv0c1OgUBOx6yL7xNJeZEZpg7vwO~S1tMbTfLOsZJLFTGLPrBRG6VwgvGKV2Q9BIotehWrfA2DlWDyI4dj0hldQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
+11:11:30  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/0c7e/620d/8aa452f8042e7cf70c1617666b1f2a75?Expires=1649635200&Signature=IlR3Viofif0bjhfaeZAtTHTD40M2~Hh71zNAQDuRWFiNWqJtcHkgBffmJc3hnDSr3V4BTF382Z36kHFMezMBX4HunNoNkfhmKBFdiLsiwr8LxrpdnCTeIEe-4ouQAw9AhaVNPaTLBYiHfFCYtwJwuuG7pRbvPXMDuQeMwEU9pZuf0gLw3hjAZv-vDir4CHDccyNn0aaCy2opxUJrjU0~4GPb454ISZg8Axes6do8IKvXUMPoq4E5F2q53VD6oJq0tqRdv2Ey5mW-hwDRkslxbyK2NjSH0aOoYRY6I7q6MTjdjU5M7461-MtKITSVrZKnuSHq3TOuBjzEe3~vRtrcIg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
+11:11:31  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/78cf/406a/dfb3ffc4a887a815511e1e12b985bbe2?Expires=1649635200&Signature=POW5IiL-gE4MFTOTUPeZ4WgLSaQr7Wd9E45Blb~kK6LSCZgd4M4BQZYth4qNwOA5QqX86WVHjhsqX0xjFzuXXE4gZf-nKpd7Ks6sAOeZ3hPA3~nQNI7sFVq9YSKOv6Mhn7tefRHN48nz33mfXva6ZAIhk1Jq1HapRQ8wSeWM4E3-Px3EYT2ACQvEsu0amA1c8i74dFqc7IAyMuz3P0Nsx-aTqFDw6jtYAbZPKmyDdRUOPnpNCnfPBcBuYZ7UcrNOblSANbaPbK3ByuFpcq2Jhpgbj4qGZPy6Q2kFzbpXBb8-dgk4C6fckLvvc0sSp3ROsrbLVN28VP1e3vQAZQZrQQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
+11:11:31  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/938d/a072/73818d02d6f8fdb8c57112f9f7492b4c?Expires=1649635200&Signature=XebqjXiJxcdX758XAPETLEWm~k1usEg~j4ySivgyqjYxuSkUNGyWx83o8kz4cGuxrlOiNe13UW3yow~LzwyQseVDvDUhTn11g6lBmu7zQvNE4PukrgVl4SLkeJ8WT90cm0UKhmacUnAlmlOOHk3Fcf8ruR9govP7DzA2H3nSb58qN3JNJttaUjWZ-fDPkmRBQYIdLEswqJa6Xc5pOQmDJE4F6Fv3kiKKUyaaQ9GGgQJxnd~LEW9igsOVzQWCQR97HaeU79ZrVefBzUgREbWLUZeYZuOV2YN0kXAH6644aVJmU2xyeaKNRqLyf6ZHGj-U870OikEVtq-yvpZ8vT~n1w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
+11:11:31  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/951e/8fce/4a70422430611f3fcfb93a90e22aa59f?Expires=1649635200&Signature=T2mt15C0rYJavSZ0ZSF~7zdTSRmE1P0ev6M2HEvK-sriQS55j2Rts4XmCOVKyglYP2RpUCIR7g6QLljF0FAChiNNAx~E2nC9mxO0-MT~HkSxfWKjTD84WNFLfC6iI7R1UyyDXuzMEo7Swpwb8eHBqqX60OzaHBQ~di7tC4tjiVclUiEQrdzZrYhYr6uFEMZ09wRUQHGX9iffDdsYPdoFveviFh5vdp5QybIAR54KDoVsC5PhJPbRXgAj7XmeFcbNRSh078fAMjkZBy-YPDq8lZ-KFHDeARhmRgjxXoLMqB-o5O4F61-VP2qFndwEQxrtLJeITgHKTLGFZ52GXsC8Jg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
+11:11:32  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/9717/fa8f/bd6f5effcef61a9c662324d24d6bbc2e?Expires=1649635200&Signature=CakLluXcZMQUc-N97ynILm8rMUE4vGdoMo3S-43E8fNGfqPNdMSCd8LFwy1a6bxCElOS4Wa4NSx8xMmml3GIEEWOGnVxvCuZ-0s72yvnH8dosjznira9G0JFxCR8hDpq4GXGN6EGgz7fbSrZaJ4TGopimnOB2CDGJi5E0J1GLoXpge5FOxgAzCTe2B-XyCtQnXzkfDCobBopk8vLYewMa1104chQwf2OwxOTb-gmz3XlJIGiTTSORgz4NkHBExksRlI38h1q5dgDEEmLhRxFmJmoggSaf-TIgzo9z51IwobWCvCUxDbCKur66BFosu2JOFkrZnfhPeC8BaUa3Axwjg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
+11:11:32  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/cf38/b55b/e5755b29f295e607835afa147076c986?Expires=1649635200&Signature=BXmctzkunwxYpNrNcxGHtE~J7QU-JqcperdR4qASS3sav0sql9XvS~e5iaELWfx8rreNE-hIS~0Y8LHtiLEZ5f88janVvPrqRyQFvJYI4gYi7ndfX8Dz3rlto6bGev0I9RkEPiUY66MBhOsB246MjU-NqWMeJvwBl6s-j1HkOwfzXF1mU160pSyeBTfysKrK3uZ1RcVWAd-qtHywMgk9Y4JBeISeMdD9K2nzf8ZO-OajxLPqJzYOUPr0P01JCYkN9u8oNCMUMH2Yhz1DjT6ZIsX2KcKbG6S40CQd5ItUQQ~KyX2jg1KmR2TWrCOZF1cd2-H4M4mX26M8lf9tTgVqcA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
+11:11:33  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/fd61/8047/bd14007f11754600f784625bd157c7b1?Expires=1649635200&Signature=FC1DsWH7x-LSo9HiZuIJ84sIctxAqyrKeTLuECKJ9VxQWMtHvbz~CMA-5Tugl3jrOC7RqvW~ZkBYlJxBIlHWkSZgDkxYb-2dfeaeta0TdFNAn1En1O7wTF3doDY2Ymn0ww2zQdSX8c8NXRm6Lly~teT4atPepora1l2m0I5pZys8TWps4SOveEJYqTy-tEdiDY8tSe2hwyr1YN52gGmUeom7xL~4RXVIeLoRnMD~xVnPwpKpuDZp6uhorYPBc~OKTIJT76eXepbzXd-mMXBiU3ms4MdDUfs66M18p0vU7AWa71865vOGwANgac4xkT915HbJFtwPtfgJBdRErqi2Sw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
+11:11:34  :: Removed unused components:<br/> ZetaSurgicalSet.KeyBoard<br/>ZetaSurgicalSet.KeyboardButton_TopRow<br/>ZetaSurgicalSet.LockWheelsButton<br/>ZetaSurgicalSet.MetaDataTablePanel<br/>ZetaSurgicalSet.PatientInfoText_var_2<br/>ZetaSurgicalSet.ScrollBar<br/>ZetaSurgicalSet.Tabel3TitleBar<br/>ZetaSurgicalSet.Table1TitleBar<br/>ZetaSurgicalSet.Table2TitleBar<br/>ZetaSurgicalSet.TableSlider_Horizontal<br/>ZetaSurgicalSet.ToggleButton_Down_Selection<br/>ZetaSurgicalSet.TripleSelectSliderButton<br/>ZetaSurgicalSet.ViewPointButton<br/>ZetaSurgicalSet.WheelLockButtonTest_Default_State
+11:11:34  :: Extracting font archive: /home/maxim/GreenHouseWorkspace/FontArchives/Arial.zip
 to: /home/maxim/ICS/ZetaSurgical/zeta-surgical/ZetaSurgical.GreenHouse/Themes/DefaultTheme/Fonts
-19:42:49  :: Arial font extraction process finished with exit code: 9
-19:42:49  ::   End-of-central-directory signature not found.  Either this file is not
+11:11:34  :: Arial font extraction process finished with exit code: 9
+11:11:34  ::   End-of-central-directory signature not found.  Either this file is not
   a zipfile, or it constitutes one disk of a multi-part archive.  In the
   latter case the central directory and zipfile comment will be found on
   the last disk(s) of this archive.
 unzip:  cannot find zipfile directory in one of /home/maxim/GreenHouseWorkspace/FontArchives/Arial.zip or
         /home/maxim/GreenHouseWorkspace/FontArchives/Arial.zip.zip, and cannot find /home/maxim/GreenHouseWorkspace/FontArchives/Arial.zip.ZIP, period.
 
-19:42:49  :: Data processing done.
+11:11:35  :: Data processing done.
