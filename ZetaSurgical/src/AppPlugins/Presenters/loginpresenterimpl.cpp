@@ -31,3 +31,8 @@ void LoginPresenterImpl::onLoginClicked()
     setEnteredUsername(QString());
     setEnteredPassword(QString());
 }
+
+void LoginPresenterImpl::onLogoutClicked()
+{
+    emit loggedOutScreenShown();
+}

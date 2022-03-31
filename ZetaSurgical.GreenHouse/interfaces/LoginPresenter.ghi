@@ -5,6 +5,9 @@
         "onLoginClicked": {
             "name": "onLoginClicked"
         },
+        "onLogoutClicked": {
+            "name": "onLogoutClicked"
+        },
         "onPasswordEditRequested": {
             "name": "onPasswordEditRequested"
         },
@@ -37,6 +40,9 @@
     "signals": {
         "loggedInScreenShown": {
             "name": "loggedInScreenShown"
+        },
+        "loggedOutScreenShown": {
+            "name": "loggedOutScreenShown"
         }
     },
     "targetFile": "LoginPresenter.ghi",

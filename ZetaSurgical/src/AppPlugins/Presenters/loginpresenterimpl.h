@@ -13,6 +13,7 @@ public:
     void onUsernameEditRequested() override;
     void onPasswordEditRequested() override;
     void onLoginClicked() override;
+    void onLogoutClicked() override;
 
 private:
     PopupsPresenterImpl *const m_popupsPresenter;

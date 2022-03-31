@@ -13,6 +13,17 @@
                 "signal": "surfaceScreensMoveToLoginView_Default_ScreenState"
             },
             "template": "SignalTransition"
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "LoginPresenter",
+                "senderStringType": "%1",
+                "signal": "loggedOutScreenShown"
+            },
+            "template": "SignalTransition"
         }
     ],
     "uuid": "{a2a393e9-7e95-483d-aced-aad8862254cb}"

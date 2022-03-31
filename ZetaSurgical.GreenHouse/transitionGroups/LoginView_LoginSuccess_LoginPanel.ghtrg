@@ -15,7 +15,7 @@
             "template": "ItemSignalTransition",
             "triggeredActions": [
                 {
-                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceScreensMoveToLoginView_Default_ScreenState();\n}\n",
+                    "rawCode": "{\nCONTEXT_OBJECT(LoginPresenter, co) co->onLogoutClicked();\n}\n",
                     "type": "RawCode"
                 }
             ]
