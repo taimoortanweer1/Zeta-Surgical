@@ -36,6 +36,12 @@
             "value": 3
         }
     },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_Sex__onEvent__clicked(PatientsDatabase.Sex)\n"
+        }
+    },
     "targetFile": "fi_Sex.ghuie",
     "type": "ZetaSurgicalSet.Buttons_LVHeader_Default_State",
     "userDefined": false

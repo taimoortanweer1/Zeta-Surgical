@@ -43,14 +43,16 @@ void PatientsDatabaseImpl::init()
         QStringLiteral("Brian"),
         QStringLiteral("Nicole")
     };
+    int ind = 0;
     for(auto const &entry : names) {
+        ++ind;
         auto patient = Patient {
             entry,
                 QStringLiteral("439048348"),
                 QDate::currentDate(),
                 QStringLiteral("M"),
-                QStringLiteral("3"),
-                QStringLiteral("BWH-35223"),
+                QStringLiteral("%1").arg(ind),
+                QStringLiteral("BWH-35223%1").arg(ind),
                 QDate::currentDate() };
         m_patientsModel->addPatient(patient);
     }
@@ -108,4 +110,14 @@ void PatientsDatabaseImpl::onSelectStorageSource(int index)
 void PatientsDatabaseImpl::onShowPatientsList()
 {
     onSelectStorageSource(StorageSource::Local);
+}
+
+void PatientsDatabaseImpl::sortPatientListBy(int headerEntry)
+{
+    auto role = static_cast<PatientsModel::Roles>(headerEntry + Qt::UserRole + 1);
+    if(role == PatientsModel::Date)
+        role = PatientsModel::RawDate;
+    if(role == PatientsModel::DOB)
+        role = PatientsModel::RawDOB;
+    m_filterModel->sortByRole(role);
 }

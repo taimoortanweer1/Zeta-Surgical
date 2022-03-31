@@ -24,21 +24,6 @@ struct StudyData {
 
 using Patients = QList<Patient>;
 
-class PatientsFilterModel : public QSortFilterProxyModel
-{
-    Q_OBJECT
-public:
-    PatientsFilterModel(QObject *parent);
-    void setFilterString(QString filter);
-    QVariant getData(int index, int role) const;
-
-protected:
-    bool filterAcceptsRow(int source_row, const QModelIndex &source_parent) const;
-
-private:
-    QString m_filter;
-};
-
 class PatientsModel : public QAbstractListModel
 {
     Q_OBJECT
@@ -51,7 +36,10 @@ public:
         Studies,
         SessionID,
         Date,
-        Index
+        Index,
+        RawDOB,
+        RawDate,
+        Invalid = -1
     };
     explicit PatientsModel(QObject *parent);
     void addPatient(Patient const &patient);
@@ -63,6 +51,23 @@ public:
 
 private:
     Patients m_data;
+};
+
+class PatientsFilterModel : public QSortFilterProxyModel
+{
+    Q_OBJECT
+public:
+    PatientsFilterModel(QObject *parent);
+    void setFilterString(QString filter);
+    QVariant getData(int index, int role) const;
+    void sortByRole(PatientsModel::Roles role);
+
+protected:
+    bool filterAcceptsRow(int source_row, const QModelIndex &source_parent) const override;
+    bool lessThan(const QModelIndex &left, const QModelIndex &right) const override;
+
+private:
+    QString m_filter;
 };
 
 using Studies = QList<StudyData>;

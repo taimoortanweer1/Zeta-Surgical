@@ -21,6 +21,7 @@ public:
     void previewZoomSliderMoved(int value) override;
     void onSelectStorageSource(int index) override;
     void onShowPatientsList() override;
+    void sortPatientListBy(int headerEntry) override;
 
 private:
     PatientsModel * const m_patientsModel;

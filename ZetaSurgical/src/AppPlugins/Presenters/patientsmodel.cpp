@@ -1,4 +1,5 @@
 #include "patientsmodel.h"
+#include <QDebug>
 
 char const * DATE_FORMAT = "dd/MM/yy";
 
@@ -33,6 +34,8 @@ QVariant PatientsModel::data(const QModelIndex &index, int role) const
         res = patient.mrn;
     if(role == DOB)
         res = patient.dob.toString(QString::fromLatin1(DATE_FORMAT));
+    if(role == RawDOB)
+        res = patient.dob;
     if(role == Sex)
         res = patient.sex;
     if(role == Studies)
@@ -41,6 +44,8 @@ QVariant PatientsModel::data(const QModelIndex &index, int role) const
         res = patient.sessionID;
     if(role == Date)
         res = patient.date.toString(QString::fromLatin1(DATE_FORMAT));
+    if(role == RawDate)
+        res = patient.date;
     if(role == Index)
         res = index.row();
     return res;
@@ -74,8 +79,22 @@ void PatientsFilterModel::setFilterString(QString filter)
 
 QVariant PatientsFilterModel::getData(int ind, int role) const
 {
-    auto const sourceIndex = mapToSource(index(ind, 0));
+    auto const sourceIndex = mapFromSource(index(ind, 0));
     return sourceModel()->data(sourceIndex, role);
+}
+
+void PatientsFilterModel::sortByRole(PatientsModel::Roles role)
+{
+    qWarning() << __PRETTY_FUNCTION__ << role;
+    setSortRole(role);
+    sort(0, Qt::AscendingOrder);
+}
+
+bool PatientsFilterModel::lessThan(const QModelIndex &left, const QModelIndex &right) const
+{
+    auto const leftData = sourceModel()->data(left, sortRole());
+    auto const rightData = sourceModel()->data(right, sortRole());
+    return leftData < rightData;
 }
 
 bool PatientsFilterModel::filterAcceptsRow(int source_row, const QModelIndex &source_parent) const

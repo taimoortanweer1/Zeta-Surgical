@@ -36,6 +36,12 @@
             "value": 2
         }
     },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_DOB__onEvent__clicked(PatientsDatabase.DOB)\n"
+        }
+    },
     "targetFile": "fi_DOB.ghuie",
     "type": "ZetaSurgicalSet.Buttons_LVHeader_Default_State",
     "userDefined": false

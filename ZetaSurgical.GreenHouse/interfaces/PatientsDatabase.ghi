@@ -8,6 +8,18 @@
                 "CDUSB",
                 "PACS"
             ]
+        },
+        {
+            "name": "PatientListHeaderEntries",
+            "value": [
+                "Name",
+                "MRN",
+                "DOB",
+                "Sex",
+                "Studies",
+                "SessionID",
+                "Date"
+            ]
         }
     ],
     "hidden": false,
@@ -50,6 +62,16 @@
                 }
             ],
             "name": "selectPatient"
+        },
+        "sortPatientListBy": {
+            "arguments": [
+                {
+                    "name": "headerEntry",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "sortPatientListBy"
         },
         "viewSelected": {
             "arguments": [

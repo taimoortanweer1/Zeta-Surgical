@@ -24,9 +24,9 @@ void LoginPresenterImpl::onPasswordEditRequested()
 
 void LoginPresenterImpl::onLoginClicked()
 {
-    if(enteredPassword().compare(QStringLiteral("123")) == 0) {
+    //if(enteredPassword().compare(QStringLiteral("123")) == 0) {
         emit loggedInScreenShown();
-    }
+    //}
 
     setEnteredUsername(QString());
     setEnteredPassword(QString());

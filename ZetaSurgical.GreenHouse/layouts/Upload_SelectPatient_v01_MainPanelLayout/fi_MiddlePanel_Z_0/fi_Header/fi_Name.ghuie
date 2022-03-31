@@ -12,6 +12,12 @@
         "FIGMA_ID": "365:2948"
     },
     "id": "fi_Name",
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_Name__onEvent__clicked(PatientsDatabase.Name)\n"
+        }
+    },
     "targetFile": "fi_Name.ghuie",
     "type": "ZetaSurgicalSet.Buttons_LVHeader_Default_State",
     "userDefined": false
