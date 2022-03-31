@@ -8,6 +8,11 @@
                 "name": "tabIndex",
                 "preview": 0,
                 "type": "Int"
+            },
+            {
+                "name": "backButtonIsVisible",
+                "preview": null,
+                "type": "Bool"
             }
         ]
     },

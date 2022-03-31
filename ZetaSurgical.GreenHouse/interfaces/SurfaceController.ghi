@@ -135,9 +135,6 @@
         "surfaceNavPanelMoveToNavPanel_Shared0": {
             "name": "surfaceNavPanelMoveToNavPanel_Shared0"
         },
-        "surfaceNavPanelMoveToUpload_SelectPatient_v01_NavPanel": {
-            "name": "surfaceNavPanelMoveToUpload_SelectPatient_v01_NavPanel"
-        },
         "surfacePopupsMoveToEditPoint": {
             "name": "surfacePopupsMoveToEditPoint"
         },

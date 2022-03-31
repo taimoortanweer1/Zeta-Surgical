@@ -30,6 +30,11 @@
                 "aliasElement": "enabled",
                 "aliasName": "fi_BackButton_enabled",
                 "aliasSource": "fi_BackButton"
+            },
+            {
+                "aliasElement": "visible",
+                "aliasName": "fi_BackButton_visible",
+                "aliasSource": "fi_BackButton"
             }
         ],
         "fi_Button_Navigation_Navigation": [
@@ -600,6 +605,13 @@
                 "aliasName": "fi_Line_11_opacity",
                 "aliasSource": "fi_Line_11"
             }
+        ],
+        "fi_Row": [
+            {
+                "aliasElement": "spacing",
+                "aliasName": "fi_Row_spacing",
+                "aliasSource": "fi_Row"
+            }
         ]
     },
     "componentLayout": {
@@ -654,18 +666,43 @@
                         "userDefined": false
                     },
                     {
-                        "anchorHCenter": {
+                        "anchorLeft": {
+                            "anchorMargin": 20,
                             "anchorTarget": "parent",
-                            "anchorValue": "HorizontalCenter"
+                            "anchorValue": "Left"
                         },
                         "anchorTop": {
                             "anchorMargin": 20,
                             "anchorTarget": "parent",
                             "anchorValue": "Top"
                         },
+                        "children": [
+                            {
+                                "anchorTop": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Top"
+                                },
+                                "childrenSplit": true,
+                                "id": "fi_BackButton",
+                                "strictOrder": true,
+                                "targetFile": "fi_BackButton.ghuie",
+                                "type": "ZetaSurgicalSet.BackButton_Default_State",
+                                "userDefined": false
+                            }
+                        ],
                         "childrenSplit": true,
-                        "id": "fi_BackButton",
+                        "id": "fi_Row",
                         "properties": {
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 88
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 88
+                            },
                             "x": {
                                 "name": "x",
                                 "type": "Int",
@@ -682,8 +719,8 @@
                                 "value": 1
                             }
                         },
-                        "targetFile": "fi_BackButton.ghuie",
-                        "type": "ZetaSurgicalSet.BackButton_Default_State",
+                        "targetFile": "fi_Row.ghuie",
+                        "type": "Row",
                         "userDefined": false
                     },
                     {

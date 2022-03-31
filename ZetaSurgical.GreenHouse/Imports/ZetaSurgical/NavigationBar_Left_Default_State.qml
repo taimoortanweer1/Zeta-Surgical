@@ -6,6 +6,7 @@ import ZetaSurgical 1.0 as ZetaSurgicalSet
 
 //USES DecorativeSet.DecoratedItem
 //USES ZetaSurgicalSet.BackButton_Default_State
+//USES Row
 //USES ZetaSurgicalSet.Button_Navigation_Upload
 //USES ZetaSurgicalSet.Button_Navigation_Segmentation
 //USES ZetaSurgicalSet.Button_Navigation_Planning
@@ -32,6 +33,8 @@ Item {
     property alias fi_BackButton_minimumRepeatInterval: fi_BackButton.minimumRepeatInterval
     //INT 1000
     property alias fi_BackButton_repeateInterval: fi_BackButton.repeateInterval
+    //BOOL true
+    property alias fi_BackButton_visible: fi_BackButton.visible
     //BOOL false
     property alias fi_Button_Navigation_Navigation_complete_flag: fi_Button_Navigation_Navigation.complete_flag
     //BOOL false
@@ -254,6 +257,8 @@ Item {
     property alias fi_Line_11_opacity: fi_Line_11.opacity
     //ASSET /164_3606.png
     property alias fi_Line_11_source: fi_Line_11.source
+    //INT 0
+    property alias fi_Row_spacing: fi_Row.spacing
 
     //----------------------------------------------------------------------------------------------
 
@@ -313,27 +318,35 @@ Item {
         horizontalCenterOffset: 10
         verticalCenterOffset: 10
     }
-    ZetaSurgicalSet.BackButton_Default_State {
-        id: fi_BackButton
+    Row {
+        id: fi_Row
+        anchors.left: parent.left
+        anchors.leftMargin: 20
         anchors.top: parent.top
         anchors.topMargin: 20
-        anchors.horizontalCenter: parent.horizontalCenter
         z: 1
+        width: 88
+        height: 88
 
-        onClicked: {
-            root.fi_BackButton_clicked();
-        }
-        onDoubleClicked: {
-            root.fi_BackButton_doubleClicked();
-        }
-        onPressed: {
-            root.fi_BackButton_pressed();
-        }
-        onReleased: {
-            root.fi_BackButton_released();
-        }
-        onRepeatingTriggered: {
-            root.fi_BackButton_repeatingTriggered();
+        ZetaSurgicalSet.BackButton_Default_State {
+            id: fi_BackButton
+            anchors.top: parent.top
+
+            onClicked: {
+                root.fi_BackButton_clicked();
+            }
+            onDoubleClicked: {
+                root.fi_BackButton_doubleClicked();
+            }
+            onPressed: {
+                root.fi_BackButton_pressed();
+            }
+            onReleased: {
+                root.fi_BackButton_released();
+            }
+            onRepeatingTriggered: {
+                root.fi_BackButton_repeatingTriggered();
+            }
         }
     }
     ZetaSurgicalSet.Button_Navigation_Upload {

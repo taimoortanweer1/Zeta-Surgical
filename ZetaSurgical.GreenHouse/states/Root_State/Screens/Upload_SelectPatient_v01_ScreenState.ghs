@@ -4,17 +4,17 @@
     "childrenSplit": true,
     "entryActions": [
         {
-            "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceBackgroundPanelMoveToBackgroundPanel_Shared0();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideLoginPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceMainPanelMoveToUpload_SelectPatient_v01_MainPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideMainView();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceNavPanelMoveToUpload_SelectPatient_v01_NavPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hidePositionCartInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideRightInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideTitlePanel();\n}\n",
+            "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceBackgroundPanelMoveToBackgroundPanel_Shared0();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideLoginPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceMainPanelMoveToUpload_SelectPatient_v01_MainPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideMainView();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceNavPanelMoveToNavPanel_Shared0();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hidePositionCartInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideRightInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideTitlePanel();\n}\n",
             "type": "RawCode"
         },
         {
-            "rawCode": "{\nCONTEXT_OBJECT(NavigationPresenter, co) co->setTabIndex(0);\n}\n",
+            "rawCode": "{\nCONTEXT_OBJECT(NavigationPresenter, co) co->setTabIndex(0);\n}\n{\nCONTEXT_OBJECT(NavigationPresenter, co) co->setBackButtonIsVisible(true);\n}\n",
             "type": "RawCode"
         }
     ],
     "exitActions": [
         {
-            "rawCode": "",
+            "rawCode": "{\nCONTEXT_OBJECT(NavigationPresenter, co) co->setBackButtonIsVisible(false);\n}\n",
             "type": "RawCode"
         }
     ],

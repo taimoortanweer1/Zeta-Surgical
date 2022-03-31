@@ -7,78 +7,6 @@
                 "backTransition": false,
                 "blockedIfTargetActive": false,
                 "internal": false,
-                "signalName": "fi_navBar__onEvent__fi_Button_Navigation_Upload_clicked",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
-            },
-            "template": "ItemSignalTransition",
-            "triggeredActions": [
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceScreensMoveToUpload_SelectPatient_v01_ScreenState();\n}\n",
-                    "type": "RawCode"
-                }
-            ]
-        },
-        {
-            "properties": {
-                "backTransition": false,
-                "blockedIfTargetActive": false,
-                "internal": false,
-                "signalName": "fi_navBar__onEvent__fi_Button_Navigation_Segmentation_clicked",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
-            },
-            "template": "ItemSignalTransition",
-            "triggeredActions": [
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceScreensMoveToSegmentation_Default_ScreenState();\n}\n",
-                    "type": "RawCode"
-                }
-            ]
-        },
-        {
-            "properties": {
-                "backTransition": false,
-                "blockedIfTargetActive": false,
-                "internal": false,
-                "signalName": "fi_navBar__onEvent__fi_Button_Navigation_Planning_clicked",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
-            },
-            "template": "ItemSignalTransition",
-            "triggeredActions": [
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceScreensMoveToCT_Planning_Default_ScreenState();\n}\n",
-                    "type": "RawCode"
-                }
-            ]
-        },
-        {
-            "properties": {
-                "backTransition": false,
-                "blockedIfTargetActive": false,
-                "internal": false,
-                "signalName": "fi_navBar__onEvent__fi_Button_Navigation_Positioning_clicked",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
-            },
-            "template": "ItemSignalTransition",
-            "triggeredActions": [
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceScreensMoveToPositionNEST_Variation1_ScreenState();\n}\n",
-                    "type": "RawCode"
-                }
-            ]
-        },
-        {
-            "properties": {
-                "backTransition": false,
-                "blockedIfTargetActive": false,
-                "internal": false,
                 "signalName": "back",
                 "validSourceTemplates": [
                     "ItemState"
@@ -88,24 +16,6 @@
             "triggeredActions": [
                 {
                     "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceScreensBack();\n}\n",
-                    "type": "RawCode"
-                }
-            ]
-        },
-        {
-            "properties": {
-                "backTransition": false,
-                "blockedIfTargetActive": false,
-                "internal": false,
-                "signalName": "fi_navBar__onEvent__fi_Button_Navigation_Navigation_clicked",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
-            },
-            "template": "ItemSignalTransition",
-            "triggeredActions": [
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceScreensMoveToNavigationPanel_6Views_ScreenState();\n}\n",
                     "type": "RawCode"
                 }
             ]

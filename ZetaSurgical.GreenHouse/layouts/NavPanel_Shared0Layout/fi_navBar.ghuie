@@ -5,6 +5,13 @@
     },
     "id": "fi_navBar",
     "properties": {
+        "fi_BackButton_visible": {
+            "bindingProp": "backButtonIsVisible",
+            "bindingSrc": "NavigationPresenter",
+            "name": "fi_BackButton_visible",
+            "type": "Bool",
+            "value": true
+        },
         "fi_Button_Navigation_Navigation_itemIndex": {
             "name": "fi_Button_Navigation_Navigation_itemIndex",
             "type": "Int",
@@ -65,26 +72,6 @@
         "fi_BackButton_clicked": {
             "name": "fi_BackButton_clicked",
             "rawCode": "root.itemInterface.back()\n"
-        },
-        "fi_Button_Navigation_Navigation_clicked": {
-            "name": "fi_Button_Navigation_Navigation_clicked",
-            "rawCode": "root.itemInterface.fi_navBar__onEvent__fi_Button_Navigation_Navigation_clicked()\n"
-        },
-        "fi_Button_Navigation_Planning_clicked": {
-            "name": "fi_Button_Navigation_Planning_clicked",
-            "rawCode": "root.itemInterface.fi_navBar__onEvent__fi_Button_Navigation_Planning_clicked()\n"
-        },
-        "fi_Button_Navigation_Positioning_clicked": {
-            "name": "fi_Button_Navigation_Positioning_clicked",
-            "rawCode": "root.itemInterface.fi_navBar__onEvent__fi_Button_Navigation_Positioning_clicked()\n"
-        },
-        "fi_Button_Navigation_Segmentation_clicked": {
-            "name": "fi_Button_Navigation_Segmentation_clicked",
-            "rawCode": "root.itemInterface.fi_navBar__onEvent__fi_Button_Navigation_Segmentation_clicked()\n"
-        },
-        "fi_Button_Navigation_Upload_clicked": {
-            "name": "fi_Button_Navigation_Upload_clicked",
-            "rawCode": "root.itemInterface.fi_navBar__onEvent__fi_Button_Navigation_Upload_clicked()\n"
         }
     },
     "targetFile": "fi_navBar.ghuie",
