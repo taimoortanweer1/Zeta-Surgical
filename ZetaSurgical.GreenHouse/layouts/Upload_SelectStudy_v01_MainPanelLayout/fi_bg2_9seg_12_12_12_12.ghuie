@@ -1,0 +1,65 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "364:2873"
+    },
+    "id": "fi_bg2_9seg_12_12_12_12",
+    "properties": {
+        "border-bottom": {
+            "name": "border-bottom",
+            "type": "Int",
+            "value": 11
+        },
+        "border-left": {
+            "name": "border-left",
+            "type": "Int",
+            "value": 11
+        },
+        "border-right": {
+            "name": "border-right",
+            "type": "Int",
+            "value": 11
+        },
+        "border-top": {
+            "name": "border-top",
+            "type": "Int",
+            "value": 11
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 365
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/364_2873.png"
+        },
+        "visible": {
+            "bindingProp": "visible",
+            "bindingSrc": "fi_scrollBar_ListView_ScanTable_Fit_Delegate",
+            "itemBound": true,
+            "name": "visible",
+            "type": "Bool",
+            "value": true
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 24
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 1288
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 683
+        }
+    },
+    "targetFile": "fi_bg2_9seg_12_12_12_12.ghuie",
+    "type": "BorderImage",
+    "userDefined": false
+}

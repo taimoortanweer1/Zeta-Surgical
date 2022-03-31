@@ -5,7 +5,7 @@
         "anchorValue": "Left"
     },
     "anchorTop": {
-        "anchorMargin": 128,
+        "anchorMargin": 208,
         "anchorTarget": "parent",
         "anchorValue": "Top"
     },
@@ -15,10 +15,20 @@
     },
     "id": "fi_ListView_StudiesTable_Fit_Delegate",
     "properties": {
+        "clip": {
+            "name": "clip",
+            "type": "Bool",
+            "value": true
+        },
+        "delegateSpacing": {
+            "name": "delegateSpacing",
+            "type": "Int",
+            "value": 8
+        },
         "height": {
             "name": "height",
             "type": "Int",
-            "value": 288
+            "value": 208
         },
         "viewDelegate": {
             "name": "viewDelegate",
@@ -35,7 +45,7 @@
         "width": {
             "name": "width",
             "type": "Int",
-            "value": 1232
+            "value": 1256
         },
         "x": {
             "name": "x",
@@ -45,12 +55,12 @@
         "y": {
             "name": "y",
             "type": "Int",
-            "value": 128
+            "value": 208
         },
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 1
+            "value": 2
         }
     },
     "targetFile": "fi_ListView_StudiesTable_Fit_Delegate.ghuie",

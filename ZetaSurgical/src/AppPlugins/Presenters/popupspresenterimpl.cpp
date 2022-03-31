@@ -8,18 +8,21 @@ void PopupsPresenterImpl::startUserInput(TextInputCallback callback)
 {
     m_callback = callback;
     emit inputUsernameShown();
+    emit keyboardShown();
 }
 
 void PopupsPresenterImpl::startPasswordInput(TextInputCallback callback)
 {
     m_callback = callback;
     emit inputPasswordShown();
+    emit keyboardShown();
 }
 
 void PopupsPresenterImpl::startFilterInput(TextInputCallback callback)
 {
     m_callback = callback;
     emit inputFilterShown();
+    emit keyboardShown();
 }
 
 void PopupsPresenterImpl::confirmPointRemoval(ConfirmCallback callback)

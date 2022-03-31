@@ -29,7 +29,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 2
+            "value": 3
         }
     },
     "targetFile": "fi_addPointButton.ghuie",

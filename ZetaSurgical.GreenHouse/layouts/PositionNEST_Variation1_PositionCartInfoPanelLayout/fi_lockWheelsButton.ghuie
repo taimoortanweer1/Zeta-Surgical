@@ -1,10 +1,20 @@
 {
     "childrenSplit": true,
     "extraData": {
-        "FIGMA_ID": "174:1879"
+        "FIGMA_ID": "365:2918"
     },
     "id": "fi_lockWheelsButton",
     "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 88
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 296
+        },
         "x": {
             "name": "x",
             "type": "Int",
@@ -18,10 +28,10 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 7
+            "value": 1
         }
     },
     "targetFile": "fi_lockWheelsButton.ghuie",
-    "type": "ZetaSurgicalSet.LockWheelsButton",
+    "type": "Item",
     "userDefined": false
 }

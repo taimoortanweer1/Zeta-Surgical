@@ -41,6 +41,9 @@
         },
         "inputUsernameShown": {
             "name": "inputUsernameShown"
+        },
+        "keyboardShown": {
+            "name": "keyboardShown"
         }
     },
     "targetFile": "PopupsPresenter.ghi",

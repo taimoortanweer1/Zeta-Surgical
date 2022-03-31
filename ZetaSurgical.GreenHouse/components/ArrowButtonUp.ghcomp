@@ -160,7 +160,7 @@
                             "anchorValue": "Top"
                         },
                         "childrenSplit": true,
-                        "id": "fi_Rectangle_107___default",
+                        "id": "fi_Background_9seg_10_10_10_10___default",
                         "properties": {
                             "border-bottom": {
                                 "name": "border-bottom",
@@ -198,7 +198,7 @@
                                 "value": 64
                             }
                         },
-                        "targetFile": "fi_Rectangle_107___default.ghuie",
+                        "targetFile": "fi_Background_9seg_10_10_10_10___default.ghuie",
                         "type": "BorderImage",
                         "userDefined": false
                     },
@@ -425,33 +425,9 @@
                     },
                     {
                         "name": "source",
-                        "propertyChangeTarget": "fi_Rectangle_107___default",
+                        "propertyChangeTarget": "fi_Background_9seg_10_10_10_10___default",
                         "type": "Asset",
                         "value": "/49_2096.png"
-                    },
-                    {
-                        "name": "border-bottom",
-                        "propertyChangeTarget": "fi_Rectangle_107___default",
-                        "type": "Int",
-                        "value": 10
-                    },
-                    {
-                        "name": "border-left",
-                        "propertyChangeTarget": "fi_Rectangle_107___default",
-                        "type": "Int",
-                        "value": 10
-                    },
-                    {
-                        "name": "border-right",
-                        "propertyChangeTarget": "fi_Rectangle_107___default",
-                        "type": "Int",
-                        "value": 10
-                    },
-                    {
-                        "name": "border-top",
-                        "propertyChangeTarget": "fi_Rectangle_107___default",
-                        "type": "Int",
-                        "value": 10
                     }
                 ],
                 "when": "!__mouseArea.pressed"
@@ -474,33 +450,9 @@
                     },
                     {
                         "name": "source",
-                        "propertyChangeTarget": "fi_Rectangle_107___default",
+                        "propertyChangeTarget": "fi_Background_9seg_10_10_10_10___default",
                         "type": "Asset",
                         "value": "/164_7355.png"
-                    },
-                    {
-                        "name": "border-bottom",
-                        "propertyChangeTarget": "fi_Rectangle_107___default",
-                        "type": "Int",
-                        "value": 14
-                    },
-                    {
-                        "name": "border-left",
-                        "propertyChangeTarget": "fi_Rectangle_107___default",
-                        "type": "Int",
-                        "value": 14
-                    },
-                    {
-                        "name": "border-right",
-                        "propertyChangeTarget": "fi_Rectangle_107___default",
-                        "type": "Int",
-                        "value": 14
-                    },
-                    {
-                        "name": "border-top",
-                        "propertyChangeTarget": "fi_Rectangle_107___default",
-                        "type": "Int",
-                        "value": 14
                     }
                 ],
                 "when": "__mouseArea.pressed"

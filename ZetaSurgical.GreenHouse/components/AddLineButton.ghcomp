@@ -207,7 +207,7 @@
                             "anchorValue": "Top"
                         },
                         "childrenSplit": true,
-                        "id": "fi_Login_Enter___default",
+                        "id": "fi_Background_9seg_40_40_40_40___default",
                         "properties": {
                             "border-bottom": {
                                 "name": "border-bottom",
@@ -245,7 +245,7 @@
                                 "value": 368
                             }
                         },
-                        "targetFile": "fi_Login_Enter___default.ghuie",
+                        "targetFile": "fi_Background_9seg_40_40_40_40___default.ghuie",
                         "type": "BorderImage",
                         "userDefined": false
                     },
@@ -565,33 +565,9 @@
                     },
                     {
                         "name": "source",
-                        "propertyChangeTarget": "fi_Login_Enter___default",
+                        "propertyChangeTarget": "fi_Background_9seg_40_40_40_40___default",
                         "type": "Asset",
                         "value": "/7_1300.png"
-                    },
-                    {
-                        "name": "border-bottom",
-                        "propertyChangeTarget": "fi_Login_Enter___default",
-                        "type": "Int",
-                        "value": 39
-                    },
-                    {
-                        "name": "border-left",
-                        "propertyChangeTarget": "fi_Login_Enter___default",
-                        "type": "Int",
-                        "value": 39
-                    },
-                    {
-                        "name": "border-right",
-                        "propertyChangeTarget": "fi_Login_Enter___default",
-                        "type": "Int",
-                        "value": 39
-                    },
-                    {
-                        "name": "border-top",
-                        "propertyChangeTarget": "fi_Login_Enter___default",
-                        "type": "Int",
-                        "value": 39
                     }
                 ],
                 "when": "!__mouseArea.pressed"
@@ -614,33 +590,9 @@
                     },
                     {
                         "name": "source",
-                        "propertyChangeTarget": "fi_Login_Enter___default",
+                        "propertyChangeTarget": "fi_Background_9seg_40_40_40_40___default",
                         "type": "Asset",
                         "value": "/22_2501.png"
-                    },
-                    {
-                        "name": "border-bottom",
-                        "propertyChangeTarget": "fi_Login_Enter___default",
-                        "type": "Int",
-                        "value": 14
-                    },
-                    {
-                        "name": "border-left",
-                        "propertyChangeTarget": "fi_Login_Enter___default",
-                        "type": "Int",
-                        "value": 14
-                    },
-                    {
-                        "name": "border-right",
-                        "propertyChangeTarget": "fi_Login_Enter___default",
-                        "type": "Int",
-                        "value": 14
-                    },
-                    {
-                        "name": "border-top",
-                        "propertyChangeTarget": "fi_Login_Enter___default",
-                        "type": "Int",
-                        "value": 14
                     }
                 ],
                 "when": "__mouseArea.pressed"

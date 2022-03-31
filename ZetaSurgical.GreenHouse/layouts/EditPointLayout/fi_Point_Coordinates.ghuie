@@ -69,7 +69,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 4
+            "value": 5
         }
     },
     "targetFile": "fi_Point_Coordinates.ghuie",

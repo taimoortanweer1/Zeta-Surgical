@@ -1,0 +1,37 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 65,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 32,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "367:3615"
+    },
+    "id": "fi_Buttons_RegularSmaller",
+    "properties": {
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 65
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 32
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "targetFile": "fi_Buttons_RegularSmaller.ghuie",
+    "type": "ZetaSurgicalSet.Buttons_RegularSmaller",
+    "userDefined": false
+}

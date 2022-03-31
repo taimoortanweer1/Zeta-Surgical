@@ -1,0 +1,19 @@
+{
+    "source": "KeyboardLayer",
+    "target": "KeyboardLayerHidden",
+    "targetFile": "KeyboardLayer_KeyboardLayerHidden.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "hideKeyboardLayer"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{e5fdab93-629a-46ee-87a8-9a9f6a924975}"
+}

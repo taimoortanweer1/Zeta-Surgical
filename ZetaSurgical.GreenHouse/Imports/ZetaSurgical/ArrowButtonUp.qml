@@ -82,7 +82,7 @@ Item {
         }
     }
     BorderImage {
-        id: fi_Rectangle_107___default
+        id: fi_Background_9seg_10_10_10_10___default
         anchors.left: parent.left
         anchors.right: parent.right
         anchors.top: parent.top
@@ -130,11 +130,7 @@ Item {
                 visible: true
             }
             PropertyChanges {
-                target: fi_Rectangle_107___default
-                border.bottom: 10
-                border.left: 10
-                border.right: 10
-                border.top: 10
+                target: fi_Background_9seg_10_10_10_10___default
                 source: GreenHouseThemeManager.theme.asset("/49_2096.png")
             }
             PropertyChanges {
@@ -150,11 +146,7 @@ Item {
                 visible: false
             }
             PropertyChanges {
-                target: fi_Rectangle_107___default
-                border.bottom: 14
-                border.left: 14
-                border.right: 14
-                border.top: 14
+                target: fi_Background_9seg_10_10_10_10___default
                 source: GreenHouseThemeManager.theme.asset("/164_7355.png")
             }
             PropertyChanges {

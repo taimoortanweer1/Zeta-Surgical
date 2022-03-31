@@ -1,0 +1,22 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "365:2924"
+    },
+    "id": "fi_Frame_18",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 1080
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 456
+        }
+    },
+    "targetFile": "fi_Frame_18.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

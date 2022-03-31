@@ -28,7 +28,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 3
+            "value": 4
         }
     },
     "targetFile": "fi_CoordinateDisplayPanel_Z_0.ghuie",

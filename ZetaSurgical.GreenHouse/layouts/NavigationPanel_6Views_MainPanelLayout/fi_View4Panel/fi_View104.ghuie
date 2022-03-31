@@ -1,0 +1,35 @@
+{
+    "anchorLeft": {
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "40:4227"
+    },
+    "id": "fi_View104",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 540
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/40_4227.png"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 445
+        }
+    },
+    "targetFile": "fi_View104.ghuie",
+    "type": "Image",
+    "userDefined": false
+}

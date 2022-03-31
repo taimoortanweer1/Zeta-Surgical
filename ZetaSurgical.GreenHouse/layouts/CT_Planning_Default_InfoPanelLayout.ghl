@@ -109,13 +109,16 @@
                         "anchorValue": "Top"
                     },
                     "childrenSplit": true,
+                    "extraData": {
+                        "FIGMA_ID": "78:2594"
+                    },
                     "id": "fi_ModifyInstrumentDelegate",
                     "properties": {
                         "fi_Buttons_TextLeftAligned_fi_Default_Target_text": {
                             "bindingRole": "text",
                             "name": "fi_Buttons_TextLeftAligned_fi_Default_Target_text",
                             "type": "TranslatableString",
-                            "uuid": "{f28db01d-9b6f-4a49-a1e4-f035c59bfffc}",
+                            "uuid": "FigmaNode::I78:2594;321:3484;146:1678",
                             "value": "Default Target"
                         },
                         "fi_Buttons_TextLeftAligned_itemIndex": {

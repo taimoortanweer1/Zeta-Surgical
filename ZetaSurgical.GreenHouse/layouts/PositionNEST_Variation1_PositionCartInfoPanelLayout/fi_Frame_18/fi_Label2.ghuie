@@ -1,0 +1,62 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 104,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 540,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "40:2657"
+    },
+    "id": "fi_Label2",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 32
+        },
+        "horizontalCenterOffset": {
+            "name": "horizontalCenterOffset",
+            "type": "Int",
+            "value": 5
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/40_2657.png"
+        },
+        "verticalCenterOffset": {
+            "name": "verticalCenterOffset",
+            "type": "Int",
+            "value": 5
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 32
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 104
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 540
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 7
+        }
+    },
+    "targetFile": "fi_Label2.ghuie",
+    "type": "DecorativeSet.DecoratedItem",
+    "userDefined": false
+}

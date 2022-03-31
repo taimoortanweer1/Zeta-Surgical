@@ -1,0 +1,24 @@
+{
+    "children": [
+    ],
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA": "kKItBBA5TYuCVGxWbPVftH",
+        "orderValue": 1
+    },
+    "height": 0,
+    "posX": 0,
+    "posY": 0,
+    "properties": {
+        "EmptyState": true,
+        "childViewType": "ChildStateView",
+        "initial": true,
+        "name": "KeyboardLayerEmpty",
+        "parallel": false,
+        "parentingEnabled": true,
+        "preloadUI": false
+    },
+    "targetFile": "KeyboardLayerEmpty.ghs",
+    "template": "State",
+    "width": 0
+}

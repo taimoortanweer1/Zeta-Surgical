@@ -159,7 +159,7 @@
                                         "itemBound": true,
                                         "name": "font",
                                         "type": "Font",
-                                        "value": "Figma::Arial_ArialMT_30_50_2_0_0_0_-0.6"
+                                        "value": "Figma::Arial_ArialMT_30_50_0_0_0_0_-0.6"
                                     },
                                     "height": {
                                         "name": "height",
@@ -419,7 +419,7 @@
                             "font": {
                                 "name": "font",
                                 "type": "Font",
-                                "value": "Figma::Arial_ArialMT_30_50_2_0_0_0_-0.6"
+                                "value": "Figma::Arial_ArialMT_30_50_0_0_0_0_-0.6"
                             },
                             "height": {
                                 "name": "height",

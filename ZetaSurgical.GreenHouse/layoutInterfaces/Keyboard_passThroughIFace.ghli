@@ -1,0 +1,71 @@
+{
+    "base": "Displayable",
+    "name": "Keyboard_passThroughIFace",
+    "signals": {
+        "fi_CapsLock__onEvent__clicked": {
+            "name": "fi_CapsLock__onEvent__clicked"
+        },
+        "fi_Delete__onEvent__clicked": {
+            "name": "fi_Delete__onEvent__clicked"
+        },
+        "fi_Enter__onEvent__clicked": {
+            "name": "fi_Enter__onEvent__clicked"
+        },
+        "fi_KeyboardButton_Letter_Lowercase__onEvent__clicked": {
+            "arguments": [
+                {
+                    "name": "KeyboardPresenter_onCharacterButtonClicked_character",
+                    "preview": null,
+                    "type": "String"
+                }
+            ],
+            "name": "fi_KeyboardButton_Letter_Lowercase__onEvent__clicked"
+        },
+        "fi_Return__onEvent__clicked": {
+            "name": "fi_Return__onEvent__clicked"
+        },
+        "fi_Shift1__onEvent__clicked": {
+            "name": "fi_Shift1__onEvent__clicked"
+        },
+        "fi_Shift2__onEvent__clicked": {
+            "name": "fi_Shift2__onEvent__clicked"
+        },
+        "fi_SpaceBar__onEvent__clicked": {
+            "name": "fi_SpaceBar__onEvent__clicked"
+        },
+        "fi_Tab__onEvent__clicked": {
+            "name": "fi_Tab__onEvent__clicked"
+        },
+        "fi_row1_key2__onEvent__clicked": {
+            "arguments": [
+                {
+                    "name": "KeyboardPresenter_onCharacterButtonClicked_character",
+                    "preview": null,
+                    "type": "String"
+                }
+            ],
+            "name": "fi_row1_key2__onEvent__clicked"
+        },
+        "fi_row3_key1__onEvent__clicked": {
+            "arguments": [
+                {
+                    "name": "KeyboardPresenter_onCharacterButtonClicked_character",
+                    "preview": null,
+                    "type": "String"
+                }
+            ],
+            "name": "fi_row3_key1__onEvent__clicked"
+        },
+        "fi_row4_key1__onEvent__clicked": {
+            "arguments": [
+                {
+                    "name": "KeyboardPresenter_onCharacterButtonClicked_character",
+                    "preview": null,
+                    "type": "String"
+                }
+            ],
+            "name": "fi_row4_key1__onEvent__clicked"
+        }
+    },
+    "targetFile": "Keyboard_passThroughIFace.ghli"
+}

@@ -19,6 +19,11 @@
             "name": "y",
             "type": "Int",
             "value": 144
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
         }
     },
     "targetFile": "fi_MiddlePanel_Z_0.ghuie",

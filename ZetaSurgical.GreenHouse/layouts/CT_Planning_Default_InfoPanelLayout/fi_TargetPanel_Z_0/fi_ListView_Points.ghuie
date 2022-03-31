@@ -5,7 +5,7 @@
         "anchorValue": "Left"
     },
     "anchorRight": {
-        "anchorMargin": 72,
+        "anchorMargin": 48,
         "anchorTarget": "parent",
         "anchorValue": "Right"
     },
@@ -20,6 +20,11 @@
     },
     "id": "fi_ListView_Points",
     "properties": {
+        "delegateSpacing": {
+            "name": "delegateSpacing",
+            "type": "Int",
+            "value": 16
+        },
         "height": {
             "name": "height",
             "type": "Int",
@@ -40,7 +45,7 @@
         "width": {
             "name": "width",
             "type": "Int",
-            "value": 352
+            "value": 376
         },
         "x": {
             "name": "x",

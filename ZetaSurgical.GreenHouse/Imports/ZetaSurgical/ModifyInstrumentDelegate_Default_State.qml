@@ -84,6 +84,7 @@ Item {
     ZetaSurgicalSet.Buttons_TextLeftAligned {
         id: fi_Buttons_TextLeftAligned
         anchors.left: parent.left
+        anchors.right: parent.right
         anchors.top: parent.top
 
         onClicked: {

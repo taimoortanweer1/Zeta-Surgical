@@ -130,6 +130,10 @@
                             "anchorTarget": "parent",
                             "anchorValue": "Left"
                         },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
                         "anchorTop": {
                             "anchorTarget": "parent",
                             "anchorValue": "Top"

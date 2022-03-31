@@ -18,7 +18,7 @@ Item {
     property bool invalid_flag: false
     property int minimumRepeatInterval: 100
     property int repeateInterval: 1000
-    //FONT Figma::Arial_ArialMT_30_50_2_0_0_0_-0.6
+    //FONT Figma::Arial_ArialMT_30_50_0_0_0_0_-0.6
     property alias fi_Label_font: fi_Label___default.font
     //TEXTHAL 4
     property alias fi_Label_horizontalAlignment: fi_Label___default.horizontalAlignment
@@ -142,8 +142,8 @@ Item {
         anchors.bottom: parent.bottom
         z: 1
         height: 48
-        text: qsTr("Q", "FigmaNode::208:4911") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::208:4911") : "")
-        font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_30_50_2_0_0_0_-0.6")
+        text: qsTr("Q", "FigmaNode::370:6022") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::370:6022") : "")
+        font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_30_50_0_0_0_0_-0.6")
         textColor: GreenHouseThemeManager.theme.color("Dark Ink")
         horizontalAlignment: Text.AlignHCenter
         wrapMode: Text.WordWrap

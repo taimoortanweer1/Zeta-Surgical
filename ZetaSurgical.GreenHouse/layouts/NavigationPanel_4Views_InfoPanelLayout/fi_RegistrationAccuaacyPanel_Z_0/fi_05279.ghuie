@@ -1,0 +1,93 @@
+{
+    "anchorBottom": {
+        "anchorMargin": 175,
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorLeft": {
+        "anchorMargin": 31,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorRight": {
+        "anchorMargin": 31,
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "40:4098"
+    },
+    "id": "fi_05279",
+    "properties": {
+        "font": {
+            "name": "font",
+            "type": "Font",
+            "value": "Figma::Arial_BoldMT_42_75_0_0_0_0_0"
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 74
+        },
+        "horizontalAlignment": {
+            "name": "horizontalAlignment",
+            "type": "TextHorizontalAlignment",
+            "value": "AlignHCenter"
+        },
+        "lineHeight": {
+            "name": "lineHeight",
+            "type": "Float",
+            "value": 16
+        },
+        "lineHeightMode": {
+            "name": "lineHeightMode",
+            "type": "TextLineHeightMode",
+            "value": "FixedHeight"
+        },
+        "text": {
+            "name": "text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::40:4098",
+            "value": "0.5279"
+        },
+        "textColor": {
+            "name": "textColor",
+            "type": "Color",
+            "value": "Text/Blue 0 - Data"
+        },
+        "verticalAlignment": {
+            "name": "verticalAlignment",
+            "type": "TextVerticalAlignment",
+            "value": "AlignVCenter"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 394
+        },
+        "wrapMode": {
+            "name": "wrapMode",
+            "type": "TextWrapMode",
+            "value": "WordWrap"
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 31
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 63
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "targetFile": "fi_05279.ghuie",
+    "type": "ComponentsSet.Label",
+    "userDefined": false
+}

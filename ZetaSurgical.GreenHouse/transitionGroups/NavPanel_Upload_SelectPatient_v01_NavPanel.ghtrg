@@ -1,0 +1,18 @@
+{
+    "source": "NavPanel",
+    "target": "Upload_SelectPatient_v01_NavPanel",
+    "targetFile": "NavPanel_Upload_SelectPatient_v01_NavPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceNavPanelMoveToUpload_SelectPatient_v01_NavPanel"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

@@ -9,6 +9,9 @@
         "hideInfoPanel": {
             "name": "hideInfoPanel"
         },
+        "hideKeyboardLayer": {
+            "name": "hideKeyboardLayer"
+        },
         "hideLoginPanel": {
             "name": "hideLoginPanel"
         },
@@ -23,9 +26,6 @@
         },
         "hideNavPanel": {
             "name": "hideNavPanel"
-        },
-        "hideOverlayPanel": {
-            "name": "hideOverlayPanel"
         },
         "hidePopups": {
             "name": "hidePopups"
@@ -48,6 +48,9 @@
         "showInfoPanel": {
             "name": "showInfoPanel"
         },
+        "showKeyboardLayer": {
+            "name": "showKeyboardLayer"
+        },
         "showLoginPanel": {
             "name": "showLoginPanel"
         },
@@ -62,9 +65,6 @@
         },
         "showNavPanel": {
             "name": "showNavPanel"
-        },
-        "showOverlayPanel": {
-            "name": "showOverlayPanel"
         },
         "showPopups": {
             "name": "showPopups"
@@ -90,6 +90,9 @@
         "surfaceInfoPanelMoveToConfirmRegistrationPRE_Adjustment_Cut_InfoPanel": {
             "name": "surfaceInfoPanelMoveToConfirmRegistrationPRE_Adjustment_Cut_InfoPanel"
         },
+        "surfaceInfoPanelMoveToNavigationPanel_4Views_InfoPanel": {
+            "name": "surfaceInfoPanelMoveToNavigationPanel_4Views_InfoPanel"
+        },
         "surfaceInfoPanelMoveToSegmentation_Default_InfoPanel": {
             "name": "surfaceInfoPanelMoveToSegmentation_Default_InfoPanel"
         },
@@ -105,6 +108,12 @@
         "surfaceMainPanelMoveToConfirmRegistrationPRE_Adjustment_Cut_MainPanel": {
             "name": "surfaceMainPanelMoveToConfirmRegistrationPRE_Adjustment_Cut_MainPanel"
         },
+        "surfaceMainPanelMoveToNavigationPanel_4Views_MainPanel": {
+            "name": "surfaceMainPanelMoveToNavigationPanel_4Views_MainPanel"
+        },
+        "surfaceMainPanelMoveToNavigationPanel_6Views_MainPanel": {
+            "name": "surfaceMainPanelMoveToNavigationPanel_6Views_MainPanel"
+        },
         "surfaceMainPanelMoveToPositionNEST_Variation1_MainPanel": {
             "name": "surfaceMainPanelMoveToPositionNEST_Variation1_MainPanel"
         },
@@ -117,8 +126,8 @@
         "surfaceMainPanelMoveToUpload_SelectStudy_v01_MainPanel": {
             "name": "surfaceMainPanelMoveToUpload_SelectStudy_v01_MainPanel"
         },
-        "surfaceMainViewMoveToCT_Planning_Add_Tool_Overlay_MainView": {
-            "name": "surfaceMainViewMoveToCT_Planning_Add_Tool_Overlay_MainView"
+        "surfaceMainViewMoveToUpload_GenericModalOverlay_MainView": {
+            "name": "surfaceMainViewMoveToUpload_GenericModalOverlay_MainView"
         },
         "surfaceMenusBack": {
             "name": "surfaceMenusBack"
@@ -126,8 +135,8 @@
         "surfaceNavPanelMoveToNavPanel_Shared0": {
             "name": "surfaceNavPanelMoveToNavPanel_Shared0"
         },
-        "surfaceOverlayPanelMoveToUpload_GenericModalOverlay_OverlayPanel": {
-            "name": "surfaceOverlayPanelMoveToUpload_GenericModalOverlay_OverlayPanel"
+        "surfaceNavPanelMoveToUpload_SelectPatient_v01_NavPanel": {
+            "name": "surfaceNavPanelMoveToUpload_SelectPatient_v01_NavPanel"
         },
         "surfacePopupsMoveToEditPoint": {
             "name": "surfacePopupsMoveToEditPoint"
@@ -140,9 +149,6 @@
         },
         "surfaceScreensBack": {
             "name": "surfaceScreensBack"
-        },
-        "surfaceScreensMoveToCT_Planning_Add_Tool_Overlay_ScreenState": {
-            "name": "surfaceScreensMoveToCT_Planning_Add_Tool_Overlay_ScreenState"
         },
         "surfaceScreensMoveToCT_Planning_Default_ScreenState": {
             "name": "surfaceScreensMoveToCT_Planning_Default_ScreenState"

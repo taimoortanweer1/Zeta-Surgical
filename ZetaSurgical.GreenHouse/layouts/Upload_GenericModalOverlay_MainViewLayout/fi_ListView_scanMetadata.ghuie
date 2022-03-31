@@ -1,0 +1,42 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "364:2875"
+    },
+    "id": "fi_ListView_scanMetadata",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 816
+        },
+        "viewDelegate": {
+            "name": "viewDelegate",
+            "type": "Delegate",
+            "value": "fi_ListView_scanMetadata_delegate"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 800
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 560
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 132
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 3
+        }
+    },
+    "targetFile": "fi_ListView_scanMetadata.ghuie",
+    "type": "ComponentsSet.ModelView",
+    "userDefined": false
+}

@@ -1,0 +1,37 @@
+{
+    "anchorBottom": {
+        "anchorMargin": 50,
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorHCenter": {
+        "anchorMargin": 122,
+        "anchorTarget": "parent",
+        "anchorValue": "HorizontalCenter"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "366:3543"
+    },
+    "id": "fi_EastButton",
+    "properties": {
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 302
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 194
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "targetFile": "fi_EastButton.ghuie",
+    "type": "ZetaSurgicalSet.EastButton_Default_State",
+    "userDefined": false
+}

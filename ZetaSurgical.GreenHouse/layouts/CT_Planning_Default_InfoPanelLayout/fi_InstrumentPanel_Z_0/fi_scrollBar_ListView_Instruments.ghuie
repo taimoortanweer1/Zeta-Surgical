@@ -4,7 +4,7 @@
         "anchorValue": "Bottom"
     },
     "anchorRight": {
-        "anchorMargin": -72,
+        "anchorMargin": -24,
         "anchorTarget": "fi_ListView_Instruments",
         "anchorValue": "Right"
     },
@@ -15,6 +15,11 @@
     "childrenSplit": true,
     "id": "fi_scrollBar_ListView_Instruments",
     "properties": {
+        "background": {
+            "name": "background",
+            "type": "Asset",
+            "value": "/11_1176.png"
+        },
         "flickable": {
             "name": "flickable",
             "type": "ItemRef",
@@ -25,10 +30,35 @@
             "type": "Int",
             "value": 200
         },
+        "indicator": {
+            "name": "indicator",
+            "type": "Asset",
+            "value": "/11_1177.png"
+        },
+        "indicatorBottomBorder": {
+            "name": "indicatorBottomBorder",
+            "type": "Int",
+            "value": 11
+        },
+        "indicatorLeftBorder": {
+            "name": "indicatorLeftBorder",
+            "type": "Int",
+            "value": 11
+        },
+        "indicatorRightBorder": {
+            "name": "indicatorRightBorder",
+            "type": "Int",
+            "value": 11
+        },
+        "indicatorTopBorder": {
+            "name": "indicatorTopBorder",
+            "type": "Int",
+            "value": 11
+        },
         "width": {
             "name": "width",
             "type": "Int",
-            "value": 72
+            "value": 24
         },
         "z": {
             "name": "z",

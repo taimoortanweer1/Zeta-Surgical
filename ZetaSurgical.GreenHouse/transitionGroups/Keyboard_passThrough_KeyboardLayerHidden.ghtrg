@@ -1,0 +1,19 @@
+{
+    "source": "Keyboard_passThrough",
+    "target": "KeyboardLayerHidden",
+    "targetFile": "Keyboard_passThrough_KeyboardLayerHidden.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": false,
+                "sender": "PopupsPresenter",
+                "senderStringType": "%1",
+                "signal": "closeAllPopups"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{dfa3112d-9330-4a76-8c72-8416c541ec74}"
+}

@@ -238,5 +238,37 @@
         "styleName": "ArialMT",
         "underline": false,
         "weight": 50
+    },
+    {
+        "bold": true,
+        "capitalization": 0,
+        "cssWeight": 700,
+        "family": "Arial",
+        "file": "",
+        "italic": false,
+        "letterSpacing": 0,
+        "name": "Figma::Arial_BoldMT_42_75_0_0_0_0_0",
+        "pixelSize": 42,
+        "stretch": 0,
+        "strikeOut": false,
+        "styleName": "BoldMT",
+        "underline": false,
+        "weight": 75
+    },
+    {
+        "bold": true,
+        "capitalization": 0,
+        "cssWeight": 700,
+        "family": "Arial",
+        "file": "",
+        "italic": false,
+        "letterSpacing": 0,
+        "name": "Figma::Arial_BoldMT_30_75_0_0_0_0_0",
+        "pixelSize": 30,
+        "stretch": 0,
+        "strikeOut": false,
+        "styleName": "BoldMT",
+        "underline": false,
+        "weight": 75
     }
 ]

@@ -1,0 +1,410 @@
+{
+    "aliasList": {
+        "fi_Label___default": [
+            {
+                "aliasElement": "font",
+                "aliasName": "fi_Label_font",
+                "aliasSource": "fi_Label___default"
+            },
+            {
+                "aliasElement": "horizontalAlignment",
+                "aliasName": "fi_Label_horizontalAlignment",
+                "aliasSource": "fi_Label___default"
+            },
+            {
+                "aliasElement": "lineHeight",
+                "aliasName": "fi_Label_lineHeight",
+                "aliasSource": "fi_Label___default"
+            },
+            {
+                "aliasElement": "lineHeightMode",
+                "aliasName": "fi_Label_lineHeightMode",
+                "aliasSource": "fi_Label___default"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "fi_Label_opacity",
+                "aliasSource": "fi_Label___default"
+            },
+            {
+                "aliasElement": "richText",
+                "aliasName": "fi_Label_richText",
+                "aliasSource": "fi_Label___default"
+            },
+            {
+                "aliasElement": "text",
+                "aliasName": "fi_Label_text",
+                "aliasSource": "fi_Label___default"
+            },
+            {
+                "aliasElement": "verticalAlignment",
+                "aliasName": "fi_Label_verticalAlignment",
+                "aliasSource": "fi_Label___default"
+            }
+        ]
+    },
+    "componentLayout": {
+        "blockInputFallthrough": true,
+        "children": [
+            {
+                "children": [
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "__mouseArea",
+                        "properties": {
+                            "doubleClickEnabeld": {
+                                "bindingProp": "doubleClickEnabeld",
+                                "bindingSrc": "root",
+                                "itemBound": true,
+                                "name": "doubleClickEnabeld",
+                                "type": "Bool",
+                                "value": false
+                            },
+                            "minimumRepeatInterval": {
+                                "bindingProp": "minimumRepeatInterval",
+                                "bindingSrc": "root",
+                                "itemBound": true,
+                                "name": "minimumRepeatInterval",
+                                "type": "Int",
+                                "value": 100
+                            },
+                            "repeateInterval": {
+                                "bindingProp": "repeateInterval",
+                                "bindingSrc": "root",
+                                "itemBound": true,
+                                "name": "repeateInterval",
+                                "type": "Int",
+                                "value": 1000
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": -1
+                            }
+                        },
+                        "targetFile": "__mouseArea.ghuie",
+                        "type": "ComponentsSet.AutoRepeatMouseArea",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Background_9seg_24_24_24_24___default",
+                        "properties": {
+                            "border-bottom": {
+                                "name": "border-bottom",
+                                "type": "Int",
+                                "value": 23
+                            },
+                            "border-left": {
+                                "name": "border-left",
+                                "type": "Int",
+                                "value": 23
+                            },
+                            "border-right": {
+                                "name": "border-right",
+                                "type": "Int",
+                                "value": 23
+                            },
+                            "border-top": {
+                                "name": "border-top",
+                                "type": "Int",
+                                "value": 23
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 48
+                            },
+                            "source": {
+                                "name": "source",
+                                "type": "Asset",
+                                "value": "/367_3607.png"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 327
+                            }
+                        },
+                        "targetFile": "fi_Background_9seg_24_24_24_24___default.ghuie",
+                        "type": "BorderImage",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorLeft": {
+                            "anchorMargin": -94,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorMargin": -93,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorVCenter": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "VerticalCenter"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Label___default",
+                        "properties": {
+                            "font": {
+                                "name": "font",
+                                "type": "Font",
+                                "value": "Figma::Arial_ArialMT_24_50_0_0_0_0_0.2"
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 26
+                            },
+                            "horizontalAlignment": {
+                                "name": "horizontalAlignment",
+                                "type": "TextHorizontalAlignment",
+                                "value": "AlignHCenter"
+                            },
+                            "lineHeight": {
+                                "name": "lineHeight",
+                                "type": "Float",
+                                "value": 20
+                            },
+                            "lineHeightMode": {
+                                "name": "lineHeightMode",
+                                "type": "TextLineHeightMode",
+                                "value": "FixedHeight"
+                            },
+                            "text": {
+                                "name": "text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::367:3608",
+                                "value": "BUTTON TEXT"
+                            },
+                            "textColor": {
+                                "name": "textColor",
+                                "type": "Color",
+                                "value": "Text/Grey 1 - Inactive"
+                            },
+                            "verticalAlignment": {
+                                "name": "verticalAlignment",
+                                "type": "TextVerticalAlignment",
+                                "value": "AlignVCenter"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 514
+                            },
+                            "wrapMode": {
+                                "name": "wrapMode",
+                                "type": "TextWrapMode",
+                                "value": "WordWrap"
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": -94
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 11
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 1
+                            }
+                        },
+                        "targetFile": "fi_Label___default.ghuie",
+                        "type": "ComponentsSet.Label",
+                        "userDefined": false
+                    }
+                ],
+                "childrenSplit": true,
+                "id": "root",
+                "properties": {
+                    "height": {
+                        "name": "height",
+                        "type": "Int",
+                        "value": 48
+                    },
+                    "width": {
+                        "name": "width",
+                        "type": "Int",
+                        "value": 327
+                    }
+                },
+                "targetFile": "root.ghuie",
+                "type": "Item",
+                "userDefined": false
+            }
+        ],
+        "childrenSplit": true,
+        "fillParent": false,
+        "height": 48,
+        "hideAnimation": {
+            "type": "Sequential"
+        },
+        "interfaceName": "",
+        "name": "___TEMP_LAYOUT___ZetaSurgicalSet.Buttons_RegularSmaller",
+        "posX": 0,
+        "posY": 0,
+        "rootContainerType": "Item",
+        "showAnimation": {
+            "type": "Sequential"
+        },
+        "targetFile": "___TEMP_LAYOUT___ZetaSurgicalSet.Buttons_RegularSmaller.ghl",
+        "width": 327
+    },
+    "componentName": "ZetaSurgicalSet.Buttons_RegularSmaller",
+    "properties": [
+        {
+            "name": "repeateInterval",
+            "type": "Int",
+            "value": 1000
+        },
+        {
+            "name": "minimumRepeatInterval",
+            "type": "Int",
+            "value": 100
+        },
+        {
+            "name": "doubleClickEnabeld",
+            "type": "Bool",
+            "value": false
+        },
+        {
+            "name": "selectionIndex",
+            "type": "Int",
+            "value": -1
+        },
+        {
+            "name": "itemIndex",
+            "type": "Int",
+            "value": 0
+        }
+    ],
+    "signalList": {
+        "__mouseArea": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "clicked",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "doubleClicked",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "pressed",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "released",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "repeatingTriggered",
+                "aliasSource": "__mouseArea"
+            }
+        ]
+    },
+    "states": {
+        "__main_state_group": {
+            "default": {
+                "group": "",
+                "name": "default",
+                "propertyChanges": [
+                    {
+                        "name": "source",
+                        "propertyChangeTarget": "fi_Background_9seg_24_24_24_24___default",
+                        "type": "Asset",
+                        "value": "/367_3607.png"
+                    },
+                    {
+                        "name": "textColor",
+                        "propertyChangeTarget": "fi_Label___default",
+                        "type": "Color",
+                        "value": "Text/Grey 1 - Inactive"
+                    }
+                ],
+                "when": "!__mouseArea.pressed && !(root.selectionIndex == root.itemIndex)"
+            },
+            "pressed": {
+                "group": "",
+                "name": "pressed",
+                "propertyChanges": [
+                    {
+                        "name": "source",
+                        "propertyChangeTarget": "fi_Background_9seg_24_24_24_24___default",
+                        "type": "Asset",
+                        "value": "/367_3604.png"
+                    },
+                    {
+                        "name": "textColor",
+                        "propertyChangeTarget": "fi_Label___default",
+                        "type": "Color",
+                        "value": "Text/White"
+                    }
+                ],
+                "when": "__mouseArea.pressed && !(root.selectionIndex == root.itemIndex)"
+            },
+            "selected": {
+                "group": "",
+                "name": "selected",
+                "propertyChanges": [
+                    {
+                        "name": "source",
+                        "propertyChangeTarget": "fi_Background_9seg_24_24_24_24___default",
+                        "type": "Asset",
+                        "value": "/367_3610.png"
+                    },
+                    {
+                        "name": "textColor",
+                        "propertyChangeTarget": "fi_Label___default",
+                        "type": "Color",
+                        "value": "Text/White"
+                    }
+                ],
+                "when": "!__mouseArea.pressed && (root.selectionIndex == root.itemIndex)"
+            }
+        }
+    },
+    "targetFile": "Buttons_RegularSmaller.ghcomp"
+}

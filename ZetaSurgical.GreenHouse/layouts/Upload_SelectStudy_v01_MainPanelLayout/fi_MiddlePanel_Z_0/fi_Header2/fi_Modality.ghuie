@@ -1,0 +1,36 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 576,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "365:3222"
+    },
+    "id": "fi_Modality",
+    "properties": {
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 159
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 576
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 3
+        }
+    },
+    "targetFile": "fi_Modality.ghuie",
+    "type": "ZetaSurgicalSet.Buttons_LVHeader_Default_State",
+    "userDefined": false
+}

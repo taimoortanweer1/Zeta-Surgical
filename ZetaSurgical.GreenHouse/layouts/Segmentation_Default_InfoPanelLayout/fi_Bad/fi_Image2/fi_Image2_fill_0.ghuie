@@ -1,0 +1,30 @@
+{
+    "anchorBottom": {
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorLeft": {
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorRight": {
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "anchorTop": {
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "id": "fi_Image2_fill_0",
+    "properties": {
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/9717fa8fbd6f5effcef61a9c662324d24d6bbc2e.png"
+        }
+    },
+    "targetFile": "fi_Image2_fill_0.ghuie",
+    "type": "Image",
+    "userDefined": false
+}

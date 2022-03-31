@@ -1,0 +1,477 @@
+{
+    "aliasList": {
+        "fi_Background": [
+            {
+                "aliasElement": "progressValue",
+                "aliasName": "fi_Background_progressValue",
+                "aliasSource": "fi_Background"
+            }
+        ],
+        "fi_Value2": [
+            {
+                "aliasElement": "repeateInterval",
+                "aliasName": "fi_Value2_repeateInterval",
+                "aliasSource": "fi_Value2"
+            },
+            {
+                "aliasElement": "minimumRepeatInterval",
+                "aliasName": "fi_Value2_minimumRepeatInterval",
+                "aliasSource": "fi_Value2"
+            },
+            {
+                "aliasElement": "doubleClickEnabeld",
+                "aliasName": "fi_Value2_doubleClickEnabeld",
+                "aliasSource": "fi_Value2"
+            },
+            {
+                "aliasElement": "fi_Text_labelColor",
+                "aliasName": "fi_Value2_fi_Text_labelColor",
+                "aliasSource": "fi_Value2"
+            },
+            {
+                "aliasElement": "fi_Text_text",
+                "aliasName": "fi_Value2_fi_Text_text",
+                "aliasSource": "fi_Value2"
+            },
+            {
+                "aliasElement": "fi_Text_verticalAlignment",
+                "aliasName": "fi_Value2_fi_Text_verticalAlignment",
+                "aliasSource": "fi_Value2"
+            },
+            {
+                "aliasElement": "fi_Text_horizontalAlignment",
+                "aliasName": "fi_Value2_fi_Text_horizontalAlignment",
+                "aliasSource": "fi_Value2"
+            },
+            {
+                "aliasElement": "fi_Text_lineHeight",
+                "aliasName": "fi_Value2_fi_Text_lineHeight",
+                "aliasSource": "fi_Value2"
+            },
+            {
+                "aliasElement": "fi_Text_lineHeightMode",
+                "aliasName": "fi_Value2_fi_Text_lineHeightMode",
+                "aliasSource": "fi_Value2"
+            },
+            {
+                "aliasElement": "fi_Text_richText",
+                "aliasName": "fi_Value2_fi_Text_richText",
+                "aliasSource": "fi_Value2"
+            },
+            {
+                "aliasElement": "fi_Text_opacity",
+                "aliasName": "fi_Value2_fi_Text_opacity",
+                "aliasSource": "fi_Value2"
+            },
+            {
+                "aliasElement": "fi_Text_font",
+                "aliasName": "fi_Value2_fi_Text_font",
+                "aliasSource": "fi_Value2"
+            },
+            {
+                "aliasElement": "enabled",
+                "aliasName": "fi_Value2_enabled",
+                "aliasSource": "fi_Value2"
+            }
+        ],
+        "fi__Value1": [
+            {
+                "aliasElement": "repeateInterval",
+                "aliasName": "fi__Value1_repeateInterval",
+                "aliasSource": "fi__Value1"
+            },
+            {
+                "aliasElement": "minimumRepeatInterval",
+                "aliasName": "fi__Value1_minimumRepeatInterval",
+                "aliasSource": "fi__Value1"
+            },
+            {
+                "aliasElement": "doubleClickEnabeld",
+                "aliasName": "fi__Value1_doubleClickEnabeld",
+                "aliasSource": "fi__Value1"
+            },
+            {
+                "aliasElement": "fi_Text_labelColor",
+                "aliasName": "fi__Value1_fi_Text_labelColor",
+                "aliasSource": "fi__Value1"
+            },
+            {
+                "aliasElement": "fi_Text_text",
+                "aliasName": "fi__Value1_fi_Text_text",
+                "aliasSource": "fi__Value1"
+            },
+            {
+                "aliasElement": "fi_Text_verticalAlignment",
+                "aliasName": "fi__Value1_fi_Text_verticalAlignment",
+                "aliasSource": "fi__Value1"
+            },
+            {
+                "aliasElement": "fi_Text_horizontalAlignment",
+                "aliasName": "fi__Value1_fi_Text_horizontalAlignment",
+                "aliasSource": "fi__Value1"
+            },
+            {
+                "aliasElement": "fi_Text_lineHeight",
+                "aliasName": "fi__Value1_fi_Text_lineHeight",
+                "aliasSource": "fi__Value1"
+            },
+            {
+                "aliasElement": "fi_Text_lineHeightMode",
+                "aliasName": "fi__Value1_fi_Text_lineHeightMode",
+                "aliasSource": "fi__Value1"
+            },
+            {
+                "aliasElement": "fi_Text_richText",
+                "aliasName": "fi__Value1_fi_Text_richText",
+                "aliasSource": "fi__Value1"
+            },
+            {
+                "aliasElement": "fi_Text_opacity",
+                "aliasName": "fi__Value1_fi_Text_opacity",
+                "aliasSource": "fi__Value1"
+            },
+            {
+                "aliasElement": "fi_Text_font",
+                "aliasName": "fi__Value1_fi_Text_font",
+                "aliasSource": "fi__Value1"
+            },
+            {
+                "aliasElement": "enabled",
+                "aliasName": "fi__Value1_enabled",
+                "aliasSource": "fi__Value1"
+            }
+        ],
+        "fi__Value3": [
+            {
+                "aliasElement": "repeateInterval",
+                "aliasName": "fi__Value3_repeateInterval",
+                "aliasSource": "fi__Value3"
+            },
+            {
+                "aliasElement": "minimumRepeatInterval",
+                "aliasName": "fi__Value3_minimumRepeatInterval",
+                "aliasSource": "fi__Value3"
+            },
+            {
+                "aliasElement": "doubleClickEnabeld",
+                "aliasName": "fi__Value3_doubleClickEnabeld",
+                "aliasSource": "fi__Value3"
+            },
+            {
+                "aliasElement": "fi_Text_labelColor",
+                "aliasName": "fi__Value3_fi_Text_labelColor",
+                "aliasSource": "fi__Value3"
+            },
+            {
+                "aliasElement": "fi_Text_text",
+                "aliasName": "fi__Value3_fi_Text_text",
+                "aliasSource": "fi__Value3"
+            },
+            {
+                "aliasElement": "fi_Text_verticalAlignment",
+                "aliasName": "fi__Value3_fi_Text_verticalAlignment",
+                "aliasSource": "fi__Value3"
+            },
+            {
+                "aliasElement": "fi_Text_horizontalAlignment",
+                "aliasName": "fi__Value3_fi_Text_horizontalAlignment",
+                "aliasSource": "fi__Value3"
+            },
+            {
+                "aliasElement": "fi_Text_lineHeight",
+                "aliasName": "fi__Value3_fi_Text_lineHeight",
+                "aliasSource": "fi__Value3"
+            },
+            {
+                "aliasElement": "fi_Text_lineHeightMode",
+                "aliasName": "fi__Value3_fi_Text_lineHeightMode",
+                "aliasSource": "fi__Value3"
+            },
+            {
+                "aliasElement": "fi_Text_richText",
+                "aliasName": "fi__Value3_fi_Text_richText",
+                "aliasSource": "fi__Value3"
+            },
+            {
+                "aliasElement": "fi_Text_opacity",
+                "aliasName": "fi__Value3_fi_Text_opacity",
+                "aliasSource": "fi__Value3"
+            },
+            {
+                "aliasElement": "fi_Text_font",
+                "aliasName": "fi__Value3_fi_Text_font",
+                "aliasSource": "fi__Value3"
+            },
+            {
+                "aliasElement": "enabled",
+                "aliasName": "fi__Value3_enabled",
+                "aliasSource": "fi__Value3"
+            }
+        ]
+    },
+    "componentLayout": {
+        "blockInputFallthrough": true,
+        "children": [
+            {
+                "children": [
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Background",
+                        "properties": {
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": -1
+                            }
+                        },
+                        "targetFile": "fi_Background.ghuie",
+                        "type": "ZetaSurgicalSet.ProgressIndicator_Triple",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorMargin": 272,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi__Value1",
+                        "properties": {
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 1
+                            }
+                        },
+                        "targetFile": "fi__Value1.ghuie",
+                        "type": "ZetaSurgicalSet.Buttons_TextOnly_Default_State",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorMargin": 136,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorMargin": 136,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Value2",
+                        "properties": {
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 136
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 2
+                            }
+                        },
+                        "targetFile": "fi_Value2.ghuie",
+                        "type": "ZetaSurgicalSet.Buttons_TextOnly_Default_State",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorMargin": 272,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi__Value3",
+                        "properties": {
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 272
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 3
+                            }
+                        },
+                        "targetFile": "fi__Value3.ghuie",
+                        "type": "ZetaSurgicalSet.Buttons_TextOnly_Default_State",
+                        "userDefined": false
+                    }
+                ],
+                "childrenSplit": true,
+                "id": "root",
+                "properties": {
+                    "height": {
+                        "name": "height",
+                        "type": "Int",
+                        "value": 80
+                    },
+                    "width": {
+                        "name": "width",
+                        "type": "Int",
+                        "value": 408
+                    }
+                },
+                "targetFile": "root.ghuie",
+                "type": "Item",
+                "userDefined": false
+            }
+        ],
+        "childrenSplit": true,
+        "fillParent": false,
+        "height": 80,
+        "hideAnimation": {
+            "type": "Sequential"
+        },
+        "interfaceName": "",
+        "name": "___TEMP_LAYOUT___ZetaSurgicalSet.TripleValue",
+        "posX": 0,
+        "posY": 0,
+        "rootContainerType": "Item",
+        "showAnimation": {
+            "type": "Sequential"
+        },
+        "targetFile": "___TEMP_LAYOUT___ZetaSurgicalSet.TripleValue.ghl",
+        "width": 408
+    },
+    "componentName": "ZetaSurgicalSet.TripleValue",
+    "properties": [
+    ],
+    "signalList": {
+        "fi_Value2": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "fi_Value2_clicked",
+                "aliasSource": "fi_Value2"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "fi_Value2_doubleClicked",
+                "aliasSource": "fi_Value2"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "fi_Value2_pressed",
+                "aliasSource": "fi_Value2"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "fi_Value2_released",
+                "aliasSource": "fi_Value2"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "fi_Value2_repeatingTriggered",
+                "aliasSource": "fi_Value2"
+            }
+        ],
+        "fi__Value1": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "fi__Value1_clicked",
+                "aliasSource": "fi__Value1"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "fi__Value1_doubleClicked",
+                "aliasSource": "fi__Value1"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "fi__Value1_pressed",
+                "aliasSource": "fi__Value1"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "fi__Value1_released",
+                "aliasSource": "fi__Value1"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "fi__Value1_repeatingTriggered",
+                "aliasSource": "fi__Value1"
+            }
+        ],
+        "fi__Value3": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "fi__Value3_clicked",
+                "aliasSource": "fi__Value3"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "fi__Value3_doubleClicked",
+                "aliasSource": "fi__Value3"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "fi__Value3_pressed",
+                "aliasSource": "fi__Value3"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "fi__Value3_released",
+                "aliasSource": "fi__Value3"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "fi__Value3_repeatingTriggered",
+                "aliasSource": "fi__Value3"
+            }
+        ]
+    },
+    "states": {
+    },
+    "targetFile": "TripleValue.ghcomp"
+}

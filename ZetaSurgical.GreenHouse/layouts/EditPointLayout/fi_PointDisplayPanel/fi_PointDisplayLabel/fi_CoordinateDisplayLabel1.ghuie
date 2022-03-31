@@ -1,0 +1,41 @@
+{
+    "anchorHCenter": {
+        "anchorTarget": "parent",
+        "anchorValue": "HorizontalCenter"
+    },
+    "anchorVCenter": {
+        "anchorMargin": -26,
+        "anchorTarget": "parent",
+        "anchorValue": "VerticalCenter"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "I366:3546;174:2740"
+    },
+    "id": "fi_CoordinateDisplayLabel1",
+    "properties": {
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 100
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 48
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 52
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 4
+        }
+    },
+    "targetFile": "fi_CoordinateDisplayLabel1.ghuie",
+    "type": "ZetaSurgicalSet.CoordinateDisplayLabel",
+    "userDefined": false
+}

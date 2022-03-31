@@ -81,7 +81,7 @@ Item {
         }
     }
     BorderImage {
-        id: fi_Button_1___default
+        id: fi_Background_9seg_40_40_40_40___default
         anchors.left: parent.left
         anchors.right: parent.right
         anchors.top: parent.top
@@ -120,11 +120,7 @@ Item {
             when: root.enabled && !__mouseArea.pressed && !(root.selectionIndex == root.itemIndex)
             name: "default"
             PropertyChanges {
-                target: fi_Button_1___default
-                border.bottom: 39
-                border.left: 39
-                border.right: 39
-                border.top: 39
+                target: fi_Background_9seg_40_40_40_40___default
                 source: GreenHouseThemeManager.theme.asset("/7_1251.png")
             }
             PropertyChanges {
@@ -136,7 +132,7 @@ Item {
             when: !root.enabled && !__mouseArea.pressed
             name: "disabled"
             PropertyChanges {
-                target: fi_Button_1___default
+                target: fi_Background_9seg_40_40_40_40___default
                 source: GreenHouseThemeManager.theme.asset("/11_1302.png")
             }
             PropertyChanges {
@@ -148,11 +144,7 @@ Item {
             when: root.enabled && __mouseArea.pressed && !(root.selectionIndex == root.itemIndex)
             name: "pressed"
             PropertyChanges {
-                target: fi_Button_1___default
-                border.bottom: 14
-                border.left: 14
-                border.right: 14
-                border.top: 14
+                target: fi_Background_9seg_40_40_40_40___default
                 source: GreenHouseThemeManager.theme.asset("/22_2467.png")
             }
         },
@@ -160,7 +152,7 @@ Item {
             when: root.enabled && !__mouseArea.pressed && (root.selectionIndex == root.itemIndex)
             name: "selected"
             PropertyChanges {
-                target: fi_Button_1___default
+                target: fi_Background_9seg_40_40_40_40___default
                 source: GreenHouseThemeManager.theme.asset("/11_1305.png")
             }
         }

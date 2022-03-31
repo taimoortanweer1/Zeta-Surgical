@@ -13,7 +13,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 5
+            "value": 6
         }
     },
     "targetFile": "fi_closeWindow.ghuie",

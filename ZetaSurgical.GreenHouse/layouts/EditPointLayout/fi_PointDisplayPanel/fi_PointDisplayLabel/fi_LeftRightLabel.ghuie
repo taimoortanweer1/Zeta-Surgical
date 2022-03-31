@@ -1,0 +1,88 @@
+{
+    "anchorHCenter": {
+        "anchorMargin": 2,
+        "anchorTarget": "parent",
+        "anchorValue": "HorizontalCenter"
+    },
+    "anchorVCenter": {
+        "anchorMargin": 14,
+        "anchorTarget": "parent",
+        "anchorValue": "VerticalCenter"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "I366:3546;174:2727"
+    },
+    "id": "fi_LeftRightLabel",
+    "properties": {
+        "font": {
+            "name": "font",
+            "type": "Font",
+            "value": "Figma::Arial_ArialMT_18_50_0_0_0_0_0.2"
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 26
+        },
+        "horizontalAlignment": {
+            "name": "horizontalAlignment",
+            "type": "TextHorizontalAlignment",
+            "value": "AlignHCenter"
+        },
+        "lineHeight": {
+            "name": "lineHeight",
+            "type": "Float",
+            "value": 20
+        },
+        "lineHeightMode": {
+            "name": "lineHeightMode",
+            "type": "TextLineHeightMode",
+            "value": "FixedHeight"
+        },
+        "text": {
+            "name": "text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I366:3546;174:2727",
+            "value": "L-R"
+        },
+        "textColor": {
+            "name": "textColor",
+            "type": "Color",
+            "value": "Dark Ink"
+        },
+        "verticalAlignment": {
+            "name": "verticalAlignment",
+            "type": "TextVerticalAlignment",
+            "value": "AlignVCenter"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 34
+        },
+        "wrapMode": {
+            "name": "wrapMode",
+            "type": "TextWrapMode",
+            "value": "WordWrap"
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 83
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 99
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "targetFile": "fi_LeftRightLabel.ghuie",
+    "type": "ComponentsSet.Label",
+    "userDefined": false
+}

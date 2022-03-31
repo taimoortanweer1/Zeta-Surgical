@@ -1,0 +1,36 @@
+{
+    "anchorBottom": {
+        "anchorMargin": 244,
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorHCenter": {
+        "anchorTarget": "parent",
+        "anchorValue": "HorizontalCenter"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "366:3542"
+    },
+    "id": "fi_NorthButton",
+    "properties": {
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 108
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 144
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "targetFile": "fi_NorthButton.ghuie",
+    "type": "ZetaSurgicalSet.NorthButton_Default_State",
+    "userDefined": false
+}

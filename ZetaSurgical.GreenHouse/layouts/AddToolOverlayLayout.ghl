@@ -1,0 +1,82 @@
+{
+    "blockInputFallthrough": true,
+    "childrenSplit": true,
+    "delegates": [
+        {
+            "children": [
+                {
+                    "anchorLeft": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Left"
+                    },
+                    "anchorRight": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Right"
+                    },
+                    "anchorTop": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Top"
+                    },
+                    "childrenSplit": true,
+                    "extraData": {
+                        "FIGMA_ID": "46:2471"
+                    },
+                    "id": "fi_tool1Button",
+                    "properties": {
+                        "fi_EXAMPLE_text": {
+                            "name": "fi_EXAMPLE_text",
+                            "type": "TranslatableString",
+                            "uuid": "FigmaNode::I46:2471;7:1252",
+                            "value": "Tool 1"
+                        },
+                        "width": {
+                            "name": "width",
+                            "type": "Int",
+                            "value": 392
+                        }
+                    },
+                    "targetFile": "fi_tool1Button.ghuie",
+                    "type": "ZetaSurgicalSet.SelectButton",
+                    "userDefined": false
+                }
+            ],
+            "childrenSplit": true,
+            "id": "fi_ListView_ToolSelect_delegate",
+            "model": {
+                "name": "modelProperty",
+                "type": "Model",
+                "value": null
+            },
+            "properties": {
+                "height": {
+                    "name": "height",
+                    "type": "Int",
+                    "value": 80
+                },
+                "width": {
+                    "name": "width",
+                    "type": "Int",
+                    "value": 392
+                }
+            },
+            "targetFile": "fi_ListView_ToolSelect_delegate.ghuie",
+            "type": "FocusScope",
+            "userDefined": false
+        }
+    ],
+    "fillParent": false,
+    "height": 1080,
+    "hideAnimation": {
+        "type": "Sequential"
+    },
+    "interfaceName": "AddToolOverlayIFace",
+    "name": "AddToolOverlayLayout",
+    "posX": 0,
+    "posY": 0,
+    "rootContainerType": "Item",
+    "showAnimation": {
+        "type": "Sequential"
+    },
+    "targetFile": "AddToolOverlayLayout.ghl",
+    "width": 1920
+}

@@ -1,0 +1,72 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 32,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 176,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "83:2366"
+    },
+    "id": "fi_Data1",
+    "properties": {
+        "border-bottom": {
+            "name": "border-bottom",
+            "type": "Int",
+            "value": 10
+        },
+        "border-left": {
+            "name": "border-left",
+            "type": "Int",
+            "value": 10
+        },
+        "border-right": {
+            "name": "border-right",
+            "type": "Int",
+            "value": 10
+        },
+        "border-top": {
+            "name": "border-top",
+            "type": "Int",
+            "value": 10
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 112
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/83_2366.png"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 192
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 32
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 176
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 6
+        }
+    },
+    "targetFile": "fi_Data1.ghuie",
+    "type": "BorderImage",
+    "userDefined": false
+}

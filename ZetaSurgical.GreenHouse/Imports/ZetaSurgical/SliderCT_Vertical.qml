@@ -32,7 +32,7 @@ Item {
     //----------------------------------------------------------------------------------------------
 
     //Local bindings--------------------------------------------------------------------------------
-    width: 40
+    width: 8
     height: 176
 
     //----------------------------------------------------------------------------------------------
@@ -41,18 +41,16 @@ Item {
     ComponentsSet.SliderItem {
         id: sliderItem
         anchors.left: parent.left
-        anchors.leftMargin: 8
         anchors.right: parent.right
-        anchors.rightMargin: -8
         anchors.top: parent.top
         anchors.bottom: parent.bottom
         backgroundSource: GreenHouseThemeManager.theme.asset("/78_2138.png")
-        bottomBackgroundAssetBorder: 19
+        bottomBackgroundAssetBorder: 3
         fillMargin: 3
         knobSource: GreenHouseThemeManager.theme.asset("/78_2139.png")
-        leftBackgroundAssetBorder: 19
-        rightBackgroundAssetBorder: 19
-        topBackgroundAssetBorder: 19
+        leftBackgroundAssetBorder: 3
+        rightBackgroundAssetBorder: 3
+        topBackgroundAssetBorder: 3
 
         onValueChangeRequested: {
             root.sliderItem_valueChangeRequested(value);

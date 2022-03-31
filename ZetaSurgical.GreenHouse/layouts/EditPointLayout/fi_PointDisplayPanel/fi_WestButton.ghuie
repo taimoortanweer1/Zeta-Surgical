@@ -1,0 +1,37 @@
+{
+    "anchorBottom": {
+        "anchorMargin": 50,
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorHCenter": {
+        "anchorMargin": -122,
+        "anchorTarget": "parent",
+        "anchorValue": "HorizontalCenter"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "366:3544"
+    },
+    "id": "fi_WestButton",
+    "properties": {
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 58
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 194
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 3
+        }
+    },
+    "targetFile": "fi_WestButton.ghuie",
+    "type": "ZetaSurgicalSet.WestButton_Default_State",
+    "userDefined": false
+}

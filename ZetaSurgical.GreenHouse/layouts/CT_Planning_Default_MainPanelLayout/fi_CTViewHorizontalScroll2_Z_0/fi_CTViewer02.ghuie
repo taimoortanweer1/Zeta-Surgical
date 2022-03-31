@@ -1,0 +1,48 @@
+{
+    "anchorBottom": {
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorLeft": {
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorRight": {
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "anchorTop": {
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "37:1385"
+    },
+    "id": "fi_CTViewer02",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 540
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/37_1385.png"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 668
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "targetFile": "fi_CTViewer02.ghuie",
+    "type": "Image",
+    "userDefined": false
+}

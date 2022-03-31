@@ -1,0 +1,123 @@
+{
+    "aliasList": {
+    },
+    "componentLayout": {
+        "blockInputFallthrough": true,
+        "children": [
+            {
+                "children": [
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "image0",
+                        "targetFile": "image0.ghuie",
+                        "type": "Image",
+                        "userDefined": false
+                    }
+                ],
+                "childrenSplit": true,
+                "id": "root",
+                "properties": {
+                    "height": {
+                        "name": "height",
+                        "type": "Int",
+                        "value": 80
+                    },
+                    "width": {
+                        "name": "width",
+                        "type": "Int",
+                        "value": 408
+                    }
+                },
+                "targetFile": "root.ghuie",
+                "type": "Item",
+                "userDefined": false
+            }
+        ],
+        "childrenSplit": true,
+        "fillParent": false,
+        "height": 80,
+        "hideAnimation": {
+            "type": "Sequential"
+        },
+        "interfaceName": "",
+        "name": "___TEMP_LAYOUT___ZetaSurgicalSet.ProgressIndicator_Triple",
+        "posX": 0,
+        "posY": 0,
+        "rootContainerType": "Item",
+        "showAnimation": {
+            "type": "Sequential"
+        },
+        "targetFile": "___TEMP_LAYOUT___ZetaSurgicalSet.ProgressIndicator_Triple.ghl",
+        "width": 408
+    },
+    "componentName": "ZetaSurgicalSet.ProgressIndicator_Triple",
+    "properties": [
+        {
+            "name": "progressValue",
+            "type": "Int",
+            "value": 0
+        }
+    ],
+    "signalList": {
+    },
+    "states": {
+        "__main_state_group": {
+            "Value_0_State": {
+                "group": "",
+                "name": "Value_0_State",
+                "propertyChanges": [
+                    {
+                        "name": "source",
+                        "propertyChangeTarget": "image0",
+                        "type": "Asset",
+                        "value": "/366_3351.png"
+                    }
+                ],
+                "when": "root.progressValue < 1"
+            },
+            "Value_1_State": {
+                "group": "",
+                "name": "Value_1_State",
+                "propertyChanges": [
+                    {
+                        "name": "source",
+                        "propertyChangeTarget": "image0",
+                        "type": "Asset",
+                        "value": "/366_3350.png"
+                    }
+                ],
+                "when": "root.progressValue >= 1 && root.progressValue < 2"
+            },
+            "Value_2_State": {
+                "group": "",
+                "name": "Value_2_State",
+                "propertyChanges": [
+                    {
+                        "name": "source",
+                        "propertyChangeTarget": "image0",
+                        "type": "Asset",
+                        "value": "/366_3349.png"
+                    }
+                ],
+                "when": "root.progressValue >= 2"
+            }
+        }
+    },
+    "targetFile": "ProgressIndicator_Triple.ghcomp"
+}

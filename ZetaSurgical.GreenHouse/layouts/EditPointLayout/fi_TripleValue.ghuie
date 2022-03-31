@@ -1,0 +1,27 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "366:3369"
+    },
+    "id": "fi_TripleValue",
+    "properties": {
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 1496
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 464
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "targetFile": "fi_TripleValue.ghuie",
+    "type": "ZetaSurgicalSet.TripleValue",
+    "userDefined": false
+}

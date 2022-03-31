@@ -1,0 +1,27 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "368:3635"
+    },
+    "id": "fi_keyboardOverlay",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 464
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 1920
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 616
+        }
+    },
+    "targetFile": "fi_keyboardOverlay.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

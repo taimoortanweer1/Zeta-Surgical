@@ -1,0 +1,22 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "62:2039"
+    },
+    "id": "fi_toggleResliceViewPreference",
+    "properties": {
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 1272
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 5
+        }
+    },
+    "targetFile": "fi_toggleResliceViewPreference.ghuie",
+    "type": "ZetaSurgicalSet.FlipViewButton_Default_State",
+    "userDefined": false
+}

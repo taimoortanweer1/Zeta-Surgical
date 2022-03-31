@@ -1,0 +1,5 @@
+{
+    "base": "Displayable",
+    "name": "NavigationPanel_4Views_MainPanelIFace",
+    "targetFile": "NavigationPanel_4Views_MainPanelIFace.ghli"
+}

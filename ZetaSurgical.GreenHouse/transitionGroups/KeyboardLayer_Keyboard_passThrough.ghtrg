@@ -1,0 +1,19 @@
+{
+    "source": "KeyboardLayer",
+    "target": "Keyboard_passThrough",
+    "targetFile": "KeyboardLayer_Keyboard_passThrough.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "PopupsPresenter",
+                "senderStringType": "%1",
+                "signal": "keyboardShown"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{c5df1a45-4242-451b-bb8d-f079fab57e1e}"
+}

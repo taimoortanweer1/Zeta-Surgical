@@ -1,0 +1,32 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "84:2883"
+    },
+    "id": "fi_View3Panel",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 360
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 534
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 720
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "targetFile": "fi_View3Panel.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

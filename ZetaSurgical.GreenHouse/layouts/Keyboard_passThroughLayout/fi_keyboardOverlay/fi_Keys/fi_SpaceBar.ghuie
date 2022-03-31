@@ -1,0 +1,53 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 212,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 352,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "I368:3635;211:5846"
+    },
+    "id": "fi_SpaceBar",
+    "properties": {
+        "fi_Label_lineHeight": {
+            "name": "fi_Label_lineHeight",
+            "type": "Float",
+            "value": 35.17
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 80
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 1252
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 212
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 352
+        }
+    },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_SpaceBar__onEvent__clicked()\n"
+        }
+    },
+    "targetFile": "fi_SpaceBar.ghuie",
+    "type": "ZetaSurgicalSet.KeyboardButton_Letter_Lowercase",
+    "userDefined": false
+}

@@ -15,6 +15,11 @@
     },
     "id": "fi_ListView_Instruments",
     "properties": {
+        "delegateSpacing": {
+            "name": "delegateSpacing",
+            "type": "Int",
+            "value": 16
+        },
         "height": {
             "name": "height",
             "type": "Int",
@@ -35,7 +40,7 @@
         "width": {
             "name": "width",
             "type": "Int",
-            "value": 352
+            "value": 376
         },
         "x": {
             "name": "x",

@@ -1,0 +1,52 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 16,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorRight": {
+        "anchorMargin": 16,
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "anchorTop": {
+        "anchorMargin": 16,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "I368:3635;234:5977"
+    },
+    "id": "fi_Keys",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 432
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 1888
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 16
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 16
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "targetFile": "fi_Keys.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

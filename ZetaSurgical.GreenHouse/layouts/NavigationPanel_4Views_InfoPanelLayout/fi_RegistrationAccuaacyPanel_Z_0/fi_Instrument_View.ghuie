@@ -1,0 +1,88 @@
+{
+    "anchorBottom": {
+        "anchorMargin": 135,
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorLeft": {
+        "anchorMargin": 231,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "40:4100"
+    },
+    "id": "fi_Instrument_View",
+    "properties": {
+        "font": {
+            "name": "font",
+            "type": "Font",
+            "value": "Figma::Arial_ArialMT_18_50_0_0_0_0_0.2"
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 42
+        },
+        "horizontalAlignment": {
+            "name": "horizontalAlignment",
+            "type": "TextHorizontalAlignment",
+            "value": "AlignHCenter"
+        },
+        "lineHeight": {
+            "name": "lineHeight",
+            "type": "Float",
+            "value": 20
+        },
+        "lineHeightMode": {
+            "name": "lineHeightMode",
+            "type": "TextLineHeightMode",
+            "value": "FixedHeight"
+        },
+        "text": {
+            "name": "text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::40:4100",
+            "value": "Instrument View"
+        },
+        "textColor": {
+            "name": "textColor",
+            "type": "Color",
+            "value": "Dark Ink"
+        },
+        "verticalAlignment": {
+            "name": "verticalAlignment",
+            "type": "TextVerticalAlignment",
+            "value": "AlignVCenter"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 194
+        },
+        "wrapMode": {
+            "name": "wrapMode",
+            "type": "TextWrapMode",
+            "value": "WordWrap"
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 231
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 135
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 3
+        }
+    },
+    "targetFile": "fi_Instrument_View.ghuie",
+    "type": "ComponentsSet.Label",
+    "userDefined": false
+}

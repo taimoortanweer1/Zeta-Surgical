@@ -1,0 +1,19 @@
+{
+    "blockInputFallthrough": true,
+    "childrenSplit": true,
+    "fillParent": false,
+    "height": 1080,
+    "hideAnimation": {
+        "type": "Sequential"
+    },
+    "interfaceName": "Upload_SelectPatient_v01_NavPanelIFace",
+    "name": "Upload_SelectPatient_v01_NavPanelLayout",
+    "posX": 0,
+    "posY": 0,
+    "rootContainerType": "Item",
+    "showAnimation": {
+        "type": "Sequential"
+    },
+    "targetFile": "Upload_SelectPatient_v01_NavPanelLayout.ghl",
+    "width": 128
+}

@@ -1,0 +1,47 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 32,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 459,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "164:8188"
+    },
+    "id": "fi_Header2",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 64
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 1232
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 32
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 459
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "targetFile": "fi_Header2.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

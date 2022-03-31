@@ -154,7 +154,7 @@
                                         "itemBound": true,
                                         "name": "font",
                                         "type": "Font",
-                                        "value": "Figma::Arial_ArialMT_30_50_2_0_0_0_-0.6"
+                                        "value": "Figma::Arial_ArialMT_30_50_0_0_0_0_-0.6"
                                     },
                                     "height": {
                                         "name": "height",
@@ -409,7 +409,7 @@
                             "font": {
                                 "name": "font",
                                 "type": "Font",
-                                "value": "Figma::Arial_ArialMT_30_50_2_0_0_0_-0.6"
+                                "value": "Figma::Arial_ArialMT_30_50_0_0_0_0_-0.6"
                             },
                             "height": {
                                 "name": "height",
@@ -434,7 +434,7 @@
                             "text": {
                                 "name": "text",
                                 "type": "TranslatableString",
-                                "uuid": "FigmaNode::208:4911",
+                                "uuid": "FigmaNode::370:6022",
                                 "value": "Q"
                             },
                             "textColor": {

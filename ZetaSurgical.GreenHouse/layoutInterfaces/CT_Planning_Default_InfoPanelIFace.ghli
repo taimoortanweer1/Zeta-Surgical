@@ -22,9 +22,6 @@
             ],
             "name": "fi_ModifyInstrumentDelegate__onEvent__fi_DeleteButton_clicked"
         },
-        "fi_addInstrumentButton__onEvent__clicked": {
-            "name": "fi_addInstrumentButton__onEvent__clicked"
-        },
         "fi_addTargetButton__onEvent__clicked": {
             "name": "fi_addTargetButton__onEvent__clicked"
         },

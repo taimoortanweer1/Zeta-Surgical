@@ -1,0 +1,37 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "84:2900"
+    },
+    "id": "fi_View6Panel",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 540
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 445
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 891
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 540
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "targetFile": "fi_View6Panel.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

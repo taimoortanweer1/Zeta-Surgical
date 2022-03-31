@@ -47,12 +47,6 @@
             "value": 1
         }
     },
-    "signals": {
-        "clicked": {
-            "name": "clicked",
-            "rawCode": "root.itemInterface.fi_addInstrumentButton__onEvent__clicked()\n"
-        }
-    },
     "targetFile": "fi_addInstrumentButton.ghuie",
     "type": "ZetaSurgicalSet.AddLineButton",
     "userDefined": false

@@ -79,7 +79,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 1
+            "value": 2
         }
     },
     "targetFile": "fi_Search_or_select_patient_to_proceed.ghuie",

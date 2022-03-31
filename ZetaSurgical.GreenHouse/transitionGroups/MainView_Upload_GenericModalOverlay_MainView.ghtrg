@@ -1,0 +1,18 @@
+{
+    "source": "MainView",
+    "target": "Upload_GenericModalOverlay_MainView",
+    "targetFile": "MainView_Upload_GenericModalOverlay_MainView.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceMainViewMoveToUpload_GenericModalOverlay_MainView"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "anchorBottom": {
+        "anchorMargin": 72,
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorHCenter": {
+        "anchorTarget": "parent",
+        "anchorValue": "HorizontalCenter"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "366:3546"
+    },
+    "id": "fi_PointDisplayLabel",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 196
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 196
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 130
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 216
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 5
+        }
+    },
+    "targetFile": "fi_PointDisplayLabel.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

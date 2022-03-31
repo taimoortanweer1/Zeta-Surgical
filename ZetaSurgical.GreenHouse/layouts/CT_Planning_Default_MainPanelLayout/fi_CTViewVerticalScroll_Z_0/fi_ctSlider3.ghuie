@@ -1,6 +1,6 @@
 {
     "anchorLeft": {
-        "anchorMargin": 624,
+        "anchorMargin": 636,
         "anchorTarget": "parent",
         "anchorValue": "Left"
     },
@@ -11,7 +11,7 @@
     },
     "childrenSplit": true,
     "extraData": {
-        "FIGMA_ID": "37:1393"
+        "FIGMA_ID": "372:7135"
     },
     "id": "fi_ctSlider3",
     "properties": {
@@ -20,15 +20,10 @@
             "type": "Int",
             "value": 520
         },
-        "width": {
-            "name": "width",
-            "type": "Int",
-            "value": 32
-        },
         "x": {
             "name": "x",
             "type": "Int",
-            "value": 624
+            "value": 636
         },
         "y": {
             "name": "y",
