@@ -1,5 +1,10 @@
 {
     "base": "Displayable",
     "name": "PositionNEST_Variation1_PositionCartInfoPanelIFace",
+    "signals": {
+        "fi_toggleRightButton__onEvent__toggled": {
+            "name": "fi_toggleRightButton__onEvent__toggled"
+        }
+    },
     "targetFile": "PositionNEST_Variation1_PositionCartInfoPanelIFace.ghli"
 }

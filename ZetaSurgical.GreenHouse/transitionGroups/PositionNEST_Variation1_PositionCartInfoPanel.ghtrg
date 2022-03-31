@@ -1,0 +1,24 @@
+{
+    "source": "PositionNEST_Variation1_PositionCartInfoPanel",
+    "targetFile": "PositionNEST_Variation1_PositionCartInfoPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_toggleRightButton__onEvent__toggled",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(CartPresenter, co) co->toggleWheelsLock();\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        }
+    ]
+}

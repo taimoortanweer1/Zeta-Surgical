@@ -51,6 +51,8 @@
             "value": "FixedHeight"
         },
         "text": {
+            "bindingProp": "cameraToFaceDistanceString",
+            "bindingSrc": "CartPresenter",
             "name": "text",
             "type": "TranslatableString",
             "uuid": "FigmaNode::81:1847",

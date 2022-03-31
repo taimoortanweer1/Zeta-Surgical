@@ -1,0 +1,26 @@
+{
+    "backendObject": false,
+    "hidden": false,
+    "methods": {
+        "toggleWheelsLock": {
+            "name": "toggleWheelsLock"
+        }
+    },
+    "name": "CartPresenter",
+    "properties": {
+        "arguments": [
+            {
+                "name": "wheelsAreLocked",
+                "preview": null,
+                "type": "Bool"
+            },
+            {
+                "name": "cameraToFaceDistanceString",
+                "preview": null,
+                "type": "String"
+            }
+        ]
+    },
+    "targetFile": "CartPresenter.ghi",
+    "uuid": "{8514fc05-0bfd-4430-b49e-26691062d40a}"
+}
