@@ -1,0 +1,31 @@
+{
+    "children": [
+    ],
+    "childrenSplit": true,
+    "entryActions": [
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        }
+    ],
+    "extraData": {
+        "FIGMA": "kKItBBA5TYuCVGxWbPVftH",
+        "orderValue": 1
+    },
+    "height": 0,
+    "posX": 0,
+    "posY": 0,
+    "properties": {
+        "childViewType": "ChildStateView",
+        "initial": false,
+        "layoutFile": "HeaderPanel_Shared0Layout",
+        "layoutFileTemplate": "%1Impl.qml",
+        "name": "HeaderPanel_Shared0",
+        "parallel": false,
+        "parentingEnabled": true,
+        "preloadUI": false
+    },
+    "targetFile": "HeaderPanel_Shared0.ghs",
+    "template": "ItemState",
+    "width": 0
+}

@@ -1,0 +1,20 @@
+{
+    "blockInputFallthrough": true,
+    "childrenSplit": true,
+    "fillParent": false,
+    "height": 144,
+    "hideAnimation": {
+        "type": "Sequential"
+    },
+    "interfaceName": "HeaderPanel_Shared0IFace",
+    "name": "HeaderPanel_Shared0Layout",
+    "posX": 128,
+    "posY": 0,
+    "rootContainerType": "Item",
+    "showAnimation": {
+        "type": "Sequential"
+    },
+    "targetFile": "HeaderPanel_Shared0Layout.ghl",
+    "uuid": "{5c674686-ef65-44d3-b55b-f24645c60c2c}",
+    "width": 1792
+}

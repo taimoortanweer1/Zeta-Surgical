@@ -6,6 +6,9 @@
         "hideBackgroundPanel": {
             "name": "hideBackgroundPanel"
         },
+        "hideHeaderPanel": {
+            "name": "hideHeaderPanel"
+        },
         "hideInfoPanel": {
             "name": "hideInfoPanel"
         },
@@ -45,6 +48,9 @@
         "showBackgroundPanel": {
             "name": "showBackgroundPanel"
         },
+        "showHeaderPanel": {
+            "name": "showHeaderPanel"
+        },
         "showInfoPanel": {
             "name": "showInfoPanel"
         },
@@ -83,6 +89,9 @@
         },
         "surfaceBackgroundPanelMoveToBackgroundPanel_Shared1": {
             "name": "surfaceBackgroundPanelMoveToBackgroundPanel_Shared1"
+        },
+        "surfaceHeaderPanelMoveToHeaderPanel_Shared0": {
+            "name": "surfaceHeaderPanelMoveToHeaderPanel_Shared0"
         },
         "surfaceInfoPanelMoveToCT_Planning_Default_InfoPanel": {
             "name": "surfaceInfoPanelMoveToCT_Planning_Default_InfoPanel"
