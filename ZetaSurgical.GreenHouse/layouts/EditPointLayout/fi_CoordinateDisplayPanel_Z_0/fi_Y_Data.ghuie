@@ -51,6 +51,8 @@
             "value": "FixedHeight"
         },
         "text": {
+            "bindingProp": "yString",
+            "bindingSrc": "PointEditorPresenter",
             "name": "text",
             "type": "TranslatableString",
             "uuid": "FigmaNode::46:2255",

@@ -32,6 +32,9 @@
             ],
             "name": "editTargetAtIndex"
         },
+        "onAddNewPointClicked": {
+            "name": "onAddNewPointClicked"
+        },
         "selectInstrumentAtIndex": {
             "arguments": [
                 {

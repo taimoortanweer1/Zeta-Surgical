@@ -15,6 +15,14 @@
     },
     "id": "fi_EastButton",
     "properties": {
+        "fi_R_text": {
+            "bindingProp": "eastButtonCaption",
+            "bindingSrc": "PointEditorPresenter",
+            "name": "fi_R_text",
+            "type": "TranslatableString",
+            "uuid": "{434a139d-2ae0-48d6-8149-8b154b400012}",
+            "value": "R"
+        },
         "x": {
             "name": "x",
             "type": "Int",
@@ -29,6 +37,12 @@
             "name": "z",
             "type": "Int",
             "value": 2
+        }
+    },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_EastButton__onEvent__clicked()\n"
         }
     },
     "targetFile": "fi_EastButton.ghuie",

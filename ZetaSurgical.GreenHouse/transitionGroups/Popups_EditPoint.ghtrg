@@ -13,6 +13,17 @@
                 "signal": "surfacePopupsMoveToEditPoint"
             },
             "template": "SignalTransition"
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "PointEditorPresenter",
+                "senderStringType": "%1",
+                "signal": "pointEditorPopupShown"
+            },
+            "template": "SignalTransition"
         }
     ],
     "uuid": "{4c0bb6ac-dae5-4b96-a343-01a95f2409d0}"

@@ -1,0 +1,19 @@
+{
+    "source": "EditPoint",
+    "target": "NoPopup",
+    "targetFile": "EditPoint_NoPopup.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": false,
+                "sender": "PointEditorPresenter",
+                "senderStringType": "%1",
+                "signal": "pointEditorPopupHidden"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{bfa7b485-6861-4381-80ac-d02bfcc01211}"
+}

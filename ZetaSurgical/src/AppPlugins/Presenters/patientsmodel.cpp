@@ -79,7 +79,7 @@ void SortFilterModel::setFilterString(QString filter)
 
 QVariant SortFilterModel::getData(int ind, int role) const
 {
-    auto const sourceIndex = mapFromSource(index(ind, 0));
+    auto const sourceIndex = mapToSource(index(ind, 0));
     return sourceModel()->data(sourceIndex, role);
 }
 

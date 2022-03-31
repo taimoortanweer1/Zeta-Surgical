@@ -1,12 +1,15 @@
 #include "planningpresenterimpl.h"
 #include "popupspresenterimpl.h"
+#include "pointeditorpresenterimpl.h"
 #include <QQuickItem>
 
-PlanningPresenterImpl::PlanningPresenterImpl(PopupsPresenterImpl *popupsPresenter)
+PlanningPresenterImpl::PlanningPresenterImpl(PopupsPresenterImpl *popupsPresenter, PointEditorPresenterImpl* pointEditor)
     : ZetaSurgical::PlanningPresenter()
     , m_popupsPresenter(popupsPresenter)
+    , m_pointEditor(pointEditor)
 {
     Q_ASSERT(m_popupsPresenter);
+    Q_ASSERT(m_pointEditor);
 }
 
 void PlanningPresenterImpl::editTargetAtIndex(int index)
@@ -36,6 +39,16 @@ void PlanningPresenterImpl::deleteInstrumentAtIndex(int index)
         instrumentsList()->removeRow(index);
     });
 
+}
+
+void PlanningPresenterImpl::onAddNewPointClicked()
+{
+    m_pointEditor->addNewPoint([this](Point const &point){
+        QJsonObject obj;
+        obj[QStringLiteral("text")] = QStringLiteral("%1").arg(point.x);
+        obj[QStringLiteral("index")] = targetsList()->rowCount();
+        targetsList()->appendRow(obj);
+    });
 }
 
 void PlanningPresenterImpl::setVTKItem(QObject *item)

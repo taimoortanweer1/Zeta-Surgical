@@ -5,6 +5,13 @@
     },
     "id": "fi_TripleValue",
     "properties": {
+        "fi_Background_progressValue": {
+            "bindingProp": "selectedMode",
+            "bindingSrc": "PointEditorPresenter",
+            "name": "fi_Background_progressValue",
+            "type": "Int",
+            "value": 0
+        },
         "x": {
             "name": "x",
             "type": "Int",
@@ -19,6 +26,20 @@
             "name": "z",
             "type": "Int",
             "value": 2
+        }
+    },
+    "signals": {
+        "fi_Value2_clicked": {
+            "name": "fi_Value2_clicked",
+            "rawCode": "root.itemInterface.fi_TripleValue__onEvent__fi_Value2_clicked(PointEditorPresenter.Axial)\n"
+        },
+        "fi__Value1_clicked": {
+            "name": "fi__Value1_clicked",
+            "rawCode": "root.itemInterface.fi_TripleValue__onEvent__fi__Value1_clicked(PointEditorPresenter.Coronal)\n"
+        },
+        "fi__Value3_clicked": {
+            "name": "fi__Value3_clicked",
+            "rawCode": "root.itemInterface.fi_TripleValue__onEvent__fi__Value3_clicked(PointEditorPresenter.Saggital)\n"
         }
     },
     "targetFile": "fi_TripleValue.ghuie",

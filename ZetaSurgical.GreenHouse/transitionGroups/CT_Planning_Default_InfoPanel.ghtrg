@@ -33,7 +33,7 @@
             "template": "ItemSignalTransition",
             "triggeredActions": [
                 {
-                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfacePopupsMoveToEditPoint();\n}\n",
+                    "rawCode": "{\nCONTEXT_OBJECT(PlanningPresenter, co) co->onAddNewPointClicked();\n}\n",
                     "type": "RawCode"
                 }
             ]

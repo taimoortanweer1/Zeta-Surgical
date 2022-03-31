@@ -13,6 +13,14 @@
     },
     "id": "fi_SourhtButton",
     "properties": {
+        "fi_P_text": {
+            "bindingProp": "southButtonCaption",
+            "bindingSrc": "PointEditorPresenter",
+            "name": "fi_P_text",
+            "type": "TranslatableString",
+            "uuid": "{e93a91fd-3dfc-4e68-9510-6e3caaf28995}",
+            "value": "P"
+        },
         "x": {
             "name": "x",
             "type": "Int",
@@ -27,6 +35,12 @@
             "name": "z",
             "type": "Int",
             "value": 4
+        }
+    },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_SourhtButton__onEvent__clicked()\n"
         }
     },
     "targetFile": "fi_SourhtButton.ghuie",

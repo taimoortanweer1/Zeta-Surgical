@@ -1,0 +1,96 @@
+{
+    "backendObject": false,
+    "enums": [
+        {
+            "name": "Modes",
+            "value": [
+                "Coronal",
+                "Axial",
+                "Saggital"
+            ]
+        }
+    ],
+    "hidden": false,
+    "methods": {
+        "onAddPointClicked": {
+            "name": "onAddPointClicked"
+        },
+        "onEastButtonClicked": {
+            "name": "onEastButtonClicked"
+        },
+        "onNorthButtonClicked": {
+            "name": "onNorthButtonClicked"
+        },
+        "onSelectModeClicked": {
+            "arguments": [
+                {
+                    "name": "mode",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "onSelectModeClicked"
+        },
+        "onSouthButtonClicked": {
+            "name": "onSouthButtonClicked"
+        },
+        "onWestButtonClicked": {
+            "name": "onWestButtonClicked"
+        }
+    },
+    "name": "PointEditorPresenter",
+    "properties": {
+        "arguments": [
+            {
+                "name": "xString",
+                "preview": null,
+                "type": "String"
+            },
+            {
+                "name": "yString",
+                "preview": null,
+                "type": "String"
+            },
+            {
+                "name": "zString",
+                "preview": null,
+                "type": "String"
+            },
+            {
+                "name": "northButtonCaption",
+                "preview": null,
+                "type": "String"
+            },
+            {
+                "name": "southButtonCaption",
+                "preview": null,
+                "type": "String"
+            },
+            {
+                "name": "westButtonCaption",
+                "preview": null,
+                "type": "String"
+            },
+            {
+                "name": "eastButtonCaption",
+                "preview": null,
+                "type": "String"
+            },
+            {
+                "name": "selectedMode",
+                "preview": 0,
+                "type": "Int"
+            }
+        ]
+    },
+    "signals": {
+        "pointEditorPopupHidden": {
+            "name": "pointEditorPopupHidden"
+        },
+        "pointEditorPopupShown": {
+            "name": "pointEditorPopupShown"
+        }
+    },
+    "targetFile": "PointEditorPresenter.ghi",
+    "uuid": "{04427429-fbae-4dd5-9050-367f3631321d}"
+}

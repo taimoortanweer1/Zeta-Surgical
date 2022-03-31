@@ -1,4 +1,5 @@
 set(impl_h
+pointeditorpresenterimpl.h
 cartpresenterimpl.h
 planningpresenterimpl.h
 patientsdatabaseimpl.h
@@ -8,6 +9,7 @@ loginpresenterimpl.h
 )
 
 set(impl_cpp
+pointeditorpresenterimpl.cpp
 cartpresenterimpl.cpp
 planningpresenterimpl.cpp
 patientsdatabaseimpl.cpp

@@ -15,6 +15,14 @@
     },
     "id": "fi_WestButton",
     "properties": {
+        "fi_L_text": {
+            "bindingProp": "westButtonCaption",
+            "bindingSrc": "PointEditorPresenter",
+            "name": "fi_L_text",
+            "type": "TranslatableString",
+            "uuid": "{8a56b55a-66fd-4fb7-9878-55e96fdbaff8}",
+            "value": "L"
+        },
         "x": {
             "name": "x",
             "type": "Int",
@@ -29,6 +37,12 @@
             "name": "z",
             "type": "Int",
             "value": 3
+        }
+    },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_WestButton__onEvent__clicked()\n"
         }
     },
     "targetFile": "fi_WestButton.ghuie",

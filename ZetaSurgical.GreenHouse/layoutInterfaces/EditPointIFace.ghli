@@ -2,6 +2,51 @@
     "base": "Displayable",
     "name": "EditPointIFace",
     "signals": {
+        "fi_EastButton__onEvent__clicked": {
+            "name": "fi_EastButton__onEvent__clicked"
+        },
+        "fi_NorthButton__onEvent__clicked": {
+            "name": "fi_NorthButton__onEvent__clicked"
+        },
+        "fi_SourhtButton__onEvent__clicked": {
+            "name": "fi_SourhtButton__onEvent__clicked"
+        },
+        "fi_TripleValue__onEvent__fi_Value2_clicked": {
+            "arguments": [
+                {
+                    "name": "PointEditorPresenter_onSelectModeClicked_mode",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "fi_TripleValue__onEvent__fi_Value2_clicked"
+        },
+        "fi_TripleValue__onEvent__fi__Value1_clicked": {
+            "arguments": [
+                {
+                    "name": "PointEditorPresenter_onSelectModeClicked_mode",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "fi_TripleValue__onEvent__fi__Value1_clicked"
+        },
+        "fi_TripleValue__onEvent__fi__Value3_clicked": {
+            "arguments": [
+                {
+                    "name": "PointEditorPresenter_onSelectModeClicked_mode",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "fi_TripleValue__onEvent__fi__Value3_clicked"
+        },
+        "fi_WestButton__onEvent__clicked": {
+            "name": "fi_WestButton__onEvent__clicked"
+        },
+        "fi_addPointButton__onEvent__clicked": {
+            "name": "fi_addPointButton__onEvent__clicked"
+        },
         "fi_closeWindow__onEvent__clicked": {
             "name": "fi_closeWindow__onEvent__clicked"
         }
