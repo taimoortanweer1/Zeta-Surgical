@@ -1,0 +1,99 @@
+{
+    "backendObject": false,
+    "hidden": false,
+    "name": "ScanData",
+    "properties": {
+        "arguments": [
+            {
+                "data": [
+                    {
+                        "leftColumn": "leftColumn_0",
+                        "rightColumn": "rightColumn_0"
+                    },
+                    {
+                        "leftColumn": "leftColumn_1",
+                        "rightColumn": "rightColumn_1"
+                    },
+                    {
+                        "leftColumn": "leftColumn_2",
+                        "rightColumn": "rightColumn_2"
+                    },
+                    {
+                        "leftColumn": "leftColumn_3",
+                        "rightColumn": "rightColumn_3"
+                    },
+                    {
+                        "leftColumn": "leftColumn_4",
+                        "rightColumn": "rightColumn_4"
+                    },
+                    {
+                        "leftColumn": "leftColumn_5",
+                        "rightColumn": "rightColumn_5"
+                    },
+                    {
+                        "leftColumn": "leftColumn_6",
+                        "rightColumn": "rightColumn_6"
+                    },
+                    {
+                        "leftColumn": "leftColumn_7",
+                        "rightColumn": "rightColumn_7"
+                    },
+                    {
+                        "leftColumn": "leftColumn_8",
+                        "rightColumn": "rightColumn_8"
+                    },
+                    {
+                        "leftColumn": "leftColumn_9",
+                        "rightColumn": "rightColumn_9"
+                    },
+                    {
+                        "leftColumn": "leftColumn_10",
+                        "rightColumn": "rightColumn_10"
+                    },
+                    {
+                        "leftColumn": "leftColumn_11",
+                        "rightColumn": "rightColumn_11"
+                    },
+                    {
+                        "leftColumn": "leftColumn_12",
+                        "rightColumn": "rightColumn_12"
+                    },
+                    {
+                        "leftColumn": "leftColumn_13",
+                        "rightColumn": "rightColumn_13"
+                    },
+                    {
+                        "leftColumn": "leftColumn_14",
+                        "rightColumn": "rightColumn_14"
+                    },
+                    {
+                        "leftColumn": "leftColumn_15",
+                        "rightColumn": "rightColumn_15"
+                    },
+                    {
+                        "leftColumn": "leftColumn_16",
+                        "rightColumn": "rightColumn_16"
+                    },
+                    {
+                        "leftColumn": "leftColumn_17",
+                        "rightColumn": "rightColumn_17"
+                    },
+                    {
+                        "leftColumn": "leftColumn_18",
+                        "rightColumn": "rightColumn_18"
+                    }
+                ],
+                "name": "scanMetadataList",
+                "preview": null,
+                "readonly": true,
+                "roles": [
+                    "leftColumn",
+                    "rightColumn"
+                ],
+                "type": "Model"
+            }
+        ]
+    },
+    "targetFile": "ScanData.ghi",
+    "uuid": "{f34e5a24-5582-42d8-9dde-ca8f270c2d8b}"
+}

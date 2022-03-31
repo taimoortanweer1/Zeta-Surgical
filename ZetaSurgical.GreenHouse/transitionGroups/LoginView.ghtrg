@@ -7,222 +7,6 @@
                 "backTransition": false,
                 "blockedIfTargetActive": false,
                 "internal": false,
-                "signalName": "fi_row4_key1__onEvent__clicked",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
-            },
-            "template": "ItemSignalTransition",
-            "triggeredActions": [
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(KeyboardPresenter, co) co->onCharacterButtonClicked(args.at(0).toString());\n}\n",
-                    "type": "RawCode"
-                }
-            ]
-        },
-        {
-            "properties": {
-                "backTransition": false,
-                "blockedIfTargetActive": false,
-                "internal": false,
-                "signalName": "fi_row3_key1__onEvent__clicked",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
-            },
-            "template": "ItemSignalTransition",
-            "triggeredActions": [
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(KeyboardPresenter, co) co->onCharacterButtonClicked(args.at(0).toString());\n}\n",
-                    "type": "RawCode"
-                }
-            ]
-        },
-        {
-            "properties": {
-                "backTransition": false,
-                "blockedIfTargetActive": false,
-                "internal": false,
-                "signalName": "fi_row1_key2__onEvent__clicked",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
-            },
-            "template": "ItemSignalTransition",
-            "triggeredActions": [
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(KeyboardPresenter, co) co->onCharacterButtonClicked(args.at(0).toString());\n}\n",
-                    "type": "RawCode"
-                }
-            ]
-        },
-        {
-            "properties": {
-                "backTransition": false,
-                "blockedIfTargetActive": false,
-                "internal": false,
-                "signalName": "fi_KeyboardButton_Letter_Lowercase__onEvent__clicked",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
-            },
-            "template": "ItemSignalTransition",
-            "triggeredActions": [
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(KeyboardPresenter, co) co->onCharacterButtonClicked(args.at(0).toString());\n}\n",
-                    "type": "RawCode"
-                }
-            ]
-        },
-        {
-            "properties": {
-                "backTransition": false,
-                "blockedIfTargetActive": false,
-                "internal": false,
-                "signalName": "fi_Tab__onEvent__clicked",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
-            },
-            "template": "ItemSignalTransition",
-            "triggeredActions": [
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(KeyboardPresenter, co) co->onTabulationClicked();\n}\n",
-                    "type": "RawCode"
-                }
-            ]
-        },
-        {
-            "properties": {
-                "backTransition": false,
-                "blockedIfTargetActive": false,
-                "internal": false,
-                "signalName": "fi_CapsLock__onEvent__clicked",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
-            },
-            "template": "ItemSignalTransition",
-            "triggeredActions": [
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(KeyboardPresenter, co) co->onShiftLockClicked();\n}\n",
-                    "type": "RawCode"
-                }
-            ]
-        },
-        {
-            "properties": {
-                "backTransition": false,
-                "blockedIfTargetActive": false,
-                "internal": false,
-                "signalName": "fi_Shift1__onEvent__clicked",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
-            },
-            "template": "ItemSignalTransition",
-            "triggeredActions": [
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(KeyboardPresenter, co) co->onShiftClicked();\n}\n",
-                    "type": "RawCode"
-                }
-            ]
-        },
-        {
-            "properties": {
-                "backTransition": false,
-                "blockedIfTargetActive": false,
-                "internal": false,
-                "signalName": "fi_SpaceBar__onEvent__clicked",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
-            },
-            "template": "ItemSignalTransition",
-            "triggeredActions": [
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(KeyboardPresenter, co) co->onSpaceClicked();\n}\n",
-                    "type": "RawCode"
-                }
-            ]
-        },
-        {
-            "properties": {
-                "backTransition": false,
-                "blockedIfTargetActive": false,
-                "internal": false,
-                "signalName": "fi_Delete__onEvent__clicked",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
-            },
-            "template": "ItemSignalTransition",
-            "triggeredActions": [
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(KeyboardPresenter, co) co->onBackspaceClicked();\n}\n",
-                    "type": "RawCode"
-                }
-            ]
-        },
-        {
-            "properties": {
-                "backTransition": false,
-                "blockedIfTargetActive": false,
-                "internal": false,
-                "signalName": "fi_Enter__onEvent__clicked",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
-            },
-            "template": "ItemSignalTransition",
-            "triggeredActions": [
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(KeyboardPresenter, co) co->onEnterClicked();\n}\n",
-                    "type": "RawCode"
-                }
-            ]
-        },
-        {
-            "properties": {
-                "backTransition": false,
-                "blockedIfTargetActive": false,
-                "internal": false,
-                "signalName": "fi_Shift2__onEvent__clicked",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
-            },
-            "template": "ItemSignalTransition",
-            "triggeredActions": [
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(KeyboardPresenter, co) co->onShiftClicked();\n}\n",
-                    "type": "RawCode"
-                }
-            ]
-        },
-        {
-            "properties": {
-                "backTransition": false,
-                "blockedIfTargetActive": false,
-                "internal": false,
-                "signalName": "fi_Return__onEvent__clicked",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
-            },
-            "template": "ItemSignalTransition",
-            "triggeredActions": [
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(PopupsPresenter, co) co->inputAccepted();\n}\n",
-                    "type": "RawCode"
-                }
-            ]
-        },
-        {
-            "properties": {
-                "backTransition": false,
-                "blockedIfTargetActive": false,
-                "internal": false,
                 "signalName": "fi_usernameField__onEvent__input_textChanged",
                 "validSourceTemplates": [
                     "ItemState"
@@ -232,6 +16,24 @@
             "triggeredActions": [
                 {
                     "rawCode": "{\nCONTEXT_OBJECT(PopupsPresenter, co) co->onInputChanged(args.at(0).toString());\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_closeWindowButton__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfacePopupsMoveToNoPopup();\n}\n",
                     "type": "RawCode"
                 }
             ]

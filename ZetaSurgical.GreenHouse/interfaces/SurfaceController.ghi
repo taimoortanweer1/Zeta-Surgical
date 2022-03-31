@@ -21,9 +21,6 @@
         "hideMainPanel": {
             "name": "hideMainPanel"
         },
-        "hideMainView": {
-            "name": "hideMainView"
-        },
         "hideMenus": {
             "name": "hideMenus"
         },
@@ -62,9 +59,6 @@
         },
         "showMainPanel": {
             "name": "showMainPanel"
-        },
-        "showMainView": {
-            "name": "showMainView"
         },
         "showMenus": {
             "name": "showMenus"
@@ -135,9 +129,6 @@
         "surfaceMainPanelMoveToUpload_SelectStudy_v01_MainPanel": {
             "name": "surfaceMainPanelMoveToUpload_SelectStudy_v01_MainPanel"
         },
-        "surfaceMainViewMoveToUpload_GenericModalOverlay_MainView": {
-            "name": "surfaceMainViewMoveToUpload_GenericModalOverlay_MainView"
-        },
         "surfaceMenusBack": {
             "name": "surfaceMenusBack"
         },
@@ -146,6 +137,9 @@
         },
         "surfacePopupsMoveToEditPoint": {
             "name": "surfacePopupsMoveToEditPoint"
+        },
+        "surfacePopupsMoveToNoPopup": {
+            "name": "surfacePopupsMoveToNoPopup"
         },
         "surfacePositionCartInfoPanelMoveToPositionNEST_Variation1_PositionCartInfoPanel": {
             "name": "surfacePositionCartInfoPanelMoveToPositionNEST_Variation1_PositionCartInfoPanel"
@@ -176,9 +170,6 @@
         },
         "surfaceScreensMoveToSegmentation_Default_ScreenState": {
             "name": "surfaceScreensMoveToSegmentation_Default_ScreenState"
-        },
-        "surfaceScreensMoveToUpload_GenericModalOverlay_ScreenState": {
-            "name": "surfaceScreensMoveToUpload_GenericModalOverlay_ScreenState"
         },
         "surfaceScreensMoveToUpload_SelectPatient_v01_ScreenState": {
             "name": "surfaceScreensMoveToUpload_SelectPatient_v01_ScreenState"

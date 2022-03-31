@@ -9,6 +9,9 @@
         "anchorValue": "Top"
     },
     "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "365:3221"
+    },
     "id": "fi_StudyDescription2",
     "properties": {
         "fi_Label_text": {

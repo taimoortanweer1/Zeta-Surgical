@@ -1,5 +1,10 @@
 {
     "base": "Displayable",
     "name": "AddToolOverlayIFace",
+    "signals": {
+        "fi_closeWindowButton__onEvent__clicked": {
+            "name": "fi_closeWindowButton__onEvent__clicked"
+        }
+    },
     "targetFile": "AddToolOverlayIFace.ghli"
 }

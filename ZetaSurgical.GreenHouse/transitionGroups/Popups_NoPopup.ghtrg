@@ -1,0 +1,19 @@
+{
+    "source": "Popups",
+    "target": "NoPopup",
+    "targetFile": "Popups_NoPopup.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfacePopupsMoveToNoPopup"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{0dc305ca-7004-43e2-9f03-68d3f7f584b3}"
+}

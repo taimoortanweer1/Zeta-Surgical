@@ -1,5 +1,10 @@
 {
     "base": "Displayable",
     "name": "EditPointIFace",
+    "signals": {
+        "fi_closeWindow__onEvent__clicked": {
+            "name": "fi_closeWindow__onEvent__clicked"
+        }
+    },
     "targetFile": "EditPointIFace.ghli"
 }

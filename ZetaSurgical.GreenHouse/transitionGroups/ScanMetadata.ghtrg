@@ -1,0 +1,24 @@
+{
+    "source": "ScanMetadata",
+    "targetFile": "ScanMetadata.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_closeWindowButton__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfacePopupsMoveToNoPopup();\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        }
+    ]
+}

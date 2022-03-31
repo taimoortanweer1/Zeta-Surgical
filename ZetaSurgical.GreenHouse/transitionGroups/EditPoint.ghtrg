@@ -1,0 +1,24 @@
+{
+    "source": "EditPoint",
+    "targetFile": "EditPoint.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_closeWindow__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfacePopupsMoveToNoPopup();\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        }
+    ]
+}

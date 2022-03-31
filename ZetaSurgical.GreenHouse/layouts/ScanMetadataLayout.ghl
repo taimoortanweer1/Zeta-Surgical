@@ -1,0 +1,213 @@
+{
+    "blockInputFallthrough": true,
+    "childrenSplit": true,
+    "delegates": [
+        {
+            "children": [
+                {
+                    "anchorLeft": {
+                        "anchorMargin": -1,
+                        "anchorTarget": "parent",
+                        "anchorValue": "Left"
+                    },
+                    "anchorTop": {
+                        "anchorMargin": -1,
+                        "anchorTarget": "parent",
+                        "anchorValue": "Top"
+                    },
+                    "childrenSplit": true,
+                    "extraData": {
+                        "FIGMA_ID": "364:2894"
+                    },
+                    "id": "fi_Label",
+                    "properties": {
+                        "font": {
+                            "name": "font",
+                            "type": "Font",
+                            "value": "Figma::Arial_ArialMT_24_50_0_0_0_0_0.2"
+                        },
+                        "height": {
+                            "name": "height",
+                            "type": "Int",
+                            "value": 34
+                        },
+                        "lineHeight": {
+                            "name": "lineHeight",
+                            "type": "Float",
+                            "value": 20
+                        },
+                        "lineHeightMode": {
+                            "name": "lineHeightMode",
+                            "type": "TextLineHeightMode",
+                            "value": "FixedHeight"
+                        },
+                        "text": {
+                            "bindingRole": "leftColumn",
+                            "name": "text",
+                            "type": "TranslatableString",
+                            "uuid": "FigmaNode::364:2894",
+                            "value": "Image Type:"
+                        },
+                        "textColor": {
+                            "name": "textColor",
+                            "type": "Color",
+                            "value": "Dark Ink"
+                        },
+                        "verticalAlignment": {
+                            "name": "verticalAlignment",
+                            "type": "TextVerticalAlignment",
+                            "value": "AlignVCenter"
+                        },
+                        "width": {
+                            "name": "width",
+                            "type": "Int",
+                            "value": 274
+                        },
+                        "wrapMode": {
+                            "name": "wrapMode",
+                            "type": "TextWrapMode",
+                            "value": "WordWrap"
+                        },
+                        "x": {
+                            "name": "x",
+                            "type": "Int",
+                            "value": -1
+                        },
+                        "y": {
+                            "name": "y",
+                            "type": "Int",
+                            "value": -1
+                        }
+                    },
+                    "targetFile": "fi_Label.ghuie",
+                    "type": "ComponentsSet.Label",
+                    "userDefined": false
+                },
+                {
+                    "anchorLeft": {
+                        "anchorMargin": 271,
+                        "anchorTarget": "parent",
+                        "anchorValue": "Left"
+                    },
+                    "anchorTop": {
+                        "anchorMargin": -1,
+                        "anchorTarget": "parent",
+                        "anchorValue": "Top"
+                    },
+                    "childrenSplit": true,
+                    "extraData": {
+                        "FIGMA_ID": "364:2895"
+                    },
+                    "id": "fi_Data",
+                    "properties": {
+                        "font": {
+                            "name": "font",
+                            "type": "Font",
+                            "value": "Figma::Arial_ArialMT_24_50_0_0_0_0_0.2"
+                        },
+                        "height": {
+                            "name": "height",
+                            "type": "Int",
+                            "value": 34
+                        },
+                        "lineHeight": {
+                            "name": "lineHeight",
+                            "type": "Float",
+                            "value": 20
+                        },
+                        "lineHeightMode": {
+                            "name": "lineHeightMode",
+                            "type": "TextLineHeightMode",
+                            "value": "FixedHeight"
+                        },
+                        "text": {
+                            "bindingRole": "rightColumn",
+                            "name": "text",
+                            "type": "TranslatableString",
+                            "uuid": "FigmaNode::364:2895",
+                            "value": "insert text here"
+                        },
+                        "textColor": {
+                            "name": "textColor",
+                            "type": "Color",
+                            "value": "Dark Ink"
+                        },
+                        "verticalAlignment": {
+                            "name": "verticalAlignment",
+                            "type": "TextVerticalAlignment",
+                            "value": "AlignVCenter"
+                        },
+                        "width": {
+                            "name": "width",
+                            "type": "Int",
+                            "value": 466
+                        },
+                        "wrapMode": {
+                            "name": "wrapMode",
+                            "type": "TextWrapMode",
+                            "value": "WordWrap"
+                        },
+                        "x": {
+                            "name": "x",
+                            "type": "Int",
+                            "value": 271
+                        },
+                        "y": {
+                            "name": "y",
+                            "type": "Int",
+                            "value": -1
+                        },
+                        "z": {
+                            "name": "z",
+                            "type": "Int",
+                            "value": 1
+                        }
+                    },
+                    "targetFile": "fi_Data.ghuie",
+                    "type": "ComponentsSet.Label",
+                    "userDefined": false
+                }
+            ],
+            "childrenSplit": true,
+            "id": "fi_ListView_scanMetadata_delegate",
+            "model": {
+                "bindingProp": "scanMetadataList",
+                "bindingSrc": "ScanData",
+                "name": "modelProperty",
+                "type": "Model",
+                "value": null
+            },
+            "properties": {
+                "height": {
+                    "name": "height",
+                    "type": "Int",
+                    "value": 32
+                },
+                "width": {
+                    "name": "width",
+                    "type": "Int",
+                    "value": 736
+                }
+            },
+            "targetFile": "fi_ListView_scanMetadata_delegate.ghuie",
+            "type": "FocusScope",
+            "userDefined": false
+        }
+    ],
+    "fillParent": false,
+    "height": 1080,
+    "hideAnimation": {
+        "type": "Sequential"
+    },
+    "interfaceName": "ScanMetadataIFace",
+    "name": "ScanMetadataLayout",
+    "posX": 0,
+    "posY": 0,
+    "rootContainerType": "Item",
+    "showAnimation": {
+        "type": "Sequential"
+    },
+    "targetFile": "ScanMetadataLayout.ghl",
+    "uuid": "{e60bdb24-fd7d-4e97-ad81-281251e21b10}",
+    "width": 1920
+}

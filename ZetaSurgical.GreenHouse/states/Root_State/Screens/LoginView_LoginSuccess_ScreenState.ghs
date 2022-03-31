@@ -4,7 +4,7 @@
     "childrenSplit": true,
     "entryActions": [
         {
-            "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceBackgroundPanelMoveToBackgroundPanel_Shared1();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideHeaderPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceLoginPanelMoveToLoginView_LoginSuccess_LoginPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideMainPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideMainView();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceNavPanelMoveToNavPanel_Shared0();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hidePositionCartInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideRightInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceTitlePanelMoveToTitlePanel_Shared0();\n}\n",
+            "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceBackgroundPanelMoveToBackgroundPanel_Shared1();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideHeaderPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceLoginPanelMoveToLoginView_LoginSuccess_LoginPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideMainPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceNavPanelMoveToNavPanel_Shared0();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hidePositionCartInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideRightInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceTitlePanelMoveToTitlePanel_Shared0();\n}\n",
             "type": "RawCode"
         },
         {
