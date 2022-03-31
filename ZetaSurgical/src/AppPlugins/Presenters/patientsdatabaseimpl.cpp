@@ -77,13 +77,17 @@ void PatientsDatabaseImpl::onFilterEditRequested()
     });
 }
 
+void PatientsDatabaseImpl::onProceedToStudySelection()
+{
+    emit patientSelected();
+}
+
 void PatientsDatabaseImpl::selectPatient(int index)
 {
     setSelectedPatientIndex(index);
     setSelectedPatientNameString(m_filterModel->getData(index, PatientsModel::Name).toString());
     setSelectedPatientDOBString(m_filterModel->getData(index, PatientsModel::DOB).toString());
     setSelectedPatientMRNString(m_filterModel->getData(index, PatientsModel::MRN).toString());
-    emit patientSelected();
 }
 
 void PatientsDatabaseImpl::viewSelected(const QVariant &value, int index)

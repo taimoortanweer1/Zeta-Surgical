@@ -15,7 +15,7 @@
             "template": "ItemSignalTransition",
             "triggeredActions": [
                 {
-                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceScreensMoveToUpload_SelectStudy_v01_ScreenState();\n}\n",
+                    "rawCode": "{\nCONTEXT_OBJECT(PatientsDatabase, co) co->onProceedToStudySelection();\n}\n",
                     "type": "RawCode"
                 }
             ]

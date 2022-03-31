@@ -15,6 +15,7 @@ public:
     explicit PatientsDatabaseImpl(PopupsPresenterImpl *popupsPresenter);
     void init() override;
     void onFilterEditRequested() override;
+    void onProceedToStudySelection() override;
     void selectPatient(int index) override;
     void viewSelected(const QVariant &value, int index) override;
     void previewZoomSliderMoved(int value) override;

@@ -5,6 +5,9 @@
         "onFilterEditRequested": {
             "name": "onFilterEditRequested"
         },
+        "onProceedToStudySelection": {
+            "name": "onProceedToStudySelection"
+        },
         "previewZoomSliderMoved": {
             "arguments": [
                 {
