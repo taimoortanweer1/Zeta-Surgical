@@ -27,7 +27,7 @@
     "posY": 0,
     "properties": {
         "childViewType": "ChildStateView",
-        "initial": false,
+        "initial": true,
         "layoutFile": "NavigationPanel_4Views_InfoPanelLayout",
         "layoutFileTemplate": "%1Impl.qml",
         "name": "NavigationPanel_4Views_InfoPanel",

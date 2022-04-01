@@ -10,6 +10,9 @@
         "anchorValue": "Top"
     },
     "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "368:3619"
+    },
     "id": "fi_Union",
     "properties": {
         "height": {

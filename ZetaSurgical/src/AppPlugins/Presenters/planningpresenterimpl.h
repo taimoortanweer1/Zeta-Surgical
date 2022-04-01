@@ -19,7 +19,7 @@ public:
 
     void onAddNewPointClicked() override;
 
-    Q_INVOKABLE void setVTKItem(QObject *item);
+    Q_INVOKABLE void setVTKItem(QObject *item, int index);
 
 private:
     PopupsPresenterImpl * const m_popupsPresenter;

@@ -13,7 +13,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 5
+            "value": 1
         }
     },
     "targetFile": "fi_toggleResliceViewPreference.ghuie",

@@ -1,0 +1,18 @@
+{
+    "source": "MainPanelHidden",
+    "target": "NavigationPanel_4Views_MainPanel",
+    "targetFile": "MainPanelHidden_NavigationPanel_4Views_MainPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "showMainPanel"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

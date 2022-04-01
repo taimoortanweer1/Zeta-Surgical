@@ -1,3 +1,4 @@
 module Extended
 
 CameraView 1.0 CameraView.qml
+ViewLayout 1.0 ViewLayout.qml

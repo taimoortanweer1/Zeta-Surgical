@@ -1,0 +1,18 @@
+{
+    "source": "InfoPanelHidden",
+    "target": "NavigationPanel_4Views_InfoPanel",
+    "targetFile": "InfoPanelHidden_NavigationPanel_4Views_InfoPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "showInfoPanel"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

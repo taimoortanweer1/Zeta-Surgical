@@ -51,7 +51,7 @@ void PlanningPresenterImpl::onAddNewPointClicked()
     });
 }
 
-void PlanningPresenterImpl::setVTKItem(QObject *item)
+void PlanningPresenterImpl::setVTKItem(QObject *item, int index)
 {
     auto const vtk = qobject_cast<QQuickItem*>(item);
     if(!vtk) {

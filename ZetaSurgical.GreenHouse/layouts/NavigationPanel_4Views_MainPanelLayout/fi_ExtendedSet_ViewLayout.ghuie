@@ -1,0 +1,24 @@
+{
+    "childrenSplit": true,
+    "id": "fi_ExtendedSet_ViewLayout",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 1080
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 1336
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "targetFile": "fi_ExtendedSet_ViewLayout.ghuie",
+    "type": "ExtendedSet.ViewLayout",
+    "userDefined": false
+}
