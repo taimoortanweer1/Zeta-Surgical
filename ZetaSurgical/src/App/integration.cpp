@@ -82,6 +82,8 @@ void Integration::startExecution()
                                                   GreenHouse::ModelRowRoleSet });
         remoteUIServer->setServiceName(QStringLiteral("ZetaSurgical Remote UX Server"));
         ZetaSurgical::StateMachineFactory factory;
+
+
         m_context->startExecution(factory, this);
 
         connectToSimulator(nullptr);
