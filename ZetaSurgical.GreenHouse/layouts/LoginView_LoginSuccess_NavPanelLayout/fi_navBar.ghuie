@@ -1,0 +1,10 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "174:1897"
+    },
+    "id": "fi_navBar",
+    "targetFile": "fi_navBar.ghuie",
+    "type": "ZetaSurgicalSet.NavigationBar_Left_Default_State",
+    "userDefined": false
+}

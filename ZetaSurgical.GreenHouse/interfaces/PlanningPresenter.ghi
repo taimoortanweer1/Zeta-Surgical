@@ -35,6 +35,27 @@
         "onAddNewPointClicked": {
             "name": "onAddNewPointClicked"
         },
+        "onAddNewToolClicked": {
+            "name": "onAddNewToolClicked"
+        },
+        "onCutLocationDownClicked": {
+            "name": "onCutLocationDownClicked"
+        },
+        "onCutLocationLeftClicked": {
+            "name": "onCutLocationLeftClicked"
+        },
+        "onCutLocationRightClicked": {
+            "name": "onCutLocationRightClicked"
+        },
+        "onCutLocationUpClicked": {
+            "name": "onCutLocationUpClicked"
+        },
+        "onProceedToDrapingClicked": {
+            "name": "onProceedToDrapingClicked"
+        },
+        "onProceedWithoutDrapingClicked": {
+            "name": "onProceedWithoutDrapingClicked"
+        },
         "selectInstrumentAtIndex": {
             "arguments": [
                 {
@@ -154,6 +175,30 @@
                 "preview": -1,
                 "readonly": true,
                 "type": "Int"
+            },
+            {
+                "name": "selectedPointString",
+                "preview": null,
+                "readonly": true,
+                "type": "String"
+            },
+            {
+                "name": "angleString",
+                "preview": null,
+                "readonly": true,
+                "type": "String"
+            },
+            {
+                "name": "distanceToTargetString",
+                "preview": null,
+                "readonly": true,
+                "type": "String"
+            },
+            {
+                "name": "registrationAccuracyString",
+                "preview": null,
+                "readonly": true,
+                "type": "String"
             }
         ]
     },

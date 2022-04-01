@@ -24,6 +24,7 @@
                     "id": "fi_tool1Button",
                     "properties": {
                         "fi_EXAMPLE_text": {
+                            "bindingRole": "text",
                             "name": "fi_EXAMPLE_text",
                             "type": "TranslatableString",
                             "uuid": "FigmaNode::I46:2471;7:1252",
@@ -43,6 +44,8 @@
             "childrenSplit": true,
             "id": "fi_ListView_ToolSelect_delegate",
             "model": {
+                "bindingProp": "instrumentsList",
+                "bindingSrc": "PlanningPresenter",
                 "name": "modelProperty",
                 "type": "Model",
                 "value": null

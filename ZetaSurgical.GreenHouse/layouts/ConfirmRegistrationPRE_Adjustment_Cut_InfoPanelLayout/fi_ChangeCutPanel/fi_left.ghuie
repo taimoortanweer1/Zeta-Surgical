@@ -15,11 +15,6 @@
     },
     "id": "fi_left",
     "properties": {
-        "rotation": {
-            "name": "rotation",
-            "type": "Float",
-            "value": -90
-        },
         "x": {
             "name": "x",
             "type": "Int",
@@ -34,6 +29,12 @@
             "name": "z",
             "type": "Int",
             "value": 2
+        }
+    },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_left__onEvent__clicked()\n"
         }
     },
     "targetFile": "fi_left.ghuie",

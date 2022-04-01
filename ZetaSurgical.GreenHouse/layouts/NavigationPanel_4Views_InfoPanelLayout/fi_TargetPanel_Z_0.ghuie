@@ -18,12 +18,12 @@
         "y": {
             "name": "y",
             "type": "Int",
-            "value": 280
+            "value": 568
         },
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 3
+            "value": 2
         }
     },
     "targetFile": "fi_TargetPanel_Z_0.ghuie",

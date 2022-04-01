@@ -204,6 +204,7 @@
                     },
                     {
                         "anchorBottom": {
+                            "anchorMargin": 2,
                             "anchorTarget": "parent",
                             "anchorValue": "Bottom"
                         },
@@ -216,7 +217,7 @@
                             "anchorValue": "Right"
                         },
                         "anchorTop": {
-                            "anchorMargin": 8,
+                            "anchorMargin": 6,
                             "anchorTarget": "parent",
                             "anchorValue": "Top"
                         },
@@ -249,7 +250,7 @@
                             "y": {
                                 "name": "y",
                                 "type": "Int",
-                                "value": 8
+                                "value": 6
                             },
                             "z": {
                                 "name": "z",
@@ -263,6 +264,7 @@
                     },
                     {
                         "anchorBottom": {
+                            "anchorMargin": 2,
                             "anchorTarget": "parent",
                             "anchorValue": "Bottom"
                         },
@@ -275,7 +277,7 @@
                             "anchorValue": "Right"
                         },
                         "anchorTop": {
-                            "anchorMargin": 8,
+                            "anchorMargin": 6,
                             "anchorTarget": "parent",
                             "anchorValue": "Top"
                         },
@@ -319,7 +321,7 @@
                             "y": {
                                 "name": "y",
                                 "type": "Int",
-                                "value": 8
+                                "value": 6
                             },
                             "z": {
                                 "name": "z",

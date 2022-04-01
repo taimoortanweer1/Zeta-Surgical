@@ -291,7 +291,7 @@
                             "border-color": {
                                 "name": "border-color",
                                 "type": "Color",
-                                "value": "Outline/Module"
+                                "value": "Outline/White"
                             },
                             "border-width": {
                                 "name": "border-width",

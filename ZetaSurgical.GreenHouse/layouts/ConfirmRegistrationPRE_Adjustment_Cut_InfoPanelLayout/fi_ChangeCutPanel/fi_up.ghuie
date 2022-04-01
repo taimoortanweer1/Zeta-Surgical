@@ -31,6 +31,12 @@
             "value": 4
         }
     },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_up__onEvent__clicked()\n"
+        }
+    },
     "targetFile": "fi_up.ghuie",
     "type": "ZetaSurgicalSet.ArrowButtonUp",
     "userDefined": false

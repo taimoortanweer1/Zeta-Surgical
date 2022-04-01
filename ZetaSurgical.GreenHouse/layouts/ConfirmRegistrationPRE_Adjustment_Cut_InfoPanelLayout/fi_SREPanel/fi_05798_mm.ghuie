@@ -51,6 +51,8 @@
             "value": "FixedHeight"
         },
         "text": {
+            "bindingProp": "registrationAccuracyString",
+            "bindingSrc": "PlanningPresenter",
             "name": "text",
             "type": "TranslatableString",
             "uuid": "FigmaNode::46:2512",

@@ -98,8 +98,9 @@ Item {
         anchors.left: parent.left
         anchors.right: parent.right
         anchors.top: parent.top
-        anchors.topMargin: 8
+        anchors.topMargin: 6
         anchors.bottom: parent.bottom
+        anchors.bottomMargin: 2
         z: 1
         source: GreenHouseThemeManager.theme.asset("/Icons/DownTriangle__DefaultState.png")
         visible: default_StateParent.visible
@@ -109,8 +110,9 @@ Item {
         anchors.left: parent.left
         anchors.right: parent.right
         anchors.top: parent.top
-        anchors.topMargin: 8
+        anchors.topMargin: 6
         anchors.bottom: parent.bottom
+        anchors.bottomMargin: 2
         z: 1
         source: icon___default.source
         opacity: icon___default.opacity

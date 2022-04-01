@@ -286,5 +286,21 @@
         "colorHEX": "#ff1b1d20",
         "colorR": 27,
         "name": "PanelBackground/Grey 0"
+    },
+    {
+        "colorA": 255,
+        "colorB": 255,
+        "colorG": 255,
+        "colorHEX": "#ffffffff",
+        "colorR": 255,
+        "name": "Outline/White"
+    },
+    {
+        "colorA": 255,
+        "colorB": 65,
+        "colorG": 233,
+        "colorHEX": "#ff00e941",
+        "colorR": 0,
+        "name": "Text/Green"
     }
 ]

@@ -1,5 +1,25 @@
 {
     "base": "Displayable",
     "name": "ConfirmRegistrationPRE_Adjustment_Cut_InfoPanelIFace",
+    "signals": {
+        "fi_Buttons_RegularSmaller__onEvent__clicked": {
+            "name": "fi_Buttons_RegularSmaller__onEvent__clicked"
+        },
+        "fi_down__onEvent__clicked": {
+            "name": "fi_down__onEvent__clicked"
+        },
+        "fi_left__onEvent__clicked": {
+            "name": "fi_left__onEvent__clicked"
+        },
+        "fi_proceedToDraping__onEvent__clicked": {
+            "name": "fi_proceedToDraping__onEvent__clicked"
+        },
+        "fi_right__onEvent__clicked": {
+            "name": "fi_right__onEvent__clicked"
+        },
+        "fi_up__onEvent__clicked": {
+            "name": "fi_up__onEvent__clicked"
+        }
+    },
     "targetFile": "ConfirmRegistrationPRE_Adjustment_Cut_InfoPanelIFace.ghli"
 }

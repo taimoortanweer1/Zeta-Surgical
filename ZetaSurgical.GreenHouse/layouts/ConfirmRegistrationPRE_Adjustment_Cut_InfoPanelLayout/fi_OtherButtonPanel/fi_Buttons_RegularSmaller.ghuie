@@ -37,6 +37,12 @@
             "value": 2
         }
     },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_Buttons_RegularSmaller__onEvent__clicked()\n"
+        }
+    },
     "targetFile": "fi_Buttons_RegularSmaller.ghuie",
     "type": "ZetaSurgicalSet.Buttons_RegularSmaller",
     "userDefined": false

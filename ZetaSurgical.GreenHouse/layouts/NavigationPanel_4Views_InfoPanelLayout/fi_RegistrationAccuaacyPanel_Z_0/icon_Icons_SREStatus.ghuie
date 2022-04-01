@@ -1,0 +1,52 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 84,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 49,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "430:2464"
+    },
+    "id": "icon_Icons_SREStatus",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 95
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/Icons/SREStatus__InvalidState.png"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 88
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 84
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 49
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 3
+        }
+    },
+    "targetFile": "icon_Icons_SREStatus.ghuie",
+    "type": "Image",
+    "userDefined": false
+}

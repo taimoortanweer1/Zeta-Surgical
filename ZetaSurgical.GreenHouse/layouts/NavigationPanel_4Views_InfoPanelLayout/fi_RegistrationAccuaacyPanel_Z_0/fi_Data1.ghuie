@@ -1,11 +1,11 @@
 {
     "anchorLeft": {
-        "anchorMargin": 32,
+        "anchorMargin": 16,
         "anchorTarget": "parent",
         "anchorValue": "Left"
     },
     "anchorTop": {
-        "anchorMargin": 176,
+        "anchorMargin": 16,
         "anchorTarget": "parent",
         "anchorValue": "Top"
     },
@@ -18,27 +18,27 @@
         "border-bottom": {
             "name": "border-bottom",
             "type": "Int",
-            "value": 10
+            "value": 50
         },
         "border-left": {
             "name": "border-left",
             "type": "Int",
-            "value": 10
+            "value": 50
         },
         "border-right": {
             "name": "border-right",
             "type": "Int",
-            "value": 10
+            "value": 50
         },
         "border-top": {
             "name": "border-top",
             "type": "Int",
-            "value": 10
+            "value": 50
         },
         "height": {
             "name": "height",
             "type": "Int",
-            "value": 112
+            "value": 200
         },
         "source": {
             "name": "source",
@@ -48,22 +48,17 @@
         "width": {
             "name": "width",
             "type": "Int",
-            "value": 192
+            "value": 424
         },
         "x": {
             "name": "x",
             "type": "Int",
-            "value": 32
+            "value": 16
         },
         "y": {
             "name": "y",
             "type": "Int",
-            "value": 176
-        },
-        "z": {
-            "name": "z",
-            "type": "Int",
-            "value": 6
+            "value": 16
         }
     },
     "targetFile": "fi_Data1.ghuie",

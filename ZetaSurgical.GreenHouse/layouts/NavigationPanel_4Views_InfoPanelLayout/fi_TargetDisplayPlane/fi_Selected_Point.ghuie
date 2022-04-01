@@ -1,9 +1,4 @@
 {
-    "anchorBottom": {
-        "anchorMargin": 158,
-        "anchorTarget": "parent",
-        "anchorValue": "Bottom"
-    },
     "anchorLeft": {
         "anchorMargin": 15,
         "anchorTarget": "parent",
@@ -33,7 +28,7 @@
         "height": {
             "name": "height",
             "type": "Int",
-            "value": 75
+            "value": 74
         },
         "horizontalAlignment": {
             "name": "horizontalAlignment",
@@ -59,7 +54,7 @@
         "textColor": {
             "name": "textColor",
             "type": "Color",
-            "value": "Dark Ink"
+            "value": "Outline/White"
         },
         "verticalAlignment": {
             "name": "verticalAlignment",

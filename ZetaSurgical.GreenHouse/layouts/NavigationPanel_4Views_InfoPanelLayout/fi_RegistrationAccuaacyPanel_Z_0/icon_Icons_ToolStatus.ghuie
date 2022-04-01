@@ -1,0 +1,52 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 293,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 49,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "432:2469"
+    },
+    "id": "icon_Icons_ToolStatus",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 96
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/Icons/ToolStatus__ValidState.png"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 70
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 293
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 49
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 4
+        }
+    },
+    "targetFile": "icon_Icons_ToolStatus.ghuie",
+    "type": "Image",
+    "userDefined": false
+}

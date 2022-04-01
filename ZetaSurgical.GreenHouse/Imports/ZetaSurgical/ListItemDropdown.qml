@@ -123,7 +123,7 @@ Item {
         anchors.top: parent.top
         anchors.bottom: parent.bottom
         color: GreenHouseThemeManager.theme.color("Fill/Light Grey 1")
-        border.color: GreenHouseThemeManager.theme.color("Outline/Module")
+        border.color: GreenHouseThemeManager.theme.color("Outline/White")
         border.width: 1
         visible: default_StateParent.visible
     }

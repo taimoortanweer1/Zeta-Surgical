@@ -18,12 +18,12 @@
         "y": {
             "name": "y",
             "type": "Int",
-            "value": 528
+            "value": 816
         },
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 2
+            "value": 1
         }
     },
     "targetFile": "fi_InstrumentPanel_Z_0.ghuie",

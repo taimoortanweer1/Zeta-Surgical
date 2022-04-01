@@ -1,9 +1,4 @@
 {
-    "anchorBottom": {
-        "anchorMargin": 88,
-        "anchorTarget": "parent",
-        "anchorValue": "Bottom"
-    },
     "anchorLeft": {
         "anchorMargin": 15,
         "anchorTarget": "parent",
@@ -15,7 +10,7 @@
         "anchorValue": "Right"
     },
     "anchorTop": {
-        "anchorMargin": 88,
+        "anchorMargin": 87,
         "anchorTarget": "parent",
         "anchorValue": "Top"
     },
@@ -33,7 +28,7 @@
         "height": {
             "name": "height",
             "type": "Int",
-            "value": 72
+            "value": 74
         },
         "horizontalAlignment": {
             "name": "horizontalAlignment",
@@ -59,7 +54,7 @@
         "textColor": {
             "name": "textColor",
             "type": "Color",
-            "value": "Dark Ink"
+            "value": "Outline/White"
         },
         "verticalAlignment": {
             "name": "verticalAlignment",
@@ -84,7 +79,7 @@
         "y": {
             "name": "y",
             "type": "Int",
-            "value": 88
+            "value": 87
         },
         "z": {
             "name": "z",

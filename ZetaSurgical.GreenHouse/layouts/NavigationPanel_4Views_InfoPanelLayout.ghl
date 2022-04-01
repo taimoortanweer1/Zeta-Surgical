@@ -18,6 +18,15 @@
                         "FIGMA_ID": "387:2243"
                     },
                     "id": "fi_tool1",
+                    "properties": {
+                        "fi_EXAMPLE_text": {
+                            "bindingRole": "text",
+                            "name": "fi_EXAMPLE_text",
+                            "type": "TranslatableString",
+                            "uuid": "FigmaNode::I387:2243;387:2227",
+                            "value": "EXAMPLE"
+                        }
+                    },
                     "targetFile": "fi_tool1.ghuie",
                     "type": "ZetaSurgicalSet.SelectButtonDelegate",
                     "userDefined": false
@@ -26,6 +35,8 @@
             "childrenSplit": true,
             "id": "fi_ListView_InstrumentsTable_Fit_Delegate_delegate",
             "model": {
+                "bindingProp": "instrumentsList",
+                "bindingSrc": "PlanningPresenter",
                 "name": "modelProperty",
                 "type": "Model",
                 "value": null
@@ -62,6 +73,15 @@
                         "FIGMA_ID": "387:2238"
                     },
                     "id": "fi_target2",
+                    "properties": {
+                        "fi_EXAMPLE_text": {
+                            "bindingRole": "text",
+                            "name": "fi_EXAMPLE_text",
+                            "type": "TranslatableString",
+                            "uuid": "FigmaNode::I387:2238;387:2227",
+                            "value": "EXAMPLE"
+                        }
+                    },
                     "targetFile": "fi_target2.ghuie",
                     "type": "ZetaSurgicalSet.SelectButtonDelegate",
                     "userDefined": false
@@ -70,6 +90,8 @@
             "childrenSplit": true,
             "id": "fi_ListView_SelectedPointsTable_Fit_Delegate_delegate",
             "model": {
+                "bindingProp": "targetsList",
+                "bindingSrc": "PlanningPresenter",
                 "name": "modelProperty",
                 "type": "Model",
                 "value": null
@@ -105,6 +127,6 @@
         "type": "Sequential"
     },
     "targetFile": "NavigationPanel_4Views_InfoPanelLayout.ghl",
-    "uuid": "{87d93e94-924e-43f9-be3d-907e001b9421}",
+    "uuid": "{2f11dda4-37a2-4e93-ac01-a0d8ff706f8f}",
     "width": 456
 }

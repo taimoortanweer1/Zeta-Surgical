@@ -39,7 +39,7 @@
         "textColor": {
             "name": "textColor",
             "type": "Color",
-            "value": "Dark Ink"
+            "value": "Outline/White"
         },
         "width": {
             "name": "width",

@@ -30,6 +30,13 @@
             "type": "Delegate",
             "value": "fi_ListView_InstrumentsTable_Fit_Delegate_delegate"
         },
+        "viewModel": {
+            "bindingProp": "instrumentsList",
+            "bindingSrc": "PlanningPresenter",
+            "name": "viewModel",
+            "type": "Model",
+            "value": "null"
+        },
         "width": {
             "name": "width",
             "type": "Int",

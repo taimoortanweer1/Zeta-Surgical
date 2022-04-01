@@ -1,13 +1,13 @@
 {
-    "anchorBottom": {
-        "anchorMargin": 135,
-        "anchorTarget": "parent",
-        "anchorValue": "Bottom"
-    },
     "anchorLeft": {
         "anchorMargin": 31,
         "anchorTarget": "parent",
         "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 151,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
     },
     "childrenSplit": true,
     "extraData": {
@@ -23,7 +23,7 @@
         "height": {
             "name": "height",
             "type": "Int",
-            "value": 42
+            "value": 66
         },
         "horizontalAlignment": {
             "name": "horizontalAlignment",
@@ -49,7 +49,7 @@
         "textColor": {
             "name": "textColor",
             "type": "Color",
-            "value": "Dark Ink"
+            "value": "Outline/White"
         },
         "verticalAlignment": {
             "name": "verticalAlignment",
@@ -74,12 +74,12 @@
         "y": {
             "name": "y",
             "type": "Int",
-            "value": 135
+            "value": 151
         },
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 2
+            "value": 1
         }
     },
     "targetFile": "fi_Head_in_View.ghuie",

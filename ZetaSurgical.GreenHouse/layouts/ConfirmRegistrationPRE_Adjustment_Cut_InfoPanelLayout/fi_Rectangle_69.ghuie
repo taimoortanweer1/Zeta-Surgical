@@ -5,25 +5,35 @@
     },
     "id": "fi_Rectangle_69",
     "properties": {
-        "border-color": {
-            "name": "border-color",
-            "type": "Color",
-            "value": "Figma::0_0_0_0"
-        },
-        "border-width": {
-            "name": "border-width",
+        "border-bottom": {
+            "name": "border-bottom",
             "type": "Int",
-            "value": 1
+            "value": 15
         },
-        "color": {
-            "name": "color",
-            "type": "Color",
-            "value": "Figma::255_121_66_27"
+        "border-left": {
+            "name": "border-left",
+            "type": "Int",
+            "value": 15
+        },
+        "border-right": {
+            "name": "border-right",
+            "type": "Int",
+            "value": 15
+        },
+        "border-top": {
+            "name": "border-top",
+            "type": "Int",
+            "value": 15
         },
         "height": {
             "name": "height",
             "type": "Int",
             "value": 32
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/46_2495.png"
         },
         "width": {
             "name": "width",
@@ -47,6 +57,6 @@
         }
     },
     "targetFile": "fi_Rectangle_69.ghuie",
-    "type": "Rectangle",
+    "type": "BorderImage",
     "userDefined": false
 }

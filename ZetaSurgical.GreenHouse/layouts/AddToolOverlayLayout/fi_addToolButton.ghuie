@@ -32,6 +32,12 @@
             "value": 2
         }
     },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_addToolButton__onEvent__clicked()\n"
+        }
+    },
     "targetFile": "fi_addToolButton.ghuie",
     "type": "ZetaSurgicalSet.NextButton",
     "userDefined": false

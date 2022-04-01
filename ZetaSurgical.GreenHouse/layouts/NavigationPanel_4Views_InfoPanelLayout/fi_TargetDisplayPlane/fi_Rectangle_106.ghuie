@@ -44,7 +44,7 @@
         "height": {
             "name": "height",
             "type": "Int",
-            "value": 248
+            "value": 320
         },
         "source": {
             "name": "source",

@@ -19,6 +19,24 @@
                     "type": "RawCode"
                 }
             ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_addToolButton__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PlanningPresenter, co) co->onAddNewToolClicked();\n}\n",
+                    "type": "RawCode"
+                }
+            ]
         }
     ]
 }

@@ -32,7 +32,7 @@ Item {
     property alias fi_02_14_2022_richText: fi_02_14_2022___default.richText
     //TRANSLATABLE 02/14/2022
     property alias fi_02_14_2022_text: fi_02_14_2022___default.text
-    //COLOR Dark Ink
+    //COLOR Outline/White
     property alias fi_02_14_2022_textColor: fi_02_14_2022___default.textColor
     //TEXTVAL 128
     property alias fi_02_14_2022_verticalAlignment: fi_02_14_2022___default.verticalAlignment
@@ -50,7 +50,7 @@ Item {
     property alias fi_02_2_2022_richText: fi_02_2_2022___default.richText
     //TRANSLATABLE 02/1/2022
     property alias fi_02_2_2022_text: fi_02_2_2022___default.text
-    //COLOR Dark Ink
+    //COLOR Outline/White
     property alias fi_02_2_2022_textColor: fi_02_2_2022___default.textColor
     //TEXTVAL 128
     property alias fi_02_2_2022_verticalAlignment: fi_02_2_2022___default.verticalAlignment
@@ -68,7 +68,7 @@ Item {
     property alias fi_5_richText: fi_5___default.richText
     //TRANSLATABLE 5
     property alias fi_5_text: fi_5___default.text
-    //COLOR Dark Ink
+    //COLOR Outline/White
     property alias fi_5_textColor: fi_5___default.textColor
     //TEXTVAL 128
     property alias fi_5_verticalAlignment: fi_5___default.verticalAlignment
@@ -86,7 +86,7 @@ Item {
     property alias fi_BWH12345_richText: fi_BWH12345___default.richText
     //TRANSLATABLE BWH-12344
     property alias fi_BWH12345_text: fi_BWH12345___default.text
-    //COLOR Dark Ink
+    //COLOR Outline/White
     property alias fi_BWH12345_textColor: fi_BWH12345___default.textColor
     //TEXTVAL 128
     property alias fi_BWH12345_verticalAlignment: fi_BWH12345___default.verticalAlignment
@@ -104,7 +104,7 @@ Item {
     property alias fi_CT_Scans_and_stuff_richText: fi_CT_Scans_and_stuff___default.richText
     //TRANSLATABLE CT scans and MRI things
     property alias fi_CT_Scans_and_stuff_text: fi_CT_Scans_and_stuff___default.text
-    //COLOR Dark Ink
+    //COLOR Outline/White
     property alias fi_CT_Scans_and_stuff_textColor: fi_CT_Scans_and_stuff___default.textColor
     //TEXTVAL 128
     property alias fi_CT_Scans_and_stuff_verticalAlignment: fi_CT_Scans_and_stuff___default.verticalAlignment
@@ -177,7 +177,7 @@ Item {
         height: 98
         text: qsTr("02/1/2022", "FigmaNode::164:7742") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::164:7742") : "")
         font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_28_50_0_0_0_0_0.2")
-        textColor: GreenHouseThemeManager.theme.color("Dark Ink")
+        textColor: GreenHouseThemeManager.theme.color("Outline/White")
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
         wrapMode: Text.WordWrap
@@ -195,7 +195,7 @@ Item {
         height: 98
         text: qsTr("BWH-12344", "FigmaNode::164:7743") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::164:7743") : "")
         font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_28_50_0_0_0_0_0.2")
-        textColor: GreenHouseThemeManager.theme.color("Dark Ink")
+        textColor: GreenHouseThemeManager.theme.color("Outline/White")
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
         wrapMode: Text.WordWrap
@@ -213,7 +213,7 @@ Item {
         height: 98
         text: qsTr("CT scans and MRI things", "FigmaNode::164:7744") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::164:7744") : "")
         font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_28_50_0_0_0_0_0.2")
-        textColor: GreenHouseThemeManager.theme.color("Dark Ink")
+        textColor: GreenHouseThemeManager.theme.color("Outline/White")
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
         wrapMode: Text.WordWrap
@@ -231,7 +231,7 @@ Item {
         height: 98
         text: qsTr("5", "FigmaNode::164:7745") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::164:7745") : "")
         font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_28_50_0_0_0_0_0.2")
-        textColor: GreenHouseThemeManager.theme.color("Dark Ink")
+        textColor: GreenHouseThemeManager.theme.color("Outline/White")
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
         wrapMode: Text.WordWrap
@@ -249,7 +249,7 @@ Item {
         height: 98
         text: qsTr("02/14/2022", "FigmaNode::164:7746") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::164:7746") : "")
         font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_28_50_0_0_0_0_0.2")
-        textColor: GreenHouseThemeManager.theme.color("Dark Ink")
+        textColor: GreenHouseThemeManager.theme.color("Outline/White")
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
         wrapMode: Text.WordWrap

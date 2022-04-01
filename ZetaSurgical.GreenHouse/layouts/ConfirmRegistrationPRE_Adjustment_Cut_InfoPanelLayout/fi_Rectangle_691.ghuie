@@ -1,0 +1,62 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "46:2493"
+    },
+    "id": "fi_Rectangle_691",
+    "properties": {
+        "border-bottom": {
+            "name": "border-bottom",
+            "type": "Int",
+            "value": 15
+        },
+        "border-left": {
+            "name": "border-left",
+            "type": "Int",
+            "value": 15
+        },
+        "border-right": {
+            "name": "border-right",
+            "type": "Int",
+            "value": 15
+        },
+        "border-top": {
+            "name": "border-top",
+            "type": "Int",
+            "value": 15
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 32
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/46_2493.png"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 32
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 240
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 593
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "targetFile": "fi_Rectangle_691.ghuie",
+    "type": "BorderImage",
+    "userDefined": false
+}

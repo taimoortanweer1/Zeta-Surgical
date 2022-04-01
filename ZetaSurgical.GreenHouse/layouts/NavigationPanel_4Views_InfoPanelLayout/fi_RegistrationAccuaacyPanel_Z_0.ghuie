@@ -8,7 +8,7 @@
         "height": {
             "name": "height",
             "type": "Int",
-            "value": 312
+            "value": 232
         },
         "width": {
             "name": "width",
@@ -18,12 +18,12 @@
         "y": {
             "name": "y",
             "type": "Int",
-            "value": 760
+            "value": 336
         },
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 1
+            "value": 4
         }
     },
     "targetFile": "fi_RegistrationAccuaacyPanel_Z_0.ghuie",

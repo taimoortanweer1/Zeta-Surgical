@@ -1,0 +1,114 @@
+{
+    "source": "ConfirmRegistrationPRE_Adjustment_Cut_InfoPanel",
+    "targetFile": "ConfirmRegistrationPRE_Adjustment_Cut_InfoPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_up__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PlanningPresenter, co) co->onCutLocationUpClicked();\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_down__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PlanningPresenter, co) co->onCutLocationDownClicked();\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_left__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PlanningPresenter, co) co->onCutLocationLeftClicked();\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_right__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PlanningPresenter, co) co->onCutLocationRightClicked();\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_Buttons_RegularSmaller__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PlanningPresenter, co) co->onProceedWithoutDrapingClicked();\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_proceedToDraping__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PlanningPresenter, co) co->onProceedToDrapingClicked();\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "source": "NavPanel",
+    "target": "LoginView_LoginSuccess_NavPanel",
+    "targetFile": "NavPanel_LoginView_LoginSuccess_NavPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceNavPanelMoveToLoginView_LoginSuccess_NavPanel"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

@@ -54,12 +54,12 @@
             "name": "text",
             "type": "TranslatableString",
             "uuid": "FigmaNode::46:2253",
-            "value": "X value"
+            "value": "X "
         },
         "textColor": {
             "name": "textColor",
             "type": "Color",
-            "value": "Dark Ink"
+            "value": "Outline/White"
         },
         "verticalAlignment": {
             "name": "verticalAlignment",

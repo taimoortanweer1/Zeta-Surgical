@@ -1,0 +1,49 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 131,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 111,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "id": "fi_Union",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 40
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/368_3619.png"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 40
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 131
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 111
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 3
+        }
+    },
+    "targetFile": "fi_Union.ghuie",
+    "type": "Image",
+    "userDefined": false
+}

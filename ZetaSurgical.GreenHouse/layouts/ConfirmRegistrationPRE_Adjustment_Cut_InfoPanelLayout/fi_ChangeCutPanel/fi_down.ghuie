@@ -15,11 +15,6 @@
     },
     "id": "fi_down",
     "properties": {
-        "rotation": {
-            "name": "rotation",
-            "type": "Float",
-            "value": -180
-        },
         "x": {
             "name": "x",
             "type": "Int",
@@ -34,6 +29,12 @@
             "name": "z",
             "type": "Int",
             "value": 3
+        }
+    },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_down__onEvent__clicked()\n"
         }
     },
     "targetFile": "fi_down.ghuie",

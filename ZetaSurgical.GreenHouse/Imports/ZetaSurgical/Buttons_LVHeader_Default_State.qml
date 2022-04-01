@@ -20,7 +20,7 @@ Item {
     property alias fi_Label_font: fi_Label.font
     //TEXTHAL 1
     property alias fi_Label_horizontalAlignment: fi_Label.horizontalAlignment
-    //COLOR Dark Ink
+    //COLOR Outline/White
     property alias fi_Label_labelColor: fi_Label.textColor
     //REAL 20
     property alias fi_Label_lineHeight: fi_Label.lineHeight
@@ -73,7 +73,7 @@ Item {
         anchors.bottomMargin: -1
         text: qsTr("Name", "FigmaNode::365:2926") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::365:2926") : "")
         font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_24_50_0_0_0_0_0.2")
-        textColor: GreenHouseThemeManager.theme.color("Dark Ink")
+        textColor: GreenHouseThemeManager.theme.color("Outline/White")
         verticalAlignment: Text.AlignVCenter
         wrapMode: Text.WordWrap
         lineHeight: 20

@@ -1,9 +1,4 @@
 {
-    "anchorBottom": {
-        "anchorMargin": 158,
-        "anchorTarget": "parent",
-        "anchorValue": "Bottom"
-    },
     "anchorLeft": {
         "anchorMargin": 183,
         "anchorTarget": "parent",
@@ -33,7 +28,7 @@
         "height": {
             "name": "height",
             "type": "Int",
-            "value": 75
+            "value": 74
         },
         "lineHeight": {
             "name": "lineHeight",
@@ -46,6 +41,8 @@
             "value": "FixedHeight"
         },
         "text": {
+            "bindingProp": "selectedPointString",
+            "bindingSrc": "PlanningPresenter",
             "name": "text",
             "type": "TranslatableString",
             "uuid": "FigmaNode::40:4088",
@@ -84,7 +81,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 4
+            "value": 5
         }
     },
     "targetFile": "fi_Target_1.ghuie",
