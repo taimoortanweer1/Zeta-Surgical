@@ -19,6 +19,13 @@
             "uuid": "FigmaNode::I40:4239;11:1229",
             "value": "Proceed to Study Selection"
         },
+        "highlighted_flag": {
+            "bindingProp": "patientIsSelected",
+            "bindingSrc": "PatientsDatabase",
+            "name": "highlighted_flag",
+            "type": "Bool",
+            "value": false
+        },
         "width": {
             "name": "width",
             "type": "Int",

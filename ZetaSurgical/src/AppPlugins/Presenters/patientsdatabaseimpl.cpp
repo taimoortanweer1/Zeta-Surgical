@@ -96,10 +96,12 @@ void PatientsDatabaseImpl::selectPatient(int index)
     setSelectedPatientNameString(m_filterModel->getData(index, PatientsModel::Name).toString());
     setSelectedPatientDOBString(m_filterModel->getData(index, PatientsModel::DOB).toString());
     setSelectedPatientMRNString(m_filterModel->getData(index, PatientsModel::MRN).toString());
+    setPatientIsSelected(index >= 0 );
 }
 
 void PatientsDatabaseImpl::viewSelected(const QVariant &value, int index)
 {
+    Q_UNUSED(index);
     setSelectedViewString(value.toString());
 }
 

@@ -467,6 +467,12 @@
                 "name": "selectedSourceIndex",
                 "preview": -1,
                 "type": "Int"
+            },
+            {
+                "name": "patientIsSelected",
+                "preview": null,
+                "readonly": true,
+                "type": "Bool"
             }
         ]
     },
