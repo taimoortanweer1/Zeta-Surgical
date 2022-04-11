@@ -13,6 +13,13 @@
     },
     "id": "fi_continue",
     "properties": {
+        "enabled": {
+            "bindingProp": "patientIsSelected",
+            "bindingSrc": "PatientsDatabase",
+            "name": "enabled",
+            "type": "Bool",
+            "value": true
+        },
         "fi_BUTTON_TEXT_text": {
             "name": "fi_BUTTON_TEXT_text",
             "type": "TranslatableString",

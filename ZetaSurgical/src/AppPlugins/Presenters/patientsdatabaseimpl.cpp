@@ -87,6 +87,9 @@ void PatientsDatabaseImpl::onFilterEditRequested()
 
 void PatientsDatabaseImpl::onProceedToStudySelection()
 {
+    setCdUsbSourceAvailable(selectedSourceIndex() == StorageSource::CDUSB);
+    setPacsSourceAvailable(selectedSourceIndex() == StorageSource::PACS);
+    setLocalSourceAvailable(selectedSourceIndex() == StorageSource::Local);
     emit patientSelected();
 }
 
@@ -117,6 +120,9 @@ void PatientsDatabaseImpl::onSelectStorageSource(int index)
 
 void PatientsDatabaseImpl::onShowPatientsList()
 {
+    setCdUsbSourceAvailable(true);
+    setPacsSourceAvailable(true);
+    setLocalSourceAvailable(true);
     onSelectStorageSource(StorageSource::Local);
 }
 
