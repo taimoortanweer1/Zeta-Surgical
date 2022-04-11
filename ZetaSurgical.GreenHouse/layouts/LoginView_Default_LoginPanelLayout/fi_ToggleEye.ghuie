@@ -1,0 +1,45 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "501:2562"
+    },
+    "id": "fi_ToggleEye",
+    "properties": {
+        "clip": {
+            "name": "clip",
+            "type": "Bool",
+            "value": true
+        },
+        "on": {
+            "bindingProp": "passwordIsVisible",
+            "bindingSrc": "LoginPresenter",
+            "name": "on",
+            "type": "Bool",
+            "value": false
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 592
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 216
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 5
+        }
+    },
+    "signals": {
+        "toggled": {
+            "name": "toggled",
+            "rawCode": "root.itemInterface.fi_ToggleEye__onEvent__toggled(!LoginPresenter.passwordIsVisible)\n"
+        }
+    },
+    "targetFile": "fi_ToggleEye.ghuie",
+    "type": "ZetaSurgicalSet.ToggleEye",
+    "userDefined": false
+}

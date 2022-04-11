@@ -1,0 +1,47 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 32,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 528,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "496:3153"
+    },
+    "id": "fi_ChangeCutPanel",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 176
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 392
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 32
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 528
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 9
+        }
+    },
+    "targetFile": "fi_ChangeCutPanel.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

@@ -1,0 +1,18 @@
+{
+    "source": "BackgroundPanelHidden",
+    "target": "LoginView_Default_BackgroundPanel",
+    "targetFile": "BackgroundPanelHidden_LoginView_Default_BackgroundPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "showBackgroundPanel"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

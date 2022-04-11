@@ -1,0 +1,37 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 208,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 80,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "496:3156"
+    },
+    "id": "fi_left",
+    "properties": {
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 208
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 80
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "targetFile": "fi_left.ghuie",
+    "type": "ZetaSurgicalSet.ArrowButtonLeft",
+    "userDefined": false
+}

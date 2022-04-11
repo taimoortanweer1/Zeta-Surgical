@@ -1,0 +1,78 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 79,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 552,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "496:2681"
+    },
+    "id": "fi_Push_and_extend_NEST_across_the_bed_similar_to_the_diagram_shown_above",
+    "properties": {
+        "font": {
+            "name": "font",
+            "type": "Font",
+            "value": "Figma::Arial_ArialMT_22_50_0_0_0_0_0.2"
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 122
+        },
+        "lineHeight": {
+            "name": "lineHeight",
+            "type": "Float",
+            "value": 30
+        },
+        "lineHeightMode": {
+            "name": "lineHeightMode",
+            "type": "TextLineHeightMode",
+            "value": "FixedHeight"
+        },
+        "text": {
+            "name": "text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::496:2681",
+            "value": "Push and extend NEST across the bed similar to the diagram shown above"
+        },
+        "textColor": {
+            "name": "textColor",
+            "type": "Color",
+            "value": "Outline/White"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 314
+        },
+        "wrapMode": {
+            "name": "wrapMode",
+            "type": "TextWrapMode",
+            "value": "WordWrap"
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 79
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 552
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 6
+        }
+    },
+    "targetFile": "fi_Push_and_extend_NEST_across_the_bed_similar_to_the_diagram_shown_above.ghuie",
+    "type": "ComponentsSet.Label",
+    "userDefined": false
+}

@@ -98,10 +98,9 @@
                         },
                         "children": [
                             {
-                                "anchorRight": {
-                                    "anchorMargin": 20,
+                                "anchorHCenter": {
                                     "anchorTarget": "parent",
-                                    "anchorValue": "Right"
+                                    "anchorValue": "HorizontalCenter"
                                 },
                                 "anchorTop": {
                                     "anchorMargin": 16,
@@ -109,40 +108,32 @@
                                     "anchorValue": "Top"
                                 },
                                 "childrenSplit": true,
-                                "extraData": {
-                                    "FIGMA_ID": "159:6126"
-                                },
                                 "id": "icon___complete",
                                 "properties": {
                                     "height": {
                                         "name": "height",
                                         "type": "Int",
-                                        "value": 20
+                                        "value": 88
                                     },
                                     "source": {
                                         "name": "source",
                                         "type": "Asset",
-                                        "value": "/Icons/NavStatus__DefaultState.png"
+                                        "value": "/Icons/NavbarPlanning__CompletedState.png"
                                     },
                                     "width": {
                                         "name": "width",
                                         "type": "Int",
-                                        "value": 20
+                                        "value": 88
                                     },
                                     "x": {
                                         "name": "x",
                                         "type": "Int",
-                                        "value": 88
+                                        "value": 20
                                     },
                                     "y": {
                                         "name": "y",
                                         "type": "Int",
                                         "value": 16
-                                    },
-                                    "z": {
-                                        "name": "z",
-                                        "type": "Int",
-                                        "value": 2
                                     }
                                 },
                                 "targetFile": "icon___complete.ghuie",

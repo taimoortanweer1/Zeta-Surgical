@@ -1,7 +1,7 @@
 {
     "childrenSplit": true,
     "extraData": {
-        "FIGMA_ID": "40:2176"
+        "FIGMA_ID": "496:2563"
     },
     "id": "fi_Bad",
     "properties": {
@@ -13,12 +13,12 @@
         "width": {
             "name": "width",
             "type": "Int",
-            "value": 240
+            "value": 392
         },
         "x": {
             "name": "x",
             "type": "Int",
-            "value": 108
+            "value": 32
         },
         "y": {
             "name": "y",

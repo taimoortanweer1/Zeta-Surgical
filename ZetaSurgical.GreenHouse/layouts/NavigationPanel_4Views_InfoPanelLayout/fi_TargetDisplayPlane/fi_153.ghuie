@@ -51,7 +51,7 @@
         "textColor": {
             "name": "textColor",
             "type": "Color",
-            "value": "Text/Blue 0 - Data"
+            "value": "Text/Data/Blue 0 - Data"
         },
         "verticalAlignment": {
             "name": "verticalAlignment",

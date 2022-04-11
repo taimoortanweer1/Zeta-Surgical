@@ -1,0 +1,30 @@
+{
+    "anchorBottom": {
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorLeft": {
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorRight": {
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "anchorTop": {
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "id": "fi_CartPositionGraphicAnimation_fill_0",
+    "properties": {
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/0c7e620d8aa452f8042e7cf70c1617666b1f2a75.png"
+        }
+    },
+    "targetFile": "fi_CartPositionGraphicAnimation_fill_0.ghuie",
+    "type": "Image",
+    "userDefined": false
+}

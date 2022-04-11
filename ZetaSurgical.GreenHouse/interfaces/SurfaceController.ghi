@@ -81,8 +81,11 @@
         "surfaceBackgroundPanelMoveToBackgroundPanel_Shared0": {
             "name": "surfaceBackgroundPanelMoveToBackgroundPanel_Shared0"
         },
-        "surfaceBackgroundPanelMoveToBackgroundPanel_Shared1": {
-            "name": "surfaceBackgroundPanelMoveToBackgroundPanel_Shared1"
+        "surfaceBackgroundPanelMoveToLoginView_Default_BackgroundPanel": {
+            "name": "surfaceBackgroundPanelMoveToLoginView_Default_BackgroundPanel"
+        },
+        "surfaceBackgroundPanelMoveToLoginView_LoginSuccess_BackgroundPanel": {
+            "name": "surfaceBackgroundPanelMoveToLoginView_LoginSuccess_BackgroundPanel"
         },
         "surfaceHeaderPanelMoveToHeaderPanel_Shared0": {
             "name": "surfaceHeaderPanelMoveToHeaderPanel_Shared0"
@@ -117,6 +120,9 @@
         "surfaceMainPanelMoveToPositionNEST_Variation1_MainPanel": {
             "name": "surfaceMainPanelMoveToPositionNEST_Variation1_MainPanel"
         },
+        "surfaceMainPanelMoveToPositionNEST_Variation2_MainPanel": {
+            "name": "surfaceMainPanelMoveToPositionNEST_Variation2_MainPanel"
+        },
         "surfaceMainPanelMoveToSegmentation_Default_MainPanel": {
             "name": "surfaceMainPanelMoveToSegmentation_Default_MainPanel"
         },
@@ -146,6 +152,9 @@
         },
         "surfaceRightInfoPanelMoveToPositionNEST_Variation1_RightInfoPanel": {
             "name": "surfaceRightInfoPanelMoveToPositionNEST_Variation1_RightInfoPanel"
+        },
+        "surfaceRightInfoPanelMoveToPositionNEST_Variation2_RightInfoPanel": {
+            "name": "surfaceRightInfoPanelMoveToPositionNEST_Variation2_RightInfoPanel"
         },
         "surfaceScreensBack": {
             "name": "surfaceScreensBack"

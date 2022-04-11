@@ -1,0 +1,18 @@
+{
+    "source": "BackgroundPanel",
+    "target": "LoginView_LoginSuccess_BackgroundPanel",
+    "targetFile": "BackgroundPanel_LoginView_LoginSuccess_BackgroundPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceBackgroundPanelMoveToLoginView_LoginSuccess_BackgroundPanel"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

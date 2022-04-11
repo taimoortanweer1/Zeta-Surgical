@@ -1,0 +1,47 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 672,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 112,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "496:2717"
+    },
+    "id": "fi_Instruction2",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 560
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 392
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 672
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 112
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "targetFile": "fi_Instruction2.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

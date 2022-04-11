@@ -1,0 +1,18 @@
+{
+    "source": "MainPanel",
+    "target": "PositionNEST_Variation2_MainPanel",
+    "targetFile": "MainPanel_PositionNEST_Variation2_MainPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceMainPanelMoveToPositionNEST_Variation2_MainPanel"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

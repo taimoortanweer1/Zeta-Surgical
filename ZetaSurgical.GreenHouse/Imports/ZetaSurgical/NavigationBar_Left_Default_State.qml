@@ -59,7 +59,7 @@ Item {
     property alias fi_Button_Navigation_Navigation_fi_Navigation_textColor: fi_Button_Navigation_Navigation.fi_Navigation_textColor
     //TEXTVAL 32
     property alias fi_Button_Navigation_Navigation_fi_Navigation_verticalAlignment: fi_Button_Navigation_Navigation.fi_Navigation_verticalAlignment
-    //ASSET /Icons/NavbarNavigation__DefaultState.png
+    //ASSET /Icons/NavbarNavigation__CompletedState.png
     property alias fi_Button_Navigation_Navigation_icon___complete_source: fi_Button_Navigation_Navigation.icon___complete_source
     //ASSET /Icons/NavbarNavigation__DefaultState.png
     property alias fi_Button_Navigation_Navigation_icon___default_source: fi_Button_Navigation_Navigation.icon___default_source
@@ -99,7 +99,7 @@ Item {
     property alias fi_Button_Navigation_Planning_fi_Planning_textColor: fi_Button_Navigation_Planning.fi_Planning_textColor
     //TEXTVAL 32
     property alias fi_Button_Navigation_Planning_fi_Planning_verticalAlignment: fi_Button_Navigation_Planning.fi_Planning_verticalAlignment
-    //ASSET /Icons/NavbarPlanning__DefaultState.png
+    //ASSET /Icons/NavbarPlanning__CompletedState.png
     property alias fi_Button_Navigation_Planning_icon___complete_source: fi_Button_Navigation_Planning.icon___complete_source
     //ASSET /Icons/NavbarPlanning__DefaultState.png
     property alias fi_Button_Navigation_Planning_icon___default_source: fi_Button_Navigation_Planning.icon___default_source
@@ -139,7 +139,7 @@ Item {
     property alias fi_Button_Navigation_Positioning_fi_Positioning_textColor: fi_Button_Navigation_Positioning.fi_Positioning_textColor
     //TEXTVAL 32
     property alias fi_Button_Navigation_Positioning_fi_Positioning_verticalAlignment: fi_Button_Navigation_Positioning.fi_Positioning_verticalAlignment
-    //ASSET /Icons/NavbarPositioning__DefaultState.png
+    //ASSET /Icons/NavbarPositioning__CompletedState.png
     property alias fi_Button_Navigation_Positioning_icon___complete_source: fi_Button_Navigation_Positioning.icon___complete_source
     //ASSET /Icons/NavbarPositioning__DefaultState.png
     property alias fi_Button_Navigation_Positioning_icon___default_source: fi_Button_Navigation_Positioning.icon___default_source
@@ -179,7 +179,7 @@ Item {
     property alias fi_Button_Navigation_Segmentation_fi_Segmentation_textColor: fi_Button_Navigation_Segmentation.fi_Segmentation_textColor
     //TEXTVAL 32
     property alias fi_Button_Navigation_Segmentation_fi_Segmentation_verticalAlignment: fi_Button_Navigation_Segmentation.fi_Segmentation_verticalAlignment
-    //ASSET /Icons/NavbarSegmentation__DefaultState.png
+    //ASSET /Icons/NavbarSegmentation__CompletedState.png
     property alias fi_Button_Navigation_Segmentation_icon___complete_source: fi_Button_Navigation_Segmentation.icon___complete_source
     //ASSET /Icons/NavbarSegmentation__DefaultState.png
     property alias fi_Button_Navigation_Segmentation_icon___default_source: fi_Button_Navigation_Segmentation.icon___default_source
@@ -219,7 +219,7 @@ Item {
     property alias fi_Button_Navigation_Upload_fi_Upload_textColor: fi_Button_Navigation_Upload.fi_Upload_textColor
     //TEXTVAL 32
     property alias fi_Button_Navigation_Upload_fi_Upload_verticalAlignment: fi_Button_Navigation_Upload.fi_Upload_verticalAlignment
-    //ASSET /Icons/NavbarUpload__DefaultState.png
+    //ASSET /Icons/NavbarUpload__SelectedState.png
     property alias fi_Button_Navigation_Upload_icon___complete_source: fi_Button_Navigation_Upload.icon___complete_source
     //ASSET /Icons/NavbarUpload__DefaultState.png
     property alias fi_Button_Navigation_Upload_icon___default_source: fi_Button_Navigation_Upload.icon___default_source
@@ -355,7 +355,6 @@ Item {
         anchors.top: parent.top
         anchors.topMargin: 128
         z: 2
-        icon___complete_source: GreenHouseThemeManager.theme.asset("/Icons/NavbarUpload__DefaultState.png")
 
         onClicked: {
             root.fi_Button_Navigation_Upload_clicked();
@@ -379,7 +378,6 @@ Item {
         anchors.top: parent.top
         anchors.topMargin: 264
         z: 3
-        icon___complete_source: GreenHouseThemeManager.theme.asset("/Icons/NavbarSegmentation__DefaultState.png")
 
         onClicked: {
             root.fi_Button_Navigation_Segmentation_clicked();
@@ -403,7 +401,6 @@ Item {
         anchors.top: parent.top
         anchors.topMargin: 400
         z: 4
-        icon___complete_source: GreenHouseThemeManager.theme.asset("/Icons/NavbarPlanning__DefaultState.png")
 
         onClicked: {
             root.fi_Button_Navigation_Planning_clicked();
@@ -427,7 +424,6 @@ Item {
         anchors.top: parent.top
         anchors.topMargin: 536
         z: 5
-        icon___complete_source: GreenHouseThemeManager.theme.asset("/Icons/NavbarPositioning__DefaultState.png")
 
         onClicked: {
             root.fi_Button_Navigation_Positioning_clicked();
@@ -451,7 +447,6 @@ Item {
         anchors.top: parent.top
         anchors.topMargin: 672
         z: 6
-        icon___complete_source: GreenHouseThemeManager.theme.asset("/Icons/NavbarNavigation__DefaultState.png")
 
         onClicked: {
             root.fi_Button_Navigation_Navigation_clicked();

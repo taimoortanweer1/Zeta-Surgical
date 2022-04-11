@@ -1,0 +1,52 @@
+{
+    "anchorHCenter": {
+        "anchorMargin": -10,
+        "anchorTarget": "parent",
+        "anchorValue": "HorizontalCenter"
+    },
+    "anchorTop": {
+        "anchorMargin": 63,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "496:2964"
+    },
+    "id": "icon_Icons_MaskOverlay",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 40
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/Icons/MaskOverlay.png"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 94
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 39
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 63
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "targetFile": "icon_Icons_MaskOverlay.ghuie",
+    "type": "Image",
+    "userDefined": false
+}

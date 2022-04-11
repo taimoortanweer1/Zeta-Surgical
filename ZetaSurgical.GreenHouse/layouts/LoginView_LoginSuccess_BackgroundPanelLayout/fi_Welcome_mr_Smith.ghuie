@@ -1,0 +1,70 @@
+{
+    "childrenSplit": true,
+    "id": "fi_Welcome_mr_Smith",
+    "properties": {
+        "font": {
+            "name": "font",
+            "type": "Font",
+            "value": "Figma::Inter__30_50_0_0_0_0_0.2"
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 39
+        },
+        "horizontalAlignment": {
+            "name": "horizontalAlignment",
+            "type": "TextHorizontalAlignment",
+            "value": "AlignHCenter"
+        },
+        "lineHeight": {
+            "name": "lineHeight",
+            "type": "Float",
+            "value": 20
+        },
+        "lineHeightMode": {
+            "name": "lineHeightMode",
+            "type": "TextLineHeightMode",
+            "value": "FixedHeight"
+        },
+        "text": {
+            "name": "text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::505:2663",
+            "value": "Welcome mr Smith"
+        },
+        "textColor": {
+            "name": "textColor",
+            "type": "Color",
+            "value": "Outline/White"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 657
+        },
+        "wrapMode": {
+            "name": "wrapMode",
+            "type": "TextWrapMode",
+            "value": "WordWrap"
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 631
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 902
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 3
+        }
+    },
+    "targetFile": "fi_Welcome_mr_Smith.ghuie",
+    "type": "ComponentsSet.Label",
+    "userDefined": false
+}

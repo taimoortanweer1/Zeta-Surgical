@@ -1,0 +1,495 @@
+{
+    "aliasList": {
+        "fi_Ellipse_220___off": [
+            {
+                "aliasElement": "opacity",
+                "aliasName": "fi_Ellipse_220_opacity",
+                "aliasSource": "fi_Ellipse_220___off"
+            }
+        ],
+        "icon___off": [
+            {
+                "aliasElement": "source",
+                "aliasName": "icon___off_source",
+                "aliasSource": "icon___off"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "icon_opacity",
+                "aliasSource": "icon___off"
+            }
+        ],
+        "icon___on": [
+            {
+                "aliasElement": "source",
+                "aliasName": "icon___on_source",
+                "aliasSource": "icon___on"
+            }
+        ]
+    },
+    "componentLayout": {
+        "blockInputFallthrough": true,
+        "children": [
+            {
+                "children": [
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "off_StateParent",
+                        "properties": {
+                            "clip": {
+                                "name": "clip",
+                                "type": "Bool",
+                                "value": true
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 64
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 64
+                            }
+                        },
+                        "targetFile": "off_StateParent.ghuie",
+                        "type": "Item",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "on_StateParent",
+                        "properties": {
+                            "clip": {
+                                "name": "clip",
+                                "type": "Bool",
+                                "value": true
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 64
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 64
+                            }
+                        },
+                        "targetFile": "on_StateParent.ghuie",
+                        "type": "Item",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "__mouseArea",
+                        "properties": {
+                            "doubleClickEnabeld": {
+                                "bindingProp": "doubleClickEnabeld",
+                                "bindingSrc": "root",
+                                "itemBound": true,
+                                "name": "doubleClickEnabeld",
+                                "type": "Bool",
+                                "value": false
+                            },
+                            "minimumRepeatInterval": {
+                                "bindingProp": "minimumRepeatInterval",
+                                "bindingSrc": "root",
+                                "itemBound": true,
+                                "name": "minimumRepeatInterval",
+                                "type": "Int",
+                                "value": 100
+                            },
+                            "repeateInterval": {
+                                "bindingProp": "repeateInterval",
+                                "bindingSrc": "root",
+                                "itemBound": true,
+                                "name": "repeateInterval",
+                                "type": "Int",
+                                "value": 1000
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": -1
+                            }
+                        },
+                        "targetFile": "__mouseArea.ghuie",
+                        "type": "ComponentsSet.AutoRepeatMouseArea",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Ellipse_220___off",
+                        "properties": {
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 64
+                            },
+                            "source": {
+                                "name": "source",
+                                "type": "Asset",
+                                "value": "/184_2070.png"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 64
+                            }
+                        },
+                        "targetFile": "fi_Ellipse_220___off.ghuie",
+                        "type": "Image",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorMargin": 8,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorMargin": 8,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorMargin": 8,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorMargin": 8,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "icon___off",
+                        "properties": {
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 48
+                            },
+                            "source": {
+                                "name": "source",
+                                "type": "Asset",
+                                "value": "/Icons/View__SelectedState.png"
+                            },
+                            "visible": {
+                                "bindingProp": "visible",
+                                "bindingSrc": "off_StateParent",
+                                "itemBound": true,
+                                "name": "visible",
+                                "type": "Bool",
+                                "value": true
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 48
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 8
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 8
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 1
+                            }
+                        },
+                        "targetFile": "icon___off.ghuie",
+                        "type": "Image",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorMargin": 8,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorMargin": 8,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorMargin": 8,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorMargin": 8,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "icon___on",
+                        "properties": {
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 48
+                            },
+                            "opacity": {
+                                "bindingProp": "opacity",
+                                "bindingSrc": "icon___off",
+                                "itemBound": true,
+                                "name": "opacity",
+                                "type": "Float",
+                                "value": 1
+                            },
+                            "source": {
+                                "name": "source",
+                                "type": "Asset",
+                                "value": "/Icons/View__DefaultState.png"
+                            },
+                            "visible": {
+                                "bindingProp": "visible",
+                                "bindingSrc": "on_StateParent",
+                                "itemBound": true,
+                                "name": "visible",
+                                "type": "Bool",
+                                "value": true
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 48
+                            },
+                            "x": {
+                                "name": "x",
+                                "type": "Int",
+                                "value": 8
+                            },
+                            "y": {
+                                "name": "y",
+                                "type": "Int",
+                                "value": 8
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 1
+                            }
+                        },
+                        "targetFile": "icon___on.ghuie",
+                        "type": "Image",
+                        "userDefined": false
+                    }
+                ],
+                "childrenSplit": true,
+                "id": "root",
+                "properties": {
+                    "height": {
+                        "name": "height",
+                        "type": "Int",
+                        "value": 64
+                    },
+                    "width": {
+                        "name": "width",
+                        "type": "Int",
+                        "value": 64
+                    }
+                },
+                "targetFile": "root.ghuie",
+                "type": "Item",
+                "userDefined": false
+            }
+        ],
+        "childrenSplit": true,
+        "fillParent": false,
+        "height": 64,
+        "hideAnimation": {
+            "type": "Sequential"
+        },
+        "interfaceName": "",
+        "name": "___TEMP_LAYOUT___ZetaSurgicalSet.ToggleEye",
+        "posX": 0,
+        "posY": 0,
+        "rootContainerType": "Item",
+        "showAnimation": {
+            "type": "Sequential"
+        },
+        "targetFile": "___TEMP_LAYOUT___ZetaSurgicalSet.ToggleEye.ghl",
+        "width": 64
+    },
+    "componentName": "ZetaSurgicalSet.ToggleEye",
+    "properties": [
+        {
+            "name": "repeateInterval",
+            "type": "Int",
+            "value": 1000
+        },
+        {
+            "name": "minimumRepeatInterval",
+            "type": "Int",
+            "value": 100
+        },
+        {
+            "name": "doubleClickEnabeld",
+            "type": "Bool",
+            "value": false
+        },
+        {
+            "name": "on",
+            "type": "Bool",
+            "value": false
+        }
+    ],
+    "signalList": {
+        "__mouseArea": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "toggled",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "doubleClicked",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "pressed",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "released",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "repeatingTriggered",
+                "aliasSource": "__mouseArea"
+            }
+        ]
+    },
+    "states": {
+        "__main_state_group": {
+            "off": {
+                "group": "",
+                "name": "off",
+                "propertyChanges": [
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "off_StateParent",
+                        "type": "Bool",
+                        "value": true
+                    },
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "on_StateParent",
+                        "type": "Bool",
+                        "value": false
+                    },
+                    {
+                        "name": "source",
+                        "propertyChangeTarget": "fi_Ellipse_220___off",
+                        "type": "Asset",
+                        "value": "/184_2070.png"
+                    }
+                ],
+                "when": "!root.on"
+            },
+            "on": {
+                "group": "",
+                "name": "on",
+                "propertyChanges": [
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "off_StateParent",
+                        "type": "Bool",
+                        "value": false
+                    },
+                    {
+                        "name": "visible",
+                        "propertyChangeTarget": "on_StateParent",
+                        "type": "Bool",
+                        "value": true
+                    },
+                    {
+                        "name": "source",
+                        "propertyChangeTarget": "fi_Ellipse_220___off",
+                        "type": "Asset",
+                        "value": "/184_2030.png"
+                    }
+                ],
+                "when": "root.on"
+            }
+        }
+    },
+    "targetFile": "ToggleEye.ghcomp"
+}

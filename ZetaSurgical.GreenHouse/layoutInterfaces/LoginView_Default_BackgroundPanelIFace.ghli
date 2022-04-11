@@ -1,0 +1,5 @@
+{
+    "base": "Displayable",
+    "name": "LoginView_Default_BackgroundPanelIFace",
+    "targetFile": "LoginView_Default_BackgroundPanelIFace.ghli"
+}

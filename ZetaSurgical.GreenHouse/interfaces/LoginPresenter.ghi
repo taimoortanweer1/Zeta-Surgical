@@ -34,6 +34,16 @@
                 "name": "invalidCredentialsEntered",
                 "preview": null,
                 "type": "Bool"
+            },
+            {
+                "name": "passwordIsVisible",
+                "preview": null,
+                "type": "Bool"
+            },
+            {
+                "name": "passwordDisplayMode",
+                "preview": 0,
+                "type": "Int"
             }
         ]
     },

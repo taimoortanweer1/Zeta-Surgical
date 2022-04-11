@@ -302,5 +302,29 @@
         "colorHEX": "#ff00e941",
         "colorR": 0,
         "name": "Text/Green"
+    },
+    {
+        "colorA": 255,
+        "colorB": 227,
+        "colorG": 204,
+        "colorHEX": "#ff6fcce3",
+        "colorR": 111,
+        "name": "Text/Data/Blue 0 - Data"
+    },
+    {
+        "colorA": 166,
+        "colorB": 0,
+        "colorG": 0,
+        "colorHEX": "#a6000000",
+        "colorR": 0,
+        "name": "Figma::166_0_0_0"
+    },
+    {
+        "colorA": 255,
+        "colorB": 0,
+        "colorG": 214,
+        "colorHEX": "#ffffd600",
+        "colorR": 255,
+        "name": "Text/Data/Yellow"
     }
 ]

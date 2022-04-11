@@ -1,44 +1,27 @@
 {
-    "anchorBottom": {
-        "anchorMargin": 25,
+    "anchorLeft": {
         "anchorTarget": "parent",
-        "anchorValue": "Bottom"
+        "anchorValue": "Left"
     },
-    "anchorRight": {
-        "anchorMargin": 21,
+    "anchorTop": {
         "anchorTarget": "parent",
-        "anchorValue": "Right"
+        "anchorValue": "Top"
     },
     "childrenSplit": true,
     "extraData": {
-        "FIGMA_ID": "40:2119"
+        "FIGMA_ID": "496:2723"
     },
     "id": "fi_good",
     "properties": {
         "height": {
             "name": "height",
             "type": "Int",
-            "value": 40
+            "value": 288
         },
         "width": {
             "name": "width",
             "type": "Int",
-            "value": 40
-        },
-        "x": {
-            "name": "x",
-            "type": "Int",
-            "value": 331
-        },
-        "y": {
-            "name": "y",
-            "type": "Int",
-            "value": 223
-        },
-        "z": {
-            "name": "z",
-            "type": "Int",
-            "value": 2
+            "value": 392
         }
     },
     "targetFile": "fi_good.ghuie",

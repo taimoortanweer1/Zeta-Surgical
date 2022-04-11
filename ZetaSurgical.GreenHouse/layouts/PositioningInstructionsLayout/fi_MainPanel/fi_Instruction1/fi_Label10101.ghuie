@@ -1,0 +1,41 @@
+{
+    "anchorLeft": {
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 553,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "496:2678"
+    },
+    "id": "fi_Label10101",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 48
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 48
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 553
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 5
+        }
+    },
+    "targetFile": "fi_Label10101.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

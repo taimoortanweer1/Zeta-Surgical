@@ -1,0 +1,58 @@
+{
+    "anchorBottom": {
+        "anchorMargin": 32,
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorLeft": {
+        "anchorMargin": 65,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorRight": {
+        "anchorMargin": 64,
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "496:3163"
+    },
+    "id": "fi_proceedWithoutDraping",
+    "properties": {
+        "fi_BUTTON_TEXT_text": {
+            "name": "fi_BUTTON_TEXT_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I496:3163;2:5",
+            "value": "Proceed without draping"
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 48
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 327
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 65
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 32
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "targetFile": "fi_proceedWithoutDraping.ghuie",
+    "type": "ZetaSurgicalSet.NextButton",
+    "userDefined": false
+}

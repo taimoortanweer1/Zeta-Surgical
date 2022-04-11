@@ -55,6 +55,24 @@
                     "type": "RawCode"
                 }
             ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_ToggleEye__onEvent__toggled",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(LoginPresenter, co) co->setPasswordIsVisible(args.at(0).toBool());\n}\n",
+                    "type": "RawCode"
+                }
+            ]
         }
     ]
 }

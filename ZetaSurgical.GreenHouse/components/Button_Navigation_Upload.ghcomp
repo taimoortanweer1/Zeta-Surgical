@@ -178,10 +178,9 @@
                                 "userDefined": false
                             },
                             {
-                                "anchorRight": {
-                                    "anchorMargin": 20,
+                                "anchorHCenter": {
                                     "anchorTarget": "parent",
-                                    "anchorValue": "Right"
+                                    "anchorValue": "HorizontalCenter"
                                 },
                                 "anchorTop": {
                                     "anchorMargin": 16,
@@ -189,30 +188,27 @@
                                     "anchorValue": "Top"
                                 },
                                 "childrenSplit": true,
-                                "extraData": {
-                                    "FIGMA_ID": "159:5992"
-                                },
                                 "id": "icon___complete",
                                 "properties": {
                                     "height": {
                                         "name": "height",
                                         "type": "Int",
-                                        "value": 20
+                                        "value": 88
                                     },
                                     "source": {
                                         "name": "source",
                                         "type": "Asset",
-                                        "value": "/Icons/NavStatus__DefaultState.png"
+                                        "value": "/Icons/NavbarUpload__SelectedState.png"
                                     },
                                     "width": {
                                         "name": "width",
                                         "type": "Int",
-                                        "value": 20
+                                        "value": 88
                                     },
                                     "x": {
                                         "name": "x",
                                         "type": "Int",
-                                        "value": 88
+                                        "value": 20
                                     },
                                     "y": {
                                         "name": "y",
@@ -222,7 +218,7 @@
                                     "z": {
                                         "name": "z",
                                         "type": "Int",
-                                        "value": 2
+                                        "value": 1
                                     }
                                 },
                                 "targetFile": "icon___complete.ghuie",

@@ -270,5 +270,21 @@
         "styleName": "BoldMT",
         "underline": false,
         "weight": 75
+    },
+    {
+        "bold": false,
+        "capitalization": 0,
+        "cssWeight": 400,
+        "family": "Inter",
+        "file": "",
+        "italic": false,
+        "letterSpacing": 0.1875,
+        "name": "Figma::Inter__30_50_0_0_0_0_0.2",
+        "pixelSize": 30,
+        "stretch": 0,
+        "strikeOut": false,
+        "styleName": "",
+        "underline": false,
+        "weight": 50
     }
 ]

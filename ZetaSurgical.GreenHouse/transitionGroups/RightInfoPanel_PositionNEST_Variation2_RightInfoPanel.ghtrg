@@ -1,0 +1,18 @@
+{
+    "source": "RightInfoPanel",
+    "target": "PositionNEST_Variation2_RightInfoPanel",
+    "targetFile": "RightInfoPanel_PositionNEST_Variation2_RightInfoPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceRightInfoPanelMoveToPositionNEST_Variation2_RightInfoPanel"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

@@ -25,7 +25,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 10
+            "value": 4
         }
     },
     "signals": {

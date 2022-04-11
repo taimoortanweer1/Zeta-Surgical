@@ -1,5 +1,8 @@
 {
     "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "446:2373"
+    },
     "id": "fi_ExtendedSet_ViewLayout",
     "properties": {
         "height": {

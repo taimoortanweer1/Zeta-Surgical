@@ -38,7 +38,7 @@ Item {
     property alias fi_Upload_textColor: fi_Upload___complete.textColor
     //TEXTVAL 32
     property alias fi_Upload_verticalAlignment: fi_Upload___complete.verticalAlignment
-    //ASSET /Icons/NavStatus__DefaultState.png
+    //ASSET /Icons/NavbarUpload__SelectedState.png
     property alias icon___complete_source: icon___complete.source
     //REAL 1
     property alias icon_opacity: icon___complete.opacity
@@ -92,14 +92,13 @@ Item {
         }
         Image {
             id: icon___complete
-            anchors.right: parent.right
-            anchors.rightMargin: 20
             anchors.top: parent.top
             anchors.topMargin: 16
-            z: 2
-            width: 20
-            height: 20
-            source: GreenHouseThemeManager.theme.asset("/Icons/NavStatus__DefaultState.png")
+            anchors.horizontalCenter: parent.horizontalCenter
+            z: 1
+            width: 88
+            height: 88
+            source: GreenHouseThemeManager.theme.asset("/Icons/NavbarUpload__SelectedState.png")
         }
     }
     Item {

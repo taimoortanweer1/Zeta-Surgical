@@ -1,0 +1,30 @@
+{
+    "anchorLeft": {
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "496:2667"
+    },
+    "id": "fi_Label10202",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 48
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 48
+        }
+    },
+    "targetFile": "fi_Label10202.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

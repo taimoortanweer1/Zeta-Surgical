@@ -13,12 +13,12 @@
         "width": {
             "name": "width",
             "type": "Int",
-            "value": 240
+            "value": 392
         },
         "x": {
             "name": "x",
             "type": "Int",
-            "value": 108
+            "value": 32
         },
         "y": {
             "name": "y",

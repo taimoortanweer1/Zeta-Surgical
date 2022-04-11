@@ -38,7 +38,7 @@ Item {
     property alias fi_Navigation_textColor: fi_Navigation___complete.textColor
     //TEXTVAL 32
     property alias fi_Navigation_verticalAlignment: fi_Navigation___complete.verticalAlignment
-    //ASSET /Icons/NavStatus__DefaultState.png
+    //ASSET /Icons/NavbarNavigation__CompletedState.png
     property alias icon___complete_source: icon___complete.source
     //REAL 1
     property alias icon_opacity: icon___complete.opacity
@@ -75,14 +75,12 @@ Item {
 
         Image {
             id: icon___complete
-            anchors.right: parent.right
-            anchors.rightMargin: 20
             anchors.top: parent.top
             anchors.topMargin: 16
-            z: 2
-            width: 20
-            height: 20
-            source: GreenHouseThemeManager.theme.asset("/Icons/NavStatus__DefaultState.png")
+            anchors.horizontalCenter: parent.horizontalCenter
+            width: 88
+            height: 88
+            source: GreenHouseThemeManager.theme.asset("/Icons/NavbarNavigation__CompletedState.png")
         }
         ComponentsSet.Label {
             id: fi_Navigation___complete

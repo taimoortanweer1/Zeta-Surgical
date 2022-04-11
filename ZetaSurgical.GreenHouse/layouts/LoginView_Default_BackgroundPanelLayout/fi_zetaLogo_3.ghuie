@@ -1,0 +1,39 @@
+{
+    "childrenSplit": true,
+    "id": "fi_zetaLogo_3",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 1080
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/22_3508.png"
+        },
+        "verticalCenterOffset": {
+            "name": "verticalCenterOffset",
+            "type": "Int",
+            "value": 4
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 902
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 1018
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "targetFile": "fi_zetaLogo_3.ghuie",
+    "type": "DecorativeSet.DecoratedItem",
+    "userDefined": false
+}

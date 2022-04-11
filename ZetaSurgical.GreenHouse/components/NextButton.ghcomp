@@ -65,6 +65,231 @@
                             "anchorTarget": "parent",
                             "anchorValue": "Top"
                         },
+                        "children": [
+                            {
+                                "anchorBottom": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Bottom"
+                                },
+                                "anchorLeft": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Left"
+                                },
+                                "anchorRight": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Right"
+                                },
+                                "anchorTop": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Top"
+                                },
+                                "childrenSplit": true,
+                                "id": "fi_Background_9seg_40_40_40_40___highlighted",
+                                "properties": {
+                                    "border-bottom": {
+                                        "name": "border-bottom",
+                                        "type": "Int",
+                                        "value": 39
+                                    },
+                                    "border-left": {
+                                        "name": "border-left",
+                                        "type": "Int",
+                                        "value": 39
+                                    },
+                                    "border-right": {
+                                        "name": "border-right",
+                                        "type": "Int",
+                                        "value": 39
+                                    },
+                                    "border-top": {
+                                        "name": "border-top",
+                                        "type": "Int",
+                                        "value": 39
+                                    },
+                                    "height": {
+                                        "name": "height",
+                                        "type": "Int",
+                                        "value": 80
+                                    },
+                                    "source": {
+                                        "name": "source",
+                                        "type": "Asset",
+                                        "value": "/11_1228.png"
+                                    },
+                                    "width": {
+                                        "name": "width",
+                                        "type": "Int",
+                                        "value": 512
+                                    }
+                                },
+                                "targetFile": "fi_Background_9seg_40_40_40_40___highlighted.ghuie",
+                                "type": "BorderImage",
+                                "userDefined": false
+                            },
+                            {
+                                "anchorLeft": {
+                                    "anchorMargin": -1,
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Left"
+                                },
+                                "anchorRight": {
+                                    "anchorMargin": -1,
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Right"
+                                },
+                                "anchorVCenter": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "VerticalCenter"
+                                },
+                                "childrenSplit": true,
+                                "id": "fi_BUTTON_TEXT___highlighted",
+                                "properties": {
+                                    "font": {
+                                        "bindingProp": "font",
+                                        "bindingSrc": "fi_BUTTON_TEXT___default",
+                                        "itemBound": true,
+                                        "name": "font",
+                                        "type": "Font",
+                                        "value": "Figma::Arial_ArialMT_24_50_0_0_0_0_0.2"
+                                    },
+                                    "height": {
+                                        "name": "height",
+                                        "type": "Int",
+                                        "value": 26
+                                    },
+                                    "horizontalAlignment": {
+                                        "bindingProp": "horizontalAlignment",
+                                        "bindingSrc": "fi_BUTTON_TEXT___default",
+                                        "itemBound": true,
+                                        "name": "horizontalAlignment",
+                                        "type": "TextHorizontalAlignment",
+                                        "value": "AlignHCenter"
+                                    },
+                                    "lineHeight": {
+                                        "bindingProp": "lineHeight",
+                                        "bindingSrc": "fi_BUTTON_TEXT___default",
+                                        "itemBound": true,
+                                        "name": "lineHeight",
+                                        "type": "Float",
+                                        "value": 20
+                                    },
+                                    "lineHeightMode": {
+                                        "bindingProp": "lineHeightMode",
+                                        "bindingSrc": "fi_BUTTON_TEXT___default",
+                                        "itemBound": true,
+                                        "name": "lineHeightMode",
+                                        "type": "TextLineHeightMode",
+                                        "value": "FixedHeight"
+                                    },
+                                    "opacity": {
+                                        "bindingProp": "opacity",
+                                        "bindingSrc": "fi_BUTTON_TEXT___default",
+                                        "itemBound": true,
+                                        "name": "opacity",
+                                        "type": "Float",
+                                        "value": 1
+                                    },
+                                    "richText": {
+                                        "bindingProp": "richText",
+                                        "bindingSrc": "fi_BUTTON_TEXT___default",
+                                        "itemBound": true,
+                                        "name": "richText",
+                                        "type": "Bool",
+                                        "value": false
+                                    },
+                                    "text": {
+                                        "bindingProp": "text",
+                                        "bindingSrc": "fi_BUTTON_TEXT___default",
+                                        "itemBound": true,
+                                        "name": "text",
+                                        "type": "TranslatableString",
+                                        "uuid": "FigmaNode::11:1229",
+                                        "value": "BUTTON TEXT"
+                                    },
+                                    "textColor": {
+                                        "name": "textColor",
+                                        "type": "Color",
+                                        "value": "Text/White"
+                                    },
+                                    "verticalAlignment": {
+                                        "bindingProp": "verticalAlignment",
+                                        "bindingSrc": "fi_BUTTON_TEXT___default",
+                                        "itemBound": true,
+                                        "name": "verticalAlignment",
+                                        "type": "TextVerticalAlignment",
+                                        "value": "AlignVCenter"
+                                    },
+                                    "width": {
+                                        "name": "width",
+                                        "type": "Int",
+                                        "value": 514
+                                    },
+                                    "wrapMode": {
+                                        "name": "wrapMode",
+                                        "type": "TextWrapMode",
+                                        "value": "WordWrap"
+                                    },
+                                    "x": {
+                                        "name": "x",
+                                        "type": "Int",
+                                        "value": -1
+                                    },
+                                    "y": {
+                                        "name": "y",
+                                        "type": "Int",
+                                        "value": 27
+                                    },
+                                    "z": {
+                                        "name": "z",
+                                        "type": "Int",
+                                        "value": 1
+                                    }
+                                },
+                                "targetFile": "fi_BUTTON_TEXT___highlighted.ghuie",
+                                "type": "ComponentsSet.Label",
+                                "userDefined": false
+                            }
+                        ],
+                        "childrenSplit": true,
+                        "id": "highlighted_StateParent",
+                        "properties": {
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 80
+                            },
+                            "visible": {
+                                "name": "visible",
+                                "type": "Bool",
+                                "value": false
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 512
+                            }
+                        },
+                        "targetFile": "highlighted_StateParent.ghuie",
+                        "type": "Item",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
                         "childrenSplit": true,
                         "id": "__mouseArea",
                         "properties": {
@@ -306,14 +531,9 @@
             "value": false
         },
         {
-            "name": "selectionIndex",
-            "type": "Int",
-            "value": -1
-        },
-        {
-            "name": "itemIndex",
-            "type": "Int",
-            "value": 0
+            "name": "highlighted_flag",
+            "type": "Bool",
+            "value": false
         }
     ],
     "signalList": {
@@ -364,7 +584,7 @@
                         "value": "Text/Grey 1 - Inactive"
                     }
                 ],
-                "when": "!__mouseArea.pressed && !(root.selectionIndex == root.itemIndex)"
+                "when": "!__mouseArea.pressed"
             },
             "pressed": {
                 "group": "",
@@ -383,26 +603,28 @@
                         "value": "Text/White"
                     }
                 ],
-                "when": "__mouseArea.pressed && !(root.selectionIndex == root.itemIndex)"
-            },
-            "selected": {
-                "group": "",
-                "name": "selected",
+                "when": "__mouseArea.pressed"
+            }
+        },
+        "generic_highlighted": {
+            "highlighted": {
+                "group": "generic_highlighted",
+                "name": "highlighted",
                 "propertyChanges": [
                     {
-                        "name": "source",
-                        "propertyChangeTarget": "fi_Background_9seg_40_40_40_40___default",
-                        "type": "Asset",
-                        "value": "/11_1228.png"
+                        "name": "visible",
+                        "propertyChangeTarget": "highlighted_StateParent",
+                        "type": "Bool",
+                        "value": true
                     },
                     {
-                        "name": "textColor",
-                        "propertyChangeTarget": "fi_BUTTON_TEXT___default",
-                        "type": "Color",
-                        "value": "Text/White"
+                        "name": "z",
+                        "propertyChangeTarget": "highlighted_StateParent",
+                        "type": "Int",
+                        "value": 999
                     }
                 ],
-                "when": "!__mouseArea.pressed && (root.selectionIndex == root.itemIndex)"
+                "when": "root.highlighted_flag"
             }
         }
     },

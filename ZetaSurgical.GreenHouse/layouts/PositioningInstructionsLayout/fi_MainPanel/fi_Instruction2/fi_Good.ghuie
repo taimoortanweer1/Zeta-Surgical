@@ -1,0 +1,42 @@
+{
+    "anchorHCenter": {
+        "anchorMargin": -100,
+        "anchorTarget": "parent",
+        "anchorValue": "HorizontalCenter"
+    },
+    "anchorTop": {
+        "anchorMargin": 384,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "496:2961"
+    },
+    "id": "fi_Good",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 176
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 192
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 384
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 4
+        }
+    },
+    "targetFile": "fi_Good.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

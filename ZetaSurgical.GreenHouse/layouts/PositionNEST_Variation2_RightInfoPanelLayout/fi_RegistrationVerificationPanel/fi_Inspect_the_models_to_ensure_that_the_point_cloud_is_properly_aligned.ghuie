@@ -1,0 +1,88 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 31,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 119,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "496:3152"
+    },
+    "id": "fi_Inspect_the_models_to_ensure_that_the_point_cloud_is_properly_aligned",
+    "properties": {
+        "font": {
+            "name": "font",
+            "type": "Font",
+            "value": "Figma::Arial_ArialMT_22_50_0_0_0_0_0.2"
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 74
+        },
+        "horizontalAlignment": {
+            "name": "horizontalAlignment",
+            "type": "TextHorizontalAlignment",
+            "value": "AlignHCenter"
+        },
+        "lineHeight": {
+            "name": "lineHeight",
+            "type": "Float",
+            "value": 30
+        },
+        "lineHeightMode": {
+            "name": "lineHeightMode",
+            "type": "TextLineHeightMode",
+            "value": "FixedHeight"
+        },
+        "text": {
+            "name": "text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::496:3152",
+            "value": "Inspect the models to ensure that the point cloud is properly aligned"
+        },
+        "textColor": {
+            "name": "textColor",
+            "type": "Color",
+            "value": "Outline/White"
+        },
+        "verticalAlignment": {
+            "name": "verticalAlignment",
+            "type": "TextVerticalAlignment",
+            "value": "AlignVCenter"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 394
+        },
+        "wrapMode": {
+            "name": "wrapMode",
+            "type": "TextWrapMode",
+            "value": "WordWrap"
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 31
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 119
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 8
+        }
+    },
+    "targetFile": "fi_Inspect_the_models_to_ensure_that_the_point_cloud_is_properly_aligned.ghuie",
+    "type": "ComponentsSet.Label",
+    "userDefined": false
+}

@@ -1,0 +1,41 @@
+{
+    "children": [
+    ],
+    "childrenSplit": true,
+    "entryActions": [
+        {
+            "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceBackgroundPanelMoveToBackgroundPanel_Shared0();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideHeaderPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideLoginPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceMainPanelMoveToPositionNEST_Variation2_MainPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceNavPanelMoveToNavPanel_Shared0();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hidePositionCartInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceRightInfoPanelMoveToPositionNEST_Variation2_RightInfoPanel();\n}\n{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->hideTitlePanel();\n}\n",
+            "type": "RawCode"
+        },
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        }
+    ],
+    "exitActions": [
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        }
+    ],
+    "extraData": {
+        "FIGMA": "kKItBBA5TYuCVGxWbPVftH",
+        "ScreenState": true,
+        "orderValue": 10
+    },
+    "height": 0,
+    "posX": 0,
+    "posY": 0,
+    "properties": {
+        "EmptyState": true,
+        "childViewType": "ChildStateView",
+        "initial": false,
+        "name": "PositionNEST_Variation2_ScreenState",
+        "parallel": false,
+        "parentingEnabled": true,
+        "preloadUI": false
+    },
+    "targetFile": "PositionNEST_Variation2_ScreenState.ghs",
+    "template": "State",
+    "width": 0
+}

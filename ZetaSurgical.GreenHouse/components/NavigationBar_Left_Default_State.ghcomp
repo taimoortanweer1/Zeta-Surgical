@@ -736,11 +736,6 @@
                         "childrenSplit": true,
                         "id": "fi_Button_Navigation_Upload",
                         "properties": {
-                            "icon___complete_source": {
-                                "name": "icon___complete_source",
-                                "type": "Asset",
-                                "value": "/Icons/NavbarUpload__DefaultState.png"
-                            },
                             "y": {
                                 "name": "y",
                                 "type": "Int",
@@ -769,11 +764,6 @@
                         "childrenSplit": true,
                         "id": "fi_Button_Navigation_Segmentation",
                         "properties": {
-                            "icon___complete_source": {
-                                "name": "icon___complete_source",
-                                "type": "Asset",
-                                "value": "/Icons/NavbarSegmentation__DefaultState.png"
-                            },
                             "y": {
                                 "name": "y",
                                 "type": "Int",
@@ -802,11 +792,6 @@
                         "childrenSplit": true,
                         "id": "fi_Button_Navigation_Planning",
                         "properties": {
-                            "icon___complete_source": {
-                                "name": "icon___complete_source",
-                                "type": "Asset",
-                                "value": "/Icons/NavbarPlanning__DefaultState.png"
-                            },
                             "y": {
                                 "name": "y",
                                 "type": "Int",
@@ -835,11 +820,6 @@
                         "childrenSplit": true,
                         "id": "fi_Button_Navigation_Positioning",
                         "properties": {
-                            "icon___complete_source": {
-                                "name": "icon___complete_source",
-                                "type": "Asset",
-                                "value": "/Icons/NavbarPositioning__DefaultState.png"
-                            },
                             "y": {
                                 "name": "y",
                                 "type": "Int",
@@ -868,11 +848,6 @@
                         "childrenSplit": true,
                         "id": "fi_Button_Navigation_Navigation",
                         "properties": {
-                            "icon___complete_source": {
-                                "name": "icon___complete_source",
-                                "type": "Asset",
-                                "value": "/Icons/NavbarNavigation__DefaultState.png"
-                            },
                             "y": {
                                 "name": "y",
                                 "type": "Int",
