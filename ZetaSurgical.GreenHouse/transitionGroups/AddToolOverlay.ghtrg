@@ -7,24 +7,6 @@
                 "backTransition": false,
                 "blockedIfTargetActive": false,
                 "internal": false,
-                "signalName": "fi_closeWindowButton__onEvent__clicked",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
-            },
-            "template": "ItemSignalTransition",
-            "triggeredActions": [
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(PopupsPresenter, co) co->closeAllPopups();\n}\n",
-                    "type": "RawCode"
-                }
-            ]
-        },
-        {
-            "properties": {
-                "backTransition": false,
-                "blockedIfTargetActive": false,
-                "internal": false,
                 "signalName": "fi_addToolButton__onEvent__clicked",
                 "validSourceTemplates": [
                     "ItemState"
@@ -37,6 +19,17 @@
                     "type": "RawCode"
                 }
             ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": false,
+                "sender": "PopupsPresenter",
+                "senderStringType": "%1",
+                "signal": "closeAllPopups"
+            },
+            "template": "SignalTransition"
         }
     ],
     "uuid": "{d8336c21-9ff0-418c-bf0e-2341f4f57a0a}"

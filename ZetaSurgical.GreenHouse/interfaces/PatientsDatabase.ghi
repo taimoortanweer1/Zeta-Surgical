@@ -48,6 +48,9 @@
         "onFilterEditRequested": {
             "name": "onFilterEditRequested"
         },
+        "onInfoButtonClicked": {
+            "name": "onInfoButtonClicked"
+        },
         "onProceedToStudySelection": {
             "name": "onProceedToStudySelection"
         },
@@ -515,6 +518,9 @@
     "signals": {
         "patientSelected": {
             "name": "patientSelected"
+        },
+        "scanMetadataPopupShown": {
+            "name": "scanMetadataPopupShown"
         }
     },
     "targetFile": "PatientsDatabase.ghi",

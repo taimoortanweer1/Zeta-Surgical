@@ -47,8 +47,8 @@
         "fi_addPointButton__onEvent__clicked": {
             "name": "fi_addPointButton__onEvent__clicked"
         },
-        "fi_closeWindow__onEvent__clicked": {
-            "name": "fi_closeWindow__onEvent__clicked"
+        "moveToNoPopup": {
+            "name": "moveToNoPopup"
         }
     },
     "targetFile": "EditPointIFace.ghli"

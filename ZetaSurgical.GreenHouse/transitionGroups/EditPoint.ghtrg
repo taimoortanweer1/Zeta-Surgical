@@ -7,24 +7,6 @@
                 "backTransition": false,
                 "blockedIfTargetActive": false,
                 "internal": false,
-                "signalName": "fi_closeWindow__onEvent__clicked",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
-            },
-            "template": "ItemSignalTransition",
-            "triggeredActions": [
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(PopupsPresenter, co) co->closeAllPopups();\n}\n",
-                    "type": "RawCode"
-                }
-            ]
-        },
-        {
-            "properties": {
-                "backTransition": false,
-                "blockedIfTargetActive": false,
-                "internal": false,
                 "signalName": "fi_NorthButton__onEvent__clicked",
                 "validSourceTemplates": [
                     "ItemState"

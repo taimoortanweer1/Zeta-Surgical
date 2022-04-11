@@ -159,6 +159,9 @@
         },
         "fi_importScan__onEvent__clicked": {
             "name": "fi_importScan__onEvent__clicked"
+        },
+        "fi_info__onEvent__clicked": {
+            "name": "fi_info__onEvent__clicked"
         }
     },
     "targetFile": "Upload_SelectStudy_v01_MainPanelIFace.ghli"

@@ -167,6 +167,11 @@ void PatientsDatabaseImpl::setStudiesListSelectedIndex(int value, bool publishTo
     updateProceedButton();
 }
 
+void PatientsDatabaseImpl::onInfoButtonClicked()
+{
+    emit scanMetadataPopupShown();
+}
+
 void PatientsDatabaseImpl::updateProceedButton()
 {
     setProceedToSegmentationButtonEnabled(studiesListSelectedIndex() >= 0 && studiesDescriptionSelectedIndex() >= 0);

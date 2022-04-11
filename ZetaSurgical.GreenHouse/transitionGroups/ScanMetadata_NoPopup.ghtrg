@@ -1,16 +1,16 @@
 {
-    "source": "EditPoint",
+    "source": "ScanMetadata",
     "target": "NoPopup",
-    "targetFile": "EditPoint_NoPopup.ghtrg",
+    "targetFile": "ScanMetadata_NoPopup.ghtrg",
     "transitions": [
         {
             "properties": {
                 "backTransition": false,
                 "blockedIfTargetActive": true,
                 "internal": false,
-                "sender": "PointEditorPresenter",
+                "sender": "PopupsPresenter",
                 "senderStringType": "%1",
-                "signal": "pointEditorPopupHidden"
+                "signal": "closeAllPopups"
             },
             "template": "SignalTransition"
         },
@@ -27,5 +27,5 @@
             "template": "ItemSignalTransition"
         }
     ],
-    "uuid": "{bfa7b485-6861-4381-80ac-d02bfcc01211}"
+    "uuid": "{57cec1e2-4c08-4a46-b125-9f15af98a281}"
 }

@@ -5,20 +5,13 @@
         {
             "properties": {
                 "backTransition": false,
-                "blockedIfTargetActive": false,
+                "blockedIfTargetActive": true,
                 "internal": false,
-                "signalName": "fi_closeWindowButton__onEvent__clicked",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
+                "sender": "PopupsPresenter",
+                "senderStringType": "%1",
+                "signal": "closeAllPopups"
             },
-            "template": "ItemSignalTransition",
-            "triggeredActions": [
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(PopupsPresenter, co) co->closeAllPopups();\n}\n",
-                    "type": "RawCode"
-                }
-            ]
+            "template": "SignalTransition"
         }
     ],
     "uuid": "{fa812c02-bdfa-4f50-91e3-868843c9489f}"

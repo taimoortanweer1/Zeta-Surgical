@@ -20,6 +20,13 @@
             "type": "Int",
             "value": 64
         },
+        "visible": {
+            "bindingProp": "studyIsSelected",
+            "bindingSrc": "PatientsDatabase",
+            "name": "visible",
+            "type": "Bool",
+            "value": true
+        },
         "width": {
             "name": "width",
             "type": "Int",

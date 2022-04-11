@@ -19,7 +19,7 @@
     "signals": {
         "clicked": {
             "name": "clicked",
-            "rawCode": "root.itemInterface.fi_closeWindow__onEvent__clicked()\n"
+            "rawCode": "root.itemInterface.moveToNoPopup()\n"
         }
     },
     "targetFile": "fi_closeWindow.ghuie",

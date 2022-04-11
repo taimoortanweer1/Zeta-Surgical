@@ -28,6 +28,8 @@ public:
     void setStudiesDescriptionSelectedIndex(int value, bool publishToRPC = true) override;
     void setStudiesListSelectedIndex(int value, bool publishToRPC = true) override;
 
+    void onInfoButtonClicked() override;
+
 private:
     void updateProceedButton();
 

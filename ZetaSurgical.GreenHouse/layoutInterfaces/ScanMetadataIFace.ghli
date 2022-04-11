@@ -2,8 +2,8 @@
     "base": "Displayable",
     "name": "ScanMetadataIFace",
     "signals": {
-        "fi_closeWindowButton__onEvent__clicked": {
-            "name": "fi_closeWindowButton__onEvent__clicked"
+        "moveToNoPopup": {
+            "name": "moveToNoPopup"
         }
     },
     "targetFile": "ScanMetadataIFace.ghli"

@@ -5,8 +5,8 @@
         "fi_addToolButton__onEvent__clicked": {
             "name": "fi_addToolButton__onEvent__clicked"
         },
-        "fi_closeWindowButton__onEvent__clicked": {
-            "name": "fi_closeWindowButton__onEvent__clicked"
+        "moveToNoPopup": {
+            "name": "moveToNoPopup"
         }
     },
     "targetFile": "AddToolOverlayIFace.ghli"

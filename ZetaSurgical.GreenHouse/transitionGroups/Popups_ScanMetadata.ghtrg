@@ -1,0 +1,19 @@
+{
+    "source": "Popups",
+    "target": "ScanMetadata",
+    "targetFile": "Popups_ScanMetadata.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "PatientsDatabase",
+                "senderStringType": "%1",
+                "signal": "scanMetadataPopupShown"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{baacd8f4-8fd4-482f-8efd-9d2df24cede9}"
+}

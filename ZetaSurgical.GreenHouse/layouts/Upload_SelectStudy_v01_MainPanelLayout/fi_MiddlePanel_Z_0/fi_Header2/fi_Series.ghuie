@@ -19,13 +19,6 @@
             "uuid": "FigmaNode::I365:3220;365:2926",
             "value": "Series"
         },
-        "visible": {
-            "bindingProp": "studyIsSelected",
-            "bindingSrc": "PatientsDatabase",
-            "name": "visible",
-            "type": "Bool",
-            "value": true
-        },
         "width": {
             "name": "width",
             "type": "Int",
