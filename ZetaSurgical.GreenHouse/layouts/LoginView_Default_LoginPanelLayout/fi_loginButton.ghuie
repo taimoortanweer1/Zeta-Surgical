@@ -5,11 +5,26 @@
     },
     "id": "fi_loginButton",
     "properties": {
+        "enabled": {
+            "bindingNegated": true,
+            "bindingProp": "loginDataEntered",
+            "bindingSrc": "LoginPresenter",
+            "name": "enabled",
+            "type": "Bool",
+            "value": true
+        },
         "fi_BUTTON_TEXT_text": {
             "name": "fi_BUTTON_TEXT_text",
             "type": "TranslatableString",
             "uuid": "FigmaNode::I22:3513;2:5",
             "value": "LOGIN"
+        },
+        "highlighted_flag": {
+            "bindingProp": "loginDataEntered",
+            "bindingSrc": "LoginPresenter",
+            "name": "highlighted_flag",
+            "type": "Bool",
+            "value": false
         },
         "width": {
             "name": "width",

@@ -15,6 +15,12 @@ public:
     void onLoginClicked() override;
     void onLogoutClicked() override;
 
+protected:
+    void init() override;
+
+private:
+    void updateLoginButton();
+
 private:
     PopupsPresenterImpl *const m_popupsPresenter;
 };

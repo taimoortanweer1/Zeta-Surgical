@@ -44,6 +44,12 @@
                 "name": "passwordDisplayMode",
                 "preview": 0,
                 "type": "Int"
+            },
+            {
+                "name": "loginDataEntered",
+                "preview": null,
+                "readonly": true,
+                "type": "Bool"
             }
         ]
     },
