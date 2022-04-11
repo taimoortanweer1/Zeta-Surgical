@@ -16,6 +16,15 @@ void PointEditorPresenterImpl::addNewPoint(Callback callback)
     m_callback = callback;
 }
 
+void PointEditorPresenterImpl::editPoint(Point const &point, Callback callback)
+{
+    Q_ASSERT(callback);
+    m_point = point;
+    m_callback = callback;
+    updatePointStrings();
+    emit pointEditorPopupShown();
+}
+
 void PointEditorPresenterImpl::init()
 {
     updatePointStrings();

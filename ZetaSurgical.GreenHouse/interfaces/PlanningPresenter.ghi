@@ -84,35 +84,59 @@
                 "data": [
                     {
                         "index": "0",
-                        "text": "text_0"
+                        "text": "text_0",
+                        "x": "0",
+                        "y": "0",
+                        "z": "0"
                     },
                     {
                         "index": "1",
-                        "text": "text_1"
+                        "text": "text_1",
+                        "x": "0",
+                        "y": "0",
+                        "z": "0"
                     },
                     {
                         "index": "2",
-                        "text": "text_2"
+                        "text": "text_2",
+                        "x": "0",
+                        "y": "0",
+                        "z": "0"
                     },
                     {
                         "index": "3",
-                        "text": "text_3"
+                        "text": "text_3",
+                        "x": "0",
+                        "y": "0",
+                        "z": "0"
                     },
                     {
                         "index": "4",
-                        "text": "text_4"
+                        "text": "text_4",
+                        "x": "0",
+                        "y": "0",
+                        "z": "0"
                     },
                     {
                         "index": "5",
-                        "text": "text_5"
+                        "text": "text_5",
+                        "x": "0",
+                        "y": "0",
+                        "z": "0"
                     },
                     {
                         "index": "6",
-                        "text": "text_6"
+                        "text": "text_6",
+                        "x": "0",
+                        "y": "0",
+                        "z": "0"
                     },
                     {
                         "index": "7",
-                        "text": "text_7"
+                        "text": "text_7",
+                        "x": "0",
+                        "y": "0",
+                        "z": "0"
                     }
                 ],
                 "name": "targetsList",
@@ -120,7 +144,10 @@
                 "readonly": true,
                 "roles": [
                     "text",
-                    "index"
+                    "index",
+                    "x",
+                    "y",
+                    "z"
                 ],
                 "type": "Model"
             },

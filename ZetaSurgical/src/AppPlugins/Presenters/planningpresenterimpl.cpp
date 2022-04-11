@@ -14,6 +14,24 @@ PlanningPresenterImpl::PlanningPresenterImpl(PopupsPresenterImpl *popupsPresente
 
 void PlanningPresenterImpl::editTargetAtIndex(int index)
 {
+    qWarning() << __PRETTY_FUNCTION__ << index;
+    if(index < 0 || index >= targetsList()->rowCount())
+        return;
+    QJsonObject pointEntry = targetsList()->dataAt(index);
+    Point point;
+    point.x = pointEntry[QStringLiteral("x")].toDouble();
+    point.y = pointEntry[QStringLiteral("y")].toDouble();
+    point.z = pointEntry[QStringLiteral("z")].toDouble();
+
+    m_pointEditor->editPoint(point, [this, index](Point const &point){
+        QJsonObject obj;
+        obj[QStringLiteral("text")] = QStringLiteral("%1").arg(point.x);
+        obj[QStringLiteral("index")] = index;
+        obj[QStringLiteral("x")] = point.x;
+        obj[QStringLiteral("y")] = point.y;
+        obj[QStringLiteral("z")] = point.z;
+        targetsList()->setRowData(index, obj);
+    });
 }
 
 void PlanningPresenterImpl::deleteTargetAtIndex(int index)

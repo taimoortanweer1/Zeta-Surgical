@@ -21,6 +21,7 @@ class PointEditorPresenterImpl : public ZetaSurgical::PointEditorPresenter
 public:
     explicit PointEditorPresenterImpl();
     void addNewPoint(Callback);
+    void editPoint(Point const &point, Callback);
 
     void init();
 
