@@ -1,5 +1,8 @@
 {
     "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "39:1716"
+    },
     "id": "fi_zetaLogo_3",
     "properties": {
         "height": {

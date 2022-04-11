@@ -3,9 +3,10 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
 
-//USES ComponentsSet.AutoRepeatMouseArea
 //USES BorderImage
 //USES ComponentsSet.Label
+//USES Item
+//USES ComponentsSet.AutoRepeatMouseArea
 //PREVIEW IMAGE qrc:/GeneratedComponents/assets/Button.png
 
 //EDITABLE TRUE
@@ -13,27 +14,26 @@ Item {
     id: root
 
     //Exposed properties----------------------------------------------------------------------------
+    property bool activated_flag: false
     property bool doubleClickEnabeld: false
-    property int itemIndex: 0
     property int minimumRepeatInterval: 100
     property int repeateInterval: 1000
-    property int selectionIndex: -1
     //FONT Figma::Arial_ArialMT_24_50_0_0_0_0_0.2
-    property alias fi_EXAMPLE_font: fi_EXAMPLE___default.font
+    property alias fi_EXAMPLE_font: fi_EXAMPLE___activated.font
     //TEXTHAL 4
-    property alias fi_EXAMPLE_horizontalAlignment: fi_EXAMPLE___default.horizontalAlignment
+    property alias fi_EXAMPLE_horizontalAlignment: fi_EXAMPLE___activated.horizontalAlignment
     //REAL 20
-    property alias fi_EXAMPLE_lineHeight: fi_EXAMPLE___default.lineHeight
+    property alias fi_EXAMPLE_lineHeight: fi_EXAMPLE___activated.lineHeight
     //TEXTLINEHM 1
-    property alias fi_EXAMPLE_lineHeightMode: fi_EXAMPLE___default.lineHeightMode
+    property alias fi_EXAMPLE_lineHeightMode: fi_EXAMPLE___activated.lineHeightMode
     //REAL 1
-    property alias fi_EXAMPLE_opacity: fi_EXAMPLE___default.opacity
+    property alias fi_EXAMPLE_opacity: fi_EXAMPLE___activated.opacity
     //BOOL false
-    property alias fi_EXAMPLE_richText: fi_EXAMPLE___default.richText
+    property alias fi_EXAMPLE_richText: fi_EXAMPLE___activated.richText
     //TRANSLATABLE EXAMPLE
-    property alias fi_EXAMPLE_text: fi_EXAMPLE___default.text
+    property alias fi_EXAMPLE_text: fi_EXAMPLE___activated.text
     //TEXTVAL 128
-    property alias fi_EXAMPLE_verticalAlignment: fi_EXAMPLE___default.verticalAlignment
+    property alias fi_EXAMPLE_verticalAlignment: fi_EXAMPLE___activated.verticalAlignment
 
     //----------------------------------------------------------------------------------------------
 
@@ -53,6 +53,45 @@ Item {
     //----------------------------------------------------------------------------------------------
 
     //Children--------------------------------------------------------------------------------------
+    Item {
+        id: activated_StateParent
+        anchors.left: parent.left
+        anchors.right: parent.right
+        anchors.top: parent.top
+        anchors.bottom: parent.bottom
+        visible: false
+
+        BorderImage {
+            id: fi_Background_9seg_29_29_29_29___activated
+            anchors.left: parent.left
+            anchors.right: parent.right
+            anchors.top: parent.top
+            anchors.bottom: parent.bottom
+            source: GreenHouseThemeManager.theme.asset("/387_2223.png")
+            border.bottom: 27
+            border.left: 27
+            border.right: 27
+            border.top: 27
+        }
+        ComponentsSet.Label {
+            id: fi_EXAMPLE___activated
+            anchors.left: parent.left
+            anchors.leftMargin: -1
+            anchors.right: parent.right
+            anchors.rightMargin: -1
+            anchors.verticalCenter: parent.verticalCenter
+            z: 1
+            height: 26
+            text: qsTr("EXAMPLE", "FigmaNode::387:2224") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::387:2224") : "")
+            font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_24_50_0_0_0_0_0.2")
+            textColor: GreenHouseThemeManager.theme.color("Text/White")
+            horizontalAlignment: Text.AlignHCenter
+            verticalAlignment: Text.AlignVCenter
+            wrapMode: Text.WordWrap
+            lineHeight: 20
+            lineHeightMode: Text.FixedHeight
+        }
+    }
     ComponentsSet.AutoRepeatMouseArea {
         id: __mouseArea
         anchors.left: parent.left
@@ -101,14 +140,16 @@ Item {
         anchors.verticalCenter: parent.verticalCenter
         z: 1
         height: 26
-        text: qsTr("EXAMPLE", "FigmaNode::387:2227") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::387:2227") : "")
-        font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_24_50_0_0_0_0_0.2")
+        text: fi_EXAMPLE___activated.text
+        font: fi_EXAMPLE___activated.font
         textColor: GreenHouseThemeManager.theme.color("Text/White")
-        horizontalAlignment: Text.AlignHCenter
-        verticalAlignment: Text.AlignVCenter
+        opacity: fi_EXAMPLE___activated.opacity
+        horizontalAlignment: fi_EXAMPLE___activated.horizontalAlignment
+        verticalAlignment: fi_EXAMPLE___activated.verticalAlignment
         wrapMode: Text.WordWrap
-        lineHeight: 20
-        lineHeightMode: Text.FixedHeight
+        lineHeight: fi_EXAMPLE___activated.lineHeight
+        lineHeightMode: fi_EXAMPLE___activated.lineHeightMode
+        richText: fi_EXAMPLE___activated.richText
     }
 
     //----------------------------------------------------------------------------------------------
@@ -117,7 +158,7 @@ Item {
     StateGroup { //
         states: [
         State {
-            when: root.enabled && !__mouseArea.pressed && !(root.selectionIndex == root.itemIndex)
+            when: root.enabled && !__mouseArea.pressed
             name: "default"
             PropertyChanges {
                 target: fi_Background_9seg_29_29_29_29___default
@@ -141,19 +182,24 @@ Item {
             }
         },
         State {
-            when: root.enabled && __mouseArea.pressed && !(root.selectionIndex == root.itemIndex)
+            when: root.enabled && __mouseArea.pressed
             name: "pressed"
             PropertyChanges {
                 target: fi_Background_9seg_29_29_29_29___default
                 source: GreenHouseThemeManager.theme.asset("/387_2232.png")
             }
-        },
+        }
+        ]
+    }
+    StateGroup { // generic_activated
+        states: [
         State {
-            when: root.enabled && !__mouseArea.pressed && (root.selectionIndex == root.itemIndex)
-            name: "selected"
+            when: root.activated_flag
+            name: "activated"
             PropertyChanges {
-                target: fi_Background_9seg_29_29_29_29___default
-                source: GreenHouseThemeManager.theme.asset("/387_2223.png")
+                target: activated_StateParent
+                visible: true
+                z: 999
             }
         }
         ]

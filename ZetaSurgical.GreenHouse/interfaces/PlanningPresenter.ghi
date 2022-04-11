@@ -83,56 +83,56 @@
             {
                 "data": [
                     {
-                        "index": "0",
+                        "selected": "",
                         "text": "text_0",
                         "x": "0",
                         "y": "0",
                         "z": "0"
                     },
                     {
-                        "index": "1",
+                        "selected": "",
                         "text": "text_1",
                         "x": "0",
                         "y": "0",
                         "z": "0"
                     },
                     {
-                        "index": "2",
+                        "selected": "",
                         "text": "text_2",
                         "x": "0",
                         "y": "0",
                         "z": "0"
                     },
                     {
-                        "index": "3",
+                        "selected": "",
                         "text": "text_3",
                         "x": "0",
                         "y": "0",
                         "z": "0"
                     },
                     {
-                        "index": "4",
+                        "selected": "",
                         "text": "text_4",
                         "x": "0",
                         "y": "0",
                         "z": "0"
                     },
                     {
-                        "index": "5",
+                        "selected": "",
                         "text": "text_5",
                         "x": "0",
                         "y": "0",
                         "z": "0"
                     },
                     {
-                        "index": "6",
+                        "selected": "",
                         "text": "text_6",
                         "x": "0",
                         "y": "0",
                         "z": "0"
                     },
                     {
-                        "index": "7",
+                        "selected": "",
                         "text": "text_7",
                         "x": "0",
                         "y": "0",
@@ -144,47 +144,41 @@
                 "readonly": true,
                 "roles": [
                     "text",
-                    "index",
                     "x",
                     "y",
-                    "z"
+                    "z",
+                    "selected"
                 ],
                 "type": "Model"
             },
             {
-                "name": "selectedTargetIndex",
-                "preview": -1,
-                "readonly": true,
-                "type": "Int"
-            },
-            {
                 "data": [
                     {
-                        "index": 0,
+                        "selected": "",
                         "text": "text_0"
                     },
                     {
-                        "index": 1,
+                        "selected": "",
                         "text": "text_1"
                     },
                     {
-                        "index": 2,
+                        "selected": "",
                         "text": "text_2"
                     },
                     {
-                        "index": 3,
+                        "selected": "",
                         "text": "text_3"
                     },
                     {
-                        "index": 4,
+                        "selected": "",
                         "text": "text_4"
                     },
                     {
-                        "index": 5,
+                        "selected": "",
                         "text": "text_5"
                     },
                     {
-                        "index": 6,
+                        "selected": "",
                         "text": "text_6"
                     }
                 ],
@@ -193,15 +187,9 @@
                 "readonly": true,
                 "roles": [
                     "text",
-                    "index"
+                    "selected"
                 ],
                 "type": "Model"
-            },
-            {
-                "name": "selectedInstrumentIndex",
-                "preview": -1,
-                "readonly": true,
-                "type": "Int"
             },
             {
                 "name": "selectedPointString",
@@ -226,6 +214,12 @@
                 "preview": null,
                 "readonly": true,
                 "type": "String"
+            },
+            {
+                "name": "proceedToPositioningButtonEnabled",
+                "preview": null,
+                "readonly": true,
+                "type": "Bool"
             }
         ]
     },

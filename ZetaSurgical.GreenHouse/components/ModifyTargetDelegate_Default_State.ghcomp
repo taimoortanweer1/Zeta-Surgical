@@ -17,13 +17,8 @@
                 "aliasSource": "fi_Buttons_TextLeftAligned"
             },
             {
-                "aliasElement": "selectionIndex",
-                "aliasName": "fi_Buttons_TextLeftAligned_selectionIndex",
-                "aliasSource": "fi_Buttons_TextLeftAligned"
-            },
-            {
-                "aliasElement": "itemIndex",
-                "aliasName": "fi_Buttons_TextLeftAligned_itemIndex",
+                "aliasElement": "activated_flag",
+                "aliasName": "fi_Buttons_TextLeftAligned_activated_flag",
                 "aliasSource": "fi_Buttons_TextLeftAligned"
             },
             {
@@ -188,7 +183,7 @@
                     },
                     {
                         "anchorRight": {
-                            "anchorMargin": 96,
+                            "anchorMargin": 88,
                             "anchorTarget": "parent",
                             "anchorValue": "Right"
                         },
@@ -207,7 +202,7 @@
                             "x": {
                                 "name": "x",
                                 "type": "Int",
-                                "value": 208
+                                "value": 216
                             },
                             "y": {
                                 "name": "y",

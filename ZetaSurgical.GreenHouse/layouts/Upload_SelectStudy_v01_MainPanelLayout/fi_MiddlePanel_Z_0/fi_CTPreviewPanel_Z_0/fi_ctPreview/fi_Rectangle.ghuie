@@ -24,7 +24,7 @@
         "height": {
             "name": "height",
             "type": "Int",
-            "value": 520
+            "value": 552
         },
         "horizontalCenterOffset": {
             "name": "horizontalCenterOffset",

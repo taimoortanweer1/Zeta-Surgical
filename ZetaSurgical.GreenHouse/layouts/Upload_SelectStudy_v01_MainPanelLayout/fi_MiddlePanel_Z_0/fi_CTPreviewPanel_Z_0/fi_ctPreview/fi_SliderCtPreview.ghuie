@@ -1,13 +1,13 @@
 {
+    "anchorBottom": {
+        "anchorMargin": 32,
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
     "anchorLeft": {
         "anchorMargin": 32,
         "anchorTarget": "parent",
         "anchorValue": "Left"
-    },
-    "anchorTop": {
-        "anchorMargin": 448,
-        "anchorTarget": "parent",
-        "anchorValue": "Top"
     },
     "childrenSplit": true,
     "extraData": {
@@ -38,7 +38,7 @@
         "y": {
             "name": "y",
             "type": "Int",
-            "value": 448
+            "value": 480
         },
         "z": {
             "name": "z",

@@ -1,0 +1,19 @@
+{
+    "blockInputFallthrough": true,
+    "childrenSplit": true,
+    "fillParent": false,
+    "height": 1080,
+    "hideAnimation": {
+        "type": "Sequential"
+    },
+    "interfaceName": "InstructionsRegistrationIFace",
+    "name": "InstructionsRegistrationLayout",
+    "posX": 0,
+    "posY": 0,
+    "rootContainerType": "Item",
+    "showAnimation": {
+        "type": "Sequential"
+    },
+    "targetFile": "InstructionsRegistrationLayout.ghl",
+    "width": 1920
+}

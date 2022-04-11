@@ -1,0 +1,18 @@
+{
+    "source": "VerifyRegistrationPanel",
+    "target": "VerifyRegistrationPanelHidden",
+    "targetFile": "VerifyRegistrationPanel_VerifyRegistrationPanelHidden.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "hideVerifyRegistrationPanel"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

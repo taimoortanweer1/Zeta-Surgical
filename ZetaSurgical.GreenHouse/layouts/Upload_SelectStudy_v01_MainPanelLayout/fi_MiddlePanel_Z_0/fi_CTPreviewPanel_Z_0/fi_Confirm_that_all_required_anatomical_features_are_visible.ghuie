@@ -5,7 +5,7 @@
         "anchorValue": "Left"
     },
     "anchorTop": {
-        "anchorMargin": 519,
+        "anchorMargin": 551,
         "anchorTarget": "parent",
         "anchorValue": "Top"
     },
@@ -74,7 +74,7 @@
         "y": {
             "name": "y",
             "type": "Int",
-            "value": 519
+            "value": 551
         },
         "z": {
             "name": "z",

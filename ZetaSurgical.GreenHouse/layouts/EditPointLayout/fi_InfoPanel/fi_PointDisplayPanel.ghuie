@@ -1,0 +1,45 @@
+{
+    "anchorLeft": {
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorRight": {
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "anchorTop": {
+        "anchorMargin": 432,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "366:3540"
+    },
+    "id": "fi_PointDisplayPanel",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 484
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 456
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 432
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 6
+        }
+    },
+    "targetFile": "fi_PointDisplayPanel.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

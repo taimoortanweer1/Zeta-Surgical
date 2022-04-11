@@ -1,0 +1,83 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 31,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 113,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "494:2421"
+    },
+    "id": "fi_Attach_Thandles_to_the_drape_bar",
+    "properties": {
+        "font": {
+            "name": "font",
+            "type": "Font",
+            "value": "Figma::Arial_ArialMT_22_50_0_0_0_0_0.2"
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 48
+        },
+        "horizontalAlignment": {
+            "name": "horizontalAlignment",
+            "type": "TextHorizontalAlignment",
+            "value": "AlignHCenter"
+        },
+        "lineHeight": {
+            "name": "lineHeight",
+            "type": "Float",
+            "value": 30
+        },
+        "lineHeightMode": {
+            "name": "lineHeightMode",
+            "type": "TextLineHeightMode",
+            "value": "FixedHeight"
+        },
+        "text": {
+            "name": "text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::494:2421",
+            "value": "Attach T-handles to the drape bar"
+        },
+        "textColor": {
+            "name": "textColor",
+            "type": "Color",
+            "value": "Outline/White"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 1522
+        },
+        "wrapMode": {
+            "name": "wrapMode",
+            "type": "TextWrapMode",
+            "value": "WordWrap"
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 31
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 113
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 5
+        }
+    },
+    "targetFile": "fi_Attach_Thandles_to_the_drape_bar.ghuie",
+    "type": "ComponentsSet.Label",
+    "userDefined": false
+}

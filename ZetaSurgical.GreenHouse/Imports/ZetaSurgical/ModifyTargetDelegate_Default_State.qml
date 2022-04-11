@@ -13,6 +13,8 @@ Item {
 
     //Exposed properties----------------------------------------------------------------------------
     //BOOL false
+    property alias fi_Buttons_TextLeftAligned_activated_flag: fi_Buttons_TextLeftAligned.activated_flag
+    //BOOL false
     property alias fi_Buttons_TextLeftAligned_doubleClickEnabeld: fi_Buttons_TextLeftAligned.doubleClickEnabeld
     //BOOL true
     property alias fi_Buttons_TextLeftAligned_enabled: fi_Buttons_TextLeftAligned.enabled
@@ -34,14 +36,10 @@ Item {
     property alias fi_Buttons_TextLeftAligned_fi_Default_Target_textColor: fi_Buttons_TextLeftAligned.fi_Default_Target_textColor
     //TEXTVAL 128
     property alias fi_Buttons_TextLeftAligned_fi_Default_Target_verticalAlignment: fi_Buttons_TextLeftAligned.fi_Default_Target_verticalAlignment
-    //INT 0
-    property alias fi_Buttons_TextLeftAligned_itemIndex: fi_Buttons_TextLeftAligned.itemIndex
     //INT 100
     property alias fi_Buttons_TextLeftAligned_minimumRepeatInterval: fi_Buttons_TextLeftAligned.minimumRepeatInterval
     //INT 1000
     property alias fi_Buttons_TextLeftAligned_repeateInterval: fi_Buttons_TextLeftAligned.repeateInterval
-    //INT -1
-    property alias fi_Buttons_TextLeftAligned_selectionIndex: fi_Buttons_TextLeftAligned.selectionIndex
     //BOOL false
     property alias fi_DeleteButton_doubleClickEnabeld: fi_DeleteButton.doubleClickEnabeld
     //BOOL true
@@ -128,7 +126,7 @@ Item {
     ZetaSurgicalSet.ModifyButton_Default_State {
         id: fi_ModifyButton
         anchors.right: parent.right
-        anchors.rightMargin: 96
+        anchors.rightMargin: 88
         anchors.verticalCenter: parent.verticalCenter
         z: 1
         clip: true

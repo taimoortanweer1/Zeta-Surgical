@@ -1,5 +1,8 @@
 {
     "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "22:3507"
+    },
     "id": "fi_Rectangle_98",
     "properties": {
         "border-color": {

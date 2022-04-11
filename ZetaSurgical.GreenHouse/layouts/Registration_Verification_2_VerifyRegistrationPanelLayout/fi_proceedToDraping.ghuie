@@ -1,0 +1,38 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "496:4205"
+    },
+    "id": "fi_proceedToDraping",
+    "properties": {
+        "fi_BUTTON_TEXT_text": {
+            "name": "fi_BUTTON_TEXT_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I496:4205;2:5",
+            "value": "Proceed to Navigation"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 392
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 32
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 968
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "targetFile": "fi_proceedToDraping.ghuie",
+    "type": "ZetaSurgicalSet.NextButton",
+    "userDefined": false
+}

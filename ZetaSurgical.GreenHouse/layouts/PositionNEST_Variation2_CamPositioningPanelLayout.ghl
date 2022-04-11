@@ -1,0 +1,19 @@
+{
+    "blockInputFallthrough": true,
+    "childrenSplit": true,
+    "fillParent": false,
+    "height": 1080,
+    "hideAnimation": {
+        "type": "Sequential"
+    },
+    "interfaceName": "PositionNEST_Variation2_CamPositioningPanelIFace",
+    "name": "PositionNEST_Variation2_CamPositioningPanelLayout",
+    "posX": 1464,
+    "posY": 0,
+    "rootContainerType": "Item",
+    "showAnimation": {
+        "type": "Sequential"
+    },
+    "targetFile": "PositionNEST_Variation2_CamPositioningPanelLayout.ghl",
+    "width": 456
+}

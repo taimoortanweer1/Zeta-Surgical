@@ -33,7 +33,7 @@
         "height": {
             "name": "height",
             "type": "Int",
-            "value": 532
+            "value": 564
         },
         "horizontalAlignment": {
             "name": "horizontalAlignment",

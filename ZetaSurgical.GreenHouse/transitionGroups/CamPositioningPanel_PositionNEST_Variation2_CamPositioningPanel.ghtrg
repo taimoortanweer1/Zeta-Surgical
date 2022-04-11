@@ -1,0 +1,18 @@
+{
+    "source": "CamPositioningPanel",
+    "target": "PositionNEST_Variation2_CamPositioningPanel",
+    "targetFile": "CamPositioningPanel_PositionNEST_Variation2_CamPositioningPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceCamPositioningPanelMoveToPositionNEST_Variation2_CamPositioningPanel"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

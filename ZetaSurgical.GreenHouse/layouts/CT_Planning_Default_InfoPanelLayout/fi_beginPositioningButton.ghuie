@@ -5,11 +5,25 @@
     },
     "id": "fi_beginPositioningButton",
     "properties": {
+        "enabled": {
+            "bindingProp": "proceedToPositioningButtonEnabled",
+            "bindingSrc": "PlanningPresenter",
+            "name": "enabled",
+            "type": "Bool",
+            "value": true
+        },
         "fi_BUTTON_TEXT_text": {
             "name": "fi_BUTTON_TEXT_text",
             "type": "TranslatableString",
             "uuid": "FigmaNode::I34:2915;11:1229",
             "value": "Proceed to Positioning"
+        },
+        "highlighted_flag": {
+            "bindingProp": "proceedToPositioningButtonEnabled",
+            "bindingSrc": "PlanningPresenter",
+            "name": "highlighted_flag",
+            "type": "Bool",
+            "value": false
         },
         "width": {
             "name": "width",

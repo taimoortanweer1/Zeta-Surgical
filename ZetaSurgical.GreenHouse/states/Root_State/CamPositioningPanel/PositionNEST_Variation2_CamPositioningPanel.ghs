@@ -1,0 +1,41 @@
+{
+    "children": [
+    ],
+    "childrenSplit": true,
+    "entryActions": [
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        },
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        }
+    ],
+    "exitActions": [
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        }
+    ],
+    "extraData": {
+        "FIGMA": "kKItBBA5TYuCVGxWbPVftH",
+        "orderValue": 1
+    },
+    "height": 0,
+    "posX": 0,
+    "posY": 0,
+    "properties": {
+        "childViewType": "ChildStateView",
+        "initial": false,
+        "layoutFile": "PositionNEST_Variation2_CamPositioningPanelLayout",
+        "layoutFileTemplate": "%1Impl.qml",
+        "name": "PositionNEST_Variation2_CamPositioningPanel",
+        "parallel": false,
+        "parentingEnabled": true,
+        "preloadUI": false
+    },
+    "targetFile": "PositionNEST_Variation2_CamPositioningPanel.ghs",
+    "template": "ItemState",
+    "width": 0
+}

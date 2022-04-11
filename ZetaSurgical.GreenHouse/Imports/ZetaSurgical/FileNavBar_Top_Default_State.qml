@@ -11,6 +11,8 @@ Item {
 
     //Exposed properties----------------------------------------------------------------------------
     //BOOL false
+    property alias fi_cdUsb_activated_flag: fi_cdUsb.activated_flag
+    //BOOL false
     property alias fi_cdUsb_doubleClickEnabeld: fi_cdUsb.doubleClickEnabeld
     //BOOL true
     property alias fi_cdUsb_enabled: fi_cdUsb.enabled
@@ -30,14 +32,12 @@ Item {
     property alias fi_cdUsb_fi_EXAMPLE_text: fi_cdUsb.fi_EXAMPLE_text
     //TEXTVAL 128
     property alias fi_cdUsb_fi_EXAMPLE_verticalAlignment: fi_cdUsb.fi_EXAMPLE_verticalAlignment
-    //INT 0
-    property alias fi_cdUsb_itemIndex: fi_cdUsb.itemIndex
     //INT 100
     property alias fi_cdUsb_minimumRepeatInterval: fi_cdUsb.minimumRepeatInterval
     //INT 1000
     property alias fi_cdUsb_repeateInterval: fi_cdUsb.repeateInterval
-    //INT -1
-    property alias fi_cdUsb_selectionIndex: fi_cdUsb.selectionIndex
+    //BOOL false
+    property alias fi_local_activated_flag: fi_local.activated_flag
     //BOOL false
     property alias fi_local_doubleClickEnabeld: fi_local.doubleClickEnabeld
     //BOOL true
@@ -58,14 +58,12 @@ Item {
     property alias fi_local_fi_EXAMPLE_text: fi_local.fi_EXAMPLE_text
     //TEXTVAL 128
     property alias fi_local_fi_EXAMPLE_verticalAlignment: fi_local.fi_EXAMPLE_verticalAlignment
-    //INT 0
-    property alias fi_local_itemIndex: fi_local.itemIndex
     //INT 100
     property alias fi_local_minimumRepeatInterval: fi_local.minimumRepeatInterval
     //INT 1000
     property alias fi_local_repeateInterval: fi_local.repeateInterval
-    //INT -1
-    property alias fi_local_selectionIndex: fi_local.selectionIndex
+    //BOOL false
+    property alias fi_pacs_activated_flag: fi_pacs.activated_flag
     //BOOL false
     property alias fi_pacs_doubleClickEnabeld: fi_pacs.doubleClickEnabeld
     //BOOL true
@@ -86,14 +84,10 @@ Item {
     property alias fi_pacs_fi_EXAMPLE_text: fi_pacs.fi_EXAMPLE_text
     //TEXTVAL 128
     property alias fi_pacs_fi_EXAMPLE_verticalAlignment: fi_pacs.fi_EXAMPLE_verticalAlignment
-    //INT 0
-    property alias fi_pacs_itemIndex: fi_pacs.itemIndex
     //INT 100
     property alias fi_pacs_minimumRepeatInterval: fi_pacs.minimumRepeatInterval
     //INT 1000
     property alias fi_pacs_repeateInterval: fi_pacs.repeateInterval
-    //INT -1
-    property alias fi_pacs_selectionIndex: fi_pacs.selectionIndex
 
     //----------------------------------------------------------------------------------------------
 

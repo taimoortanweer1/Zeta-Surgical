@@ -21,6 +21,12 @@ public:
 
     Q_INVOKABLE void setVTKItem(QObject *item, int index);
 
+protected:
+    void init() override;
+
+private:
+    void updateProceedButton();
+
 private:
     PopupsPresenterImpl * const m_popupsPresenter;
     PointEditorPresenterImpl* const m_pointEditor;

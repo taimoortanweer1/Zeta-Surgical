@@ -1,0 +1,53 @@
+{
+    "anchorBottom": {
+        "anchorMargin": 32,
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorHCenter": {
+        "anchorTarget": "parent",
+        "anchorValue": "HorizontalCenter"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "509:2715"
+    },
+    "id": "fi_addPointButton",
+    "properties": {
+        "fi_BUTTON_TEXT_text": {
+            "name": "fi_BUTTON_TEXT_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I509:2715;11:1229",
+            "value": "Add Point"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 392
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 32
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 968
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_addPointButton__onEvent__clicked()\n"
+        }
+    },
+    "targetFile": "fi_addPointButton.ghuie",
+    "type": "ZetaSurgicalSet.NextButton",
+    "userDefined": false
+}

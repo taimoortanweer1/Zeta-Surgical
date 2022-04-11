@@ -1,0 +1,40 @@
+{
+    "children": [
+    ],
+    "childrenSplit": true,
+    "entryActions": [
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        },
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        }
+    ],
+    "exitActions": [
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        }
+    ],
+    "extraData": {
+        "orderValue": 3
+    },
+    "height": 0,
+    "posX": 0,
+    "posY": 0,
+    "properties": {
+        "childViewType": "ChildStateView",
+        "initial": false,
+        "layoutFile": "InstructionsPositioningLayout",
+        "layoutFileTemplate": "%1Impl.qml",
+        "name": "InstructionsPositioning",
+        "parallel": false,
+        "parentingEnabled": true,
+        "preloadUI": false
+    },
+    "targetFile": "InstructionsPositioning.ghs",
+    "template": "ItemState",
+    "width": 0
+}

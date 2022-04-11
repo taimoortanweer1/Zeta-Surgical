@@ -1,0 +1,18 @@
+{
+    "source": "CamPositioningPanel",
+    "target": "CamPositioningPanelHidden",
+    "targetFile": "CamPositioningPanel_CamPositioningPanelHidden.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "hideCamPositioningPanel"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

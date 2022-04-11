@@ -60,3 +60,4 @@ WestButton_Default_State 1.0 WestButton_Default_State.qml
 SourhtButton_Default_State 1.0 SourhtButton_Default_State.qml
 SelectButtonDelegate 1.0 SelectButtonDelegate.qml
 ToggleEye 1.0 ToggleEye.qml
+MoreButton_Default_State 1.0 MoreButton_Default_State.qml

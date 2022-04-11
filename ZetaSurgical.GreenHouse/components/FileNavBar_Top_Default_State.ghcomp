@@ -17,13 +17,8 @@
                 "aliasSource": "fi_cdUsb"
             },
             {
-                "aliasElement": "selectionIndex",
-                "aliasName": "fi_cdUsb_selectionIndex",
-                "aliasSource": "fi_cdUsb"
-            },
-            {
-                "aliasElement": "itemIndex",
-                "aliasName": "fi_cdUsb_itemIndex",
+                "aliasElement": "activated_flag",
+                "aliasName": "fi_cdUsb_activated_flag",
                 "aliasSource": "fi_cdUsb"
             },
             {
@@ -89,13 +84,8 @@
                 "aliasSource": "fi_local"
             },
             {
-                "aliasElement": "selectionIndex",
-                "aliasName": "fi_local_selectionIndex",
-                "aliasSource": "fi_local"
-            },
-            {
-                "aliasElement": "itemIndex",
-                "aliasName": "fi_local_itemIndex",
+                "aliasElement": "activated_flag",
+                "aliasName": "fi_local_activated_flag",
                 "aliasSource": "fi_local"
             },
             {
@@ -161,13 +151,8 @@
                 "aliasSource": "fi_pacs"
             },
             {
-                "aliasElement": "selectionIndex",
-                "aliasName": "fi_pacs_selectionIndex",
-                "aliasSource": "fi_pacs"
-            },
-            {
-                "aliasElement": "itemIndex",
-                "aliasName": "fi_pacs_itemIndex",
+                "aliasElement": "activated_flag",
+                "aliasName": "fi_pacs_activated_flag",
                 "aliasSource": "fi_pacs"
             },
             {

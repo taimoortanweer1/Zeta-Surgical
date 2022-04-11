@@ -1,0 +1,19 @@
+{
+    "blockInputFallthrough": true,
+    "childrenSplit": true,
+    "fillParent": false,
+    "height": 1080,
+    "hideAnimation": {
+        "type": "Sequential"
+    },
+    "interfaceName": "Registration_Verification_1_VerifyRegistrationPanelIFace",
+    "name": "Registration_Verification_1_VerifyRegistrationPanelLayout",
+    "posX": 1464,
+    "posY": 0,
+    "rootContainerType": "Item",
+    "showAnimation": {
+        "type": "Sequential"
+    },
+    "targetFile": "Registration_Verification_1_VerifyRegistrationPanelLayout.ghl",
+    "width": 456
+}

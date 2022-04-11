@@ -1,45 +1,45 @@
 {
     "aliasList": {
-        "fi_EXAMPLE___default": [
+        "fi_EXAMPLE___activated": [
             {
                 "aliasElement": "font",
                 "aliasName": "fi_EXAMPLE_font",
-                "aliasSource": "fi_EXAMPLE___default"
+                "aliasSource": "fi_EXAMPLE___activated"
             },
             {
                 "aliasElement": "horizontalAlignment",
                 "aliasName": "fi_EXAMPLE_horizontalAlignment",
-                "aliasSource": "fi_EXAMPLE___default"
+                "aliasSource": "fi_EXAMPLE___activated"
             },
             {
                 "aliasElement": "lineHeight",
                 "aliasName": "fi_EXAMPLE_lineHeight",
-                "aliasSource": "fi_EXAMPLE___default"
+                "aliasSource": "fi_EXAMPLE___activated"
             },
             {
                 "aliasElement": "lineHeightMode",
                 "aliasName": "fi_EXAMPLE_lineHeightMode",
-                "aliasSource": "fi_EXAMPLE___default"
+                "aliasSource": "fi_EXAMPLE___activated"
             },
             {
                 "aliasElement": "opacity",
                 "aliasName": "fi_EXAMPLE_opacity",
-                "aliasSource": "fi_EXAMPLE___default"
+                "aliasSource": "fi_EXAMPLE___activated"
             },
             {
                 "aliasElement": "richText",
                 "aliasName": "fi_EXAMPLE_richText",
-                "aliasSource": "fi_EXAMPLE___default"
+                "aliasSource": "fi_EXAMPLE___activated"
             },
             {
                 "aliasElement": "text",
                 "aliasName": "fi_EXAMPLE_text",
-                "aliasSource": "fi_EXAMPLE___default"
+                "aliasSource": "fi_EXAMPLE___activated"
             },
             {
                 "aliasElement": "verticalAlignment",
                 "aliasName": "fi_EXAMPLE_verticalAlignment",
-                "aliasSource": "fi_EXAMPLE___default"
+                "aliasSource": "fi_EXAMPLE___activated"
             }
         ]
     },
@@ -48,6 +48,197 @@
         "children": [
             {
                 "children": [
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "children": [
+                            {
+                                "anchorBottom": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Bottom"
+                                },
+                                "anchorLeft": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Left"
+                                },
+                                "anchorRight": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Right"
+                                },
+                                "anchorTop": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Top"
+                                },
+                                "childrenSplit": true,
+                                "id": "fi_Background_9seg_40_40_40_40___activated",
+                                "properties": {
+                                    "border-bottom": {
+                                        "name": "border-bottom",
+                                        "type": "Int",
+                                        "value": 39
+                                    },
+                                    "border-left": {
+                                        "name": "border-left",
+                                        "type": "Int",
+                                        "value": 39
+                                    },
+                                    "border-right": {
+                                        "name": "border-right",
+                                        "type": "Int",
+                                        "value": 39
+                                    },
+                                    "border-top": {
+                                        "name": "border-top",
+                                        "type": "Int",
+                                        "value": 39
+                                    },
+                                    "height": {
+                                        "name": "height",
+                                        "type": "Int",
+                                        "value": 80
+                                    },
+                                    "source": {
+                                        "name": "source",
+                                        "type": "Asset",
+                                        "value": "/11_1305.png"
+                                    },
+                                    "width": {
+                                        "name": "width",
+                                        "type": "Int",
+                                        "value": 368
+                                    }
+                                },
+                                "targetFile": "fi_Background_9seg_40_40_40_40___activated.ghuie",
+                                "type": "BorderImage",
+                                "userDefined": false
+                            },
+                            {
+                                "anchorLeft": {
+                                    "anchorMargin": -1,
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Left"
+                                },
+                                "anchorRight": {
+                                    "anchorMargin": -1,
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "Right"
+                                },
+                                "anchorVCenter": {
+                                    "anchorTarget": "parent",
+                                    "anchorValue": "VerticalCenter"
+                                },
+                                "childrenSplit": true,
+                                "id": "fi_EXAMPLE___activated",
+                                "properties": {
+                                    "font": {
+                                        "name": "font",
+                                        "type": "Font",
+                                        "value": "Figma::Arial_ArialMT_24_50_0_0_0_0_0.2"
+                                    },
+                                    "height": {
+                                        "name": "height",
+                                        "type": "Int",
+                                        "value": 26
+                                    },
+                                    "horizontalAlignment": {
+                                        "name": "horizontalAlignment",
+                                        "type": "TextHorizontalAlignment",
+                                        "value": "AlignHCenter"
+                                    },
+                                    "lineHeight": {
+                                        "name": "lineHeight",
+                                        "type": "Float",
+                                        "value": 20
+                                    },
+                                    "lineHeightMode": {
+                                        "name": "lineHeightMode",
+                                        "type": "TextLineHeightMode",
+                                        "value": "FixedHeight"
+                                    },
+                                    "text": {
+                                        "name": "text",
+                                        "type": "TranslatableString",
+                                        "uuid": "FigmaNode::11:1306",
+                                        "value": "EXAMPLE"
+                                    },
+                                    "textColor": {
+                                        "name": "textColor",
+                                        "type": "Color",
+                                        "value": "Text/White"
+                                    },
+                                    "verticalAlignment": {
+                                        "name": "verticalAlignment",
+                                        "type": "TextVerticalAlignment",
+                                        "value": "AlignVCenter"
+                                    },
+                                    "width": {
+                                        "name": "width",
+                                        "type": "Int",
+                                        "value": 370
+                                    },
+                                    "wrapMode": {
+                                        "name": "wrapMode",
+                                        "type": "TextWrapMode",
+                                        "value": "WordWrap"
+                                    },
+                                    "x": {
+                                        "name": "x",
+                                        "type": "Int",
+                                        "value": -1
+                                    },
+                                    "y": {
+                                        "name": "y",
+                                        "type": "Int",
+                                        "value": 27
+                                    },
+                                    "z": {
+                                        "name": "z",
+                                        "type": "Int",
+                                        "value": 1
+                                    }
+                                },
+                                "targetFile": "fi_EXAMPLE___activated.ghuie",
+                                "type": "ComponentsSet.Label",
+                                "userDefined": false
+                            }
+                        ],
+                        "childrenSplit": true,
+                        "id": "activated_StateParent",
+                        "properties": {
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 80
+                            },
+                            "visible": {
+                                "name": "visible",
+                                "type": "Bool",
+                                "value": false
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 368
+                            }
+                        },
+                        "targetFile": "activated_StateParent.ghuie",
+                        "type": "Item",
+                        "userDefined": false
+                    },
                     {
                         "anchorBottom": {
                             "anchorTarget": "parent",
@@ -181,6 +372,9 @@
                         "id": "fi_EXAMPLE___default",
                         "properties": {
                             "font": {
+                                "bindingProp": "font",
+                                "bindingSrc": "fi_EXAMPLE___activated",
+                                "itemBound": true,
                                 "name": "font",
                                 "type": "Font",
                                 "value": "Figma::Arial_ArialMT_24_50_0_0_0_0_0.2"
@@ -191,21 +385,49 @@
                                 "value": 26
                             },
                             "horizontalAlignment": {
+                                "bindingProp": "horizontalAlignment",
+                                "bindingSrc": "fi_EXAMPLE___activated",
+                                "itemBound": true,
                                 "name": "horizontalAlignment",
                                 "type": "TextHorizontalAlignment",
                                 "value": "AlignHCenter"
                             },
                             "lineHeight": {
+                                "bindingProp": "lineHeight",
+                                "bindingSrc": "fi_EXAMPLE___activated",
+                                "itemBound": true,
                                 "name": "lineHeight",
                                 "type": "Float",
                                 "value": 20
                             },
                             "lineHeightMode": {
+                                "bindingProp": "lineHeightMode",
+                                "bindingSrc": "fi_EXAMPLE___activated",
+                                "itemBound": true,
                                 "name": "lineHeightMode",
                                 "type": "TextLineHeightMode",
                                 "value": "FixedHeight"
                             },
+                            "opacity": {
+                                "bindingProp": "opacity",
+                                "bindingSrc": "fi_EXAMPLE___activated",
+                                "itemBound": true,
+                                "name": "opacity",
+                                "type": "Float",
+                                "value": 1
+                            },
+                            "richText": {
+                                "bindingProp": "richText",
+                                "bindingSrc": "fi_EXAMPLE___activated",
+                                "itemBound": true,
+                                "name": "richText",
+                                "type": "Bool",
+                                "value": false
+                            },
                             "text": {
+                                "bindingProp": "text",
+                                "bindingSrc": "fi_EXAMPLE___activated",
+                                "itemBound": true,
                                 "name": "text",
                                 "type": "TranslatableString",
                                 "uuid": "FigmaNode::7:1252",
@@ -217,6 +439,9 @@
                                 "value": "Text/White"
                             },
                             "verticalAlignment": {
+                                "bindingProp": "verticalAlignment",
+                                "bindingSrc": "fi_EXAMPLE___activated",
+                                "itemBound": true,
                                 "name": "verticalAlignment",
                                 "type": "TextVerticalAlignment",
                                 "value": "AlignVCenter"
@@ -306,14 +531,9 @@
             "value": false
         },
         {
-            "name": "selectionIndex",
-            "type": "Int",
-            "value": -1
-        },
-        {
-            "name": "itemIndex",
-            "type": "Int",
-            "value": 0
+            "name": "activated_flag",
+            "type": "Bool",
+            "value": false
         }
     ],
     "signalList": {
@@ -364,7 +584,7 @@
                         "value": "Text/White"
                     }
                 ],
-                "when": "root.enabled && !__mouseArea.pressed && !(root.selectionIndex == root.itemIndex)"
+                "when": "root.enabled && !__mouseArea.pressed"
             },
             "disabled": {
                 "group": "",
@@ -396,20 +616,28 @@
                         "value": "/22_2467.png"
                     }
                 ],
-                "when": "root.enabled && __mouseArea.pressed && !(root.selectionIndex == root.itemIndex)"
-            },
-            "selected": {
-                "group": "",
-                "name": "selected",
+                "when": "root.enabled && __mouseArea.pressed"
+            }
+        },
+        "generic_activated": {
+            "activated": {
+                "group": "generic_activated",
+                "name": "activated",
                 "propertyChanges": [
                     {
-                        "name": "source",
-                        "propertyChangeTarget": "fi_Background_9seg_40_40_40_40___default",
-                        "type": "Asset",
-                        "value": "/11_1305.png"
+                        "name": "visible",
+                        "propertyChangeTarget": "activated_StateParent",
+                        "type": "Bool",
+                        "value": true
+                    },
+                    {
+                        "name": "z",
+                        "propertyChangeTarget": "activated_StateParent",
+                        "type": "Int",
+                        "value": 999
                     }
                 ],
-                "when": "root.enabled && !__mouseArea.pressed && (root.selectionIndex == root.itemIndex)"
+                "when": "root.activated_flag"
             }
         }
     },

@@ -26,7 +26,6 @@ void PlanningPresenterImpl::editTargetAtIndex(int index)
     m_pointEditor->editPoint(point, [this, index](Point const &point){
         QJsonObject obj;
         obj[QStringLiteral("text")] = QStringLiteral("%1").arg(point.x);
-        obj[QStringLiteral("index")] = index;
         obj[QStringLiteral("x")] = point.x;
         obj[QStringLiteral("y")] = point.y;
         obj[QStringLiteral("z")] = point.z;
@@ -43,12 +42,23 @@ void PlanningPresenterImpl::deleteTargetAtIndex(int index)
 
 void PlanningPresenterImpl::selectTargetAtIndex(int index)
 {
-    setSelectedTargetIndex(index);
+    if(index < 0 || index >= targetsList()->rowCount())
+        return;
+    auto entry = targetsList()->dataAt(index);
+    auto const data = entry[QStringLiteral("selected")].toBool();
+    entry[QStringLiteral("selected")] = !data;
+    targetsList()->setRowData(index, entry);
 }
 
 void PlanningPresenterImpl::selectInstrumentAtIndex(int index)
 {
-    setSelectedInstrumentIndex(index);
+    if(index < 0 || index >= targetsList()->rowCount())
+        return;
+    auto entry = instrumentsList()->dataAt(index);
+    auto const data = entry[QStringLiteral("selected")].toBool();
+    entry[QStringLiteral("selected")] = !data;
+    instrumentsList()->setRowData(index, entry);
+    updateProceedButton();
 }
 
 void PlanningPresenterImpl::deleteInstrumentAtIndex(int index)
@@ -64,7 +74,6 @@ void PlanningPresenterImpl::onAddNewPointClicked()
     m_pointEditor->addNewPoint([this](Point const &point){
         QJsonObject obj;
         obj[QStringLiteral("text")] = QStringLiteral("%1").arg(point.x);
-        obj[QStringLiteral("index")] = targetsList()->rowCount();
         targetsList()->appendRow(obj);
     });
 }
@@ -77,4 +86,21 @@ void PlanningPresenterImpl::setVTKItem(QObject *item, int index)
         return;
     }
     vtk->setProperty("color", QColor("yellow"));
+}
+
+void PlanningPresenterImpl::init()
+{
+    updateProceedButton();
+}
+
+void PlanningPresenterImpl::updateProceedButton()
+{
+    for(auto const &entry : instrumentsList()->data()) {
+        if(!entry.toObject()[QStringLiteral("selected")].toBool()) {
+            continue;
+        }
+        setProceedToPositioningButtonEnabled(true);
+        return;
+    }
+    setProceedToPositioningButtonEnabled(false);
 }

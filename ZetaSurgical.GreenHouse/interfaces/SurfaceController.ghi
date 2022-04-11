@@ -6,6 +6,9 @@
         "hideBackgroundPanel": {
             "name": "hideBackgroundPanel"
         },
+        "hideCamPositioningPanel": {
+            "name": "hideCamPositioningPanel"
+        },
         "hideHeaderPanel": {
             "name": "hideHeaderPanel"
         },
@@ -42,8 +45,14 @@
         "hideTitlePanel": {
             "name": "hideTitlePanel"
         },
+        "hideVerifyRegistrationPanel": {
+            "name": "hideVerifyRegistrationPanel"
+        },
         "showBackgroundPanel": {
             "name": "showBackgroundPanel"
+        },
+        "showCamPositioningPanel": {
+            "name": "showCamPositioningPanel"
         },
         "showHeaderPanel": {
             "name": "showHeaderPanel"
@@ -78,6 +87,9 @@
         "showTitlePanel": {
             "name": "showTitlePanel"
         },
+        "showVerifyRegistrationPanel": {
+            "name": "showVerifyRegistrationPanel"
+        },
         "surfaceBackgroundPanelMoveToBackgroundPanel_Shared0": {
             "name": "surfaceBackgroundPanelMoveToBackgroundPanel_Shared0"
         },
@@ -86,6 +98,9 @@
         },
         "surfaceBackgroundPanelMoveToLoginView_LoginSuccess_BackgroundPanel": {
             "name": "surfaceBackgroundPanelMoveToLoginView_LoginSuccess_BackgroundPanel"
+        },
+        "surfaceCamPositioningPanelMoveToPositionNEST_Variation2_CamPositioningPanel": {
+            "name": "surfaceCamPositioningPanelMoveToPositionNEST_Variation2_CamPositioningPanel"
         },
         "surfaceHeaderPanelMoveToHeaderPanel_Shared0": {
             "name": "surfaceHeaderPanelMoveToHeaderPanel_Shared0"
@@ -113,6 +128,9 @@
         },
         "surfaceMainPanelMoveToConfirmRegistrationPRE_Adjustment_Cut_MainPanel": {
             "name": "surfaceMainPanelMoveToConfirmRegistrationPRE_Adjustment_Cut_MainPanel"
+        },
+        "surfaceMainPanelMoveToMainPanel_Shared0": {
+            "name": "surfaceMainPanelMoveToMainPanel_Shared0"
         },
         "surfaceMainPanelMoveToNavigationPanel_4Views_MainPanel": {
             "name": "surfaceMainPanelMoveToNavigationPanel_4Views_MainPanel"
@@ -153,9 +171,6 @@
         "surfaceRightInfoPanelMoveToPositionNEST_Variation1_RightInfoPanel": {
             "name": "surfaceRightInfoPanelMoveToPositionNEST_Variation1_RightInfoPanel"
         },
-        "surfaceRightInfoPanelMoveToPositionNEST_Variation2_RightInfoPanel": {
-            "name": "surfaceRightInfoPanelMoveToPositionNEST_Variation2_RightInfoPanel"
-        },
         "surfaceScreensBack": {
             "name": "surfaceScreensBack"
         },
@@ -185,6 +200,12 @@
         },
         "surfaceTitlePanelMoveToTitlePanel_Shared0": {
             "name": "surfaceTitlePanelMoveToTitlePanel_Shared0"
+        },
+        "surfaceVerifyRegistrationPanelMoveToRegistration_Verification_1_VerifyRegistrationPanel": {
+            "name": "surfaceVerifyRegistrationPanelMoveToRegistration_Verification_1_VerifyRegistrationPanel"
+        },
+        "surfaceVerifyRegistrationPanelMoveToRegistration_Verification_2_VerifyRegistrationPanel": {
+            "name": "surfaceVerifyRegistrationPanelMoveToRegistration_Verification_2_VerifyRegistrationPanel"
         }
     },
     "targetFile": "SurfaceController.ghi"

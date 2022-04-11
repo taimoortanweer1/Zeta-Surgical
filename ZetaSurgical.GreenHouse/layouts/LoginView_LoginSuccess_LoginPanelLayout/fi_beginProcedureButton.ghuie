@@ -24,12 +24,12 @@
         "y": {
             "name": "y",
             "type": "Int",
-            "value": 80
+            "value": 208
         },
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 4
+            "value": 3
         }
     },
     "signals": {

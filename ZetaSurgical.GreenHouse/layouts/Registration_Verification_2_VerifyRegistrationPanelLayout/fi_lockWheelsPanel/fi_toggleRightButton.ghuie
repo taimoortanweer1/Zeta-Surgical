@@ -1,0 +1,36 @@
+{
+    "anchorRight": {
+        "anchorMargin": 32,
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "anchorVCenter": {
+        "anchorTarget": "parent",
+        "anchorValue": "VerticalCenter"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "496:4203"
+    },
+    "id": "fi_toggleRightButton",
+    "properties": {
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 280
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 24
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "targetFile": "fi_toggleRightButton.ghuie",
+    "type": "ZetaSurgicalSet.ToggleHorizontal",
+    "userDefined": false
+}

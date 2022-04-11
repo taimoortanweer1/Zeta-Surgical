@@ -1,0 +1,18 @@
+{
+    "source": "VerifyRegistrationPanel",
+    "target": "Registration_Verification_1_VerifyRegistrationPanel",
+    "targetFile": "VerifyRegistrationPanel_Registration_Verification_1_VerifyRegistrationPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceVerifyRegistrationPanelMoveToRegistration_Verification_1_VerifyRegistrationPanel"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

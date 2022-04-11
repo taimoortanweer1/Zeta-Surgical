@@ -24,12 +24,12 @@
         "y": {
             "name": "y",
             "type": "Int",
-            "value": 208
+            "value": 80
         },
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 3
+            "value": 2
         }
     },
     "targetFile": "fi_savedSessionsButton.ghuie",

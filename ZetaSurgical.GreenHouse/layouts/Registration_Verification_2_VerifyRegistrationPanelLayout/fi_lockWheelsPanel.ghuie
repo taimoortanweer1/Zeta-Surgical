@@ -1,0 +1,37 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "496:4201"
+    },
+    "id": "fi_lockWheelsPanel",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 88
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 392
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 32
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 848
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "targetFile": "fi_lockWheelsPanel.ghuie",
+    "type": "Item",
+    "userDefined": false
+}
