@@ -28,6 +28,8 @@
             "value": "FixedHeight"
         },
         "text": {
+            "bindingProp": "loggedInUserString",
+            "bindingSrc": "LoginPresenter",
             "name": "text",
             "type": "TranslatableString",
             "uuid": "FigmaNode::505:2663",

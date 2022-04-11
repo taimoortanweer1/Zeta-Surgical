@@ -50,6 +50,12 @@
                 "preview": null,
                 "readonly": true,
                 "type": "Bool"
+            },
+            {
+                "name": "loggedInUserString",
+                "preview": null,
+                "readonly": true,
+                "type": "String"
             }
         ]
     },

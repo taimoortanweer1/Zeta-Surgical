@@ -6,7 +6,6 @@
     "id": "fi_loginButton",
     "properties": {
         "enabled": {
-            "bindingNegated": true,
             "bindingProp": "loginDataEntered",
             "bindingSrc": "LoginPresenter",
             "name": "enabled",

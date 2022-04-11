@@ -30,6 +30,7 @@ void LoginPresenterImpl::onLoginClicked()
         emit loggedInScreenShown();
     //}
 
+    setLoggedInUserString(QStringLiteral("Welcome %1").arg(enteredUsername()));
     setEnteredUsername(QString());
     setEnteredPassword(QStringLiteral("123"));
     updateLoginButton();
@@ -37,6 +38,7 @@ void LoginPresenterImpl::onLoginClicked()
 
 void LoginPresenterImpl::onLogoutClicked()
 {
+    setLoggedInUserString(QString());
     emit loggedOutScreenShown();
 }
 
