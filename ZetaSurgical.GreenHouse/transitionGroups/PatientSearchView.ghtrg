@@ -37,6 +37,24 @@
                     "type": "RawCode"
                 }
             ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_closeWindowButton__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PopupsPresenter, co) co->closeAllPopups();\n}\n",
+                    "type": "RawCode"
+                }
+            ]
         }
     ],
     "uuid": "{987b2ecb-70bb-4bde-8457-960e12f7e09c}"

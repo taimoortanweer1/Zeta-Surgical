@@ -15,7 +15,7 @@
             "template": "ItemSignalTransition",
             "triggeredActions": [
                 {
-                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfacePopupsMoveToNoPopup();\n}\n",
+                    "rawCode": "{\nCONTEXT_OBJECT(PopupsPresenter, co) co->closeAllPopups();\n}\n",
                     "type": "RawCode"
                 }
             ]
@@ -38,5 +38,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "uuid": "{d8336c21-9ff0-418c-bf0e-2341f4f57a0a}"
 }

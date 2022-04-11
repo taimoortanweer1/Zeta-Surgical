@@ -16,6 +16,12 @@
             "value": 2
         }
     },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_closeWindowButton__onEvent__clicked()\n"
+        }
+    },
     "targetFile": "fi_closeWindowButton.ghuie",
     "type": "ZetaSurgicalSet.CloseWindowButton_Default_State",
     "userDefined": false

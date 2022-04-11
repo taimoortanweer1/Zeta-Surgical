@@ -6,18 +6,6 @@
         {
             "properties": {
                 "backTransition": false,
-                "blockedIfTargetActive": false,
-                "internal": false,
-                "signalName": "moveToNoPopup",
-                "validSourceTemplates": [
-                    "ItemState"
-                ]
-            },
-            "template": "ItemSignalTransition"
-        },
-        {
-            "properties": {
-                "backTransition": false,
                 "blockedIfTargetActive": true,
                 "internal": false,
                 "sender": "PopupsPresenter",

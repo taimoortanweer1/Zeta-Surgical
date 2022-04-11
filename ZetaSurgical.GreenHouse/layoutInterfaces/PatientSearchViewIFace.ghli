@@ -2,6 +2,9 @@
     "base": "Displayable",
     "name": "PatientSearchViewIFace",
     "signals": {
+        "fi_closeWindowButton__onEvent__clicked": {
+            "name": "fi_closeWindowButton__onEvent__clicked"
+        },
         "fi_search__onEvent__input_accepted": {
             "name": "fi_search__onEvent__input_accepted"
         },
@@ -14,9 +17,6 @@
                 }
             ],
             "name": "fi_search__onEvent__input_textChanged"
-        },
-        "moveToNoPopup": {
-            "name": "moveToNoPopup"
         }
     },
     "targetFile": "PatientSearchViewIFace.ghli"
