@@ -55,6 +55,13 @@
             "type": "Int",
             "value": 11
         },
+        "visible": {
+            "bindingProp": "studyIsSelected",
+            "bindingSrc": "PatientsDatabase",
+            "name": "visible",
+            "type": "Bool",
+            "value": true
+        },
         "width": {
             "name": "width",
             "type": "Int",
@@ -63,7 +70,7 @@
         "x": {
             "name": "x",
             "type": "Int",
-            "value": 1264
+            "value": 1288
         },
         "y": {
             "name": "y",

@@ -25,6 +25,12 @@ public:
     void sortStudiesListBy(int headerEntry) override;
     void sortStudiesDescriptionListBy(int headerEntry) override;
 
+    void setStudiesDescriptionSelectedIndex(int value, bool publishToRPC = true) override;
+    void setStudiesListSelectedIndex(int value, bool publishToRPC = true) override;
+
+private:
+    void updateProceedButton();
+
 private:
     PopupsPresenterImpl * const m_popupsPresenter;
 

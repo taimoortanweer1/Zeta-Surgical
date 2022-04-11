@@ -14,11 +14,25 @@
     },
     "id": "fi_importScan",
     "properties": {
+        "enabled": {
+            "bindingProp": "proceedToSegmentationButtonEnabled",
+            "bindingSrc": "PatientsDatabase",
+            "name": "enabled",
+            "type": "Bool",
+            "value": true
+        },
         "fi_BUTTON_TEXT_text": {
             "name": "fi_BUTTON_TEXT_text",
             "type": "TranslatableString",
             "uuid": "FigmaNode::I164:7520;11:1229",
             "value": "Proceed to Segmentation"
+        },
+        "highlighted_flag": {
+            "bindingProp": "proceedToSegmentationButtonEnabled",
+            "bindingSrc": "PatientsDatabase",
+            "name": "highlighted_flag",
+            "type": "Bool",
+            "value": false
         },
         "width": {
             "name": "width",

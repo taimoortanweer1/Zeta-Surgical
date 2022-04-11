@@ -491,6 +491,24 @@
                 "preview": null,
                 "readonly": true,
                 "type": "Bool"
+            },
+            {
+                "name": "studyIsSelected",
+                "preview": true,
+                "readonly": true,
+                "type": "Bool"
+            },
+            {
+                "name": "seriesIsSelected",
+                "preview": true,
+                "readonly": true,
+                "type": "Bool"
+            },
+            {
+                "name": "proceedToSegmentationButtonEnabled",
+                "preview": null,
+                "readonly": true,
+                "type": "Bool"
             }
         ]
     },

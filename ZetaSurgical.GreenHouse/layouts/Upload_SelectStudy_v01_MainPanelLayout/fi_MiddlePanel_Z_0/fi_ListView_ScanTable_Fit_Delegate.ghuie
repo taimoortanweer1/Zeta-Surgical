@@ -42,6 +42,13 @@
             "type": "Model",
             "value": "null"
         },
+        "visible": {
+            "bindingProp": "studyIsSelected",
+            "bindingSrc": "PatientsDatabase",
+            "name": "visible",
+            "type": "Bool",
+            "value": true
+        },
         "width": {
             "name": "width",
             "type": "Int",

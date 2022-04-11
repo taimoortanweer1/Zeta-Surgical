@@ -20,6 +20,13 @@
             "uuid": "FigmaNode::I365:3267;365:2926",
             "value": "Date Added"
         },
+        "visible": {
+            "bindingProp": "studyIsSelected",
+            "bindingSrc": "PatientsDatabase",
+            "name": "visible",
+            "type": "Bool",
+            "value": true
+        },
         "width": {
             "name": "width",
             "type": "Int",

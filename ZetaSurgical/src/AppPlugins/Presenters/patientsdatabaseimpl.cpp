@@ -90,6 +90,12 @@ void PatientsDatabaseImpl::onProceedToStudySelection()
     setCdUsbSourceAvailable(selectedSourceIndex() == StorageSource::CDUSB);
     setPacsSourceAvailable(selectedSourceIndex() == StorageSource::PACS);
     setLocalSourceAvailable(selectedSourceIndex() == StorageSource::Local);
+
+    setStudiesDescriptionSelectedIndex(-1);
+    setStudiesListSelectedIndex(-1);
+    setStudyIsSelected(false);
+    updateProceedButton();
+
     emit patientSelected();
 }
 
@@ -146,4 +152,22 @@ void PatientsDatabaseImpl::sortStudiesDescriptionListBy(int headerEntry)
 {
     auto role = static_cast<StudyDescriptionList::Roles>(headerEntry + Qt::UserRole + 1);
     m_studiesDescriptionFilterModel->sortByRole(role);
+}
+
+void PatientsDatabaseImpl::setStudiesDescriptionSelectedIndex(int value, bool publishToRPC)
+{
+    PatientsDatabase::setStudiesDescriptionSelectedIndex(value, publishToRPC);
+    updateProceedButton();
+}
+
+void PatientsDatabaseImpl::setStudiesListSelectedIndex(int value, bool publishToRPC)
+{
+    PatientsDatabase::setStudiesListSelectedIndex(value, publishToRPC);
+    setStudyIsSelected(value >= 0);
+    updateProceedButton();
+}
+
+void PatientsDatabaseImpl::updateProceedButton()
+{
+    setProceedToSegmentationButtonEnabled(studiesListSelectedIndex() >= 0 && studiesDescriptionSelectedIndex() >= 0);
 }
