@@ -26,12 +26,15 @@ void Presenters::populateContext(GreenHouse::Context *context)
     auto pointEditor = new PointEditorPresenterImpl;
     auto popupsPresenter = new PopupsPresenterImpl;
 
-    auto const window = context->contextRootItem()->window();
-
-    bool frameless = true;
-    if(QGuiApplication::arguments().contains(QStringLiteral("show-window-frame")))
-        frameless = false;
-    window->setFlag(Qt::FramelessWindowHint, frameless);
+    QQuickWindow *window = nullptr;
+    auto const rootItem = context->contextRootItem();
+    if(rootItem) {
+        window = rootItem->window();
+        bool frameless = true;
+        if(QGuiApplication::arguments().contains(QStringLiteral("show-window-frame")))
+            frameless = false;
+        window->setFlag(Qt::FramelessWindowHint, frameless);
+    }
 
     context->store(new CartPresenterImpl);
     context->store(pointEditor);

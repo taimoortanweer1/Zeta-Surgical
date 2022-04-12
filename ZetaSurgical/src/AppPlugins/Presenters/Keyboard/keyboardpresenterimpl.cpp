@@ -18,7 +18,6 @@ KeyboardPresenterImpl::KeyboardPresenterImpl(QQuickWindow *window)
   , m_shiftEnabled(false)
   , m_window(window)
 {
-    Q_ASSERT(window);
     readLayoutsFromFile(QString::fromLatin1(LAYOUTS_FILE));
     readLayoutNames();
     loadLayoutAtIndex(0);
