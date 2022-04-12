@@ -5,6 +5,13 @@
     },
     "id": "fi_ctHeader",
     "properties": {
+        "fi_cdUsb_activated_flag": {
+            "bindingProp": "cdUsbSourceSelected",
+            "bindingSrc": "PatientsDatabase",
+            "name": "fi_cdUsb_activated_flag",
+            "type": "Bool",
+            "value": false
+        },
         "fi_cdUsb_enabled": {
             "bindingProp": "cdUsbSourceAvailable",
             "bindingSrc": "PatientsDatabase",
@@ -12,12 +19,26 @@
             "type": "Bool",
             "value": true
         },
+        "fi_local_activated_flag": {
+            "bindingProp": "localSourceSelected",
+            "bindingSrc": "PatientsDatabase",
+            "name": "fi_local_activated_flag",
+            "type": "Bool",
+            "value": false
+        },
         "fi_local_enabled": {
             "bindingProp": "localSourceAvailable",
             "bindingSrc": "PatientsDatabase",
             "name": "fi_local_enabled",
             "type": "Bool",
             "value": true
+        },
+        "fi_pacs_activated_flag": {
+            "bindingProp": "pacsSourceSelected",
+            "bindingSrc": "PatientsDatabase",
+            "name": "fi_pacs_activated_flag",
+            "type": "Bool",
+            "value": false
         },
         "fi_pacs_enabled": {
             "bindingProp": "pacsSourceAvailable",

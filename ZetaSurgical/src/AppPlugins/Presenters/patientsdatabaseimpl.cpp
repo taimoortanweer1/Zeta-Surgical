@@ -87,9 +87,9 @@ void PatientsDatabaseImpl::onFilterEditRequested()
 
 void PatientsDatabaseImpl::onProceedToStudySelection()
 {
-    setCdUsbSourceAvailable(selectedSourceIndex() == StorageSource::CDUSB);
-    setPacsSourceAvailable(selectedSourceIndex() == StorageSource::PACS);
-    setLocalSourceAvailable(selectedSourceIndex() == StorageSource::Local);
+    setCdUsbSourceAvailable(cdUsbSourceSelected());
+    setPacsSourceAvailable(pacsSourceSelected());
+    setLocalSourceAvailable(localSourceSelected());
 
     setStudiesDescriptionSelectedIndex(-1);
     setStudiesListSelectedIndex(-1);
@@ -121,7 +121,9 @@ void PatientsDatabaseImpl::previewZoomSliderMoved(int value)
 
 void PatientsDatabaseImpl::onSelectStorageSource(int index)
 {
-    setSelectedSourceIndex(index);
+    setLocalSourceSelected(index == StorageSource::Local);
+    setPacsSourceSelected(index == StorageSource::PACS);
+    setCdUsbSourceSelected(index == StorageSource::CDUSB);
 }
 
 void PatientsDatabaseImpl::onShowPatientsList()

@@ -467,11 +467,6 @@
                 "type": "String"
             },
             {
-                "name": "selectedSourceIndex",
-                "preview": -1,
-                "type": "Int"
-            },
-            {
                 "name": "patientIsSelected",
                 "preview": null,
                 "readonly": true,
@@ -509,6 +504,24 @@
             },
             {
                 "name": "proceedToSegmentationButtonEnabled",
+                "preview": null,
+                "readonly": true,
+                "type": "Bool"
+            },
+            {
+                "name": "cdUsbSourceSelected",
+                "preview": null,
+                "readonly": true,
+                "type": "Bool"
+            },
+            {
+                "name": "localSourceSelected",
+                "preview": null,
+                "readonly": true,
+                "type": "Bool"
+            },
+            {
+                "name": "pacsSourceSelected",
                 "preview": null,
                 "readonly": true,
                 "type": "Bool"
