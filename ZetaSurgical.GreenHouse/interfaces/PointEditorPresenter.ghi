@@ -80,6 +80,12 @@
                 "name": "selectedMode",
                 "preview": 0,
                 "type": "Int"
+            },
+            {
+                "name": "selectedPointNameString",
+                "preview": null,
+                "readonly": true,
+                "type": "String"
             }
         ]
     },

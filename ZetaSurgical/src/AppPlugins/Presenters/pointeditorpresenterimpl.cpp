@@ -12,7 +12,10 @@ void PointEditorPresenterImpl::addNewPoint(Callback callback)
 {
     Q_ASSERT(callback);
     emit pointEditorPopupShown();
+    auto const &newPointName = QStringLiteral("New point");
+    setSelectedPointNameString(newPointName);
     m_point.clear();
+    m_point.name = newPointName;
     m_callback = callback;
 }
 
@@ -79,6 +82,7 @@ void PointEditorPresenterImpl::onSelectModeClicked(int mode)
 
 void PointEditorPresenterImpl::updatePointStrings()
 {
+    setSelectedPointNameString(m_point.name);
     setXString(formatDouble(m_point.x));
     setYString(formatDouble(m_point.y));
     setZString(formatDouble(m_point.z));

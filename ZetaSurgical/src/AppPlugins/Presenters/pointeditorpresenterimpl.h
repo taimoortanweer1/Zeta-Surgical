@@ -6,6 +6,7 @@ struct Point {
     double x = 0.0;
     double y = 0.0;
     double z = 0.0;
+    QString name;
     void clear() {
         x = 0.0;
         y = 0.0;

@@ -18,17 +18,20 @@ void PlanningPresenterImpl::editTargetAtIndex(int index)
     if(index < 0 || index >= targetsList()->rowCount())
         return;
     QJsonObject pointEntry = targetsList()->dataAt(index);
+    bool const isSelected = pointEntry[QStringLiteral("selected")].toBool();
     Point point;
+    point.name = pointEntry[QStringLiteral("text")].toString();
     point.x = pointEntry[QStringLiteral("x")].toDouble();
     point.y = pointEntry[QStringLiteral("y")].toDouble();
     point.z = pointEntry[QStringLiteral("z")].toDouble();
 
-    m_pointEditor->editPoint(point, [this, index](Point const &point){
+    m_pointEditor->editPoint(point, [this, index, isSelected](Point const &point){
         QJsonObject obj;
-        obj[QStringLiteral("text")] = QStringLiteral("%1").arg(point.x);
+        obj[QStringLiteral("text")] = QStringLiteral("%1").arg(point.name);
         obj[QStringLiteral("x")] = point.x;
         obj[QStringLiteral("y")] = point.y;
         obj[QStringLiteral("z")] = point.z;
+        obj[QStringLiteral("selected")] = isSelected;
         targetsList()->setRowData(index, obj);
     });
 }
@@ -73,7 +76,8 @@ void PlanningPresenterImpl::onAddNewPointClicked()
 {
     m_pointEditor->addNewPoint([this](Point const &point){
         QJsonObject obj;
-        obj[QStringLiteral("text")] = QStringLiteral("%1").arg(point.x);
+        obj[QStringLiteral("text")] = QStringLiteral("%1").arg(point.name);
+        obj[QStringLiteral("selected")] = false;
         targetsList()->appendRow(obj);
     });
 }
