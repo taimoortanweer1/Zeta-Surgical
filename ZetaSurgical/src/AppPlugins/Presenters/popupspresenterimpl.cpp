@@ -63,4 +63,7 @@ void PopupsPresenterImpl::onCancelled()
 void PopupsPresenterImpl::onInputChanged(const QString &username)
 {
     m_inputText = username;
+    if(!m_callback)
+        return;
+    m_callback(m_inputText);
 }
