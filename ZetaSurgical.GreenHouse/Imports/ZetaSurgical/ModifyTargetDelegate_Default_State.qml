@@ -126,7 +126,7 @@ Item {
     ZetaSurgicalSet.ModifyButton_Default_State {
         id: fi_ModifyButton
         anchors.right: parent.right
-        anchors.rightMargin: 88
+        anchors.rightMargin: 80
         anchors.verticalCenter: parent.verticalCenter
         z: 1
         clip: true

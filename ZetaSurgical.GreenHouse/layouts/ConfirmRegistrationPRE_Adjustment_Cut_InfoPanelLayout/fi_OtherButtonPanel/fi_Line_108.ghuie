@@ -1,0 +1,47 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 63,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 113,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "88:2117"
+    },
+    "id": "fi_Line_108",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 0
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/88_2117.png"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 328
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 63
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 113
+        }
+    },
+    "targetFile": "fi_Line_108.ghuie",
+    "type": "Image",
+    "userDefined": false
+}

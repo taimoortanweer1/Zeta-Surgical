@@ -183,7 +183,7 @@
                     },
                     {
                         "anchorRight": {
-                            "anchorMargin": 88,
+                            "anchorMargin": 80,
                             "anchorTarget": "parent",
                             "anchorValue": "Right"
                         },
@@ -202,7 +202,7 @@
                             "x": {
                                 "name": "x",
                                 "type": "Int",
-                                "value": 216
+                                "value": 224
                             },
                             "y": {
                                 "name": "y",

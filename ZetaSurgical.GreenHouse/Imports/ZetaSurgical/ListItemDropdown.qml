@@ -22,7 +22,7 @@ Item {
     property alias fi_Rectangle_62___default_color: fi_Rectangle_62___default.color
     //REAL 1
     property alias fi_Rectangle_62___default_opacity: fi_Rectangle_62___default.opacity
-    //FONT Figma::Arial_ArialMT_18_50_0_0_0_0_0.2
+    //FONT Figma::Arial_ArialMT_22_50_0_0_0_0_0.2
     property alias fi_label_Role_Value_font: fi_label_Role_Value___default.font
     //TEXTHAL 1
     property alias fi_label_Role_Value_horizontalAlignment: fi_label_Role_Value___default.horizontalAlignment
@@ -109,7 +109,7 @@ Item {
         width: 146
         height: 42
         text: qsTr("Axial", "FigmaNode::164:1736") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::164:1736") : "")
-        font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_18_50_0_0_0_0_0.2")
+        font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_22_50_0_0_0_0_0.2")
         textColor: GreenHouseThemeManager.theme.color("Text/White")
         verticalAlignment: Text.AlignVCenter
         wrapMode: Text.WordWrap

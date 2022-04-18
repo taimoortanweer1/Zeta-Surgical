@@ -1,0 +1,39 @@
+{
+    "childrenSplit": true,
+    "id": "fi_usernameHighlighted",
+    "properties": {
+        "input_inputText": {
+            "bindingProp": "enteredUsername",
+            "bindingSrc": "LoginPresenter",
+            "name": "input_inputText",
+            "type": "TranslatableString",
+            "uuid": "{db6f0366-bf49-4cb8-85bc-6a315044baa8}",
+            "value": null
+        },
+        "visible": {
+            "bindingProp": "usernameEntered",
+            "bindingSrc": "LoginPresenter",
+            "name": "visible",
+            "type": "Bool",
+            "value": true
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 136
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 80
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 3
+        }
+    },
+    "targetFile": "fi_usernameHighlighted.ghuie",
+    "type": "ZetaSurgicalSet.LoginInputButtonHighlighted_Default_State",
+    "userDefined": false
+}

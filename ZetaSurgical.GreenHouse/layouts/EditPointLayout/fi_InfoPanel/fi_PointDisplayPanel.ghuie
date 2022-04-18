@@ -36,7 +36,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 6
+            "value": 5
         }
     },
     "targetFile": "fi_PointDisplayPanel.ghuie",

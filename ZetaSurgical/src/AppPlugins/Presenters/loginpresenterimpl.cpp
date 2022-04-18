@@ -50,5 +50,7 @@ void LoginPresenterImpl::init()
 
 void LoginPresenterImpl::updateLoginButton()
 {
+    setUsernameEntered(!enteredUsername().isEmpty());
+    setPasswordEntered(!enteredPassword().isEmpty());
     setLoginDataEntered(enteredPassword().count() > 0 && enteredUsername().count() > 0);
 }

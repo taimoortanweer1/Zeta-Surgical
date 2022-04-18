@@ -13,6 +13,14 @@
             "uuid": "{b83b32da-58b7-4688-9494-5d15a7de3565}",
             "value": null
         },
+        "visible": {
+            "bindingNegated": true,
+            "bindingProp": "usernameEntered",
+            "bindingSrc": "LoginPresenter",
+            "name": "visible",
+            "type": "Bool",
+            "value": true
+        },
         "x": {
             "name": "x",
             "type": "Int",
@@ -26,7 +34,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 4
+            "value": 6
         }
     },
     "targetFile": "fi_usernameButton.ghuie",

@@ -23,7 +23,7 @@ Item {
     property int selectionIndex: -1
     //INT 0
     property alias maximumItemsVisible: expanded_StateParent.maximumItemsVisible
-    //FONT Figma::Arial_ArialMT_18_50_0_0_0_0_0.2
+    //FONT Figma::Arial_ArialMT_22_50_0_0_0_0_0.2
     property alias fi_Coronal_font: fi_Coronal___collapsed.font
     //TEXTHAL 1
     property alias fi_Coronal_horizontalAlignment: fi_Coronal___collapsed.horizontalAlignment
@@ -134,7 +134,7 @@ Item {
             width: 146
             height: 42
             text: qsTr("Coronal", "FigmaNode::21:6440") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::21:6440") : "")
-            font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_18_50_0_0_0_0_0.2")
+            font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_22_50_0_0_0_0_0.2")
             textColor: GreenHouseThemeManager.theme.color("Text/White")
             verticalAlignment: Text.AlignVCenter
             wrapMode: Text.WordWrap

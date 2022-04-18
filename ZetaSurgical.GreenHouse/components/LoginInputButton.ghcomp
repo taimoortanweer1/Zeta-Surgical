@@ -186,226 +186,6 @@
                             "anchorTarget": "parent",
                             "anchorValue": "Top"
                         },
-                        "children": [
-                            {
-                                "anchorBottom": {
-                                    "anchorTarget": "parent",
-                                    "anchorValue": "Bottom"
-                                },
-                                "anchorLeft": {
-                                    "anchorTarget": "parent",
-                                    "anchorValue": "Left"
-                                },
-                                "anchorRight": {
-                                    "anchorTarget": "parent",
-                                    "anchorValue": "Right"
-                                },
-                                "anchorTop": {
-                                    "anchorTarget": "parent",
-                                    "anchorValue": "Top"
-                                },
-                                "childrenSplit": true,
-                                "id": "fi_Rectangle___filled",
-                                "properties": {
-                                    "border-bottom": {
-                                        "name": "border-bottom",
-                                        "type": "Int",
-                                        "value": 39
-                                    },
-                                    "border-left": {
-                                        "name": "border-left",
-                                        "type": "Int",
-                                        "value": 39
-                                    },
-                                    "border-right": {
-                                        "name": "border-right",
-                                        "type": "Int",
-                                        "value": 39
-                                    },
-                                    "border-top": {
-                                        "name": "border-top",
-                                        "type": "Int",
-                                        "value": 39
-                                    },
-                                    "height": {
-                                        "name": "height",
-                                        "type": "Int",
-                                        "value": 80
-                                    },
-                                    "source": {
-                                        "name": "source",
-                                        "type": "Asset",
-                                        "value": "/11_1323.png"
-                                    },
-                                    "width": {
-                                        "name": "width",
-                                        "type": "Int",
-                                        "value": 528
-                                    }
-                                },
-                                "targetFile": "fi_Rectangle___filled.ghuie",
-                                "type": "BorderImage",
-                                "userDefined": false
-                            },
-                            {
-                                "anchorLeft": {
-                                    "anchorMargin": 19,
-                                    "anchorTarget": "parent",
-                                    "anchorValue": "Left"
-                                },
-                                "anchorVCenter": {
-                                    "anchorTarget": "parent",
-                                    "anchorValue": "VerticalCenter"
-                                },
-                                "childrenSplit": true,
-                                "id": "fi_ID___filled",
-                                "properties": {
-                                    "font": {
-                                        "bindingProp": "font",
-                                        "bindingSrc": "fi_ID___default",
-                                        "itemBound": true,
-                                        "name": "font",
-                                        "type": "Font",
-                                        "value": "Figma::Arial_ArialMT_18_50_0_0_0_0_0.2"
-                                    },
-                                    "height": {
-                                        "name": "height",
-                                        "type": "Int",
-                                        "value": 82
-                                    },
-                                    "horizontalAlignment": {
-                                        "bindingProp": "horizontalAlignment",
-                                        "bindingSrc": "fi_ID___default",
-                                        "itemBound": true,
-                                        "name": "horizontalAlignment",
-                                        "type": "TextHorizontalAlignment",
-                                        "value": "AlignHCenter"
-                                    },
-                                    "lineHeight": {
-                                        "bindingProp": "lineHeight",
-                                        "bindingSrc": "fi_ID___default",
-                                        "itemBound": true,
-                                        "name": "lineHeight",
-                                        "type": "Float",
-                                        "value": 20
-                                    },
-                                    "lineHeightMode": {
-                                        "bindingProp": "lineHeightMode",
-                                        "bindingSrc": "fi_ID___default",
-                                        "itemBound": true,
-                                        "name": "lineHeightMode",
-                                        "type": "TextLineHeightMode",
-                                        "value": "FixedHeight"
-                                    },
-                                    "opacity": {
-                                        "bindingProp": "opacity",
-                                        "bindingSrc": "fi_ID___default",
-                                        "itemBound": true,
-                                        "name": "opacity",
-                                        "type": "Float",
-                                        "value": 1
-                                    },
-                                    "richText": {
-                                        "bindingProp": "richText",
-                                        "bindingSrc": "fi_ID___default",
-                                        "itemBound": true,
-                                        "name": "richText",
-                                        "type": "Bool",
-                                        "value": false
-                                    },
-                                    "text": {
-                                        "bindingProp": "text",
-                                        "bindingSrc": "fi_ID___default",
-                                        "itemBound": true,
-                                        "name": "text",
-                                        "type": "TranslatableString",
-                                        "uuid": "FigmaNode::11:1325",
-                                        "value": "ID"
-                                    },
-                                    "textColor": {
-                                        "name": "textColor",
-                                        "type": "Color",
-                                        "value": "Text/Blue 2 - Input"
-                                    },
-                                    "verticalAlignment": {
-                                        "bindingProp": "verticalAlignment",
-                                        "bindingSrc": "fi_ID___default",
-                                        "itemBound": true,
-                                        "name": "verticalAlignment",
-                                        "type": "TextVerticalAlignment",
-                                        "value": "AlignVCenter"
-                                    },
-                                    "width": {
-                                        "name": "width",
-                                        "type": "Int",
-                                        "value": 52
-                                    },
-                                    "wrapMode": {
-                                        "name": "wrapMode",
-                                        "type": "TextWrapMode",
-                                        "value": "WordWrap"
-                                    },
-                                    "x": {
-                                        "name": "x",
-                                        "type": "Int",
-                                        "value": 19
-                                    },
-                                    "y": {
-                                        "name": "y",
-                                        "type": "Int",
-                                        "value": -1
-                                    },
-                                    "z": {
-                                        "name": "z",
-                                        "type": "Int",
-                                        "value": 2
-                                    }
-                                },
-                                "targetFile": "fi_ID___filled.ghuie",
-                                "type": "ComponentsSet.Label",
-                                "userDefined": false
-                            }
-                        ],
-                        "childrenSplit": true,
-                        "id": "filled_StateParent",
-                        "properties": {
-                            "height": {
-                                "name": "height",
-                                "type": "Int",
-                                "value": 80
-                            },
-                            "visible": {
-                                "name": "visible",
-                                "type": "Bool",
-                                "value": false
-                            },
-                            "width": {
-                                "name": "width",
-                                "type": "Int",
-                                "value": 528
-                            }
-                        },
-                        "targetFile": "filled_StateParent.ghuie",
-                        "type": "Item",
-                        "userDefined": false
-                    },
-                    {
-                        "anchorBottom": {
-                            "anchorTarget": "parent",
-                            "anchorValue": "Bottom"
-                        },
-                        "anchorLeft": {
-                            "anchorTarget": "parent",
-                            "anchorValue": "Left"
-                        },
-                        "anchorRight": {
-                            "anchorTarget": "parent",
-                            "anchorValue": "Right"
-                        },
-                        "anchorTop": {
-                            "anchorTarget": "parent",
-                            "anchorValue": "Top"
-                        },
                         "childrenSplit": true,
                         "id": "__mouseArea",
                         "properties": {
@@ -519,7 +299,7 @@
                             "font": {
                                 "name": "font",
                                 "type": "Font",
-                                "value": "Figma::Arial_ArialMT_18_50_0_0_0_0_0.2"
+                                "value": "Figma::Arial_ArialMT_22_50_0_0_0_0_0.2"
                             },
                             "height": {
                                 "name": "height",
@@ -626,11 +406,6 @@
     },
     "componentName": "ZetaSurgicalSet.LoginInputButton",
     "properties": [
-        {
-            "name": "filled_flag",
-            "type": "Bool",
-            "value": false
-        },
         {
             "name": "repeateInterval",
             "type": "Int",
@@ -749,33 +524,6 @@
                     }
                 ],
                 "when": "input.activeFocus"
-            }
-        },
-        "generic_filled": {
-            "filled": {
-                "group": "generic_filled",
-                "name": "filled",
-                "propertyChanges": [
-                    {
-                        "name": "visible",
-                        "propertyChangeTarget": "filled_StateParent",
-                        "type": "Bool",
-                        "value": true
-                    },
-                    {
-                        "name": "z",
-                        "propertyChangeTarget": "filled_StateParent",
-                        "type": "Int",
-                        "value": 999
-                    },
-                    {
-                        "name": "color",
-                        "propertyChangeTarget": "input",
-                        "type": "Color",
-                        "value": "Text/Blue 2 - Input"
-                    }
-                ],
-                "when": "root.filled_flag"
             }
         }
     },

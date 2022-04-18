@@ -23,7 +23,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 12
+            "value": 10
         }
     },
     "targetFile": "fi_OtherButtonPanel.ghuie",

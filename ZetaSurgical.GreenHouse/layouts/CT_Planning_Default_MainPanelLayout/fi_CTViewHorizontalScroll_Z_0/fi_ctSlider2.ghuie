@@ -1,11 +1,11 @@
 {
     "anchorLeft": {
-        "anchorMargin": 16,
+        "anchorMargin": 32,
         "anchorTarget": "parent",
         "anchorValue": "Left"
     },
     "anchorTop": {
-        "anchorMargin": 488,
+        "anchorMargin": 476,
         "anchorTarget": "parent",
         "anchorValue": "Top"
     },
@@ -23,17 +23,17 @@
         "width": {
             "name": "width",
             "type": "Int",
-            "value": 624
+            "value": 604
         },
         "x": {
             "name": "x",
             "type": "Int",
-            "value": 16
+            "value": 32
         },
         "y": {
             "name": "y",
             "type": "Int",
-            "value": 488
+            "value": 476
         },
         "z": {
             "name": "z",

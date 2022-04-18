@@ -28,7 +28,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 10
+            "value": 11
         }
     },
     "targetFile": "fi_ChangeCutPanel.ghuie",

@@ -56,6 +56,18 @@
                 "preview": null,
                 "readonly": true,
                 "type": "String"
+            },
+            {
+                "name": "usernameEntered",
+                "preview": null,
+                "readonly": true,
+                "type": "Bool"
+            },
+            {
+                "name": "passwordEntered",
+                "preview": null,
+                "readonly": true,
+                "type": "Bool"
             }
         ]
     },

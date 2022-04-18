@@ -1,0 +1,34 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 64,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 32,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "id": "fi_renameButton",
+    "properties": {
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 64
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 32
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 6
+        }
+    },
+    "targetFile": "fi_renameButton.ghuie",
+    "type": "ZetaSurgicalSet.RenameTitleText",
+    "userDefined": false
+}

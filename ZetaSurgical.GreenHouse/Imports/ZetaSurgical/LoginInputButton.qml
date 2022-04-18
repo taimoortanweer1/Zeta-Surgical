@@ -4,10 +4,9 @@ import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
 
 //USES ComponentsSet.RegularTextInput
+//USES ComponentsSet.AutoRepeatMouseArea
 //USES BorderImage
 //USES ComponentsSet.Label
-//USES Item
-//USES ComponentsSet.AutoRepeatMouseArea
 //PREVIEW IMAGE qrc:/GeneratedComponents/assets/TextInput.png
 
 //EDITABLE TRUE
@@ -16,10 +15,9 @@ FocusScope {
 
     //Exposed properties----------------------------------------------------------------------------
     property bool doubleClickEnabeld: false
-    property bool filled_flag: false
     property int minimumRepeatInterval: 100
     property int repeateInterval: 1000
-    //FONT Figma::Arial_ArialMT_18_50_0_0_0_0_0.2
+    //FONT Figma::Arial_ArialMT_22_50_0_0_0_0_0.2
     property alias fi_ID_font: fi_ID___default.font
     //TEXTHAL 4
     property alias fi_ID_horizontalAlignment: fi_ID___default.horizontalAlignment
@@ -96,46 +94,6 @@ FocusScope {
             root.input_textChanged(text);
         }
     }
-    Item {
-        id: filled_StateParent
-        anchors.left: parent.left
-        anchors.right: parent.right
-        anchors.top: parent.top
-        anchors.bottom: parent.bottom
-        visible: false
-
-        BorderImage {
-            id: fi_Rectangle___filled
-            anchors.left: parent.left
-            anchors.right: parent.right
-            anchors.top: parent.top
-            anchors.bottom: parent.bottom
-            source: GreenHouseThemeManager.theme.asset("/11_1323.png")
-            border.bottom: 39
-            border.left: 39
-            border.right: 39
-            border.top: 39
-        }
-        ComponentsSet.Label {
-            id: fi_ID___filled
-            anchors.left: parent.left
-            anchors.leftMargin: 19
-            anchors.verticalCenter: parent.verticalCenter
-            z: 2
-            width: 52
-            height: 82
-            text: fi_ID___default.text
-            font: fi_ID___default.font
-            textColor: GreenHouseThemeManager.theme.color("Text/Blue 2 - Input")
-            opacity: fi_ID___default.opacity
-            horizontalAlignment: fi_ID___default.horizontalAlignment
-            verticalAlignment: fi_ID___default.verticalAlignment
-            wrapMode: Text.WordWrap
-            lineHeight: fi_ID___default.lineHeight
-            lineHeightMode: fi_ID___default.lineHeightMode
-            richText: fi_ID___default.richText
-        }
-    }
     ComponentsSet.AutoRepeatMouseArea {
         id: __mouseArea
         anchors.left: parent.left
@@ -184,7 +142,7 @@ FocusScope {
         width: 52
         height: 82
         text: qsTr("ID", "FigmaNode::7:78") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::7:78") : "")
-        font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_18_50_0_0_0_0_0.2")
+        font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_22_50_0_0_0_0_0.2")
         textColor: GreenHouseThemeManager.theme.color("Text/User Input Label")
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
@@ -237,23 +195,6 @@ FocusScope {
         State {
             when: input.text !== "" || input.activeFocus
             name: "InputNotEmptyOrFocused"
-        }
-        ]
-    }
-    StateGroup { // generic_filled
-        states: [
-        State {
-            when: root.filled_flag
-            name: "filled"
-            PropertyChanges {
-                target: filled_StateParent
-                visible: true
-                z: 999
-            }
-            PropertyChanges {
-                target: input
-                color: GreenHouseThemeManager.theme.color("Text/Blue 2 - Input")
-            }
         }
         ]
     }

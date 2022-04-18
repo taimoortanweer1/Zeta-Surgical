@@ -6,14 +6,17 @@ Item {
     onPasswordIsVisibleChanged: d.updatePasswordVisibility()
     property Item passwordField: null
     onPasswordFieldChanged: d.updatePasswordVisibility()
+    property Item highlightedPasswordField: null
+    onHighlightedPasswordFieldChanged: d.updatePasswordVisibility()
 
     QtObject {
         id: d
         function updatePasswordVisibility() {
-            if(passwordField == null)
+            if(passwordField == null || highlightedPasswordField == null)
                 return;
             const value = root.passwordIsVisible ? TextInput.Normal : TextInput.Password
             passwordField.input_echoMode = value
+            highlightedPasswordField.input_echoMode = value
         }
     }
 }
