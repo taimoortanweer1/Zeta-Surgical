@@ -48,6 +48,7 @@ void PlanningPresenterImpl::selectTargetAtIndex(int index)
     if(index < 0 || index >= targetsList()->rowCount())
         return;
     auto entry = targetsList()->dataAt(index);
+    deselectAll(targetsList());
     auto const data = entry[QStringLiteral("selected")].toBool();
     entry[QStringLiteral("selected")] = !data;
     targetsList()->setRowData(index, entry);
@@ -58,6 +59,7 @@ void PlanningPresenterImpl::selectInstrumentAtIndex(int index)
     if(index < 0 || index >= targetsList()->rowCount())
         return;
     auto entry = instrumentsList()->dataAt(index);
+    deselectAll(instrumentsList());
     auto const data = entry[QStringLiteral("selected")].toBool();
     entry[QStringLiteral("selected")] = !data;
     instrumentsList()->setRowData(index, entry);
@@ -107,4 +109,13 @@ void PlanningPresenterImpl::updateProceedButton()
         return;
     }
     setProceedToPositioningButtonEnabled(false);
+}
+
+void PlanningPresenterImpl::deselectAll(GreenHouse::Model *model)
+{
+    for(int i = 0; i < model->rowCount(); ++i) {
+        auto entry = model->dataAt(i);
+        entry[QStringLiteral("selected")] = false;
+        model->setRowData(i, entry);
+    };
 }

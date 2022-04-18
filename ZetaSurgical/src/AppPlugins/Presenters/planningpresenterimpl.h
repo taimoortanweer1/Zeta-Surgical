@@ -26,6 +26,7 @@ protected:
 
 private:
     void updateProceedButton();
+    void deselectAll(GreenHouse::Model * model);
 
 private:
     PopupsPresenterImpl * const m_popupsPresenter;
