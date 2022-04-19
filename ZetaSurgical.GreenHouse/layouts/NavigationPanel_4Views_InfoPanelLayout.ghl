@@ -19,12 +19,24 @@
                     },
                     "id": "fi_tool1",
                     "properties": {
+                        "activated_flag": {
+                            "bindingRole": "selected",
+                            "name": "activated_flag",
+                            "type": "Bool",
+                            "value": false
+                        },
                         "fi_EXAMPLE_text": {
                             "bindingRole": "text",
                             "name": "fi_EXAMPLE_text",
                             "type": "TranslatableString",
                             "uuid": "FigmaNode::I387:2243;387:2227",
                             "value": "EXAMPLE"
+                        }
+                    },
+                    "signals": {
+                        "clicked": {
+                            "name": "clicked",
+                            "rawCode": "root.itemInterface.fi_tool1__onEvent__clicked(index, PlanningPresenter.MultipleSelection)\n"
                         }
                     },
                     "targetFile": "fi_tool1.ghuie",
@@ -74,12 +86,24 @@
                     },
                     "id": "fi_target2",
                     "properties": {
+                        "activated_flag": {
+                            "bindingRole": "selected",
+                            "name": "activated_flag",
+                            "type": "Bool",
+                            "value": false
+                        },
                         "fi_EXAMPLE_text": {
                             "bindingRole": "text",
                             "name": "fi_EXAMPLE_text",
                             "type": "TranslatableString",
                             "uuid": "FigmaNode::I387:2238;387:2227",
                             "value": "EXAMPLE"
+                        }
+                    },
+                    "signals": {
+                        "clicked": {
+                            "name": "clicked",
+                            "rawCode": "root.itemInterface.fi_target2__onEvent__clicked(index, PlanningPresenter.MultipleSelection)\n"
                         }
                     },
                     "targetFile": "fi_target2.ghuie",

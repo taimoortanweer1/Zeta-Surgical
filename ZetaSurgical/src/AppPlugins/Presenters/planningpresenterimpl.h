@@ -12,9 +12,9 @@ public:
     explicit PlanningPresenterImpl(PopupsPresenterImpl *popupsPresenter, PointEditorPresenterImpl* pointEditor);
     void editTargetAtIndex(int index) override;
     void deleteTargetAtIndex(int index) override;
-    void selectTargetAtIndex(int index) override;
+    void selectTargetAtIndex(int index, int selectionMode) override;
 
-    void selectInstrumentAtIndex(int index) override;
+    void selectInstrumentAtIndex(int index, int selectionMode) override;
     void deleteInstrumentAtIndex(int index) override;
 
     void onAddNewPointClicked() override;

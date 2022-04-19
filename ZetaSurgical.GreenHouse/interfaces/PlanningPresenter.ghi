@@ -1,5 +1,14 @@
 {
     "backendObject": false,
+    "enums": [
+        {
+            "name": "SelectionMode",
+            "value": [
+                "MultipleSelection",
+                "SingleSelection"
+            ]
+        }
+    ],
     "hidden": false,
     "methods": {
         "deleteInstrumentAtIndex": {
@@ -62,6 +71,11 @@
                     "name": "index",
                     "preview": null,
                     "type": "Int"
+                },
+                {
+                    "name": "selectionMode",
+                    "preview": null,
+                    "type": "Int"
                 }
             ],
             "name": "selectInstrumentAtIndex"
@@ -70,6 +84,11 @@
             "arguments": [
                 {
                     "name": "index",
+                    "preview": null,
+                    "type": "Int"
+                },
+                {
+                    "name": "selectionMode",
                     "preview": null,
                     "type": "Int"
                 }
