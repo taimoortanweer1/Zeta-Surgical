@@ -154,8 +154,8 @@
             {
                 "data": [
                     {
-                        "selected": "",
-                        "text": "text_0"
+                        "selected": true,
+                        "text": "Zeta pointer"
                     },
                     {
                         "selected": "",
