@@ -1,0 +1,48 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 160,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "365:3221"
+    },
+    "id": "fi_StudyDescription2",
+    "properties": {
+        "fi_Label_text": {
+            "name": "fi_Label_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I365:3221;365:2926",
+            "value": "Study Description"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 415
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 160
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_StudyDescription2__onEvent__clicked(PatientsDatabase.Description)\n"
+        }
+    },
+    "targetFile": "fi_StudyDescription2.ghuie",
+    "type": "ZetaSurgicalSet.Buttons_LVHeader_Default_State",
+    "userDefined": false
+}

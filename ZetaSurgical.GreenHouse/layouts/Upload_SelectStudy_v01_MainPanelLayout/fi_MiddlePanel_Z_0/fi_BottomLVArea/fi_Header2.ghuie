@@ -1,0 +1,42 @@
+{
+    "anchorLeft": {
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "164:8188"
+    },
+    "id": "fi_Header2",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 64
+        },
+        "visible": {
+            "bindingProp": "studyIsSelected",
+            "bindingSrc": "PatientsDatabase",
+            "name": "visible",
+            "type": "Bool",
+            "value": true
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 1232
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "targetFile": "fi_Header2.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

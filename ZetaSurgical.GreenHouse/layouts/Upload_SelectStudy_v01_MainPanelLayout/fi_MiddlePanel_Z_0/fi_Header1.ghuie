@@ -38,7 +38,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 3
+            "value": 2
         }
     },
     "targetFile": "fi_Header1.ghuie",
