@@ -10,6 +10,9 @@
         "anchorValue": "Top"
     },
     "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "567:2722"
+    },
     "id": "fi_BottomLVArea",
     "properties": {
         "height": {

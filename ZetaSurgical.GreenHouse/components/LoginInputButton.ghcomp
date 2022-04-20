@@ -95,6 +95,8 @@
             }
         ]
     },
+    "animations": [
+    ],
     "componentLayout": {
         "blockInputFallthrough": true,
         "children": [
@@ -106,7 +108,7 @@
                             "anchorValue": "Bottom"
                         },
                         "anchorLeft": {
-                            "anchorMargin": 90,
+                            "anchorMargin": 80,
                             "anchorTarget": "parent",
                             "anchorValue": "Left"
                         },
@@ -152,12 +154,12 @@
                             "width": {
                                 "name": "width",
                                 "type": "Int",
-                                "value": 438
+                                "value": 448
                             },
                             "x": {
                                 "name": "x",
                                 "type": "Int",
-                                "value": 90
+                                "value": 80
                             },
                             "z": {
                                 "name": "z",
@@ -285,7 +287,7 @@
                     },
                     {
                         "anchorLeft": {
-                            "anchorMargin": 19,
+                            "anchorMargin": -1,
                             "anchorTarget": "parent",
                             "anchorValue": "Left"
                         },
@@ -340,7 +342,7 @@
                             "width": {
                                 "name": "width",
                                 "type": "Int",
-                                "value": 52
+                                "value": 82
                             },
                             "wrapMode": {
                                 "name": "wrapMode",
@@ -350,7 +352,7 @@
                             "x": {
                                 "name": "x",
                                 "type": "Int",
-                                "value": 19
+                                "value": -1
                             },
                             "y": {
                                 "name": "y",

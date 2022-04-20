@@ -210,6 +210,9 @@ FocusScope {
             }
         }
         ]
+        transitions: [
+
+        ]
     }
     StateGroup { // HintAndInput
         states: [
@@ -221,6 +224,9 @@ FocusScope {
             when: input.text !== "" || input.activeFocus
             name: "InputNotEmptyOrFocused"
         }
+        ]
+        transitions: [
+
         ]
     }
     StateGroup { // generic_filled
@@ -238,6 +244,9 @@ FocusScope {
                 color: GreenHouseThemeManager.theme.color("Text/Blue 2 - Input")
             }
         }
+        ]
+        transitions: [
+
         ]
     }
 

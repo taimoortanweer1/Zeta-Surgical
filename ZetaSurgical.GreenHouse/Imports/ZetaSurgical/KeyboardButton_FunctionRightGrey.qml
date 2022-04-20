@@ -184,6 +184,9 @@ Item {
             }
         }
         ]
+        transitions: [
+
+        ]
     }
     StateGroup { // generic_invalid
         states: [
@@ -196,6 +199,9 @@ Item {
                 z: 999
             }
         }
+        ]
+        transitions: [
+
         ]
     }
 

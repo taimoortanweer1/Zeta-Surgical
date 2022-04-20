@@ -77,7 +77,7 @@ FocusScope {
     ComponentsSet.RegularTextInput {
         id: input
         anchors.left: parent.left
-        anchors.leftMargin: 90
+        anchors.leftMargin: 80
         anchors.right: parent.right
         anchors.top: parent.top
         anchors.bottom: parent.bottom
@@ -136,10 +136,10 @@ FocusScope {
     ComponentsSet.Label {
         id: fi_ID___default
         anchors.left: parent.left
-        anchors.leftMargin: 19
+        anchors.leftMargin: -1
         anchors.verticalCenter: parent.verticalCenter
         z: 2
-        width: 52
+        width: 82
         height: 82
         text: qsTr("ID", "FigmaNode::7:78") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::7:78") : "")
         font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_22_50_0_0_0_0_0.2")
@@ -185,6 +185,9 @@ FocusScope {
             }
         }
         ]
+        transitions: [
+
+        ]
     }
     StateGroup { // HintAndInput
         states: [
@@ -196,6 +199,9 @@ FocusScope {
             when: input.text !== "" || input.activeFocus
             name: "InputNotEmptyOrFocused"
         }
+        ]
+        transitions: [
+
         ]
     }
 

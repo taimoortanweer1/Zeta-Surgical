@@ -1,64 +1,68 @@
 
 Fetching figma file from: https://api.figma.com/v1/files/kKItBBA5TYuCVGxWbPVftH?geometry=paths
-15:23:44  :: Data processing started.
-15:23:44  :: Project identified as: UserInterface_POC_20220323_v02.1
-15:23:44  :: Found 0 color frames
-15:23:44  :: Found 0 font frames
-15:23:44  :: Found 128 components
-15:23:44 Component: ChangeViewDropDown :: ChangeViewDropDown does not have any states that can be optimized.
-15:23:44 Component: HomeButton :: HomeButton does not have any common ui element groups.
-15:23:44 Component: KeyBoard :: KeyBoard does not have any states that can be optimized.
-15:23:44 Component: ProgressIndicator_Triple :: ProgressIndicator_Triple does not have any states that can be optimized.
-15:23:44 Component: SearchInputText :: SearchInputText does not have any states that can be optimized.
-15:23:44 Component: SliderButton :: SliderButton does not have any states that can be optimized.
-15:23:44 Component: TripleSelectSliderButton :: TripleSelectSliderButton does not have any states that can be optimized.
-15:23:45  :: Found 12 screens
-15:23:45 Panel: CT_Planning_Default_MainPanel :: Failed to create component child item: ExtendedSet.CtAxialView
-15:23:45 Panel: ConfirmRegistrationPRE_Adjustment_Cut_InfoPanel :: Component missing for: fi_bad
-15:23:45 Panel: ConfirmRegistrationPRE_Adjustment_Cut_InfoPanel :: Component missing for: fi_good
-15:23:45 Panel: PositionNEST_Variation2_CamPositioningPanel :: Component missing for: fi_bad
-15:23:45 Panel: PositionNEST_Variation2_CamPositioningPanel :: Component missing for: fi_good
-15:23:45 Panel: Registration_Verification_1_VerifyRegistrationPanel :: Component missing for: fi_bad
-15:23:45 Panel: Registration_Verification_1_VerifyRegistrationPanel :: Component missing for: fi_good
-15:23:45 Panel: Registration_Verification_2_VerifyRegistrationPanel :: Component missing for: fi_bad
-15:23:45 Panel: Registration_Verification_2_VerifyRegistrationPanel :: Component missing for: fi_good
-15:23:45 Panel: Segmentation_Default_InfoPanel :: Component missing for: fi_bad
-15:23:45 Panel: Segmentation_Default_InfoPanel :: Component missing for: fi_good
-15:23:45  :: Found 11 popups
-15:23:45 Popups: EditPoint :: Component missing for: fi_PointDisplayLabel
-15:23:45 Popups: Instructions Positioning :: Failed to get a item state for: Instructions Positioning
-15:23:45 Popups: Instructions Registration :: Failed to get a item state for: Instructions Registration
-15:23:45  :: Found 11 menus
-15:23:45 Menus :: No declarations to process
-15:23:45  :: Found 1 extra layer
-15:23:45 KeyboardLayer: Keyboard_passThrough :: Component missing for: fi_keyboardOverlay
-15:23:45  :: Found 0 transitions
-15:23:45  :: 4 new and 0 modified images found...
-15:23:45  :: 0 new and 0 modified themed assets found...
-15:23:45  :: 0 new and 0 modified icons found...
-15:23:45  :: 0 new and 0 modified fills found...
-15:23:45  :: Requesting 4 asset urls(0 assets pending)...
-15:23:51  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8d30/0a23/3d006da9f4454c4d5e4b0eb24bdb29be
-15:23:52  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c5ef/69d6/bba75dad799a565abfeb33ab03d266e6
-15:23:52  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9d50/a7fa/fd414175d7f3da641e28b90d9064cb5c
-15:23:52  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c5ef/69d6/bba75dad799a565abfeb33ab03d266e6
-15:23:53  :: Requesting external asset urls...
-15:23:53  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/07d9/7f41/7bbf9a1d7c0bd13f44820fb5646d393e?Expires=1651449600&Signature=Fs35p3Q8P3PErUHZ9OS7AAKIcypxFOwkx~NCfqmFYUQPvpF1~muoHHdfZfnw1wHKUAXV0917Stqjmw5pcXxssZslzAgGERr74tI5Z5z8ENPRPZn3CJUDaHw~RSxtUht7EjFxliPvEj6IWkHHZ6yHbc-Imc9IcaToRUwbwKzGvaho6Ke97fnzAeT6YygAJvttEk7daAq0L1fsYagfqpOSwwnRWs8LkdKwQQDfzP4trTasEDnF9anyf7T1VTSwS-qhQE91mr49ep6-pvLaiJt8grXPYP5fSlT1tsGTLXUlVhFFNw5Tx4itnGc5ZPtV8NEi3FFnxqPW0VCqMKGeJjfVBA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-15:23:55  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/0c7e/620d/8aa452f8042e7cf70c1617666b1f2a75?Expires=1651449600&Signature=aCimTBAMAy~Cv24aWmbUxfjOI0cCFIkQ387oiwnQPj5S4cYYHSuLPL6LmyMCfbyPlz8xXTO5Ok-JMqqJ8gJbYb6CvFEuQxp6uY4DJVYAUwZaSRFXLd0NjCiIriwaeBa4LVff~xyHrWGCZBnq4LNLv4sY~rfQ9FJdU9qRCAaH5WXlxB7oAQnXj9mJq~pqEhnK8lC8ezlM~mcYlhT3nqVIEQtSnHWnKq78QbqMCvSsJ3JCJUd1CIapphhcVR-JBNAIiI8dHGKvhbYKb8eQrtcGnB81c85OVvPTTwFGaHrS1f7AzDmer72qlkZ1gj-vQ07TwrTjr2HDOYV98xQWI0cFhA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-15:23:55  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/951e/8fce/4a70422430611f3fcfb93a90e22aa59f?Expires=1651449600&Signature=Jn1XhZn5x~CcFlx4lHc0NQgevy1CZ22ETql-dldHyMdc-Z7DUC7d-dlBxU6uhRh2xgRf897bnWNcNJNHy915iQnyZgNztgNoyhOAenUALtyAD34ZqlKHRj7FPsdq2iqRHvfip5HQmeF2EjOXnTC99sh9oMHvEVjEOfzgmGfuoiwRAqrxrQ7gshu0v6pkRC~AlYyxSgj~KePsWxrhBh-n7mVpNszxioLWTGUYshamEIA0IV3JHEN~aiXas9OJ4J1vlEwRkJwuAEfcid1vHW4p0AO~ekQQTdJm2zoV8JosFhl94Yk160eY-oYSjWxyNyureDwXZxIbDb-reVACjD5oVg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-15:23:56  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/9717/fa8f/bd6f5effcef61a9c662324d24d6bbc2e?Expires=1651449600&Signature=T9mFUIRCc54r777BzJwnumB5A7zrvuriTqR0HpMhNY2k4xFhgXkwltP9qMYmMebR9rSmmYDcddg8-vQlakrX5duWkKnr-dpi9YWlMYCiCH6EkbbPVt6sakKOM9XPkdwNMqhgIY~M0Zb6DnjbBm0TIc4vbhC9bgPv45v12sqHhTGvUOs1Anb9BjomyVsGZ1-5QwGEZ-loMS8jOWhtMwnNXWDjSmvmVoviLeIK2TLPhgkDkGbMEIt-MKzgANfArXKjg9S~U98W0RTaBQf1FsvhElZgrfJnqnu9h4Aencfq0CUMotpi78toIVx-e4EkK9zRjo5u4E~FzhwPFl4CAfp~mw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-15:23:56  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/bcde/4f48/eb97fa4baa8de7aec889980d027a5bfa?Expires=1651449600&Signature=dPgwRapLeg2B87r3aN3S0IEzhYT5wST1~RdzG-yPRmWKqcM5kN0TVXGnfRYr07JvaNFV4ui-i0jT5OCSmVHJCe04LZyAGVAqiZf9bkI4VEPPmO45hZ-DabS31IoTp8slX3EevzX9Ufp7H~NlKJLCZorM8oNTz48QD78GVL6OwX2~uf2ziFjWLicKa-g4S0uYZ9nI9FV6S2FYXPL2dmcAXv1l76kJHImptjcnH1IVBVL6Krl1I~G33aQMxYO45~-PH5MDgakvIcrFRWsCSp-mOFT8CnSovoBW-~5AYUn5dcClIlv0xxki-KrH3leaZQpGk9jpQqy~iw~5YwQ4o7tB~A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-15:23:56  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/d296/5977/3ead6eeb85e39d10570fe5fbd02e23c7?Expires=1651449600&Signature=OJ8~nz71piVXyRh1wbo8S2nEgXJr8Dy3-XiiWyC31iEQgpp9oypyFp0X~nEprW8OGTIrYIXUDPzkMDzoRdSLzf6fNVhcjBPRjwv4WM5WQCFW2cD5z6jeLEqmt6bJIiiOy9AJCyIN6KtRb24YMrB-4toWlAxt6sFm5tzHnR~GlhlnG78m6ywD9vBlsfFfnyBUVAplnmL7bFwNIy4K0Xch-hPjAikvmSRlflJzGOREgKKnIKNnAKSbwARKKQlkDpdwM6XycYq3KGfKbV~YR7Ox6Uwu7BAjhel3WDQx5DC4vTKr3oXvJXnLLoqfxCDWWaei-hT4FryGDjq1rLoF4UA7WA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-15:24:05  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/fd61/8047/bd14007f11754600f784625bd157c7b1?Expires=1651449600&Signature=Znrpfx3W9y0F56F1NSvtTxL67LA~FLLjXjJ~VZj4VcWlz0zyIeWw1FSOelEkkqJmiPykEGJvOo6iV4etrsDHh6TSIDklEsRW1e67sfPT7OSuJkkKBFK83QAZ3fm18WPogEiLTv7UetBquwuFoNUi8j0BFIbt2tqWqOWHHDG085F0zyK4sGuVblSFG4PmgdxDflN2kMNdoQI358807U9GiDd6pvGGUP5XyKW9XLUzDW5ac56KxOpDaA8MB3kndTb~ISVGoIpIDarEixm38A12I79Enc9jTcd9cw9EaZ81e8YOq7nlIj0049tVYa48gSF0f7W0SEM3f8rpPe4SPIvNdQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
-15:24:05  :: Removed unused components:<br/> ZetaSurgicalSet.KeyBoard<br/>ZetaSurgicalSet.KeyboardButton_TopRow<br/>ZetaSurgicalSet.LockWheelsButton<br/>ZetaSurgicalSet.MetaDataTablePanel<br/>ZetaSurgicalSet.PatientInfoText_var_2<br/>ZetaSurgicalSet.ScrollBar<br/>ZetaSurgicalSet.Tabel3TitleBar<br/>ZetaSurgicalSet.Table1TitleBar<br/>ZetaSurgicalSet.Table2TitleBar<br/>ZetaSurgicalSet.TableSlider_Horizontal<br/>ZetaSurgicalSet.ToggleButton_Down_Selection<br/>ZetaSurgicalSet.TripleSelectSliderButton<br/>ZetaSurgicalSet.WheelLockButtonTest_Default_State
-15:24:05  :: Extracting font archive: /home/maxim/GreenHouseWorkspace/FontArchives/Arial.zip
+10:44:16  :: Data processing started.
+10:44:16  :: Project identified as: UserInterface_POC_20220323_v02.1
+10:44:16  :: Found 0 color frames
+10:44:16  :: Found 0 font frames
+10:44:16  :: Found 128 components
+10:44:16 Component: ChangeViewDropDown :: ChangeViewDropDown does not have any states that can be optimized.
+10:44:16 Component: HomeButton :: HomeButton does not have any common ui element groups.
+10:44:16 Component: KeyBoard :: KeyBoard does not have any states that can be optimized.
+10:44:16 Component: ProgressIndicator_SortOrder :: ProgressIndicator_SortOrder does not have any states that can be optimized.
+10:44:16 Component: ProgressIndicator_Triple :: ProgressIndicator_Triple does not have any states that can be optimized.
+10:44:16 Component: SearchInputText :: SearchInputText does not have any states that can be optimized.
+10:44:16 Component: SliderButton :: SliderButton does not have any states that can be optimized.
+10:44:16 Component: TripleSelectSliderButton :: TripleSelectSliderButton does not have any states that can be optimized.
+10:44:16  :: Found 12 screens
+10:44:16 Panel: CT_Planning_Default_MainPanel :: Failed to create component child item: ExtendedSet.CtAxialView
+10:44:16 Panel: ConfirmRegistrationPRE_Adjustment_Cut_InfoPanel :: Component missing for: fi_bad
+10:44:16 Panel: ConfirmRegistrationPRE_Adjustment_Cut_InfoPanel :: Component missing for: fi_good
+10:44:16 Panel: PositionNEST_Variation2_CamPositioningPanel :: Component missing for: fi_bad
+10:44:16 Panel: PositionNEST_Variation2_CamPositioningPanel :: Component missing for: fi_good
+10:44:16 Panel: Registration_Verification_1_VerifyRegistrationPanel :: Component missing for: fi_bad
+10:44:16 Panel: Registration_Verification_1_VerifyRegistrationPanel :: Component missing for: fi_good
+10:44:16 Panel: Registration_Verification_2_VerifyRegistrationPanel :: Component missing for: fi_bad
+10:44:16 Panel: Registration_Verification_2_VerifyRegistrationPanel :: Component missing for: fi_good
+10:44:16 Panel: Segmentation_Default_InfoPanel :: Component missing for: fi_bad
+10:44:17 Panel: Segmentation_Default_InfoPanel :: Component missing for: fi_good
+10:44:17  :: Found 11 popups
+10:44:17 Popups: EditPoint :: Component missing for: fi_PointDisplayLabel
+10:44:17 Popups: Instructions Positioning :: Failed to get a item state for: Instructions Positioning
+10:44:17 Popups: Instructions Registration :: Failed to get a item state for: Instructions Registration
+10:44:17  :: Found 11 menus
+10:44:17 Menus :: No declarations to process
+10:44:17  :: Found 1 extra layer
+10:44:17 KeyboardLayer: Keyboard_passThrough :: Component missing for: fi_keyboardOverlay
+10:44:17  :: Found 0 transitions
+10:44:17  :: 7 new and 0 modified images found...
+10:44:17  :: 0 new and 0 modified themed assets found...
+10:44:17  :: 0 new and 0 modified icons found...
+10:44:17  :: 0 new and 0 modified fills found...
+10:44:17  :: Requesting 7 asset urls(0 assets pending)...
+10:44:24  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5eb1/e723/0c14a0babbe0c0dff64da1686ad926df
+10:44:40  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/590f/e6c9/fd2f85b1471753d4231201a7d8e5d343
+10:44:40  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2cdf/8d5b/d7bc9e268f6aad66a50b0e616771409e
+10:44:41  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8d30/0a23/3d006da9f4454c4d5e4b0eb24bdb29be
+10:44:41  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c5ef/69d6/bba75dad799a565abfeb33ab03d266e6
+10:44:41  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9d50/a7fa/fd414175d7f3da641e28b90d9064cb5c
+10:44:41  :: Downloading asset from: https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c5ef/69d6/bba75dad799a565abfeb33ab03d266e6
+10:44:41  :: Requesting external asset urls...
+10:44:43  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/07d9/7f41/7bbf9a1d7c0bd13f44820fb5646d393e?Expires=1651449600&Signature=Fs35p3Q8P3PErUHZ9OS7AAKIcypxFOwkx~NCfqmFYUQPvpF1~muoHHdfZfnw1wHKUAXV0917Stqjmw5pcXxssZslzAgGERr74tI5Z5z8ENPRPZn3CJUDaHw~RSxtUht7EjFxliPvEj6IWkHHZ6yHbc-Imc9IcaToRUwbwKzGvaho6Ke97fnzAeT6YygAJvttEk7daAq0L1fsYagfqpOSwwnRWs8LkdKwQQDfzP4trTasEDnF9anyf7T1VTSwS-qhQE91mr49ep6-pvLaiJt8grXPYP5fSlT1tsGTLXUlVhFFNw5Tx4itnGc5ZPtV8NEi3FFnxqPW0VCqMKGeJjfVBA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
+10:44:44  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/0c7e/620d/8aa452f8042e7cf70c1617666b1f2a75?Expires=1651449600&Signature=aCimTBAMAy~Cv24aWmbUxfjOI0cCFIkQ387oiwnQPj5S4cYYHSuLPL6LmyMCfbyPlz8xXTO5Ok-JMqqJ8gJbYb6CvFEuQxp6uY4DJVYAUwZaSRFXLd0NjCiIriwaeBa4LVff~xyHrWGCZBnq4LNLv4sY~rfQ9FJdU9qRCAaH5WXlxB7oAQnXj9mJq~pqEhnK8lC8ezlM~mcYlhT3nqVIEQtSnHWnKq78QbqMCvSsJ3JCJUd1CIapphhcVR-JBNAIiI8dHGKvhbYKb8eQrtcGnB81c85OVvPTTwFGaHrS1f7AzDmer72qlkZ1gj-vQ07TwrTjr2HDOYV98xQWI0cFhA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
+10:44:44  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/951e/8fce/4a70422430611f3fcfb93a90e22aa59f?Expires=1651449600&Signature=Jn1XhZn5x~CcFlx4lHc0NQgevy1CZ22ETql-dldHyMdc-Z7DUC7d-dlBxU6uhRh2xgRf897bnWNcNJNHy915iQnyZgNztgNoyhOAenUALtyAD34ZqlKHRj7FPsdq2iqRHvfip5HQmeF2EjOXnTC99sh9oMHvEVjEOfzgmGfuoiwRAqrxrQ7gshu0v6pkRC~AlYyxSgj~KePsWxrhBh-n7mVpNszxioLWTGUYshamEIA0IV3JHEN~aiXas9OJ4J1vlEwRkJwuAEfcid1vHW4p0AO~ekQQTdJm2zoV8JosFhl94Yk160eY-oYSjWxyNyureDwXZxIbDb-reVACjD5oVg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
+10:44:45  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/9717/fa8f/bd6f5effcef61a9c662324d24d6bbc2e?Expires=1651449600&Signature=T9mFUIRCc54r777BzJwnumB5A7zrvuriTqR0HpMhNY2k4xFhgXkwltP9qMYmMebR9rSmmYDcddg8-vQlakrX5duWkKnr-dpi9YWlMYCiCH6EkbbPVt6sakKOM9XPkdwNMqhgIY~M0Zb6DnjbBm0TIc4vbhC9bgPv45v12sqHhTGvUOs1Anb9BjomyVsGZ1-5QwGEZ-loMS8jOWhtMwnNXWDjSmvmVoviLeIK2TLPhgkDkGbMEIt-MKzgANfArXKjg9S~U98W0RTaBQf1FsvhElZgrfJnqnu9h4Aencfq0CUMotpi78toIVx-e4EkK9zRjo5u4E~FzhwPFl4CAfp~mw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
+10:44:45  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/bcde/4f48/eb97fa4baa8de7aec889980d027a5bfa?Expires=1651449600&Signature=dPgwRapLeg2B87r3aN3S0IEzhYT5wST1~RdzG-yPRmWKqcM5kN0TVXGnfRYr07JvaNFV4ui-i0jT5OCSmVHJCe04LZyAGVAqiZf9bkI4VEPPmO45hZ-DabS31IoTp8slX3EevzX9Ufp7H~NlKJLCZorM8oNTz48QD78GVL6OwX2~uf2ziFjWLicKa-g4S0uYZ9nI9FV6S2FYXPL2dmcAXv1l76kJHImptjcnH1IVBVL6Krl1I~G33aQMxYO45~-PH5MDgakvIcrFRWsCSp-mOFT8CnSovoBW-~5AYUn5dcClIlv0xxki-KrH3leaZQpGk9jpQqy~iw~5YwQ4o7tB~A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
+10:44:45  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/d296/5977/3ead6eeb85e39d10570fe5fbd02e23c7?Expires=1651449600&Signature=OJ8~nz71piVXyRh1wbo8S2nEgXJr8Dy3-XiiWyC31iEQgpp9oypyFp0X~nEprW8OGTIrYIXUDPzkMDzoRdSLzf6fNVhcjBPRjwv4WM5WQCFW2cD5z6jeLEqmt6bJIiiOy9AJCyIN6KtRb24YMrB-4toWlAxt6sFm5tzHnR~GlhlnG78m6ywD9vBlsfFfnyBUVAplnmL7bFwNIy4K0Xch-hPjAikvmSRlflJzGOREgKKnIKNnAKSbwARKKQlkDpdwM6XycYq3KGfKbV~YR7Ox6Uwu7BAjhel3WDQx5DC4vTKr3oXvJXnLLoqfxCDWWaei-hT4FryGDjq1rLoF4UA7WA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
+10:45:00  :: Downloading external asset from: https://s3-alpha-sig.figma.com/img/fd61/8047/bd14007f11754600f784625bd157c7b1?Expires=1651449600&Signature=Znrpfx3W9y0F56F1NSvtTxL67LA~FLLjXjJ~VZj4VcWlz0zyIeWw1FSOelEkkqJmiPykEGJvOo6iV4etrsDHh6TSIDklEsRW1e67sfPT7OSuJkkKBFK83QAZ3fm18WPogEiLTv7UetBquwuFoNUi8j0BFIbt2tqWqOWHHDG085F0zyK4sGuVblSFG4PmgdxDflN2kMNdoQI358807U9GiDd6pvGGUP5XyKW9XLUzDW5ac56KxOpDaA8MB3kndTb~ISVGoIpIDarEixm38A12I79Enc9jTcd9cw9EaZ81e8YOq7nlIj0049tVYa48gSF0f7W0SEM3f8rpPe4SPIvNdQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA
+10:45:02  :: Removed unused components:<br/> ZetaSurgicalSet.KeyBoard<br/>ZetaSurgicalSet.KeyboardButton_TopRow<br/>ZetaSurgicalSet.LockWheelsButton<br/>ZetaSurgicalSet.MetaDataTablePanel<br/>ZetaSurgicalSet.PatientInfoText_var_2<br/>ZetaSurgicalSet.ScrollBar<br/>ZetaSurgicalSet.Tabel3TitleBar<br/>ZetaSurgicalSet.Table1TitleBar<br/>ZetaSurgicalSet.Table2TitleBar<br/>ZetaSurgicalSet.TableSlider_Horizontal<br/>ZetaSurgicalSet.ToggleButton_Down_Selection<br/>ZetaSurgicalSet.TripleSelectSliderButton<br/>ZetaSurgicalSet.WheelLockButtonTest_Default_State
+10:45:02  :: Extracting font archive: /home/maxim/GreenHouseWorkspace/FontArchives/Arial.zip
 to: /home/maxim/ICS/ZetaSurgical/zeta-surgical/ZetaSurgical.GreenHouse/Themes/DefaultTheme/Fonts
-15:24:06  :: Arial font extraction process finished with exit code: 9
-15:24:06  ::   End-of-central-directory signature not found.  Either this file is not
+10:45:02  :: Arial font extraction process finished with exit code: 9
+10:45:02  ::   End-of-central-directory signature not found.  Either this file is not
   a zipfile, or it constitutes one disk of a multi-part archive.  In the
   latter case the central directory and zipfile comment will be found on
   the last disk(s) of this archive.
 unzip:  cannot find zipfile directory in one of /home/maxim/GreenHouseWorkspace/FontArchives/Arial.zip or
         /home/maxim/GreenHouseWorkspace/FontArchives/Arial.zip.zip, and cannot find /home/maxim/GreenHouseWorkspace/FontArchives/Arial.zip.ZIP, period.
 
-15:24:06  :: Data processing done.
+10:45:03  :: Data processing done.

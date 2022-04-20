@@ -314,6 +314,9 @@ Item {
             }
         }
         ]
+        transitions: [
+
+        ]
     }
     StateGroup { // generic_pressed
         states: [
@@ -326,6 +329,9 @@ Item {
                 z: 999
             }
         }
+        ]
+        transitions: [
+
         ]
     }
 

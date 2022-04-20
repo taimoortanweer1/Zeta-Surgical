@@ -40,17 +40,17 @@ Item {
     //Children--------------------------------------------------------------------------------------
     ComponentsSet.SliderItem {
         id: sliderItem
-        anchors.left: parent.left
-        anchors.right: parent.right
         anchors.top: parent.top
         anchors.bottom: parent.bottom
+        anchors.horizontalCenter: parent.horizontalCenter
+        width: 8
         backgroundSource: GreenHouseThemeManager.theme.asset("/78_2138.png")
-        bottomBackgroundAssetBorder: 3
+        bottomBackgroundAssetBorder: 25
         fillMargin: 3
         knobSource: GreenHouseThemeManager.theme.asset("/78_2139.png")
         leftBackgroundAssetBorder: 3
         rightBackgroundAssetBorder: 3
-        topBackgroundAssetBorder: 3
+        topBackgroundAssetBorder: 25
 
         onValueChangeRequested: {
             root.sliderItem_valueChangeRequested(value);

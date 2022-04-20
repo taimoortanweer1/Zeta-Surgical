@@ -3,9 +3,6 @@
     "signals": {
         "fi_beginProcedureButton__onEvent__clicked": {
             "name": "fi_beginProcedureButton__onEvent__clicked"
-        },
-        "fi_logoutButton__onEvent__clicked": {
-            "name": "fi_logoutButton__onEvent__clicked"
         }
     },
     "targetFile": "LoginView_LoginSuccess_LoginPanelIFace.ghli"

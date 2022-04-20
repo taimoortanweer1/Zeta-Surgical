@@ -48,8 +48,8 @@ Item {
         bottomBackgroundAssetBorder: 3
         fillMargin: 3
         knobSource: GreenHouseThemeManager.theme.asset("/78_2161.png")
-        leftBackgroundAssetBorder: 3
-        rightBackgroundAssetBorder: 3
+        leftBackgroundAssetBorder: 25
+        rightBackgroundAssetBorder: 25
         topBackgroundAssetBorder: 3
 
         onValueChangeRequested: {

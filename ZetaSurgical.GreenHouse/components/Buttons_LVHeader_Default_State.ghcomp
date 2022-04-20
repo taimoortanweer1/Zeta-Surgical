@@ -59,19 +59,16 @@
                 "aliasSource": "fi_Line_108"
             }
         ],
-        "icon": [
+        "fi_ProgressIndicator_SortOrder": [
             {
-                "aliasElement": "source",
-                "aliasName": "icon_source",
-                "aliasSource": "icon"
-            },
-            {
-                "aliasElement": "opacity",
-                "aliasName": "icon_opacity",
-                "aliasSource": "icon"
+                "aliasElement": "progressValue",
+                "aliasName": "fi_ProgressIndicator_SortOrder_progressValue",
+                "aliasSource": "fi_ProgressIndicator_SortOrder"
             }
         ]
     },
+    "animations": [
+    ],
     "componentLayout": {
         "blockInputFallthrough": true,
         "children": [
@@ -223,23 +220,8 @@
                             "anchorValue": "Top"
                         },
                         "childrenSplit": true,
-                        "id": "icon",
+                        "id": "fi_ProgressIndicator_SortOrder",
                         "properties": {
-                            "height": {
-                                "name": "height",
-                                "type": "Int",
-                                "value": 24
-                            },
-                            "source": {
-                                "name": "source",
-                                "type": "Asset",
-                                "value": "/Icons/ADorder__DefaultState.png"
-                            },
-                            "width": {
-                                "name": "width",
-                                "type": "Int",
-                                "value": 16
-                            },
                             "x": {
                                 "name": "x",
                                 "type": "Int",
@@ -256,8 +238,8 @@
                                 "value": 2
                             }
                         },
-                        "targetFile": "icon.ghuie",
-                        "type": "Image",
+                        "targetFile": "fi_ProgressIndicator_SortOrder.ghuie",
+                        "type": "ZetaSurgicalSet.ProgressIndicator_SortOrder",
                         "userDefined": false
                     },
                     {

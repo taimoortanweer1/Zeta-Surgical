@@ -217,6 +217,9 @@ Item {
             }
         }
         ]
+        transitions: [
+
+        ]
     }
     StateGroup { // generic_complete
         states: [
@@ -229,6 +232,9 @@ Item {
                 z: 999
             }
         }
+        ]
+        transitions: [
+
         ]
     }
 

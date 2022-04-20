@@ -175,6 +175,9 @@ Item {
             }
         }
         ]
+        transitions: [
+
+        ]
     }
     StateGroup { // generic_activated
         states: [
@@ -187,6 +190,9 @@ Item {
                 z: 999
             }
         }
+        ]
+        transitions: [
+
         ]
     }
 

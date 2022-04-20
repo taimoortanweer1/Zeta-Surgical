@@ -2,9 +2,11 @@ import GreenHouse 1.0
 import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
+import ZetaSurgical 1.0 as ZetaSurgicalSet
 
 //USES ComponentsSet.Label
 //USES Image
+//USES ZetaSurgicalSet.ProgressIndicator_SortOrder
 //USES ComponentsSet.AutoRepeatMouseArea
 //PREVIEW IMAGE qrc:/GeneratedComponents/assets/Button.png
 
@@ -38,10 +40,8 @@ Item {
     property alias fi_Line_108_opacity: fi_Line_108.opacity
     //ASSET /365_2930.png
     property alias fi_Line_108_source: fi_Line_108.source
-    //REAL 1
-    property alias icon_opacity: icon.opacity
-    //ASSET /Icons/ADorder__DefaultState.png
-    property alias icon_source: icon.source
+    //INT 0
+    property alias fi_ProgressIndicator_SortOrder_progressValue: fi_ProgressIndicator_SortOrder.progressValue
 
     //----------------------------------------------------------------------------------------------
 
@@ -90,16 +90,13 @@ Item {
         height: 41
         source: GreenHouseThemeManager.theme.asset("/365_2930.png")
     }
-    Image {
-        id: icon
+    ZetaSurgicalSet.ProgressIndicator_SortOrder {
+        id: fi_ProgressIndicator_SortOrder
         anchors.right: parent.right
         anchors.rightMargin: 24
         anchors.top: parent.top
         anchors.topMargin: 18
         z: 2
-        width: 16
-        height: 24
-        source: GreenHouseThemeManager.theme.asset("/Icons/ADorder__DefaultState.png")
     }
     ComponentsSet.AutoRepeatMouseArea {
         id: __mouseArea

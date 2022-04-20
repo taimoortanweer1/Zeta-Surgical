@@ -182,6 +182,9 @@ Item {
             }
         }
         ]
+        transitions: [
+
+        ]
     }
     StateGroup { // generic_highlighted
         states: [
@@ -194,6 +197,9 @@ Item {
                 z: 999
             }
         }
+        ]
+        transitions: [
+
         ]
     }
 

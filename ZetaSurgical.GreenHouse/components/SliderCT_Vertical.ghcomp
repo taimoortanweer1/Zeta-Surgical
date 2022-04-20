@@ -33,6 +33,8 @@
             }
         ]
     },
+    "animations": [
+    ],
     "componentLayout": {
         "blockInputFallthrough": true,
         "children": [
@@ -43,13 +45,9 @@
                             "anchorTarget": "parent",
                             "anchorValue": "Bottom"
                         },
-                        "anchorLeft": {
+                        "anchorHCenter": {
                             "anchorTarget": "parent",
-                            "anchorValue": "Left"
-                        },
-                        "anchorRight": {
-                            "anchorTarget": "parent",
-                            "anchorValue": "Right"
+                            "anchorValue": "HorizontalCenter"
                         },
                         "anchorTop": {
                             "anchorTarget": "parent",
@@ -66,7 +64,7 @@
                             "bottomBackgroundAssetBorder": {
                                 "name": "bottomBackgroundAssetBorder",
                                 "type": "Int",
-                                "value": 3
+                                "value": 25
                             },
                             "fillMargin": {
                                 "name": "fillMargin",
@@ -96,7 +94,7 @@
                             "topBackgroundAssetBorder": {
                                 "name": "topBackgroundAssetBorder",
                                 "type": "Int",
-                                "value": 3
+                                "value": 25
                             },
                             "width": {
                                 "name": "width",

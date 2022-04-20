@@ -19,8 +19,8 @@ Item {
     //----------------------------------------------------------------------------------------------
 
     //Local bindings--------------------------------------------------------------------------------
-    width: 408
-    height: 80
+    width: 16
+    height: 24
 
     //----------------------------------------------------------------------------------------------
 
@@ -43,7 +43,7 @@ Item {
             name: "Value_0_State"
             PropertyChanges {
                 target: image0
-                source: GreenHouseThemeManager.theme.asset("/366_3351.png")
+                source: GreenHouseThemeManager.theme.asset("/365_3045.png")
             }
         },
         State {
@@ -51,7 +51,7 @@ Item {
             name: "Value_1_State"
             PropertyChanges {
                 target: image0
-                source: GreenHouseThemeManager.theme.asset("/366_3350.png")
+                source: GreenHouseThemeManager.theme.asset("/575_2736.png")
             }
         },
         State {
@@ -59,7 +59,7 @@ Item {
             name: "Value_2_State"
             PropertyChanges {
                 target: image0
-                source: GreenHouseThemeManager.theme.asset("/366_3349.png")
+                source: GreenHouseThemeManager.theme.asset("/575_2737.png")
             }
         }
         ]

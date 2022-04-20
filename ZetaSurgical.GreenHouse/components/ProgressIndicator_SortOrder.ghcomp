@@ -38,12 +38,12 @@
                     "height": {
                         "name": "height",
                         "type": "Int",
-                        "value": 80
+                        "value": 24
                     },
                     "width": {
                         "name": "width",
                         "type": "Int",
-                        "value": 408
+                        "value": 16
                     }
                 },
                 "targetFile": "root.ghuie",
@@ -53,22 +53,22 @@
         ],
         "childrenSplit": true,
         "fillParent": false,
-        "height": 80,
+        "height": 24,
         "hideAnimation": {
             "type": "Sequential"
         },
         "interfaceName": "",
-        "name": "___TEMP_LAYOUT___ZetaSurgicalSet.ProgressIndicator_Triple",
+        "name": "___TEMP_LAYOUT___ZetaSurgicalSet.ProgressIndicator_SortOrder",
         "posX": 0,
         "posY": 0,
         "rootContainerType": "Item",
         "showAnimation": {
             "type": "Sequential"
         },
-        "targetFile": "___TEMP_LAYOUT___ZetaSurgicalSet.ProgressIndicator_Triple.ghl",
-        "width": 408
+        "targetFile": "___TEMP_LAYOUT___ZetaSurgicalSet.ProgressIndicator_SortOrder.ghl",
+        "width": 16
     },
-    "componentName": "ZetaSurgicalSet.ProgressIndicator_Triple",
+    "componentName": "ZetaSurgicalSet.ProgressIndicator_SortOrder",
     "properties": [
         {
             "name": "progressValue",
@@ -88,7 +88,7 @@
                         "name": "source",
                         "propertyChangeTarget": "image0",
                         "type": "Asset",
-                        "value": "/366_3351.png"
+                        "value": "/365_3045.png"
                     }
                 ],
                 "when": "root.progressValue < 1"
@@ -101,7 +101,7 @@
                         "name": "source",
                         "propertyChangeTarget": "image0",
                         "type": "Asset",
-                        "value": "/366_3350.png"
+                        "value": "/575_2736.png"
                     }
                 ],
                 "when": "root.progressValue >= 1 && root.progressValue < 2"
@@ -114,12 +114,12 @@
                         "name": "source",
                         "propertyChangeTarget": "image0",
                         "type": "Asset",
-                        "value": "/366_3349.png"
+                        "value": "/575_2737.png"
                     }
                 ],
                 "when": "root.progressValue >= 2"
             }
         }
     },
-    "targetFile": "ProgressIndicator_Triple.ghcomp"
+    "targetFile": "ProgressIndicator_SortOrder.ghcomp"
 }

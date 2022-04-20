@@ -157,6 +157,8 @@
             }
         ]
     },
+    "animations": [
+    ],
     "componentLayout": {
         "blockInputFallthrough": true,
         "children": [

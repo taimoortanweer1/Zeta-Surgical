@@ -33,6 +33,8 @@
             }
         ]
     },
+    "animations": [
+    ],
     "componentLayout": {
         "blockInputFallthrough": true,
         "children": [
@@ -82,12 +84,12 @@
                             "leftBackgroundAssetBorder": {
                                 "name": "leftBackgroundAssetBorder",
                                 "type": "Int",
-                                "value": 3
+                                "value": 25
                             },
                             "rightBackgroundAssetBorder": {
                                 "name": "rightBackgroundAssetBorder",
                                 "type": "Int",
-                                "value": 3
+                                "value": 25
                             },
                             "topBackgroundAssetBorder": {
                                 "name": "topBackgroundAssetBorder",

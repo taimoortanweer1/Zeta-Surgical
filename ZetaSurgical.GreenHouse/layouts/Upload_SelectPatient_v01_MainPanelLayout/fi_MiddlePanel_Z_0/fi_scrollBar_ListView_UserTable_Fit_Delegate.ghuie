@@ -38,7 +38,7 @@
         "indicatorBottomBorder": {
             "name": "indicatorBottomBorder",
             "type": "Int",
-            "value": 11
+            "value": 25
         },
         "indicatorLeftBorder": {
             "name": "indicatorLeftBorder",
@@ -53,7 +53,7 @@
         "indicatorTopBorder": {
             "name": "indicatorTopBorder",
             "type": "Int",
-            "value": 11
+            "value": 25
         },
         "width": {
             "name": "width",
