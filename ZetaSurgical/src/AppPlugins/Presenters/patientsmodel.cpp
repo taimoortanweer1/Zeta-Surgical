@@ -83,11 +83,10 @@ QVariant SortFilterModel::getData(int ind, int role) const
     return sourceModel()->data(sourceIndex, role);
 }
 
-void SortFilterModel::sortByRole(int role)
+void SortFilterModel::sortByRole(int role, Qt::SortOrder order)
 {
-    qWarning() << __PRETTY_FUNCTION__ << role;
     setSortRole(role);
-    sort(0, Qt::AscendingOrder);
+    sort(0, order);
 }
 
 bool SortFilterModel::lessThan(const QModelIndex &left, const QModelIndex &right) const
@@ -211,4 +210,78 @@ QHash<int, QByteArray> StudyDescriptionList::roleNames() const
     roles[Date] = "dateAdded";
     roles[Index] = "index";
     return roles;
+}
+
+ListHeaderModel::ListHeaderModel(const QList<ListHeaderData> &data, QObject *parent)
+    : QAbstractListModel(parent)
+    , m_data(data)
+{
+
+}
+
+int ListHeaderModel::rowCount(const QModelIndex &parent) const
+{
+    Q_UNUSED(parent);
+    return m_data.count();
+}
+
+QVariant ListHeaderModel::data(const QModelIndex &index, int role) const
+{
+    QVariant res;
+    if(!index.isValid())
+        return res;
+    if(index.row() < 0 || index.row() >= m_data.count())
+        return res;
+
+    auto const &value = m_data.at(index.row());
+    if(Roles::Index == role) {
+        res = value.id;
+    } else if(Roles::Width == role) {
+        res = value.width;
+    } else if(Roles::Label == role) {
+        res = value.caption;
+    } else if(Roles::SortOrder == role) {
+        res = value.sortOrder;
+    }
+
+    return res;
+}
+
+QHash<int, QByteArray> ListHeaderModel::roleNames() const
+{
+    QHash<int, QByteArray> roles;
+    roles[Label] = "label";
+    roles[Index] = "index";
+    roles[Width] = "delegateWidth";
+    roles[SortOrder] = "sortOrder";
+    return roles;
+}
+
+void ListHeaderModel::toggleSortRole(int index)
+{
+    beginResetModel();
+    for(auto &entry : m_data) {
+        if(entry.id != index) {
+            entry.sortOrder = -1;
+            continue;
+        }
+
+        auto const oldRole = entry.sortOrder;
+        if(oldRole == -1)
+             entry.sortOrder = Qt::AscendingOrder;
+        else if(oldRole == Qt::AscendingOrder)
+             entry.sortOrder = Qt::DescendingOrder;
+        else if(oldRole == Qt::DescendingOrder)
+             entry.sortOrder = Qt::AscendingOrder;
+    }
+    endResetModel();
+}
+
+int ListHeaderModel::sortOrderForHeaderEntry(int headerEntry)
+{
+    for(auto const &entry : qAsConst(m_data)) {
+        if(entry.id == headerEntry)
+            return entry.sortOrder;
+    }
+    return -1;
 }

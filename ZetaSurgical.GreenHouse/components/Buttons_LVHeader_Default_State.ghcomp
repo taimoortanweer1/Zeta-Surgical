@@ -81,12 +81,12 @@
                             "anchorValue": "Bottom"
                         },
                         "anchorLeft": {
-                            "anchorMargin": -1,
+                            "anchorMargin": 17,
                             "anchorTarget": "parent",
                             "anchorValue": "Left"
                         },
                         "anchorRight": {
-                            "anchorMargin": -1,
+                            "anchorMargin": -19,
                             "anchorTarget": "parent",
                             "anchorValue": "Right"
                         },
@@ -147,7 +147,7 @@
                             "x": {
                                 "name": "x",
                                 "type": "Int",
-                                "value": -1
+                                "value": 17
                             },
                             "y": {
                                 "name": "y",
@@ -161,12 +161,10 @@
                     },
                     {
                         "anchorRight": {
-                            "anchorMargin": 1,
                             "anchorTarget": "parent",
                             "anchorValue": "Right"
                         },
                         "anchorVCenter": {
-                            "anchorMargin": -1,
                             "anchorTarget": "parent",
                             "anchorValue": "VerticalCenter"
                         },
@@ -176,17 +174,17 @@
                             "height": {
                                 "name": "height",
                                 "type": "Int",
-                                "value": 41
+                                "value": 40
                             },
                             "source": {
                                 "name": "source",
                                 "type": "Asset",
-                                "value": "/365_2930.png"
+                                "value": "/591_3021.png"
                             },
                             "width": {
                                 "name": "width",
                                 "type": "Int",
-                                "value": 0
+                                "value": 1
                             },
                             "x": {
                                 "name": "x",
@@ -196,7 +194,7 @@
                             "y": {
                                 "name": "y",
                                 "type": "Int",
-                                "value": 11
+                                "value": 12
                             },
                             "z": {
                                 "name": "z",
@@ -214,10 +212,10 @@
                             "anchorTarget": "parent",
                             "anchorValue": "Right"
                         },
-                        "anchorTop": {
-                            "anchorMargin": 18,
+                        "anchorVCenter": {
+                            "anchorMargin": -2,
                             "anchorTarget": "parent",
-                            "anchorValue": "Top"
+                            "anchorValue": "VerticalCenter"
                         },
                         "childrenSplit": true,
                         "id": "fi_ProgressIndicator_SortOrder",

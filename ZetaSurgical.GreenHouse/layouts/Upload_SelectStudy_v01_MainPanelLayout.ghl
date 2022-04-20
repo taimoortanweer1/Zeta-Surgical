@@ -212,6 +212,154 @@
             "targetFile": "fi_ListView_StudiesTable_Fit_Delegate_delegate.ghuie",
             "type": "FocusScope",
             "userDefined": false
+        },
+        {
+            "children": [
+                {
+                    "anchorLeft": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Left"
+                    },
+                    "anchorTop": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Top"
+                    },
+                    "childrenSplit": true,
+                    "extraData": {
+                        "FIGMA_ID": "365:3220"
+                    },
+                    "id": "fi_Series",
+                    "properties": {
+                        "fi_Label_text": {
+                            "bindingRole": "label",
+                            "name": "fi_Label_text",
+                            "type": "TranslatableString",
+                            "uuid": "FigmaNode::I365:3220;365:2926",
+                            "value": "Series"
+                        },
+                        "fi_ProgressIndicator_SortOrder_progressValue": {
+                            "bindingRole": "sortOrder",
+                            "name": "fi_ProgressIndicator_SortOrder_progressValue",
+                            "type": "Int",
+                            "value": 0
+                        },
+                        "width": {
+                            "bindingRole": "delegateWidth",
+                            "name": "width",
+                            "type": "Int",
+                            "value": 160
+                        }
+                    },
+                    "signals": {
+                        "clicked": {
+                            "name": "clicked",
+                            "rawCode": "root.itemInterface.fi_Series__onEvent__clicked(index)\n"
+                        }
+                    },
+                    "targetFile": "fi_Series.ghuie",
+                    "type": "ZetaSurgicalSet.Buttons_LVHeader_Default_State",
+                    "userDefined": false
+                }
+            ],
+            "childrenSplit": true,
+            "id": "fi_ListView_Header_StudyDescription_horizontal_delegate",
+            "model": {
+                "bindingProp": "studiesDescriptionListHeader",
+                "bindingSrc": "PatientsDatabase",
+                "name": "modelProperty",
+                "type": "Model",
+                "value": null
+            },
+            "properties": {
+                "height": {
+                    "name": "height",
+                    "type": "Int",
+                    "value": 64
+                },
+                "width": {
+                    "bindingRole": "delegateWidth",
+                    "name": "width",
+                    "type": "Int",
+                    "value": 160
+                }
+            },
+            "targetFile": "fi_ListView_Header_StudyDescription_horizontal_delegate.ghuie",
+            "type": "FocusScope",
+            "userDefined": false
+        },
+        {
+            "children": [
+                {
+                    "anchorLeft": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Left"
+                    },
+                    "anchorTop": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Top"
+                    },
+                    "childrenSplit": true,
+                    "extraData": {
+                        "FIGMA_ID": "365:3155"
+                    },
+                    "id": "fi_StudyDate",
+                    "properties": {
+                        "fi_Label_text": {
+                            "bindingRole": "label",
+                            "name": "fi_Label_text",
+                            "type": "TranslatableString",
+                            "uuid": "FigmaNode::I365:3155;365:2926",
+                            "value": "Study Date"
+                        },
+                        "fi_ProgressIndicator_SortOrder_progressValue": {
+                            "bindingRole": "sortOrder",
+                            "name": "fi_ProgressIndicator_SortOrder_progressValue",
+                            "type": "Int",
+                            "value": 0
+                        },
+                        "width": {
+                            "bindingRole": "delegateWidth",
+                            "name": "width",
+                            "type": "Int",
+                            "value": 192
+                        }
+                    },
+                    "signals": {
+                        "clicked": {
+                            "name": "clicked",
+                            "rawCode": "root.itemInterface.fi_StudyDate__onEvent__clicked(index)\n"
+                        }
+                    },
+                    "targetFile": "fi_StudyDate.ghuie",
+                    "type": "ZetaSurgicalSet.Buttons_LVHeader_Default_State",
+                    "userDefined": false
+                }
+            ],
+            "childrenSplit": true,
+            "id": "fi_ListView_HeaderStudy_horizontal_delegate",
+            "model": {
+                "bindingProp": "studiesListHeader",
+                "bindingSrc": "PatientsDatabase",
+                "name": "modelProperty",
+                "type": "Model",
+                "value": null
+            },
+            "properties": {
+                "height": {
+                    "name": "height",
+                    "type": "Int",
+                    "value": 64
+                },
+                "width": {
+                    "bindingRole": "delegateWidth",
+                    "name": "width",
+                    "type": "Int",
+                    "value": 192
+                }
+            },
+            "targetFile": "fi_ListView_HeaderStudy_horizontal_delegate.ghuie",
+            "type": "FocusScope",
+            "userDefined": false
         }
     ],
     "fillParent": false,

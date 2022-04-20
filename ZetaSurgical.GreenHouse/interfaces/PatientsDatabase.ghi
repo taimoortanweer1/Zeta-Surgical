@@ -588,6 +588,135 @@
                 "preview": false,
                 "readonly": true,
                 "type": "Bool"
+            },
+            {
+                "complex": true,
+                "data": [
+                    {
+                        "delegateWidth": "",
+                        "index": 0,
+                        "label": "Name",
+                        "sortOrder": "sortOrder_0"
+                    },
+                    {
+                        "delegateWidth": "",
+                        "index": 1,
+                        "label": "MRN",
+                        "sortOrder": "sortOrder_1"
+                    },
+                    {
+                        "delegateWidth": "",
+                        "index": 2,
+                        "label": "DOB",
+                        "sortOrder": "sortOrder_2"
+                    },
+                    {
+                        "delegateWidth": "",
+                        "index": 3,
+                        "label": "Sex",
+                        "sortOrder": "sortOrder_3"
+                    },
+                    {
+                        "delegateWidth": "",
+                        "index": 4,
+                        "label": "Studies",
+                        "sortOrder": "sortOrder_4"
+                    },
+                    {
+                        "delegateWidth": "",
+                        "index": 5,
+                        "label": "Session ID",
+                        "sortOrder": "sortOrder_5"
+                    },
+                    {
+                        "delegateWidth": "",
+                        "index": 6,
+                        "label": "Date",
+                        "sortOrder": "sortOrder_6"
+                    }
+                ],
+                "name": "patientsListHeader",
+                "preview": null,
+                "readonly": true,
+                "roles": [
+                    "label",
+                    "sortOrder",
+                    "index",
+                    "delegateWidth"
+                ],
+                "type": "Model"
+            },
+            {
+                "complex": true,
+                "data": [
+                    {
+                        "delegateWidth": "delegateWidth_0",
+                        "index": "",
+                        "label": "label_0",
+                        "sortOrder": "sortOrder_0"
+                    },
+                    {
+                        "delegateWidth": "delegateWidth_1",
+                        "index": "",
+                        "label": "label_1",
+                        "sortOrder": "sortOrder_1"
+                    },
+                    {
+                        "delegateWidth": "delegateWidth_2",
+                        "index": "",
+                        "label": "label_2",
+                        "sortOrder": "sortOrder_2"
+                    },
+                    {
+                        "delegateWidth": "delegateWidth_3",
+                        "index": "",
+                        "label": "label_3",
+                        "sortOrder": "sortOrder_3"
+                    },
+                    {
+                        "delegateWidth": "delegateWidth_4",
+                        "index": "",
+                        "label": "label_4",
+                        "sortOrder": "sortOrder_4"
+                    },
+                    {
+                        "delegateWidth": "delegateWidth_5",
+                        "index": "",
+                        "label": "label_5",
+                        "sortOrder": "sortOrder_5"
+                    }
+                ],
+                "name": "studiesListHeader",
+                "preview": null,
+                "readonly": true,
+                "roles": [
+                    "label",
+                    "sortOrder",
+                    "delegateWidth",
+                    "index"
+                ],
+                "type": "Model"
+            },
+            {
+                "complex": true,
+                "data": [
+                    {
+                        "delegateWidth": 25,
+                        "index": 0,
+                        "label": "label_0",
+                        "sortOrder": 1
+                    }
+                ],
+                "name": "studiesDescriptionListHeader",
+                "preview": null,
+                "readonly": true,
+                "roles": [
+                    "label",
+                    "sortOrder",
+                    "index",
+                    "delegateWidth"
+                ],
+                "type": "Model"
             }
         ]
     },

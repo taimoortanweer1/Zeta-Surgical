@@ -13,6 +13,25 @@ PatientsDatabaseImpl::PatientsDatabaseImpl(PopupsPresenterImpl *popupsPresenter)
 
     , m_studyDescriptionList(new StudyDescriptionList(this))
     , m_studiesDescriptionFilterModel(new SortFilterModel(this))
+
+    , m_patientsListHeaderModel(new ListHeaderModel({ {QStringLiteral("Name"), 352, -1, PatientsModel::Name },
+                                                      {QStringLiteral("MRN"), 288, -1, PatientsModel::MRN },
+                                                      {QStringLiteral("DOB"), 192, -1, PatientsModel::DOB },
+                                                      {QStringLiteral("Sex"), 128, -1, PatientsModel::Sex },
+                                                      {QStringLiteral("Studies"), 160, -1, PatientsModel::Studies },
+                                                      {QStringLiteral("SessionID"), 288, -1, PatientsModel::SessionID },
+                                                      {QStringLiteral("Date"), 248, -1, PatientsModel::Date } }, this))
+    , m_studyListHeaderModel(new ListHeaderModel({ {QStringLiteral("Study Date"), 192, -1, StudiesList::StudyDate },
+                                                      {QStringLiteral("Study ID"), 288, -1, StudiesList::ID },
+                                                      {QStringLiteral("Study Description"), 383, -1, StudiesList::Description },
+                                                      {QStringLiteral("#of Series"), 167, -1, StudiesList::NOS },
+                                                      {QStringLiteral("Date"), 200, -1, StudiesList::Date } }, this))
+    , m_studyDescriptionListHeaderModel(new ListHeaderModel({ {QStringLiteral("Series"), 160, -1, StudyDescriptionList::Series },
+                                                      {QStringLiteral("Study Description"), 415, -1, StudyDescriptionList::Description },
+                                                      {QStringLiteral("Modality"), 159, -1, StudyDescriptionList::Modality },
+                                                      {QStringLiteral("Size"), 160, -1, StudyDescriptionList::Size },
+                                                      {QStringLiteral("Count"), 136, -1, StudyDescriptionList::Count },
+                                                      {QStringLiteral("Date Added"), 200, -1, StudyDescriptionList::Date } }, this))
 {
     Q_ASSERT(m_popupsPresenter);
     m_filterModel->setSourceModel(m_patientsModel);
@@ -75,6 +94,10 @@ void PatientsDatabaseImpl::init()
     setStudiesDescriptionList(m_studiesDescriptionFilterModel);
 
     setSelectedViewString(viewsModel()->dataAt(0)[QStringLiteral("valueRole")].toString());
+
+    setPatientsListHeader(m_patientsListHeaderModel);
+    setStudiesDescriptionListHeader(m_studyDescriptionListHeaderModel);
+    setStudiesListHeader(m_studyListHeaderModel);
 }
 
 void PatientsDatabaseImpl::onFilterEditRequested()
@@ -136,24 +159,30 @@ void PatientsDatabaseImpl::onShowPatientsList()
 
 void PatientsDatabaseImpl::sortPatientListBy(int headerEntry)
 {
-    auto role = static_cast<PatientsModel::Roles>(headerEntry + Qt::UserRole + 1);
+    auto role = static_cast<PatientsModel::Roles>(headerEntry);
     if(role == PatientsModel::Date)
         role = PatientsModel::RawDate;
     if(role == PatientsModel::DOB)
         role = PatientsModel::RawDOB;
-    m_filterModel->sortByRole(role);
+    m_patientsListHeaderModel->toggleSortRole(headerEntry);
+    auto const &sortOrder = static_cast<Qt::SortOrder>(m_patientsListHeaderModel->sortOrderForHeaderEntry(headerEntry));
+    m_filterModel->sortByRole(role, sortOrder);
 }
 
 void PatientsDatabaseImpl::sortStudiesListBy(int headerEntry)
 {
-    auto role = static_cast<StudiesList::Roles>(headerEntry + Qt::UserRole + 1);
-    m_studiesFilterModel->sortByRole(role);
+    auto role = static_cast<StudiesList::Roles>(headerEntry);
+    m_studyListHeaderModel->toggleSortRole(headerEntry);
+    auto const &sortOrder = static_cast<Qt::SortOrder>(m_studyListHeaderModel->sortOrderForHeaderEntry(headerEntry));
+    m_studiesFilterModel->sortByRole(role, sortOrder);
 }
 
 void PatientsDatabaseImpl::sortStudiesDescriptionListBy(int headerEntry)
 {
-    auto role = static_cast<StudyDescriptionList::Roles>(headerEntry + Qt::UserRole + 1);
-    m_studiesDescriptionFilterModel->sortByRole(role);
+    auto role = static_cast<StudyDescriptionList::Roles>(headerEntry);
+    m_studyDescriptionListHeaderModel->toggleSortRole(headerEntry);
+    auto const &sortOrder = static_cast<Qt::SortOrder>(m_studyDescriptionListHeaderModel->sortOrderForHeaderEntry(headerEntry));
+    m_studiesDescriptionFilterModel->sortByRole(role, sortOrder);
 }
 
 void PatientsDatabaseImpl::setStudiesDescriptionSelectedIndex(int value, bool publishToRPC)

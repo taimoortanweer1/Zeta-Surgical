@@ -38,7 +38,7 @@ Item {
     property alias fi_Label_verticalAlignment: fi_Label.verticalAlignment
     //REAL 1
     property alias fi_Line_108_opacity: fi_Line_108.opacity
-    //ASSET /365_2930.png
+    //ASSET /591_3021.png
     property alias fi_Line_108_source: fi_Line_108.source
     //INT 0
     property alias fi_ProgressIndicator_SortOrder_progressValue: fi_ProgressIndicator_SortOrder.progressValue
@@ -64,9 +64,9 @@ Item {
     ComponentsSet.Label {
         id: fi_Label
         anchors.left: parent.left
-        anchors.leftMargin: -1
+        anchors.leftMargin: 17
         anchors.right: parent.right
-        anchors.rightMargin: -1
+        anchors.rightMargin: -19
         anchors.top: parent.top
         anchors.topMargin: -1
         anchors.bottom: parent.bottom
@@ -82,20 +82,18 @@ Item {
     Image {
         id: fi_Line_108
         anchors.right: parent.right
-        anchors.rightMargin: 1
         anchors.verticalCenter: parent.verticalCenter
-        anchors.verticalCenterOffset: -1
         z: 1
-        width: 0
-        height: 41
-        source: GreenHouseThemeManager.theme.asset("/365_2930.png")
+        width: 1
+        height: 40
+        source: GreenHouseThemeManager.theme.asset("/591_3021.png")
     }
     ZetaSurgicalSet.ProgressIndicator_SortOrder {
         id: fi_ProgressIndicator_SortOrder
         anchors.right: parent.right
         anchors.rightMargin: 24
-        anchors.top: parent.top
-        anchors.topMargin: 18
+        anchors.verticalCenter: parent.verticalCenter
+        anchors.verticalCenterOffset: -2
         z: 2
     }
     ComponentsSet.AutoRepeatMouseArea {

@@ -1,36 +1,6 @@
 {
     "name": "Upload_SelectPatient_v01_MainPanelIFace",
     "signals": {
-        "fi_DOB__onEvent__clicked": {
-            "arguments": [
-                {
-                    "name": "PatientsDatabase_sortPatientListBy_headerEntry",
-                    "preview": null,
-                    "type": "Int"
-                }
-            ],
-            "name": "fi_DOB__onEvent__clicked"
-        },
-        "fi_Date__onEvent__clicked": {
-            "arguments": [
-                {
-                    "name": "PatientsDatabase_sortPatientListBy_headerEntry",
-                    "preview": null,
-                    "type": "Int"
-                }
-            ],
-            "name": "fi_Date__onEvent__clicked"
-        },
-        "fi_MRN__onEvent__clicked": {
-            "arguments": [
-                {
-                    "name": "PatientsDatabase_sortPatientListBy_headerEntry",
-                    "preview": null,
-                    "type": "Int"
-                }
-            ],
-            "name": "fi_MRN__onEvent__clicked"
-        },
         "fi_Name__onEvent__clicked": {
             "arguments": [
                 {
@@ -40,36 +10,6 @@
                 }
             ],
             "name": "fi_Name__onEvent__clicked"
-        },
-        "fi_SessionID__onEvent__clicked": {
-            "arguments": [
-                {
-                    "name": "PatientsDatabase_sortPatientListBy_headerEntry",
-                    "preview": null,
-                    "type": "Int"
-                }
-            ],
-            "name": "fi_SessionID__onEvent__clicked"
-        },
-        "fi_Sex__onEvent__clicked": {
-            "arguments": [
-                {
-                    "name": "PatientsDatabase_sortPatientListBy_headerEntry",
-                    "preview": null,
-                    "type": "Int"
-                }
-            ],
-            "name": "fi_Sex__onEvent__clicked"
-        },
-        "fi_Studies__onEvent__clicked": {
-            "arguments": [
-                {
-                    "name": "PatientsDatabase_sortPatientListBy_headerEntry",
-                    "preview": null,
-                    "type": "Int"
-                }
-            ],
-            "name": "fi_Studies__onEvent__clicked"
         },
         "fi_Table1DelegateListItem_Button__onEvent__clicked": {
             "arguments": [

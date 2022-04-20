@@ -60,7 +60,7 @@ public:
     SortFilterModel(QObject *parent);
     void setFilterString(QString filter);
     QVariant getData(int index, int role) const;
-    void sortByRole(int role);
+    void sortByRole(int role, Qt::SortOrder order);
 
 protected:
     bool filterAcceptsRow(int source_row, const QModelIndex &source_parent) const override;
@@ -130,4 +130,31 @@ public:
 
 private:
     StudiesDescription m_data;
+};
+
+struct ListHeaderData {
+    QString caption;
+    int width;
+    int sortOrder;
+    int id;
+};
+
+class ListHeaderModel: public QAbstractListModel {
+    Q_OBJECT
+public:
+    enum Roles {
+        Label = Qt::UserRole + 1,
+        Width,
+        Index,
+        SortOrder
+    };
+    explicit ListHeaderModel(QList<ListHeaderData> const &data, QObject *parent);
+    int rowCount(const QModelIndex &parent) const override;
+    QVariant data(const QModelIndex &index, int role) const override;
+    QHash<int, QByteArray> roleNames() const override;
+    void toggleSortRole(int headerEntry);
+    int sortOrderForHeaderEntry(int headerEntry);
+
+private:
+    QList<ListHeaderData> m_data;
 };

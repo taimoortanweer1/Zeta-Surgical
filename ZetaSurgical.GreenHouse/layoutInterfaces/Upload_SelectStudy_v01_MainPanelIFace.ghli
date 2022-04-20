@@ -1,56 +1,6 @@
 {
     "name": "Upload_SelectStudy_v01_MainPanelIFace",
     "signals": {
-        "fi_Count__onEvent__clicked": {
-            "arguments": [
-                {
-                    "name": "PatientsDatabase_sortStudiesDescriptionListBy_role",
-                    "preview": null,
-                    "type": "Int"
-                }
-            ],
-            "name": "fi_Count__onEvent__clicked"
-        },
-        "fi_DateAdded__onEvent__clicked": {
-            "arguments": [
-                {
-                    "name": "PatientsDatabase_sortStudiesDescriptionListBy_role",
-                    "preview": null,
-                    "type": "Int"
-                }
-            ],
-            "name": "fi_DateAdded__onEvent__clicked"
-        },
-        "fi_Date__onEvent__clicked": {
-            "arguments": [
-                {
-                    "name": "PatientsDatabase_sortStudiesListBy_role",
-                    "preview": null,
-                    "type": "Int"
-                }
-            ],
-            "name": "fi_Date__onEvent__clicked"
-        },
-        "fi_Modality__onEvent__clicked": {
-            "arguments": [
-                {
-                    "name": "PatientsDatabase_sortStudiesDescriptionListBy_role",
-                    "preview": null,
-                    "type": "Int"
-                }
-            ],
-            "name": "fi_Modality__onEvent__clicked"
-        },
-        "fi_OfSEries__onEvent__clicked": {
-            "arguments": [
-                {
-                    "name": "PatientsDatabase_sortStudiesListBy_role",
-                    "preview": null,
-                    "type": "Int"
-                }
-            ],
-            "name": "fi_OfSEries__onEvent__clicked"
-        },
         "fi_Series__onEvent__clicked": {
             "arguments": [
                 {
@@ -60,16 +10,6 @@
                 }
             ],
             "name": "fi_Series__onEvent__clicked"
-        },
-        "fi_Size__onEvent__clicked": {
-            "arguments": [
-                {
-                    "name": "PatientsDatabase_sortStudiesDescriptionListBy_role",
-                    "preview": null,
-                    "type": "Int"
-                }
-            ],
-            "name": "fi_Size__onEvent__clicked"
         },
         "fi_SliderCtPreview__onEvent__sliderItem_valueChangeRequested": {
             "arguments": [
@@ -90,36 +30,6 @@
                 }
             ],
             "name": "fi_StudyDate__onEvent__clicked"
-        },
-        "fi_StudyDescription2__onEvent__clicked": {
-            "arguments": [
-                {
-                    "name": "PatientsDatabase_sortStudiesDescriptionListBy_role",
-                    "preview": null,
-                    "type": "Int"
-                }
-            ],
-            "name": "fi_StudyDescription2__onEvent__clicked"
-        },
-        "fi_StudyDescription__onEvent__clicked": {
-            "arguments": [
-                {
-                    "name": "PatientsDatabase_sortStudiesListBy_role",
-                    "preview": null,
-                    "type": "Int"
-                }
-            ],
-            "name": "fi_StudyDescription__onEvent__clicked"
-        },
-        "fi_StudyID__onEvent__clicked": {
-            "arguments": [
-                {
-                    "name": "PatientsDatabase_sortStudiesListBy_role",
-                    "preview": null,
-                    "type": "Int"
-                }
-            ],
-            "name": "fi_StudyID__onEvent__clicked"
         },
         "fi_Table2DelegateListItem_Button__onEvent__clicked": {
             "arguments": [

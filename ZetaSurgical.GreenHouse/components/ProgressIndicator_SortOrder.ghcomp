@@ -88,10 +88,10 @@
                         "name": "source",
                         "propertyChangeTarget": "image0",
                         "type": "Asset",
-                        "value": "/365_3045.png"
+                        "value": "/591_3020.png"
                     }
                 ],
-                "when": "root.progressValue < 1"
+                "when": "root.progressValue < 0"
             },
             "Value_1_State": {
                 "group": "",
@@ -101,10 +101,10 @@
                         "name": "source",
                         "propertyChangeTarget": "image0",
                         "type": "Asset",
-                        "value": "/575_2736.png"
+                        "value": "/575_2737.png"
                     }
                 ],
-                "when": "root.progressValue >= 1 && root.progressValue < 2"
+                "when": "root.progressValue >= 0 && root.progressValue < 1"
             },
             "Value_2_State": {
                 "group": "",
@@ -114,10 +114,10 @@
                         "name": "source",
                         "propertyChangeTarget": "image0",
                         "type": "Asset",
-                        "value": "/575_2737.png"
+                        "value": "/575_2736.png"
                     }
                 ],
-                "when": "root.progressValue >= 2"
+                "when": "root.progressValue >= 1"
             }
         }
     },

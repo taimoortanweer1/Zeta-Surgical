@@ -39,27 +39,27 @@ Item {
     StateGroup { //
         states: [
         State {
-            when: root.progressValue < 1
+            when: root.progressValue < 0
             name: "Value_0_State"
             PropertyChanges {
                 target: image0
-                source: GreenHouseThemeManager.theme.asset("/365_3045.png")
+                source: GreenHouseThemeManager.theme.asset("/591_3020.png")
             }
         },
         State {
-            when: root.progressValue >= 1 && root.progressValue < 2
+            when: root.progressValue >= 0 && root.progressValue < 1
             name: "Value_1_State"
             PropertyChanges {
                 target: image0
-                source: GreenHouseThemeManager.theme.asset("/575_2736.png")
+                source: GreenHouseThemeManager.theme.asset("/575_2737.png")
             }
         },
         State {
-            when: root.progressValue >= 2
+            when: root.progressValue >= 1
             name: "Value_2_State"
             PropertyChanges {
                 target: image0
-                source: GreenHouseThemeManager.theme.asset("/575_2737.png")
+                source: GreenHouseThemeManager.theme.asset("/575_2736.png")
             }
         }
         ]
