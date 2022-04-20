@@ -16,7 +16,7 @@ Window {
 
     Item {
         id: root
-        anchors.centerIn: parent
+        anchors.fill: parent
 
         width: window.desiredWidth
         height: window.desiredHeight
