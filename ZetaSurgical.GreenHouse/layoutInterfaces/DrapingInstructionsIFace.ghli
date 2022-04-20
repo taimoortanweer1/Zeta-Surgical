@@ -1,5 +1,4 @@
 {
-    "base": "Displayable",
     "name": "DrapingInstructionsIFace",
     "targetFile": "DrapingInstructionsIFace.ghli"
 }

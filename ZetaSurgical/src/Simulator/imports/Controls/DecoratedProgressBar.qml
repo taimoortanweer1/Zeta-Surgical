@@ -12,10 +12,9 @@ Item {
         id: background
         anchors.fill: parent
         radius: 5
-        layer.enabled: true
         color: "#5031CB6E"
-        Rectangle {
-            id: fillRectangle
+        Item {
+            id: fillRectangleClipper
             anchors {
                 left: parent.left
                 top:parent.top
@@ -29,7 +28,18 @@ Item {
                     progress = 1
                 root.width * progress
             }
-            color: "#31CB6E"
+            clip: true
+            Rectangle {
+                id: fillRectangle
+                anchors {
+                    left: parent.left
+                    top:parent.top
+                    bottom: parent.bottom
+                }
+                width: root.width
+                radius: 5
+                color: "#31CB6E"
+            }
         }
     }
 }

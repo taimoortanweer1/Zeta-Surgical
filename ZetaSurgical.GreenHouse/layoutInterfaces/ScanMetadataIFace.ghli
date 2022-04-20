@@ -1,5 +1,4 @@
 {
-    "base": "Displayable",
     "name": "ScanMetadataIFace",
     "signals": {
         "moveToNoPopup": {

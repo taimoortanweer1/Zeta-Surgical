@@ -1,5 +1,4 @@
-#ifndef APPLICATIONPLUGININTERFACE_H
-#define APPLICATIONPLUGININTERFACE_H
+#pragma once
 
 #include "appcore_global.h"
 
@@ -37,5 +36,3 @@ public:
 #define ApplicationPluginInterface_iid "com.ics.greenhouse.ApplicationPluginInterface"
 
 Q_DECLARE_INTERFACE(ApplicationPluginInterface, ApplicationPluginInterface_iid)
-
-#endif // APPLICATIONPLUGININTERFACE_H

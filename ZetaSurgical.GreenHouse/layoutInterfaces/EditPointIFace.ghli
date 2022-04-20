@@ -1,5 +1,4 @@
 {
-    "base": "Displayable",
     "name": "EditPointIFace",
     "signals": {
         "fi_EastButton__onEvent__clicked": {

@@ -22,9 +22,6 @@
         "FIGMA": "kKItBBA5TYuCVGxWbPVftH",
         "orderValue": 1
     },
-    "height": 0,
-    "posX": 0,
-    "posY": 0,
     "properties": {
         "childViewType": "ChildStateView",
         "initial": false,
@@ -37,6 +34,5 @@
     },
     "targetFile": "ScanMetadata.ghs",
     "template": "ItemState",
-    "uuid": "{581737c7-005f-4c72-976f-fed22b2003ab}",
-    "width": 0
+    "uuid": "{581737c7-005f-4c72-976f-fed22b2003ab}"
 }

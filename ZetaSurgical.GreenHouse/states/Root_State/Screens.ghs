@@ -5,9 +5,6 @@
         "Screens": true,
         "orderValue": 0
     },
-    "height": 0,
-    "posX": 0,
-    "posY": 0,
     "properties": {
         "childViewType": "ChildStateView",
         "initial": false,
@@ -19,6 +16,5 @@
     },
     "targetFile": "Screens.ghs",
     "template": "LayerState",
-    "uuid": "{e516ebb9-06a6-4869-aa21-bd388344c33b}",
-    "width": 0
+    "uuid": "{e516ebb9-06a6-4869-aa21-bd388344c33b}"
 }

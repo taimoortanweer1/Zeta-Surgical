@@ -5,9 +5,6 @@
         "Panel": true,
         "orderValue": 4
     },
-    "height": 0,
-    "posX": 0,
-    "posY": 0,
     "properties": {
         "childViewType": "ChildStateView",
         "initial": false,
@@ -18,6 +15,5 @@
         "preloadUI": false
     },
     "targetFile": "BackgroundPanel.ghs",
-    "template": "LayerState",
-    "width": 0
+    "template": "LayerState"
 }

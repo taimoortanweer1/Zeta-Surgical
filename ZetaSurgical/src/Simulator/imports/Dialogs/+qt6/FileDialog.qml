@@ -5,7 +5,7 @@ QQD.FileDialog {
     id: root
 
     property string labelText: ""
-    readonly property alias fileUrl: root.file
+    readonly property alias fileUrl: root.selectedFile
 
     title: qsTr("Please choose a file.")
 

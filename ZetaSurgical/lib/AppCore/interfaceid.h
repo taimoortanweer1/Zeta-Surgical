@@ -1,5 +1,4 @@
-#ifndef INTERFACEID_H
-#define INTERFACEID_H
+#pragma once
 
 #include "appcore_global.h"
 #include <ZetaSurgical/interfaceidrange.hpp>
@@ -41,4 +40,3 @@
 namespace InterfaceId {
 enum APPCORE_EXPORT Id { UserInterfaceIdRangeStart = ZetaSurgical::Id::IdRangeEnd };
 }
-#endif // INTERFACEID_H

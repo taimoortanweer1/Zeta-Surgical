@@ -5,16 +5,17 @@ import QtQuick.Layouts 1.14
 import Controls 1.0
 import Helpers 1.0
 
-DecoratedFlickable {
+Item {
     id: root
 
-    implicitWidth: tabRow.implicitWidth
-    implicitHeight: tabRow.implicitHeight
+    implicitWidth: tabRow.implicitWidth + leftExtraButtons.implicitWidth + rightExtraButtons.implicitWidth + 7
+    implicitHeight: tabRow.implicitHeight + 1
 
     default property alias leftTabContents: leftExtraButtons.children
     property alias rightTabContents: rightExtraButtons.children
 
     property bool showFocusOutline: false
+    property bool useMaximumTabSpan: true
 
     property Repeater tabModelRepeater: tabRepeater
     property alias tabModel: tabRepeater.model
@@ -22,21 +23,10 @@ DecoratedFlickable {
     property alias tabCount: tabRepeater.count
     property int currentTab: -1
     property int spacing: 0
-    property alias leftPadding: leftTabRowSpacer.implicitWidth
-    property alias rightPadding: rightTabRowSpacer.implicitWidth
-    property alias horizontalCenterPadding: internalTabRowSpacer.implicitWidth
 
     signal tabRequested(int tab)
     signal tabAdded(int tab)
     signal tabRemoved(int tab)
-
-    scrollBarThickness: 8
-    boundsBehavior: Flickable.StopAtBounds
-
-    contentWidth: Math.max(width, tabRow.implicitWidth)
-    contentHeight: height
-
-    clipContent: false
 
     function indexOf(text) {
         var index = -1;
@@ -53,51 +43,65 @@ DecoratedFlickable {
         return index >= 0 && index < tabRepeater.count ? tabRepeater.itemAt(index).text : ""
     }
 
+    onCurrentTabChanged: tabFlickable.ensureVisible(currentTab)
+
     Rectangle {
         id: background
 
-        width: root.contentWidth
-        height: root.contentHeight
+        anchors.fill: parent
 
         color: DrawFunctions.opaqueDarkPanelColor
     }
 
     RowLayout {
-        id: tabRow
-        anchors.fill: parent
+        id: leftExtraButtons
+
+        anchors.top: parent.top
+        anchors.bottom: parent.bottom
 
         spacing: root.spacing
+        visible: children.length > 0
+    }
 
-        Item {
-            id: leftTabRowSpacer
+    DecoratedFlickable {
+        id: tabFlickable
 
-            Layout.alignment: Qt.AlignLeft | Qt.AlignVCenter
-            Layout.fillHeight: true
-            Layout.fillWidth: false
-            Layout.maximumWidth: implicitWidth
-            Layout.minimumWidth: implicitWidth
+        anchors.left: leftExtraButtons.right
+        anchors.top: parent.top
+        anchors.bottom: parent.bottom
 
-            implicitWidth: 0
+        property real maximumSpan: root.width - leftExtraButtons.width - rightExtraButtons.width - 5
+        width: root.useMaximumTabSpan ? maximumSpan : Math.min(contentWidth, maximumSpan)
+
+        scrollBarThickness: 8
+        boundsBehavior: Flickable.StopAtBounds
+
+        contentWidth: tabRow.width + 2
+        contentHeight: height
+
+        clipContent: true
+
+        function ensureVisible(tabIndex) {
+            if (tabIndex >= 0 && tabIndex < tabRepeater.count) {
+                let currentTabItem = tabRepeater.itemAt(tabIndex)
+                if (currentTabItem) {
+                    if (currentTabItem.x < tabFlickable.contentX) {
+                        tabFlickable.contentX = currentTabItem.x
+                    } else if (currentTabItem.x + currentTabItem.width > tabFlickable.contentX + tabFlickable.width) {
+                        tabFlickable.contentX = currentTabItem.x + currentTabItem.width - tabFlickable.width
+                    }
+                }
+            }
         }
-
-        RowLayout {
-            id: leftExtraButtons
-            Layout.alignment: Qt.AlignLeft | Qt.AlignVCenter
-            Layout.fillWidth: true
-            Layout.fillHeight: true
-            Layout.maximumWidth: implicitWidth
-            Layout.maximumHeight: implicitHeight
-
-            spacing: root.spacing
-            visible: children.length > 0
-        }
+        onContentWidthChanged: ensureVisible(root.currentTab)
 
         Row {
-            Layout.alignment: Qt.AlignLeft | Qt.AlignBottom
-            Layout.fillWidth: true
-            Layout.fillHeight: true
-            Layout.maximumWidth: implicitWidth
-            Layout.maximumHeight: implicitHeight
+            id: tabRow
+
+            anchors.left: parent.left
+            anchors.top: parent.top
+            anchors.bottom: parent.bottom
+            anchors.margins: 1
 
             spacing: root.spacing
             visible: children.length > 0
@@ -119,43 +123,20 @@ DecoratedFlickable {
                     text: model ? (model.tabName ? model.tabName : "") : modelData
                     onTriggered: root.tabRequested(index)
                 }
-                onItemAdded: root.tabAdded(index)
-                onItemRemoved: root.tabRemoved(index)
+                onItemAdded: index => root.tabAdded(index)
+                onItemRemoved: index => root.tabRemoved(index)
             }
         }
+    }
 
-        Item {
-            id: internalTabRowSpacer
-            Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
-            Layout.fillWidth: true
-            Layout.fillHeight: true
-            Layout.minimumWidth: implicitWidth
+    RowLayout {
+        id: rightExtraButtons
 
-            implicitWidth: 13
-        }
+        anchors.left: tabFlickable.right
+        anchors.top: parent.top
+        anchors.bottom: parent.bottom
 
-        RowLayout {
-            id: rightExtraButtons
-            Layout.alignment: Qt.AlignRight | Qt.AlignVCenter
-            Layout.fillWidth: true
-            Layout.fillHeight: true
-            Layout.maximumWidth: implicitWidth
-            Layout.maximumHeight: implicitHeight
-
-            spacing: root.spacing
-            visible: children.length > 0
-        }
-
-        Item {
-            id: rightTabRowSpacer
-
-            Layout.alignment: Qt.AlignRight | Qt.AlignVCenter
-            Layout.fillHeight: true
-            Layout.fillWidth: false
-            Layout.maximumWidth: implicitWidth
-            Layout.minimumWidth: implicitWidth
-
-            implicitWidth: 13
-        }
+        spacing: root.spacing
+        visible: children.length > 0
     }
 }

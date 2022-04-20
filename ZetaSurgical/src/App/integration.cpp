@@ -7,25 +7,29 @@
 #include <greenhousetestfixture.h>
 #include <greenhousetheme.h>
 
+#ifdef GREENHOUSE_GUI
 #include <QQmlContext>
 #include <QQuickWindow>
+#endif // GREENHOUSE_GUI
 
 #include <QCoreApplication>
 
 #include <ZetaSurgical/statemachinefactory.hpp>
 #include <ZetaSurgical/remoteiteminterfaces.hpp>
 
-Integration::Integration(QQmlEngine *engine, QObject *parent) :
-    QObject(parent)
-   , m_engine(engine)
+#ifdef GREENHOUSE_GUI
+Integration::Integration(QQmlEngine *engine, QObject *parent)
+    : QObject(parent)
+    , m_engine(engine)
 {
     if (AppCommandLineParser::simulator())
         GreenHouse::Context::enableUIStringTracking();
     loadPluginConfig();
 }
+#endif // GREENHOUSE_GUI
 
-Integration::Integration(QObject *parent) :
-    QObject(parent)
+Integration::Integration(QObject *parent)
+    : QObject(parent)
 {
     if (AppCommandLineParser::simulator())
         GreenHouse::Context::enableUIStringTracking();
@@ -37,13 +41,16 @@ Integration::~Integration()
     delete m_context;
 }
 
+#ifdef GREENHOUSE_GUI
 void Integration::mainWindowCreated(QQuickItem *mainContainer, QQuickWindow *window)
 {
     if (m_context) {
         // NOTE: We are dealing with a UI reload scenario, if we already have a valid context instance
         m_context->setRootItem(mainContainer);
+        m_engine->rootContext()->setContextProperty(QStringLiteral("GHRootItem"), mainContainer);
     } else {
         m_context = new GreenHouse::Context(m_engine, QStringLiteral("ZetaSurgical"), mainContainer);
+        m_engine->rootContext()->setContextProperty(QStringLiteral("GHRootItem"), mainContainer);
 
         if (m_applicationPluginManager)
             m_applicationPluginManager->inject(m_context);
@@ -58,6 +65,7 @@ void Integration::mainWindowCreated(QQuickItem *mainContainer, QQuickWindow *win
     if (window)
         window->show();
 }
+#endif // GREENHOUSE_GUI
 
 void Integration::startExecution()
 {
@@ -71,22 +79,19 @@ void Integration::startExecution()
         auto remoteUIServer = new GreenHouse::WebSocketRPCServer(m_context, {}, QWebSocketServer::NonSecureMode);
         remoteUIServer->listen(QHostAddress::Any, AppCommandLineParser::backendPort());
         // NOTE: The UX process is not allowed to access any backend features directly
-        remoteUIServer->setMessageTypeBlacklist({ GreenHouse::PropertyValueSet,
-                                                  GreenHouse::EventInvoked,
-                                                  GreenHouse::MethodInvoked,
-                                                  GreenHouse::ModelPopulated,
-                                                  GreenHouse::ModelRowRemoved,
-                                                  GreenHouse::ModelRowPrepended,
-                                                  GreenHouse::ModelRowAppended,
-                                                  GreenHouse::ModelRowDataSet,
-                                                  GreenHouse::ModelRowRoleSet });
+        remoteUIServer->setMessageTypeBlacklist(
+                { GreenHouse::PropertyValueSet, GreenHouse::EventInvoked, GreenHouse::MethodInvoked,
+                  GreenHouse::ModelPopulated, GreenHouse::ModelRowRemoved, GreenHouse::ModelRowPrepended,
+                  GreenHouse::ModelRowAppended, GreenHouse::ModelRowDataSet, GreenHouse::ModelRowRoleSet });
         remoteUIServer->setServiceName(QStringLiteral("ZetaSurgical Remote UX Server"));
         ZetaSurgical::StateMachineFactory factory;
-
-
         m_context->startExecution(factory, this);
 
+#ifdef GREENHOUSE_GUI
         connectToSimulator(nullptr);
+#else
+        connectToSimulator();
+#endif // GREENHOUSE_GUI
     }
 }
 
@@ -107,7 +112,11 @@ void Integration::loadPluginConfig()
     }
 }
 
+#ifdef GREENHOUSE_GUI
 void Integration::connectToSimulator(QQuickWindow *window)
+#else
+void Integration::connectToSimulator()
+#endif // GREENHOUSE_GUI
 {
     if (!AppCommandLineParser::simulator())
         return;
@@ -117,7 +126,5 @@ void Integration::connectToSimulator(QQuickWindow *window)
 #ifdef GREENHOUSE_GUI
     if (window)
         new GreenHouse::TestFixture(m_context, window);
-#else
-    Q_UNUSED(window)
 #endif // GREENHOUSE_GUI
 }

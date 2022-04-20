@@ -1,5 +1,4 @@
 {
-    "base": "Displayable",
     "name": "PositionNEST_Variation2_MainPanelIFace",
     "targetFile": "PositionNEST_Variation2_MainPanelIFace.ghli"
 }

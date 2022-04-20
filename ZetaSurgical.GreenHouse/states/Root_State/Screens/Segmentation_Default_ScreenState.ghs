@@ -23,9 +23,6 @@
         "ScreenState": true,
         "orderValue": 6
     },
-    "height": 0,
-    "posX": 0,
-    "posY": 0,
     "properties": {
         "EmptyState": true,
         "childViewType": "ChildStateView",
@@ -37,6 +34,5 @@
     },
     "targetFile": "Segmentation_Default_ScreenState.ghs",
     "template": "State",
-    "uuid": "{2bfca358-ce11-40c9-b3c7-304b90570f28}",
-    "width": 0
+    "uuid": "{2bfca358-ce11-40c9-b3c7-304b90570f28}"
 }

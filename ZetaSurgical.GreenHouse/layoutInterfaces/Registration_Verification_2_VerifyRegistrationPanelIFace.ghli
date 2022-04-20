@@ -1,5 +1,4 @@
 {
-    "base": "Displayable",
     "name": "Registration_Verification_2_VerifyRegistrationPanelIFace",
     "targetFile": "Registration_Verification_2_VerifyRegistrationPanelIFace.ghli"
 }

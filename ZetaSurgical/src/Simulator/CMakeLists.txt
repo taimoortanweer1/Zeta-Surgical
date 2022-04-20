@@ -14,12 +14,31 @@ scriptsyntaxhighlighter.cpp
 simulator.cpp
 )
 
-set(simulator_qrc
-imports.qrc
-assets.qrc
-qml.qrc
-resources.qrc
-)
+if(QT_VERSION_MAJOR EQUAL 6)
+    qt6_add_resources(simulator_qrc
+    imports_qt6.qrc
+    assets.qrc
+    qml.qrc
+    resources.qrc
+    )
+else()
+    if (CMAKE_BUILD_TYPE STREQUAL "Debug")
+        set(simulator_qrc
+        imports.qrc
+        assets.qrc
+        qml.qrc
+        resources.qrc
+        )
+    else()
+        find_package(Qt5QuickCompiler)
+        qtquick_compiler_add_resources(simulator_qrc
+        imports.qrc
+        assets.qrc
+        qml.qrc
+        resources.qrc
+        )
+    endif()
+endif()
 
 set(QML_IMPORT_PATH ${CMAKE_SOURCE_DIR}/imports CACHE STRING "" FORCE)
 

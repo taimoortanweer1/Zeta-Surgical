@@ -22,9 +22,6 @@
         "FIGMA": "kKItBBA5TYuCVGxWbPVftH",
         "orderValue": 1
     },
-    "height": 0,
-    "posX": 0,
-    "posY": 0,
     "properties": {
         "childViewType": "ChildStateView",
         "initial": false,
@@ -37,6 +34,5 @@
     },
     "targetFile": "DeletePointConfirmation.ghs",
     "template": "ItemState",
-    "uuid": "{2c81e7a3-1d39-4024-850f-8756560abf7f}",
-    "width": 0
+    "uuid": "{2c81e7a3-1d39-4024-850f-8756560abf7f}"
 }

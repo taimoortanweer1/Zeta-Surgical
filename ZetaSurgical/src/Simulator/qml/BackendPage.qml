@@ -25,12 +25,13 @@ Item {
         DecoratedTableItem {
             id: endpointScope
 
-            property QtObject endpointWrapperWrapper: modelData
+            property QtObject endpointWrapper: modelData
 
             anchors.left: parent.left
             anchors.right: parent.right
 
-            height: handlerDataEditor.y + (handlerDataEditor.visible ? handlerDataEditor.height : 0) + 5
+            height: (endpointHandle.expanded ? handlerDataEditor.y + handlerDataEditor.height
+                                             : handlerDataEditor.y) + 5
             isAlternate: index % 2 == 0
 
             Column {
@@ -76,8 +77,7 @@ Item {
                         anchors.verticalCenter: parent.verticalCenter
 
                         onClicked: {
-                            endpointScope.endpointWrapperWrapper.call()
-                            Simulator.objectTriggered(endpointScope.endpointWrapperWrapper)
+                            endpointScope.endpointWrapper.call()
                         }
                         text: "Call"
                     }
@@ -88,32 +88,173 @@ Item {
                         anchors.verticalCenter: parent.verticalCenter
 
                         onClicked: {
-                            endpointScope.endpointWrapperWrapper.callOverRPC()
-                            Simulator.objectTriggered(endpointScope.endpointWrapperWrapper)
+                            endpointScope.endpointWrapper.callOverRPC()
                         }
                         text: "Remote Call"
                     }
                 }
+            }
 
-                Row {
+            Item {
+                id: argumentsTable
+
+                anchors.left: parent.left
+                anchors.right: parent.right
+                anchors.top: endpointSignature.bottom
+                anchors.margins: 10
+
+                height: argumentsView.height
+
+                clip: true
+
+                GridView {
+                    id: argumentsView
+
                     anchors.left: parent.left
                     anchors.right: parent.right
 
-                    spacing: 5
-                    Item {
-                        width: 10
-                        height: 1
+                    height: contentHeight
+
+                    cellWidth: width / 3
+                    cellHeight: 35
+
+                    model: endpointScope.endpointWrapper.argumentObjects
+
+                    delegate: Item {
+                        id: endpointArgumentScope
+
+                        width: argumentsView.cellWidth
+                        height: argumentsView.cellHeight
+
+                        property QtObject argumentWrapper: modelData
+                        clip: true
+
+                        Rectangle {
+                            id: argumentTypeRect
+
+                            anchors.left: parent.left
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.margins: 5
+                            radius: 5
+                            color: editorSource.getBackgroundColor(endpointArgumentScope.argumentWrapper.type)
+                            width: argumentTypeLabel.width + 10
+                            height: argumentTypeLabel.height + 5
+
+                            DecoratedLabel {
+                                id: argumentTypeLabel
+
+                                anchors.centerIn: parent
+                                font.pixelSize: 12
+
+                                text: {
+                                    switch (endpointArgumentScope.argumentWrapper.type) {
+                                    case SimulatorObject.Var:
+                                        return "Var";
+                                    case SimulatorObject.List:
+                                        return "List";
+                                    case SimulatorObject.Map:
+                                        return "Map";
+                                    case SimulatorObject.ObjectPtr:
+                                        return "ObjectPtr";
+                                    case SimulatorObject.ByteArray:
+                                        return "ByteArray";
+                                    case SimulatorObject.String:
+                                        return "String";
+                                    case SimulatorObject.TranslatableString:
+                                        return "TranslatableString";
+                                    case SimulatorObject.Int:
+                                        return "Int";
+                                    case SimulatorObject.Float:
+                                        return "Float"
+                                    case SimulatorObject.Double:
+                                        return "Double"
+                                    case SimulatorObject.Bool:
+                                        return "Bool"
+                                    case SimulatorObject.Model:
+                                        return "Model"
+                                    }
+                                    return ""
+                                }
+
+                                elide: Text.ElideRight
+                            }
+                        }
+
+                        Label {
+                            id: argumentNameLabel
+
+                            anchors.left: argumentTypeRect.right
+                            anchors.right: parent.horizontalCenter
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.margins: 5
+
+                            text: (endpointArgumentScope.argumentWrapper ? endpointArgumentScope.argumentWrapper.name
+                                                                        : "") + ": "
+                            elide: Text.ElideMiddle
+                            horizontalAlignment: Qt.AlignRight
+                            color: "#FFFFFF"
+                        }
+
+                        FocusScope {
+                            id: argumentEditorRoot
+
+                            anchors.left: parent.horizontalCenter
+                            anchors.right: parent.right
+                            anchors.top: parent.top
+                            anchors.margins: 5
+                            height: editor ? editor.implicitHeight : 0
+
+                            property Item editor: argumentEditorLoader.item
+
+                            Loader {
+                                id: argumentEditorLoader
+                                anchors.fill: parent
+
+                                sourceComponent: editorSource.getEditor(endpointArgumentScope.argumentWrapper.type)
+                                asynchronous: true
+                                onLoaded: {
+                                    if (item.target !== undefined)
+                                        item.target = endpointArgumentScope.argumentWrapper
+                                }
+                            }
+                        }
+
+                        BorderRectangle {
+                            anchors.left: parent.left
+                            anchors.right: parent.right
+                            anchors.bottom: parent.bottom
+                        }
+
+                        BorderRectangle {
+                            anchors.right: parent.right
+                            anchors.top: parent.top
+                            anchors.bottom: parent.bottom
+                        }
                     }
+                }
 
-                    Label {
-                        anchors.verticalCenter: parent.verticalCenter
+                BorderRectangle {
+                    anchors.left: argumentsView.left
+                    anchors.right: argumentsView.right
+                    anchors.top: argumentsView.top
+                }
 
-                        width: endpointSignature.width - x
+                BorderRectangle {
+                    anchors.left: argumentsView.left
+                    anchors.right: argumentsView.right
+                    anchors.bottom: argumentsView.bottom
+                }
 
-                        text: "args: ( " + modelData.arguments + " )"
-                        wrapMode: Text.WrapAtWordBoundaryOrAnywhere
-                        color: "#FFFFFF"
-                    }
+                BorderRectangle {
+                    anchors.left: argumentsView.left
+                    anchors.top: argumentsView.top
+                    anchors.bottom: argumentsView.bottom
+                }
+
+                BorderRectangle {
+                    anchors.right: argumentsView.right
+                    anchors.top: argumentsView.top
+                    anchors.bottom: argumentsView.bottom
                 }
             }
 
@@ -122,17 +263,17 @@ Item {
 
                 anchors.left: parent.left
                 anchors.right: parent.right
-                anchors.top: endpointSignature.bottom
+                anchors.top: argumentsTable.bottom
                 anchors.margins: 10
                 height: Math.max(128, contentHeight + 20)
 
                 visible: endpointHandle.expanded
 
                 property bool codeParsed: false
-                text: endpointScope.endpointWrapperWrapper.handlerCode
+                text: endpointScope.endpointWrapper.handlerCode
 
                 function parseCode() {
-                    endpointScope.endpointWrapperWrapper.installHanlder(null)
+                    endpointScope.endpointWrapper.installHanlder(null)
                     codeParsed = false
                     var handler = Qt.createQmlObject(
                     "import QtQuick 2.0\n"
@@ -147,18 +288,18 @@ Item {
                     + "\n}", handlerDataEditor)
 
                     if (handler) {
-                        handler.self = endpointScope.endpointWrapperWrapper
-                        handler.endpoint = endpointScope.endpointWrapperWrapper
-                        endpointScope.endpointWrapperWrapper.installHanlder(handler)
-                        endpointScope.endpointWrapperWrapper.handlerCode = text
+                        handler.self = endpointScope.endpointWrapper
+                        handler.endpoint = endpointScope.endpointWrapper
+                        endpointScope.endpointWrapper.installHanlder(handler)
+                        endpointScope.endpointWrapper.handlerCode = text
                         codeParsed = true
                     } else {
-                        endpointScope.endpointWrapperWrapper.installHanlder(null)
+                        endpointScope.endpointWrapper.installHanlder(null)
                     }
                 }
 
                 onEditingFinished: {
-                    if (endpointScope.endpointWrapperWrapper.handlerCode !== text)
+                    if (endpointScope.endpointWrapper.handlerCode !== text)
                         parseCode()
                 }
             }

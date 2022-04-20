@@ -7,7 +7,6 @@
         <file>qml/RecordAndReplayPage.qml</file>
         <file>qml/ScriptModules/qmldir</file>
         <file>qml/ScriptableObject.qml</file>
-        <file>qml/SurfacePage.qml</file>
         <file>qml/UiTextTable.qml</file>
         <file>qml/editors/BoolEditor.qml</file>
         <file>qml/editors/DoubleEditor.qml</file>

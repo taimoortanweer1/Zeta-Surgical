@@ -4,42 +4,105 @@
         {
             "name": "StorageSource",
             "value": [
-                "Local",
-                "CDUSB",
-                "PACS"
+                {
+                    "name": "Local",
+                    "value": 0
+                },
+                {
+                    "name": "CDUSB",
+                    "value": 1
+                },
+                {
+                    "name": "PACS",
+                    "value": 2
+                }
             ]
         },
         {
             "name": "PatientListHeaderEntries",
             "value": [
-                "Name",
-                "MRN",
-                "DOB",
-                "Sex",
-                "Studies",
-                "SessionID",
-                "Date"
+                {
+                    "name": "Name",
+                    "value": 0
+                },
+                {
+                    "name": "MRN",
+                    "value": 1
+                },
+                {
+                    "name": "DOB",
+                    "value": 2
+                },
+                {
+                    "name": "Sex",
+                    "value": 3
+                },
+                {
+                    "name": "Studies",
+                    "value": 4
+                },
+                {
+                    "name": "SessionID",
+                    "value": 5
+                },
+                {
+                    "name": "Date",
+                    "value": 6
+                }
             ]
         },
         {
             "name": "StudyListHeaderEntries",
             "value": [
-                "StudyDate",
-                "StudyID",
-                "StudyDescription",
-                "NOfSeries",
-                "SecondDate"
+                {
+                    "name": "StudyDate",
+                    "value": 0
+                },
+                {
+                    "name": "StudyID",
+                    "value": 1
+                },
+                {
+                    "name": "StudyDescription",
+                    "value": 2
+                },
+                {
+                    "name": "NOfSeries",
+                    "value": 3
+                },
+                {
+                    "name": "SecondDate",
+                    "value": 4
+                }
             ]
         },
         {
             "name": "StudyDescriptionHeaderEntries",
             "value": [
-                "Series",
-                "Description",
-                "Modality",
-                "Size",
-                "Count",
-                "DateAdded"
+                {
+                    "name": "Series",
+                    "value": 0
+                },
+                {
+                    "name": "Description",
+                    "value": 1
+                },
+                {
+                    "name": "Modality",
+                    "value": 2
+                },
+                {
+                    "name": "Size",
+                    "value": 3
+                },
+                {
+                    "name": "Count",
+                    "value": 4
+                },
+                {
+                    "name": "DateAdded",
+                    "value": 5
+                }
             ]
         }
     ],
@@ -468,25 +531,25 @@
             },
             {
                 "name": "patientIsSelected",
-                "preview": null,
+                "preview": false,
                 "readonly": true,
                 "type": "Bool"
             },
             {
                 "name": "cdUsbSourceAvailable",
-                "preview": null,
+                "preview": false,
                 "readonly": true,
                 "type": "Bool"
             },
             {
                 "name": "pacsSourceAvailable",
-                "preview": null,
+                "preview": false,
                 "readonly": true,
                 "type": "Bool"
             },
             {
                 "name": "localSourceAvailable",
-                "preview": null,
+                "preview": false,
                 "readonly": true,
                 "type": "Bool"
             },
@@ -504,25 +567,25 @@
             },
             {
                 "name": "proceedToSegmentationButtonEnabled",
-                "preview": null,
+                "preview": false,
                 "readonly": true,
                 "type": "Bool"
             },
             {
                 "name": "cdUsbSourceSelected",
-                "preview": null,
+                "preview": false,
                 "readonly": true,
                 "type": "Bool"
             },
             {
                 "name": "localSourceSelected",
-                "preview": null,
+                "preview": false,
                 "readonly": true,
                 "type": "Bool"
             },
             {
                 "name": "pacsSourceSelected",
-                "preview": null,
+                "preview": false,
                 "readonly": true,
                 "type": "Bool"
             }

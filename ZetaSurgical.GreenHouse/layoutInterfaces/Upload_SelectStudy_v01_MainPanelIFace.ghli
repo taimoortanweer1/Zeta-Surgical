@@ -1,5 +1,4 @@
 {
-    "base": "Displayable",
     "name": "Upload_SelectStudy_v01_MainPanelIFace",
     "signals": {
         "fi_Count__onEvent__clicked": {

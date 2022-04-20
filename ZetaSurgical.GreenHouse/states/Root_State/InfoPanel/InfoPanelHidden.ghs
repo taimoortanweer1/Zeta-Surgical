@@ -5,18 +5,14 @@
     "extraData": {
         "orderValue": 0
     },
-    "height": 0,
-    "posX": 0,
-    "posY": 0,
     "properties": {
         "childViewType": "ChildStateView",
-        "initial": false,
+        "initial": true,
         "name": "InfoPanelHidden",
         "parallel": false,
         "parentingEnabled": true,
         "preloadUI": false
     },
     "targetFile": "InfoPanelHidden.ghs",
-    "template": "State",
-    "width": 0
+    "template": "State"
 }

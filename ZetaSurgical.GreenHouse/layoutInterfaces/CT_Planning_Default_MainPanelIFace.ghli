@@ -1,5 +1,4 @@
 {
-    "base": "Displayable",
     "name": "CT_Planning_Default_MainPanelIFace",
     "targetFile": "CT_Planning_Default_MainPanelIFace.ghli"
 }

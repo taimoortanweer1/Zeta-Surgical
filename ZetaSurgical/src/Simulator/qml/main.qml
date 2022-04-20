@@ -158,7 +158,7 @@ ApplicationWindow {
         anchors.right: parent.right
 
         visible: !Simulator.initializing
-        height: Math.max(protEditor.height, protLabel.height) + 16
+        height: Math.max(portEditor.height, portLabel.height) + 16
         color: "#484848"
 
         Label {
@@ -195,7 +195,7 @@ ApplicationWindow {
         }
 
         Label {
-            id: protLabel
+            id: portLabel
 
             anchors.left: urlEditor.right
             anchors.verticalCenter: parent.verticalCenter
@@ -206,9 +206,9 @@ ApplicationWindow {
         }
 
         IntEditor {
-            id: protEditor
+            id: portEditor
 
-            anchors.left: protLabel.right
+            anchors.left: portLabel.right
             anchors.verticalCenter: parent.verticalCenter
             anchors.margins: 5
             width: 128

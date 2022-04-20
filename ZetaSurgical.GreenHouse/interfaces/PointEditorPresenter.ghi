@@ -4,9 +4,18 @@
         {
             "name": "Modes",
             "value": [
-                "Coronal",
-                "Axial",
-                "Saggital"
+                {
+                    "name": "Coronal",
+                    "value": 0
+                },
+                {
+                    "name": "Axial",
+                    "value": 1
+                },
+                {
+                    "name": "Saggital",
+                    "value": 2
+                }
             ]
         }
     ],

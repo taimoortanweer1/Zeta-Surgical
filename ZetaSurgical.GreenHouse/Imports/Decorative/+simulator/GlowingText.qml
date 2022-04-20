@@ -118,13 +118,13 @@ Item {
         property var stringDictionary: []
         function registerUiStrings() {
             if (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null) {
-                for (let i = 0; i < stringDictionary.length; ++i)
+                for (var i = 0; i < stringDictionary.length; ++i)
                     GreenHouseTestFixture.registerUIString(stringDictionary[i], textLabel)
             }
         }
         function unregisterUiStrings() {
             if (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null) {
-                for (let i = 0; i < stringDictionary.length; ++i)
+                for (var i = 0; i < stringDictionary.length; ++i)
                     GreenHouseTestFixture.unregisterUIString(stringDictionary[i], textLabel)
             }
         }

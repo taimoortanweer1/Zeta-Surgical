@@ -1,0 +1,63 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="imports/Dialogs/FileDialog.qml">imports/Dialogs/+qt6/FileDialog.qml</file>
+        <file alias="imports/Dialogs/FolderDialog.qml">imports/Dialogs/+qt6/FolderDialog.qml</file>
+        <file>imports/Controls/BorderRectangle.qml</file>
+        <file>imports/Controls/BrowseButton.qml</file>
+        <file>imports/Controls/Checkerboard.qml</file>
+        <file>imports/Controls/CloseButton.qml</file>
+        <file>imports/Controls/DecoratedButton.qml</file>
+        <file>imports/Controls/DecoratedCheckBox.qml</file>
+        <file>imports/Controls/DecoratedCodeEditor.qml</file>
+        <file>imports/Controls/DecoratedComboBox.qml</file>
+        <file>imports/Controls/DecoratedDialog.qml</file>
+        <file>imports/Controls/DecoratedDialogButton.qml</file>
+        <file>imports/Controls/DecoratedFlickable.qml</file>
+        <file>imports/Controls/DecoratedLabel.qml</file>
+        <file>imports/Controls/DecoratedListItem.qml</file>
+        <file>imports/Controls/DecoratedListView.qml</file>
+        <file>imports/Controls/DecoratedLogDisplay.qml</file>
+        <file>imports/Controls/DecoratedMenu.qml</file>
+        <file>imports/Controls/DecoratedPopup.qml</file>
+        <file>imports/Controls/DecoratedProgressBar.qml</file>
+        <file>imports/Controls/DecoratedScrollBar.qml</file>
+        <file>imports/Controls/DecoratedScrollBarCorner.qml</file>
+        <file>imports/Controls/DecoratedSpinBox.qml</file>
+        <file>imports/Controls/DecoratedSwitch.qml</file>
+        <file>imports/Controls/DecoratedTableItem.qml</file>
+        <file>imports/Controls/DecoratedTextArea.qml</file>
+        <file>imports/Controls/DecoratedTextField.qml</file>
+        <file>imports/Controls/DecoratedToolTip.qml</file>
+        <file>imports/Controls/DecoratedViewportBase.qml</file>
+        <file>imports/Controls/ExpandButton.qml</file>
+        <file>imports/Controls/ExpandContractHandle.qml</file>
+        <file>imports/Controls/FocusOutline.qml</file>
+        <file>imports/Controls/IconButton.qml</file>
+        <file>imports/Controls/InfoButton.qml</file>
+        <file>imports/Controls/LargeButton.qml</file>
+        <file>imports/Controls/RemoveButton.qml</file>
+        <file>imports/Controls/Splitter.qml</file>
+        <file>imports/Controls/TabButtonRow.qml</file>
+        <file>imports/Controls/TabRowButton.qml</file>
+        <file>imports/Controls/TitleBar.qml</file>
+        <file>imports/Controls/qmldir</file>
+        <file>imports/Dialogs/qmldir</file>
+        <file>imports/Helpers/DrawFunctions.js</file>
+        <file>imports/Helpers/QmlEnums.js</file>
+        <file>imports/Helpers/UIConstants.js</file>
+        <file>imports/Helpers/qmldir</file>
+        <file>imports/Styles/DialogStyle.qml</file>
+        <file>imports/Styles/FormStyle.qml</file>
+        <file>imports/Styles/LabelStyle.qml</file>
+        <file>imports/Styles/ProjectDialogsStyle.qml</file>
+        <file>imports/Styles/SlideInPanelStyle.qml</file>
+        <file>imports/Styles/SmallLabelStyle.qml</file>
+        <file>imports/Styles/TextFieldStyle.qml</file>
+        <file>imports/Styles/TitleBarStyle.qml</file>
+        <file>imports/Styles/qmldir</file>
+        <file>imports/Themes/BaseTheme.qml</file>
+        <file>imports/Themes/Theme.qml</file>
+        <file>imports/Themes/qmldir</file>
+        <file>qtquickcontrols2.conf</file>
+    </qresource>
+</RCC>

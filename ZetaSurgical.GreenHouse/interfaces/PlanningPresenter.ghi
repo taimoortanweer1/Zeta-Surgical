@@ -4,8 +4,14 @@
         {
             "name": "SelectionMode",
             "value": [
-                "MultipleSelection",
-                "SingleSelection"
+                {
+                    "name": "MultipleSelection",
+                    "value": 0
+                },
+                {
+                    "name": "SingleSelection",
+                    "value": 1
+                }
             ]
         }
     ],
@@ -236,7 +242,7 @@
             },
             {
                 "name": "proceedToPositioningButtonEnabled",
-                "preview": null,
+                "preview": false,
                 "readonly": true,
                 "type": "Bool"
             }

@@ -1,5 +1,4 @@
 {
-    "base": "Displayable",
     "name": "PatientSearchViewIFace",
     "signals": {
         "fi_closeWindowButton__onEvent__clicked": {

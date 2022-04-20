@@ -1,5 +1,4 @@
 {
-    "base": "Displayable",
     "name": "ConfirmRegistrationPRE_Adjustment_Cut_InfoPanelIFace",
     "signals": {
         "fi_Buttons_RegularSmaller__onEvent__clicked": {

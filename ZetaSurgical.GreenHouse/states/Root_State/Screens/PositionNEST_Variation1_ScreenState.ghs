@@ -23,9 +23,6 @@
         "ScreenState": true,
         "orderValue": 5
     },
-    "height": 0,
-    "posX": 0,
-    "posY": 0,
     "properties": {
         "EmptyState": true,
         "childViewType": "ChildStateView",
@@ -37,6 +34,5 @@
     },
     "targetFile": "PositionNEST_Variation1_ScreenState.ghs",
     "template": "State",
-    "uuid": "{9956ecf2-10de-4249-958b-0c0e788f86c2}",
-    "width": 0
+    "uuid": "{9956ecf2-10de-4249-958b-0c0e788f86c2}"
 }

@@ -18,6 +18,7 @@
 #include <QTimer>
 #include <QUrl>
 #include <QUuid>
+#include <QDateTime>
 
 #include <greenhousecontext.h>
 
@@ -89,6 +90,7 @@ class ContextObjectEndpointWrapper : public ScriptableObject
     Q_DISABLE_COPY(ContextObjectEndpointWrapper)
     Q_PROPERTY(QString name READ name CONSTANT)
     Q_PROPERTY(QString arguments READ arguments CONSTANT)
+    Q_PROPERTY(QList<QObject *> argumentObjects READ argumentObjects CONSTANT)
 public:
     using CallFunc = std::function<void(GreenHouse::Context *ctx, const QVariantList &paremeters)>;
     explicit ContextObjectEndpointWrapper(const QString &name, GreenHouse::Context *ctx, CallFunc call,
@@ -98,8 +100,10 @@ public:
     QString name() const { return m_name; }
     QString arguments() const;
 
-    Q_INVOKABLE void call(const QVariantMap &args = QVariantMap()) const;
-    Q_INVOKABLE void callOverRPC(const QVariantMap &args = QVariantMap()) const;
+    QList<QObject *> argumentObjects() const;
+
+    Q_INVOKABLE void call(const QVariantMap &args = QVariantMap(), bool silent = false);
+    Q_INVOKABLE void callOverRPC(const QVariantMap &args = QVariantMap());
 
     void addArgument(ArgumentWrapper *arg)
     {
@@ -109,6 +113,9 @@ public:
     }
 
     const QList<ArgumentWrapper *> &argumentList() const { return m_arguments; }
+
+signals:
+    void invoked(const QVariantMap &arguments);
 
 private:
     ContextObjectWrapper *m_contextObjectWrapper;
@@ -140,11 +147,7 @@ public:
     QString name() const { return m_name; }
     int type() const { return m_type; }
 
-    void setValue(const QVariant &val)
-    {
-        if (m_writeFunc)
-            m_writeFunc(m_ctx, val);
-    }
+    void setValue(const QVariant &val);
     bool isFavorite() const { return m_isFavorite; }
     void setIsFavorite(bool isFavorite);
 
@@ -162,6 +165,7 @@ private:
     bool m_isFavorite;
 };
 
+class Simulator;
 class ContextObjectWrapper : public ScriptableObject
 {
     Q_OBJECT
@@ -174,8 +178,7 @@ class ContextObjectWrapper : public ScriptableObject
     Q_PROPERTY(QObject *object READ object CONSTANT)
 public:
     using ObjFunc = std::function<QObject *(GreenHouse::Context *)>;
-    explicit ContextObjectWrapper(const QString &name, GreenHouse::Context *ctx, ObjFunc objFunc,
-                                  QObject *parent = nullptr);
+    explicit ContextObjectWrapper(const QString &name, GreenHouse::Context *ctx, ObjFunc objFunc, Simulator *parent);
 
     QString name() const { return m_name; }
     QString objectNameFilter() const { return m_objectNameFilter; }
@@ -183,6 +186,8 @@ public:
     bool favoritesOnly() const;
     void setFavoritesOnly(bool favoritesOnly);
     void setFavorites(const QStringList &favorites);
+
+    Simulator *simulator() const { return m_simulator; }
 
     QList<QObject *> objectMethods() const;
     QList<ContextObjectEndpointWrapper *> objectMethodList() const { return m_objectMethods.values(); }
@@ -207,26 +212,12 @@ public:
 
     QObject *object() const;
 
-    void registerMethod(ContextObjectEndpointWrapper *endpoint)
-    {
-        if (!endpoint)
-            return;
-        m_objectMethods.insert(endpoint->name(), endpoint);
-    }
+    void registerMethod(ContextObjectEndpointWrapper *endpoint);
+    void registerEvent(ContextObjectEndpointWrapper *endpoint);
+    void registerProperty(ContextObjectPropertyWrapper *endpoint);
+    void registerEnum(const QString &enumName, const QMap<QString, int> &enumValues);
 
-    void registerEvent(ContextObjectEndpointWrapper *endpoint)
-    {
-        if (!endpoint)
-            return;
-        m_objectEvents.insert(endpoint->name(), endpoint);
-    }
-
-    void registerProperty(ContextObjectPropertyWrapper *endpoint)
-    {
-        if (!endpoint)
-            return;
-        m_objectProperties.insert(endpoint->name(), endpoint);
-    }
+    QMap<QString, int> enumValues(const QString &enumName) { return m_enumValueMap.value(enumName); }
 
 signals:
     void objectPropertiesChanged();
@@ -235,11 +226,14 @@ private:
     QString m_name;
     QString m_objectNameFilter;
     GreenHouse::Context *m_ctx;
+    Simulator *m_simulator;
     ObjFunc m_objFunc;
     QMap<QString, ContextObjectEndpointWrapper *> m_objectMethods;
     QMap<QString, ContextObjectEndpointWrapper *> m_objectEvents;
     QMap<QString, ContextObjectPropertyWrapper *> m_objectProperties;
     bool m_favoritesOnly;
+
+    QMap<QString, QMap<QString, int>> m_enumValueMap;
 
     friend class Simulator;
 };
@@ -392,8 +386,9 @@ class Simulator : public QObject
     Q_PROPERTY(int serverPortMax READ serverPortMax CONSTANT)
     Q_PROPERTY(QString objectNameFilter READ objectNameFilter WRITE setObjectNameFilter NOTIFY objectNameFilterChanged)
     Q_PROPERTY(bool favoritesOnly READ favoritesOnly WRITE setFavoritesOnly NOTIFY favoritesOnlyChanged)
+    Q_PROPERTY(bool backendServerRunning READ backendServerRunning NOTIFY backendServerRunningChanged)
 
-    Q_PROPERTY(bool generic READ generic CONSTANT)
+    Q_PROPERTY(bool generic READ generic NOTIFY genericChanged)
     Q_PROPERTY(bool initializing READ initializing NOTIFY initializingChanged)
     Q_PROPERTY(QJsonArray knownProjects READ knownProjects NOTIFY knownProjectsChanged)
 
@@ -474,7 +469,7 @@ public:
     void setFavoritesOnly(bool favoritesOnly);
 
     bool generic() const { return m_generic; }
-    void setGeneric(bool generic) { m_generic = generic; }
+    void setGeneric(bool generic);
 
     bool initializing() const { return m_initializing; }
 
@@ -522,12 +517,17 @@ public:
 
     Q_INVOKABLE QString uiStringReport(const QJsonObject &registry) const;
 
+    using StartServerFunc = std::function<void(int)>;
+    void setStartServerFunc(StartServerFunc func);
+    bool backendServerRunning() const { return m_backendServerRunning; }
+
 public slots:
     void saveFavorites();
     void readFavorites();
     void loadProject(const QUrl &projectUrl);
     void removeProject(int index);
     void replaySession(bool reportSession = false);
+    void startBackendServer(int port);
 
 signals:
     void nameChanged();
@@ -545,6 +545,7 @@ signals:
     void surfaceControllerObjectsChanged();
     void scriptsChanged();
     void objectNameFilterChanged();
+    void genericChanged();
     void initializingChanged();
     void knownProjectsChanged();
     void pendingScreenShotsChanged();
@@ -552,6 +553,7 @@ signals:
     void screenCaptured(const QString &file);
     void uiTextRegistryReceived(const QJsonObject &registry);
     void serviceMismatchDetected(const QString &serviceName, const QString &expectedServiceName);
+    void backendServerRunningChanged();
 
 protected:
     virtual void initQml(QQmlApplicationEngine *engine);
@@ -600,5 +602,8 @@ private:
 
     QString m_screenCaptureSaveLocation;
     QString m_reportDirectory;
+
+    StartServerFunc m_startServerFunc = nullptr;
+    bool m_backendServerRunning = false;
 };
 }

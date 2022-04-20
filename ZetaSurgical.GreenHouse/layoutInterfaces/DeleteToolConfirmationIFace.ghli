@@ -1,5 +1,4 @@
 {
-    "base": "Displayable",
     "name": "DeleteToolConfirmationIFace",
     "signals": {
         "fi_no__onEvent__clicked": {

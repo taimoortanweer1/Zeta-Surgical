@@ -3,9 +3,6 @@
     "extraData": {
         "orderValue": 0
     },
-    "height": 193,
-    "posX": 115,
-    "posY": 53,
     "properties": {
         "childViewType": "ChildStateView",
         "initial": true,
@@ -15,6 +12,5 @@
         "preloadUI": false
     },
     "targetFile": "Root_State.ghs",
-    "template": "State",
-    "width": 139.109375
+    "template": "State"
 }

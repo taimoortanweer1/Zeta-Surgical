@@ -5,9 +5,6 @@
     "extraData": {
         "orderValue": 0
     },
-    "height": 0,
-    "posX": 0,
-    "posY": 0,
     "properties": {
         "childViewType": "ChildStateView",
         "initial": true,
@@ -17,6 +14,5 @@
         "preloadUI": false
     },
     "targetFile": "HeaderPanelHidden.ghs",
-    "template": "State",
-    "width": 0
+    "template": "State"
 }

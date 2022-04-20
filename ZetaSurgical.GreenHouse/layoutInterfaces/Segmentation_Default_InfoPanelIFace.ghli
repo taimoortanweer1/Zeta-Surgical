@@ -1,5 +1,4 @@
 {
-    "base": "Displayable",
     "name": "Segmentation_Default_InfoPanelIFace",
     "signals": {
         "fi_continueButton__onEvent__clicked": {

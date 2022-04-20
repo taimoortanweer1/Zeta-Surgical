@@ -32,7 +32,7 @@ DecoratedSpinBox {
         }
     }
 
-    readOnly: target && target.readOnly
+    readOnly: target && target.readOnly !== undefined && target.readOnly
     editable: true
     from: validator.bottom
     to: validator.top

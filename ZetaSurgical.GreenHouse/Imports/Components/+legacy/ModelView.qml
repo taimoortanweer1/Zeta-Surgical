@@ -71,8 +71,10 @@ Item {
         highlightMoveDuration: root.highlightMoveDuration
 
         function moveToCurrentDelegate() {
-            if(root.trackCurrentDelegate)
-                lv.positionViewAtIndex(Math.max(0, currentIndex), ListView.Contain)
+            if (root.trackCurrentDelegate) {
+                var positionMode  = preferredHighlightEnd > preferredHighlightBegin ? ListView.SnapPosition : ListView.Contain;
+                lv.positionViewAtIndex(Math.max(0, currentIndex), positionMode)
+            }
         }
         onContentWidthChanged: moveToCurrentDelegate()
         onContentHeightChanged: moveToCurrentDelegate()

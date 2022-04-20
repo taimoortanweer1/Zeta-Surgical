@@ -7,7 +7,11 @@
     "defaultTheme": "DefaultTheme",
     "extraData": {
         "ImportTimeStamp": "2022-04-19T21:24:08Z",
-        "ImportUrl": "https://www.figma.com/file/kKItBBA5TYuCVGxWbPVftH"
+        "ImportUrl": "https://www.figma.com/file/kKItBBA5TYuCVGxWbPVftH",
+        "Player Backend Address": "localhost",
+        "Player Backend Port": 26187,
+        "Player Simulator Port": 26186,
+        "saveImportHistory": false
     },
     "interfaceIdRangeStart": 0,
     "interfacesFile": "interfaces",
@@ -24,7 +28,7 @@
     "transitionsFile": "transitionGroups",
     "versionData": {
         "major": 1,
-        "minor": 6,
-        "patch": 15
+        "minor": 7,
+        "patch": 4
     }
 }

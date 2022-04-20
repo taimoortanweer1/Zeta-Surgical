@@ -1,5 +1,4 @@
-#ifndef APPCOMMANDLINEPARSER_H
-#define APPCOMMANDLINEPARSER_H
+#pragma once
 
 #include "appcore_global.h"
 #include <QString>
@@ -66,12 +65,6 @@ public:
     static quint16 simulatorPort();
 
     ///
-    /// \brief simulatorUrl used to get a string containing the url used to connect to a simulator
-    /// instance \return
-    ///
-    static QString simulatorUrl();
-
-    ///
     /// \brief remoteUI used to determine if the application should connect to a remote UI
     /// \return
     ///
@@ -90,5 +83,3 @@ private:
 
     static bool s_remoteUI;
 };
-
-#endif // APPCOMMANDLINEPARSER_H

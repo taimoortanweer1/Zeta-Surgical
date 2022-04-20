@@ -32,12 +32,12 @@
             },
             {
                 "name": "invalidCredentialsEntered",
-                "preview": null,
+                "preview": false,
                 "type": "Bool"
             },
             {
                 "name": "passwordIsVisible",
-                "preview": null,
+                "preview": false,
                 "type": "Bool"
             },
             {
@@ -47,7 +47,7 @@
             },
             {
                 "name": "loginDataEntered",
-                "preview": null,
+                "preview": false,
                 "readonly": true,
                 "type": "Bool"
             },
@@ -59,13 +59,13 @@
             },
             {
                 "name": "usernameEntered",
-                "preview": null,
+                "preview": false,
                 "readonly": true,
                 "type": "Bool"
             },
             {
                 "name": "passwordEntered",
-                "preview": null,
+                "preview": false,
                 "readonly": true,
                 "type": "Bool"
             }

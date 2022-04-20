@@ -1,5 +1,4 @@
 {
-    "base": "Displayable",
     "name": "Keyboard_passThroughIFace",
     "signals": {
         "fi_CapsLock__onEvent__clicked": {

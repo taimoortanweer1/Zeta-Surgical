@@ -1,5 +1,4 @@
 {
-    "base": "Displayable",
     "name": "MainPanel_Shared0IFace",
     "targetFile": "MainPanel_Shared0IFace.ghli"
 }

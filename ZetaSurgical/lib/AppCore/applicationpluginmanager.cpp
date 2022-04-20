@@ -9,11 +9,6 @@
 #include <QFileInfo>
 #include <QJsonDocument>
 
-struct AppCoreQRCInit {
-    AppCoreQRCInit() { Q_INIT_RESOURCE(imports); }
-};
-static AppCoreQRCInit init;
-
 namespace {
 const QString WHITE_LIST_TAG = QStringLiteral("WhiteList");
 const QString BLACK_LIST_TAG = QStringLiteral("BlackList");

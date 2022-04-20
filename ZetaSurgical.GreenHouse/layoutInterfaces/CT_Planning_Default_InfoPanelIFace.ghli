@@ -1,5 +1,4 @@
 {
-    "base": "Displayable",
     "name": "CT_Planning_Default_InfoPanelIFace",
     "signals": {
         "fi_ModifyInstrumentDelegate__onEvent__fi_Buttons_TextLeftAligned_clicked": {

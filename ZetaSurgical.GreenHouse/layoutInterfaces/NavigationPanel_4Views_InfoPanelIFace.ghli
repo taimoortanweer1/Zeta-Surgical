@@ -1,5 +1,4 @@
 {
-    "base": "Displayable",
     "name": "NavigationPanel_4Views_InfoPanelIFace",
     "signals": {
         "fi_target2__onEvent__clicked": {

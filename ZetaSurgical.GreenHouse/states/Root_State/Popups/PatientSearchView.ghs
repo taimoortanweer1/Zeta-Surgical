@@ -22,9 +22,6 @@
         "FIGMA": "kKItBBA5TYuCVGxWbPVftH",
         "orderValue": 1
     },
-    "height": 0,
-    "posX": 0,
-    "posY": 0,
     "properties": {
         "childViewType": "ChildStateView",
         "initial": false,
@@ -37,6 +34,5 @@
     },
     "targetFile": "PatientSearchView.ghs",
     "template": "ItemState",
-    "uuid": "{91e69cdb-f465-47bf-91ad-304e38a85216}",
-    "width": 0
+    "uuid": "{91e69cdb-f465-47bf-91ad-304e38a85216}"
 }

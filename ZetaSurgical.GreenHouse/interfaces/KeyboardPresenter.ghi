@@ -4,13 +4,34 @@
         {
             "name": "ControlButtons",
             "value": [
-                "Backspace",
-                "Tabulation",
-                "Copy",
-                "Paste",
-                "LeftArrow",
-                "RightArrow",
-                "Enter"
+                {
+                    "name": "Backspace",
+                    "value": 0
+                },
+                {
+                    "name": "Tabulation",
+                    "value": 1
+                },
+                {
+                    "name": "Copy",
+                    "value": 2
+                },
+                {
+                    "name": "Paste",
+                    "value": 3
+                },
+                {
+                    "name": "LeftArrow",
+                    "value": 4
+                },
+                {
+                    "name": "RightArrow",
+                    "value": 5
+                },
+                {
+                    "name": "Enter",
+                    "value": 6
+                }
             ]
         }
     ],

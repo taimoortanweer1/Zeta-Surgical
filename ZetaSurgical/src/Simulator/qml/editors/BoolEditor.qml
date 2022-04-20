@@ -21,12 +21,11 @@ DecoratedSwitch {
     onCheckedChanged: {
         if (target && checked !== target.value) {
             target.value = checked
-            Simulator.objectTriggered(target)
         }
     }
 
     onClicked: root.forceActiveFocus()
-    enabled: target && !target.readOnly
+    enabled: target && target.readOnly !== undefined  && !target.readOnly
 
     Connections {
         target: root.target

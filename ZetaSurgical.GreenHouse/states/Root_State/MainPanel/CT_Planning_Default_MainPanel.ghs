@@ -22,9 +22,6 @@
         "FIGMA": "kKItBBA5TYuCVGxWbPVftH",
         "orderValue": 1
     },
-    "height": 0,
-    "posX": 0,
-    "posY": 0,
     "properties": {
         "childViewType": "ChildStateView",
         "initial": false,
@@ -36,6 +33,5 @@
         "preloadUI": false
     },
     "targetFile": "CT_Planning_Default_MainPanel.ghs",
-    "template": "ItemState",
-    "width": 0
+    "template": "ItemState"
 }

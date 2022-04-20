@@ -42,7 +42,6 @@ DecoratedButton {
                 onClicked: {
                     root.model.setModelJsonData(jsonDataEditor.text)
                     jsonDataEditor.text = root.model.modelJsonData
-                    Simulator.objectTriggered(root.target)
                 }
             }
 
@@ -58,7 +57,6 @@ DecoratedButton {
                     }
                     root.model.appendRow(d)
                     jsonDataEditor.text = root.model.modelJsonData
-                    Simulator.objectTriggered(root.target)
                 }
             }
 
@@ -75,7 +73,7 @@ DecoratedButton {
             anchors.fill: parent
 
             jsonHighlighter: true
-            readOnly: root.target && root.target.readOnly
+            readOnly: root.target && root.target.readOnly !== undefined  && root.target.readOnly
         }
     }
 }

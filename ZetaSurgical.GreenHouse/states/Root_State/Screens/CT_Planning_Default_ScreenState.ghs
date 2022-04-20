@@ -23,9 +23,6 @@
         "ScreenState": true,
         "orderValue": 1
     },
-    "height": 0,
-    "posX": 0,
-    "posY": 0,
     "properties": {
         "EmptyState": true,
         "childViewType": "ChildStateView",
@@ -37,6 +34,5 @@
     },
     "targetFile": "CT_Planning_Default_ScreenState.ghs",
     "template": "State",
-    "uuid": "{aa20eca0-9995-4ab3-903c-2add4019ebfc}",
-    "width": 0
+    "uuid": "{aa20eca0-9995-4ab3-903c-2add4019ebfc}"
 }

@@ -14,6 +14,8 @@ Item {
     property Item dropDownItem: null
 
     function _topLevelParent(itemParent) {
+        if (GHRootItem)
+            return GHRootItem;
         if (Window.contentItem)
             return Window.contentItem;
         var topLevelParent = itemParent;
@@ -43,8 +45,25 @@ Item {
 
             var topLevelParent = root._topLevelParent(root.parent);
             var minRequiredHeight = root.delegateHeight + root.dropDownItem.anchors.topMargin;
-            var availableExtraSpace = Math.max(0, topLevelParent.height - root.mapToItem(topLevelParent, 0, 0).y
-                                               - minRequiredHeight);
+            var mapped = root.mapToItem(topLevelParent, 0, 0);
+            var relativeCoordinate;
+            switch (topLevelParent.rotation) {
+            case 90:
+                relativeCoordinate = mapped.x;
+                break;
+            case -90:
+                relativeCoordinate = topLevelParent.width - mapped.x;
+                break;
+            case 180:
+            case -180:
+                relativeCoordinate = topLevelParent.height - mapped.y;
+                break;
+            case 0:
+            default:
+                relativeCoordinate = mapped.y;
+                break;
+            }
+            var availableExtraSpace = Math.max(0, topLevelParent.height - relativeCoordinate - minRequiredHeight);
 
             // NOTE: Calculating the maximum allowed height that also ensures no delegates get cutoff
             var maxAllowedHeight = minRequiredHeight + (root.delegateHeight

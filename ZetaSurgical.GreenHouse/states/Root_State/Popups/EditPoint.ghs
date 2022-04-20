@@ -22,9 +22,6 @@
         "FIGMA": "kKItBBA5TYuCVGxWbPVftH",
         "orderValue": 3
     },
-    "height": 0,
-    "posX": 0,
-    "posY": 0,
     "properties": {
         "childViewType": "ChildStateView",
         "initial": false,
@@ -37,6 +34,5 @@
     },
     "targetFile": "EditPoint.ghs",
     "template": "ItemState",
-    "uuid": "{f2bd5dc2-7f80-425b-9b8d-0f9a055ea19e}",
-    "width": 0
+    "uuid": "{f2bd5dc2-7f80-425b-9b8d-0f9a055ea19e}"
 }

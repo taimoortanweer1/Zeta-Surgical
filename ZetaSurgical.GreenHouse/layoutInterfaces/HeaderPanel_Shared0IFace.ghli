@@ -1,5 +1,4 @@
 {
-    "base": "Displayable",
     "name": "HeaderPanel_Shared0IFace",
     "signals": {
         "fi_ctHeader__onEvent__fi_cdUsb_clicked": {

@@ -22,9 +22,6 @@
         "FIGMA": "kKItBBA5TYuCVGxWbPVftH",
         "orderValue": 4
     },
-    "height": 0,
-    "posX": 0,
-    "posY": 0,
     "properties": {
         "childViewType": "ChildStateView",
         "initial": false,
@@ -37,6 +34,5 @@
     },
     "targetFile": "LoginView.ghs",
     "template": "ItemState",
-    "uuid": "{ad12991f-048a-4576-ba3f-068ca54bba28}",
-    "width": 0
+    "uuid": "{ad12991f-048a-4576-ba3f-068ca54bba28}"
 }

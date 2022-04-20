@@ -1,5 +1,4 @@
-#ifndef APPLICATIONPLUGINMANAGER_H
-#define APPLICATIONPLUGINMANAGER_H
+#pragma once
 
 #include "appcore_global.h"
 #include <QObject>
@@ -26,8 +25,7 @@ public:
     /// \param pluginPath the path to the directory containing application plugins
     /// \param parent an optional parent for the new instance
     ///
-    explicit ApplicationPluginManager(const QString &configFile, const QString &pluginPath,
-                                      QObject *parent = nullptr);
+    explicit ApplicationPluginManager(const QString &configFile, const QString &pluginPath, QObject *parent = nullptr);
     ~ApplicationPluginManager() override;
 
     ///
@@ -40,5 +38,3 @@ public:
 private:
     QList<QPluginLoader *> m_plugins;
 };
-
-#endif // APPLICATIONPLUGINMANAGER_H

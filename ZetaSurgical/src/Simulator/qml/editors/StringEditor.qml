@@ -25,7 +25,7 @@ DecoratedTextField {
         }
     }
 
-    readOnly: target && target.readOnly
+    readOnly: target && target.readOnly !== undefined  && target.readOnly
 
     onTargetChanged: {
         if (target)
@@ -37,7 +37,6 @@ DecoratedTextField {
             _localValueChange = true
             target.value = text
             _localValueChange = false
-            Simulator.objectTriggered(target)
         }
     }
 }

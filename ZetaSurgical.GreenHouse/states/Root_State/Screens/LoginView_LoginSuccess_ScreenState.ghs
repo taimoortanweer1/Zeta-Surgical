@@ -23,9 +23,6 @@
         "ScreenState": true,
         "orderValue": 4
     },
-    "height": 0,
-    "posX": 0,
-    "posY": 0,
     "properties": {
         "EmptyState": true,
         "childViewType": "ChildStateView",
@@ -37,6 +34,5 @@
     },
     "targetFile": "LoginView_LoginSuccess_ScreenState.ghs",
     "template": "State",
-    "uuid": "{a9cad2fb-f663-4644-9094-dd0f79d88786}",
-    "width": 0
+    "uuid": "{a9cad2fb-f663-4644-9094-dd0f79d88786}"
 }

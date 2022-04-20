@@ -1,6 +1,4 @@
-#ifndef APPCORE_GLOBAL_H
-#define APPCORE_GLOBAL_H
-
+#pragma once
 #include <QtCore/qglobal.h>
 
 #if defined(APPCORE_LIBRARY)
@@ -8,5 +6,3 @@
 #else
 #define APPCORE_EXPORT Q_DECL_IMPORT
 #endif
-
-#endif // APPCORE_GLOBAL_H

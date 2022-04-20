@@ -1,5 +1,5 @@
 import QtQuick 2.14
-import Qt.labs.platform 1.1 as QQD
+import QtQuick.Dialogs as QQD
 
 QQD.FileDialog {
     id: root

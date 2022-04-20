@@ -29,54 +29,51 @@
 #include "simulator_version.h"
 
 namespace {
-const QString INTERACTION_TYPE = QStringLiteral("type");
-const QString SIGNAL_INTERACTION_TYPE = QStringLiteral("signal_call");
-const QString PROPERTY_INTERACTION_TYPE = QStringLiteral("property_change");
-const QString DELAY_INTERACTION_TYPE = QStringLiteral("delay");
-const QString SCREENSHOT_INTERACTION_TYPE = QStringLiteral("screenshot");
-const QString UISTRINGREPORT_INTERACTION_TYPE = QStringLiteral("uistringreport");
+const QLatin1String INTERACTION_TYPE = QLatin1String("type");
+const QLatin1String SIGNAL_INTERACTION_TYPE = QLatin1String("signal_call");
+const QLatin1String PROPERTY_INTERACTION_TYPE = QLatin1String("property_change");
+const QLatin1String DELAY_INTERACTION_TYPE = QLatin1String("delay");
+const QLatin1String SCREENSHOT_INTERACTION_TYPE = QLatin1String("screenshot");
+const QLatin1String UISTRINGREPORT_INTERACTION_TYPE = QLatin1String("uistringreport");
 
-const QString INTERACTION_INTERFACE = QStringLiteral("iface");
-const QString INTERACTION_TARGET = QStringLiteral("target");
-const QString INTERACTION_DATA = QStringLiteral("data");
+const QLatin1String INTERACTION_INTERFACE = QLatin1String("iface");
+const QLatin1String INTERACTION_TARGET = QLatin1String("target");
+const QLatin1String INTERACTION_DATA = QLatin1String("data");
 
-const QString OBJECT_NAME = QStringLiteral("objectName");
-const QString OBJECT_FAVORITES = QStringLiteral("favorites");
-const QString MOUSE_EVENT_TAG = QStringLiteral("MouseEvent");
-const QString TOUCH_EVENT_TAG = QStringLiteral("TouchEvent");
+const QLatin1String OBJECT_NAME = QLatin1String("objectName");
+const QLatin1String OBJECT_FAVORITES = QLatin1String("favorites");
+const QLatin1String MOUSE_EVENT_TAG = QLatin1String("MouseEvent");
+const QLatin1String TOUCH_EVENT_TAG = QLatin1String("TouchEvent");
 
-const QString LOCAL_X_TAG = QStringLiteral("LocalX");
-const QString LOCAL_Y_TAG = QStringLiteral("LocalY");
-const QString WINDOW_X_TAG = QStringLiteral("WindowX");
-const QString WINDOW_Y_TAG = QStringLiteral("WindowY");
-const QString SCREEN_X_TAG = QStringLiteral("GlobalX");
-const QString SCREEN_Y_TAG = QStringLiteral("GlobalY");
+const QLatin1String LOCAL_X_TAG = QLatin1String("LocalX");
+const QLatin1String LOCAL_Y_TAG = QLatin1String("LocalY");
+const QLatin1String WINDOW_X_TAG = QLatin1String("WindowX");
+const QLatin1String WINDOW_Y_TAG = QLatin1String("WindowY");
 
-const QString MOUSE_BUTTON_TAG = QStringLiteral("MouseButton");
-const QString MOUSE_BUTTONS_TAG = QStringLiteral("MouseButtons");
-const QString KEYBOARD_MODIFIERS_TAG = QStringLiteral("KeyboardModifiers");
+const QLatin1String MOUSE_BUTTON_TAG = QLatin1String("MouseButton");
+const QLatin1String MOUSE_BUTTONS_TAG = QLatin1String("MouseButtons");
 
-const QString SCREEN_CAPTURE_RESPONSE_TAG = QStringLiteral("ScreenCaptureResponse");
-const QString SCREEN_CAPTURE_TAG = QStringLiteral("ScreenCapture");
-const QString SCREEN_CAPTURE_TRANSFER = QStringLiteral("Transfer");
+const QLatin1String SCREEN_CAPTURE_RESPONSE_TAG = QLatin1String("ScreenCaptureResponse");
+const QLatin1String SCREEN_CAPTURE_TAG = QLatin1String("ScreenCapture");
+const QLatin1String SCREEN_CAPTURE_TRANSFER = QLatin1String("Transfer");
 
-const QString ACTIVE_UI_TEXT_TAG = QStringLiteral("ActiveUIText");
-const QString WIDTH_TAG = QStringLiteral("width");
-const QString HEIGHT_TAG = QStringLiteral("height");
-const QString CONTENT_WIDTH_TAG = QStringLiteral("contentWidth");
-const QString CONTENT_HEIGHT_TAG = QStringLiteral("contentHeight");
-const QString TEXT_TAG = QStringLiteral("text");
+const QLatin1String ACTIVE_UI_TEXT_TAG = QLatin1String("ActiveUIText");
+const QLatin1String WIDTH_TAG = QLatin1String("width");
+const QLatin1String HEIGHT_TAG = QLatin1String("height");
+const QLatin1String CONTENT_WIDTH_TAG = QLatin1String("contentWidth");
+const QLatin1String CONTENT_HEIGHT_TAG = QLatin1String("contentHeight");
+const QLatin1String TEXT_TAG = QLatin1String("text");
 
-const QString UI_TEXT_REGISTRY_RESPONSE_TAG = QStringLiteral("UITextRegistryResponse");
-const QString UI_TEXT_REGISTRY_TAG = QStringLiteral("UITextRegistry");
-const QString ACTIVE_STATE_TREE_TAG = QStringLiteral("ActiveStateTree");
+const QLatin1String UI_TEXT_REGISTRY_RESPONSE_TAG = QLatin1String("UITextRegistryResponse");
+const QLatin1String UI_TEXT_REGISTRY_TAG = QLatin1String("UITextRegistry");
+const QLatin1String ACTIVE_STATE_TREE_TAG = QLatin1String("ActiveStateTree");
 
-const QString SERVICE_ID = QStringLiteral("%1 Simulator Server");
-const QString SERVICE_TAG = QStringLiteral("ServiceName");
+const QLatin1String SERVICE_ID = QLatin1String("%1 Simulator Server");
+const QLatin1String SERVICE_TAG = QLatin1String("ServiceName");
 
-const QString KNOWN_PROJECTS = QStringLiteral("KNOWN_PROJECTS");
-const QString PROJEC_FILE = QStringLiteral("file");
-const QString PROJEC_NAME = QStringLiteral("name");
+const QLatin1String KNOWN_PROJECTS = QLatin1String("KNOWN_PROJECTS");
+const QLatin1String PROJEC_FILE = QLatin1String("file");
+const QLatin1String PROJEC_NAME = QLatin1String("name");
 
 QString sessionStepType(const QJsonObject &step)
 {
@@ -178,11 +175,11 @@ QString sessionStepLabel(const QJsonObject &step)
             if (type.compare(SIGNAL_INTERACTION_TYPE) == 0) {
                 const QJsonArray parameters = data.toArray();
                 QStringList args;
-                for (const auto parameter : parameters)
+                for (const auto &parameter : parameters)
                     args.append(parameter.toString());
                 return QObject::tr("Event: %1.%2(%3)").arg(iface, target, args.join(QStringLiteral(", ")));
             } else if (type.compare(PROPERTY_INTERACTION_TYPE) == 0) {
-                return QObject::tr("Set: %1.%2 to %3").arg(iface, target, data.toString());
+                return QObject::tr("Set: %1.%2 to %3").arg(iface, target, data.toVariant().toString());
             }
         }
     }
@@ -372,7 +369,7 @@ QString ContextObjectEndpointWrapper::arguments() const
 {
     QStringList args;
     for (auto obj : m_arguments) {
-        QString signature = QStringLiteral("\"{name}\": {type}");
+        QString signature = QLatin1String("\"{name}\": {type}");
         signature.replace(QStringLiteral("{name}"), obj->name());
         signature.replace(QStringLiteral("{type}"), obj->typeName());
         args.append(signature);
@@ -380,21 +377,42 @@ QString ContextObjectEndpointWrapper::arguments() const
     return args.join(QStringLiteral(", "));
 }
 
-void ContextObjectEndpointWrapper::call(const QVariantMap &args) const
+QList<QObject *> ContextObjectEndpointWrapper::argumentObjects() const
+{
+    QList<QObject *> arguments;
+    for (ArgumentWrapper *arg : m_arguments)
+        arguments.append(arg);
+    return arguments;
+}
+
+void ContextObjectEndpointWrapper::call(const QVariantMap &args, bool silent)
 {
     if (m_handler.isNull())
         return;
-    QMetaObject::invokeMethod(m_handler.data(), "execute", Qt::DirectConnection, Q_ARG(QVariant, args));
+    QVariantMap executionArgs;
+    QVariantList argList;
+    for (ArgumentWrapper *arg : m_arguments) {
+        auto it = args.constFind(arg->name());
+        const QVariant value = it != args.constEnd() ? (*it) : arg->value();
+        executionArgs.insert(arg->name(), value);
+        argList << value;
+    }
+    QMetaObject::invokeMethod(m_handler.data(), "execute", Qt::DirectConnection, Q_ARG(QVariant, executionArgs));
+    if (!silent)
+        emit invoked(args);
 }
 
-void ContextObjectEndpointWrapper::callOverRPC(const QVariantMap &argMap) const
+void ContextObjectEndpointWrapper::callOverRPC(const QVariantMap &argMap)
 {
-    QVariantList args;
-    for (ArgumentWrapper *arg : m_arguments) {
-        auto it = argMap.constFind(arg->name());
-        args.append(it != argMap.constEnd() ? (*it) : arg->value());
+    if (m_callFunc) {
+        QVariantList args;
+        for (ArgumentWrapper *arg : m_arguments) {
+            auto it = argMap.constFind(arg->name());
+            args.append(it != argMap.constEnd() ? (*it) : arg->value());
+        }
+        m_callFunc(m_ctx, args);
     }
-    m_callFunc(m_ctx, args);
+    emit invoked(argMap);
 }
 
 ContextObjectPropertyWrapper::ContextObjectPropertyWrapper(const QString &name, int type, GreenHouse::Context *ctx,
@@ -422,6 +440,13 @@ ContextObjectWrapper *ContextObjectPropertyWrapper::contextObjectWrapper() const
     return m_contextObjectWrapper;
 }
 
+void ContextObjectPropertyWrapper::setValue(const QVariant &val)
+{
+    if (m_writeFunc)
+        m_writeFunc(m_ctx, val);
+    emit valueChanged();
+}
+
 void ContextObjectPropertyWrapper::setIsFavorite(bool isFavorite)
 {
     if (m_isFavorite != isFavorite) {
@@ -431,10 +456,11 @@ void ContextObjectPropertyWrapper::setIsFavorite(bool isFavorite)
 }
 
 ContextObjectWrapper::ContextObjectWrapper(const QString &name, GreenHouse::Context *ctx, ObjFunc objFunc,
-                                           QObject *parent)
+                                           Simulator *parent)
     : ScriptableObject(QStringLiteral("setup"), name, parent)
     , m_name(name)
     , m_ctx(ctx)
+    , m_simulator(parent)
     , m_objFunc(objFunc)
     , m_favoritesOnly(false)
 {
@@ -558,6 +584,36 @@ QObject *ContextObjectWrapper::object() const
     return m_objFunc(m_ctx);
 }
 
+void ContextObjectWrapper::registerMethod(ContextObjectEndpointWrapper *endpoint)
+{
+    if (!endpoint)
+        return;
+    m_objectMethods.insert(endpoint->name(), endpoint);
+}
+
+void ContextObjectWrapper::registerEvent(ContextObjectEndpointWrapper *endpoint)
+{
+    if (!endpoint)
+        return;
+    m_objectEvents.insert(endpoint->name(), endpoint);
+    connect(endpoint, &ContextObjectEndpointWrapper::invoked, this,
+            [this, endpoint]() -> void { m_simulator->objectTriggered(endpoint); });
+}
+
+void ContextObjectWrapper::registerProperty(ContextObjectPropertyWrapper *endpoint)
+{
+    if (!endpoint)
+        return;
+    m_objectProperties.insert(endpoint->name(), endpoint);
+    connect(endpoint, &ContextObjectPropertyWrapper::valueChanged, this,
+            [this, endpoint]() -> void { m_simulator->objectTriggered(endpoint); });
+}
+
+void ContextObjectWrapper::registerEnum(const QString &enumName, const QMap<QString, int> &enumValues)
+{
+    m_enumValueMap.insert(enumName, enumValues);
+}
+
 ScriptAction::ScriptAction(const QString &scriptName, const QString &subFolder, QObject *parent)
     : ScriptableObject(scriptName,
                        subFolder.isEmpty() ? QStringLiteral("actions") : QStringLiteral("actions/") + subFolder, parent)
@@ -576,7 +632,7 @@ void ScriptAction::trigger()
 
 bool ScriptAction::inPath(const QString &path) const
 {
-    QString testStr = QStringLiteral("actions%1/%2.js").arg(path, name());
+    QString testStr = QLatin1String("actions%1/%2.js").arg(path, name());
     bool res = m_handlerCodeFileName.endsWith(testStr);
     return res;
 }
@@ -716,13 +772,13 @@ void ActiveLayerModel::reset(const QJsonObject &uiTree)
         QString layerName;
         QJsonObject data;
         if (it.key().compare(QStringLiteral("MasterSurface")) == 0) {
-            layerName = QStringLiteral("Screens");
+            layerName = QLatin1String("Screens");
             data = it.value().toObject();
         } else if (it.key().compare(QStringLiteral("PopupLayer")) == 0) {
-            layerName = QStringLiteral("Popups");
+            layerName = QLatin1String("Popups");
             data = it.value().toObject();
         } else if (it.key().compare(QStringLiteral("MenuLayer")) == 0) {
-            layerName = QStringLiteral("Menus");
+            layerName = QLatin1String("Menus");
             data = it.value().toObject();
         } else {
             layerName = it.key();
@@ -918,7 +974,7 @@ Simulator::Simulator(GreenHouse::Context *ctx, QObject *parent)
     fs->setExtraSelectors(QStringList { QStringLiteral("qt6") });
 #endif
 
-    const QString actionScriptFolder = QStringLiteral("simScripts/actions");
+    const QString actionScriptFolder = QLatin1String("simScripts/actions");
     if (!QFile::exists(actionScriptFolder)) {
         QDir dir;
         if (!dir.mkpath(actionScriptFolder))
@@ -1251,6 +1307,14 @@ void Simulator::setFavoritesOnly(bool favoritesOnly)
     }
 }
 
+void Simulator::setGeneric(bool generic)
+{
+    if (m_generic != generic) {
+        m_generic = generic;
+        emit genericChanged();
+    }
+}
+
 bool Simulator::sessionRecordingActive() const
 {
     return m_sessionRecordingActive;
@@ -1480,7 +1544,7 @@ void Simulator::captureScreen(const QString &saveLocation)
         if (saveLocation.isEmpty() || saveLocation.compare(SCREEN_CAPTURE_TRANSFER) == 0) {
             if (sessionReplayActive() && !m_reportDirectory.isEmpty()) {
                 QDir reportDir(m_reportDirectory);
-                m_screenCaptureSaveLocation = QStringLiteral("%2/%1.png")
+                m_screenCaptureSaveLocation = QLatin1String("%2/%1.png")
                                                       .arg(reportDir.entryList({ QStringLiteral("*.png") }).length())
                                                       .arg(m_reportDirectory);
             } else if (m_pendingScreenshots.isEmpty()) {
@@ -1594,7 +1658,7 @@ bool Simulator::processMessagePayload(const QJsonObject &data)
 
 void Simulator::init(const QUrl &mainQml)
 {
-    installFonts(QDir(QStringLiteral(":/assets/fonts/Lato")));
+    installFonts(QDir(QStringLiteral(":/assets/fonts/Roboto")));
     installFonts(QDir(QStringLiteral(":/assets/fonts/Inconsolata")));
     qmlRegisterType<ScriptSyntaxHighlighter>("GreenHouse.Simulator", 1, 0, "ScriptSyntaxHighlighter");
     qmlRegisterUncreatableType<QFileSystemModel>("GreenHouse.Simulator", 1, 0, "SimFileSystemModel",
@@ -1652,6 +1716,13 @@ QString Simulator::uiStringReport(const QJsonObject &registry) const
     return QLatin1String(QJsonDocument(registry).toJson());
 }
 
+void Simulator::setStartServerFunc(StartServerFunc func)
+{
+    m_startServerFunc = func;
+    m_backendServerRunning = false;
+    emit backendServerRunningChanged();
+}
+
 void Simulator::initQml(QQmlApplicationEngine *engine)
 {
     for (auto obj : qAsConst(m_objects))
@@ -1662,7 +1733,7 @@ void Simulator::replaySession(bool reportSession)
 {
     setSessionReplayActive(!m_session->isEmpty());
     if (reportSession) {
-        m_reportDirectory = QStringLiteral("ReplayReport_%1")
+        m_reportDirectory = QLatin1String("ReplayReport_%1")
                                     .arg(QDateTime::currentDateTime().toString(QStringLiteral("dd_MM_yyyy_hh_mm_ss")));
         if (!QFile::exists(m_reportDirectory)) {
             QDir dir;
@@ -1751,6 +1822,15 @@ void Simulator::replaySession(bool reportSession)
     m_reportDirectory.clear();
     m_session->restoreAfterReplay();
     qApp->processEvents();
+}
+
+void Simulator::startBackendServer(int port)
+{
+    if (m_startServerFunc) {
+        m_startServerFunc(port);
+        m_backendServerRunning = true;
+        emit backendServerRunningChanged();
+    }
 }
 
 void Simulator::readActionScripts(const QString &actionScriptFolder)

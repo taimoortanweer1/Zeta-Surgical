@@ -53,6 +53,7 @@ DecoratedViewportBase {
         anchors.bottom: parent.bottom
         anchors.left: parent.left
         anchors.right: parent.right
+        anchors.bottomMargin: -1
 
         fillMode: Image.Tile
         visible: viewport.contentY + viewport.height !== viewport.contentHeight && viewport.height < viewport.contentHeight

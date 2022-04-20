@@ -32,7 +32,7 @@ DecoratedSpinBox {
         }
     }
 
-    readOnly: target && target.readOnly
+    readOnly: target && target.readOnly !== undefined && target.readOnly
     editable: true
     property real min: -999.0
     property real max: 999.0

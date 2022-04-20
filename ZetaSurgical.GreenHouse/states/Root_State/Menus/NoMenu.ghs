@@ -22,9 +22,6 @@
         "ReadOnly": true,
         "orderValue": 1
     },
-    "height": 0,
-    "posX": 0,
-    "posY": 0,
     "properties": {
         "EmptyState": true,
         "childViewType": "ChildStateView",
@@ -35,6 +32,5 @@
         "preloadUI": false
     },
     "targetFile": "NoMenu.ghs",
-    "template": "State",
-    "width": 0
+    "template": "State"
 }

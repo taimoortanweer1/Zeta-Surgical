@@ -1,5 +1,4 @@
 {
-    "base": "Displayable",
     "name": "Upload_SelectPatient_v01_MainPanelIFace",
     "signals": {
         "fi_DOB__onEvent__clicked": {

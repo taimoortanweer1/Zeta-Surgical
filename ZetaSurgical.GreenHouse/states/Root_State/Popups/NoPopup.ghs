@@ -22,9 +22,6 @@
         "ReadOnly": true,
         "orderValue": 1
     },
-    "height": 0,
-    "posX": 0,
-    "posY": 0,
     "properties": {
         "EmptyState": true,
         "childViewType": "ChildStateView",
@@ -36,6 +33,5 @@
     },
     "targetFile": "NoPopup.ghs",
     "template": "State",
-    "uuid": "{db0565ed-6106-4ced-888f-d22f1098b10a}",
-    "width": 0
+    "uuid": "{db0565ed-6106-4ced-888f-d22f1098b10a}"
 }

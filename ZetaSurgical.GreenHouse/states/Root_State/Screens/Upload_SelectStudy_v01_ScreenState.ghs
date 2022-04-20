@@ -23,9 +23,6 @@
         "ScreenState": true,
         "orderValue": 9
     },
-    "height": 0,
-    "posX": 0,
-    "posY": 0,
     "properties": {
         "EmptyState": true,
         "childViewType": "ChildStateView",
@@ -37,6 +34,5 @@
     },
     "targetFile": "Upload_SelectStudy_v01_ScreenState.ghs",
     "template": "State",
-    "uuid": "{849760be-d965-4a6c-b809-90fbaec9cfe8}",
-    "width": 0
+    "uuid": "{849760be-d965-4a6c-b809-90fbaec9cfe8}"
 }

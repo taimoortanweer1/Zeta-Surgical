@@ -61,14 +61,15 @@ FocusScope {
         id: flickable
 
         anchors.fill: parent
-        anchors.topMargin: 10
         anchors.leftMargin: 10 - flickable.scrollBarThickness
         anchors.rightMargin: 10 - flickable.scrollBarThickness
-        anchors.bottomMargin: 10
+        anchors.topMargin: 1
+        anchors.bottomMargin: 1
 
         contentWidth: width
         contentHeight: textArea.height + 10
         boundsBehavior: Flickable.StopAtBounds
+        clip: true
 
         // Open Flickable area hotspot
         // NOTE: Covers space between textArea and bottom of contentItem as well as space in margins of textArea

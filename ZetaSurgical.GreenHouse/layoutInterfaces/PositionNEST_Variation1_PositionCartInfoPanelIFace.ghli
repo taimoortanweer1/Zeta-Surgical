@@ -1,5 +1,4 @@
 {
-    "base": "Displayable",
     "name": "PositionNEST_Variation1_PositionCartInfoPanelIFace",
     "signals": {
         "fi_toggleRightButton__onEvent__toggled": {

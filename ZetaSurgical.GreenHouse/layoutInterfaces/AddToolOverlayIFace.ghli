@@ -1,5 +1,4 @@
 {
-    "base": "Displayable",
     "name": "AddToolOverlayIFace",
     "signals": {
         "fi_addToolButton__onEvent__clicked": {

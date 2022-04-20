@@ -23,9 +23,6 @@
         "ScreenState": true,
         "orderValue": 10
     },
-    "height": 0,
-    "posX": 0,
-    "posY": 0,
     "properties": {
         "EmptyState": true,
         "childViewType": "ChildStateView",
@@ -37,6 +34,5 @@
     },
     "targetFile": "NavigationPanel_4Views_ScreenState.ghs",
     "template": "State",
-    "uuid": "{3bfe1aaa-5a11-4b71-bfca-cbf528d2a1c5}",
-    "width": 0
+    "uuid": "{3bfe1aaa-5a11-4b71-bfca-cbf528d2a1c5}"
 }

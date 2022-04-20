@@ -59,7 +59,5 @@
         <file>imports/Themes/Theme.qml</file>
         <file>imports/Themes/qmldir</file>
         <file>qtquickcontrols2.conf</file>
-        <file>imports/Dialogs/+qt6/FileDialog.qml</file>
-        <file>imports/Dialogs/+qt6/FolderDialog.qml</file>
     </qresource>
 </RCC>

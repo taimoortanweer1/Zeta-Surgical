@@ -4,9 +4,11 @@
 #include <QCommandLineParser>
 #include <QProcess>
 
+#ifdef GREENHOUSE_GUI
 struct AppCoreQRCInit {
     AppCoreQRCInit() { Q_INIT_RESOURCE(imports); }
 };
+#endif // GREENHOUSE_GUI
 
 namespace {
 
@@ -47,7 +49,9 @@ bool AppCommandLineParser::s_remoteUI = false;
 
 AppCommandLineParser::AppCommandLineParser(const QStringList &args)
 {
+#ifdef GREENHOUSE_GUI
     static AppCoreQRCInit init;
+#endif // GREENHOUSE_GUI
 
 #ifdef Q_OS_WASM
     QStringList envList = QProcess::systemEnvironment();

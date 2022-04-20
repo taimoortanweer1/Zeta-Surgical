@@ -1,5 +1,4 @@
 {
-    "base": "Displayable",
     "name": "DeletePointConfirmationIFace",
     "signals": {
         "fi_no__onEvent__clicked": {
