@@ -1,0 +1,46 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 32,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 459,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "id": "fi_BottomLVArea",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 445
+        },
+        "visible": {
+            "bindingProp": "studyIsSelected",
+            "bindingSrc": "PatientsDatabase",
+            "name": "visible",
+            "type": "Bool",
+            "value": true
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 1256
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 32
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 459
+        }
+    },
+    "targetFile": "fi_BottomLVArea.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

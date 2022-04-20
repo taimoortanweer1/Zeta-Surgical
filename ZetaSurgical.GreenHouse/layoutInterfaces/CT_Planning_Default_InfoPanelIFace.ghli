@@ -8,6 +8,11 @@
                     "name": "PlanningPresenter_selectInstrumentAtIndex_index",
                     "preview": null,
                     "type": "Int"
+                },
+                {
+                    "name": "PlanningPresenter_selectInstrumentAtIndex_selectionMode",
+                    "preview": null,
+                    "type": "Int"
                 }
             ],
             "name": "fi_ModifyInstrumentDelegate__onEvent__fi_Buttons_TextLeftAligned_clicked"
@@ -32,6 +37,11 @@
             "arguments": [
                 {
                     "name": "PlanningPresenter_selectTargetAtIndex_index",
+                    "preview": null,
+                    "type": "Int"
+                },
+                {
+                    "name": "PlanningPresenter_selectTargetAtIndex_selectionMode",
                     "preview": null,
                     "type": "Int"
                 }

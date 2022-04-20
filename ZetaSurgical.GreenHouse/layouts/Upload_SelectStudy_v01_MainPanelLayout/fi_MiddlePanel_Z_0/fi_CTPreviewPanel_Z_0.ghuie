@@ -38,7 +38,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 4
+            "value": 3
         }
     },
     "targetFile": "fi_CTPreviewPanel_Z_0.ghuie",

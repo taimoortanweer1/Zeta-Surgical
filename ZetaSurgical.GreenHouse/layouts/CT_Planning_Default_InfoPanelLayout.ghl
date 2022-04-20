@@ -45,7 +45,7 @@
                     "signals": {
                         "fi_Buttons_TextLeftAligned_clicked": {
                             "name": "fi_Buttons_TextLeftAligned_clicked",
-                            "rawCode": "root.itemInterface.fi_target2Layout__onEvent__fi_Buttons_TextLeftAligned_clicked(index)\n"
+                            "rawCode": "root.itemInterface.fi_target2Layout__onEvent__fi_Buttons_TextLeftAligned_clicked(index, PlanningPresenter.SingleSelection)\n"
                         },
                         "fi_DeleteButton_clicked": {
                             "name": "fi_DeleteButton_clicked",
@@ -129,7 +129,7 @@
                     "signals": {
                         "fi_Buttons_TextLeftAligned_clicked": {
                             "name": "fi_Buttons_TextLeftAligned_clicked",
-                            "rawCode": "root.itemInterface.fi_ModifyInstrumentDelegate__onEvent__fi_Buttons_TextLeftAligned_clicked(index)\n"
+                            "rawCode": "root.itemInterface.fi_ModifyInstrumentDelegate__onEvent__fi_Buttons_TextLeftAligned_clicked(index, PlanningPresenter.SingleSelection)\n"
                         },
                         "fi_DeleteButton_clicked": {
                             "name": "fi_DeleteButton_clicked",

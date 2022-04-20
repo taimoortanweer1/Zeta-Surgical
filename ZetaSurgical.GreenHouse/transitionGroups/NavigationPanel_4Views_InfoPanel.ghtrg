@@ -1,0 +1,42 @@
+{
+    "source": "NavigationPanel_4Views_InfoPanel",
+    "targetFile": "NavigationPanel_4Views_InfoPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_target2__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PlanningPresenter, co) co->selectTargetAtIndex(args.at(0).toInt(), args.at(1).toInt());\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_tool1__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PlanningPresenter, co) co->selectInstrumentAtIndex(args.at(0).toInt(), args.at(1).toInt());\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        }
+    ]
+}

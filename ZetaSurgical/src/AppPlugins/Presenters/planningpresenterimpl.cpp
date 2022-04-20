@@ -43,23 +43,27 @@ void PlanningPresenterImpl::deleteTargetAtIndex(int index)
     });
 }
 
-void PlanningPresenterImpl::selectTargetAtIndex(int index)
+void PlanningPresenterImpl::selectTargetAtIndex(int index, int selectionMode)
 {
     if(index < 0 || index >= targetsList()->rowCount())
         return;
     auto entry = targetsList()->dataAt(index);
-    deselectAll(targetsList());
+    auto const mode = static_cast<SelectionMode>(selectionMode);
+    if(SelectionMode::SingleSelection == mode)
+        deselectAll(targetsList());
     auto const data = entry[QStringLiteral("selected")].toBool();
     entry[QStringLiteral("selected")] = !data;
     targetsList()->setRowData(index, entry);
 }
 
-void PlanningPresenterImpl::selectInstrumentAtIndex(int index)
+void PlanningPresenterImpl::selectInstrumentAtIndex(int index, int selectionMode)
 {
     if(index < 0 || index >= targetsList()->rowCount())
         return;
     auto entry = instrumentsList()->dataAt(index);
-    deselectAll(instrumentsList());
+    auto const mode = static_cast<SelectionMode>(selectionMode);
+    if(SelectionMode::SingleSelection == mode)
+        deselectAll(instrumentsList());
     auto const data = entry[QStringLiteral("selected")].toBool();
     entry[QStringLiteral("selected")] = !data;
     instrumentsList()->setRowData(index, entry);

@@ -51,7 +51,7 @@
             "template": "ItemSignalTransition",
             "triggeredActions": [
                 {
-                    "rawCode": "{\nCONTEXT_OBJECT(PlanningPresenter, co) co->selectTargetAtIndex(args.at(0).toInt());\n}\n",
+                    "rawCode": "{\nCONTEXT_OBJECT(PlanningPresenter, co) co->selectTargetAtIndex(args.at(0).toInt(), args.at(1).toInt());\n}\n",
                     "type": "RawCode"
                 }
             ]
@@ -105,7 +105,7 @@
             "template": "ItemSignalTransition",
             "triggeredActions": [
                 {
-                    "rawCode": "{\nCONTEXT_OBJECT(PlanningPresenter, co) co->selectInstrumentAtIndex(args.at(0).toInt());\n}\n",
+                    "rawCode": "{\nCONTEXT_OBJECT(PlanningPresenter, co) co->selectInstrumentAtIndex(args.at(0).toInt(), args.at(1).toInt());\n}\n",
                     "type": "RawCode"
                 }
             ]

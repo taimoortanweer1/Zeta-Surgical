@@ -1,0 +1,19 @@
+{
+    "source": "Screens",
+    "target": "NavigationPanel_4Views_ScreenState",
+    "targetFile": "Screens_NavigationPanel_4Views_ScreenState.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceScreensMoveToNavigationPanel_4Views_ScreenState"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{5f7a7b7c-59d7-4087-a1e3-16405e8bb52c}"
+}

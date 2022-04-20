@@ -1,5 +1,8 @@
 {
     "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "560:2720"
+    },
     "id": "fi_usernameHighlighted",
     "properties": {
         "input_inputText": {

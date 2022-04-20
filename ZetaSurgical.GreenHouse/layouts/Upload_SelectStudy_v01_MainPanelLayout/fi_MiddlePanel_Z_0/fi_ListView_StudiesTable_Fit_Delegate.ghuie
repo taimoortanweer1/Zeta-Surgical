@@ -60,7 +60,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 2
+            "value": 1
         }
     },
     "targetFile": "fi_ListView_StudiesTable_Fit_Delegate.ghuie",

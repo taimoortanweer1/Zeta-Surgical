@@ -10,6 +10,9 @@
         "anchorValue": "Top"
     },
     "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "536:2751"
+    },
     "id": "fi_renameButton",
     "properties": {
         "x": {

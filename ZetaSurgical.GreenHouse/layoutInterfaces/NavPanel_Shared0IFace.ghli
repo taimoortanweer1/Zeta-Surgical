@@ -4,6 +4,9 @@
     "signals": {
         "back": {
             "name": "back"
+        },
+        "fi_navBar__onEvent__fi_Button_Navigation_Navigation_clicked": {
+            "name": "fi_navBar__onEvent__fi_Button_Navigation_Navigation_clicked"
         }
     },
     "targetFile": "NavPanel_Shared0IFace.ghli"

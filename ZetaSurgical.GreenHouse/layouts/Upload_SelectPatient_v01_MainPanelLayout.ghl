@@ -61,6 +61,12 @@
                             "uuid": "FigmaNode::I164:7827;164:7715",
                             "value": "M"
                         },
+                        "itemIndex": {
+                            "bindingRole": "index",
+                            "name": "itemIndex",
+                            "type": "Int",
+                            "value": 0
+                        },
                         "selectionIndex": {
                             "bindingProp": "selectedPatientIndex",
                             "bindingSrc": "PatientsDatabase",

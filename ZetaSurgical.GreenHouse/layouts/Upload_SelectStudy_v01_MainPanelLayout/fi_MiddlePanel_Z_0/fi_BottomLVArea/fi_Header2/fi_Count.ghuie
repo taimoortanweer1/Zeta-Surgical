@@ -1,0 +1,48 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 896,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "365:3224"
+    },
+    "id": "fi_Count",
+    "properties": {
+        "fi_Label_text": {
+            "name": "fi_Label_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I365:3224;365:2926",
+            "value": "Count"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 136
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 896
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 4
+        }
+    },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_Count__onEvent__clicked(PatientsDatabase.Count)\n"
+        }
+    },
+    "targetFile": "fi_Count.ghuie",
+    "type": "ZetaSurgicalSet.Buttons_LVHeader_Default_State",
+    "userDefined": false
+}
