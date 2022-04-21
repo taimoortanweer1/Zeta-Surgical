@@ -19,9 +19,9 @@
                 "backTransition": false,
                 "blockedIfTargetActive": true,
                 "internal": true,
-                "sender": "PatientsDatabase",
+                "sender": "GUINavigationPresenter",
                 "senderStringType": "%1",
-                "signal": "patientSelected"
+                "signal": "selectStudyScreenShown"
             },
             "template": "SignalTransition"
         }

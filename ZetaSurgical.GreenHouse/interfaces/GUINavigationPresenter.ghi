@@ -1,0 +1,108 @@
+{
+    "backendObject": false,
+    "enums": [
+        {
+            "name": "NavigationButtonIds",
+            "value": [
+                {
+                    "name": "Upload",
+                    "value": 0
+                },
+                {
+                    "name": "Segmentation",
+                    "value": 1
+                },
+                {
+                    "name": "Planning",
+                    "value": 2
+                },
+                {
+                    "name": "Positioning",
+                    "value": 3
+                },
+                {
+                    "name": "Navigation",
+                    "value": 4
+                }
+            ]
+        }
+    ],
+    "hidden": false,
+    "methods": {
+        "onScreenRequested": {
+            "arguments": [
+                {
+                    "name": "screenId",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "onScreenRequested"
+        }
+    },
+    "name": "GUINavigationPresenter",
+    "properties": {
+        "arguments": [
+            {
+                "name": "tabIndex",
+                "preview": -1,
+                "type": "Int"
+            },
+            {
+                "name": "backButtonIsVisible",
+                "preview": false,
+                "type": "Bool"
+            },
+            {
+                "name": "uploadCompleted",
+                "preview": false,
+                "type": "Bool"
+            },
+            {
+                "name": "segmentationCompleted",
+                "preview": false,
+                "type": "Bool"
+            },
+            {
+                "name": "planningCompleted",
+                "preview": false,
+                "type": "Bool"
+            },
+            {
+                "name": "positioningCompleted",
+                "preview": false,
+                "type": "Bool"
+            },
+            {
+                "name": "navigationCompleted",
+                "preview": false,
+                "type": "Bool"
+            }
+        ]
+    },
+    "signals": {
+        "navigationScreenShown": {
+            "name": "navigationScreenShown"
+        },
+        "planningScreenShown": {
+            "name": "planningScreenShown"
+        },
+        "positioningScreenShown": {
+            "name": "positioningScreenShown"
+        },
+        "registrationScreenShown": {
+            "name": "registrationScreenShown"
+        },
+        "segmentationScreenShown": {
+            "name": "segmentationScreenShown"
+        },
+        "selectPatientScreenShown": {
+            "name": "selectPatientScreenShown"
+        },
+        "selectStudyScreenShown": {
+            "name": "selectStudyScreenShown"
+        }
+    },
+    "targetFile": "GUINavigationPresenter.ghi",
+    "uuid": "{5b360f67-4a82-4bad-a985-6d89ad3ac6b1}"
+}

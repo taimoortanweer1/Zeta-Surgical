@@ -5,11 +5,17 @@
 class PopupsPresenterImpl;
 class PointEditorPresenterImpl;
 
+namespace ZetaSurgical {
+class GUINavigationPresenter;
+}
+
 class PlanningPresenterImpl : public ZetaSurgical::PlanningPresenter
 {
     Q_OBJECT
 public:
-    explicit PlanningPresenterImpl(PopupsPresenterImpl *popupsPresenter, PointEditorPresenterImpl* pointEditor);
+    explicit PlanningPresenterImpl(PopupsPresenterImpl *popupsPresenter,
+                                   PointEditorPresenterImpl* pointEditor,
+                                   ZetaSurgical::GUINavigationPresenter *);
     void editTargetAtIndex(int index) override;
     void deleteTargetAtIndex(int index) override;
     void selectTargetAtIndex(int index, int selectionMode) override;
@@ -18,6 +24,9 @@ public:
     void deleteInstrumentAtIndex(int index) override;
 
     void onAddNewPointClicked() override;
+
+    void onPlanningStarted() override;
+    void onPlanningFinished() override;
 
     Q_INVOKABLE void setVTKItem(QObject *item, int index);
 
@@ -31,4 +40,5 @@ private:
 private:
     PopupsPresenterImpl * const m_popupsPresenter;
     PointEditorPresenterImpl* const m_pointEditor;
+    ZetaSurgical::GUINavigationPresenter *const m_navigationPresenter;
 };

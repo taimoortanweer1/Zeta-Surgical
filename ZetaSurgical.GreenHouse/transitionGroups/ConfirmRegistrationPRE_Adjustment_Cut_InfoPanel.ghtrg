@@ -87,7 +87,7 @@
             "template": "ItemSignalTransition",
             "triggeredActions": [
                 {
-                    "rawCode": "{\nCONTEXT_OBJECT(PlanningPresenter, co) co->onProceedWithoutDrapingClicked();\n}\n",
+                    "rawCode": "{\nCONTEXT_OBJECT(NavigationPresenter, co) co->onNavigationStarted();\n}\n",
                     "type": "RawCode"
                 }
             ]
@@ -105,7 +105,11 @@
             "template": "ItemSignalTransition",
             "triggeredActions": [
                 {
-                    "rawCode": "{\nCONTEXT_OBJECT(PlanningPresenter, co) co->onProceedToDrapingClicked();\n}\n",
+                    "rawCode": "{\nCONTEXT_OBJECT(NavigationPresenter, co) co->onNavigationStarted();\n}\n",
+                    "type": "RawCode"
+                },
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PositioningPresenter, co) co->onRegistrationFinished();\n}\n",
                     "type": "RawCode"
                 }
             ]

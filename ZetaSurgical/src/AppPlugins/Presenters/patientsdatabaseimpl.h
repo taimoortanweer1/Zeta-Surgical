@@ -9,11 +9,15 @@ class PopupsPresenterImpl;
 class StudyDescriptionList;
 class ListHeaderModel;
 
+namespace ZetaSurgical {
+class GUINavigationPresenter;
+}
+
 class PatientsDatabaseImpl : public ZetaSurgical::PatientsDatabase
 {
     Q_OBJECT
 public:
-    explicit PatientsDatabaseImpl(PopupsPresenterImpl *popupsPresenter);
+    explicit PatientsDatabaseImpl(PopupsPresenterImpl *popupsPresenter, ZetaSurgical::GUINavigationPresenter *);
     void init() override;
     void onFilterEditRequested() override;
     void onProceedToStudySelection() override;
@@ -30,12 +34,14 @@ public:
     void setStudiesListSelectedIndex(int value, bool publishToRPC = true) override;
 
     void onInfoButtonClicked() override;
+    void onCompleteUploadStage() override;
 
 private:
     void updateProceedButton();
 
 private:
     PopupsPresenterImpl * const m_popupsPresenter;
+    ZetaSurgical::GUINavigationPresenter *const m_navigationPresenter;
 
     PatientsModel * const m_patientsModel;
     SortFilterModel * const m_filterModel;

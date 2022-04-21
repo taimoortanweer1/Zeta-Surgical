@@ -1,4 +1,9 @@
 {
     "name": "PositionNEST_Variation1_RightInfoPanelIFace",
+    "signals": {
+        "fi_proceedToRegistrationButton__onEvent__clicked": {
+            "name": "fi_proceedToRegistrationButton__onEvent__clicked"
+        }
+    },
     "targetFile": "PositionNEST_Variation1_RightInfoPanelIFace.ghli"
 }

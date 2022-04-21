@@ -65,6 +65,12 @@
         "onCutLocationUpClicked": {
             "name": "onCutLocationUpClicked"
         },
+        "onPlanningFinished": {
+            "name": "onPlanningFinished"
+        },
+        "onPlanningStarted": {
+            "name": "onPlanningStarted"
+        },
         "onProceedToDrapingClicked": {
             "name": "onProceedToDrapingClicked"
         },

@@ -2,12 +2,17 @@
 #include "popupspresenterimpl.h"
 #include "pointeditorpresenterimpl.h"
 #include <QQuickItem>
+#include <ZetaSurgical/guinavigationpresenter.hpp>
 
-PlanningPresenterImpl::PlanningPresenterImpl(PopupsPresenterImpl *popupsPresenter, PointEditorPresenterImpl* pointEditor)
+PlanningPresenterImpl::PlanningPresenterImpl(PopupsPresenterImpl *popupsPresenter,
+                                             PointEditorPresenterImpl* pointEditor,
+                                             ZetaSurgical::GUINavigationPresenter *navPresenter)
     : ZetaSurgical::PlanningPresenter()
     , m_popupsPresenter(popupsPresenter)
     , m_pointEditor(pointEditor)
+    , m_navigationPresenter(navPresenter)
 {
+    Q_ASSERT(m_navigationPresenter);
     Q_ASSERT(m_popupsPresenter);
     Q_ASSERT(m_pointEditor);
 }
@@ -86,6 +91,17 @@ void PlanningPresenterImpl::onAddNewPointClicked()
         obj[QStringLiteral("selected")] = false;
         targetsList()->appendRow(obj);
     });
+}
+
+void PlanningPresenterImpl::onPlanningStarted()
+{
+    m_navigationPresenter->setTabIndex(2);
+    emit m_navigationPresenter->planningScreenShown();
+}
+
+void PlanningPresenterImpl::onPlanningFinished()
+{
+    m_navigationPresenter->setPlanningCompleted(true);
 }
 
 void PlanningPresenterImpl::setVTKItem(QObject *item, int index)

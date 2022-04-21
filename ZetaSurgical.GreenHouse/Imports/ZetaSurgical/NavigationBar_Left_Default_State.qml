@@ -219,7 +219,7 @@ Item {
     property alias fi_Button_Navigation_Upload_fi_Upload_textColor: fi_Button_Navigation_Upload.fi_Upload_textColor
     //TEXTVAL 32
     property alias fi_Button_Navigation_Upload_fi_Upload_verticalAlignment: fi_Button_Navigation_Upload.fi_Upload_verticalAlignment
-    //ASSET /Icons/NavbarUpload__SelectedState.png
+    //ASSET /Icons/NavbarUpload__CompletedState.png
     property alias fi_Button_Navigation_Upload_icon___complete_source: fi_Button_Navigation_Upload.icon___complete_source
     //ASSET /Icons/NavbarUpload__DefaultState.png
     property alias fi_Button_Navigation_Upload_icon___default_source: fi_Button_Navigation_Upload.icon___default_source

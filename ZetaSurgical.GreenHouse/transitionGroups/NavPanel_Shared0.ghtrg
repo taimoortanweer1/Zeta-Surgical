@@ -33,7 +33,79 @@
             "template": "ItemSignalTransition",
             "triggeredActions": [
                 {
-                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceScreensMoveToNavigationPanel_4Views_ScreenState();\n}\n",
+                    "rawCode": "{\nCONTEXT_OBJECT(GUINavigationPresenter, co) co->onScreenRequested(args.at(0).toInt());\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_navBar__onEvent__fi_Button_Navigation_Planning_clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(GUINavigationPresenter, co) co->onScreenRequested(args.at(0).toInt());\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_navBar__onEvent__fi_Button_Navigation_Positioning_clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(GUINavigationPresenter, co) co->onScreenRequested(args.at(0).toInt());\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_navBar__onEvent__fi_Button_Navigation_Segmentation_clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(GUINavigationPresenter, co) co->onScreenRequested(args.at(0).toInt());\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_navBar__onEvent__fi_Button_Navigation_Upload_clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(GUINavigationPresenter, co) co->onScreenRequested(args.at(0).toInt());\n}\n",
                     "type": "RawCode"
                 }
             ]

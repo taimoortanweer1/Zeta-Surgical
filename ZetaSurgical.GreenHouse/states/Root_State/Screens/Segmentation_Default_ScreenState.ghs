@@ -8,7 +8,7 @@
             "type": "RawCode"
         },
         {
-            "rawCode": "{\nCONTEXT_OBJECT(NavigationPresenter, co) co->setTabIndex(1);\n}\n",
+            "rawCode": "",
             "type": "RawCode"
         }
     ],

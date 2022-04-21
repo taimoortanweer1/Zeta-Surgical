@@ -15,7 +15,11 @@
             "template": "ItemSignalTransition",
             "triggeredActions": [
                 {
-                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceScreensMoveToSegmentation_Default_ScreenState();\n}\n",
+                    "rawCode": "{\nCONTEXT_OBJECT(SegmentationPresenter, co) co->onSegmentationStarted();\n}\n",
+                    "type": "RawCode"
+                },
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PatientsDatabase, co) co->onCompleteUploadStage();\n}\n",
                     "type": "RawCode"
                 }
             ]

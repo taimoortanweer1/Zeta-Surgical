@@ -6,6 +6,11 @@ patientsdatabaseimpl.h
 patientsmodel.h
 popupspresenterimpl.h
 loginpresenterimpl.h
+navigationpresenterimpl.h
+guinavigationpresenterimpl.h
+segmentationpresenterimpl.h
+segmentationpresenterimpl.h
+positioningpresenterimpl.h
 )
 
 set(impl_cpp
@@ -16,4 +21,8 @@ patientsdatabaseimpl.cpp
 patientsmodel.cpp
 popupspresenterimpl.cpp
 loginpresenterimpl.cpp
+navigationpresenterimpl.cpp
+guinavigationpresenterimpl.cpp
+segmentationpresenterimpl.cpp
+positioningpresenterimpl.cpp
 )

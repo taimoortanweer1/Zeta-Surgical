@@ -15,7 +15,11 @@
             "template": "ItemSignalTransition",
             "triggeredActions": [
                 {
-                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceScreensMoveToPositionNEST_Variation1_ScreenState();\n}\n",
+                    "rawCode": "{\nCONTEXT_OBJECT(PlanningPresenter, co) co->onPlanningFinished();\n}\n",
+                    "type": "RawCode"
+                },
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PositioningPresenter, co) co->onPositioningStarted();\n}\n",
                     "type": "RawCode"
                 }
             ]

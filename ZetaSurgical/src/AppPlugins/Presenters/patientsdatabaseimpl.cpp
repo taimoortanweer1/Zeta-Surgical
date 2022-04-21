@@ -1,10 +1,12 @@
 #include "patientsdatabaseimpl.h"
 #include "patientsmodel.h"
 #include "popupspresenterimpl.h"
+#include <ZetaSurgical/guinavigationpresenter.hpp>
 
-PatientsDatabaseImpl::PatientsDatabaseImpl(PopupsPresenterImpl *popupsPresenter)
+PatientsDatabaseImpl::PatientsDatabaseImpl(PopupsPresenterImpl *popupsPresenter, ZetaSurgical::GUINavigationPresenter* navigationPresenter)
     : ZetaSurgical::PatientsDatabase()
     , m_popupsPresenter(popupsPresenter)
+    , m_navigationPresenter(navigationPresenter)
     , m_patientsModel(new PatientsModel(this))
     , m_filterModel(new SortFilterModel(this))
 
@@ -34,6 +36,7 @@ PatientsDatabaseImpl::PatientsDatabaseImpl(PopupsPresenterImpl *popupsPresenter)
                                                       {QStringLiteral("Date Added"), 200, -1, StudyDescriptionList::Date } }, this))
 {
     Q_ASSERT(m_popupsPresenter);
+    Q_ASSERT(m_navigationPresenter);
     m_filterModel->setSourceModel(m_patientsModel);
     m_studiesFilterModel->setSourceModel(m_studiesList);
     m_studiesDescriptionFilterModel->setSourceModel(m_studyDescriptionList);
@@ -119,7 +122,7 @@ void PatientsDatabaseImpl::onProceedToStudySelection()
     setStudyIsSelected(false);
     updateProceedButton();
 
-    emit patientSelected();
+    emit m_navigationPresenter->selectStudyScreenShown();
 }
 
 void PatientsDatabaseImpl::selectPatient(int index)
@@ -155,6 +158,7 @@ void PatientsDatabaseImpl::onShowPatientsList()
     setPacsSourceAvailable(true);
     setLocalSourceAvailable(true);
     onSelectStorageSource(StorageSource::Local);
+    m_navigationPresenter->setTabIndex(0);
 }
 
 void PatientsDatabaseImpl::sortPatientListBy(int headerEntry)
@@ -201,6 +205,12 @@ void PatientsDatabaseImpl::setStudiesListSelectedIndex(int value, bool publishTo
 void PatientsDatabaseImpl::onInfoButtonClicked()
 {
     emit scanMetadataPopupShown();
+}
+
+void PatientsDatabaseImpl::onCompleteUploadStage()
+{
+    qWarning() << __PRETTY_FUNCTION__;
+    m_navigationPresenter->setUploadCompleted(true);
 }
 
 void PatientsDatabaseImpl::updateProceedButton()

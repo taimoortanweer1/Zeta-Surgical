@@ -1,6 +1,6 @@
 //--------------------------------------------------------------------------------------------------
 // Generated using GreenHouse Modeling Library v 1.7.4
-// From: ZetaSurgical NavigationPresenter Interface
+// From: ZetaSurgical PositioningPresenter Interface
 // Feel free to edit this file as it is generated only once and will not be overritten
 // the next time the application flow is regenerated.
 //--------------------------------------------------------------------------------------------------
@@ -17,11 +17,11 @@
 
 #include <applicationpluginmanager.h>
 
-#include <ZetaSurgical/navigationpresenter.hpp>
+#include <ZetaSurgical/positioningpresenter.hpp>
 
 using namespace testing;
 
-class NavigationPresenterImplTestRpc : public GreenHouse::RPCServiceInterface
+class PositioningPresenterImplTestRpc : public GreenHouse::RPCServiceInterface
 {
 public:
     using GreenHouse::RPCServiceInterface::RPCServiceInterface;
@@ -40,22 +40,22 @@ protected:
     }
 };
 
-class NavigationPresenterInterfaceImplTest : public Test
+class PositioningPresenterInterfaceImplTest : public Test
 {
     // Test interface
 protected:
     void SetUp();
     void TearDown();
 
-    ZetaSurgical::NavigationPresenter *iface;
+    ZetaSurgical::PositioningPresenter *iface;
     ApplicationPluginManager *m_applicationPluginManager;
-    NavigationPresenterImplTestRpc *m_rpc;
+    PositioningPresenterImplTestRpc *m_rpc;
     GreenHouse::Context m_ctx;
 };
 
-void NavigationPresenterInterfaceImplTest ::SetUp()
+void PositioningPresenterInterfaceImplTest ::SetUp()
 {
-    m_rpc = new NavigationPresenterImplTestRpc(&m_ctx);
+    m_rpc = new PositioningPresenterImplTestRpc(&m_ctx);
     QDir pluginDir;
     pluginDir = QDir(qApp->applicationDirPath());
     pluginDir.cdUp();
@@ -65,15 +65,27 @@ void NavigationPresenterInterfaceImplTest ::SetUp()
                                                               pluginDir.absolutePath());
     if (m_applicationPluginManager)
         m_applicationPluginManager->inject(&m_ctx);
-    iface = m_ctx.get<ZetaSurgical::NavigationPresenter>();
+    iface = m_ctx.get<ZetaSurgical::PositioningPresenter>();
     if (!iface) {
-        iface = new ZetaSurgical::NavigationPresenter;
+        iface = new ZetaSurgical::PositioningPresenter;
         m_ctx.store(iface);
     }
     m_ctx.startExecution();
 }
 
-void NavigationPresenterInterfaceImplTest ::TearDown()
+void PositioningPresenterInterfaceImplTest ::TearDown()
 {
     delete m_applicationPluginManager;
+}
+
+TEST_F(PositioningPresenterInterfaceImplTest, onPositioningStarted)
+{
+
+    iface->onPositioningStarted();
+}
+
+TEST_F(PositioningPresenterInterfaceImplTest, onPositioningFinished)
+{
+
+    iface->onPositioningFinished();
 }

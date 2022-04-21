@@ -32,6 +32,12 @@
             "value": 1
         }
     },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_proceedToRegistrationButton__onEvent__clicked()\n"
+        }
+    },
     "targetFile": "fi_proceedToRegistrationButton.ghuie",
     "type": "ZetaSurgicalSet.NextButton",
     "userDefined": false

@@ -1,21 +1,15 @@
 {
     "backendObject": false,
     "hidden": false,
-    "name": "NavigationPresenter",
-    "properties": {
-        "arguments": [
-            {
-                "name": "tabIndex",
-                "preview": -1,
-                "type": "Int"
-            },
-            {
-                "name": "backButtonIsVisible",
-                "preview": false,
-                "type": "Bool"
-            }
-        ]
+    "methods": {
+        "onNavigationFinished": {
+            "name": "onNavigationFinished"
+        },
+        "onNavigationStarted": {
+            "name": "onNavigationStarted"
+        }
     },
+    "name": "NavigationPresenter",
     "targetFile": "NavigationPresenter.ghi",
-    "uuid": "{5b360f67-4a82-4bad-a985-6d89ad3ac6b1}"
+    "uuid": "{38727a91-d186-4e13-9581-c7a94bf606d5}"
 }

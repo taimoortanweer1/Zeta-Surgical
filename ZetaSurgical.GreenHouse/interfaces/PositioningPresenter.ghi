@@ -1,0 +1,21 @@
+{
+    "backendObject": false,
+    "hidden": false,
+    "methods": {
+        "onPositioningFinished": {
+            "name": "onPositioningFinished"
+        },
+        "onPositioningStarted": {
+            "name": "onPositioningStarted"
+        },
+        "onRegistrationFinished": {
+            "name": "onRegistrationFinished"
+        },
+        "onRegistrationStarted": {
+            "name": "onRegistrationStarted"
+        }
+    },
+    "name": "PositioningPresenter",
+    "targetFile": "PositioningPresenter.ghi",
+    "uuid": "{50e99c64-47be-4d54-a509-b47397b238ea}"
+}

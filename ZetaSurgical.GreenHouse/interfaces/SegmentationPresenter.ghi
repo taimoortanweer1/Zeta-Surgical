@@ -1,0 +1,15 @@
+{
+    "backendObject": false,
+    "hidden": false,
+    "methods": {
+        "onSegmentationFinished": {
+            "name": "onSegmentationFinished"
+        },
+        "onSegmentationStarted": {
+            "name": "onSegmentationStarted"
+        }
+    },
+    "name": "SegmentationPresenter",
+    "targetFile": "SegmentationPresenter.ghi",
+    "uuid": "{7510b903-c1a3-4612-a96b-18435be8b82e}"
+}

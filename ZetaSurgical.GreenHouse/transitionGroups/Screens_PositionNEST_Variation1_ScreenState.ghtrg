@@ -13,6 +13,17 @@
                 "signal": "surfaceScreensMoveToPositionNEST_Variation1_ScreenState"
             },
             "template": "SignalTransition"
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "GUINavigationPresenter",
+                "senderStringType": "%1",
+                "signal": "positioningScreenShown"
+            },
+            "template": "SignalTransition"
         }
     ],
     "uuid": "{119074df-8ebb-45ce-b411-9dc1181937d2}"

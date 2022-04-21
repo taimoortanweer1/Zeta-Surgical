@@ -8,13 +8,13 @@
             "type": "RawCode"
         },
         {
-            "rawCode": "{\nCONTEXT_OBJECT(NavigationPresenter, co) co->setTabIndex(0);\n}\n{\nCONTEXT_OBJECT(NavigationPresenter, co) co->setBackButtonIsVisible(true);\n}\n",
+            "rawCode": "{\nCONTEXT_OBJECT(GUINavigationPresenter, co) co->setTabIndex(0);\n}\n{\nCONTEXT_OBJECT(GUINavigationPresenter, co) co->setBackButtonIsVisible(true);\n}\n",
             "type": "RawCode"
         }
     ],
     "exitActions": [
         {
-            "rawCode": "{\nCONTEXT_OBJECT(NavigationPresenter, co) co->setBackButtonIsVisible(false);\n}\n",
+            "rawCode": "{\nCONTEXT_OBJECT(GUINavigationPresenter, co) co->setBackButtonIsVisible(false);\n}\n",
             "type": "RawCode"
         }
     ],

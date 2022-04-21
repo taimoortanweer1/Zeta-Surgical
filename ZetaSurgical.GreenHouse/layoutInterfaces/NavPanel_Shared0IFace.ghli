@@ -5,7 +5,54 @@
             "name": "back"
         },
         "fi_navBar__onEvent__fi_Button_Navigation_Navigation_clicked": {
+            "arguments": [
+                {
+                    "name": "NavigationPresenter_onScreenRequested_screenId",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
             "name": "fi_navBar__onEvent__fi_Button_Navigation_Navigation_clicked"
+        },
+        "fi_navBar__onEvent__fi_Button_Navigation_Planning_clicked": {
+            "arguments": [
+                {
+                    "name": "NavigationPresenter_onScreenRequested_screenId",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "fi_navBar__onEvent__fi_Button_Navigation_Planning_clicked"
+        },
+        "fi_navBar__onEvent__fi_Button_Navigation_Positioning_clicked": {
+            "arguments": [
+                {
+                    "name": "NavigationPresenter_onScreenRequested_screenId",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "fi_navBar__onEvent__fi_Button_Navigation_Positioning_clicked"
+        },
+        "fi_navBar__onEvent__fi_Button_Navigation_Segmentation_clicked": {
+            "arguments": [
+                {
+                    "name": "NavigationPresenter_onScreenRequested_screenId",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "fi_navBar__onEvent__fi_Button_Navigation_Segmentation_clicked"
+        },
+        "fi_navBar__onEvent__fi_Button_Navigation_Upload_clicked": {
+            "arguments": [
+                {
+                    "name": "NavigationPresenter_onScreenRequested_screenId",
+                    "preview": null,
+                    "type": "Int"
+                }
+            ],
+            "name": "fi_navBar__onEvent__fi_Button_Navigation_Upload_clicked"
         }
     },
     "targetFile": "NavPanel_Shared0IFace.ghli"

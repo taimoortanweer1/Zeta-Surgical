@@ -1,24 +1,5 @@
-14:09:33 Panel: Upload_SelectStudy_v01_MainPanel :: Changing fi_ListView_Header_StudyDescription_horizontal UIElement's type the following value bindings might be lost:<br/><br/>visible: PatientsDatabase.studyIsSelected
-14:09:33 Panel: Upload_SelectStudy_v01_MainPanel :: Removing Unknown UIElement fi_Count the following existing action handlers will be lost:<br/><br/>Clicked:<br/>root.itemInterface.fi_Count__onEvent__clicked(PatientsDatabase.Count)
-
-14:09:33 Panel: Upload_SelectStudy_v01_MainPanel :: Removing Unknown UIElement fi_DateAdded the following existing action handlers will be lost:<br/><br/>Clicked:<br/>root.itemInterface.fi_DateAdded__onEvent__clicked(PatientsDatabase.DateAdded)
-
-14:09:33 Panel: Upload_SelectStudy_v01_MainPanel :: Removing Unknown UIElement fi_Modality the following existing action handlers will be lost:<br/><br/>Clicked:<br/>root.itemInterface.fi_Modality__onEvent__clicked(PatientsDatabase.Modality)
-
-14:09:33 Panel: Upload_SelectStudy_v01_MainPanel :: Removing Unknown UIElement fi_Size the following existing action handlers will be lost:<br/><br/>Clicked:<br/>root.itemInterface.fi_Size__onEvent__clicked(PatientsDatabase.Size)
-
-14:09:33 Panel: Upload_SelectStudy_v01_MainPanel :: Removing Unknown UIElement fi_StudyDescription2 the following existing action handlers will be lost:<br/><br/>Clicked:<br/>root.itemInterface.fi_StudyDescription2__onEvent__clicked(PatientsDatabase.Description)
-
-14:09:33 Panel: Upload_SelectStudy_v01_MainPanel :: Removing Unknown UIElement fi_Date the following existing action handlers will be lost:<br/><br/>Clicked:<br/>root.itemInterface.fi_Date__onEvent__clicked(PatientsDatabase.SecondDate)
-
-14:09:33 Panel: Upload_SelectStudy_v01_MainPanel :: Removing Unknown UIElement fi_OfSEries the following existing action handlers will be lost:<br/><br/>Clicked:<br/>root.itemInterface.fi_OfSEries__onEvent__clicked(PatientsDatabase.NOfSeries)
-
-14:09:33 Panel: Upload_SelectStudy_v01_MainPanel :: Removing Unknown UIElement fi_StudyDescription the following existing action handlers will be lost:<br/><br/>Clicked:<br/>root.itemInterface.fi_StudyDescription__onEvent__clicked(PatientsDatabase.StudyDescription)
-
-14:09:33 Panel: Upload_SelectStudy_v01_MainPanel :: Removing Unknown UIElement fi_StudyID the following existing action handlers will be lost:<br/><br/>Clicked:<br/>root.itemInterface.fi_StudyID__onEvent__clicked(PatientsDatabase.StudyID)
-
-14:10:18  :: Arial font extraction process finished with exit code: 9
-14:10:18  ::   End-of-central-directory signature not found.  Either this file is not
+11:20:15  :: Arial font extraction process finished with exit code: 9
+11:20:15  ::   End-of-central-directory signature not found.  Either this file is not
   a zipfile, or it constitutes one disk of a multi-part archive.  In the
   latter case the central directory and zipfile comment will be found on
   the last disk(s) of this archive.

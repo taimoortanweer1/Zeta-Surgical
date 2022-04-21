@@ -13,6 +13,17 @@
                 "signal": "surfaceScreensMoveToCT_Planning_Default_ScreenState"
             },
             "template": "SignalTransition"
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "GUINavigationPresenter",
+                "senderStringType": "%1",
+                "signal": "planningScreenShown"
+            },
+            "template": "SignalTransition"
         }
     ],
     "uuid": "{7ebb2e92-f302-4773-b759-81a6c9e99ca3}"

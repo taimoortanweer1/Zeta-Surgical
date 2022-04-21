@@ -1,13 +1,13 @@
 {
-    "source": "Segmentation_Default_InfoPanel",
-    "targetFile": "Segmentation_Default_InfoPanel.ghtrg",
+    "source": "PositionNEST_Variation1_RightInfoPanel",
+    "targetFile": "PositionNEST_Variation1_RightInfoPanel.ghtrg",
     "transitions": [
         {
             "properties": {
                 "backTransition": false,
                 "blockedIfTargetActive": false,
                 "internal": false,
-                "signalName": "fi_continueButton__onEvent__clicked",
+                "signalName": "fi_proceedToRegistrationButton__onEvent__clicked",
                 "validSourceTemplates": [
                     "ItemState"
                 ]
@@ -15,11 +15,7 @@
             "template": "ItemSignalTransition",
             "triggeredActions": [
                 {
-                    "rawCode": "{\nCONTEXT_OBJECT(SegmentationPresenter, co) co->onSegmentationFinished();\n}\n",
-                    "type": "RawCode"
-                },
-                {
-                    "rawCode": "{\nCONTEXT_OBJECT(PlanningPresenter, co) co->onPlanningStarted();\n}\n",
+                    "rawCode": "{\nCONTEXT_OBJECT(PositioningPresenter, co) co->onPositioningFinished();\n}\n",
                     "type": "RawCode"
                 }
             ]

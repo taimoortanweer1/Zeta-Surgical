@@ -108,6 +108,9 @@
     ],
     "hidden": false,
     "methods": {
+        "onCompleteUploadStage": {
+            "name": "onCompleteUploadStage"
+        },
         "onFilterEditRequested": {
             "name": "onFilterEditRequested"
         },
@@ -721,9 +724,6 @@
         ]
     },
     "signals": {
-        "patientSelected": {
-            "name": "patientSelected"
-        },
         "scanMetadataPopupShown": {
             "name": "scanMetadataPopupShown"
         }

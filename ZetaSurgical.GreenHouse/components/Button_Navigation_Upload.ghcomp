@@ -200,7 +200,7 @@
                                     "source": {
                                         "name": "source",
                                         "type": "Asset",
-                                        "value": "/Icons/NavbarUpload__SelectedState.png"
+                                        "value": "/Icons/NavbarUpload__CompletedState.png"
                                     },
                                     "width": {
                                         "name": "width",
