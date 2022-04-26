@@ -6,6 +6,16 @@
         {
             "rawCode": "",
             "type": "RawCode"
+        },
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        }
+    ],
+    "exitActions": [
+        {
+            "rawCode": "",
+            "type": "RawCode"
         }
     ],
     "extraData": {

@@ -1,0 +1,24 @@
+{
+    "source": "LoginView_LoginSuccess_BackgroundPanel",
+    "targetFile": "LoginView_LoginSuccess_BackgroundPanel.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_logoutButton__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(LoginPresenter, co) co->onLogoutClicked();\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        }
+    ]
+}

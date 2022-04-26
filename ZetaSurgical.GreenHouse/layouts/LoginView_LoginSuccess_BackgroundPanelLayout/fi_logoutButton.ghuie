@@ -32,6 +32,12 @@
             "value": 4
         }
     },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_logoutButton__onEvent__clicked()\n"
+        }
+    },
     "targetFile": "fi_logoutButton.ghuie",
     "type": "ZetaSurgicalSet.SelectButton",
     "userDefined": false

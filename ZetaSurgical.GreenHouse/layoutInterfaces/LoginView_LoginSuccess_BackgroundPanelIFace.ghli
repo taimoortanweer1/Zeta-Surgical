@@ -1,4 +1,9 @@
 {
     "name": "LoginView_LoginSuccess_BackgroundPanelIFace",
+    "signals": {
+        "fi_logoutButton__onEvent__clicked": {
+            "name": "fi_logoutButton__onEvent__clicked"
+        }
+    },
     "targetFile": "LoginView_LoginSuccess_BackgroundPanelIFace.ghli"
 }
