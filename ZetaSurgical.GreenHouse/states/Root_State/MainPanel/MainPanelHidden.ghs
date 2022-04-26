@@ -7,7 +7,7 @@
     },
     "properties": {
         "childViewType": "ChildStateView",
-        "initial": false,
+        "initial": true,
         "name": "MainPanelHidden",
         "parallel": false,
         "parentingEnabled": true,

@@ -24,7 +24,7 @@
     },
     "properties": {
         "childViewType": "ChildStateView",
-        "initial": true,
+        "initial": false,
         "layoutFile": "NavPanel_Shared0Layout",
         "layoutFileTemplate": "%1Impl.qml",
         "name": "NavPanel_Shared0",

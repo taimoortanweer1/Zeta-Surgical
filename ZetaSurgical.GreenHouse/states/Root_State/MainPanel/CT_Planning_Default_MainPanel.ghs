@@ -14,7 +14,7 @@
     },
     "properties": {
         "childViewType": "ChildStateView",
-        "initial": true,
+        "initial": false,
         "layoutFile": "CT_Planning_Default_MainPanelLayout",
         "layoutFileTemplate": "%1Impl.qml",
         "name": "CT_Planning_Default_MainPanel",
