@@ -26,19 +26,22 @@ void LoginPresenterImpl::onPasswordEditRequested()
 
 void LoginPresenterImpl::onLoginClicked()
 {
-    //if(enteredPassword().compare(QStringLiteral("123")) == 0) {
+    if(validateCredentials()) {
         emit loggedInScreenShown();
-    //}
+        setLoggedInUserString(QStringLiteral("Welcome %1").arg(enteredUsername()));
+        setEnteredUsername(QString());
+        setEnteredPassword(QStringLiteral("123"));
+        updateLoginButton();
+    } else {
+        setInvalidCredentialsEntered(true);
+    }
 
-    setLoggedInUserString(QStringLiteral("Welcome %1").arg(enteredUsername()));
-    setEnteredUsername(QString());
-    setEnteredPassword(QStringLiteral("123"));
-    updateLoginButton();
 }
 
 void LoginPresenterImpl::onLogoutClicked()
 {
     setLoggedInUserString(QString());
+    setEnteredPassword(QStringLiteral("123"));
     emit loggedOutScreenShown();
 }
 
@@ -46,6 +49,20 @@ void LoginPresenterImpl::init()
 {
     updateLoginButton();
     setEnteredPassword(QStringLiteral("123"));
+}
+
+bool LoginPresenterImpl::validateCredentials()
+{
+    if (enteredUsername().compare(QStringLiteral("guest")) == 0
+        && enteredPassword().compare(QStringLiteral("guest")) == 0) {
+        return true;
+    }
+    if (enteredUsername().compare(QStringLiteral("a")) == 0
+        && enteredPassword().compare(QStringLiteral("123")) == 0) {
+        return true;
+    }
+
+    return false;
 }
 
 void LoginPresenterImpl::updateLoginButton()

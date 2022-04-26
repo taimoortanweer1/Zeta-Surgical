@@ -20,6 +20,7 @@ protected:
 
 private:
     void updateLoginButton();
+    bool validateCredentials();
 
 private:
     PopupsPresenterImpl *const m_popupsPresenter;
