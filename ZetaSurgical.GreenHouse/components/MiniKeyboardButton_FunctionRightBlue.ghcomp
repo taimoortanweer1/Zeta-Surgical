@@ -1,0 +1,418 @@
+{
+    "aliasList": {
+        "fi_Letter___default": [
+            {
+                "aliasElement": "font",
+                "aliasName": "fi_Letter_font",
+                "aliasSource": "fi_Letter___default"
+            },
+            {
+                "aliasElement": "horizontalAlignment",
+                "aliasName": "fi_Letter_horizontalAlignment",
+                "aliasSource": "fi_Letter___default"
+            },
+            {
+                "aliasElement": "lineHeight",
+                "aliasName": "fi_Letter_lineHeight",
+                "aliasSource": "fi_Letter___default"
+            },
+            {
+                "aliasElement": "lineHeightMode",
+                "aliasName": "fi_Letter_lineHeightMode",
+                "aliasSource": "fi_Letter___default"
+            },
+            {
+                "aliasElement": "opacity",
+                "aliasName": "fi_Letter_opacity",
+                "aliasSource": "fi_Letter___default"
+            },
+            {
+                "aliasElement": "richText",
+                "aliasName": "fi_Letter_richText",
+                "aliasSource": "fi_Letter___default"
+            },
+            {
+                "aliasElement": "text",
+                "aliasName": "fi_Letter_text",
+                "aliasSource": "fi_Letter___default"
+            },
+            {
+                "aliasElement": "textColor",
+                "aliasName": "fi_Letter_textColor",
+                "aliasSource": "fi_Letter___default"
+            },
+            {
+                "aliasElement": "verticalAlignment",
+                "aliasName": "fi_Letter_verticalAlignment",
+                "aliasSource": "fi_Letter___default"
+            }
+        ]
+    },
+    "animations": [
+    ],
+    "componentLayout": {
+        "blockInputFallthrough": true,
+        "children": [
+            {
+                "children": [
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "__mouseArea",
+                        "properties": {
+                            "doubleClickEnabeld": {
+                                "bindingProp": "doubleClickEnabeld",
+                                "bindingSrc": "root",
+                                "itemBound": true,
+                                "name": "doubleClickEnabeld",
+                                "type": "Bool",
+                                "value": false
+                            },
+                            "minimumRepeatInterval": {
+                                "bindingProp": "minimumRepeatInterval",
+                                "bindingSrc": "root",
+                                "itemBound": true,
+                                "name": "minimumRepeatInterval",
+                                "type": "Int",
+                                "value": 100
+                            },
+                            "repeateInterval": {
+                                "bindingProp": "repeateInterval",
+                                "bindingSrc": "root",
+                                "itemBound": true,
+                                "name": "repeateInterval",
+                                "type": "Int",
+                                "value": 1000
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": -1
+                            }
+                        },
+                        "targetFile": "__mouseArea.ghuie",
+                        "type": "ComponentsSet.AutoRepeatMouseArea",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Rectangle_360___default",
+                        "properties": {
+                            "border-bottom": {
+                                "name": "border-bottom",
+                                "type": "Int",
+                                "value": 10
+                            },
+                            "border-left": {
+                                "name": "border-left",
+                                "type": "Int",
+                                "value": 10
+                            },
+                            "border-right": {
+                                "name": "border-right",
+                                "type": "Int",
+                                "value": 10
+                            },
+                            "border-top": {
+                                "name": "border-top",
+                                "type": "Int",
+                                "value": 10
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 64
+                            },
+                            "source": {
+                                "name": "source",
+                                "type": "Asset",
+                                "value": "/614_3336.png"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 60
+                            }
+                        },
+                        "targetFile": "fi_Rectangle_360___default.ghuie",
+                        "type": "BorderImage",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorMargin": 16,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorMargin": 16,
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Letter___default",
+                        "properties": {
+                            "font": {
+                                "name": "font",
+                                "type": "Font",
+                                "value": "Figma::Arial_ArialMT_20_50_0_0_0_0_-0.4"
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 48
+                            },
+                            "horizontalAlignment": {
+                                "name": "horizontalAlignment",
+                                "type": "TextHorizontalAlignment",
+                                "value": "AlignRight"
+                            },
+                            "lineHeight": {
+                                "name": "lineHeight",
+                                "type": "Float",
+                                "value": 23.44
+                            },
+                            "lineHeightMode": {
+                                "name": "lineHeightMode",
+                                "type": "TextLineHeightMode",
+                                "value": "FixedHeight"
+                            },
+                            "text": {
+                                "name": "text",
+                                "type": "TranslatableString",
+                                "uuid": "FigmaNode::614:3337",
+                                "value": "shift"
+                            },
+                            "textColor": {
+                                "name": "textColor",
+                                "type": "Color",
+                                "value": "Dark Ink"
+                            },
+                            "verticalAlignment": {
+                                "name": "verticalAlignment",
+                                "type": "TextVerticalAlignment",
+                                "value": "AlignBottom"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 44
+                            },
+                            "wrapMode": {
+                                "name": "wrapMode",
+                                "type": "TextWrapMode",
+                                "value": "WordWrap"
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 1
+                            }
+                        },
+                        "targetFile": "fi_Letter___default.ghuie",
+                        "type": "ComponentsSet.Label",
+                        "userDefined": false
+                    }
+                ],
+                "childrenSplit": true,
+                "id": "root",
+                "properties": {
+                    "height": {
+                        "name": "height",
+                        "type": "Int",
+                        "value": 64
+                    },
+                    "width": {
+                        "name": "width",
+                        "type": "Int",
+                        "value": 60
+                    }
+                },
+                "targetFile": "root.ghuie",
+                "type": "Item",
+                "userDefined": false
+            }
+        ],
+        "childrenSplit": true,
+        "fillParent": false,
+        "height": 64,
+        "hideAnimation": {
+            "type": "Sequential"
+        },
+        "interfaceName": "",
+        "name": "___TEMP_LAYOUT___ZetaSurgicalSet.MiniKeyboardButton_FunctionRightBlue",
+        "posX": 0,
+        "posY": 0,
+        "rootContainerType": "Item",
+        "showAnimation": {
+            "type": "Sequential"
+        },
+        "targetFile": "___TEMP_LAYOUT___ZetaSurgicalSet.MiniKeyboardButton_FunctionRightBlue.ghl",
+        "width": 60
+    },
+    "componentName": "ZetaSurgicalSet.MiniKeyboardButton_FunctionRightBlue",
+    "properties": [
+        {
+            "name": "repeateInterval",
+            "type": "Int",
+            "value": 1000
+        },
+        {
+            "name": "minimumRepeatInterval",
+            "type": "Int",
+            "value": 100
+        },
+        {
+            "name": "doubleClickEnabeld",
+            "type": "Bool",
+            "value": false
+        }
+    ],
+    "signalList": {
+        "__mouseArea": [
+            {
+                "aliasElement": "clicked",
+                "aliasName": "clicked",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "doubleClicked",
+                "aliasName": "doubleClicked",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "pressed",
+                "aliasName": "pressed",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "released",
+                "aliasName": "released",
+                "aliasSource": "__mouseArea"
+            },
+            {
+                "aliasElement": "repeatingTriggered",
+                "aliasName": "repeatingTriggered",
+                "aliasSource": "__mouseArea"
+            }
+        ]
+    },
+    "states": {
+        "__main_state_group": {
+            "default": {
+                "group": "",
+                "name": "default",
+                "propertyChanges": [
+                    {
+                        "name": "source",
+                        "propertyChangeTarget": "fi_Rectangle_360___default",
+                        "type": "Asset",
+                        "value": "/614_3336.png"
+                    },
+                    {
+                        "name": "border-bottom",
+                        "propertyChangeTarget": "fi_Rectangle_360___default",
+                        "type": "Int",
+                        "value": 10
+                    },
+                    {
+                        "name": "border-left",
+                        "propertyChangeTarget": "fi_Rectangle_360___default",
+                        "type": "Int",
+                        "value": 10
+                    },
+                    {
+                        "name": "border-right",
+                        "propertyChangeTarget": "fi_Rectangle_360___default",
+                        "type": "Int",
+                        "value": 10
+                    },
+                    {
+                        "name": "border-top",
+                        "propertyChangeTarget": "fi_Rectangle_360___default",
+                        "type": "Int",
+                        "value": 10
+                    }
+                ],
+                "when": "!__mouseArea.pressed"
+            },
+            "pressed": {
+                "group": "",
+                "name": "pressed",
+                "propertyChanges": [
+                    {
+                        "name": "source",
+                        "propertyChangeTarget": "fi_Rectangle_360___default",
+                        "type": "Asset",
+                        "value": "/614_3358.png"
+                    },
+                    {
+                        "name": "border-bottom",
+                        "propertyChangeTarget": "fi_Rectangle_360___default",
+                        "type": "Int",
+                        "value": 14
+                    },
+                    {
+                        "name": "border-left",
+                        "propertyChangeTarget": "fi_Rectangle_360___default",
+                        "type": "Int",
+                        "value": 14
+                    },
+                    {
+                        "name": "border-right",
+                        "propertyChangeTarget": "fi_Rectangle_360___default",
+                        "type": "Int",
+                        "value": 14
+                    },
+                    {
+                        "name": "border-top",
+                        "propertyChangeTarget": "fi_Rectangle_360___default",
+                        "type": "Int",
+                        "value": 14
+                    }
+                ],
+                "when": "__mouseArea.pressed"
+            }
+        }
+    },
+    "targetFile": "MiniKeyboardButton_FunctionRightBlue.ghcomp"
+}

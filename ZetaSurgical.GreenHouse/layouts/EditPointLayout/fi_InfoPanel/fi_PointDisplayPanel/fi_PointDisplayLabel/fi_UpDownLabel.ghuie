@@ -59,7 +59,7 @@
         "width": {
             "name": "width",
             "type": "Int",
-            "value": 34
+            "value": 98
         },
         "wrapMode": {
             "name": "wrapMode",
@@ -69,7 +69,7 @@
         "x": {
             "name": "x",
             "type": "Int",
-            "value": 83
+            "value": 51
         },
         "y": {
             "name": "y",

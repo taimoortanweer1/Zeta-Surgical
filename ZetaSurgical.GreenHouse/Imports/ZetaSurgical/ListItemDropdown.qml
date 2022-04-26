@@ -3,6 +3,7 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
 
+
 //USES Item
 //USES ComponentsSet.AutoRepeatMouseArea
 //USES ComponentsSet.Label
@@ -10,10 +11,11 @@ import Components 1.0 as ComponentsSet
 //USES BorderImage
 //PREVIEW IMAGE qrc:/GeneratedComponents/assets/ComboBox.png
 
+
 //EDITABLE TRUE
 Item {
     id: root
-
+    
     //Exposed properties----------------------------------------------------------------------------
     property bool doubleClickEnabeld: false
     property int minimumRepeatInterval: 100
@@ -40,24 +42,24 @@ Item {
     property alias fi_label_Role_Value_textColor: fi_label_Role_Value___default.textColor
     //TEXTVAL 128
     property alias fi_label_Role_Value_verticalAlignment: fi_label_Role_Value___default.verticalAlignment
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Exposed signals-------------------------------------------------------------------------------
     signal clicked() /*__mouseArea.clicked*/
     signal doubleClicked() /*__mouseArea.doubleClicked*/
     signal pressed() /*__mouseArea.pressed*/
     signal released() /*__mouseArea.released*/
     signal repeatingTriggered() /*__mouseArea.repeatingTriggered*/
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Local bindings--------------------------------------------------------------------------------
     width: 160
     height: 64
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Children--------------------------------------------------------------------------------------
     Item {
         id: default_StateParent
@@ -65,6 +67,11 @@ Item {
         anchors.right: parent.right
         anchors.top: parent.top
         anchors.bottom: parent.bottom
+        
+        
+        
+        
+        
     }
     Item {
         id: pressed_StateParent
@@ -72,6 +79,11 @@ Item {
         anchors.right: parent.right
         anchors.top: parent.top
         anchors.bottom: parent.bottom
+        
+        
+        
+        
+        
     }
     ComponentsSet.AutoRepeatMouseArea {
         id: __mouseArea
@@ -83,7 +95,10 @@ Item {
         doubleClickEnabeld: root.doubleClickEnabeld
         minimumRepeatInterval: root.minimumRepeatInterval
         repeateInterval: root.repeateInterval
-
+        
+        
+        
+        
         onClicked: {
             root.clicked();
         }
@@ -99,6 +114,7 @@ Item {
         onRepeatingTriggered: {
             root.repeatingTriggered();
         }
+        
     }
     ComponentsSet.Label {
         id: fi_label_Role_Value___default
@@ -115,6 +131,11 @@ Item {
         wrapMode: Text.WordWrap
         lineHeight: 20
         lineHeightMode: Text.FixedHeight
+        
+        
+        
+        
+        
     }
     Rectangle {
         id: fi_Rectangle_62___default
@@ -126,6 +147,11 @@ Item {
         border.color: GreenHouseThemeManager.theme.color("Outline/White")
         border.width: 1
         visible: default_StateParent.visible
+        
+        
+        
+        
+        
     }
     BorderImage {
         id: fi_Rectangle_62___pressed
@@ -139,10 +165,15 @@ Item {
         border.left: 14
         border.right: 14
         border.top: 14
+        
+        
+        
+        
+        
     }
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //States----------------------------------------------------------------------------------------
     StateGroup { //
         states: [
@@ -152,11 +183,14 @@ Item {
             PropertyChanges {
                 target: default_StateParent
                 visible: true
+                
             }
             PropertyChanges {
                 target: pressed_StateParent
                 visible: false
+                
             }
+            
         },
         State {
             when: __mouseArea.pressed
@@ -164,17 +198,20 @@ Item {
             PropertyChanges {
                 target: default_StateParent
                 visible: false
+                
             }
             PropertyChanges {
                 target: pressed_StateParent
                 visible: true
+                
             }
+            
         }
         ]
         transitions: [
-
+        
         ]
     }
-
+    
     //----------------------------------------------------------------------------------------------
 }

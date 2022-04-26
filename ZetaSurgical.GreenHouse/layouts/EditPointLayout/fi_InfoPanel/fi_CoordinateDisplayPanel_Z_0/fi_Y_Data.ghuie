@@ -35,11 +35,6 @@
             "type": "Int",
             "value": 98
         },
-        "horizontalAlignment": {
-            "name": "horizontalAlignment",
-            "type": "TextHorizontalAlignment",
-            "value": "AlignRight"
-        },
         "lineHeight": {
             "name": "lineHeight",
             "type": "Float",

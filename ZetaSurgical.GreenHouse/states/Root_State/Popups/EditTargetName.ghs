@@ -1,0 +1,27 @@
+{
+    "children": [
+    ],
+    "childrenSplit": true,
+    "entryActions": [
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        }
+    ],
+    "extraData": {
+        "FIGMA": "kKItBBA5TYuCVGxWbPVftH",
+        "orderValue": 3
+    },
+    "properties": {
+        "childViewType": "ChildStateView",
+        "initial": false,
+        "layoutFile": "EditTargetNameLayout",
+        "layoutFileTemplate": "%1Impl.qml",
+        "name": "EditTargetName",
+        "parallel": false,
+        "parentingEnabled": true,
+        "preloadUI": false
+    },
+    "targetFile": "EditTargetName.ghs",
+    "template": "ItemState"
+}

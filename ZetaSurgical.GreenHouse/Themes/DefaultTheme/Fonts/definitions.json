@@ -286,5 +286,21 @@
         "styleName": "",
         "underline": false,
         "weight": 50
+    },
+    {
+        "bold": false,
+        "capitalization": 0,
+        "cssWeight": 400,
+        "family": "Arial",
+        "file": "",
+        "italic": false,
+        "letterSpacing": -0.390625,
+        "name": "Figma::Arial_ArialMT_20_50_0_0_0_0_-0.4",
+        "pixelSize": 20,
+        "stretch": 0,
+        "strikeOut": false,
+        "styleName": "ArialMT",
+        "underline": false,
+        "weight": 50
     }
 ]

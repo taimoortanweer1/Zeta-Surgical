@@ -28,7 +28,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 6
+            "value": 4
         }
     },
     "targetFile": "fi_renameButton.ghuie",

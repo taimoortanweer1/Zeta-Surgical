@@ -54,7 +54,7 @@
             "name": "text",
             "type": "TranslatableString",
             "uuid": "FigmaNode::46:2251",
-            "value": "Z "
+            "value": "Z-Value "
         },
         "textColor": {
             "name": "textColor",

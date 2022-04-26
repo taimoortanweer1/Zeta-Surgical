@@ -3,14 +3,16 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import ZetaSurgical 1.0 as ZetaSurgicalSet
 
+
 //USES ZetaSurgicalSet.Buttons_TextLeftAligned
 //USES ZetaSurgicalSet.ModifyButton_Default_State
 //USES ZetaSurgicalSet.DeleteButton_Default_State
 
+
 //EDITABLE TRUE
 Item {
     id: root
-
+    
     //Exposed properties----------------------------------------------------------------------------
     //BOOL false
     property alias fi_Buttons_TextLeftAligned_activated_flag: fi_Buttons_TextLeftAligned.activated_flag
@@ -72,9 +74,9 @@ Item {
     property alias fi_ModifyButton_minimumRepeatInterval: fi_ModifyButton.minimumRepeatInterval
     //INT 1000
     property alias fi_ModifyButton_repeateInterval: fi_ModifyButton.repeateInterval
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Exposed signals-------------------------------------------------------------------------------
     signal fi_Buttons_TextLeftAligned_clicked() /*fi_Buttons_TextLeftAligned.clicked*/
     signal fi_Buttons_TextLeftAligned_doubleClicked() /*fi_Buttons_TextLeftAligned.doubleClicked*/
@@ -91,22 +93,25 @@ Item {
     signal fi_ModifyButton_pressed() /*fi_ModifyButton.pressed*/
     signal fi_ModifyButton_released() /*fi_ModifyButton.released*/
     signal fi_ModifyButton_repeatingTriggered() /*fi_ModifyButton.repeatingTriggered*/
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Local bindings--------------------------------------------------------------------------------
     width: 368
     height: 80
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Children--------------------------------------------------------------------------------------
     ZetaSurgicalSet.Buttons_TextLeftAligned {
         id: fi_Buttons_TextLeftAligned
         anchors.left: parent.left
         anchors.right: parent.right
         anchors.top: parent.top
-
+        
+        
+        
+        
         onClicked: {
             root.fi_Buttons_TextLeftAligned_clicked();
         }
@@ -122,6 +127,7 @@ Item {
         onRepeatingTriggered: {
             root.fi_Buttons_TextLeftAligned_repeatingTriggered();
         }
+        
     }
     ZetaSurgicalSet.ModifyButton_Default_State {
         id: fi_ModifyButton
@@ -130,7 +136,10 @@ Item {
         anchors.verticalCenter: parent.verticalCenter
         z: 1
         clip: true
-
+        
+        
+        
+        
         onClicked: {
             root.fi_ModifyButton_clicked();
         }
@@ -146,6 +155,7 @@ Item {
         onRepeatingTriggered: {
             root.fi_ModifyButton_repeatingTriggered();
         }
+        
     }
     ZetaSurgicalSet.DeleteButton_Default_State {
         id: fi_DeleteButton
@@ -154,7 +164,10 @@ Item {
         anchors.verticalCenter: parent.verticalCenter
         z: 2
         clip: true
-
+        
+        
+        
+        
         onClicked: {
             root.fi_DeleteButton_clicked();
         }
@@ -170,11 +183,12 @@ Item {
         onRepeatingTriggered: {
             root.fi_DeleteButton_repeatingTriggered();
         }
+        
     }
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //States----------------------------------------------------------------------------------------
-
+    
     //----------------------------------------------------------------------------------------------
 }

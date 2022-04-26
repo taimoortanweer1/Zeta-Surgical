@@ -3,15 +3,17 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
 
+
 //USES ComponentsSet.AutoRepeatMouseArea
 //USES BorderImage
 //USES ComponentsSet.Label
 //PREVIEW IMAGE qrc:/GeneratedComponents/assets/Button.png
 
+
 //EDITABLE TRUE
 Item {
     id: root
-
+    
     //Exposed properties----------------------------------------------------------------------------
     property bool doubleClickEnabeld: false
     property int itemIndex: 0
@@ -108,24 +110,24 @@ Item {
     property alias fi_CT_Scans_and_stuff_textColor: fi_CT_Scans_and_stuff___default.textColor
     //TEXTVAL 128
     property alias fi_CT_Scans_and_stuff_verticalAlignment: fi_CT_Scans_and_stuff___default.verticalAlignment
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Exposed signals-------------------------------------------------------------------------------
     signal clicked() /*__mouseArea.clicked*/
     signal doubleClicked() /*__mouseArea.doubleClicked*/
     signal pressed() /*__mouseArea.pressed*/
     signal released() /*__mouseArea.released*/
     signal repeatingTriggered() /*__mouseArea.repeatingTriggered*/
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Local bindings--------------------------------------------------------------------------------
     width: 1232
     height: 96
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Children--------------------------------------------------------------------------------------
     ComponentsSet.AutoRepeatMouseArea {
         id: __mouseArea
@@ -137,7 +139,10 @@ Item {
         doubleClickEnabeld: root.doubleClickEnabeld
         minimumRepeatInterval: root.minimumRepeatInterval
         repeateInterval: root.repeateInterval
-
+        
+        
+        
+        
         onClicked: {
             root.clicked();
         }
@@ -153,6 +158,7 @@ Item {
         onRepeatingTriggered: {
             root.repeatingTriggered();
         }
+        
     }
     BorderImage {
         id: fi_Rectangle_91___default
@@ -165,6 +171,11 @@ Item {
         border.left: 47
         border.right: 47
         border.top: 47
+        
+        
+        
+        
+        
     }
     ComponentsSet.Label {
         id: fi_02_2_2022___default
@@ -183,6 +194,11 @@ Item {
         wrapMode: Text.WordWrap
         lineHeight: 20
         lineHeightMode: Text.FixedHeight
+        
+        
+        
+        
+        
     }
     ComponentsSet.Label {
         id: fi_BWH12345___default
@@ -201,6 +217,11 @@ Item {
         wrapMode: Text.WordWrap
         lineHeight: 20
         lineHeightMode: Text.FixedHeight
+        
+        
+        
+        
+        
     }
     ComponentsSet.Label {
         id: fi_CT_Scans_and_stuff___default
@@ -219,6 +240,11 @@ Item {
         wrapMode: Text.WordWrap
         lineHeight: 20
         lineHeightMode: Text.FixedHeight
+        
+        
+        
+        
+        
     }
     ComponentsSet.Label {
         id: fi_5___default
@@ -237,6 +263,11 @@ Item {
         wrapMode: Text.WordWrap
         lineHeight: 20
         lineHeightMode: Text.FixedHeight
+        
+        
+        
+        
+        
     }
     ComponentsSet.Label {
         id: fi_02_14_2022___default
@@ -255,10 +286,15 @@ Item {
         wrapMode: Text.WordWrap
         lineHeight: 20
         lineHeightMode: Text.FixedHeight
+        
+        
+        
+        
+        
     }
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //States----------------------------------------------------------------------------------------
     StateGroup { //
         states: [
@@ -268,7 +304,9 @@ Item {
             PropertyChanges {
                 target: fi_Rectangle_91___default
                 source: GreenHouseThemeManager.theme.asset("/164_7741.png")
+                
             }
+            
         },
         State {
             when: (root.selectionIndex == root.itemIndex)
@@ -276,13 +314,15 @@ Item {
             PropertyChanges {
                 target: fi_Rectangle_91___default
                 source: GreenHouseThemeManager.theme.asset("/164_7721.png")
+                
             }
+            
         }
         ]
         transitions: [
-
+        
         ]
     }
-
+    
     //----------------------------------------------------------------------------------------------
 }

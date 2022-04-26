@@ -3,16 +3,18 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
 
+
 //USES BorderImage
 //USES ComponentsSet.Label
 //USES Item
 //USES ComponentsSet.AutoRepeatMouseArea
 //PREVIEW IMAGE qrc:/GeneratedComponents/assets/Button.png
 
+
 //EDITABLE TRUE
 Item {
     id: root
-
+    
     //Exposed properties----------------------------------------------------------------------------
     property bool activated_flag: false
     property bool doubleClickEnabeld: false
@@ -36,24 +38,24 @@ Item {
     property alias fi_Default_Target_textColor: fi_Default_Target___activated.textColor
     //TEXTVAL 128
     property alias fi_Default_Target_verticalAlignment: fi_Default_Target___activated.verticalAlignment
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Exposed signals-------------------------------------------------------------------------------
     signal clicked() /*__mouseArea.clicked*/
     signal doubleClicked() /*__mouseArea.doubleClicked*/
     signal pressed() /*__mouseArea.pressed*/
     signal released() /*__mouseArea.released*/
     signal repeatingTriggered() /*__mouseArea.repeatingTriggered*/
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Local bindings--------------------------------------------------------------------------------
     width: 368
     height: 80
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Children--------------------------------------------------------------------------------------
     Item {
         id: activated_StateParent
@@ -62,7 +64,9 @@ Item {
         anchors.top: parent.top
         anchors.bottom: parent.bottom
         visible: false
-
+        
+        
+        
         BorderImage {
             id: fi_Background_9seg_40_40_40_40___activated
             anchors.left: parent.left
@@ -74,6 +78,11 @@ Item {
             border.left: 39
             border.right: 39
             border.top: 39
+            
+            
+            
+            
+            
         }
         ComponentsSet.Label {
             id: fi_Default_Target___activated
@@ -91,7 +100,14 @@ Item {
             wrapMode: Text.WordWrap
             lineHeight: 20
             lineHeightMode: Text.FixedHeight
+            
+            
+            
+            
+            
         }
+        
+        
     }
     ComponentsSet.AutoRepeatMouseArea {
         id: __mouseArea
@@ -103,7 +119,10 @@ Item {
         doubleClickEnabeld: root.doubleClickEnabeld
         minimumRepeatInterval: root.minimumRepeatInterval
         repeateInterval: root.repeateInterval
-
+        
+        
+        
+        
         onClicked: {
             root.clicked();
         }
@@ -119,6 +138,7 @@ Item {
         onRepeatingTriggered: {
             root.repeatingTriggered();
         }
+        
     }
     BorderImage {
         id: fi_Background_9seg_40_40_40_40___default
@@ -131,6 +151,11 @@ Item {
         border.left: 39
         border.right: 39
         border.top: 39
+        
+        
+        
+        
+        
     }
     ComponentsSet.Label {
         id: fi_Default_Target___default
@@ -151,10 +176,15 @@ Item {
         lineHeight: fi_Default_Target___activated.lineHeight
         lineHeightMode: fi_Default_Target___activated.lineHeightMode
         richText: fi_Default_Target___activated.richText
+        
+        
+        
+        
+        
     }
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //States----------------------------------------------------------------------------------------
     StateGroup { //
         states: [
@@ -164,7 +194,9 @@ Item {
             PropertyChanges {
                 target: fi_Background_9seg_40_40_40_40___default
                 source: GreenHouseThemeManager.theme.asset("/34_2708.png")
+                
             }
+            
         },
         State {
             when: __mouseArea.pressed
@@ -172,11 +204,13 @@ Item {
             PropertyChanges {
                 target: fi_Background_9seg_40_40_40_40___default
                 source: GreenHouseThemeManager.theme.asset("/146_1677.png")
+                
             }
+            
         }
         ]
         transitions: [
-
+        
         ]
     }
     StateGroup { // generic_activated
@@ -188,13 +222,15 @@ Item {
                 target: activated_StateParent
                 visible: true
                 z: 999
+                
             }
+            
         }
         ]
         transitions: [
-
+        
         ]
     }
-
+    
     //----------------------------------------------------------------------------------------------
 }

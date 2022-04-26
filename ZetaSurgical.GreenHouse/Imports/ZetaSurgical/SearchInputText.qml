@@ -3,16 +3,18 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
 
+
 //USES BorderImage
 //USES Image
 //USES Item
 //USES ComponentsSet.RegularTextInput
 //PREVIEW IMAGE qrc:/GeneratedComponents/assets/TextInput.png
 
+
 //EDITABLE TRUE
 FocusScope {
     id: root
-
+    
     //Exposed properties----------------------------------------------------------------------------
     property bool filled_flag: false
     //ASSET /Icons/Search__DefaultState.png
@@ -43,21 +45,21 @@ FocusScope {
     property alias input_passwordCharacter: input.passwordCharacter
     //STRING
     property alias input_regExp: input.regExp
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Exposed signals-------------------------------------------------------------------------------
     signal input_accepted() /*input.accepted*/
     signal input_textChanged(string text) /*input.textChanged*/
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Local bindings--------------------------------------------------------------------------------
     width: 816
     height: 48
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Children--------------------------------------------------------------------------------------
     Item {
         id: default_StateParent
@@ -65,7 +67,9 @@ FocusScope {
         anchors.right: parent.right
         anchors.top: parent.top
         anchors.bottom: parent.bottom
-
+        
+        
+        
         BorderImage {
             id: fi_Rectangle___default
             anchors.left: parent.left
@@ -77,6 +81,11 @@ FocusScope {
             border.left: 23
             border.right: 23
             border.top: 23
+            
+            
+            
+            
+            
         }
         Image {
             id: icon___default
@@ -87,7 +96,14 @@ FocusScope {
             width: 32
             height: 32
             source: GreenHouseThemeManager.theme.asset("/Icons/Search__DefaultState.png")
+            
+            
+            
+            
+            
         }
+        
+        
     }
     ComponentsSet.RegularTextInput {
         id: input
@@ -102,13 +118,17 @@ FocusScope {
         color: GreenHouseThemeManager.theme.color("Text/User Input Label")
         verticalAlignment: Text.AlignVCenter
         clip: true
-
+        
+        
+        
+        
         onAccepted: {
             root.input_accepted();
         }
         onTextChanged: {
             root.input_textChanged(text);
         }
+        
     }
     Item {
         id: filled_StateParent
@@ -117,7 +137,9 @@ FocusScope {
         anchors.top: parent.top
         anchors.bottom: parent.bottom
         visible: false
-
+        
+        
+        
         BorderImage {
             id: fi_Rectangle___filled
             anchors.left: parent.left
@@ -129,6 +151,11 @@ FocusScope {
             border.left: 24
             border.right: 24
             border.top: 24
+            
+            
+            
+            
+            
         }
         Image {
             id: icon___filled
@@ -141,7 +168,14 @@ FocusScope {
             height: 32
             source: GreenHouseThemeManager.theme.asset("/Icons/Search__SelectedState.png")
             opacity: icon___default.opacity
+            
+            
+            
+            
+            
         }
+        
+        
     }
     Item {
         id: selected_StateParent
@@ -149,7 +183,9 @@ FocusScope {
         anchors.right: parent.right
         anchors.top: parent.top
         anchors.bottom: parent.bottom
-
+        
+        
+        
         BorderImage {
             id: fi_Rectangle___selected
             anchors.left: parent.left
@@ -161,6 +197,11 @@ FocusScope {
             border.left: 24
             border.right: 24
             border.top: 24
+            
+            
+            
+            
+            
         }
         Image {
             id: icon___selected
@@ -173,11 +214,18 @@ FocusScope {
             height: 32
             source: GreenHouseThemeManager.theme.asset("/Icons/Search__SelectedState.png")
             opacity: icon___default.opacity
+            
+            
+            
+            
+            
         }
+        
+        
     }
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //States----------------------------------------------------------------------------------------
     StateGroup { //
         states: [
@@ -187,11 +235,14 @@ FocusScope {
             PropertyChanges {
                 target: default_StateParent
                 visible: true
+                
             }
             PropertyChanges {
                 target: selected_StateParent
                 visible: false
+                
             }
+            
         },
         State {
             when: input.activeFocus
@@ -199,19 +250,23 @@ FocusScope {
             PropertyChanges {
                 target: default_StateParent
                 visible: false
+                
             }
             PropertyChanges {
                 target: input
                 color: GreenHouseThemeManager.theme.color("Text/Blue 2 - Input")
+                
             }
             PropertyChanges {
                 target: selected_StateParent
                 visible: true
+                
             }
+            
         }
         ]
         transitions: [
-
+        
         ]
     }
     StateGroup { // HintAndInput
@@ -219,14 +274,16 @@ FocusScope {
         State {
             when: input.text === "" && !input.activeFocus
             name: "InputEmptyAndNotFocused"
+            
         },
         State {
             when: input.text !== "" || input.activeFocus
             name: "InputNotEmptyOrFocused"
+            
         }
         ]
         transitions: [
-
+        
         ]
     }
     StateGroup { // generic_filled
@@ -238,17 +295,20 @@ FocusScope {
                 target: filled_StateParent
                 visible: true
                 z: 999
+                
             }
             PropertyChanges {
                 target: input
                 color: GreenHouseThemeManager.theme.color("Text/Blue 2 - Input")
+                
             }
+            
         }
         ]
         transitions: [
-
+        
         ]
     }
-
+    
     //----------------------------------------------------------------------------------------------
 }

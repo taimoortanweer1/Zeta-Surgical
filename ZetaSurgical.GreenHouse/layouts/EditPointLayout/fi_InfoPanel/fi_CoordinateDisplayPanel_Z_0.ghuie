@@ -10,7 +10,7 @@
         "anchorValue": "Right"
     },
     "anchorTop": {
-        "anchorMargin": 112,
+        "anchorMargin": 600,
         "anchorTarget": "parent",
         "anchorValue": "Top"
     },
@@ -38,12 +38,12 @@
         "y": {
             "name": "y",
             "type": "Int",
-            "value": 112
+            "value": 600
         },
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 3
+            "value": 2
         }
     },
     "targetFile": "fi_CoordinateDisplayPanel_Z_0.ghuie",

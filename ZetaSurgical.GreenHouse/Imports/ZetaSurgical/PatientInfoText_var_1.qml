@@ -3,12 +3,14 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
 
+
 //USES ComponentsSet.Label
+
 
 //EDITABLE TRUE
 Item {
     id: root
-
+    
     //Exposed properties----------------------------------------------------------------------------
     //FONT Figma::Arial_ArialMT_32_50_0_0_0_0_0.2
     property alias fi_01_01_1990_font: fi_01_01_1990.font
@@ -118,19 +120,19 @@ Item {
     property alias fi_Patient_Name__text: fi_Patient_Name_.text
     //TEXTVAL 128
     property alias fi_Patient_Name__verticalAlignment: fi_Patient_Name_.verticalAlignment
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Exposed signals-------------------------------------------------------------------------------
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Local bindings--------------------------------------------------------------------------------
     width: 864
     height: 128
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Children--------------------------------------------------------------------------------------
     ComponentsSet.Label {
         id: fi_Date_of_Birth_
@@ -147,6 +149,11 @@ Item {
         wrapMode: Text.WordWrap
         lineHeight: 30
         lineHeightMode: Text.FixedHeight
+        
+        
+        
+        
+        
     }
     ComponentsSet.Label {
         id: fi_MRN_
@@ -164,6 +171,11 @@ Item {
         wrapMode: Text.WordWrap
         lineHeight: 30
         lineHeightMode: Text.FixedHeight
+        
+        
+        
+        
+        
     }
     ComponentsSet.Label {
         id: fi_Patient_Name_
@@ -181,6 +193,11 @@ Item {
         wrapMode: Text.WordWrap
         lineHeight: 30
         lineHeightMode: Text.FixedHeight
+        
+        
+        
+        
+        
     }
     ComponentsSet.Label {
         id: fi_John_Doe
@@ -198,6 +215,11 @@ Item {
         wrapMode: Text.WordWrap
         lineHeight: 32
         lineHeightMode: Text.FixedHeight
+        
+        
+        
+        
+        
     }
     ComponentsSet.Label {
         id: fi_9089123423
@@ -215,6 +237,11 @@ Item {
         wrapMode: Text.WordWrap
         lineHeight: 32
         lineHeightMode: Text.FixedHeight
+        
+        
+        
+        
+        
     }
     ComponentsSet.Label {
         id: fi_01_01_1990
@@ -232,11 +259,16 @@ Item {
         wrapMode: Text.WordWrap
         lineHeight: 32
         lineHeightMode: Text.FixedHeight
+        
+        
+        
+        
+        
     }
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //States----------------------------------------------------------------------------------------
-
+    
     //----------------------------------------------------------------------------------------------
 }

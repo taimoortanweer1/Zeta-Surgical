@@ -1,0 +1,240 @@
+{
+    "aliasList": {
+        "input": [
+            {
+                "aliasElement": "color",
+                "aliasName": "input_color",
+                "aliasSource": "input"
+            },
+            {
+                "aliasElement": "enabled",
+                "aliasName": "input_enabled",
+                "aliasSource": "input"
+            },
+            {
+                "aliasElement": "text",
+                "aliasName": "input_inputText",
+                "aliasSource": "input"
+            },
+            {
+                "aliasElement": "echoMode",
+                "aliasName": "input_echoMode",
+                "aliasSource": "input"
+            },
+            {
+                "aliasElement": "inputMask",
+                "aliasName": "input_inputMask",
+                "aliasSource": "input"
+            },
+            {
+                "aliasElement": "passwordCharacter",
+                "aliasName": "input_passwordCharacter",
+                "aliasSource": "input"
+            },
+            {
+                "aliasElement": "regExp",
+                "aliasName": "input_regExp",
+                "aliasSource": "input"
+            },
+            {
+                "aliasElement": "autoClear",
+                "aliasName": "input_autoClear",
+                "aliasSource": "input"
+            },
+            {
+                "aliasElement": "inputFocus",
+                "aliasName": "input_focus",
+                "aliasSource": "input"
+            },
+            {
+                "aliasElement": "inputMethodHints",
+                "aliasName": "input_inputMethodHints",
+                "aliasSource": "input"
+            }
+        ]
+    },
+    "animations": [
+    ],
+    "componentLayout": {
+        "blockInputFallthrough": true,
+        "children": [
+            {
+                "children": [
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "fi_Rectangle",
+                        "properties": {
+                            "border-bottom": {
+                                "name": "border-bottom",
+                                "type": "Int",
+                                "value": 23
+                            },
+                            "border-left": {
+                                "name": "border-left",
+                                "type": "Int",
+                                "value": 23
+                            },
+                            "border-right": {
+                                "name": "border-right",
+                                "type": "Int",
+                                "value": 23
+                            },
+                            "border-top": {
+                                "name": "border-top",
+                                "type": "Int",
+                                "value": 23
+                            },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 48
+                            },
+                            "source": {
+                                "name": "source",
+                                "type": "Asset",
+                                "value": "/628_3477.png"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 120
+                            }
+                        },
+                        "targetFile": "fi_Rectangle.ghuie",
+                        "type": "BorderImage",
+                        "userDefined": false
+                    },
+                    {
+                        "anchorBottom": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Bottom"
+                        },
+                        "anchorLeft": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Left"
+                        },
+                        "anchorRight": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Right"
+                        },
+                        "anchorTop": {
+                            "anchorTarget": "parent",
+                            "anchorValue": "Top"
+                        },
+                        "childrenSplit": true,
+                        "id": "input",
+                        "properties": {
+                            "clip": {
+                                "name": "clip",
+                                "type": "Bool",
+                                "value": true
+                            },
+                            "color": {
+                                "name": "color",
+                                "type": "Color",
+                                "value": "Text/Blue 2 - Input"
+                            },
+                            "font": {
+                                "name": "font",
+                                "type": "Font",
+                                "value": "Figma::Arial_ArialMT_32_50_0_0_0_0_0.2"
+                            },
+                            "horizontalAlignment": {
+                                "name": "horizontalAlignment",
+                                "type": "TextHorizontalAlignment",
+                                "value": "AlignHCenter"
+                            },
+                            "verticalAlignment": {
+                                "name": "verticalAlignment",
+                                "type": "TextVerticalAlignment",
+                                "value": "AlignVCenter"
+                            },
+                            "width": {
+                                "name": "width",
+                                "type": "Int",
+                                "value": 120
+                            },
+                            "z": {
+                                "name": "z",
+                                "type": "Int",
+                                "value": 998
+                            }
+                        },
+                        "targetFile": "input.ghuie",
+                        "type": "ComponentsSet.RegularTextInput",
+                        "userDefined": false
+                    }
+                ],
+                "childrenSplit": true,
+                "id": "root",
+                "properties": {
+                    "height": {
+                        "name": "height",
+                        "type": "Int",
+                        "value": 48
+                    },
+                    "width": {
+                        "name": "width",
+                        "type": "Int",
+                        "value": 120
+                    }
+                },
+                "targetFile": "root.ghuie",
+                "type": "FocusScope",
+                "userDefined": false
+            }
+        ],
+        "childrenSplit": true,
+        "fillParent": false,
+        "height": 48,
+        "hideAnimation": {
+            "type": "Sequential"
+        },
+        "interfaceName": "",
+        "name": "___TEMP_LAYOUT___ZetaSurgicalSet.GenericCTDataText_Default_State",
+        "posX": 0,
+        "posY": 0,
+        "rootContainerType": "Item",
+        "showAnimation": {
+            "type": "Sequential"
+        },
+        "targetFile": "___TEMP_LAYOUT___ZetaSurgicalSet.GenericCTDataText_Default_State.ghl",
+        "width": 120
+    },
+    "componentName": "ZetaSurgicalSet.GenericCTDataText_Default_State",
+    "properties": [
+    ],
+    "signalList": {
+        "input": [
+            {
+                "aliasElement": "accepted",
+                "aliasName": "input_accepted",
+                "aliasSource": "input"
+            },
+            {
+                "aliasElement": "textChanged",
+                "aliasName": "input_textChanged",
+                "aliasSource": "input"
+            }
+        ]
+    },
+    "states": {
+    },
+    "targetFile": "GenericCTDataText_Default_State.ghcomp"
+}

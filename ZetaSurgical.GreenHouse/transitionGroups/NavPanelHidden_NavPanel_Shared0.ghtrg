@@ -1,0 +1,18 @@
+{
+    "source": "NavPanelHidden",
+    "target": "NavPanel_Shared0",
+    "targetFile": "NavPanelHidden_NavPanel_Shared0.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "showNavPanel"
+            },
+            "template": "SignalTransition"
+        }
+    ]
+}

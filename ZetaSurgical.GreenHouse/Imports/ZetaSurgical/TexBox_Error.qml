@@ -3,12 +3,14 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
 
+
 //USES ComponentsSet.Label
+
 
 //EDITABLE TRUE
 Item {
     id: root
-
+    
     //Exposed properties----------------------------------------------------------------------------
     property int itemIndex: 0
     property int selectionIndex: -1
@@ -28,19 +30,19 @@ Item {
     property alias fi_Error_Font_text: fi_Error_Font___active.text
     //TEXTVAL 128
     property alias fi_Error_Font_verticalAlignment: fi_Error_Font___active.verticalAlignment
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Exposed signals-------------------------------------------------------------------------------
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Local bindings--------------------------------------------------------------------------------
     width: 464
     height: 48
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Children--------------------------------------------------------------------------------------
     ComponentsSet.Label {
         id: fi_Error_Font___active
@@ -57,10 +59,15 @@ Item {
         wrapMode: Text.WordWrap
         lineHeight: 30
         lineHeightMode: Text.FixedHeight
+        
+        
+        
+        
+        
     }
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //States----------------------------------------------------------------------------------------
     StateGroup { //
         states: [
@@ -70,7 +77,9 @@ Item {
             PropertyChanges {
                 target: fi_Error_Font___active
                 textColor: GreenHouseThemeManager.theme.color("Figma::0_0_0_0")
+                
             }
+            
         },
         State {
             when: (root.selectionIndex == root.itemIndex)
@@ -78,13 +87,15 @@ Item {
             PropertyChanges {
                 target: fi_Error_Font___active
                 textColor: GreenHouseThemeManager.theme.color("Icon/Red")
+                
             }
+            
         }
         ]
         transitions: [
-
+        
         ]
     }
-
+    
     //----------------------------------------------------------------------------------------------
 }

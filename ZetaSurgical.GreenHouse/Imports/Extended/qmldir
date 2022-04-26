@@ -2,3 +2,4 @@ module Extended
 
 CameraView 1.0 CameraView.qml
 ViewLayout 1.0 ViewLayout.qml
+CtAxialView 1.0 CtAxialView.qml

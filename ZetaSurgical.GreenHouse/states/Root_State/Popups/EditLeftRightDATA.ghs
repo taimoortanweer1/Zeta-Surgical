@@ -1,0 +1,27 @@
+{
+    "children": [
+    ],
+    "childrenSplit": true,
+    "entryActions": [
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        }
+    ],
+    "extraData": {
+        "FIGMA": "kKItBBA5TYuCVGxWbPVftH",
+        "orderValue": 2
+    },
+    "properties": {
+        "childViewType": "ChildStateView",
+        "initial": false,
+        "layoutFile": "EditLeftRightDATALayout",
+        "layoutFileTemplate": "%1Impl.qml",
+        "name": "EditLeftRightDATA",
+        "parallel": false,
+        "parentingEnabled": true,
+        "preloadUI": false
+    },
+    "targetFile": "EditLeftRightDATA.ghs",
+    "template": "ItemState"
+}

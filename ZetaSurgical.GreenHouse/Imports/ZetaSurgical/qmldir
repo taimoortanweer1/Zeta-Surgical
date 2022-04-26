@@ -57,10 +57,13 @@ TripleValue 1.0 TripleValue.qml
 NorthButton_Default_State 1.0 NorthButton_Default_State.qml
 EastButton_Default_State 1.0 EastButton_Default_State.qml
 WestButton_Default_State 1.0 WestButton_Default_State.qml
-SourhtButton_Default_State 1.0 SourhtButton_Default_State.qml
 SelectButtonDelegate 1.0 SelectButtonDelegate.qml
 ToggleEye 1.0 ToggleEye.qml
 MoreButton_Default_State 1.0 MoreButton_Default_State.qml
 RenameTitleText 1.0 RenameTitleText.qml
-LoginInputButtonHighlighted_Default_State 1.0 LoginInputButtonHighlighted_Default_State.qml
 ProgressIndicator_SortOrder 1.0 ProgressIndicator_SortOrder.qml
+MiniKeyboardButton_FunctionRightBlue 1.0 MiniKeyboardButton_FunctionRightBlue.qml
+MiniKeyboardButton_FunctionRightGrey 1.0 MiniKeyboardButton_FunctionRightGrey.qml
+MiniKeyboardButton_LetterNumber 1.0 MiniKeyboardButton_LetterNumber.qml
+GenericCTDataText_Default_State 1.0 GenericCTDataText_Default_State.qml
+SouthButton_Default_State 1.0 SouthButton_Default_State.qml

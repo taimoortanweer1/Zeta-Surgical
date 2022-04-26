@@ -3,15 +3,17 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
 
+
 //USES Image
 //USES ComponentsSet.Label
 //USES ComponentsSet.AutoRepeatMouseArea
 //PREVIEW IMAGE qrc:/GeneratedComponents/assets/Button.png
 
+
 //EDITABLE TRUE
 Item {
     id: root
-
+    
     //Exposed properties----------------------------------------------------------------------------
     property bool doubleClickEnabeld: false
     property int minimumRepeatInterval: 100
@@ -42,24 +44,24 @@ Item {
     property alias icon_opacity: icon.opacity
     //ASSET /Icons/RightArrow__DefaultState.png
     property alias icon_source: icon.source
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Exposed signals-------------------------------------------------------------------------------
     signal clicked() /*__mouseArea.clicked*/
     signal doubleClicked() /*__mouseArea.doubleClicked*/
     signal pressed() /*__mouseArea.pressed*/
     signal released() /*__mouseArea.released*/
     signal repeatingTriggered() /*__mouseArea.repeatingTriggered*/
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Local bindings--------------------------------------------------------------------------------
     width: 96
     height: 240
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Children--------------------------------------------------------------------------------------
     Image {
         id: fi_Ellipse_229
@@ -70,6 +72,11 @@ Item {
         width: 95
         height: 228
         source: GreenHouseThemeManager.theme.asset("/366_3480.png")
+        
+        
+        
+        
+        
     }
     ComponentsSet.Label {
         id: fi_R
@@ -89,6 +96,11 @@ Item {
         wrapMode: Text.WordWrap
         lineHeight: 20
         lineHeightMode: Text.FixedHeight
+        
+        
+        
+        
+        
     }
     Image {
         id: icon
@@ -98,6 +110,11 @@ Item {
         width: 48
         height: 48
         source: GreenHouseThemeManager.theme.asset("/Icons/RightArrow__DefaultState.png")
+        
+        
+        
+        
+        
     }
     ComponentsSet.AutoRepeatMouseArea {
         id: __mouseArea
@@ -109,7 +126,10 @@ Item {
         doubleClickEnabeld: root.doubleClickEnabeld
         minimumRepeatInterval: root.minimumRepeatInterval
         repeateInterval: root.repeateInterval
-
+        
+        
+        
+        
         onClicked: {
             root.clicked();
         }
@@ -125,11 +145,12 @@ Item {
         onRepeatingTriggered: {
             root.repeatingTriggered();
         }
+        
     }
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //States----------------------------------------------------------------------------------------
-
+    
     //----------------------------------------------------------------------------------------------
 }

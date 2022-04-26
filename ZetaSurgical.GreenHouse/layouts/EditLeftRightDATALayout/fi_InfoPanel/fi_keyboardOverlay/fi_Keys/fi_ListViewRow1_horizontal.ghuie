@@ -1,0 +1,50 @@
+{
+    "anchorLeft": {
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "I628:3514;614:3165"
+    },
+    "id": "fi_ListViewRow1_horizontal",
+    "properties": {
+        "delegateSpacing": {
+            "name": "delegateSpacing",
+            "type": "Int",
+            "value": 6
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 80
+        },
+        "vertical": {
+            "name": "vertical",
+            "type": "Bool",
+            "value": false
+        },
+        "viewDelegate": {
+            "name": "viewDelegate",
+            "type": "Delegate",
+            "value": "fi_ListViewRow1_horizontal_delegate"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 434
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 7
+        }
+    },
+    "targetFile": "fi_ListViewRow1_horizontal.ghuie",
+    "type": "ComponentsSet.ModelView",
+    "userDefined": false
+}

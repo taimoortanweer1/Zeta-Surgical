@@ -5,7 +5,7 @@
         "anchorValue": "Bottom"
     },
     "anchorHCenter": {
-        "anchorMargin": -122,
+        "anchorMargin": -124,
         "anchorTarget": "parent",
         "anchorValue": "HorizontalCenter"
     },
@@ -26,12 +26,12 @@
         "x": {
             "name": "x",
             "type": "Int",
-            "value": 58
+            "value": 56
         },
         "y": {
             "name": "y",
             "type": "Int",
-            "value": 194
+            "value": 158
         },
         "z": {
             "name": "z",

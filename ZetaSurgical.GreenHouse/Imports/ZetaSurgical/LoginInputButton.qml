@@ -3,18 +3,22 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
 
+
 //USES ComponentsSet.RegularTextInput
-//USES ComponentsSet.AutoRepeatMouseArea
 //USES BorderImage
 //USES ComponentsSet.Label
+//USES Item
+//USES ComponentsSet.AutoRepeatMouseArea
 //PREVIEW IMAGE qrc:/GeneratedComponents/assets/TextInput.png
+
 
 //EDITABLE TRUE
 FocusScope {
     id: root
-
+    
     //Exposed properties----------------------------------------------------------------------------
     property bool doubleClickEnabeld: false
+    property bool highlighted_flag: false
     property int minimumRepeatInterval: 100
     property int repeateInterval: 1000
     //FONT Figma::Arial_ArialMT_22_50_0_0_0_0_0.2
@@ -53,9 +57,9 @@ FocusScope {
     property alias input_passwordCharacter: input.passwordCharacter
     //STRING
     property alias input_regExp: input.regExp
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Exposed signals-------------------------------------------------------------------------------
     signal clicked() /*__mouseArea.clicked*/
     signal doubleClicked() /*__mouseArea.doubleClicked*/
@@ -64,15 +68,15 @@ FocusScope {
     signal repeatingTriggered() /*__mouseArea.repeatingTriggered*/
     signal input_accepted() /*input.accepted*/
     signal input_textChanged(string text) /*input.textChanged*/
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Local bindings--------------------------------------------------------------------------------
     width: 528
     height: 80
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Children--------------------------------------------------------------------------------------
     ComponentsSet.RegularTextInput {
         id: input
@@ -86,13 +90,71 @@ FocusScope {
         color: GreenHouseThemeManager.theme.color("Text/User Input Label")
         verticalAlignment: Text.AlignVCenter
         clip: true
-
+        
+        
+        
+        
         onAccepted: {
             root.input_accepted();
         }
         onTextChanged: {
             root.input_textChanged(text);
         }
+        
+    }
+    Item {
+        id: highlighted_StateParent
+        anchors.left: parent.left
+        anchors.right: parent.right
+        anchors.top: parent.top
+        anchors.bottom: parent.bottom
+        visible: false
+        
+        
+        
+        BorderImage {
+            id: fi_Rectangle___highlighted
+            anchors.left: parent.left
+            anchors.right: parent.right
+            anchors.top: parent.top
+            anchors.bottom: parent.bottom
+            source: GreenHouseThemeManager.theme.asset("/11_1323.png")
+            border.bottom: 39
+            border.left: 39
+            border.right: 39
+            border.top: 39
+            
+            
+            
+            
+            
+        }
+        ComponentsSet.Label {
+            id: fi_ID___highlighted
+            anchors.left: parent.left
+            anchors.leftMargin: -1
+            anchors.verticalCenter: parent.verticalCenter
+            z: 2
+            width: 82
+            height: 82
+            text: fi_ID___default.text
+            font: fi_ID___default.font
+            textColor: GreenHouseThemeManager.theme.color("Text/Blue 2 - Input")
+            opacity: fi_ID___default.opacity
+            horizontalAlignment: fi_ID___default.horizontalAlignment
+            verticalAlignment: fi_ID___default.verticalAlignment
+            wrapMode: Text.WordWrap
+            lineHeight: fi_ID___default.lineHeight
+            lineHeightMode: fi_ID___default.lineHeightMode
+            richText: fi_ID___default.richText
+            
+            
+            
+            
+            
+        }
+        
+        
     }
     ComponentsSet.AutoRepeatMouseArea {
         id: __mouseArea
@@ -104,7 +166,10 @@ FocusScope {
         doubleClickEnabeld: root.doubleClickEnabeld
         minimumRepeatInterval: root.minimumRepeatInterval
         repeateInterval: root.repeateInterval
-
+        
+        
+        
+        
         onClicked: {
             root.clicked();
         }
@@ -120,6 +185,7 @@ FocusScope {
         onRepeatingTriggered: {
             root.repeatingTriggered();
         }
+        
     }
     BorderImage {
         id: fi_Rectangle___default
@@ -132,6 +198,11 @@ FocusScope {
         border.left: 39
         border.right: 39
         border.top: 39
+        
+        
+        
+        
+        
     }
     ComponentsSet.Label {
         id: fi_ID___default
@@ -149,10 +220,15 @@ FocusScope {
         wrapMode: Text.WordWrap
         lineHeight: 20
         lineHeightMode: Text.FixedHeight
+        
+        
+        
+        
+        
     }
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //States----------------------------------------------------------------------------------------
     StateGroup { //
         states: [
@@ -162,11 +238,14 @@ FocusScope {
             PropertyChanges {
                 target: fi_ID___default
                 textColor: GreenHouseThemeManager.theme.color("Text/User Input Label")
+                
             }
             PropertyChanges {
                 target: fi_Rectangle___default
                 source: GreenHouseThemeManager.theme.asset("/7_56.png")
+                
             }
+            
         },
         State {
             when: input.activeFocus
@@ -174,19 +253,23 @@ FocusScope {
             PropertyChanges {
                 target: fi_ID___default
                 textColor: GreenHouseThemeManager.theme.color("Text/Blue 2 - Input")
+                
             }
             PropertyChanges {
                 target: fi_Rectangle___default
                 source: GreenHouseThemeManager.theme.asset("/11_1315.png")
+                
             }
             PropertyChanges {
                 target: input
                 color: GreenHouseThemeManager.theme.color("Text/Blue 2 - Input")
+                
             }
+            
         }
         ]
         transitions: [
-
+        
         ]
     }
     StateGroup { // HintAndInput
@@ -194,16 +277,41 @@ FocusScope {
         State {
             when: input.text === "" && !input.activeFocus
             name: "InputEmptyAndNotFocused"
+            
         },
         State {
             when: input.text !== "" || input.activeFocus
             name: "InputNotEmptyOrFocused"
+            
         }
         ]
         transitions: [
-
+        
         ]
     }
-
+    StateGroup { // generic_highlighted
+        states: [
+        State {
+            when: root.highlighted_flag
+            name: "highlighted"
+            PropertyChanges {
+                target: highlighted_StateParent
+                visible: true
+                z: 999
+                
+            }
+            PropertyChanges {
+                target: input
+                color: GreenHouseThemeManager.theme.color("Text/Blue 2 - Input")
+                
+            }
+            
+        }
+        ]
+        transitions: [
+        
+        ]
+    }
+    
     //----------------------------------------------------------------------------------------------
 }

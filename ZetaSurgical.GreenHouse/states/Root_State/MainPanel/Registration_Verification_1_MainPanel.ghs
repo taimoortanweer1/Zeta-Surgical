@@ -1,0 +1,27 @@
+{
+    "children": [
+    ],
+    "childrenSplit": true,
+    "entryActions": [
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        }
+    ],
+    "extraData": {
+        "FIGMA": "kKItBBA5TYuCVGxWbPVftH",
+        "orderValue": 5
+    },
+    "properties": {
+        "childViewType": "ChildStateView",
+        "initial": false,
+        "layoutFile": "Registration_Verification_1_MainPanelLayout",
+        "layoutFileTemplate": "%1Impl.qml",
+        "name": "Registration_Verification_1_MainPanel",
+        "parallel": false,
+        "parentingEnabled": true,
+        "preloadUI": false
+    },
+    "targetFile": "Registration_Verification_1_MainPanel.ghs",
+    "template": "ItemState"
+}

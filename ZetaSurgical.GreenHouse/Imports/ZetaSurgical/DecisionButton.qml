@@ -3,15 +3,17 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
 
+
 //USES ComponentsSet.AutoRepeatMouseArea
 //USES BorderImage
 //USES ComponentsSet.Label
 //PREVIEW IMAGE qrc:/GeneratedComponents/assets/Button.png
 
+
 //EDITABLE TRUE
 Item {
     id: root
-
+    
     //Exposed properties----------------------------------------------------------------------------
     property bool doubleClickEnabeld: false
     property int itemIndex: 0
@@ -36,24 +38,24 @@ Item {
     property alias fi_TEXT_textColor: fi_TEXT___default.textColor
     //TEXTVAL 128
     property alias fi_TEXT_verticalAlignment: fi_TEXT___default.verticalAlignment
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Exposed signals-------------------------------------------------------------------------------
     signal clicked() /*__mouseArea.clicked*/
     signal doubleClicked() /*__mouseArea.doubleClicked*/
     signal pressed() /*__mouseArea.pressed*/
     signal released() /*__mouseArea.released*/
     signal repeatingTriggered() /*__mouseArea.repeatingTriggered*/
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Local bindings--------------------------------------------------------------------------------
     width: 158
     height: 80
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Children--------------------------------------------------------------------------------------
     ComponentsSet.AutoRepeatMouseArea {
         id: __mouseArea
@@ -65,7 +67,10 @@ Item {
         doubleClickEnabeld: root.doubleClickEnabeld
         minimumRepeatInterval: root.minimumRepeatInterval
         repeateInterval: root.repeateInterval
-
+        
+        
+        
+        
         onClicked: {
             root.clicked();
         }
@@ -81,6 +86,7 @@ Item {
         onRepeatingTriggered: {
             root.repeatingTriggered();
         }
+        
     }
     BorderImage {
         id: fi_Button_1___default
@@ -93,6 +99,11 @@ Item {
         border.left: 25
         border.right: 25
         border.top: 25
+        
+        
+        
+        
+        
     }
     ComponentsSet.Label {
         id: fi_TEXT___default
@@ -111,10 +122,15 @@ Item {
         wrapMode: Text.WordWrap
         lineHeight: 20
         lineHeightMode: Text.FixedHeight
+        
+        
+        
+        
+        
     }
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //States----------------------------------------------------------------------------------------
     StateGroup { //
         states: [
@@ -124,7 +140,9 @@ Item {
             PropertyChanges {
                 target: fi_Button_1___default
                 source: GreenHouseThemeManager.theme.asset("/35_1342.png")
+                
             }
+            
         },
         State {
             when: __mouseArea.pressed && !(root.selectionIndex == root.itemIndex)
@@ -132,7 +150,9 @@ Item {
             PropertyChanges {
                 target: fi_Button_1___default
                 source: GreenHouseThemeManager.theme.asset("/35_1353.png")
+                
             }
+            
         },
         State {
             when: !__mouseArea.pressed && (root.selectionIndex == root.itemIndex)
@@ -140,13 +160,15 @@ Item {
             PropertyChanges {
                 target: fi_Button_1___default
                 source: GreenHouseThemeManager.theme.asset("/35_1345.png")
+                
             }
+            
         }
         ]
         transitions: [
-
+        
         ]
     }
-
+    
     //----------------------------------------------------------------------------------------------
 }

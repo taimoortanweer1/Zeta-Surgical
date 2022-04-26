@@ -1,0 +1,47 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 178,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 416,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "628:3517"
+    },
+    "id": "fi_renumber2",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 40
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 100
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 178
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 416
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 3
+        }
+    },
+    "targetFile": "fi_renumber2.ghuie",
+    "type": "ZetaSurgicalSet.GenericCTDataText_Default_State",
+    "userDefined": false
+}

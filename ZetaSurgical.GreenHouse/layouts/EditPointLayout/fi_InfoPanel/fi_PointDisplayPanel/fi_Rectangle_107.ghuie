@@ -39,7 +39,7 @@
         "height": {
             "name": "height",
             "type": "Int",
-            "value": 484
+            "value": 448
         },
         "width": {
             "name": "width",

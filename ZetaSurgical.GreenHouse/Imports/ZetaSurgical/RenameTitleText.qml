@@ -3,14 +3,16 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
 
+
 //USES ComponentsSet.RegularTextInput
 //USES BorderImage
 //USES ComponentsSet.Label
 
+
 //EDITABLE TRUE
 FocusScope {
     id: root
-
+    
     //Exposed properties----------------------------------------------------------------------------
     property int itemIndex: 0
     property int selectionIndex: -1
@@ -52,21 +54,21 @@ FocusScope {
     property alias input_passwordCharacter: input.passwordCharacter
     //STRING
     property alias input_regExp: input.regExp
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Exposed signals-------------------------------------------------------------------------------
     signal input_accepted() /*input.accepted*/
     signal input_textChanged(string text) /*input.textChanged*/
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Local bindings--------------------------------------------------------------------------------
     width: 328
     height: 48
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Children--------------------------------------------------------------------------------------
     ComponentsSet.RegularTextInput {
         id: input
@@ -80,13 +82,17 @@ FocusScope {
         color: GreenHouseThemeManager.theme.color("Text/Blue 2 - Input")
         verticalAlignment: Text.AlignVCenter
         clip: true
-
+        
+        
+        
+        
         onAccepted: {
             root.input_accepted();
         }
         onTextChanged: {
             root.input_textChanged(text);
         }
+        
     }
     BorderImage {
         id: fi_Rectangle___default
@@ -99,6 +105,11 @@ FocusScope {
         border.left: 23
         border.right: 23
         border.top: 23
+        
+        
+        
+        
+        
     }
     ComponentsSet.Label {
         id: fi_ID___default
@@ -116,10 +127,15 @@ FocusScope {
         wrapMode: Text.WordWrap
         lineHeight: 20
         lineHeightMode: Text.FixedHeight
+        
+        
+        
+        
+        
     }
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //States----------------------------------------------------------------------------------------
     StateGroup { //
         states: [
@@ -129,7 +145,9 @@ FocusScope {
             PropertyChanges {
                 target: fi_Rectangle___default
                 source: GreenHouseThemeManager.theme.asset("/536_2724.png")
+                
             }
+            
         },
         State {
             when: (root.selectionIndex == root.itemIndex)
@@ -137,13 +155,15 @@ FocusScope {
             PropertyChanges {
                 target: fi_Rectangle___default
                 source: GreenHouseThemeManager.theme.asset("/536_2763.png")
+                
             }
+            
         }
         ]
         transitions: [
-
+        
         ]
     }
-
+    
     //----------------------------------------------------------------------------------------------
 }

@@ -4,6 +4,7 @@ import GreenHouse.Theming 1.0
 import ZetaSurgical 1.0 as ZetaSurgicalSet
 import Components 1.0 as ComponentsSet
 
+
 //USES BorderImage
 //USES ComponentsSet.Label
 //USES Image
@@ -14,10 +15,11 @@ import Components 1.0 as ComponentsSet
 //USES ZetaSurgicalSet.ListItemDropdown
 //PREVIEW IMAGE qrc:/GeneratedComponents/assets/ComboBox.png
 
+
 //EDITABLE TRUE
 Item {
     id: root
-
+    
     //Exposed properties----------------------------------------------------------------------------
     property bool pressed_flag: false
     property int selectionIndex: -1
@@ -49,9 +51,9 @@ Item {
     property alias icon_opacity: icon___collapsed.opacity
     //ASSET /Icons/DownTriangle__DefaultState.png
     property alias icon_source: icon___collapsed.source
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Exposed signals-------------------------------------------------------------------------------
     signal clicked() /*__focusArea.clicked*/
     signal fi_ListItemDropdown_doubleClicked(var valueRole, int index) /*fi_ListItemDropdown.doubleClicked*/
@@ -61,15 +63,15 @@ Item {
     signal selectionMade(var valueRole, int index) /*fi_ListItemDropdown.clicked*/
     signal fi_ListView_DropDown_FitDelegate_currentIndexUpdated(var index) /*fi_ListView_DropDown_FitDelegate.currentIndexUpdated*/
     signal fi_ListView_DropDown_FitDelegate_isDragging(var dragging) /*fi_ListView_DropDown_FitDelegate.isDragging*/
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Local bindings--------------------------------------------------------------------------------
     width: 160
     height: 64
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Children--------------------------------------------------------------------------------------
     Component {
         id: fi_ListView_DropDown_FitDelegate_delegate_cmp
@@ -79,7 +81,8 @@ Item {
             anchors.right: parent && (!ListView.view || ListView.view.orientation === ListView.Vertical) ? parent.right : undefined
             width: 160
             height: 64
-
+            
+            
             ZetaSurgicalSet.ListItemDropdown {
                 id: fi_ListItemDropdown
                 anchors.left: parent.left
@@ -87,7 +90,10 @@ Item {
                 anchors.top: parent.top
                 anchors.bottom: parent.bottom
                 fi_label_Role_Value_text: valueRole //ModelBound
-
+                
+                
+                
+                
                 onClicked: {
                     root.selectionMade(valueRole, index);
                 }
@@ -103,7 +109,10 @@ Item {
                 onRepeatingTriggered: {
                     root.fi_ListItemDropdown_repeatingTriggered(valueRole, index);
                 }
+                
             }
+            
+            
         }
     }
     Item {
@@ -112,7 +121,9 @@ Item {
         anchors.right: parent.right
         anchors.top: parent.top
         height: 64
-
+        
+        
+        
         BorderImage {
             id: fi_Rectangle_62___collapsed
             anchors.left: parent.left
@@ -124,6 +135,11 @@ Item {
             border.left: 5
             border.right: 5
             border.top: 5
+            
+            
+            
+            
+            
         }
         ComponentsSet.Label {
             id: fi_Coronal___collapsed
@@ -140,6 +156,11 @@ Item {
             wrapMode: Text.WordWrap
             lineHeight: 20
             lineHeightMode: Text.FixedHeight
+            
+            
+            
+            
+            
         }
         Image {
             id: icon___collapsed
@@ -149,7 +170,14 @@ Item {
             width: 64
             height: 64
             source: GreenHouseThemeManager.theme.asset("/Icons/DownTriangle__DefaultState.png")
+            
+            
+            
+            
+            
         }
+        
+        
     }
     ComponentsSet.DropDownContainer {
         id: expanded_StateParent
@@ -158,7 +186,9 @@ Item {
         anchors.top: parent.top
         delegateHeight: 64
         dropDownItem: fi_ListView_DropDown_FitDelegate
-
+        
+        
+        
         BorderImage {
             id: fi_Rectangle_62___expanded
             anchors.left: parent.left
@@ -168,6 +198,11 @@ Item {
             source: GreenHouseThemeManager.theme.asset("/164_1724.png")
             border.left: 5
             border.right: 5
+            
+            
+            
+            
+            
         }
         Image {
             id: icon___expanded
@@ -178,6 +213,11 @@ Item {
             height: 64
             source: icon___collapsed.source
             opacity: icon___collapsed.opacity
+            
+            
+            
+            
+            
         }
         ComponentsSet.Label {
             id: fi_Coronal___expanded
@@ -198,6 +238,11 @@ Item {
             lineHeight: fi_Coronal___collapsed.lineHeight
             lineHeightMode: fi_Coronal___collapsed.lineHeightMode
             richText: fi_Coronal___collapsed.richText
+            
+            
+            
+            
+            
         }
         ComponentsSet.ModelView {
             id: fi_ListView_DropDown_FitDelegate
@@ -209,14 +254,20 @@ Item {
             width: 160
             viewDelegate: fi_ListView_DropDown_FitDelegate_delegate_cmp
             currentDelegate: root.selectionIndex
-
+            
+            
+            
+            
             onCurrentIndexUpdated: {
                 root.fi_ListView_DropDown_FitDelegate_currentIndexUpdated(index);
             }
             onIsDragging: {
                 root.fi_ListView_DropDown_FitDelegate_isDragging(dragging);
             }
+            
         }
+        
+        
     }
     Item {
         id: pressed_StateParent
@@ -225,7 +276,9 @@ Item {
         anchors.top: parent.top
         anchors.bottom: parent.bottom
         visible: false
-
+        
+        
+        
         BorderImage {
             id: fi_Rectangle_62___pressed
             anchors.left: parent.left
@@ -237,6 +290,11 @@ Item {
             border.left: 14
             border.right: 14
             border.top: 14
+            
+            
+            
+            
+            
         }
         ComponentsSet.Label {
             id: fi_Coronal___pressed
@@ -256,6 +314,11 @@ Item {
             lineHeight: fi_Coronal___collapsed.lineHeight
             lineHeightMode: fi_Coronal___collapsed.lineHeightMode
             richText: fi_Coronal___collapsed.richText
+            
+            
+            
+            
+            
         }
         Image {
             id: icon___pressed
@@ -266,7 +329,14 @@ Item {
             height: 64
             source: icon___collapsed.source
             opacity: icon___collapsed.opacity
+            
+            
+            
+            
+            
         }
+        
+        
     }
     ComponentsSet.FocusArea {
         id: __focusArea
@@ -274,14 +344,18 @@ Item {
         anchors.right: parent.right
         anchors.top: parent.top
         anchors.bottom: parent.bottom
-
+        
+        
+        
+        
         onClicked: {
             root.clicked();
         }
+        
     }
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //States----------------------------------------------------------------------------------------
     StateGroup { //
         states: [
@@ -291,11 +365,14 @@ Item {
             PropertyChanges {
                 target: collapsed_StateParent
                 visible: true
+                
             }
             PropertyChanges {
                 target: expanded_StateParent
                 visible: false
+                
             }
+            
         },
         State {
             when: __focusArea.focused
@@ -303,19 +380,23 @@ Item {
             PropertyChanges {
                 target: collapsed_StateParent
                 visible: false
+                
             }
             PropertyChanges {
                 target: expanded_StateParent
                 visible: true
+                
             }
             PropertyChanges {
                 target: root
                 z: 2147483646
+                
             }
+            
         }
         ]
         transitions: [
-
+        
         ]
     }
     StateGroup { // generic_pressed
@@ -327,13 +408,15 @@ Item {
                 target: pressed_StateParent
                 visible: true
                 z: 999
+                
             }
+            
         }
         ]
         transitions: [
-
+        
         ]
     }
-
+    
     //----------------------------------------------------------------------------------------------
 }

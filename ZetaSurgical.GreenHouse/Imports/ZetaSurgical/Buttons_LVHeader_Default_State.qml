@@ -4,16 +4,18 @@ import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
 import ZetaSurgical 1.0 as ZetaSurgicalSet
 
+
 //USES ComponentsSet.Label
 //USES Image
 //USES ZetaSurgicalSet.ProgressIndicator_SortOrder
 //USES ComponentsSet.AutoRepeatMouseArea
 //PREVIEW IMAGE qrc:/GeneratedComponents/assets/Button.png
 
+
 //EDITABLE TRUE
 Item {
     id: root
-
+    
     //Exposed properties----------------------------------------------------------------------------
     property bool doubleClickEnabeld: false
     property int minimumRepeatInterval: 100
@@ -42,24 +44,24 @@ Item {
     property alias fi_Line_108_source: fi_Line_108.source
     //INT 0
     property alias fi_ProgressIndicator_SortOrder_progressValue: fi_ProgressIndicator_SortOrder.progressValue
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Exposed signals-------------------------------------------------------------------------------
     signal clicked() /*__mouseArea.clicked*/
     signal doubleClicked() /*__mouseArea.doubleClicked*/
     signal pressed() /*__mouseArea.pressed*/
     signal released() /*__mouseArea.released*/
     signal repeatingTriggered() /*__mouseArea.repeatingTriggered*/
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Local bindings--------------------------------------------------------------------------------
     width: 352
     height: 64
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //Children--------------------------------------------------------------------------------------
     ComponentsSet.Label {
         id: fi_Label
@@ -78,6 +80,11 @@ Item {
         wrapMode: Text.WordWrap
         lineHeight: 20
         lineHeightMode: Text.FixedHeight
+        
+        
+        
+        
+        
     }
     Image {
         id: fi_Line_108
@@ -87,6 +94,11 @@ Item {
         width: 1
         height: 40
         source: GreenHouseThemeManager.theme.asset("/591_3021.png")
+        
+        
+        
+        
+        
     }
     ZetaSurgicalSet.ProgressIndicator_SortOrder {
         id: fi_ProgressIndicator_SortOrder
@@ -95,6 +107,11 @@ Item {
         anchors.verticalCenter: parent.verticalCenter
         anchors.verticalCenterOffset: -2
         z: 2
+        
+        
+        
+        
+        
     }
     ComponentsSet.AutoRepeatMouseArea {
         id: __mouseArea
@@ -106,7 +123,10 @@ Item {
         doubleClickEnabeld: root.doubleClickEnabeld
         minimumRepeatInterval: root.minimumRepeatInterval
         repeateInterval: root.repeateInterval
-
+        
+        
+        
+        
         onClicked: {
             root.clicked();
         }
@@ -122,11 +142,12 @@ Item {
         onRepeatingTriggered: {
             root.repeatingTriggered();
         }
+        
     }
-
+    
     //----------------------------------------------------------------------------------------------
-
+    
     //States----------------------------------------------------------------------------------------
-
+    
     //----------------------------------------------------------------------------------------------
 }

@@ -54,7 +54,7 @@
             "name": "text",
             "type": "TranslatableString",
             "uuid": "FigmaNode::46:2253",
-            "value": "X "
+            "value": "X-Value "
         },
         "textColor": {
             "name": "textColor",
