@@ -5,13 +5,13 @@ SegmentationPresenterImpl::SegmentationPresenterImpl(ZetaSurgical::GUINavigation
     : ZetaSurgical::SegmentationPresenter()
     , m_navigationPresenter(navPresenter)
 {
-    qWarning() << __PRETTY_FUNCTION__;
+    //qWarning() << __PRETTY_FUNCTION__;
     Q_ASSERT(m_navigationPresenter);
 }
 
 void SegmentationPresenterImpl::onSegmentationStarted()
 {
-    qWarning() << __PRETTY_FUNCTION__;
+    //qWarning() << __PRETTY_FUNCTION__;
     m_navigationPresenter->setTabIndex(1);
     emit m_navigationPresenter->segmentationScreenShown();
 }

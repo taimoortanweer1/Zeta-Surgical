@@ -1,6 +1,30 @@
 #pragma once
 
 #include <ZetaSurgical/planningpresenter.hpp>
+#include "QQuickVTKRenderItem.h"
+#include "QQuickVTKRenderWindow.h"
+
+#include "vtkActor.h"
+#include "vtkColorTransferFunction.h"
+#include "vtkConeSource.h"
+#include "vtkGenericOpenGLRenderWindow.h"
+#include "vtkGlyph3DMapper.h"
+#include "vtkNew.h"
+#include "vtkPNGWriter.h"
+#include "vtkPiecewiseFunction.h"
+#include "vtkPolyDataMapper.h"
+#include "vtkProperty.h"
+#include "vtkRenderer.h"
+#include "vtkSmartVolumeMapper.h"
+#include "vtkSphereSource.h"
+#include "vtkTestUtilities.h"
+#include "vtkTesting.h"
+#include "vtkVolume.h"
+#include "vtkVolumeProperty.h"
+#include "vtkWindowToImageFilter.h"
+#include "vtkXMLImageDataReader.h"
+
+#include <QQuickWindow>
 
 class PopupsPresenterImpl;
 class PointEditorPresenterImpl;
@@ -28,7 +52,7 @@ public:
     void onPlanningStarted() override;
     void onPlanningFinished() override;
 
-    Q_INVOKABLE void setVTKItem(QObject *item, int index);
+    Q_INVOKABLE void setVTKItem(QQuickVTKRenderItem *item, QQuickVTKRenderWindow *window);
 
 protected:
     void init() override;

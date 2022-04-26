@@ -51,6 +51,8 @@ else()
     set(qt_major Qt5)
 endif()
 
+find_package(VTK 9.1 CONFIG REQUIRED)
+
 add_subdirectory(lib/GreenHouse/)
 add_subdirectory(lib/AppCore/)
 add_subdirectory(src/AppPlugins/)

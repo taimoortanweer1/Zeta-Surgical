@@ -19,7 +19,7 @@ PlanningPresenterImpl::PlanningPresenterImpl(PopupsPresenterImpl *popupsPresente
 
 void PlanningPresenterImpl::editTargetAtIndex(int index)
 {
-    qWarning() << __PRETTY_FUNCTION__ << index;
+    //qWarning() << __PRETTY_FUNCTION__ << index;
     if(index < 0 || index >= targetsList()->rowCount())
         return;
     QJsonObject pointEntry = targetsList()->dataAt(index);
@@ -104,14 +104,20 @@ void PlanningPresenterImpl::onPlanningFinished()
     m_navigationPresenter->setPlanningCompleted(true);
 }
 
-void PlanningPresenterImpl::setVTKItem(QObject *item, int index)
+void PlanningPresenterImpl::setVTKItem(QQuickVTKRenderItem *geomItem, QQuickVTKRenderWindow *window)
 {
-    auto const vtk = qobject_cast<QQuickItem*>(item);
-    if(!vtk) {
-        qWarning() << "Can not cast to QQuickItem";
-        return;
-    }
-    vtk->setProperty("color", QColor("yellow"));
+    qWarning() << geomItem;
+    vtkNew<vtkActor> actor;
+    vtkNew<vtkPolyDataMapper> mapper;
+    vtkNew<vtkConeSource> cone;
+    mapper->SetInputConnection(cone->GetOutputPort());
+    actor->SetMapper(mapper);
+    geomItem->renderer()->AddActor(actor);
+    geomItem->renderer()->ResetCamera();
+    geomItem->renderer()->SetBackground(0.5, 0.5, 0.7);
+    geomItem->renderer()->SetBackground2(0.7, 0.7, 0.7);
+    geomItem->renderer()->SetGradientBackground(true);
+    geomItem->update();
 }
 
 void PlanningPresenterImpl::init()

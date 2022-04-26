@@ -12,6 +12,7 @@
 #endif // GREENHOUSE_GUI
 
 #include "integration.h"
+#include "QQuickVTKRenderWindow.h"
 
 #include <appcommandlineparser.h>
 
@@ -22,6 +23,8 @@ int main(int argc, char *argv[])
 #else
     QCoreApplication app(argc, argv);
 #endif // GREENHOUSE_GUI
+
+    QQuickVTKRenderWindow::setupGraphicsBackend();
 
     app.setApplicationName(QStringLiteral("ZetaSurgical"));
     app.setApplicationVersion(QStringLiteral("1.0.0"));
@@ -50,6 +53,8 @@ int main(int argc, char *argv[])
             QQmlFileSelector *fs = new QQmlFileSelector(&engine);
             fs->setExtraSelectors(QStringList { QStringLiteral("simulator") });
         }
+
+        engine.addImportPath(QString::fromStdString("C:\\vcpkg\\installed\\x64-windows\\lib\\qml"));
 
         Integration *integration = new Integration(&engine, &engine);
         engine.rootContext()->setContextProperty(QStringLiteral("Integration"), integration);

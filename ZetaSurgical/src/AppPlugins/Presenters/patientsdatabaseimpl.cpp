@@ -209,7 +209,7 @@ void PatientsDatabaseImpl::onInfoButtonClicked()
 
 void PatientsDatabaseImpl::onCompleteUploadStage()
 {
-    qWarning() << __PRETTY_FUNCTION__;
+    //qWarning() << __PRETTY_FUNCTION__;
     m_navigationPresenter->setUploadCompleted(true);
 }
 
