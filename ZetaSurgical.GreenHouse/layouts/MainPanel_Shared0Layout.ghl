@@ -6,14 +6,14 @@
     "hideAnimation": {
         "type": "Sequential"
     },
-    "interfaceName": "Registration_Verification_1_MainPanelIFace",
-    "name": "Registration_Verification_1_MainPanelLayout",
+    "interfaceName": "MainPanel_Shared0IFace",
+    "name": "MainPanel_Shared0Layout",
     "posX": 128,
     "posY": 0,
     "rootContainerType": "Item",
     "showAnimation": {
         "type": "Sequential"
     },
-    "targetFile": "Registration_Verification_1_MainPanelLayout.ghl",
+    "targetFile": "MainPanel_Shared0Layout.ghl",
     "width": 1336
 }

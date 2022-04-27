@@ -7,7 +7,7 @@
     },
     "properties": {
         "childViewType": "ChildStateView",
-        "initial": true,
+        "initial": false,
         "name": "NavPanelHidden",
         "parallel": false,
         "parentingEnabled": true,

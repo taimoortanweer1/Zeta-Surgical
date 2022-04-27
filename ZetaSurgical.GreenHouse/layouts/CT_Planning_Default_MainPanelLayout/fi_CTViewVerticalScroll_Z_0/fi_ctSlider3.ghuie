@@ -38,7 +38,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 2
+            "value": 1
         }
     },
     "targetFile": "fi_ctSlider3.ghuie",

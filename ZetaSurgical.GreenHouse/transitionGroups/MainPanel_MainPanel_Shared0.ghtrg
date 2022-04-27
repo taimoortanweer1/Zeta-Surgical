@@ -1,7 +1,7 @@
 {
     "source": "MainPanel",
-    "target": "Registration_Verification_1_MainPanel",
-    "targetFile": "MainPanel_Registration_Verification_1_MainPanel.ghtrg",
+    "target": "MainPanel_Shared0",
+    "targetFile": "MainPanel_MainPanel_Shared0.ghtrg",
     "transitions": [
         {
             "properties": {
@@ -10,7 +10,7 @@
                 "internal": true,
                 "sender": "SurfaceController",
                 "senderStringType": "%1",
-                "signal": "surfaceMainPanelMoveToRegistration_Verification_1_MainPanel"
+                "signal": "surfaceMainPanelMoveToMainPanel_Shared0"
             },
             "template": "SignalTransition"
         }

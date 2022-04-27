@@ -1,32 +1,32 @@
 {
     "childrenSplit": true,
     "extraData": {
-        "FIGMA_ID": "37:1396"
+        "FIGMA_ID": "643:3324"
     },
-    "id": "fi_CTViewHorizontalScroll_Z_0",
+    "id": "fi_Subtract",
     "properties": {
         "height": {
             "name": "height",
             "type": "Int",
-            "value": 540
+            "value": 1080
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/643_3324.png"
         },
         "width": {
             "name": "width",
             "type": "Int",
-            "value": 668
-        },
-        "x": {
-            "name": "x",
-            "type": "Int",
-            "value": 668
+            "value": 1336
         },
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 4
+            "value": 1
         }
     },
-    "targetFile": "fi_CTViewHorizontalScroll_Z_0.ghuie",
-    "type": "Item",
+    "targetFile": "fi_Subtract.ghuie",
+    "type": "Image",
     "userDefined": false
 }

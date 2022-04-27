@@ -18,7 +18,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 2
+            "value": 3
         }
     },
     "targetFile": "fi_CTViewHorizontalScroll2_Z_0.ghuie",

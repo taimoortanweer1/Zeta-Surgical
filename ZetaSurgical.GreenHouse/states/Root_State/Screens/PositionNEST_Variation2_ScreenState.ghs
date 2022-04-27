@@ -33,5 +33,6 @@
         "preloadUI": false
     },
     "targetFile": "PositionNEST_Variation2_ScreenState.ghs",
-    "template": "State"
+    "template": "State",
+    "uuid": "{d87f3c52-9264-4e59-a1d7-ff296c5d6ddb}"
 }
