@@ -3,16 +3,14 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
 
-
 //USES Item
 //USES ComponentsSet.AutoRepeatMouseArea
 //USES Image
 
-
 //EDITABLE TRUE
 Item {
     id: root
-    
+
     //Exposed properties----------------------------------------------------------------------------
     property bool doubleClickEnabeld: false
     property int minimumRepeatInterval: 100
@@ -26,24 +24,24 @@ Item {
     property alias icon_opacity: icon___off.opacity
     //ASSET /Icons/View__DefaultState.png
     property alias icon___on_source: icon___on.source
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Exposed signals-------------------------------------------------------------------------------
     signal doubleClicked() /*__mouseArea.doubleClicked*/
     signal pressed() /*__mouseArea.pressed*/
     signal released() /*__mouseArea.released*/
     signal repeatingTriggered() /*__mouseArea.repeatingTriggered*/
     signal toggled() /*__mouseArea.clicked*/
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Local bindings--------------------------------------------------------------------------------
     width: 64
     height: 64
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Children--------------------------------------------------------------------------------------
     Item {
         id: off_StateParent
@@ -52,11 +50,6 @@ Item {
         anchors.top: parent.top
         anchors.bottom: parent.bottom
         clip: true
-        
-        
-        
-        
-        
     }
     Item {
         id: on_StateParent
@@ -65,11 +58,6 @@ Item {
         anchors.top: parent.top
         anchors.bottom: parent.bottom
         clip: true
-        
-        
-        
-        
-        
     }
     ComponentsSet.AutoRepeatMouseArea {
         id: __mouseArea
@@ -81,10 +69,7 @@ Item {
         doubleClickEnabeld: root.doubleClickEnabeld
         minimumRepeatInterval: root.minimumRepeatInterval
         repeateInterval: root.repeateInterval
-        
-        
-        
-        
+
         onClicked: {
             root.toggled();
         }
@@ -100,7 +85,6 @@ Item {
         onRepeatingTriggered: {
             root.repeatingTriggered();
         }
-        
     }
     Image {
         id: fi_Ellipse_220___off
@@ -109,11 +93,6 @@ Item {
         anchors.top: parent.top
         anchors.bottom: parent.bottom
         source: GreenHouseThemeManager.theme.asset("/184_2070.png")
-        
-        
-        
-        
-        
     }
     Image {
         id: icon___off
@@ -128,11 +107,6 @@ Item {
         z: 1
         source: GreenHouseThemeManager.theme.asset("/Icons/View__SelectedState.png")
         visible: off_StateParent.visible
-        
-        
-        
-        
-        
     }
     Image {
         id: icon___on
@@ -148,15 +122,10 @@ Item {
         source: GreenHouseThemeManager.theme.asset("/Icons/View__DefaultState.png")
         opacity: icon___off.opacity
         visible: on_StateParent.visible
-        
-        
-        
-        
-        
     }
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //States----------------------------------------------------------------------------------------
     StateGroup { //
         states: [
@@ -166,19 +135,15 @@ Item {
             PropertyChanges {
                 target: fi_Ellipse_220___off
                 source: GreenHouseThemeManager.theme.asset("/184_2070.png")
-                
             }
             PropertyChanges {
                 target: off_StateParent
                 visible: true
-                
             }
             PropertyChanges {
                 target: on_StateParent
                 visible: false
-                
             }
-            
         },
         State {
             when: root.on
@@ -186,25 +151,21 @@ Item {
             PropertyChanges {
                 target: fi_Ellipse_220___off
                 source: GreenHouseThemeManager.theme.asset("/184_2030.png")
-                
             }
             PropertyChanges {
                 target: off_StateParent
                 visible: false
-                
             }
             PropertyChanges {
                 target: on_StateParent
                 visible: true
-                
             }
-            
         }
         ]
         transitions: [
-        
+
         ]
     }
-    
+
     //----------------------------------------------------------------------------------------------
 }

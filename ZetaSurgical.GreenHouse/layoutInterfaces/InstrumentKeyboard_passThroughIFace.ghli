@@ -1,0 +1,58 @@
+{
+    "name": "InstrumentKeyboard_passThroughIFace",
+    "signals": {
+        "fi_Delete__onEvent__clicked": {
+            "name": "fi_Delete__onEvent__clicked"
+        },
+        "fi_Proceed__onEvent__clicked": {
+            "name": "fi_Proceed__onEvent__clicked"
+        },
+        "fi_Shift__onEvent__clicked": {
+            "name": "fi_Shift__onEvent__clicked"
+        },
+        "fi_Space__onEvent__clicked": {
+            "name": "fi_Space__onEvent__clicked"
+        },
+        "fi_row1_key1__onEvent__clicked": {
+            "arguments": [
+                {
+                    "name": "KeyboardPresenter_onCharacterButtonClicked_character",
+                    "preview": null,
+                    "type": "String"
+                }
+            ],
+            "name": "fi_row1_key1__onEvent__clicked"
+        },
+        "fi_row2_key1__onEvent__clicked": {
+            "arguments": [
+                {
+                    "name": "KeyboardPresenter_onCharacterButtonClicked_character",
+                    "preview": null,
+                    "type": "String"
+                }
+            ],
+            "name": "fi_row2_key1__onEvent__clicked"
+        },
+        "fi_row3_key1__onEvent__clicked": {
+            "arguments": [
+                {
+                    "name": "KeyboardPresenter_onCharacterButtonClicked_character",
+                    "preview": null,
+                    "type": "String"
+                }
+            ],
+            "name": "fi_row3_key1__onEvent__clicked"
+        },
+        "fi_row4_key1__onEvent__clicked": {
+            "arguments": [
+                {
+                    "name": "KeyboardPresenter_onCharacterButtonClicked_character",
+                    "preview": null,
+                    "type": "String"
+                }
+            ],
+            "name": "fi_row4_key1__onEvent__clicked"
+        }
+    },
+    "targetFile": "InstrumentKeyboard_passThroughIFace.ghli"
+}

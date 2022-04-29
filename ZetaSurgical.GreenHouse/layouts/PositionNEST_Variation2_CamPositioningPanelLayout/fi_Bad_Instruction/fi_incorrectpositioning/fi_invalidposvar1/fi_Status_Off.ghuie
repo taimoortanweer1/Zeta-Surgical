@@ -1,0 +1,63 @@
+{
+    "anchorBottom": {
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorLeft": {
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorRight": {
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "anchorTop": {
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "691:3604"
+    },
+    "id": "fi_Status_Off",
+    "properties": {
+        "border-bottom": {
+            "name": "border-bottom",
+            "type": "Int",
+            "value": 5
+        },
+        "border-left": {
+            "name": "border-left",
+            "type": "Int",
+            "value": 5
+        },
+        "border-right": {
+            "name": "border-right",
+            "type": "Int",
+            "value": 5
+        },
+        "border-top": {
+            "name": "border-top",
+            "type": "Int",
+            "value": 5
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 40
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/691_3604.png"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 40
+        }
+    },
+    "targetFile": "fi_Status_Off.ghuie",
+    "type": "BorderImage",
+    "userDefined": false
+}

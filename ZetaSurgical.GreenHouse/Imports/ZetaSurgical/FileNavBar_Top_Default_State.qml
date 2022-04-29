@@ -3,14 +3,12 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import ZetaSurgical 1.0 as ZetaSurgicalSet
 
-
 //USES ZetaSurgicalSet.SelectButton
-
 
 //EDITABLE TRUE
 Item {
     id: root
-    
+
     //Exposed properties----------------------------------------------------------------------------
     //BOOL false
     property alias fi_cdUsb_activated_flag: fi_cdUsb.activated_flag
@@ -90,9 +88,9 @@ Item {
     property alias fi_pacs_minimumRepeatInterval: fi_pacs.minimumRepeatInterval
     //INT 1000
     property alias fi_pacs_repeateInterval: fi_pacs.repeateInterval
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Exposed signals-------------------------------------------------------------------------------
     signal fi_cdUsb_clicked() /*fi_cdUsb.clicked*/
     signal fi_cdUsb_doubleClicked() /*fi_cdUsb.doubleClicked*/
@@ -109,15 +107,15 @@ Item {
     signal fi_pacs_pressed() /*fi_pacs.pressed*/
     signal fi_pacs_released() /*fi_pacs.released*/
     signal fi_pacs_repeatingTriggered() /*fi_pacs.repeatingTriggered*/
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Local bindings--------------------------------------------------------------------------------
     width: 1792
     height: 144
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Children--------------------------------------------------------------------------------------
     ZetaSurgicalSet.SelectButton {
         id: fi_pacs
@@ -127,10 +125,7 @@ Item {
         anchors.rightMargin: 96
         anchors.verticalCenter: parent.verticalCenter
         fi_EXAMPLE_text: qsTr("PACS", "FigmaNode::I174:1651;11:1303") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::I174:1651;11:1303") : "")
-        
-        
-        
-        
+
         onClicked: {
             root.fi_pacs_clicked();
         }
@@ -146,7 +141,6 @@ Item {
         onRepeatingTriggered: {
             root.fi_pacs_repeatingTriggered();
         }
-        
     }
     ZetaSurgicalSet.SelectButton {
         id: fi_cdUsb
@@ -157,10 +151,7 @@ Item {
         anchors.verticalCenter: parent.verticalCenter
         z: 1
         fi_EXAMPLE_text: qsTr("CD / USB", "FigmaNode::I174:1652;11:1303") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::I174:1652;11:1303") : "")
-        
-        
-        
-        
+
         onClicked: {
             root.fi_cdUsb_clicked();
         }
@@ -176,7 +167,6 @@ Item {
         onRepeatingTriggered: {
             root.fi_cdUsb_repeatingTriggered();
         }
-        
     }
     ZetaSurgicalSet.SelectButton {
         id: fi_local
@@ -187,10 +177,7 @@ Item {
         anchors.verticalCenter: parent.verticalCenter
         z: 2
         fi_EXAMPLE_text: qsTr("LOCAL", "FigmaNode::I174:1653;11:1306") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::I174:1653;11:1306") : "")
-        
-        
-        
-        
+
         onClicked: {
             root.fi_local_clicked();
         }
@@ -206,12 +193,11 @@ Item {
         onRepeatingTriggered: {
             root.fi_local_repeatingTriggered();
         }
-        
     }
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //States----------------------------------------------------------------------------------------
-    
+
     //----------------------------------------------------------------------------------------------
 }

@@ -1,0 +1,63 @@
+{
+    "anchorBottom": {
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorLeft": {
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorRight": {
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "anchorTop": {
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "I685:3245;685:3235"
+    },
+    "id": "fi_Rectangle_62sagittal",
+    "properties": {
+        "border-bottom": {
+            "name": "border-bottom",
+            "type": "Int",
+            "value": 5
+        },
+        "border-left": {
+            "name": "border-left",
+            "type": "Int",
+            "value": 5
+        },
+        "border-right": {
+            "name": "border-right",
+            "type": "Int",
+            "value": 5
+        },
+        "border-top": {
+            "name": "border-top",
+            "type": "Int",
+            "value": 5
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 32
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/685_3235.png"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 104
+        }
+    },
+    "targetFile": "fi_Rectangle_62sagittal.ghuie",
+    "type": "BorderImage",
+    "userDefined": false
+}

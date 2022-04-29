@@ -3,17 +3,15 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
 
-
 //USES BorderImage
 //USES Image
 //USES ComponentsSet.AutoRepeatMouseArea
 //PREVIEW IMAGE qrc:/GeneratedComponents/assets/Button.png
 
-
 //EDITABLE TRUE
 Item {
     id: root
-    
+
     //Exposed properties----------------------------------------------------------------------------
     property bool doubleClickEnabeld: false
     property int minimumRepeatInterval: 100
@@ -22,24 +20,24 @@ Item {
     property alias fi_Ellipse_227_opacity: fi_Ellipse_227.opacity
     //ASSET /157_2473.png
     property alias fi_Ellipse_227_source: fi_Ellipse_227.source
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Exposed signals-------------------------------------------------------------------------------
     signal clicked() /*__mouseArea.clicked*/
     signal doubleClicked() /*__mouseArea.doubleClicked*/
     signal pressed() /*__mouseArea.pressed*/
     signal released() /*__mouseArea.released*/
     signal repeatingTriggered() /*__mouseArea.repeatingTriggered*/
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Local bindings--------------------------------------------------------------------------------
     width: 40
     height: 80
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Children--------------------------------------------------------------------------------------
     BorderImage {
         id: fi_Rectangle_108
@@ -52,11 +50,6 @@ Item {
         border.left: 19
         border.right: 19
         border.top: 19
-        
-        
-        
-        
-        
     }
     Image {
         id: fi_Ellipse_227
@@ -70,11 +63,6 @@ Item {
         anchors.bottomMargin: 42
         z: 1
         source: GreenHouseThemeManager.theme.asset("/157_2473.png")
-        
-        
-        
-        
-        
     }
     ComponentsSet.AutoRepeatMouseArea {
         id: __mouseArea
@@ -86,10 +74,7 @@ Item {
         doubleClickEnabeld: root.doubleClickEnabeld
         minimumRepeatInterval: root.minimumRepeatInterval
         repeateInterval: root.repeateInterval
-        
-        
-        
-        
+
         onClicked: {
             root.clicked();
         }
@@ -105,12 +90,11 @@ Item {
         onRepeatingTriggered: {
             root.repeatingTriggered();
         }
-        
     }
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //States----------------------------------------------------------------------------------------
-    
+
     //----------------------------------------------------------------------------------------------
 }

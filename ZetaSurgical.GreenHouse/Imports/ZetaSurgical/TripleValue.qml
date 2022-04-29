@@ -3,16 +3,14 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import ZetaSurgical 1.0 as ZetaSurgicalSet
 
-
 //USES ZetaSurgicalSet.ProgressIndicator_Triple
 //USES ZetaSurgicalSet.Buttons_TextOnly_Default_State
 //PREVIEW IMAGE qrc:/GeneratedComponents/assets/TextInput.png
 
-
 //EDITABLE TRUE
 Item {
     id: root
-    
+
     //Exposed properties----------------------------------------------------------------------------
     //INT 0
     property alias fi_Background_progressValue: fi_Background.progressValue
@@ -94,9 +92,9 @@ Item {
     property alias fi__Value3_minimumRepeatInterval: fi__Value3.minimumRepeatInterval
     //INT 1000
     property alias fi__Value3_repeateInterval: fi__Value3.repeateInterval
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Exposed signals-------------------------------------------------------------------------------
     signal fi_Value2_clicked() /*fi_Value2.clicked*/
     signal fi_Value2_doubleClicked() /*fi_Value2.doubleClicked*/
@@ -113,15 +111,15 @@ Item {
     signal fi__Value3_pressed() /*fi__Value3.pressed*/
     signal fi__Value3_released() /*fi__Value3.released*/
     signal fi__Value3_repeatingTriggered() /*fi__Value3.repeatingTriggered*/
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Local bindings--------------------------------------------------------------------------------
     width: 408
     height: 80
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Children--------------------------------------------------------------------------------------
     ZetaSurgicalSet.ProgressIndicator_Triple {
         id: fi_Background
@@ -130,11 +128,6 @@ Item {
         anchors.top: parent.top
         anchors.bottom: parent.bottom
         z: -1
-        
-        
-        
-        
-        
     }
     ZetaSurgicalSet.Buttons_TextOnly_Default_State {
         id: fi__Value1
@@ -145,10 +138,7 @@ Item {
         anchors.bottom: parent.bottom
         z: 1
         fi_Text_text: qsTr("Coronal", "FigmaNode::I366:3363;366:3357") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::I366:3363;366:3357") : "")
-        
-        
-        
-        
+
         onClicked: {
             root.fi__Value1_clicked();
         }
@@ -164,7 +154,6 @@ Item {
         onRepeatingTriggered: {
             root.fi__Value1_repeatingTriggered();
         }
-        
     }
     ZetaSurgicalSet.Buttons_TextOnly_Default_State {
         id: fi_Value2
@@ -176,10 +165,7 @@ Item {
         anchors.bottom: parent.bottom
         z: 2
         fi_Text_text: qsTr("Axial", "FigmaNode::I366:3365;366:3357") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::I366:3365;366:3357") : "")
-        
-        
-        
-        
+
         onClicked: {
             root.fi_Value2_clicked();
         }
@@ -195,7 +181,6 @@ Item {
         onRepeatingTriggered: {
             root.fi_Value2_repeatingTriggered();
         }
-        
     }
     ZetaSurgicalSet.Buttons_TextOnly_Default_State {
         id: fi__Value3
@@ -206,10 +191,7 @@ Item {
         anchors.bottom: parent.bottom
         z: 3
         fi_Text_text: qsTr("Saggital", "FigmaNode::I366:3367;366:3357") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::I366:3367;366:3357") : "")
-        
-        
-        
-        
+
         onClicked: {
             root.fi__Value3_clicked();
         }
@@ -225,12 +207,11 @@ Item {
         onRepeatingTriggered: {
             root.fi__Value3_repeatingTriggered();
         }
-        
     }
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //States----------------------------------------------------------------------------------------
-    
+
     //----------------------------------------------------------------------------------------------
 }

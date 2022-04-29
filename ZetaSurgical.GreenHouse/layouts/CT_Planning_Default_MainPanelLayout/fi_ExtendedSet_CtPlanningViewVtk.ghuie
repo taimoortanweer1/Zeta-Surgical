@@ -1,5 +1,8 @@
 {
     "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "704:3167"
+    },
     "id": "fi_ExtendedSet_CtPlanningViewVtk",
     "targetFile": "fi_ExtendedSet_CtPlanningViewVtk.ghuie",
     "type": "ExtendedSet.CtPlanningViewVtk",

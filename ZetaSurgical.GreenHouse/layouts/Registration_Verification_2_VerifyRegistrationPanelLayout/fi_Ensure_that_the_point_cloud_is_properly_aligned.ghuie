@@ -69,7 +69,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 5
+            "value": 3
         }
     },
     "targetFile": "fi_Ensure_that_the_point_cloud_is_properly_aligned.ghuie",

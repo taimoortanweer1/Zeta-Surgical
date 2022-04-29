@@ -1,0 +1,57 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 28,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 8,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "46:2505"
+    },
+    "id": "fi_image1",
+    "properties": {
+        "border-color": {
+            "name": "border-color",
+            "type": "Color",
+            "value": "Figma::0_0_0_0"
+        },
+        "border-width": {
+            "name": "border-width",
+            "type": "Int",
+            "value": 1
+        },
+        "color": {
+            "name": "color",
+            "type": "Color",
+            "value": "Figma::0_0_0_0"
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 160
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 136
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 28
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 8
+        }
+    },
+    "targetFile": "fi_image1.ghuie",
+    "type": "Rectangle",
+    "userDefined": false
+}

@@ -1,0 +1,37 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "691:3429"
+    },
+    "id": "fi_Good_Instruction",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 288
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 392
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 32
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 240
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 5
+        }
+    },
+    "targetFile": "fi_Good_Instruction.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

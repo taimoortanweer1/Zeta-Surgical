@@ -1,0 +1,50 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 1528,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 32,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "628:3246"
+    },
+    "id": "fi_rename",
+    "properties": {
+        "input_focus": {
+            "name": "input_focus",
+            "type": "Bool",
+            "value": true
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 1528
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 32
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 3
+        }
+    },
+    "signals": {
+        "input_textChanged": {
+            "arguments": "string text",
+            "name": "input_textChanged",
+            "rawCode": "root.itemInterface.fi_rename__onEvent__input_textChanged(text)\n"
+        }
+    },
+    "targetFile": "fi_rename.ghuie",
+    "type": "ZetaSurgicalSet.RenameTitleText",
+    "userDefined": false,
+    "uuid": "{2a5e1233-58ef-4e2f-8b63-e01effd3ef3a}"
+}

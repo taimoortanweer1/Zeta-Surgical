@@ -1,0 +1,19 @@
+{
+    "source": "Popups",
+    "target": "EditTopBottomDATA",
+    "targetFile": "Popups_EditTopBottomDATA.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "PopupsPresenter",
+                "senderStringType": "%1",
+                "signal": "targetUpLabelEditShown"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{570b23bb-6944-4044-9c34-38be768d12a7}"
+}

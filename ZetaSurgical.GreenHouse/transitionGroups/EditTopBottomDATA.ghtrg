@@ -1,0 +1,47 @@
+{
+    "source": "EditTopBottomDATA",
+    "targetFile": "EditTopBottomDATA.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_closeWindow__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceKeyboardLayerMoveToKeyboardLayerEmpty();\n}\n",
+                    "type": "RawCode"
+                },
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfacePopupsMoveToEditPoint();\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_renumber1__onEvent__input_textChanged",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PopupsPresenter, co) co->onInputChanged(args.at(0).toString());\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        }
+    ],
+    "uuid": "{54516a04-75ce-4bb9-a66e-1e9220e20e1d}"
+}

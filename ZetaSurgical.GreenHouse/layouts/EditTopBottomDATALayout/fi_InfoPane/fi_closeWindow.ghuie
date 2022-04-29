@@ -1,0 +1,38 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 1856,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "628:3275"
+    },
+    "id": "fi_closeWindow",
+    "properties": {
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 1856
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "signals": {
+        "clicked": {
+            "name": "clicked",
+            "rawCode": "root.itemInterface.fi_closeWindow__onEvent__clicked()\n"
+        }
+    },
+    "targetFile": "fi_closeWindow.ghuie",
+    "type": "ZetaSurgicalSet.CloseWindowButton_Default_State",
+    "userDefined": false,
+    "uuid": "{6488efb1-1d96-483e-9872-0501bcc0c1eb}"
+}

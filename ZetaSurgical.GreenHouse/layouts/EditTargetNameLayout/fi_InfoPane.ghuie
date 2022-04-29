@@ -1,0 +1,23 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "717:3436"
+    },
+    "id": "fi_InfoPane",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 1080
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 1920
+        }
+    },
+    "targetFile": "fi_InfoPane.ghuie",
+    "type": "Item",
+    "userDefined": false,
+    "uuid": "{99a0b34b-42e4-4856-a623-73b1eca40db5}"
+}

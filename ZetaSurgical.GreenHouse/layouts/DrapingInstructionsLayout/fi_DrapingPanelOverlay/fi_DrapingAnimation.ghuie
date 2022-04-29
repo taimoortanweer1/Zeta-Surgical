@@ -1,6 +1,6 @@
 {
     "anchorHCenter": {
-        "anchorMargin": -288,
+        "anchorMargin": -224,
         "anchorTarget": "parent",
         "anchorValue": "HorizontalCenter"
     },
@@ -33,7 +33,7 @@
         "x": {
             "name": "x",
             "type": "Int",
-            "value": 32
+            "value": 96
         },
         "y": {
             "name": "y",
@@ -43,7 +43,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 3
+            "value": 1
         }
     },
     "targetFile": "fi_DrapingAnimation.ghuie",

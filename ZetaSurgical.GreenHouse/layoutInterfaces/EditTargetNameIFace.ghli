@@ -1,4 +1,19 @@
 {
     "name": "EditTargetNameIFace",
+    "signals": {
+        "fi_closeWindow__onEvent__clicked": {
+            "name": "fi_closeWindow__onEvent__clicked"
+        },
+        "fi_rename__onEvent__input_textChanged": {
+            "arguments": [
+                {
+                    "name": "PopupsPresenter_onInputChanged_input",
+                    "preview": null,
+                    "type": "String"
+                }
+            ],
+            "name": "fi_rename__onEvent__input_textChanged"
+        }
+    },
     "targetFile": "EditTargetNameIFace.ghli"
 }

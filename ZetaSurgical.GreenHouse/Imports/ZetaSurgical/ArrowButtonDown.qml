@@ -3,18 +3,16 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
 
-
 //USES Item
 //USES ComponentsSet.AutoRepeatMouseArea
 //USES BorderImage
 //USES Image
 //PREVIEW IMAGE qrc:/GeneratedComponents/assets/Button.png
 
-
 //EDITABLE TRUE
 Item {
     id: root
-    
+
     //Exposed properties----------------------------------------------------------------------------
     property bool doubleClickEnabeld: false
     property int minimumRepeatInterval: 100
@@ -23,24 +21,24 @@ Item {
     property alias icon_opacity: icon___default.opacity
     //ASSET /Icons/DownTriangle__DefaultState.png
     property alias icon_source: icon___default.source
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Exposed signals-------------------------------------------------------------------------------
     signal clicked() /*__mouseArea.clicked*/
     signal doubleClicked() /*__mouseArea.doubleClicked*/
     signal pressed() /*__mouseArea.pressed*/
     signal released() /*__mouseArea.released*/
     signal repeatingTriggered() /*__mouseArea.repeatingTriggered*/
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Local bindings--------------------------------------------------------------------------------
     width: 64
     height: 64
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Children--------------------------------------------------------------------------------------
     Item {
         id: default_StateParent
@@ -48,11 +46,6 @@ Item {
         anchors.right: parent.right
         anchors.top: parent.top
         anchors.bottom: parent.bottom
-        
-        
-        
-        
-        
     }
     Item {
         id: pressed_StateParent
@@ -60,11 +53,6 @@ Item {
         anchors.right: parent.right
         anchors.top: parent.top
         anchors.bottom: parent.bottom
-        
-        
-        
-        
-        
     }
     ComponentsSet.AutoRepeatMouseArea {
         id: __mouseArea
@@ -76,10 +64,7 @@ Item {
         doubleClickEnabeld: root.doubleClickEnabeld
         minimumRepeatInterval: root.minimumRepeatInterval
         repeateInterval: root.repeateInterval
-        
-        
-        
-        
+
         onClicked: {
             root.clicked();
         }
@@ -95,7 +80,6 @@ Item {
         onRepeatingTriggered: {
             root.repeatingTriggered();
         }
-        
     }
     BorderImage {
         id: fi_Background_9seg_10_10_10_10___default
@@ -108,11 +92,6 @@ Item {
         border.left: 10
         border.right: 10
         border.top: 10
-        
-        
-        
-        
-        
     }
     Image {
         id: icon___default
@@ -125,11 +104,6 @@ Item {
         z: 1
         source: GreenHouseThemeManager.theme.asset("/Icons/DownTriangle__DefaultState.png")
         visible: default_StateParent.visible
-        
-        
-        
-        
-        
     }
     Image {
         id: icon___pressed
@@ -143,15 +117,10 @@ Item {
         source: icon___default.source
         opacity: icon___default.opacity
         visible: pressed_StateParent.visible
-        
-        
-        
-        
-        
     }
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //States----------------------------------------------------------------------------------------
     StateGroup { //
         states: [
@@ -161,19 +130,15 @@ Item {
             PropertyChanges {
                 target: default_StateParent
                 visible: true
-                
             }
             PropertyChanges {
                 target: fi_Background_9seg_10_10_10_10___default
                 source: GreenHouseThemeManager.theme.asset("/48_2006.png")
-                
             }
             PropertyChanges {
                 target: pressed_StateParent
                 visible: false
-                
             }
-            
         },
         State {
             when: __mouseArea.pressed
@@ -181,25 +146,21 @@ Item {
             PropertyChanges {
                 target: default_StateParent
                 visible: false
-                
             }
             PropertyChanges {
                 target: fi_Background_9seg_10_10_10_10___default
                 source: GreenHouseThemeManager.theme.asset("/164_7351.png")
-                
             }
             PropertyChanges {
                 target: pressed_StateParent
                 visible: true
-                
             }
-            
         }
         ]
         transitions: [
-        
+
         ]
     }
-    
+
     //----------------------------------------------------------------------------------------------
 }

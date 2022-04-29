@@ -3,17 +3,15 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
 
-
 //USES ComponentsSet.AutoRepeatMouseArea
 //USES BorderImage
 //USES ComponentsSet.Label
 //PREVIEW IMAGE qrc:/GeneratedComponents/assets/Button.png
 
-
 //EDITABLE TRUE
 Item {
     id: root
-    
+
     //Exposed properties----------------------------------------------------------------------------
     property bool doubleClickEnabeld: false
     property int itemIndex: 0
@@ -36,24 +34,24 @@ Item {
     property alias fi_Label_text: fi_Label___default.text
     //TEXTVAL 128
     property alias fi_Label_verticalAlignment: fi_Label___default.verticalAlignment
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Exposed signals-------------------------------------------------------------------------------
     signal clicked() /*__mouseArea.clicked*/
     signal doubleClicked() /*__mouseArea.doubleClicked*/
     signal pressed() /*__mouseArea.pressed*/
     signal released() /*__mouseArea.released*/
     signal repeatingTriggered() /*__mouseArea.repeatingTriggered*/
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Local bindings--------------------------------------------------------------------------------
     width: 327
     height: 48
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Children--------------------------------------------------------------------------------------
     ComponentsSet.AutoRepeatMouseArea {
         id: __mouseArea
@@ -65,10 +63,7 @@ Item {
         doubleClickEnabeld: root.doubleClickEnabeld
         minimumRepeatInterval: root.minimumRepeatInterval
         repeateInterval: root.repeateInterval
-        
-        
-        
-        
+
         onClicked: {
             root.clicked();
         }
@@ -84,7 +79,6 @@ Item {
         onRepeatingTriggered: {
             root.repeatingTriggered();
         }
-        
     }
     BorderImage {
         id: fi_Background_9seg_24_24_24_24___default
@@ -97,11 +91,6 @@ Item {
         border.left: 23
         border.right: 23
         border.top: 23
-        
-        
-        
-        
-        
     }
     ComponentsSet.Label {
         id: fi_Label___default
@@ -120,15 +109,10 @@ Item {
         wrapMode: Text.WordWrap
         lineHeight: 20
         lineHeightMode: Text.FixedHeight
-        
-        
-        
-        
-        
     }
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //States----------------------------------------------------------------------------------------
     StateGroup { //
         states: [
@@ -138,14 +122,11 @@ Item {
             PropertyChanges {
                 target: fi_Background_9seg_24_24_24_24___default
                 source: GreenHouseThemeManager.theme.asset("/367_3607.png")
-                
             }
             PropertyChanges {
                 target: fi_Label___default
                 textColor: GreenHouseThemeManager.theme.color("Text/Grey 1 - Inactive")
-                
             }
-            
         },
         State {
             when: __mouseArea.pressed && !(root.selectionIndex == root.itemIndex)
@@ -153,14 +134,11 @@ Item {
             PropertyChanges {
                 target: fi_Background_9seg_24_24_24_24___default
                 source: GreenHouseThemeManager.theme.asset("/367_3604.png")
-                
             }
             PropertyChanges {
                 target: fi_Label___default
                 textColor: GreenHouseThemeManager.theme.color("Text/White")
-                
             }
-            
         },
         State {
             when: !__mouseArea.pressed && (root.selectionIndex == root.itemIndex)
@@ -168,20 +146,17 @@ Item {
             PropertyChanges {
                 target: fi_Background_9seg_24_24_24_24___default
                 source: GreenHouseThemeManager.theme.asset("/367_3610.png")
-                
             }
             PropertyChanges {
                 target: fi_Label___default
                 textColor: GreenHouseThemeManager.theme.color("Text/White")
-                
             }
-            
         }
         ]
         transitions: [
-        
+
         ]
     }
-    
+
     //----------------------------------------------------------------------------------------------
 }

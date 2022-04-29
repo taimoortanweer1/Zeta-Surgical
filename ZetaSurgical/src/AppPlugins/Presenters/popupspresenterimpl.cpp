@@ -37,6 +37,27 @@ void PopupsPresenterImpl::confirmInstrumentRemoval(ConfirmCallback callback)
     emit deleteInstrumentConfirmationDialogShown();
 }
 
+void PopupsPresenterImpl::startInstrumentIDInput(TextInputCallback callback)
+{
+    m_callback = callback;
+    emit targetIDEditShown();
+    emit smallKeyboardShown();
+}
+
+void PopupsPresenterImpl::startTargetUpLabelInput(TextInputCallback callback)
+{
+    m_callback = callback;
+    emit targetUpLabelEditShown();
+    emit smallKeyboardShown();
+}
+
+void PopupsPresenterImpl::startTargetDownLabelInput(TextInputCallback callback)
+{
+    m_callback = callback;
+    emit targetDownLabelEditShown();
+    emit smallKeyboardShown();
+}
+
 void PopupsPresenterImpl::inputAccepted()
 {
     if(!m_callback)
@@ -45,6 +66,7 @@ void PopupsPresenterImpl::inputAccepted()
     m_callback = nullptr;
     m_inputText.clear();
     emit closeAllPopups();
+    emit smallKeyboardHidden();
 }
 
 void PopupsPresenterImpl::onConfirmed()
@@ -52,11 +74,13 @@ void PopupsPresenterImpl::onConfirmed()
     m_confirmCallback();
     m_confirmCallback = nullptr;
     emit closeAllPopups();
+    emit smallKeyboardHidden();
 }
 
 void PopupsPresenterImpl::onCancelled()
 {
     emit closeAllPopups();
+    emit smallKeyboardHidden();
     m_confirmCallback = nullptr;
 }
 

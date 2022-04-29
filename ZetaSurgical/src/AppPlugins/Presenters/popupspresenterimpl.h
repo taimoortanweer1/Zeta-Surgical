@@ -18,6 +18,10 @@ public:
     void confirmPointRemoval(ConfirmCallback callback);
     void confirmInstrumentRemoval(ConfirmCallback callback);
 
+    void startInstrumentIDInput(TextInputCallback callback);
+    void startTargetUpLabelInput(TextInputCallback callback);
+    void startTargetDownLabelInput(TextInputCallback callback);
+
 protected:
     void onInputChanged(QString const &username) override;
     void inputAccepted() override;

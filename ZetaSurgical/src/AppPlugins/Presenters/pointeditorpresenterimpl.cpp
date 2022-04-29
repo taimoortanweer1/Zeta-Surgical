@@ -1,12 +1,16 @@
 #include "pointeditorpresenterimpl.h"
+#include "popupspresenterimpl.h"
 
 QString formatDouble(double const &value) {
     return QString::number(value, 'g', 3);
 }
 
-PointEditorPresenterImpl::PointEditorPresenterImpl()
+PointEditorPresenterImpl::PointEditorPresenterImpl(PopupsPresenterImpl *popupsPresenter)
     : ZetaSurgical::PointEditorPresenter()
-{}
+    , m_popupsPresenter(popupsPresenter)
+{
+    Q_ASSERT(popupsPresenter);
+}
 
 void PointEditorPresenterImpl::addNewPoint(Callback callback)
 {
@@ -78,6 +82,28 @@ void PointEditorPresenterImpl::onSelectModeClicked(int mode)
         setNorthButtonCaption(QStringLiteral("AN"));
     else if(value == PointEditorPresenter::Modes::Saggital)
         setNorthButtonCaption(QStringLiteral("SN"));
+}
+
+void PointEditorPresenterImpl::onTargetIDEditRequested()
+{
+    qWarning() << __PRETTY_FUNCTION__;
+    m_popupsPresenter->startInstrumentIDInput([this](QString const &result){
+        setTargetIDEditString(result);
+    });
+}
+
+void PointEditorPresenterImpl::onTargetUpLabelEditRequested()
+{
+    m_popupsPresenter->startTargetUpLabelInput([this](QString const &result){
+        setTargetUpValueString(result);
+    });
+}
+
+void PointEditorPresenterImpl::onTargetDownLabelEditRequested()
+{
+    m_popupsPresenter->startTargetDownLabelInput([this](QString const &result){
+        setTargetDownValueString(result);
+    });
 }
 
 void PointEditorPresenterImpl::updatePointStrings()

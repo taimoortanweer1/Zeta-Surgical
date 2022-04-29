@@ -1,0 +1,37 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "691:3233"
+    },
+    "id": "fi_GoodInstructionPositioning",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 176
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 248
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 104
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 480
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 3
+        }
+    },
+    "targetFile": "fi_GoodInstructionPositioning.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

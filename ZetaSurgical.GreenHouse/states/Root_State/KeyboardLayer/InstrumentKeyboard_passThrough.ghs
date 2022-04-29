@@ -1,0 +1,38 @@
+{
+    "children": [
+    ],
+    "childrenSplit": true,
+    "entryActions": [
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        },
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        }
+    ],
+    "exitActions": [
+        {
+            "rawCode": "",
+            "type": "RawCode"
+        }
+    ],
+    "extraData": {
+        "FIGMA": "kKItBBA5TYuCVGxWbPVftH",
+        "orderValue": 3
+    },
+    "properties": {
+        "childViewType": "ChildStateView",
+        "initial": false,
+        "layoutFile": "InstrumentKeyboard_passThroughLayout",
+        "layoutFileTemplate": "%1Impl.qml",
+        "name": "InstrumentKeyboard_passThrough",
+        "parallel": false,
+        "parentingEnabled": true,
+        "preloadUI": false
+    },
+    "targetFile": "InstrumentKeyboard_passThrough.ghs",
+    "template": "ItemState",
+    "uuid": "{a904ea81-cc3b-414f-a224-c5e59f73a667}"
+}

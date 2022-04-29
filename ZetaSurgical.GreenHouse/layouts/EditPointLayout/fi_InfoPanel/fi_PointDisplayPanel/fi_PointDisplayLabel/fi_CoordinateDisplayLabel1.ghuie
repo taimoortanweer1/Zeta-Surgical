@@ -14,6 +14,14 @@
     },
     "id": "fi_CoordinateDisplayLabel1",
     "properties": {
+        "fi_01_text": {
+            "bindingProp": "targetUpValueString",
+            "bindingSrc": "PointEditorPresenter",
+            "name": "fi_01_text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::I366:3546;174:2740;174:2735",
+            "value": "0.1"
+        },
         "width": {
             "name": "width",
             "type": "Int",

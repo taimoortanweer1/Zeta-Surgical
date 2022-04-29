@@ -1,0 +1,19 @@
+{
+    "source": "EditTopBottomDATA",
+    "target": "EditPoint",
+    "targetFile": "EditTopBottomDATA_EditPoint.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": false,
+                "sender": "PopupsPresenter",
+                "senderStringType": "%1",
+                "signal": "closeAllPopups"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{bcbefa4a-b6ea-4ded-92c2-4e42666f6c11}"
+}

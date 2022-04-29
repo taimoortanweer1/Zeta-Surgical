@@ -1,0 +1,358 @@
+{
+    "blockInputFallthrough": false,
+    "childrenSplit": true,
+    "delegates": [
+        {
+            "children": [
+                {
+                    "anchorBottom": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Bottom"
+                    },
+                    "anchorLeft": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Left"
+                    },
+                    "anchorRight": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Right"
+                    },
+                    "anchorTop": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Top"
+                    },
+                    "childrenSplit": true,
+                    "extraData": {
+                        "FIGMA_ID": "I714:3142;614:3134"
+                    },
+                    "id": "fi_row4_key1",
+                    "properties": {
+                        "fi_Label_lineHeight": {
+                            "name": "fi_Label_lineHeight",
+                            "type": "Float",
+                            "value": 23.44
+                        },
+                        "fi_Label_text": {
+                            "bindingRole": "valueRole",
+                            "name": "fi_Label_text",
+                            "type": "TranslatableString",
+                            "uuid": "FigmaNode::I714:3142;614:3134;614:3331",
+                            "value": "z"
+                        },
+                        "height": {
+                            "name": "height",
+                            "type": "Int",
+                            "value": 80
+                        },
+                        "width": {
+                            "name": "width",
+                            "type": "Int",
+                            "value": 38
+                        }
+                    },
+                    "signals": {
+                        "clicked": {
+                            "name": "clicked",
+                            "rawCode": "root.itemInterface.fi_row4_key1__onEvent__clicked(valueRole)\n"
+                        }
+                    },
+                    "targetFile": "fi_row4_key1.ghuie",
+                    "type": "ZetaSurgicalSet.MiniKeyboardButton_LetterNumber",
+                    "userDefined": false
+                }
+            ],
+            "childrenSplit": true,
+            "id": "fi_ListViewRow4_horizontal_delegate",
+            "model": {
+                "bindingProp": "row4Model",
+                "bindingSrc": "KeyboardPresenter",
+                "name": "modelProperty",
+                "type": "Model",
+                "value": null
+            },
+            "properties": {
+                "height": {
+                    "name": "height",
+                    "type": "Int",
+                    "value": 80
+                },
+                "width": {
+                    "name": "width",
+                    "type": "Int",
+                    "value": 38
+                }
+            },
+            "targetFile": "fi_ListViewRow4_horizontal_delegate.ghuie",
+            "type": "FocusScope",
+            "userDefined": false
+        },
+        {
+            "children": [
+                {
+                    "anchorBottom": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Bottom"
+                    },
+                    "anchorLeft": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Left"
+                    },
+                    "anchorRight": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Right"
+                    },
+                    "anchorTop": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Top"
+                    },
+                    "childrenSplit": true,
+                    "extraData": {
+                        "FIGMA_ID": "I714:3142;614:3137"
+                    },
+                    "id": "fi_row3_key1",
+                    "properties": {
+                        "fi_Label_lineHeight": {
+                            "name": "fi_Label_lineHeight",
+                            "type": "Float",
+                            "value": 23.44
+                        },
+                        "fi_Label_text": {
+                            "bindingRole": "valueRole",
+                            "name": "fi_Label_text",
+                            "type": "TranslatableString",
+                            "uuid": "FigmaNode::I714:3142;614:3137;614:3331",
+                            "value": "a"
+                        },
+                        "height": {
+                            "name": "height",
+                            "type": "Int",
+                            "value": 80
+                        },
+                        "width": {
+                            "name": "width",
+                            "type": "Int",
+                            "value": 38
+                        }
+                    },
+                    "signals": {
+                        "clicked": {
+                            "name": "clicked",
+                            "rawCode": "root.itemInterface.fi_row3_key1__onEvent__clicked(valueRole)\n"
+                        }
+                    },
+                    "targetFile": "fi_row3_key1.ghuie",
+                    "type": "ZetaSurgicalSet.MiniKeyboardButton_LetterNumber",
+                    "userDefined": false
+                }
+            ],
+            "childrenSplit": true,
+            "id": "fi_ListViewRow3_horizontal_delegate",
+            "model": {
+                "bindingProp": "row3Model",
+                "bindingSrc": "KeyboardPresenter",
+                "name": "modelProperty",
+                "type": "Model",
+                "value": null
+            },
+            "properties": {
+                "height": {
+                    "name": "height",
+                    "type": "Int",
+                    "value": 80
+                },
+                "width": {
+                    "name": "width",
+                    "type": "Int",
+                    "value": 38
+                }
+            },
+            "targetFile": "fi_ListViewRow3_horizontal_delegate.ghuie",
+            "type": "FocusScope",
+            "userDefined": false
+        },
+        {
+            "children": [
+                {
+                    "anchorBottom": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Bottom"
+                    },
+                    "anchorLeft": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Left"
+                    },
+                    "anchorRight": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Right"
+                    },
+                    "anchorTop": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Top"
+                    },
+                    "childrenSplit": true,
+                    "extraData": {
+                        "FIGMA_ID": "I714:3142;614:3164"
+                    },
+                    "id": "fi_row2_key1",
+                    "properties": {
+                        "fi_Label_lineHeight": {
+                            "name": "fi_Label_lineHeight",
+                            "type": "Float",
+                            "value": 23.44
+                        },
+                        "fi_Label_text": {
+                            "bindingRole": "valueRole",
+                            "name": "fi_Label_text",
+                            "type": "TranslatableString",
+                            "uuid": "FigmaNode::I714:3142;614:3164;614:3331",
+                            "value": "q"
+                        },
+                        "height": {
+                            "name": "height",
+                            "type": "Int",
+                            "value": 80
+                        },
+                        "width": {
+                            "name": "width",
+                            "type": "Int",
+                            "value": 38
+                        }
+                    },
+                    "signals": {
+                        "clicked": {
+                            "name": "clicked",
+                            "rawCode": "root.itemInterface.fi_row2_key1__onEvent__clicked(valueRole)\n"
+                        }
+                    },
+                    "targetFile": "fi_row2_key1.ghuie",
+                    "type": "ZetaSurgicalSet.MiniKeyboardButton_LetterNumber",
+                    "userDefined": false
+                }
+            ],
+            "childrenSplit": true,
+            "id": "fi_ListViewRow2_horizontal_delegate",
+            "model": {
+                "bindingProp": "row2Model",
+                "bindingSrc": "KeyboardPresenter",
+                "name": "modelProperty",
+                "type": "Model",
+                "value": null
+            },
+            "properties": {
+                "height": {
+                    "name": "height",
+                    "type": "Int",
+                    "value": 80
+                },
+                "width": {
+                    "name": "width",
+                    "type": "Int",
+                    "value": 38
+                }
+            },
+            "targetFile": "fi_ListViewRow2_horizontal_delegate.ghuie",
+            "type": "FocusScope",
+            "userDefined": false
+        },
+        {
+            "children": [
+                {
+                    "anchorBottom": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Bottom"
+                    },
+                    "anchorLeft": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Left"
+                    },
+                    "anchorRight": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Right"
+                    },
+                    "anchorTop": {
+                        "anchorTarget": "parent",
+                        "anchorValue": "Top"
+                    },
+                    "childrenSplit": true,
+                    "extraData": {
+                        "FIGMA_ID": "I714:3142;614:3180"
+                    },
+                    "id": "fi_row1_key1",
+                    "properties": {
+                        "fi_Label_lineHeight": {
+                            "name": "fi_Label_lineHeight",
+                            "type": "Float",
+                            "value": 23.44
+                        },
+                        "fi_Label_text": {
+                            "bindingRole": "valueRole",
+                            "name": "fi_Label_text",
+                            "type": "TranslatableString",
+                            "uuid": "FigmaNode::I714:3142;614:3180;614:3331",
+                            "value": "1"
+                        },
+                        "height": {
+                            "name": "height",
+                            "type": "Int",
+                            "value": 80
+                        },
+                        "width": {
+                            "name": "width",
+                            "type": "Int",
+                            "value": 38
+                        }
+                    },
+                    "signals": {
+                        "clicked": {
+                            "name": "clicked",
+                            "rawCode": "root.itemInterface.fi_row1_key1__onEvent__clicked(valueRole)\n"
+                        }
+                    },
+                    "targetFile": "fi_row1_key1.ghuie",
+                    "type": "ZetaSurgicalSet.MiniKeyboardButton_LetterNumber",
+                    "userDefined": false
+                }
+            ],
+            "childrenSplit": true,
+            "id": "fi_ListViewRow1_horizontal_delegate",
+            "model": {
+                "bindingProp": "row1Model",
+                "bindingSrc": "KeyboardPresenter",
+                "name": "modelProperty",
+                "type": "Model",
+                "value": null
+            },
+            "properties": {
+                "height": {
+                    "name": "height",
+                    "type": "Int",
+                    "value": 80
+                },
+                "width": {
+                    "name": "width",
+                    "type": "Int",
+                    "value": 38
+                }
+            },
+            "targetFile": "fi_ListViewRow1_horizontal_delegate.ghuie",
+            "type": "FocusScope",
+            "userDefined": false
+        }
+    ],
+    "fillParent": false,
+    "height": 1080,
+    "hideAnimation": {
+        "type": "Sequential"
+    },
+    "interfaceName": "InstrumentKeyboard_passThroughIFace",
+    "name": "InstrumentKeyboard_passThroughLayout",
+    "posX": 0,
+    "posY": 0,
+    "rootContainerType": "Item",
+    "showAnimation": {
+        "type": "Sequential"
+    },
+    "targetFile": "InstrumentKeyboard_passThroughLayout.ghl",
+    "uuid": "{8d68e13f-b16b-4df0-932a-e42da3ab4af2}",
+    "width": 1920
+}

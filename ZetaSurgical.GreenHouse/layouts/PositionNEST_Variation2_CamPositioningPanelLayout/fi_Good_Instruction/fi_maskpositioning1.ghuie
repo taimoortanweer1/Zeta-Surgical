@@ -1,0 +1,57 @@
+{
+    "anchorBottom": {
+        "anchorMargin": 118,
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorLeft": {
+        "anchorMargin": 112,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorRight": {
+        "anchorMargin": 124,
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "anchorTop": {
+        "anchorMargin": 105,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "691:3523"
+    },
+    "id": "fi_maskpositioning1",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 65
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 156
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 112
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 105
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "targetFile": "fi_maskpositioning1.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

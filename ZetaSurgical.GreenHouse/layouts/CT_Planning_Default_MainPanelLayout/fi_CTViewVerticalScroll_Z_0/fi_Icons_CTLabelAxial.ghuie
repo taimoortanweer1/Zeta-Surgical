@@ -1,0 +1,47 @@
+{
+    "anchorRight": {
+        "anchorMargin": 532,
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "anchorTop": {
+        "anchorMargin": 32,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "685:3248"
+    },
+    "id": "fi_Icons_CTLabelAxial",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 32
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 104
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 32
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 32
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 2
+        }
+    },
+    "targetFile": "fi_Icons_CTLabelAxial.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

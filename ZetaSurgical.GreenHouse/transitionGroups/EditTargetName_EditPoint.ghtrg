@@ -1,0 +1,19 @@
+{
+    "source": "EditTargetName",
+    "target": "EditPoint",
+    "targetFile": "EditTargetName_EditPoint.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": false,
+                "sender": "PopupsPresenter",
+                "senderStringType": "%1",
+                "signal": "closeAllPopups"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{b0f96eac-66b1-4fff-9380-9b2c517dc37b}"
+}

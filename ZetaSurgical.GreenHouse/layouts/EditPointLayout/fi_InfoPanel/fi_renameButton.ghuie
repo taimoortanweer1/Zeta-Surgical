@@ -15,6 +15,14 @@
     },
     "id": "fi_renameButton",
     "properties": {
+        "input_inputText": {
+            "bindingProp": "targetIDEditString",
+            "bindingSrc": "PointEditorPresenter",
+            "name": "input_inputText",
+            "type": "TranslatableString",
+            "uuid": "{b9c5fae8-5754-43bb-85d6-b07bef60ca79}",
+            "value": null
+        },
         "x": {
             "name": "x",
             "type": "Int",

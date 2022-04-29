@@ -33,5 +33,6 @@
         "preloadUI": false
     },
     "targetFile": "EditLeftRightDATA.ghs",
-    "template": "ItemState"
+    "template": "ItemState",
+    "uuid": "{f6a21de5-46ec-4b1a-be1a-ad93f66954fd}"
 }

@@ -1,0 +1,47 @@
+{
+    "source": "EditLeftRightDATA",
+    "targetFile": "EditLeftRightDATA.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_closeWindow__onEvent__clicked",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfacePopupsMoveToEditPoint();\n}\n",
+                    "type": "RawCode"
+                },
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(SurfaceController, sc)\nsc->surfaceKeyboardLayerMoveToKeyboardLayerEmpty();\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        },
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": false,
+                "internal": false,
+                "signalName": "fi_renumber2__onEvent__input_textChanged",
+                "validSourceTemplates": [
+                    "ItemState"
+                ]
+            },
+            "template": "ItemSignalTransition",
+            "triggeredActions": [
+                {
+                    "rawCode": "{\nCONTEXT_OBJECT(PopupsPresenter, co) co->onInputChanged(args.at(0).toString());\n}\n",
+                    "type": "RawCode"
+                }
+            ]
+        }
+    ],
+    "uuid": "{ac669837-f6d7-4798-bc97-adc8698ba23f}"
+}

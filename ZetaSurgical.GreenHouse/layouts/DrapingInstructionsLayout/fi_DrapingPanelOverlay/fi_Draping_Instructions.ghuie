@@ -89,7 +89,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 4
+            "value": 2
         }
     },
     "targetFile": "fi_Draping_Instructions.ghuie",

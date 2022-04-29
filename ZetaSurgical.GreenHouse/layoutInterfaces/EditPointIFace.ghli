@@ -46,6 +46,15 @@
         "fi_addPointButton__onEvent__clicked": {
             "name": "fi_addPointButton__onEvent__clicked"
         },
+        "mouseArea0__onEvent__clicked": {
+            "name": "mouseArea0__onEvent__clicked"
+        },
+        "mouseArea1__onEvent__clicked": {
+            "name": "mouseArea1__onEvent__clicked"
+        },
+        "mouseArea2__onEvent__clicked": {
+            "name": "mouseArea2__onEvent__clicked"
+        },
         "moveToNoPopup": {
             "name": "moveToNoPopup"
         }

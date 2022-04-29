@@ -3,15 +3,13 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
 
-
 //USES ComponentsSet.SliderItem
 //PREVIEW IMAGE qrc:/GeneratedComponents/assets/Slider.png
-
 
 //EDITABLE TRUE
 Item {
     id: root
-    
+
     //Exposed properties----------------------------------------------------------------------------
     //BOOL false
     property alias sliderItem_dynamicValueReporting: sliderItem.dynamicValueReporting
@@ -25,20 +23,20 @@ Item {
     property alias sliderItem_stepSize: sliderItem.stepSize
     //INT 25
     property alias sliderItem_value: sliderItem.value
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Exposed signals-------------------------------------------------------------------------------
     signal sliderItem_valueChangeRequested(int value) /*sliderItem.valueChangeRequested*/
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Local bindings--------------------------------------------------------------------------------
     width: 176
     height: 8
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Children--------------------------------------------------------------------------------------
     ComponentsSet.SliderItem {
         id: sliderItem
@@ -53,19 +51,15 @@ Item {
         leftBackgroundAssetBorder: 25
         rightBackgroundAssetBorder: 25
         topBackgroundAssetBorder: 3
-        
-        
-        
-        
+
         onValueChangeRequested: {
             root.sliderItem_valueChangeRequested(value);
         }
-        
     }
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //States----------------------------------------------------------------------------------------
-    
+
     //----------------------------------------------------------------------------------------------
 }

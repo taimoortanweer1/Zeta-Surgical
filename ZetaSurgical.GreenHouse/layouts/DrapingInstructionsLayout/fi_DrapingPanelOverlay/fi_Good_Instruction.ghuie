@@ -1,0 +1,52 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 1104,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorRight": {
+        "anchorMargin": 88,
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "anchorTop": {
+        "anchorMargin": 160,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "691:3340"
+    },
+    "id": "fi_Good_Instruction",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 288
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 392
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 1104
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 160
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 5
+        }
+    },
+    "targetFile": "fi_Good_Instruction.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

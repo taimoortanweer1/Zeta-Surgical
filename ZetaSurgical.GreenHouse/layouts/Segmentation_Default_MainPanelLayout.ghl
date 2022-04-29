@@ -8,7 +8,7 @@
     },
     "interfaceName": "Segmentation_Default_MainPanelIFace",
     "name": "Segmentation_Default_MainPanelLayout",
-    "posX": 130,
+    "posX": 128,
     "posY": 0,
     "rootContainerType": "Item",
     "showAnimation": {
@@ -16,5 +16,5 @@
     },
     "targetFile": "Segmentation_Default_MainPanelLayout.ghl",
     "uuid": "{951bbecf-c161-4936-b87f-ce31b9b534ab}",
-    "width": 1334
+    "width": 1336
 }

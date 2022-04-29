@@ -1,7 +1,7 @@
 {
     "childrenSplit": true,
     "extraData": {
-        "FIGMA_ID": "314:2840"
+        "FIGMA_ID": "661:3234"
     },
     "id": "fi_Segmentation",
     "properties": {
@@ -33,7 +33,7 @@
         "text": {
             "name": "text",
             "type": "TranslatableString",
-            "uuid": "FigmaNode::314:2840",
+            "uuid": "FigmaNode::661:3234",
             "value": "Segmentation"
         },
         "textColor": {
@@ -44,7 +44,7 @@
         "width": {
             "name": "width",
             "type": "Int",
-            "value": 1336
+            "value": 1274
         },
         "wrapMode": {
             "name": "wrapMode",
@@ -54,7 +54,7 @@
         "x": {
             "name": "x",
             "type": "Int",
-            "value": -1
+            "value": 31
         },
         "y": {
             "name": "y",
@@ -64,7 +64,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 1
+            "value": 2
         }
     },
     "targetFile": "fi_Segmentation.ghuie",

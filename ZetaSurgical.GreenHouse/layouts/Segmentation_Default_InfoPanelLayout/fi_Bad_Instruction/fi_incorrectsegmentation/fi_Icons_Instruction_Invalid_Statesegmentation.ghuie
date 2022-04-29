@@ -1,0 +1,47 @@
+{
+    "anchorBottom": {
+        "anchorMargin": 16,
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorRight": {
+        "anchorMargin": 16,
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "689:3350"
+    },
+    "id": "fi_Icons_Instruction_Invalid_Statesegmentation",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 40
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 40
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 336
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 232
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "targetFile": "fi_Icons_Instruction_Invalid_Statesegmentation.ghuie",
+    "type": "Item",
+    "userDefined": false
+}

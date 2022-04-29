@@ -1,0 +1,19 @@
+{
+    "source": "EditLeftRightDATA",
+    "target": "EditPoint",
+    "targetFile": "EditLeftRightDATA_EditPoint.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": false,
+                "sender": "PopupsPresenter",
+                "senderStringType": "%1",
+                "signal": "closeAllPopups"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{4ffebea4-0660-41d9-99f0-abb3223388f1}"
+}

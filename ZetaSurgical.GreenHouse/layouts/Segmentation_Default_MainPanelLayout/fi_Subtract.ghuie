@@ -1,0 +1,32 @@
+{
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "661:3231"
+    },
+    "id": "fi_Subtract",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 1080
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/661_3231.png"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 1336
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 1
+        }
+    },
+    "targetFile": "fi_Subtract.ghuie",
+    "type": "Image",
+    "userDefined": false
+}

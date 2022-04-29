@@ -1,0 +1,52 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 98,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 63,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "691:3599"
+    },
+    "id": "fi_mask2",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 40
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/691_3599.png"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 94
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 98
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 63
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 3
+        }
+    },
+    "targetFile": "fi_mask2.ghuie",
+    "type": "Image",
+    "userDefined": false
+}

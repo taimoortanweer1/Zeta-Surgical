@@ -2,6 +2,8 @@
 
 #include <ZetaSurgical/pointeditorpresenter.hpp>
 
+class PopupsPresenterImpl;
+
 struct Point {
     double x = 0.0;
     double y = 0.0;
@@ -20,18 +22,21 @@ class PointEditorPresenterImpl : public ZetaSurgical::PointEditorPresenter
 {
     Q_OBJECT
 public:
-    explicit PointEditorPresenterImpl();
+    explicit PointEditorPresenterImpl(PopupsPresenterImpl *popupsPresenter);
     void addNewPoint(Callback);
     void editPoint(Point const &point, Callback);
 
-    void init();
+    void init() override;
 
-    void onNorthButtonClicked();
-    void onSouthButtonClicked();
-    void onWestButtonClicked();
-    void onEastButtonClicked();
-    void onAddPointClicked();
-    void onSelectModeClicked(int mode);
+    void onNorthButtonClicked() override;
+    void onSouthButtonClicked() override;
+    void onWestButtonClicked() override;
+    void onEastButtonClicked() override;
+    void onAddPointClicked() override;
+    void onSelectModeClicked(int mode) override;
+    void onTargetIDEditRequested() override;
+    void onTargetUpLabelEditRequested() override;
+    void onTargetDownLabelEditRequested() override;
 
 private:
 
@@ -39,4 +44,5 @@ private:
 
     Callback m_callback;
     Point m_point;
+    PopupsPresenterImpl *const m_popupsPresenter;
 };

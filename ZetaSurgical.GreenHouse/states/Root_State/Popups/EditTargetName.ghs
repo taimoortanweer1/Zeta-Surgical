@@ -33,5 +33,6 @@
         "preloadUI": false
     },
     "targetFile": "EditTargetName.ghs",
-    "template": "ItemState"
+    "template": "ItemState",
+    "uuid": "{31b3e382-bfab-47f6-916b-c5594b851552}"
 }

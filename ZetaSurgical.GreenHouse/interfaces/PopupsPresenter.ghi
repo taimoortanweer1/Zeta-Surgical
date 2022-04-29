@@ -44,6 +44,21 @@
         },
         "keyboardShown": {
             "name": "keyboardShown"
+        },
+        "smallKeyboardHidden": {
+            "name": "smallKeyboardHidden"
+        },
+        "smallKeyboardShown": {
+            "name": "smallKeyboardShown"
+        },
+        "targetDownLabelEditShown": {
+            "name": "targetDownLabelEditShown"
+        },
+        "targetIDEditShown": {
+            "name": "targetIDEditShown"
+        },
+        "targetUpLabelEditShown": {
+            "name": "targetUpLabelEditShown"
         }
     },
     "targetFile": "PopupsPresenter.ghi",

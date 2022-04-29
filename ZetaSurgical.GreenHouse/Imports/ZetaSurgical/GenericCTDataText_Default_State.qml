@@ -3,15 +3,13 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
 
-
 //USES BorderImage
 //USES ComponentsSet.RegularTextInput
-
 
 //EDITABLE TRUE
 FocusScope {
     id: root
-    
+
     //Exposed properties----------------------------------------------------------------------------
     //BOOL false
     property alias input_autoClear: input.autoClear
@@ -33,38 +31,33 @@ FocusScope {
     property alias input_passwordCharacter: input.passwordCharacter
     //STRING
     property alias input_regExp: input.regExp
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Exposed signals-------------------------------------------------------------------------------
     signal input_accepted() /*input.accepted*/
     signal input_textChanged(string text) /*input.textChanged*/
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Local bindings--------------------------------------------------------------------------------
-    width: 120
-    height: 48
-    
+    width: 100
+    height: 40
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Children--------------------------------------------------------------------------------------
     BorderImage {
-        id: fi_Rectangle
+        id: fi_BG_9seg_24_24_24_24
         anchors.left: parent.left
         anchors.right: parent.right
         anchors.top: parent.top
         anchors.bottom: parent.bottom
         source: GreenHouseThemeManager.theme.asset("/628_3477.png")
-        border.bottom: 23
-        border.left: 23
-        border.right: 23
-        border.top: 23
-        
-        
-        
-        
-        
+        border.bottom: 19
+        border.left: 19
+        border.right: 19
+        border.top: 19
     }
     ComponentsSet.RegularTextInput {
         id: input
@@ -78,22 +71,18 @@ FocusScope {
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
         clip: true
-        
-        
-        
-        
+
         onAccepted: {
             root.input_accepted();
         }
         onTextChanged: {
             root.input_textChanged(text);
         }
-        
     }
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //States----------------------------------------------------------------------------------------
-    
+
     //----------------------------------------------------------------------------------------------
 }

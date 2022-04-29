@@ -1,0 +1,43 @@
+{
+    "anchorBottom": {
+        "anchorTarget": "parent",
+        "anchorValue": "Bottom"
+    },
+    "anchorLeft": {
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorRight": {
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "anchorTop": {
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "689:3351"
+    },
+    "id": "fi_Circle",
+    "properties": {
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 40
+        },
+        "source": {
+            "name": "source",
+            "type": "Asset",
+            "value": "/689_3351.png"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 40
+        }
+    },
+    "targetFile": "fi_Circle.ghuie",
+    "type": "Image",
+    "userDefined": false
+}

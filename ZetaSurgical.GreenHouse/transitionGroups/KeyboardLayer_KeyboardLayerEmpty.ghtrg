@@ -1,0 +1,19 @@
+{
+    "source": "KeyboardLayer",
+    "target": "KeyboardLayerEmpty",
+    "targetFile": "KeyboardLayer_KeyboardLayerEmpty.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "SurfaceController",
+                "senderStringType": "%1",
+                "signal": "surfaceKeyboardLayerMoveToKeyboardLayerEmpty"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{b1a65d2b-1b19-4d59-bca2-046af26f44b8}"
+}

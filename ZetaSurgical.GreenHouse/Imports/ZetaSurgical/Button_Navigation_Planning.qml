@@ -3,18 +3,16 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
 
-
 //USES Image
 //USES ComponentsSet.Label
 //USES Item
 //USES ComponentsSet.AutoRepeatMouseArea
 //PREVIEW IMAGE qrc:/GeneratedComponents/assets/Button.png
 
-
 //EDITABLE TRUE
 Item {
     id: root
-    
+
     //Exposed properties----------------------------------------------------------------------------
     property bool complete_flag: false
     property bool doubleClickEnabeld: false
@@ -48,24 +46,24 @@ Item {
     property alias icon___default_source: icon___default.source
     //ASSET /Icons/NavbarPlanning__SelectedState.png
     property alias icon___selected_source: icon___selected.source
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Exposed signals-------------------------------------------------------------------------------
     signal clicked() /*__mouseArea.clicked*/
     signal doubleClicked() /*__mouseArea.doubleClicked*/
     signal pressed() /*__mouseArea.pressed*/
     signal released() /*__mouseArea.released*/
     signal repeatingTriggered() /*__mouseArea.repeatingTriggered*/
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Local bindings--------------------------------------------------------------------------------
     width: 128
     height: 128
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Children--------------------------------------------------------------------------------------
     Item {
         id: complete_StateParent
@@ -74,9 +72,7 @@ Item {
         anchors.top: parent.top
         anchors.bottom: parent.bottom
         visible: false
-        
-        
-        
+
         Image {
             id: icon___complete
             anchors.top: parent.top
@@ -85,11 +81,6 @@ Item {
             width: 88
             height: 88
             source: GreenHouseThemeManager.theme.asset("/Icons/NavbarPlanning__CompletedState.png")
-            
-            
-            
-            
-            
         }
         ComponentsSet.Label {
             id: fi_Planning___complete
@@ -108,14 +99,7 @@ Item {
             wrapMode: Text.WordWrap
             lineHeight: 20
             lineHeightMode: Text.FixedHeight
-            
-            
-            
-            
-            
         }
-        
-        
     }
     Item {
         id: default_StateParent
@@ -123,11 +107,6 @@ Item {
         anchors.right: parent.right
         anchors.top: parent.top
         anchors.bottom: parent.bottom
-        
-        
-        
-        
-        
     }
     Item {
         id: selected_StateParent
@@ -135,11 +114,6 @@ Item {
         anchors.right: parent.right
         anchors.top: parent.top
         anchors.bottom: parent.bottom
-        
-        
-        
-        
-        
     }
     ComponentsSet.AutoRepeatMouseArea {
         id: __mouseArea
@@ -151,10 +125,7 @@ Item {
         doubleClickEnabeld: root.doubleClickEnabeld
         minimumRepeatInterval: root.minimumRepeatInterval
         repeateInterval: root.repeateInterval
-        
-        
-        
-        
+
         onClicked: {
             root.clicked();
         }
@@ -170,7 +141,6 @@ Item {
         onRepeatingTriggered: {
             root.repeatingTriggered();
         }
-        
     }
     ComponentsSet.Label {
         id: fi_Planning___default
@@ -192,11 +162,6 @@ Item {
         lineHeight: fi_Planning___complete.lineHeight
         lineHeightMode: fi_Planning___complete.lineHeightMode
         richText: fi_Planning___complete.richText
-        
-        
-        
-        
-        
     }
     Image {
         id: icon___default
@@ -208,11 +173,6 @@ Item {
         source: GreenHouseThemeManager.theme.asset("/Icons/NavbarPlanning__DefaultState.png")
         opacity: icon___complete.opacity
         visible: default_StateParent.visible
-        
-        
-        
-        
-        
     }
     Image {
         id: icon___selected
@@ -224,15 +184,10 @@ Item {
         source: GreenHouseThemeManager.theme.asset("/Icons/NavbarPlanning__SelectedState.png")
         opacity: icon___complete.opacity
         visible: selected_StateParent.visible
-        
-        
-        
-        
-        
     }
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //States----------------------------------------------------------------------------------------
     StateGroup { //
         states: [
@@ -242,14 +197,11 @@ Item {
             PropertyChanges {
                 target: default_StateParent
                 visible: true
-                
             }
             PropertyChanges {
                 target: selected_StateParent
                 visible: false
-                
             }
-            
         },
         State {
             when: (root.selectionIndex == root.itemIndex)
@@ -257,18 +209,15 @@ Item {
             PropertyChanges {
                 target: default_StateParent
                 visible: false
-                
             }
             PropertyChanges {
                 target: selected_StateParent
                 visible: true
-                
             }
-            
         }
         ]
         transitions: [
-        
+
         ]
     }
     StateGroup { // generic_complete
@@ -280,15 +229,13 @@ Item {
                 target: complete_StateParent
                 visible: true
                 z: 999
-                
             }
-            
         }
         ]
         transitions: [
-        
+
         ]
     }
-    
+
     //----------------------------------------------------------------------------------------------
 }

@@ -18,7 +18,7 @@
         "color": {
             "name": "color",
             "type": "Color",
-            "value": "PanelBackground/Black"
+            "value": "PanelBackground/Default"
         },
         "height": {
             "name": "height",

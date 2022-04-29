@@ -43,6 +43,15 @@
         "onSouthButtonClicked": {
             "name": "onSouthButtonClicked"
         },
+        "onTargetDownLabelEditRequested": {
+            "name": "onTargetDownLabelEditRequested"
+        },
+        "onTargetIDEditRequested": {
+            "name": "onTargetIDEditRequested"
+        },
+        "onTargetUpLabelEditRequested": {
+            "name": "onTargetUpLabelEditRequested"
+        },
         "onWestButtonClicked": {
             "name": "onWestButtonClicked"
         }
@@ -92,6 +101,24 @@
             },
             {
                 "name": "selectedPointNameString",
+                "preview": null,
+                "readonly": true,
+                "type": "String"
+            },
+            {
+                "name": "targetIDEditString",
+                "preview": null,
+                "readonly": true,
+                "type": "String"
+            },
+            {
+                "name": "targetUpValueString",
+                "preview": null,
+                "readonly": true,
+                "type": "String"
+            },
+            {
+                "name": "targetDownValueString",
                 "preview": null,
                 "readonly": true,
                 "type": "String"

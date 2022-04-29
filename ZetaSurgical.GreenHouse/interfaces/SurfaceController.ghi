@@ -117,6 +117,9 @@
         "surfaceInfoPanelMoveToSegmentation_Default_InfoPanel": {
             "name": "surfaceInfoPanelMoveToSegmentation_Default_InfoPanel"
         },
+        "surfaceKeyboardLayerMoveToKeyboardLayerEmpty": {
+            "name": "surfaceKeyboardLayerMoveToKeyboardLayerEmpty"
+        },
         "surfaceLoginPanelMoveToLoginView_Default_LoginPanel": {
             "name": "surfaceLoginPanelMoveToLoginView_Default_LoginPanel"
         },
@@ -129,9 +132,6 @@
         "surfaceMainPanelMoveToConfirmRegistrationPRE_Adjustment_Cut_MainPanel": {
             "name": "surfaceMainPanelMoveToConfirmRegistrationPRE_Adjustment_Cut_MainPanel"
         },
-        "surfaceMainPanelMoveToMainPanel_Shared0": {
-            "name": "surfaceMainPanelMoveToMainPanel_Shared0"
-        },
         "surfaceMainPanelMoveToNavigationPanel_4Views_MainPanel": {
             "name": "surfaceMainPanelMoveToNavigationPanel_4Views_MainPanel"
         },
@@ -140,6 +140,12 @@
         },
         "surfaceMainPanelMoveToPositionNEST_Variation2_MainPanel": {
             "name": "surfaceMainPanelMoveToPositionNEST_Variation2_MainPanel"
+        },
+        "surfaceMainPanelMoveToRegistration_Verification_1_MainPanel": {
+            "name": "surfaceMainPanelMoveToRegistration_Verification_1_MainPanel"
+        },
+        "surfaceMainPanelMoveToRegistration_Verification_2_MainPanel": {
+            "name": "surfaceMainPanelMoveToRegistration_Verification_2_MainPanel"
         },
         "surfaceMainPanelMoveToSegmentation_Default_MainPanel": {
             "name": "surfaceMainPanelMoveToSegmentation_Default_MainPanel"

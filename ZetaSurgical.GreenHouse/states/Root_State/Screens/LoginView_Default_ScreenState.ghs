@@ -26,7 +26,7 @@
     "properties": {
         "EmptyState": true,
         "childViewType": "ChildStateView",
-        "initial": false,
+        "initial": true,
         "name": "LoginView_Default_ScreenState",
         "parallel": false,
         "parentingEnabled": true,

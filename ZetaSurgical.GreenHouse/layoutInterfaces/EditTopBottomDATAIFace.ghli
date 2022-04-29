@@ -1,4 +1,19 @@
 {
     "name": "EditTopBottomDATAIFace",
+    "signals": {
+        "fi_closeWindow__onEvent__clicked": {
+            "name": "fi_closeWindow__onEvent__clicked"
+        },
+        "fi_renumber1__onEvent__input_textChanged": {
+            "arguments": [
+                {
+                    "name": "PopupsPresenter_onInputChanged_input",
+                    "preview": null,
+                    "type": "String"
+                }
+            ],
+            "name": "fi_renumber1__onEvent__input_textChanged"
+        }
+    },
     "targetFile": "EditTopBottomDATAIFace.ghli"
 }

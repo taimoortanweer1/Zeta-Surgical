@@ -74,7 +74,7 @@
         "z": {
             "name": "z",
             "type": "Int",
-            "value": 5
+            "value": 3
         }
     },
     "targetFile": "fi_Attach_Thandles_to_the_drape_bar.ghuie",

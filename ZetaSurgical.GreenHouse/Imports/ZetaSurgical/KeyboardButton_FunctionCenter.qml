@@ -3,18 +3,16 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
 
-
 //USES BorderImage
 //USES ComponentsSet.Label
 //USES Item
 //USES ComponentsSet.AutoRepeatMouseArea
 //PREVIEW IMAGE qrc:/GeneratedComponents/assets/Button.png
 
-
 //EDITABLE TRUE
 Item {
     id: root
-    
+
     //Exposed properties----------------------------------------------------------------------------
     property bool doubleClickEnabeld: false
     property bool invalid_flag: false
@@ -38,24 +36,24 @@ Item {
     property alias fi_Letter_textColor: fi_Letter___default.textColor
     //TEXTVAL 32
     property alias fi_Letter_verticalAlignment: fi_Letter___default.verticalAlignment
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Exposed signals-------------------------------------------------------------------------------
     signal clicked() /*__mouseArea.clicked*/
     signal doubleClicked() /*__mouseArea.doubleClicked*/
     signal pressed() /*__mouseArea.pressed*/
     signal released() /*__mouseArea.released*/
     signal repeatingTriggered() /*__mouseArea.repeatingTriggered*/
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Local bindings--------------------------------------------------------------------------------
     width: 152
     height: 56
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Children--------------------------------------------------------------------------------------
     Item {
         id: invalid_StateParent
@@ -64,9 +62,7 @@ Item {
         anchors.top: parent.top
         anchors.bottom: parent.bottom
         visible: false
-        
-        
-        
+
         BorderImage {
             id: fi_Rectangle_361___invalid
             anchors.left: parent.left
@@ -78,11 +74,6 @@ Item {
             border.left: 10
             border.right: 10
             border.top: 10
-            
-            
-            
-            
-            
         }
         ComponentsSet.Label {
             id: fi_Letter___invalid
@@ -102,14 +93,7 @@ Item {
             lineHeight: fi_Letter___default.lineHeight
             lineHeightMode: fi_Letter___default.lineHeightMode
             richText: fi_Letter___default.richText
-            
-            
-            
-            
-            
         }
-        
-        
     }
     ComponentsSet.AutoRepeatMouseArea {
         id: __mouseArea
@@ -121,10 +105,7 @@ Item {
         doubleClickEnabeld: root.doubleClickEnabeld
         minimumRepeatInterval: root.minimumRepeatInterval
         repeateInterval: root.repeateInterval
-        
-        
-        
-        
+
         onClicked: {
             root.clicked();
         }
@@ -140,7 +121,6 @@ Item {
         onRepeatingTriggered: {
             root.repeatingTriggered();
         }
-        
     }
     BorderImage {
         id: fi_Rectangle_361___default
@@ -153,11 +133,6 @@ Item {
         border.left: 10
         border.right: 10
         border.top: 10
-        
-        
-        
-        
-        
     }
     ComponentsSet.Label {
         id: fi_Letter___default
@@ -174,15 +149,10 @@ Item {
         wrapMode: Text.WordWrap
         lineHeight: 35.160000000000004
         lineHeightMode: Text.FixedHeight
-        
-        
-        
-        
-        
     }
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //States----------------------------------------------------------------------------------------
     StateGroup { //
         states: [
@@ -196,9 +166,7 @@ Item {
                 border.right: 10
                 border.top: 10
                 source: GreenHouseThemeManager.theme.asset("/210_4925.png")
-                
             }
-            
         },
         State {
             when: __mouseArea.pressed
@@ -210,13 +178,11 @@ Item {
                 border.right: 14
                 border.top: 14
                 source: GreenHouseThemeManager.theme.asset("/211_5205.png")
-                
             }
-            
         }
         ]
         transitions: [
-        
+
         ]
     }
     StateGroup { // generic_invalid
@@ -228,15 +194,13 @@ Item {
                 target: invalid_StateParent
                 visible: true
                 z: 999
-                
             }
-            
         }
         ]
         transitions: [
-        
+
         ]
     }
-    
+
     //----------------------------------------------------------------------------------------------
 }

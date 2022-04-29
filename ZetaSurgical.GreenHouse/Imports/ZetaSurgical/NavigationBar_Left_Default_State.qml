@@ -4,7 +4,6 @@ import GreenHouse.Theming 1.0
 import Decorative 1.0 as DecorativeSet
 import ZetaSurgical 1.0 as ZetaSurgicalSet
 
-
 //USES DecorativeSet.DecoratedItem
 //USES ZetaSurgicalSet.BackButton_Default_State
 //USES Row
@@ -17,11 +16,10 @@ import ZetaSurgical 1.0 as ZetaSurgicalSet
 //USES Image
 //USES Item
 
-
 //EDITABLE TRUE
 Item {
     id: root
-    
+
     //Exposed properties----------------------------------------------------------------------------
     //BOOL false
     property alias fi_BackButton_doubleClickEnabeld: fi_BackButton.doubleClickEnabeld
@@ -261,9 +259,9 @@ Item {
     property alias fi_Line_11_source: fi_Line_11.source
     //INT 0
     property alias fi_Row_spacing: fi_Row.spacing
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Exposed signals-------------------------------------------------------------------------------
     signal fi_BackButton_clicked() /*fi_BackButton.clicked*/
     signal fi_BackButton_doubleClicked() /*fi_BackButton.doubleClicked*/
@@ -300,15 +298,15 @@ Item {
     signal fi_HomeButton_pressed() /*fi_HomeButton.pressed*/
     signal fi_HomeButton_released() /*fi_HomeButton.released*/
     signal fi_HomeButton_repeatingTriggered() /*fi_HomeButton.repeatingTriggered*/
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Local bindings--------------------------------------------------------------------------------
     width: 128
     height: 1080
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //Children--------------------------------------------------------------------------------------
     DecorativeSet.DecoratedItem {
         id: fi_Rectangle_84
@@ -319,11 +317,6 @@ Item {
         source: GreenHouseThemeManager.theme.asset("/7_697.png")
         horizontalCenterOffset: 10
         verticalCenterOffset: 10
-        
-        
-        
-        
-        
     }
     Row {
         id: fi_Row
@@ -334,16 +327,11 @@ Item {
         z: 1
         width: 88
         height: 88
-        
-        
-        
+
         ZetaSurgicalSet.BackButton_Default_State {
             id: fi_BackButton
             anchors.top: parent.top
-            
-            
-            
-            
+
             onClicked: {
                 root.fi_BackButton_clicked();
             }
@@ -359,10 +347,7 @@ Item {
             onRepeatingTriggered: {
                 root.fi_BackButton_repeatingTriggered();
             }
-            
         }
-        
-        
     }
     ZetaSurgicalSet.Button_Navigation_Upload {
         id: fi_Button_Navigation_Upload
@@ -370,10 +355,7 @@ Item {
         anchors.top: parent.top
         anchors.topMargin: 128
         z: 2
-        
-        
-        
-        
+
         onClicked: {
             root.fi_Button_Navigation_Upload_clicked();
         }
@@ -389,7 +371,6 @@ Item {
         onRepeatingTriggered: {
             root.fi_Button_Navigation_Upload_repeatingTriggered();
         }
-        
     }
     ZetaSurgicalSet.Button_Navigation_Segmentation {
         id: fi_Button_Navigation_Segmentation
@@ -397,10 +378,7 @@ Item {
         anchors.top: parent.top
         anchors.topMargin: 264
         z: 3
-        
-        
-        
-        
+
         onClicked: {
             root.fi_Button_Navigation_Segmentation_clicked();
         }
@@ -416,7 +394,6 @@ Item {
         onRepeatingTriggered: {
             root.fi_Button_Navigation_Segmentation_repeatingTriggered();
         }
-        
     }
     ZetaSurgicalSet.Button_Navigation_Planning {
         id: fi_Button_Navigation_Planning
@@ -424,10 +401,7 @@ Item {
         anchors.top: parent.top
         anchors.topMargin: 400
         z: 4
-        
-        
-        
-        
+
         onClicked: {
             root.fi_Button_Navigation_Planning_clicked();
         }
@@ -443,7 +417,6 @@ Item {
         onRepeatingTriggered: {
             root.fi_Button_Navigation_Planning_repeatingTriggered();
         }
-        
     }
     ZetaSurgicalSet.Button_Navigation_Positioning {
         id: fi_Button_Navigation_Positioning
@@ -451,10 +424,7 @@ Item {
         anchors.top: parent.top
         anchors.topMargin: 536
         z: 5
-        
-        
-        
-        
+
         onClicked: {
             root.fi_Button_Navigation_Positioning_clicked();
         }
@@ -470,7 +440,6 @@ Item {
         onRepeatingTriggered: {
             root.fi_Button_Navigation_Positioning_repeatingTriggered();
         }
-        
     }
     ZetaSurgicalSet.Button_Navigation_Navigation {
         id: fi_Button_Navigation_Navigation
@@ -478,10 +447,7 @@ Item {
         anchors.top: parent.top
         anchors.topMargin: 672
         z: 6
-        
-        
-        
-        
+
         onClicked: {
             root.fi_Button_Navigation_Navigation_clicked();
         }
@@ -497,7 +463,6 @@ Item {
         onRepeatingTriggered: {
             root.fi_Button_Navigation_Navigation_repeatingTriggered();
         }
-        
     }
     ZetaSurgicalSet.HomeButton {
         id: fi_HomeButton
@@ -505,10 +470,7 @@ Item {
         anchors.top: parent.top
         anchors.topMargin: 952
         z: 7
-        
-        
-        
-        
+
         onClicked: {
             root.fi_HomeButton_clicked();
         }
@@ -524,7 +486,6 @@ Item {
         onRepeatingTriggered: {
             root.fi_HomeButton_repeatingTriggered();
         }
-        
     }
     Item {
         id: fi_Frame_17
@@ -534,9 +495,7 @@ Item {
         z: 8
         width: 128
         height: 16
-        
-        
-        
+
         Image {
             id: fi_Line_11
             anchors.left: parent.left
@@ -547,19 +506,12 @@ Item {
             anchors.bottomMargin: -1
             height: 0
             source: GreenHouseThemeManager.theme.asset("/164_3606.png")
-            
-            
-            
-            
-            
         }
-        
-        
     }
-    
+
     //----------------------------------------------------------------------------------------------
-    
+
     //States----------------------------------------------------------------------------------------
-    
+
     //----------------------------------------------------------------------------------------------
 }

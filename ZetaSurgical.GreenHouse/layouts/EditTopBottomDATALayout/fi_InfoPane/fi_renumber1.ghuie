@@ -1,0 +1,50 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 1642,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorTop": {
+        "anchorMargin": 344,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "628:3484"
+    },
+    "id": "fi_renumber1",
+    "properties": {
+        "input_focus": {
+            "name": "input_focus",
+            "type": "Bool",
+            "value": true
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 1642
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 344
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 3
+        }
+    },
+    "signals": {
+        "input_textChanged": {
+            "arguments": "string text",
+            "name": "input_textChanged",
+            "rawCode": "root.itemInterface.fi_renumber1__onEvent__input_textChanged(text)\n"
+        }
+    },
+    "targetFile": "fi_renumber1.ghuie",
+    "type": "ZetaSurgicalSet.GenericCTDataText_Default_State",
+    "userDefined": false,
+    "uuid": "{253b1640-185b-4441-b891-e2f37d682596}"
+}

@@ -33,5 +33,6 @@
         "preloadUI": false
     },
     "targetFile": "EditTopBottomDATA.ghs",
-    "template": "ItemState"
+    "template": "ItemState",
+    "uuid": "{34a008aa-b514-4c38-93aa-08054666493f}"
 }

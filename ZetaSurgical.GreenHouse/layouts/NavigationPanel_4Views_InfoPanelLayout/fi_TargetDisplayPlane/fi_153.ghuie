@@ -1,0 +1,90 @@
+{
+    "anchorLeft": {
+        "anchorMargin": 183,
+        "anchorTarget": "parent",
+        "anchorValue": "Left"
+    },
+    "anchorRight": {
+        "anchorMargin": 15,
+        "anchorTarget": "parent",
+        "anchorValue": "Right"
+    },
+    "anchorTop": {
+        "anchorMargin": 87,
+        "anchorTarget": "parent",
+        "anchorValue": "Top"
+    },
+    "childrenSplit": true,
+    "extraData": {
+        "FIGMA_ID": "40:4089"
+    },
+    "id": "fi_153",
+    "properties": {
+        "font": {
+            "name": "font",
+            "type": "Font",
+            "value": "Figma::Arial_BoldMT_42_75_0_0_0_0_0"
+        },
+        "height": {
+            "name": "height",
+            "type": "Int",
+            "value": 74
+        },
+        "lineHeight": {
+            "name": "lineHeight",
+            "type": "Float",
+            "value": 16
+        },
+        "lineHeightMode": {
+            "name": "lineHeightMode",
+            "type": "TextLineHeightMode",
+            "value": "FixedHeight"
+        },
+        "text": {
+            "bindingProp": "angleString",
+            "bindingSrc": "PlanningPresenter",
+            "name": "text",
+            "type": "TranslatableString",
+            "uuid": "FigmaNode::40:4089",
+            "value": "15.3°"
+        },
+        "textColor": {
+            "name": "textColor",
+            "type": "Color",
+            "value": "Text/Data/Blue 0 - Data"
+        },
+        "verticalAlignment": {
+            "name": "verticalAlignment",
+            "type": "TextVerticalAlignment",
+            "value": "AlignVCenter"
+        },
+        "width": {
+            "name": "width",
+            "type": "Int",
+            "value": 226
+        },
+        "wrapMode": {
+            "name": "wrapMode",
+            "type": "TextWrapMode",
+            "value": "WordWrap"
+        },
+        "x": {
+            "name": "x",
+            "type": "Int",
+            "value": 183
+        },
+        "y": {
+            "name": "y",
+            "type": "Int",
+            "value": 87
+        },
+        "z": {
+            "name": "z",
+            "type": "Int",
+            "value": 6
+        }
+    },
+    "targetFile": "fi_153.ghuie",
+    "type": "ComponentsSet.Label",
+    "userDefined": false
+}

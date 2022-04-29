@@ -78,32 +78,32 @@
                             "anchorValue": "Top"
                         },
                         "childrenSplit": true,
-                        "id": "fi_Rectangle",
+                        "id": "fi_BG_9seg_24_24_24_24",
                         "properties": {
                             "border-bottom": {
                                 "name": "border-bottom",
                                 "type": "Int",
-                                "value": 23
+                                "value": 19
                             },
                             "border-left": {
                                 "name": "border-left",
                                 "type": "Int",
-                                "value": 23
+                                "value": 19
                             },
                             "border-right": {
                                 "name": "border-right",
                                 "type": "Int",
-                                "value": 23
+                                "value": 19
                             },
                             "border-top": {
                                 "name": "border-top",
                                 "type": "Int",
-                                "value": 23
+                                "value": 19
                             },
                             "height": {
                                 "name": "height",
                                 "type": "Int",
-                                "value": 48
+                                "value": 40
                             },
                             "source": {
                                 "name": "source",
@@ -113,10 +113,10 @@
                             "width": {
                                 "name": "width",
                                 "type": "Int",
-                                "value": 120
+                                "value": 100
                             }
                         },
-                        "targetFile": "fi_Rectangle.ghuie",
+                        "targetFile": "fi_BG_9seg_24_24_24_24.ghuie",
                         "type": "BorderImage",
                         "userDefined": false
                     },
@@ -155,6 +155,11 @@
                                 "type": "Font",
                                 "value": "Figma::Arial_ArialMT_32_50_0_0_0_0_0.2"
                             },
+                            "height": {
+                                "name": "height",
+                                "type": "Int",
+                                "value": 40
+                            },
                             "horizontalAlignment": {
                                 "name": "horizontalAlignment",
                                 "type": "TextHorizontalAlignment",
@@ -168,7 +173,7 @@
                             "width": {
                                 "name": "width",
                                 "type": "Int",
-                                "value": 120
+                                "value": 100
                             },
                             "z": {
                                 "name": "z",
@@ -187,12 +192,12 @@
                     "height": {
                         "name": "height",
                         "type": "Int",
-                        "value": 48
+                        "value": 40
                     },
                     "width": {
                         "name": "width",
                         "type": "Int",
-                        "value": 120
+                        "value": 100
                     }
                 },
                 "targetFile": "root.ghuie",
@@ -202,7 +207,7 @@
         ],
         "childrenSplit": true,
         "fillParent": false,
-        "height": 48,
+        "height": 40,
         "hideAnimation": {
             "type": "Sequential"
         },
@@ -215,7 +220,7 @@
             "type": "Sequential"
         },
         "targetFile": "___TEMP_LAYOUT___ZetaSurgicalSet.GenericCTDataText_Default_State.ghl",
-        "width": 120
+        "width": 100
     },
     "componentName": "ZetaSurgicalSet.GenericCTDataText_Default_State",
     "properties": [

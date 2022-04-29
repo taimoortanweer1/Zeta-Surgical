@@ -1,0 +1,19 @@
+{
+    "source": "Popups",
+    "target": "EditTargetName",
+    "targetFile": "Popups_EditTargetName.ghtrg",
+    "transitions": [
+        {
+            "properties": {
+                "backTransition": false,
+                "blockedIfTargetActive": true,
+                "internal": true,
+                "sender": "PopupsPresenter",
+                "senderStringType": "%1",
+                "signal": "targetIDEditShown"
+            },
+            "template": "SignalTransition"
+        }
+    ],
+    "uuid": "{e30e3c69-8566-4aef-a26a-b552d10a7f93}"
+}
