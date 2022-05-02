@@ -10,6 +10,16 @@ TextInput {
     property bool inputFocus: false
     //HIDE property focus
 
+    signal gotActiveFocus
+    signal lostActiveFocus
+
+    onActiveFocusChanged: {
+        if (activeFocus)
+            gotActiveFocus()
+        else
+            lostActiveFocus()
+    }
+
     StateGroup {
         states: [
             State {

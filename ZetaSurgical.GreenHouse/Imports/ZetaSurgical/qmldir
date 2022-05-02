@@ -67,3 +67,4 @@ MiniKeyboardButton_FunctionRightGrey 1.0 MiniKeyboardButton_FunctionRightGrey.qm
 MiniKeyboardButton_LetterNumber 1.0 MiniKeyboardButton_LetterNumber.qml
 GenericCTDataText_Default_State 1.0 GenericCTDataText_Default_State.qml
 SouthButton_Default_State 1.0 SouthButton_Default_State.qml
+LoginInputButtonHighlighted_Default_State 1.0 LoginInputButtonHighlighted_Default_State.qml

@@ -1,5 +1,6 @@
 {
     "backendObject": false,
+    "fileOrder": 0,
     "hidden": false,
     "methods": {
         "toggleWheelsLock": {
@@ -21,6 +22,7 @@
             }
         ]
     },
+    "strictOrder": true,
     "targetFile": "CartPresenter.ghi",
     "uuid": "{8514fc05-0bfd-4430-b49e-26691062d40a}"
 }

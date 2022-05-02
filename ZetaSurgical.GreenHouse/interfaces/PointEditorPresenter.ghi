@@ -19,6 +19,7 @@
             ]
         }
     ],
+    "fileOrder": 7,
     "hidden": false,
     "methods": {
         "onAddPointClicked": {
@@ -133,6 +134,7 @@
             "name": "pointEditorPopupShown"
         }
     },
+    "strictOrder": true,
     "targetFile": "PointEditorPresenter.ghi",
     "uuid": "{04427429-fbae-4dd5-9050-367f3631321d}"
 }

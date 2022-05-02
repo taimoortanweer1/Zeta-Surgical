@@ -1,5 +1,6 @@
 {
     "backendObject": false,
+    "fileOrder": 11,
     "hidden": false,
     "methods": {
         "onSegmentationFinished": {
@@ -10,6 +11,7 @@
         }
     },
     "name": "SegmentationPresenter",
+    "strictOrder": true,
     "targetFile": "SegmentationPresenter.ghi",
     "uuid": "{7510b903-c1a3-4612-a96b-18435be8b82e}"
 }

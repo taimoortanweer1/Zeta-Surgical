@@ -1,5 +1,6 @@
 {
     "backendObject": false,
+    "fileOrder": 9,
     "hidden": false,
     "methods": {
         "onPositioningFinished": {
@@ -16,6 +17,7 @@
         }
     },
     "name": "PositioningPresenter",
+    "strictOrder": true,
     "targetFile": "PositioningPresenter.ghi",
     "uuid": "{50e99c64-47be-4d54-a509-b47397b238ea}"
 }

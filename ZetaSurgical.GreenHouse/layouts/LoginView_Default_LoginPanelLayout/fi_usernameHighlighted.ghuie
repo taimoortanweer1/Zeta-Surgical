@@ -5,11 +5,6 @@
     },
     "id": "fi_usernameHighlighted",
     "properties": {
-        "input_color": {
-            "name": "input_color",
-            "type": "Color",
-            "value": "Text/Blue 2 - Input"
-        },
         "input_inputText": {
             "bindingProp": "enteredUsername",
             "bindingSrc": "LoginPresenter",
@@ -42,6 +37,6 @@
         }
     },
     "targetFile": "fi_usernameHighlighted.ghuie",
-    "type": "ZetaSurgicalSet.LoginInputButton",
+    "type": "ZetaSurgicalSet.LoginInputButtonHighlighted_Default_State",
     "userDefined": false
 }

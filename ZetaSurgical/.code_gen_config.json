@@ -3,6 +3,7 @@
         "Add Qt 6 Support": false,
         "CMake": true,
         "Inject GreenHouse Runtime": true,
-        "Qt 5.14+": true
+        "Qt 5.14+": true,
+        "Use a dynamic state machine": false
     }
 }

@@ -1,5 +1,6 @@
 {
     "backendObject": false,
+    "fileOrder": 8,
     "hidden": false,
     "methods": {
         "inputAccepted": {
@@ -61,6 +62,7 @@
             "name": "targetUpLabelEditShown"
         }
     },
+    "strictOrder": true,
     "targetFile": "PopupsPresenter.ghi",
     "uuid": "{b5a0bfdc-ef7d-4e97-958f-7d31512bc37a}"
 }

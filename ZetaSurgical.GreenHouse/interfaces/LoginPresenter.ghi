@@ -1,5 +1,6 @@
 {
     "backendObject": false,
+    "fileOrder": 3,
     "hidden": false,
     "methods": {
         "onLoginClicked": {
@@ -79,6 +80,7 @@
             "name": "loggedOutScreenShown"
         }
     },
+    "strictOrder": true,
     "targetFile": "LoginPresenter.ghi",
     "uuid": "{d433140c-2655-4f93-83f4-2a423a3c525d}"
 }

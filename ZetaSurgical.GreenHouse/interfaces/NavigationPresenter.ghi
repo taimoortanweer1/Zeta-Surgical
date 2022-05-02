@@ -1,5 +1,6 @@
 {
     "backendObject": false,
+    "fileOrder": 4,
     "hidden": false,
     "methods": {
         "onNavigationFinished": {
@@ -10,6 +11,7 @@
         }
     },
     "name": "NavigationPresenter",
+    "strictOrder": true,
     "targetFile": "NavigationPresenter.ghi",
     "uuid": "{38727a91-d186-4e13-9581-c7a94bf606d5}"
 }

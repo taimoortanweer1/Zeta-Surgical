@@ -35,7 +35,7 @@
         "color": {
             "name": "color",
             "type": "Color",
-            "value": "PanelBackground/Transparent"
+            "value": "PanelBackground/Default"
         },
         "height": {
             "name": "height",
@@ -51,11 +51,6 @@
             "name": "x",
             "type": "Int",
             "value": 1464
-        },
-        "z": {
-            "name": "z",
-            "type": "Int",
-            "value": 1
         }
     },
     "targetFile": "fi_InfoBG.ghuie",

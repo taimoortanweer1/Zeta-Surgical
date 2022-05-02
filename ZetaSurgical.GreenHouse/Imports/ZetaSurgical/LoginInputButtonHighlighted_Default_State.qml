@@ -3,35 +3,38 @@ import QtQuick 2.6
 import GreenHouse.Theming 1.0
 import Components 1.0 as ComponentsSet
 
-//USES ComponentsSet.RegularTextInput
 //USES BorderImage
+//USES ComponentsSet.RegularTextInput
 //USES ComponentsSet.Label
+//USES ComponentsSet.AutoRepeatMouseArea
+//PREVIEW IMAGE qrc:/GeneratedComponents/assets/TextInput.png
 
 //EDITABLE TRUE
 FocusScope {
     id: root
 
     //Exposed properties----------------------------------------------------------------------------
-    property int itemIndex: 0
-    property int selectionIndex: -1
+    property bool doubleClickEnabeld: false
+    property int minimumRepeatInterval: 100
+    property int repeateInterval: 1000
     //FONT Figma::Arial_ArialMT_22_50_0_0_0_0_0.2
-    property alias fi_ID_font: fi_ID___default.font
+    property alias fi_ID_font: fi_ID.font
     //TEXTHAL 4
-    property alias fi_ID_horizontalAlignment: fi_ID___default.horizontalAlignment
+    property alias fi_ID_horizontalAlignment: fi_ID.horizontalAlignment
+    //COLOR Text/Blue 2 - Input
+    property alias fi_ID_labelColor: fi_ID.textColor
     //REAL 20
-    property alias fi_ID_lineHeight: fi_ID___default.lineHeight
+    property alias fi_ID_lineHeight: fi_ID.lineHeight
     //TEXTLINEHM 1
-    property alias fi_ID_lineHeightMode: fi_ID___default.lineHeightMode
+    property alias fi_ID_lineHeightMode: fi_ID.lineHeightMode
     //REAL 1
-    property alias fi_ID_opacity: fi_ID___default.opacity
+    property alias fi_ID_opacity: fi_ID.opacity
     //BOOL false
-    property alias fi_ID_richText: fi_ID___default.richText
+    property alias fi_ID_richText: fi_ID.richText
     //TRANSLATABLE ID
-    property alias fi_ID_text: fi_ID___default.text
-    //COLOR Text/User Input Label
-    property alias fi_ID_textColor: fi_ID___default.textColor
+    property alias fi_ID_text: fi_ID.text
     //TEXTVAL 128
-    property alias fi_ID_verticalAlignment: fi_ID___default.verticalAlignment
+    property alias fi_ID_verticalAlignment: fi_ID.verticalAlignment
     //BOOL false
     property alias input_autoClear: input.autoClear
     //COLOR Text/Blue 2 - Input
@@ -56,6 +59,11 @@ FocusScope {
     //----------------------------------------------------------------------------------------------
 
     //Exposed signals-------------------------------------------------------------------------------
+    signal clicked() /*__mouseArea.clicked*/
+    signal doubleClicked() /*__mouseArea.doubleClicked*/
+    signal pressed() /*__mouseArea.pressed*/
+    signal released() /*__mouseArea.released*/
+    signal repeatingTriggered() /*__mouseArea.repeatingTriggered*/
     signal input_accepted() /*input.accepted*/
     signal input_gotActiveFocus() /*input.gotActiveFocus*/
     signal input_lostActiveFocus() /*input.lostActiveFocus*/
@@ -64,20 +72,33 @@ FocusScope {
     //----------------------------------------------------------------------------------------------
 
     //Local bindings--------------------------------------------------------------------------------
-    width: 328
-    height: 48
+    width: 528
+    height: 80
 
     //----------------------------------------------------------------------------------------------
 
     //Children--------------------------------------------------------------------------------------
+    BorderImage {
+        id: fi_Rectangle
+        anchors.left: parent.left
+        anchors.right: parent.right
+        anchors.top: parent.top
+        anchors.bottom: parent.bottom
+        source: GreenHouseThemeManager.theme.asset("/11_1323.png")
+        border.bottom: 39
+        border.left: 39
+        border.right: 39
+        border.top: 39
+    }
     ComponentsSet.RegularTextInput {
         id: input
         anchors.left: parent.left
-        anchors.leftMargin: 72
+        anchors.leftMargin: 80
+        anchors.right: parent.right
         anchors.top: parent.top
         anchors.bottom: parent.bottom
         z: 998
-        font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_32_50_0_0_0_0_0.2")
+        font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_28_50_0_0_0_0_0.2")
         color: GreenHouseThemeManager.theme.color("Text/Blue 2 - Input")
         verticalAlignment: Text.AlignVCenter
         clip: true
@@ -95,62 +116,54 @@ FocusScope {
             root.input_textChanged(text);
         }
     }
-    BorderImage {
-        id: fi_Rectangle___default
-        anchors.left: parent.left
-        anchors.right: parent.right
-        anchors.top: parent.top
-        anchors.bottom: parent.bottom
-        source: GreenHouseThemeManager.theme.asset("/536_2724.png")
-        border.bottom: 23
-        border.left: 23
-        border.right: 23
-        border.top: 23
-    }
     ComponentsSet.Label {
-        id: fi_ID___default
+        id: fi_ID
         anchors.left: parent.left
         anchors.leftMargin: -1
         anchors.verticalCenter: parent.verticalCenter
         z: 2
-        width: 66
-        height: 50
-        text: qsTr("ID", "FigmaNode::536:2754") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::536:2754") : "")
+        width: 82
+        height: 82
+        text: qsTr("ID", "FigmaNode::11:1325") + (typeof GreenHouseTestFixture !== 'undefined' && GreenHouseTestFixture !== null ? GreenHouseTestFixture.textId("FigmaNode::11:1325") : "")
         font: GreenHouseThemeManager.theme.font("Figma::Arial_ArialMT_22_50_0_0_0_0_0.2")
-        textColor: GreenHouseThemeManager.theme.color("Text/User Input Label")
+        textColor: GreenHouseThemeManager.theme.color("Text/Blue 2 - Input")
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
         wrapMode: Text.WordWrap
         lineHeight: 20
         lineHeightMode: Text.FixedHeight
     }
+    ComponentsSet.AutoRepeatMouseArea {
+        id: __mouseArea
+        anchors.left: parent.left
+        anchors.right: parent.right
+        anchors.top: parent.top
+        anchors.bottom: parent.bottom
+        z: -1
+        doubleClickEnabeld: root.doubleClickEnabeld
+        minimumRepeatInterval: root.minimumRepeatInterval
+        repeateInterval: root.repeateInterval
+
+        onClicked: {
+            root.clicked();
+        }
+        onDoubleClicked: {
+            root.doubleClicked();
+        }
+        onPressed: {
+            root.pressed();
+        }
+        onReleased: {
+            root.released();
+        }
+        onRepeatingTriggered: {
+            root.repeatingTriggered();
+        }
+    }
 
     //----------------------------------------------------------------------------------------------
 
     //States----------------------------------------------------------------------------------------
-    StateGroup { //
-        states: [
-        State {
-            when: !(root.selectionIndex == root.itemIndex)
-            name: "default"
-            PropertyChanges {
-                target: fi_Rectangle___default
-                source: GreenHouseThemeManager.theme.asset("/536_2724.png")
-            }
-        },
-        State {
-            when: (root.selectionIndex == root.itemIndex)
-            name: "selected"
-            PropertyChanges {
-                target: fi_Rectangle___default
-                source: GreenHouseThemeManager.theme.asset("/536_2763.png")
-            }
-        }
-        ]
-        transitions: [
-
-        ]
-    }
 
     //----------------------------------------------------------------------------------------------
 }

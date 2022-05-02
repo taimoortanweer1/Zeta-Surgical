@@ -1,5 +1,6 @@
 {
     "backendObject": false,
+    "fileOrder": 10,
     "hidden": false,
     "name": "ScanData",
     "properties": {
@@ -94,6 +95,7 @@
             }
         ]
     },
+    "strictOrder": true,
     "targetFile": "ScanData.ghi",
     "uuid": "{f34e5a24-5582-42d8-9dde-ca8f270c2d8b}"
 }

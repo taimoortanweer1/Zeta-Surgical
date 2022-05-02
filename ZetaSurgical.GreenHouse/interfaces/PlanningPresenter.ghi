@@ -15,6 +15,7 @@
             ]
         }
     ],
+    "fileOrder": 6,
     "hidden": false,
     "methods": {
         "deleteInstrumentAtIndex": {
@@ -254,6 +255,7 @@
             }
         ]
     },
+    "strictOrder": true,
     "targetFile": "PlanningPresenter.ghi",
     "uuid": "{532a1819-a044-44d1-8d7e-729879ee20a5}"
 }

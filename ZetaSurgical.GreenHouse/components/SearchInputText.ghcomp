@@ -667,6 +667,16 @@
                 "aliasSource": "input"
             },
             {
+                "aliasElement": "gotActiveFocus",
+                "aliasName": "input_gotActiveFocus",
+                "aliasSource": "input"
+            },
+            {
+                "aliasElement": "lostActiveFocus",
+                "aliasName": "input_lostActiveFocus",
+                "aliasSource": "input"
+            },
+            {
                 "aliasElement": "textChanged",
                 "aliasName": "input_textChanged",
                 "aliasSource": "input"

@@ -36,6 +36,8 @@ FocusScope {
 
     //Exposed signals-------------------------------------------------------------------------------
     signal input_accepted() /*input.accepted*/
+    signal input_gotActiveFocus() /*input.gotActiveFocus*/
+    signal input_lostActiveFocus() /*input.lostActiveFocus*/
     signal input_textChanged(string text) /*input.textChanged*/
 
     //----------------------------------------------------------------------------------------------
@@ -74,6 +76,12 @@ FocusScope {
 
         onAccepted: {
             root.input_accepted();
+        }
+        onGotActiveFocus: {
+            root.input_gotActiveFocus();
+        }
+        onLostActiveFocus: {
+            root.input_lostActiveFocus();
         }
         onTextChanged: {
             root.input_textChanged(text);

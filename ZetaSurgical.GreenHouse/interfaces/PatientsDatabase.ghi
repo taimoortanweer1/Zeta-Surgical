@@ -106,6 +106,7 @@
             ]
         }
     ],
+    "fileOrder": 5,
     "hidden": false,
     "methods": {
         "onCompleteUploadStage": {
@@ -728,6 +729,7 @@
             "name": "scanMetadataPopupShown"
         }
     },
+    "strictOrder": true,
     "targetFile": "PatientsDatabase.ghi",
     "uuid": "{10903347-a86c-4012-9577-1cdfde5e72f0}"
 }

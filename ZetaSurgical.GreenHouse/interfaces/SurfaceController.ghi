@@ -1,5 +1,6 @@
 {
     "backendObject": true,
+    "fileOrder": 12,
     "hidden": true,
     "name": "SurfaceController",
     "signals": {
@@ -217,5 +218,6 @@
             "name": "surfaceVerifyRegistrationPanelMoveToRegistration_Verification_2_VerifyRegistrationPanel"
         }
     },
+    "strictOrder": true,
     "targetFile": "SurfaceController.ghi"
 }

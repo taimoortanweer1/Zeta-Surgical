@@ -1,5 +1,5 @@
-15:23:42  :: Arial font extraction process finished with exit code: 9
-15:23:42  ::   End-of-central-directory signature not found.  Either this file is not
+17:47:52  :: Arial font extraction process finished with exit code: 9
+17:47:52  ::   End-of-central-directory signature not found.  Either this file is not
   a zipfile, or it constitutes one disk of a multi-part archive.  In the
   latter case the central directory and zipfile comment will be found on
   the last disk(s) of this archive.

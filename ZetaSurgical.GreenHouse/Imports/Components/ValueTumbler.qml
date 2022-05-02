@@ -17,6 +17,7 @@ Item {
 
     property int visibleItemCount: 3
     property bool wrap: true
+    property bool horizontal: false
 
     signal indexSelected(int index)
 
@@ -26,6 +27,14 @@ Item {
     Tumbler {
         id: tumbler
 
+        width: root.horizontal ? parent.height : parent.width
+        height: root.horizontal ? parent.width : parent.height
+        anchors.centerIn: parent
+        rotation: root.horizontal ? -90 : 0
+
+        wrap: root.wrap
+        visibleItemCount: root.visibleItemCount
+
         onCurrentIndexChanged: {
             if (!moving)
                 tumbler.positionViewAtIndex(currentIndex, Tumbler.Center)
@@ -34,9 +43,6 @@ Item {
             if (!moving)
                 root.indexSelected(currentIndex)
         }
-        anchors.fill: parent
 
-        wrap: root.wrap
-        visibleItemCount: root.visibleItemCount
     }
 }
